@@ -3,14 +3,14 @@ name = "Avars"
 original_name = "Huns"
 status = "draft"
 label = "Cavalry civilization"
-summary = "Huns redesigned as the Avar Khaganate (567–796), the people Frankish sources still called “Huns”: houseless camps, cheap horse archers, the Tarkan, Marauders and the owner's trebuchet-accuracy bonus, now on the traction trebuchet the Avars brought to Thessalonica and Constantinople, are kept; Byzantine tribute becomes the Town Center tech and the Slav levies a passive; the team bonus rests on the Avar cavalry kit the Romans adopted; Atheism, the Nomadic-map horse, the Dromon and the Galleon leave."
+summary = "Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus moves to the traction trebuchet, Byzantine tribute becomes the Town Center tech, Slav levies a passive, and Atheism and the Dromon leave."
 ideas = [
   "N3: A “Steppe” architecture set shared with the Mongols, Tatars and Cumans (RULES 6.15); Eastern European is only a stopgap.",
   "N2: An Avar lancer-archer unique unit that switches between bow and lance, as the Strategikon (XI.2) describes Avar horsemen (lance on the shoulder, bow in the hand); mechanic as the Bengali Ratha.",
   "N3: The Ring (hring): the khagan's fortified residence and treasury, captured by the Franks in 795–796, as a unique fortification that stores gold (Royal Frankish Annals; Einhard, Life of Charlemagne 13).",
   "N2: Slavic dugout boats (monoxyla) as a river fleet replacing the Galley-line, as at Constantinople in 626.",
   "N2: Ransom of captives as gold from enemy Villagers taken by mounted units: Avar raids carried off Roman captives by the thousand, and the khagans offered them back for ransom.",
-  "N3: A late-antiquity chronological ceiling for the Avars, as the Goths' design proposes: the Petard (a 16th-century gunpowder charge), the Halberdier and the Hussar have no equivalent in a 6th–8th-century army, and RULES 6.10 asks to replace or remove such items rather than rename them; no Avar names are documented that would allow an N1 rename instead.",
+  "N3: A late-antiquity chronological ceiling for the Avars, as the Goths' design proposes: the Petard (a 16th-century gunpowder charge), the Halberdier and the Hussar have no equivalent in a 6th–8th-century army, and RULES 6.10 asks to replace or remove such items rather than rename them; no Avar names are documented that would allow an N1 rename instead. In N1 the Petard stays as a generic abstraction (codex-wide question CQ2).",
 ]
 contested = [
   "Avar origins: Theophylact (VII.7–8) calls the European Avars “Pseudo-Avars” who usurped a prestigious name; their link with the Rouran khaganate is debated, but ancient DNA shows that the early Avar elite arrived recently from north-east Asia (G. A. Gnecchi-Ruscone et al., Cell, 2022).",
@@ -25,9 +25,9 @@ contested = [
 open_questions = [
   "Trebuchet bonus (your decision, RULES section 4): this draft applies your version, “Traction Trebuchets fire more accurately at units and small targets”, moved from the counterweight Trebuchet, which the Avars could not have had, to the traction engine they used. The eyewitness of the Thessalonica siege, Archbishop John, is read as contrasting the inaccurate Avar engines with Roman torsion artillery (McCotter 2003), and the sources stress the number of the engines, which “Traction Trebuchets cost -25%” (the Wei bonus) would express better. Keep the accuracy effect as a game convention, or switch to the cost effect?",
   "Castle slot and RULES 6.2: the khaganate's one clearly datable military moment is an adopted technique, the siege engines first used at Appiaria (587), which RULES 6.2 would put in a Castle tech, while raiding, a long tradition, would be a passive. This draft keeps your trebuchet bonus as a passive and Marauders as the Castle tech, a structural trait in a tech slot. Alternative: a Castle Age Castle tech “Petroboloi” carrying the trebuchet effect (the accuracy effect as a new level-2 tech, or Wu's unused Sitting Tiger, ‘Traction Trebuchets fire additional projectiles’, at level 1, which the Chinese design also considers taking), with Marauders' effect becoming a passive, “Tarkans can be trained at Stables” (cf. the Italians' Condottiero team bonus). Swap?",
-  "Tribute tech: the Bulgarians' design gives its Town Center the same new tech (the gold half of Grand Trunk Road, Castle Age) as “Peace of 927”, for payments from the same Empire, although the Avars received far larger sums (80,000–200,000 solidi a year). Keep one level-2 tech under two names, or give one of the two civs another existing effect? And keep the name “Byzantine Tribute”, which matches the project's Byzantines, or use “Roman Tribute”, the payers' own name?",
-  "Architecture until the N3 Steppe set: Eastern European for the Avars (the Slavic-style villages in which much of the khaganate lived), while the Cumans and Tatars keep Central Asian and the Mongols East Asian. Alternative: Central Asian for all three western steppe civs. Which?",
-  "Regional navy rule (same question in the Avars, Cumans and Tatars files): peoples without a seagoing war fleet keep the Galley-line to War Galley, the Fire Ship, the Hulk-line (the game's generic melee warship) and demolition ships, and lose the Galleon tier and every siege warship. The Khitans' design applies the same rule; the Maya, Inca and Mapuche designs drop the Galleon, the Carrack and the Catapult Galleon but keep the Fast Fire Ship, and the Malians drop only the Cannon Galleon. On water maps coastal buildings then fall only to galleys, demolition ships and landed siege. Keep the rule, and make it one rule for all such civs?",
+  "Tribute tech: the Bulgarians' design gives its Town Center the same new tech (the gold half of Grand Trunk Road, Castle Age) as “Peace of 927”, for payments from the same Empire, although the Avars received far larger sums (80,000–200,000 solidi a year). Keep one level-2 tech under three names (with the Danes' Øresundstold, for the Sound toll), or give one of the two civs another existing effect? And keep the name “Byzantine Tribute”, which matches the project's Byzantines, or use “Roman Tribute”, the payers' own name?",
+  "Codex-wide question CQ5 (see codex/civs/README.md): Architecture.",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule.",
 ]
 
 [profile]
@@ -128,7 +128,7 @@ age = "Castle"
 effect = "All gold income +10% faster"
 level = 2
 change = "new"
-precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis), first effect only: a new tech (level 2), since the market-fee half has no Avar basis. The Bulgarians' design uses the same new tech as Peace of 927 (see open questions)."
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis), first effect only: a new tech (level 2), since the market-fee half has no Avar basis. The Bulgarians' design uses the same new tech as Peace of 927 and the Danes' as Øresundstold, and the Byzantines' design has the effect as a passive (see open questions)."
 basis = "Byzantine gold was the khaganate's main revenue. After defeating the future Tiberius II the Avars obtained 80,000 solidi a year (574, attested by 578; Menander); Sirmium surrendered in 582 after a three-year blockade, and the treaty restored the 80,000-solidi tribute with its arrears (Menander); it rose to 100,000 in 584/585, to 120,000 around 598–600 and to 200,000 by 623/624 (Howard-Johnston 2021). The gold shows in the Byzantine solidi of Early Avar graves, and when payments stopped after 626 the khaganate entered a crisis (Pohl 2018); a numismatic study finds them resumed on a smaller scale in the 680s (Zapolska 2017). Tribute was a structural economic base, formalised by the treaty of 574 and renewed by later treaties, so it is promoted to the Town Center tech under RULES 6.3."
 relevance = "Tribute paid for the khagan's power and his followers' loyalty; its end after 626 marks the turning point of Avar history."
 contested = "Tribute figures and dates vary between sources (see the civ-level contested list); ransoms and plunder added to it."
@@ -143,7 +143,7 @@ remove = ["Trebuchet", "Dromon", "Galleon", "Galleon, Fast Fire Ship and Carrack
 "Elite Steppe Lancer" = "Upgrade of the Steppe Lancer: the warriors of the host wore mail (Strategikon XI.2); the leaders on armoured horses belong to the Tarkan."
 "Trebuchet" = "The counterweight trebuchet appears only in the late 12th century, four centuries after the khaganate; replaced by the Traction Trebuchet."
 "Dromon" = "A Byzantine warship. The Avars had no seagoing war fleet: river boats, Slavic dugouts and Lombard-built ships (Paul the Deacon IV.20: King Agilulf sent shipwrights to the khagan, who then took an island in Thrace) justify only a basic navy, and the Slav boats were destroyed by the Byzantine fleet in the Golden Horn in 626 (Chronicon Paschale)."
-"Galleon" = "No seagoing war fleet (see Dromon; Paul the Deacon IV.20). The Avars keep a basic river and coastal navy: Galley-line to War Galley, Fire Ship, the Hulk-line as the game's generic melee warship, and demolition ships."
+"Galleon" = "No seagoing war fleet (see Dromon; Paul the Deacon IV.20), so the basic navy only, under the codex navy rule (codex-wide question CQ1): the Galley-line to War Galley, the Fire Galley and Fire Ship, the Hulk-line as the game's generic melee warship, the demolition ships and the Dock techs, with no Galleon, Carrack, Fast Fire Ship or siege warship."
 "Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon is removed (the Huns already lacked the Fast Fire Ship and the Carrack)."
 
 [architecture]
@@ -151,7 +151,7 @@ set = "Eastern European"
 level = 1
 change = "changed"
 replaces = "Central European"
-basis = "A stopgap until an N3 Steppe set exists (RULES 6.15): much of the khaganate's population lived in villages of sunken huts much like those of their Slavic neighbours, and no Avar stone towns are known (Pohl 2018). The Central European set had no Avar or Hunnic basis."
+basis = "A stopgap until an N3 Steppe set exists (RULES 6.15; the steppe stopgaps are codex-wide question CQ5): much of the khaganate's population lived in villages of sunken huts much like those of their Slavic neighbours, and no Avar stone towns are known (Pohl 2018). The Central European set had no Avar or Hunnic basis."
 
 [[dropped]]
 item = "On Nomadic maps, the first Town Center spawns a scouting Horse"
