@@ -2,51 +2,55 @@ civ = "Hindustanis"
 name = "Hindustanis"
 status = "draft"
 label = "Cavalry Archer and Elephant civilization"
-summary = "Hindustanis refocused on the Delhi Sultanate and its Ghaznavid and Ghurid forerunners (c. 1000–1526): the Ghulam becomes the Turkish slave horse archer it was, the war-horse and the royal elephant replace the camel and Mughal-era gunpowder bonuses (Knight, Cavalier, Battle Elephant, Parthian Tactics, a cavalry HP bonus and the Pil-khana tech), Grand Trunk Road gets a Sultanate name (Tanka), the Chakram Thrower moves here from the Gurjaras, the great Sultanate building works enter the tree, and the Imperial Camel Rider and Shatagni go."
+summary = "Hindustanis refocused on the Delhi Sultanate and its Ghaznavid and Ghurid forerunners (1001–1526): the Ghulam becomes the Turkish slave horse archer it was (Kipchak model), the war-horse and the royal elephant replace the camel and Mughal-era gunpowder bonuses (cheaper Cavalry Archers, a cavalry HP bonus, Knight, Battle Elephant, Parthian Tactics and the Pil-khana Castle tech), Grand Trunk Road becomes Tanka at the Town Center, the Sufi orders that spread from Delhi become the team bonus, the great Sultanate building works enter the tree, and the Imperial Camel Rider, Shatagni and all gunpowder leave."
 ideas = [
-  "N2: Ghulam as a dedicated heavy horse archer with high armour and a melee secondary attack (lance or mace), as the analysis proposes; N1 can only borrow the light Kipchak.",
-  "N2: Market Regulations: Market prices move less after each trade, for Alauddin Khalji’s fixed prices, state granaries and market inspectors in Delhi (Barani, Tarikh-i Firuz Shahi).",
-  "N2: Manjaniq: a siege tech for the mangonels (manjaniq, maghribi) and the raised siege ramps that Amir Khusrau and Barani describe at Ranthambore (1301), Chittor (1303) and Warangal (1310); in N1 it could only be a renamed copy of the Saracens’ Counterweights.",
-  "N3: An Indo-Islamic architecture set (true arches, domes and battered bastioned walls of the Alai Darwaza and Tughlaqabad), distinct from the South Asian set’s temple forms.",
-  "N3: A Mughal civ, or a post-1526 epilogue, to take the gunpowder, the Grand Trunk Road, Sher Shah Suri’s sarais and the camel swivel-gun (zamburak) that leaked into the Hindustanis.",
+  "N2: Ghulam as a dedicated armoured horse archer with a melee secondary attack (lance or mace), as the analysis proposes; N1 can only borrow the light Kipchak. The Saracens' draft proposes the same model for its Mamluk, since ghulam and mamluk name one institution.",
+  "N2: Dagh: a Castle tech for Alauddin Khalji's branding of horses (dagh) and descriptive roll of each trooper (huliya), c. 1300–1310, which stopped men passing muster with a substitute or a worn-out horse (Barani), for example ‘Stable Units cost -15% gold’. Left out to keep the power budget; the paired term ‘dagh-o-chehra’ belongs to Akbar's reform of the 1570s.",
+  "N2: Iqta: the revenue assignments that paid the Sultanate's cavalry from Iltutmish onwards (Jackson 1999; Kumar 2007), as a further state tech with a cavalry cost effect. The Saracens' draft already uses the name Iqta' for its Town Center tech.",
+  "N2: Market Regulations: Market prices move less after each trade, for Alauddin Khalji's fixed prices, state granaries and market inspectors in Delhi (Barani, Tarikh-i Firuz Shahi).",
+  "N2: Manjaniq: a siege tech for the mangonels (manjaniq, maghribi) and the raised siege ramps that Amir Khusrau and Barani describe at Ranthambore (1301), Chittor (1303) and Warangal (1310); in N1 it could only be a renamed copy of the Saracens' Counterweights.",
+  "N3: An Indo-Islamic architecture set (true arches, domes and battered bastioned walls of the Alai Darwaza and Tughlaqabad), distinct from the South Asian set's temple forms.",
+  "N3: A Mughal civ (from 1526) to take the gunpowder, the Grand Trunk Road, Sher Shah Suri's sarais and the camel swivel-gun (zamburak) that had leaked into the Hindustanis; the regional sultanates (Gujarat, Malwa, Jaunpur, the Bahmanis) could join an Indo-Islamic civ (see the Gurjaras' ideas).",
 ]
 contested = [
   "Whether the Delhi Sultanate was a ‘foreign’ conquest state or an Indian state: a debate between nationalist, communalist and secular historiographies (Jackson 1999; Kumar 2007; Eaton 2019).",
-  "The ‘Slave dynasty’ label: historians prefer Mamluk, Shamsi or Ilbari; the legal status of the bandagan and whether Aibak or Iltutmish founded the Sultanate are debated (Kumar 2007).",
-  "The identification of the Ilbari tribe of Iltutmish and Balban with a Qipchaq clan.",
-  "When gunpowder reached north India: knowledge from contact with the Mongols in the 13th century (Iqtidar Alam Khan 2004) against effective military use only with Babur (Panipat, 1526).",
-  "Mahmud of Ghazni’s motives (iconoclasm, plunder or political legitimacy) and the traditional count of about seventeen campaigns (Thapar 2004).",
-  "Digby’s thesis that control of the supply of war-horses and elephants explains the Sultanate’s military superiority: influential, but schematic.",
-  "The historicity of Timur’s burning camels against the Delhi elephants (1398), reported by the Timurid chronicles.",
+  "The ‘Slave dynasty’ label: historians speak of the Qutbi, Shamsi and Balbani sultans or of the ‘Mamluk’ sultans; the legal status of the bandagan and whether Aibak or Iltutmish founded the Sultanate are debated (Kumar 2007).",
+  "When gunpowder reached north India: knowledge of gunpowder (pyrotechnics, perhaps rockets) from contact with the Mongols in the 13th century (Iqtidar Alam Khan 2004) against effective military use only with Babur (Panipat, 1526). No Sultanate field guns or hand-guns are documented, so the tree follows the second reading.",
+  "Mahmud of Ghazni's motives (iconoclasm, plunder or political legitimacy) and the traditional count of about seventeen campaigns (Thapar 2004).",
+  "Digby's thesis that control of the supply of war-horses and elephants explains the Sultanate's military superiority: influential, but schematic.",
+  "How many sarais the Sultanate itself built before Sher Shah Suri is not clear from the sources; later chronicles may project his network backwards.",
+  "The historicity of Timur's burning camels against the Delhi elephants (1398), reported by the Timurid chronicles (Nizam al-Din Shami, 1404).",
 ]
 open_questions = [
-  "Rename the civ ‘Delhi Sultanate’ (the analysis’ preferred option; ‘Indo-Turks’ is an alternative), or keep ‘Hindustanis’, the Persian name the Sultanate’s own elite used for the north Indian plain? This draft keeps the displayed name and narrows the scope to c. 1000–1526, leaving the Guptas and Harsha to the general Indian background.",
-  "Gunpowder: Hand Cannoneer and Bombard Cannon stay as plain Imperial Age units (the armour bonus and Shatagni are gone), as the analysis suggests; but Ibrahim Lodi fielded no guns at Panipat (1526). Remove them and leave land gunpowder to the Bengalis and the Gurjaras’ Gujarat?",
-  "The Ghulam uses the Cuman Kipchak (a light horse archer), justified by the Qipchaq origin of the Ilbari Turks; the Kipchak model is now shared by the Cumans, Georgians and Hindustanis. Prefer a heavy cavalry model (Keshik, Savar) instead?",
-  "The Chakram Thrower moves here from the Gurjaras (Barbosa places the weapon in the ‘kingdom of Delli’ c. 1516), giving the Hindustanis two unique units. Accept, or drop it from the game?",
-  "Power budget: Knight, Cavalier, Battle Elephant, Parthian Tactics, a second unique unit and two cavalry bonuses are a net gain over the current civ. Trim it (for example no Cavalier, or Battle Elephants only through Pil-khana)?",
-  "Name of the gold tech: Tanka (the Sultanate’s silver coin) or ‘Sultans’, the name the tech had from 2013 to 2022?",
-  "Caravanserai is kept for the relay posts and inns of the Sultanate roads, although the systematic chain of sarais is Sher Shah Suri’s (1540s), just after the window. Keep?",
+  "Name: keep ‘Hindustanis’ or rename the civ ‘Delhi Sultanate’ (the analysis' preferred option) or ‘Indo-Turks’? Hindustan was the Sultanate elite's name for the north Indian plain, but in Sultanate Persian ‘Hindustani’ often meant Indian-born Muslims as distinct from the Turkish slave elite (the Indian-born eunuch Imad al-Din Rayhan displaced the Turkish nobles around Balban in 1253), while Amir Khusrau proudly called himself a ‘Turk-i Hindustani’. ‘Delhi Sultanate’ names the state but leaves out the Ghaznavid and Ghurid prelude. This draft keeps the displayed name, with the scope 1001–1526 and the Guptas and Harsha left to the general Indian background.",
+  "Gunpowder (design only): the Hand Cannoneer, Bombard Cannon and both Cannon Galleons are removed on historical grounds (the Lodis fielded no guns at Panipat, and the guns of 1526 are Babur's). Overrule this for gameplay, for example by keeping the Hand Cannoneer as an Imperial Age late element?",
+  "Ghulam model: the Kipchak, a light horse archer, is now the unique unit of four civs (the Cumans' and Georgians' Kipchak, the Saracens' Mamluk and this Ghulam), the parallel with the Saracens' Mamluk being deliberate (one institution, one slave market). Accept the share, or use a heavy cavalry model such as the Persian Savar, which shows the armour but loses the bow, until the N2 remodel?",
+  "Power budget: Knight (without Cavalier, trimmed after review: the Gurjaras now take the full Knight-line for the Rajput shock cavalry), Battle Elephant with Pil-khana, Parthian Tactics and two cavalry passives (cheaper Cavalry Archers, Mounted Units +15% HP) against the loss of all gunpowder and its armour bonus, the Imperial Camel Rider, Shatagni and the infantry Ghulam. Acceptable, or trim further (for example the HP bonus only from the Imperial Age)?",
+  "Name of the gold tech: Tanka (the Sultanate's silver coin) or ‘Sultans’, the name the tech had from 2013 to 2022?",
+  "Plunder warfare (Mahmud's raids; the Khalji raids on Devagiri, Warangal and Ma'bar) leaves the team slot, which RULES 6.2 reserves for benefits to others. It could come back as a passive, for example the Danes' ‘Loot 25% of the resource cost of each destroyed building’; left out here for the power budget. Add it?",
+  "Team bonus: ‘Monasteries work +20% faster’ for the Sufi orders would be the team bonus of five civs (Bulgarians, Danes, Khitans, Saxons, Hindustanis). Accept the repetition (RULES 6.7), or prefer another existing effect, or a team bonus for the institutions the successor sultanates took over from Delhi (the tanka coinage, the iqta, the Persian chancery)?",
+  "Mule Cart (brief section 6): not given. The pack-oxen caravans of the karwanis, who carried grain to Alauddin's Delhi under his market rules (Barani) and are usually identified with the later Banjaras, could justify it, alongside the Lumber and Mining Camps rather than replacing them. Give it?",
 ]
 
 [profile]
-entity = "The Delhi Sultanate (Mamluk or Shamsi, Khalji, Tughluq, Sayyid and Lodi dynasties) and its Ghaznavid and Ghurid forerunners in the Punjab"
-region = "Northern India (Hindustan): the Punjab, Delhi and the Ganges–Yamuna Doab"
-window = "c. 1000–1526 (the Sultanate 1206–1526)"
+entity = "The Delhi Sultanate (the so-called Mamluk sultans of the Qutbi, Shamsi and Balbani lines, then the Khaljis, Tughluqs, Sayyids and Lodis) and its Ghaznavid and Ghurid forerunners in the Punjab"
+region = "Northern India (Hindustan): the Punjab, Delhi and the Ganges–Yamuna Doab, with campaigns and provinces from Sind to Bengal and the Deccan"
+window = "1001–1526 (from Mahmud of Ghazni's victory over Jayapala near Peshawar to Panipat; the Sultanate 1206–1526)"
 sources = [
   "Minhaj al-Siraj Juzjani, Tabaqat-i Nasiri (c. 1260)",
+  "Fakhr-i Mudabbir, Adab al-harb wa'l-shaja'a (dedicated to Iltutmish, 1211–36)",
   "Ziya al-Din Barani, Tarikh-i Firuz Shahi (1357)",
-  "Amir Khusrau, Khaza’in al-Futuh (c. 1311)",
+  "Amir Khusrau, Khaza'in al-Futuh (c. 1311)",
   "Ibn Battuta, Rihla (in India 1333–42)",
-  "Babur, Baburnama (tr. W. M. Thackston, 1996)",
-  "Duarte Barbosa, Livro (c. 1516; tr. M. L. Dames, 1918–21)",
+  "Babur, Baburnama (tr. A. S. Beveridge, 1922; tr. W. M. Thackston, 1996)",
   "C. E. Bosworth, The Ghaznavids (1963)",
+  "H. Nelson Wright, The Coinage and Metrology of the Sultans of Dehli (1936)",
   "Simon Digby, War-Horse and Elephant in the Dehli Sultanate (1971)",
-  "Dirk H. A. Kolff, Naukar, Rajput and Sepoy (1990)",
   "Peter Jackson, The Delhi Sultanate: A Political and Military History (1999)",
+  "Carl W. Ernst and Bruce B. Lawrence, Sufi Martyrs of Love: The Chishti Order in South Asia and Beyond (2002)",
   "Iqtidar Alam Khan, Gunpowder and Firearms: Warfare in Medieval India (2004)",
   "Sunil Kumar, The Emergence of the Delhi Sultanate, 1192–1286 (2007)",
-  "Richard M. Eaton, India in the Persianate Age, 1000–1765 (2019)",
+  "Richard M. Eaton, The Rise of Islam and the Bengal Frontier, 1204–1760 (1993); India in the Persianate Age, 1000–1765 (2019)",
 ]
 replaces = "Hindustanis as written in 2022: from the Guptas and Harsha (4th–7th centuries) to Babur and Sher Shah Suri (16th century), with the camel-and-gunpowder skeleton of the 2013 ‘Indians’"
 
@@ -57,6 +61,7 @@ level = 1
 change = "kept"
 precedent = "Villagers cost -8/13/18/23% in Dark/Feudal/Castle/Imperial Age (Hindustanis)"
 basis = "The Indo-Gangetic plain was among the most densely peopled lands of the age. Babur, who conquered it in 1526, marvels at its countless workmen of every trade (Baburnama), and Kolff (1990) describes a vast peasant military labour market that supplied men to every power of the plain. An abstraction, kept."
+relevance = "The manpower of the Ganges plain fed the Sultanate's armies, building works and revenue; without it Delhi could not have ruled from the Punjab to the Deccan."
 
 [[bonus]]
 text = "Cavalry Archers cost -10/20% in Castle/Imperial Age"
@@ -65,7 +70,8 @@ level = 1
 change = "new"
 replaces = "Camel Riders attack +20% faster"
 precedent = "Cavalry Archers cost -10/20% in Castle/Imperial Age (Huns)"
-basis = "Turkish mounted archers were the decisive arm of the Ghaznavids, the Ghurids and the Sultanate: Muhammad of Ghur’s horse archers defeated Prithviraj Chauhan at the second battle of Tarain (1192) (Minhaj). The slave markets of Central Asia and, after the 1220s, Turks driven south by the Mongols kept them numerous (Jackson 1999; Kumar 2007). The camel bonus it replaces had no basis: no Sultanate source describes camel shock cavalry."
+basis = "Turkish mounted archers were the decisive arm of the Ghaznavids, the Ghurids and the Sultanate: Muhammad of Ghur's horse archers wore down and broke Prithviraj Chauhan's army at the second battle of Tarain (1192) (Minhaj). The slave markets of Central Asia and, after the 1220s, Turks driven south by the Mongols kept them numerous (Jackson 1999; Kumar 2007). The camel bonus it replaces had no basis: no Sultanate source describes camel shock cavalry."
+relevance = "The Turkish horse archer won north India for the Ghurids and held it for the Sultanate; erase him and the conquest of 1192 does not happen."
 
 [[bonus]]
 text = "Mounted Units +15% HP starting in Castle Age"
@@ -73,9 +79,10 @@ kind = "military"
 level = 1
 change = "new"
 replaces = "Gunpowder Units +1 melee/+1 pierce armor"
-precedent = "Mounted Units +20% HP starting in Feudal Age (Franks)"
-basis = "The Sultanate’s cavalry rode horses imported from Central Asia and through the Gulf, better than Indian-bred mounts, and Delhi’s grip on that trade was a pillar of its power (Digby 1971). Alauddin Khalji (1296–1316) introduced the dagh (branding of horses) and the chehra or huliya (descriptive roll of each trooper) so that no one could pass muster with a substitute man or a worn-out horse (Barani). The gunpowder bonus it replaces described the Mughals: the last sultan, Ibrahim Lodi, had no guns at Panipat (1526)."
-contested = "Digby’s horse-and-elephant thesis is influential but schematic; the dagh and chehra are known mainly from Barani."
+precedent = "Mounted Units +20% HP starting in Feudal Age (Franks), here at a lower magnitude and from the Castle Age"
+basis = "The Sultanate's cavalry rode war-horses imported overland from Central Asia and Afghanistan and, through the western ports, from the Gulf, larger and stronger than Indian-bred mounts, and Delhi's hold on that trade was a pillar of its power over its Indian rivals (Digby 1971). Extending the bonus to all mounted units, camels and elephants included, is an abstraction. The gunpowder bonus it replaces described the Mughals: Babur's account of Panipat (1526) gives Ibrahim Lodi's army no guns."
+relevance = "Control of the war-horse supply is the material basis Digby gives for the Sultanate's military superiority in India."
+contested = "Digby's horse-and-elephant thesis is influential but schematic. Alauddin Khalji's branding of horses (dagh) belongs to a datable reform and is an N2 idea, not part of this passive."
 
 [[bonus]]
 text = "Can build Caravanserai in Imperial Age"
@@ -83,15 +90,17 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Can build Caravanserai in Imperial Age (Hindustanis, Persians)"
-basis = "Ibn Battuta describes the horse and foot relay posts (ulaq and dawa) along the Sultanate’s roads, and the caravanserai was a Persianate institution shared with Iran, which keeps the building too. The great chain of sarais on the road from Bengal to the Punjab is Sher Shah Suri’s (1540–45), just after the window."
-contested = "How many sarais the Sultanate itself built before Sher Shah is not clear from the sources used here."
+basis = "The Sultanate held its provinces together by royal roads with relay posts of mounted and foot couriers (ulaq and dawa), which Ibn Battuta describes in the 1330s, and later chronicles (Firishta, c. 1600) count caravanserais among the public works of Firuz Shah Tughluq (1351–88). The caravanserai was a Persianate institution shared with Iran, which keeps the building too. The great chain of sarais from Bengal to the Punjab is Sher Shah Suri's (1540–45), the later culmination of this tradition, just after the window."
+relevance = "Roads, posts and stations let Delhi govern and supply provinces from Sind to the Deccan; the Caravanserai is the closest existing building for them."
+contested = "The sources used here do not show how many sarais the Sultanate built before Sher Shah; Ibn Battuta's stations were couriers' posts, not inns."
 
 [team_bonus]
-text = "Scout Cavalry-line and Camel Units +2 attack vs. buildings"
+text = "Monasteries work +20% faster"
 level = 1
-change = "kept"
-precedent = "Scout Cavalry-line and Camel Units +2 attack vs. buildings (Hindustanis team bonus)"
-basis = "Mounted raids on towns and temple-cities mark this world, from Mahmud of Ghazni’s expeditions (Somnath, 1025–26) to the Sultanate’s plundering campaigns in the Deccan (Devagiri 1296, Warangal 1310, Ma’bar 1311) (Thapar 2004; Jackson 1999). An abstraction of plunder warfare; the camels are its weak part."
+change = "new"
+precedent = "Monasteries work +20% faster (Lithuanians team bonus, which their draft gives up; also the Bulgarians', Danes', Khitans' and Saxons' drafts)"
+basis = "The Sufi orders that grew up under the Sultanate spread from Delhi to its neighbours. The Chishtis of Delhi (Qutb al-Din Bakhtiyar Kaki, d. 1235; Nizam al-Din Awliya, d. 1325) sent disciples who rooted the order in the independent kingdoms: Akhi Siraj al-Din returned to Bengal, where his successors at Pandua, Ala al-Haqq and Nur Qutb-i Alam, weighed in the politics of the Bengal Sultanate (Eaton 1993), and Sayyid Muhammad Gisu Daraz left Delhi in 1398 for the Bahmani capital Gulbarga (Ernst and Lawrence 2002; Eaton 2019). The Suhrawardis of Multan and Uch likewise reached Gujarat (the Bukhari saints of Ahmedabad). RULES 6.2: religious influence. The old team bonus, plunder raids by Scout Cavalry and camels, benefited only the raider."
+relevance = "Sufism, above all the Chishti order of Delhi, shaped Indian Islam, and its spread to Bengal, the Deccan and Gujarat is one of the Sultanate's most lasting legacies to its neighbours."
 
 [[unique_unit]]
 name = "Ghulam"
@@ -100,50 +109,57 @@ building = "Castle"
 level = 1
 change = "changed"
 replaces = "Ghulam (Infantry): unique Infantry that thrusts its spear through multiple targets"
-basis = "The ghulams or bandagan of the Ghaznavids, the Ghurids and the Sultanate were Turkish slave soldiers bought young and trained above all as mounted archers and officers: Sabuktigin, founder of Ghaznavid power, and the sultans Aibak, Iltutmish and Balban had all been military slaves (Bosworth 1963; Jackson 1999; Kumar 2007). Minhaj makes Iltutmish and Balban Ilbari Turks, a tribe usually placed among the Qipchaqs, so the Cuman Kipchak, a horse archer firing several arrows, is the closest existing model. The old spear-thrusting infantry inverted their role; its model passes to the Bengalis’ Paik."
-contested = "The Ilbari–Qipchaq identification; the Kipchak is lighter than the often armoured ghulam cavalry (see ideas)."
-
-[[unique_unit]]
-name = "Chakram Thrower"
-model = "Chakram Thrower"
-building = "Castle"
-level = 1
-change = "new"
-basis = "The chakram, a steel ring sharpened on its outer edge, carried on the arm and thrown, is first described by Duarte Barbosa (c. 1516), who places it in the ‘kingdom of Delli’, the Lodi Sultanate; it later became the emblematic weapon of the Akali Nihangs of the Punjab (17th–19th centuries). Moved here from the Gurjaras, where no source links it to Pratihara or Rajput armies; the analysis notes that it fits the Hindustanis better."
-contested = "Its use by Sultanate armies in battle is not documented: Barbosa’s is a single description at the very end of the window, and the pass-through damage is game invention."
+basis = "The ghulams or bandagan of the Ghaznavids, the Ghurids and the Sultanate were Turkish slave soldiers bought young and trained above all as mounted archers and officers: Sabuktigin, founder of Ghaznavid power, and the sultans Aibak, Iltutmish and Balban had all been military slaves (Bosworth 1963; Jackson 1999; Kumar 2007). The Mongol conquest of the Qipchaq steppe (1220s–1240s) filled the slave markets that supplied both Delhi's Shamsi bandagan and Cairo's Bahri mamluks (Jackson 1999), and Minhaj gives Iltutmish and Balban an Ilbari origin. So the Cuman Kipchak, a horse archer firing several arrows, is the nearest existing model, as for the Saracens' Mamluk (a deliberate parallel: one institution, one supply). The old spear-thrusting infantry inverted their role; its model passes to the Tamils' Velaikkarar."
+relevance = "The slave soldiers founded the Sultanate's first dynasties (Aibak, Iltutmish, Balban) and formed its cavalry core; without them the 13th-century Sultanate makes no sense."
+contested = "Minhaj's Ilbari are usually identified with the Ölberli, a Qipchaq tribe (Golden; Jackson 1999), though the clan's ultimate origin is debated. The Kipchak is lighter and cheaper than the often armoured ghulam cavalry (see ideas)."
 
 [[unique_tech]]
 name = "Tanka"
+building = "Town Center"
+kind = "civil"
 age = "Castle"
 effect = "All gold income +10% faster; Market trading fee reduced to 10%"
 level = 1
 change = "changed"
 replaces = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%)"
-precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis)"
-basis = "Iltutmish (1211–36) gave the Sultanate a standard coinage, the silver tanka with the small jital, ancestor of the later rupee; Alauddin Khalji fixed prices and policed Delhi’s markets to pay a large standing army against the Mongols (Barani). Same effect, new name: ‘Grand Trunk Road’ is a 19th-century British name for a road that Sher Shah Suri rebuilt in the 1540s, and until 2022 the tech was called ‘Sultans’."
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, moved to the Town Center and renamed, identical effect and age; the Saxons' (Edgar's Recoinage), Khitans' (Chanyuan Treaty) and Muisca's (Cotton Mantles) drafts share it"
+basis = "Iltutmish (1211–36) gave the Sultanate a standard coinage, the silver tanka with the billon jital, struck at Delhi and the provincial mints; the successor sultanates of Bengal, Gujarat and the Deccan kept the tanka, and Sher Shah's silver rupiya (1540s) took over its role (Wright 1936; Jackson 1999). Same effect, new name: ‘Grand Trunk Road’ is a 19th-century British name for a road that Sher Shah Suri rebuilt in the 1540s, and until 2022 the tech was called ‘Sultans’."
+relevance = "A uniform silver and billon coinage carried the Sultanate's cash economy, in which troopers' pay and market prices were reckoned (Barani), and outlived it in the rupee."
 
 [[unique_tech]]
 name = "Pil-khana"
+building = "Castle"
+kind = "military"
 age = "Imperial"
 effect = "Battle Elephants cost -25% and can be trained at Castles"
-level = 1
+level = 2
 change = "new"
 replaces = "Shatagni (Hand Cannoneers +2 range)"
-precedent = "Battle Elephants cost -25/35% in Castle/Imperial Age (Malay); Settlements can train Spearman-line and Skirmishers (Mapuche); Donjon trains the Spearman-line (Sicilians)"
-basis = "The sultans held war elephants as a royal monopoly, kept in the royal elephant stables (pil-khana) and replenished by tribute and capture from Bengal, Orissa and the Deccan (Digby 1971); Alauddin’s generals brought back hundreds from the southern campaigns of 1310–11, and in 1398 Mahmud Tughluq and Mallu Iqbal met Timur before Delhi with a line of war elephants. Shatagni, which it replaces, gave an ancient Sanskrit word for a spiked missile weapon to 16th-century hand-gunners: the ‘cannon’ reading goes back to Oppert (1880) and to the Śukranīti, shown by Lallanji Gopal (1962) to be a 19th-century text."
+precedent = "Effect 1: Battle Elephants cost -25/35% in Castle/Imperial Age (Malay), at -25%. Effect 2, a unit trained at another building: Marauders (Tarkans can be trained at Stables) (Huns) and Anarchy (Huskarls can be trained at Barracks) (Goths); the Castle already trains generic units (Petard, Trebuchet). A new tech (level 2) because no existing tech renders the royal elephant stables: Tusk Swords (Battle Elephants +3 attack), which the Khmer draft gives up, renders blades on the tusks, which Delhi used mainly on its execution elephants (Ibn Battuta); Chatras stays with the Vietnamese and Medical Corps goes to the Bengalis."
+basis = "War elephants were a royal monopoly, kept in the sultan's elephant stables (pil-khana) and replenished by capture and tribute from Bengal, Orissa and the Deccan (Digby 1971); Mahmud of Ghazni already fielded Indian elephants (Bosworth 1963), Alauddin's generals brought back several hundred from the southern campaigns of 1310–11 (Amir Khusrau; Barani), and in 1398 Mahmud Tughluq and Mallu Iqbal met Timur before Delhi with a line of war elephants. Shatagni, which it replaces, gave an ancient Sanskrit word for a spiked missile weapon (śataghnī) to 16th-century hand-gunners: the firearm reading was popularised by Oppert (1880) on the strength of the Śukranīti, which Lallanji Gopal (1962) showed to be a 19th-century text."
+relevance = "With the war-horse, the royal elephant corps was the second pillar of Sultanate power and a symbol of sovereignty (Digby 1971)."
 
 [tree]
-add = ["Knight", "Cavalier", "Battle Elephant", "Parthian Tactics", "Architecture", "Treadmill Crane", "Keep"]
-remove = []
+add = ["Knight", "Battle Elephant", "Parthian Tactics", "Architecture", "Treadmill Crane", "Keep"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Elite Cannon Galleon"]
 
 [tree.basis]
-"Knight" = "The Sultanate’s core was heavy Turkish cavalry on imported horses, armoured and fighting with lance, sword and mace as well as the bow; it defeated the Chagatai invasions of 1298–1306 (Jalandhar 1298, Kili 1299, Amroha 1305, the Ravi 1306) (Barani; Jackson 1999). The total lack of shock cavalry was the strangest gap of the old tree."
-"Cavalier" = "Same basis. No Paladin, which the analysis agrees would overstate it."
+"Knight" = "Besides the horse archers, the Sultanate fielded armoured horsemen fighting with lance, sword and mace (Fakhr-i Mudabbir's manual of war for Iltutmish; Jackson 1999). With them it repelled the Chagatai invasions of 1297–1306: victories at Jaran-Manjur near Jalandhar (1298), Amroha (1305) and the Ravi (1306), the hard-fought action at Kili (1299), and the siege of Delhi survived in 1303 (Barani; Jackson 1999). No Cavalier: the horse archer remains the arm the Sultanate is known for, while the Rajput kingdoms (Gurjaras) take the full Knight-line for their shock cavalry."
 "Battle Elephant" = "War elephants were, with the horse, the second pillar of Sultanate power (Digby 1971); Mahmud of Ghazni already used Indian elephants, and Delhi faced Timur with them in 1398. No Elite upgrade, so the Bengalis and Tamils, closer to the elephant forests, stay the elephant specialists; Pil-khana makes them cheaper."
-"Parthian Tactics" = "Harassment and feigned flight were the stock tactics of the Turkish horse archers, as of the steppe peoples who already have the tech; later chronicles describe them at Tarain (1192)."
-"Architecture" = "One of the great building cultures of the age: the Qutb Minar (begun c. 1199, finished under Iltutmish), the Alai Darwaza (1311) and the walled cities of Siri (c. 1303), Tughlaqabad (1321–25) and Firuz Shah’s Firozabad (1350s)."
-"Treadmill Crane" = "Same basis: the Sultanate’s monumental programmes in stone, from the Quwwat al-Islam mosque to Firuz Shah Tughluq’s new towns and canals."
+"Parthian Tactics" = "Harassment from all sides was the stock tactic of the Turkish horse archers, as of the steppe peoples who already have the tech: Minhaj describes the Ghurid mounted divisions wearing down the Rajput army at Tarain (1192); the feigned retreat appears in later chronicles such as Firishta."
+"Architecture" = "One of the great building cultures of the age: the Qutb Minar (begun c. 1199, finished under Iltutmish), the Alai Darwaza (1311) and the walled cities of Siri (c. 1303), Tughlaqabad (1321–25) and Firuz Shah's Firozabad (1350s)."
+"Treadmill Crane" = "Same basis: the Sultanate's monumental programmes in stone, from the Quwwat al-Islam mosque to Firuz Shah Tughluq's new towns and canals."
 "Keep" = "The massive bastioned walls and towers of Siri and Tughlaqabad, and the hill-forts the sultans took and garrisoned (Ranthambore 1301, Chittor 1303)."
+"Hand Cannoneer" = "No hand-guns are documented in Sultanate armies: Babur's account of Panipat (1526) gives Ibrahim Lodi no guns, and the matchlocks of that day were Babur's. Iqtidar Alam Khan (2004) argues for 13th-century knowledge of gunpowder from the Mongols, as pyrotechnics rather than firearms (see contested); the guns belong to a future Mughal civ (see ideas)."
+"Bombard Cannon" = "Same basis: no Sultanate artillery is documented before Babur's guns at Panipat. The Trebuchet, the Mangonel-line, the Siege and Armored Elephants and the Petard keep the civ able to break buildings (RULES 6.11)."
+"Cannon Galleon" = "No gun-armed ships for a land power of the Ganges plain; the Galleon line, Fire Ships and Demolition Ships keep the civ on the water."
+"Elite Cannon Galleon" = "Same basis."
+
+[[rename]]
+from = "Elite Kipchak"
+to = "Elite Ghulam"
+level = 1
+basis = "Follows the unique unit (Kipchak → Ghulam), for the Hindustanis only, as the Saracens' draft renames it Elite Mamluk."
 
 [architecture]
 set = "South Asian"
@@ -154,3 +170,8 @@ basis = "Kept: the South Asian set is the closest existing one. A distinct Indo-
 item = "Imperial Camel Rider"
 kind = "unique_unit"
 reason = "No Sultanate source describes an elite camel cavalry; camel corps (shutur-sawar) and the camel swivel-gun (zamburak) belong to the late Mughal period and to 18th–19th-century Rajputana. The generic Camel Rider and Heavy Camel Rider stay for the camels of Sind and the desert routes."
+
+[[dropped]]
+item = "Scout Cavalry-line and Camel Units +2 attack vs. buildings"
+kind = "team_bonus"
+reason = "RULES 6.2: it rested on plunder raids on towns and temples (Mahmud of Ghazni at Somnath, 1025–26; the Khalji raids on Devagiri 1296, Warangal 1310 and Ma'bar 1311), which benefited only the raider, and the camels had no basis. The team slot goes to the Sufi orders; plunder as a passive is left to the owner (see open questions)."

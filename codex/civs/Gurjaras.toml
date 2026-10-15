@@ -2,51 +2,56 @@ civ = "Gurjaras"
 name = "Gurjaras"
 status = "draft"
 label = "Cavalry and Camel civilization"
-summary = "Gurjaras as the Gurjara-Pratiharas and the Rajput kingdoms of western and central India (c. 730–1527): the cavalry, camel and herding identity, the Shrivamsha Rider, the Camel Scout and Frontier Guards stay; the forage-bush and camel-training bonuses give way to shepherding, the hill-forts and the horse-breeding of the Thar margins, Kshatriyas becomes Samantas (the feudatory contingents, same effect), the Battle Elephant enters the tree and the Chakram Thrower moves to the Hindustanis."
+summary = "Gurjaras as the Gurjara-Pratiharas and the Rajput kingdoms of western, northern and central India (730–1527): the cavalry, camel and herding identity, the Shrivamsha Rider and Frontier Guards (at the Castle) stay; Kshatriyas becomes Samantas at the Town Center, the Rajput shock cavalry (Knight, Cavalier) and the Battle Elephant enter the tree, the forage bushes give way to well and tank irrigation, the hill-forts become a passive, Rajput horsemen in other rulers' service replace the camel-training team bonus, and the Chakram Thrower, the Camel Scout and the gunpowder of the Gujarat Sultanate (now outside the civ) leave."
 ideas = [
-  "N2: Kesariya: a last-stand bonus for units fighting near their own Castle at low HP, for the saffron-clad final sorties of besieged Rajput garrisons (Chittor, 1535 and 1568); to be handled without any reference to the jauhar.",
-  "N2: Bhil Archer: a fast, cheap foot archer for the Bhil allies of Mewar (tradition puts the Bhil chief Rana Punja at Haldighati, 1576, and a Bhil figures on the arms of Mewar).",
+  "N2: Kesariya: a last-stand bonus for units fighting near their own Castle at low HP, for the final sorties of besieged Rajput garrisons, which Amir Khusrau describes at Ranthambore (1301) and Chittor (1303) and which recur in the 16th-century sieges of Chittor (1535, 1568); to be handled without any reference to the jauhar.",
+  "N2: Bhil Archer: a fast, cheap foot archer for the Bhil allies of Mewar. Inside the window the evidence is mainly tradition (the Bhils' place in the origin and coronation lore of the Guhilas); Rana Punja's Bhils at Haldighati (1576) would be a late element (RULES section 2).",
   "N3: Vav (stepwell) as a unique economic building, for the stepwells of Gujarat and Rajasthan such as the Rani ki Vav at Patan (c. 1063) and Adalaj (1499) (Jutta Jain-Neubauer, The Stepwells of Gujarat, 1981).",
-  "N2: The Gujarati navy of Malik Ayaz, governor of Diu, who with the Mamluk fleet defeated the Portuguese at Chaul (1508) and lost at Diu (1509): Dry Dock, Fast Fire Ship and a naval tech, if the Gujarat Sultanate stays in this civ.",
-  "N3: Split the umbrella: a Rajput civ and a Gujarat Sultanate civ (1407–1573), or move the Gujarat and Malwa sultanates to an Indo-Islamic civ.",
+  "N3: An Indo-Islamic civ for the regional sultanates (Gujarat 1407–1573, Malwa 1392–1562), with Malik Ayaz's Gujarati fleet, which fought the Portuguese alongside the Mamluk fleet at Chaul (1508) and Diu (1509) (Dry Dock, Fast Fire Ship, a naval tech), and the guns of Diu as its late element; alternatively a separate Gujarat Sultanate civ.",
 ]
 contested = [
   "The origin of the Gurjaras: a Central Asian or Huna origin (V. A. Smith, D. R. Bhandarkar) against a local one; ‘Gurjara’ as a territory (Gurjaratra), a clan or an ethnic group. The imperial Pratiharas never call themselves Gurjara in their own inscriptions; the compound ‘Gurjara-Pratihara’ appears only in the Rajor inscription of a feudatory (c. 960).",
+  "The name ‘Pratihara’ (door-keeper): the dynasty's own descent from Lakshmana, Rama's door-keeper (Gwalior prashasti), against the Rashtrakuta Sanjan plates of Amoghavarsha I (871), which mock the Gurjara king as door-keeper at Dantidurga's hiranyagarbha rite at Ujjain.",
   "The present-day dispute between Gurjar and Rajput communities over the heritage of the Pratiharas and of Mihira Bhoja.",
-  "The making of ‘Rajput’ identity as a process of the 7th–16th centuries (B. D. Chattopadhyaya; Tanuja Kothiyal) against ancient genealogies (the Agnikula myth).",
+  "The making of ‘Rajput’ identity as a process of the 7th–16th centuries (B. D. Chattopadhyaya; Tanuja Kothiyal), or as an open status won through military service from the 15th century (Kolff 1990), against ancient genealogies (the Agnikula myth).",
   "Who checked the Arabs of Sind c. 738: Nagabhata I, the Chalukya Avanijanashraya Pulakeshin or the semi-legendary Bappa Rawal.",
   "The historicity of the Prithviraj Raso, of the Sanyogita episode and of the ‘traitor Jaichand’ (Talbot 2016).",
   "‘Indian feudalism’ (R. S. Sharma) against the integrative model of early medieval state formation (B. D. Chattopadhyaya), which bears on how the samanta system is read.",
-  "The weight of the single Chatsu reference to Śrīvaṃśa horses and the reliability of the Hudud al-Alam’s figures, which recycle earlier sources.",
+  "The weight of the single Chatsu reference to horses called śrīvaṃśa and the reliability of the Hudud al-Alam's figures, which recycle earlier sources.",
+  "The form of the araghatta of the Rajasthan inscriptions: a pot-wheel worked by hand or by animals, or the geared ‘Persian wheel’, which Irfan Habib dates to the Sultanate period.",
 ]
 open_questions = [
-  "Name: keep ‘Gurjaras’ (ambiguous and politically sensitive), rename to ‘Rajputs’ (the umbrella the civ actually covers, though a later identity) or to ‘Pratiharas’ (the core dynasty only)? This draft keeps ‘Gurjaras’ in its regional sense: Gurjaratra, the land that gave its name to Gujarat.",
-  "Scope: the Gujarat Sultanate (1407–1573) stays in as a late regional phase, which is what justifies the Imperial Age Hand Cannoneer and Bombard Cannon (Rumi Khan’s guns at Chittor, 1535; the Gujarati–Mamluk fleet at Diu, 1509). Move it out and remove the gunpowder, since Rajput armies such as Rana Sanga’s at Khanwa (1527) fought almost without guns?",
-  "Knight-line: Rajput cavalry was largely shock cavalry in mail, with lance and sword, and the analysis notes its absence. Add Knight and Cavalier? Not done here, to keep the Shrivamsha Rider and the camels at the centre and the power budget in check.",
-  "Battle Elephant is added without the Elite upgrade. Enough, or give the Elite too (the Hudud al-Alam, via Hooja, gives the rai of Kannauj 800 elephants)?",
-  "Frontier Guards keeps its effect (Camel Riders and Elephant Archers +4 melee armor), which the analysis calls arbitrary. Change it to the defensive version the analysis proposes (towers and Castles +2 armor, +2 line of sight), or keep it?",
-  "Kshatriyas becomes Samantas with the same effect, so that a varna category is no longer a technology. Acceptable, or keep the old name?",
+  "Name: keep ‘Gurjaras’ (ambiguous and politically sensitive), rename to ‘Rajputs’ (the umbrella the civ actually covers, though the identity took shape later) or to ‘Pratiharas’ (the core dynasty only)? This draft keeps ‘Gurjaras’ in its regional sense: in the 9th century Gurjaratra lay in Rajasthan, around Didwana in Mihira Bhoja's Daulatpura plate (843), and only later did the name pass to Gujarat.",
+  "Kshatriyas becomes Samantas with the same effect, so that a varna category is no longer a technology. Accept the new name?",
+  "Scope: the Gujarat Sultanate (1407–1573), founded by a Tughluq governor and Mewar's chief enemy, now leaves the civ, and with it the Hand Cannoneer, Bombard Cannon and Cannon Galleon, whose evidence (Diu 1508–09, Chittor 1535) is Gujarati and late. Keep it in instead? The civ would then regain a navy (Dry Dock and Fast Fire Ship for Chaul and Diu) and one gunpowder item as its late element (RULES section 2).",
+  "Power and composition: the Knight and Cavalier (Rajput shock cavalry) and the Battle Elephant (without Elite) join the Shrivamsha Rider, the camels, the Elephant Archers and the mounted bonus damage, and the farming bonus replaces the starting forage bushes, against the loss of the Chakram Thrower, the Camel Scout and the gunpowder. Acceptable, or also give the Elite Battle Elephant (the Hudud al-Alam, via Hooja, gives the rai of Kannauj 800 elephants)?",
+  "Frontier Guards keeps its effect (Camel Riders and Elephant Archers +4 melee armor) as a game abstraction attached to an apt name. Prefer a defensive effect, as the analysis proposes, for example the Koreans' Eupseong (Watch Tower-line +2 range)?",
+  "Shared effects (RULES 6.7): Samantas is Kshatriyas, which the Byzantines (Themata), Ethiopians (Gult) and Jurchens (Meng'an Mouke) also take; the team bonus is the Avars' (from the Huns); the higher-elevation bonus is the Georgians' and the Ethiopians'; ‘Farmers work +15% faster’ is the Rus' passive and the Portuguese Lei das Sesmarias. Acceptable?",
+  "The Camel Scout is dropped on the relevance test (see dropped). Restore it for gameplay, as the civ's starting scout?",
+  "Mule Cart (brief section 6): not given. The camel caravans of the Thar could justify it, alongside the Lumber and Mining Camps rather than replacing them. Give it?",
 ]
 
 [profile]
-entity = "The Gurjara-Pratihara empire and the Rajput kingdoms of western and central India (Chahamanas or Chauhans, Paramaras, Chaulukyas or Solankis, Guhilas and Sisodias, Chandelas), with the Sultanate of Gujarat as a late regional phase"
-region = "Western and central India: Rajasthan, Gujarat and Malwa, and at the Pratihara peak Kannauj and the upper Ganges plain"
-window = "c. 730–1527 (Pratihara core c. 730–1036)"
+entity = "The Gurjara-Pratihara empire and the Rajput kingdoms that followed it in western, northern and central India: the Chahamanas (Chauhans) of Shakambhari and Ajmer, the Tomaras of Delhi, the Gahadavalas of Kannauj, the Paramaras of Malwa, the Chaulukyas (Solankis) and Vaghelas of Gujarat, the Guhilas and Sisodias of Mewar, the Chandelas of Bundelkhand and the Kalachuris of Tripuri"
+region = "Western, northern and central India: Rajasthan, Gujarat, Malwa and Bundelkhand, and at the Pratihara peak Kannauj and the upper Ganges plain"
+window = "730–1527 (the start is approximate: Nagabhata I; Pratihara core 730–1036; to Rana Sanga's defeat at Khanwa, 1527)"
 sources = [
-  "Sulaiman al-Tajir, Akhbar al-Sin wa’l-Hind (851), tr. in Elliot and Dowson, vol. I (1867)",
+  "Akhbar al-Sin wa'l-Hind (851, traditionally attributed to the merchant Sulaiman), tr. in Elliot and Dowson, vol. I (1867)",
+  "al-Mas'udi, Muruj al-Dhahab (c. 943), in Elliot and Dowson, vol. I",
   "Hudud al-Alam (982), tr. V. Minorsky (1937)",
-  "Gwalior prashasti of Mihira Bhoja; Chatsu inscription of the Guhilas; Rajor inscription (c. 960)",
+  "Gwalior prashasti of Mihira Bhoja; Daulatpura plate of Bhoja (843); Chatsu inscription of the Guhilas; Rajor inscription (c. 960)",
   "Jayanaka, Prithviraja Vijaya (c. 1191–92)",
-  "Minhaj al-Siraj Juzjani, Tabaqat-i Nasiri (c. 1260)",
+  "Minhaj al-Siraj Juzjani, Tabaqat-i Nasiri (c. 1260); Amir Khusrau, Khaza'in al-Futuh (c. 1311)",
+  "Babur, Baburnama (Khanwa, 1527)",
   "B. N. Puri, The History of the Gurjara-Pratiharas (1957)",
   "Dasharatha Sharma, Early Chauhan Dynasties (1959)",
-  "B. D. Chattopadhyaya, The Making of Early Medieval India (1994)",
+  "B. D. Chattopadhyaya, The Making of Early Medieval India (1994), including ‘Irrigation in Early Medieval Rajasthan’",
+  "Dirk H. A. Kolff, Naukar, Rajput and Sepoy: The Ethnohistory of the Military Labour Market in Hindustan, 1450–1850 (1990)",
   "Rima Hooja, A History of Rajasthan (2006)",
   "Cynthia Talbot, The Last Hindu Emperor: Prithviraj Chauhan and the Indian Past, 1200–2000 (2016)",
   "Tanuja Kothiyal, Nomadic Narratives: A History of Mobility and Identity in the Great Indian Desert (2016)",
-  "Tomé Pires, Suma Oriental (1512–15); Duarte Barbosa, Livro (c. 1516)",
 ]
-replaces = "Gurjaras as written in 2022: from the Pratiharas to Maharana Pratap and the Mughal treaty of 1615, with the Soomras of Sind"
+replaces = "Gurjaras as written in 2022: from the Pratiharas to Maharana Pratap and the Mughal treaty of 1615, with the Soomras of Sind and the Gujarat and Malwa sultanates"
 
 [[bonus]]
 text = "Can garrison livestock in Mills to passively produce food"
@@ -55,16 +60,19 @@ level = 1
 change = "kept"
 precedent = "Can garrison livestock in Mills to passively produce food (Gurjaras)"
 basis = "Rajasthan and Gujarat had a strong pastoral economy of cattle, goats, sheep and camels, and herding communities such as the Gujars and Rabaris have deep roots there (Kothiyal 2016; Hooja 2006). A good mechanical image of stall-fed and penned herds."
+relevance = "Herding shaped the economy and the communities of the semi-arid west, from the Thar margins to Kathiawar (Kothiyal 2016)."
 contested = "Linking the Pratihara dynasty to the pastoral identity of a modern community is disputed."
 
 [[bonus]]
-text = "Shepherds work +25% faster"
+text = "Farmers work +15% faster"
 kind = "economic"
 level = 1
 change = "new"
 replaces = "Start with 2 Forage Bushes"
-precedent = "Shepherds work +25% faster (Britons)"
-basis = "In the semi-arid Thar and its margins, mobile herding of sheep, goats and camels was a mainstay alongside rain-fed farming, and Kothiyal (2016) shows how pastoral mobility shaped the identities of the Great Indian Desert. The forage-bush bonus it replaces was pure balance with no historical referent."
+precedent = "Farmers work +15% faster (Slavs; also the Rus' draft)"
+basis = "In a semi-arid land farming lived on lifted and stored water. The inscriptions of early medieval Rajasthan constantly list wells with water-lifting wheels (araghatta), stepwells (vapi) and tanks among the assets of the villages they grant (Chattopadhyaya 1994), and the kings built great water works: the Chaulukya stepwell of the Rani ki Vav at Patan (c. 1063) and the tanks and lakes attributed to the Paramaras and the Chandelas. The forage-bush bonus it replaces was pure balance with no historical referent."
+relevance = "Wells, water wheels and tanks made settled farming possible in Rajasthan and Gujarat, and the stepwells are among the region's most famous monuments."
+contested = "The form of the araghatta is debated (see contested); several Paramara and Chandela tanks are attributed by tradition."
 
 [[bonus]]
 text = "Mounted Units deal +20/30/40% bonus damage in Feudal/Castle/Imperial Age"
@@ -72,67 +80,75 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Mounted Units deal +20/30/40% bonus damage in Feudal/Castle/Imperial Age (Gurjaras)"
-basis = "Sulaiman (851) writes that no Indian prince had cavalry as fine as the king of ‘Jurz’ (the Gurjara-Pratihara); the Hudud al-Alam (982) credits the rai of Kannauj with 150,000 horsemen (via Hooja 2006), and the later Rajput ethos was that of the cavalry charge. An abstraction of cavalry excellence."
+basis = "The Akhbar (851) says that no Indian prince had cavalry as fine as the king of al-Juzr (the Gurjara-Pratihara); the Hudud al-Alam (982) credits the rai of Kannauj with 150,000 horsemen (via Hooja 2006), and the later Rajput ethos was that of the cavalry charge. An abstraction of cavalry excellence."
+relevance = "Cavalry is the trait Arab writers singled out in the Gurjara kingdom and the core of the Rajput military ethos."
 
 [[bonus]]
 text = "Units and buildings receive -15% damage when located on higher elevation"
 kind = "military"
 level = 1
 change = "new"
-precedent = "Units and buildings receive -15% damage when located on higher elevation (Georgians)"
-basis = "The Pratiharas and the Rajput kingdoms held their realms from hill-forts on the Aravalli and Vindhya ridges: Gwalior, where Mihira Bhoja’s inscription was found, Chittorgarh on its mesa, Ranthambore, Jalor, Mandu and Rana Kumbha’s Kumbhalgarh (15th century). Alauddin Khalji needed long sieges to take Ranthambore (1301) and Chittor (1303) (Amir Khusrau; Barani)."
+precedent = "Units and buildings receive -15% damage when located on higher elevation (Georgians; also the Ethiopians' draft)"
+basis = "The Pratiharas and the Rajput kingdoms held their realms from hill-forts on the Aravalli and Vindhya ridges: Gwalior, where Mihira Bhoja's inscription was found, Chittorgarh on its mesa, Ranthambore, Jalor, Mandu and Rana Kumbha's Kumbhalgarh (15th century). Alauddin Khalji needed long sieges to take Ranthambore (1301) and Chittor (1303) (Amir Khusrau; Barani)."
+relevance = "The hill-fort was the backbone of Rajput defence, and its sieges are among the best-known episodes of the region's history."
 
 [team_bonus]
 text = "Stables work +20% faster"
 level = 1
 change = "new"
 replaces = "Camel and Elephant Units train +25% faster"
-precedent = "Stables work +20% faster (Huns team bonus)"
-basis = "Horse-breeding on the margins of the Thar: the Chatsu inscription praises Śrīvaṃśa horses able to cross ‘seas of sand’, given to Mihira Bhoja by his Guhila feudatory Harsha, and Sulaiman (851) found the Gurjara king’s horses and camels numerous. The old team bonus had no specific basis."
+precedent = "Stables work +20% faster (Huns team bonus; the Avars' draft keeps it)"
+basis = "Rajput horsemen served other rulers. From the 15th century Rajput lineages sold their service across north India's military labour market (naukari), in which Kolff (1990) sees Rajput identity itself take shape, and in the 1510s Medini Rai's Rajputs dominated the army and court of Mahmud II of Malwa before going over to Rana Sanga. RULES 6.2: mercenaries. The first draft's basis, the horses called śrīvaṃśa that a Guhila feudatory gave his own overlord (Chatsu inscription), was a transfer inside the civ, and the old team bonus had no specific basis."
+relevance = "Service with other rulers shaped Rajput armies and identity across north India (Kolff 1990), and it benefited neighbours, as RULES 6.2 requires."
+contested = "Kolff's thesis is debated, and his evidence begins c. 1450, late in the window."
 
 [[unique_unit]]
 name = "Shrivamsha Rider"
 model = "Shrivamsha Rider"
 level = 1
 change = "kept"
-basis = "Pratihara cavalry is well attested (Sulaiman, 851), and the name comes from the Chatsu inscription of the Guhilas, which records Śrīvaṃśa horses given to Mihira Bhoja (Hooja 2006). A fast light horseman is a fair image of a cavalry raised on desert-bred horses."
-contested = "The breed rests on a single epigraphic mention; the ability to dodge projectiles is game invention."
-
-[[unique_unit]]
-name = "Camel Scout"
-model = "Camel Scout"
-level = 1
-change = "kept"
-basis = "Sulaiman (851) notes the Gurjara king’s numerous camels, and the riding camels of the Thar are famous; a camel replacing the starting scout suits a realm whose western frontier was desert."
-contested = "Military camel scouts are not documented for the Pratihara period; the well-known camel corps of Bikaner (founded 1488) and Jaisalmer, culminating in the Ganga Risala, are later."
+basis = "Pratihara cavalry is well attested (the Akhbar, 851), and the name comes from the Chatsu inscription of the Guhilas, which records horses called śrīvaṃśa, able to cross ‘seas of sand’, given to Mihira Bhoja by his Guhila feudatory Harsha (Hooja 2006). A fast light horseman is a fair image of a cavalry raised on desert-bred horses."
+relevance = "Cavalry excellence is the Gurjara kingdom's best-attested military trait, and the unit carries it under a name from the kingdom's own inscriptions."
+contested = "The name rests on a single epigraphic mention, whose meaning (literally ‘of illustrious lineage’) is uncertain, so it should not be read as an established breed; the ability to dodge projectiles is game invention."
 
 [[unique_tech]]
 name = "Samantas"
+building = "Town Center"
+kind = "civil"
 age = "Castle"
 effect = "Military Units cost -25% food"
 level = 1
 change = "changed"
 replaces = "Kshatriyas (Military Units cost -25% food)"
-precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras)"
+precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, moved to the Town Center and renamed, identical effect and age; the Byzantines' (Themata), Ethiopians' (Gult) and Jurchens' (Meng'an Mouke) drafts share it"
 basis = "The Pratihara empire was a hierarchy of samantas, subordinate rulers such as the Guhilas of Chatsu and the Chahamanas of Shakambhari, who served the overlord with contingents they raised and fed themselves; the later Rajput states rested on lineage lands held in return for service (Chattopadhyaya 1994; Hooja 2006). Hence an army that costs its king less food. Same effect, renamed: ‘Kshatriyas’ turned the varna that Rajput lineages claimed into a technology, and its effect had no link to the concept."
+relevance = "The samanta hierarchy is how the Pratiharas ruled and fought, and the later Rajput states grew out of it."
 contested = "How far the samanta system amounts to ‘feudalism’ is debated (R. S. Sharma against B. D. Chattopadhyaya)."
 
 [[unique_tech]]
 name = "Frontier Guards"
+building = "Castle"
+kind = "military"
 age = "Imperial"
 effect = "Camel Riders and Elephant Archers +4 melee armor"
 level = 1
 change = "kept"
 precedent = "Frontier Guards (Camel Riders and Elephant Archers +4 melee armor) (Gurjaras)"
-basis = "‘Pratihara’ means door-keeper, and the dynasty traced itself to Lakshmana, door-keeper of Rama. The Gwalior prashasti of Mihira Bhoja credits Nagabhata I with crushing the armies of a powerful mleccha ruler (the Arab governors of Sind, c. 730s), and Sulaiman (851) calls the Gurjara king the greatest enemy of the Arabs in India. The effect, armour for the camel and elephant corps that held the desert frontier, is an abstraction."
-contested = "The name is apt, the effect has no specific source (see open questions)."
+basis = "‘Pratihara’ means door-keeper, and the dynasty traced its descent to Lakshmana, door-keeper of Rama. The Gwalior prashasti of Mihira Bhoja credits Nagabhata I with crushing the armies of a powerful mleccha ruler (the Arab governors of Sind, c. 730s); the Akhbar (851) calls the Gurjara king the greatest enemy of the Muslims in India, and al-Mas'udi (c. 943) says that the king of Kannauj kept one of his four armies facing the Muslim ruler of Multan. The effect, armour for the camels and elephant archers of the western armies, is a game abstraction attached to an apt name: no source describes a dedicated camel-and-elephant frontier corps. It stays in the Imperial Age: with a single Castle tech RULES 6.4 sets no order, and +4 melee armour in the Castle Age would strengthen a civ that now also gains the Knight-line."
+relevance = "For three centuries the Pratiharas were the main Indian adversary of the Arab emirates of Sind and Multan, the role their name and inscriptions celebrate."
+contested = "The name has a rival, mocking reading in the Sanjan plates (871; see contested)."
 
 [tree]
-add = ["Battle Elephant"]
-remove = []
+add = ["Knight", "Cavalier", "Battle Elephant"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon"]
 
 [tree.basis]
-"Battle Elephant" = "Pratihara and Rajput armies fielded war elephants: the Hudud al-Alam (982) gives the rai of Kannauj 800 of them (via Hooja 2006), the Chatsu inscription praises the elephant force of the Guhila Harsha, and the Persian chronicles of Tarain (1191–92) put elephants in Prithviraj Chauhan’s army. Without the Elite upgrade, to keep the cavalry and camels at the centre of the civ."
+"Knight" = "Rajput armies fought above all as shock cavalry with lance and sword: at the first battle of Tarain (1191) Prithviraj Chauhan's army broke the Ghurid wings and wounded Muhammad of Ghur (Minhaj), and at Khanwa (1527) Rana Sanga's horsemen charged Babur's line (Baburnama). The contrast at Tarain (1192) was between this cavalry and the Turkish horse archers, so the Cavalry Archer stays out."
+"Cavalier" = "Same basis; no Paladin. The Hindustanis keep only the Knight, so the full Knight-line marks the Rajput shock cavalry."
+"Battle Elephant" = "Pratihara and Rajput armies fielded war elephants: the Hudud al-Alam (982) gives the rai of Kannauj 800 of them (via Hooja 2006), the Chatsu inscription praises the elephant force of the Guhila Harsha, and Minhaj puts elephants in Prithviraj Chauhan's army at Tarain (1191–92). Without the Elite upgrade, to keep the cavalry and camels at the centre of the civ."
+"Hand Cannoneer" = "The Rajput kingdoms fought essentially without guns: at Khanwa (1527) Babur's matchlocks and field guns faced Rana Sanga's cavalry (Baburnama). The guns of the region inside the window belong to the Gujarat Sultanate (its fleet at Diu, 1508–09), which leaves this civ (see open questions and ideas)."
+"Bombard Cannon" = "Same basis; Rumi Khan's siege guns at Chittor (1535) served Bahadur Shah of Gujarat, after the window. The Trebuchet, the Mangonel-line, the Siege and Armored Elephants and the Petard keep the civ able to break buildings (RULES 6.11)."
+"Cannon Galleon" = "Same basis: gun-armed ships belong to the Gujarati fleet of Malik Ayaz, not to the Rajput kingdoms; the Galleon line, Fire Ships and Demolition Ships remain."
 
 [architecture]
 set = "South Asian"
@@ -142,4 +158,9 @@ basis = "Kept: the South Asian set suits the temples, palaces and hill-forts of 
 [[dropped]]
 item = "Chakram Thrower"
 kind = "unique_unit"
-reason = "No source links the chakram to the Pratiharas or to Rajput armies; it is first described by Duarte Barbosa (c. 1516) in the ‘kingdom of Delli’ and later became the weapon of the Sikh Akali Nihangs of the Punjab. Moved to the Hindustanis, as the analysis suggests. The Gurjaras keep two unique units."
+reason = "Dropped from the game (RULES section 2 and 6.9). Its only evidence is Duarte Barbosa (c. 1516), whose chapter on the ‘kingdom of Delli’ also describes the wandering yogis of that kingdom, so whether the steel rings (chacarani) were soldiers' weapons must still be read in Dames' edition (1918); in any case it is a late element, and no source links it to the Pratiharas or to Rajput armies, nor shows Sultanate armies fighting with it. Its fame belongs to the Sikh Akali Nihangs of the 17th–19th centuries, outside the time frame. The first draft's move to the Hindustanis is withdrawn."
+
+[[dropped]]
+item = "Camel Scout"
+kind = "unique_unit"
+reason = "Relevance test (RULES 6.9): military camel scouts are not documented for the Pratihara period, and the camel troops of the Bikaner state (the city was founded in 1488), culminating in the 19th-century Ganga Risala, are later. The camel, which the Akhbar (851) reports in numbers in the Gurjara kingdom, stays in the civ through the Camel Rider line and Frontier Guards; the civ starts with a Scout Cavalry like most civs."
