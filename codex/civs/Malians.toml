@@ -169,7 +169,7 @@ from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Mali's craft were dugout canoes: Ibn Battuta travelled down the Niger from Timbuktu (1353) in a small boat carved from a single piece of wood (Levtzion and Hopkins, 1981), and canoes of archers attacked Cadamosto's caravels on the Gambia with poisoned arrows (1455) (see the Carrack). The Scenario Editor's Canoe (RULES section 5; codex/tools/scenario-units.md), a light boat that shoots arrows like the Galley, gives the Galley the look of a dugout war canoe, which fits the boat tier far better than a Mediterranean galley; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as in the Aztec, Maya, Mapuche and Tupi designs. No Mande name for the war canoe is secure in the sources used here, so the generic English name is used."
+basis = "Mali's craft were dugout canoes: Ibn Battuta travelled down the Niger from Timbuktu (1353) in a small boat carved from a single piece of wood (Levtzion and Hopkins, 1981), and canoes of archers attacked Cadamosto's caravels on the Gambia with poisoned arrows (1455) (see the Carrack). The Scenario Editor's Canoe (RULES section 5; codex/tools/scenario-units.md), a light boat that shoots arrows like the Galley, gives the Galley the look of a dugout war canoe, which fits the boat tier far better than a Mediterranean galley; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as in the Aztec, Avar, Mapuche, Maya and Tupi designs. No Mande name for the war canoe is secure in the sources used here, so the generic English name is used."
 
 [[rename]]
 from = "War Galley"
