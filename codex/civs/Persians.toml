@@ -1,0 +1,139 @@
+civ = "Persians"
+name = "Persians"
+status = "draft"
+label = "Cavalry and Archer civilization"
+summary = "Persians as Iran from the late Sasanians to the Timurids (c. 500–1507): War Elephant, Savar, Kamandaran, Citadels, Parthian Tactics, the Caravanserai and the team bonus stay; the unfounded starting resources and the stretched Town Center bonus give way to qanat farming and Procopius' fast-shooting archers; Bracer, Keep, Fortified Wall and Heresy enter the tree, the Elite Cannon Galleon leaves, and the architecture becomes Central Asian."
+ideas = [
+  "N2: Daylamite infantry (sword, javelins and shield; Procopius, Wars VIII.14; founders of the Buyid dynasty) as a unique Barracks unit with a javelin thrown before melee (the Hearth Troop's mechanic), filling the missing heavy-infantry tier.",
+  "N2: Kamandaran as Procopius describes Persian archery, faster but weaker: Archer-line attacks faster with -1 attack (a negative attack effect does not exist in the game).",
+  "N2: A ‘Wall of Gorgan’ technology: Stone Walls and towers +20% HP and built faster (Sauer et al., 2013).",
+  "N2: Asvaran who both shoot and charge, using the Ratha's mode switch on a heavy cavalry graphic.",
+  "N3: A separate Timurid civ (1370–1507), or a distinct Timurid phase of the Persians, with the Flaming Camel and Timurid Siegecraft that the Tatars' draft drops.",
+  "N3: Split late antique Sasanian Iran and Islamic Persianate Iran into two civs.",
+]
+contested = [
+  "Dating and attribution of the Wall of Gorgan (5th or 6th century; Sauer et al., 2013, favour the 5th).",
+  "Tactical weight of the Sasanian elephants: a decisive arm or mainly prestige.",
+  "End of the Sasanian empire: Qadisiyya (636/637), Nahavand (642) or the death of Yazdegerd III near Merv (651); regional resistance (Tabaristan) lasted into the 8th century.",
+  "Procopius' comparisons of Roman and Persian archery serve his praise of Belisarius' army and may be biased.",
+  "Pre-Islamic or Islamic origin of the caravanserai; the dating of the road stations attributed to the Sasanians.",
+  "Including the Timurids, a Turco-Mongol dynasty with a Persianate court, in ‘Persians’ is a choice: they ruled Iran and Khorasan and patronised Persian letters and building, but were not Persians.",
+]
+open_questions = [
+  "Timurid phase: the Tatars' draft drops Timurid Siegecraft and the Flaming Camel and leaves them to the Persians or a future Timurid civ, and the Mongols' draft considers Timurid Siegecraft as ‘Huihui Pao’. Should the Persians take Timurid Siegecraft (in place of Citadels) and/or the Flaming Camel? Not done here: Citadels and Kamandaran cover the whole window, and the Flaming Camel rests on weak sources.",
+  "Arbalester stays out: Procopius describes Persian archery as faster but weaker, which this draft translates as a rate-of-fire bonus without the top damage tier; Bracer is added. The analysis asked for both Bracer and Arbalester. Add the Arbalester too?",
+  "Gunpowder: Hand Cannoneer, Bombard Cannon and Cannon Galleon are kept for the end of the window (Aq Qoyunlu and early Safavid firearms); only the Elite Cannon Galleon goes. Remove them all, since the window closes with the Timurids?",
+  "The Town Center bonus is the Persians' best-known feature, replaced here as stretched. Keep it instead of the archer bonus?",
+  "Two-Handed Swordsman and Champion stay out (the Sasanian peasant infantry had low status); the Daylamites would justify an infantry unit (see ideas).",
+]
+
+[profile]
+entity = "Iran (Ērānshahr): the late Sasanian Empire and the Persian-speaking states of Islamic Iran and Khorasan, from the Samanids and Buyids to the Timurids"
+region = "Iranian plateau, Mesopotamia, Khorasan and Transoxiana"
+window = "c. 500–1507 (Sasanian core 500–651)"
+sources = [
+  "Procopius of Caesarea, Wars (Persian Wars)",
+  "Ammianus Marcellinus, Res Gestae",
+  "Maurice, Strategikon (c. 600)",
+  "al-Tabari, Ta'rikh (Sasanian section, trans. C. E. Bosworth, 1999)",
+  "Ferdowsi, Shahnameh (c. 1010)",
+  "Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire (2009)",
+  "Parvaneh Pourshariati, Decline and Fall of the Sasanian Empire (2008)",
+  "Eberhard W. Sauer et al., Persia's Imperial Power in Late Antiquity: The Great Wall of Gorgan (2013)",
+  "Beatrice Forbes Manz, The Rise and Rule of Tamerlane (1989)",
+  "Encyclopaedia Iranica (entries ‘Aswaran’, ‘Caravansary’, ‘Elephant’, ‘Qanat’)",
+]
+
+[[bonus]]
+text = "Farms +10% food; Mill technologies cost -50%"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Start with +50 wood and +50 food"
+precedent = "Farms +10% food (Chinese team bonus); Mill technologies free (Franks); Stable technologies cost -50% (Burgundians)"
+basis = "Qanats, gently sloping tunnels that bring groundwater to the surface, watered the farms and towns of the Iranian plateau from Achaemenid times; al-Karaji wrote a treatise on finding and digging them (Inbat al-miyah al-khafiya, early 11th century). The starting resources had no historical referent."
+
+[[bonus]]
+text = "Archer-line and Cavalry Archers attack +10% faster"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age"
+precedent = "Foot Archers attack +18% faster (Ethiopians); Cavalry Archers attack +25% faster (Mongols)"
+basis = "Procopius (Wars I.18) says almost all Persians were archers and shot much faster than the Romans, though their weaker bows made each arrow less dangerous; the Strategikon (c. 600) treats the Persian arrow-storm as the main threat to meet. The Town Center and Dock bonus had only a stretched link with Sasanian city foundations and the Gulf ports."
+contested = "Procopius may exaggerate the contrast to praise Roman archery."
+
+[[bonus]]
+text = "Parthian Tactics available in Castle Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Parthian Tactics available in Castle Age (Persians)"
+basis = "The Iranian tradition of mounted archery runs from the Parthians to the Sasanian asvaran, who also shot from horseback, and to the Turkmen horsemen of later Iran. The name refers to the Arsacid Parthians whom the Sasanians overthrew in 224, but the technique is Iranian."
+
+[[bonus]]
+text = "Can build Caravanserai in Imperial Age"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Can build Caravanserai in Imperial Age (Persians)"
+basis = "Kārvānsarā is a Persian word and Iran is the home of the type: Seljuk ribats such as Ribat-i Sharaf (12th century) and road stations attributed to the Sasanians; Iran lay across the Silk Road between China, India and the Mediterranean. Shared with the Hindustanis."
+contested = "The dating of the Sasanian road stations is debated."
+
+[team_bonus]
+text = "Knight-line +2 attack vs. Ranged Soldiers"
+level = 1
+change = "kept"
+precedent = "Knight-line +2 attack vs. Ranged Soldiers (Persians team bonus)"
+basis = "Armoured lancers charging archers: an acceptable abstraction of the asvaran's battlefield role, with no specific referent."
+
+[[unique_unit]]
+name = "War Elephant"
+model = "War Elephant"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "Sasanian armies brought Indian elephants to Avarayr (451), the Battle of the Bridge (634) and Qadisiyya (636/637), where they at first frightened the Arab horses (al-Tabari); later Persianate rulers used them too, from the Ghaznavids to Timur, who fought with elephants taken from Delhi at Ankara (1402). Trample damage is a reasonable abstraction."
+
+[[unique_unit]]
+name = "Savar"
+model = "Savar"
+building = "Stable"
+level = 1
+change = "kept"
+basis = "Savār means ‘horseman’ in Persian; the asvaran were the armoured noble cavalry of the Sasanians, the clibanarii of Roman sources. Heavy cavalry strong against ranged units is a reasonable role; these horsemen also used the bow."
+
+[[unique_tech]]
+name = "Kamandaran"
+age = "Castle"
+effect = "Archer-line gold cost replaced by additional wood cost"
+level = 1
+change = "kept"
+precedent = "Kamandaran (Archer-line gold cost replaced by additional wood cost) (Persians)"
+basis = "Kamāndārān, ‘bowmen’. Procopius (Wars I.18) describes Persian armies as almost all archers; cheaper, more numerous archers translate this reasonably, though trading gold for wood is arbitrary."
+
+[[unique_tech]]
+name = "Citadels"
+age = "Imperial"
+effect = "Castles +4 attack, +3 vs. Rams, +3 vs. Infantry and receive -25% bonus damage"
+level = 1
+change = "kept"
+precedent = "Citadels (Castles +4 attack, +3 vs. Rams, +3 vs. Infantry and receive -25% bonus damage) (Persians)"
+basis = "Sasanian fortress cities and frontier forts (Nisibis, Persian from 363; the forts of the Gorgan and Derbent walls) and the Nizari Ismaili castles of Iran (Alamut and its sister fortresses, 1090–1256), which held out against Seljuk armies for generations. Keep and Fortified Wall now enter the tree, removing the contradiction the analysis noted."
+
+[tree]
+add = ["Bracer", "Keep", "Fortified Wall", "Heresy"]
+remove = ["Elite Cannon Galleon"]
+
+[tree.basis]
+"Bracer" = "Archery was the Persian arm par excellence (Procopius; the Strategikon), so the archers' Blacksmith line should be complete; the Arbalester stays out (see the archer bonus and open questions)."
+"Keep" = "The Wall of Gorgan (c. 195 km with more than 30 forts; Sauer et al., 2013), the Tammisha wall and the walls of Derbent (Khosrow I, 6th century) were among the largest fortification works of late antiquity; Citadels without Keeps was incoherent."
+"Fortified Wall" = "As Keep: the great Sasanian barrier walls against the northern nomads (Gorgan, Tammisha, Derbent)."
+"Heresy" = "Zoroastrianism was the Sasanian state religion and apostasy was a capital crime: Persian nobles who became Christians were executed, as the Syriac martyr acts record (for example Mihrmahgushnasp, baptised Giwargis, executed in 615). Its absence was ironic."
+"Elite Cannon Galleon" = "Iran had no ocean-going gun fleet: even the Safavids needed English East India Company ships to take Hormuz from the Portuguese in 1622."
+
+[architecture]
+set = "Central Asian"
+change = "changed"
+replaces = "Middle Eastern"
+basis = "Owner's decision. The Central Asian set draws on Timurid brick and glazed-tile building (Samarkand, Herat), the last Persianate phase of the window, and suits Iranian domes and iwans better than the generic Middle Eastern set."

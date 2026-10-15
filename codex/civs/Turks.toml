@@ -1,0 +1,127 @@
+civ = "Turks"
+name = "Turks"
+status = "draft"
+label = "Gunpowder civilization"
+summary = "Turks kept as the Seljuks of Rum and above all the Ottomans (1071–1526), one of the best-founded designs in the game: all bonuses, the Janissary, Sipahi, Artillery and the team bonus stay, the gold-mining bonus is re-based on the Balkan silver mines, Siege Engineers and Herbal Medicine enter the tree, and the Hussar becomes the Akıncı."
+ideas = [
+  "N2: Mehter: the Janissary military band as a support unit with an aura (the Centurion's mechanic) that speeds up nearby infantry and gunpowder units.",
+  "N2: Ok Meydanı: a Turkish composite-bow technology (Archer-line and Cavalry Archers +1 range) once the Archer and Crossbowman lines are split; the early Janissaries were archers and Mehmed II founded the Ok Meydanı range in Istanbul after 1453.",
+  "N2: Tersane-i Amire: an arsenal technology (Galley-line HP, cheaper Docks) for the fleet of the Golden Horn, Preveza (1538) and the Red Sea and Indian Ocean campaigns against the Portuguese.",
+  "N2: An early-ages Seljuk profile (Oghuz horse archers, the feigned retreats of Manzikert 1071 and Dorylaeum 1097) with gunpowder reserved for the Imperial Age.",
+  "N3: A separate Seljuk civ (1037–1308), leaving the Turks as the Ottomans.",
+]
+contested = [
+  "The ‘gazi thesis’ of Ottoman origins: Wittek (1938) against Lindner (1983), Kafadar (1995) and Lowry (2003).",
+  "When the Janissaries adopted firearms (1440s or 1460s).",
+  "Figures for the siege of 1453 (guns and Janissaries) in Kritovoulos, Barbaro and Doukas; modern estimates put the corps well below 15,000.",
+  "The alleged printing bans of Bayezid II (1485) and Selim I (1515), questioned by Kathryn Schwartz (2017); Block Printing stays out.",
+  "The ‘gunpowder empires’ model (Hodgson, McNeill) against Streusand and Ágoston.",
+]
+open_questions = [
+  "Name: rename to ‘Ottomans’, as the analysis proposes? The design is Ottoman and the Seljuks are thin. Not decided, so the current name is kept.",
+  "Tabur: share the Bohemian Hussite Wagon (as a second unique unit or through a technology) for the Ottoman wagon forts of Chaldiran (1514) and Mohács (1526), which followed Hungarian and Hussite models? N1-feasible, not done because the Ottoman use is late and both unique techs are kept.",
+  "Archery on foot: the Turkish composite bow has no expression (no Arbalester, no Elite Skirmisher). Add the Arbalester as a generic quality tier now, or wait for the N2 bow/crossbow split?",
+  "Navy: no Fast Fire Ship and no naval bonus despite the 16th-century fleet, whose peak (Preveza 1538, Djerba 1560) falls after 1500. Leave it?",
+]
+
+[profile]
+entity = "The Turkish sultanates of Anatolia and the Balkans: the Seljuks of Rum and, above all, the Ottoman Empire"
+region = "Anatolia and the Balkans"
+window = "1071–1526 (Ottoman core 1389–1526)"
+sources = [
+  "Michael Attaleiates, History (Manzikert, 1071)",
+  "Aşıkpaşazade, Tevârîh-i Âl-i Osman",
+  "Kritovoulos, History of Mehmed the Conqueror",
+  "Konstantin Mihailović, Memoirs of a Janissary",
+  "Halil İnalcık, The Ottoman Empire: The Classical Age 1300–1600 (1973)",
+  "Cemal Kafadar, Between Two Worlds: The Construction of the Ottoman State (1995)",
+  "Colin Imber, The Ottoman Empire, 1300–1650 (2002)",
+  "Gábor Ágoston, Guns for the Sultan (2005)",
+  "A. C. S. Peacock, The Great Seljuk Empire (2015)",
+  "Carole Hillenbrand, Turkish Myth and Muslim Symbol: The Battle of Manzikert (2007)",
+]
+
+[[bonus]]
+text = "Gold miners work +25% faster"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Gold miners work +25% faster (Turks)"
+basis = "Re-based: in the game gold stands for coin metal, and the Ottomans took the great Balkan silver mines (Novo Brdo in 1455, Srebrenica, Kratovo), kept their Saxon mining law (the kanun-i sas) and struck the silver akçe from their output; Serbian miners from Novo Brdo dug under the walls of Constantinople in 1453."
+contested = "The metal was silver, not gold, and mining was a modest share of Ottoman revenue next to land taxes and customs; the original link to gold mining was rated stretched."
+
+[[bonus]]
+text = "Scout Cavalry-line +1 pierce armor and upgrades free"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Scout Cavalry-line +1 pierce armor and upgrades free (Turks)"
+basis = "The akıncı, light raiding horsemen of the frontier families (Mihaloğlu, Evrenosoğlu), and before them the Turkmen light cavalry of the Seljuks, were a large and cheap arm of every Turkish army."
+
+[[bonus]]
+text = "Chemistry free; Gunpowder technologies cost -50%"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Chemistry free; Gunpowder technologies costs -50% (Turks)"
+basis = "State production of powder and guns: the imperial cannon foundry (Tophane-i Amire) in Istanbul after 1453, founders such as Orban, and state control of saltpetre (Ágoston, 2005). The in-game text reads “Chemistry free; Gunpowder technologies costs -50%”; only the grammar is corrected here."
+
+[[bonus]]
+text = "Gunpowder Units +25% HP"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Gunpowder Units +25% HP (Turks)"
+basis = "An abstraction of the discipline and professionalism of the salaried household troops (kapıkulu), above all the Janissaries."
+
+[team_bonus]
+text = "Gunpowder Units train +25% faster"
+level = 1
+change = "kept"
+precedent = "Gunpowder Units train +25% faster (Turks team bonus)"
+basis = "An abstraction of Ottoman military logistics and state arms production (Ágoston, 2005)."
+
+[[unique_unit]]
+name = "Janissary"
+model = "Janissary"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The yeniçeri (‘new troops’) were formed under Murad I (c. 1363–1380) from the sultan's fifth of war captives (pençik) and later from the devşirme levy of Christian boys; they began as archers and took up firearms from the mid-15th century. The unit represents the Janissary of c. 1450–1600 well."
+
+[[unique_tech]]
+name = "Sipahi"
+age = "Castle"
+effect = "Mounted Archers +20 HP"
+level = 1
+change = "kept"
+precedent = "Sipahi (Mounted Archers +20 HP) (Turks)"
+basis = "The sipahis, both the provincial timar-holders and the household cavalry of the Porte, combined the composite bow with lance and mace; sturdier mounted archers are a fair translation."
+
+[[unique_tech]]
+name = "Artillery"
+age = "Imperial"
+effect = "Bombard Towers, Bombard Cannons, Cannon Galleons +2 range"
+level = 1
+change = "kept"
+precedent = "Artillery (Bombard Towers, Bombard Cannons, Cannon Galleons +2 range) (Turks)"
+basis = "Ottoman superiority in siege artillery is well documented: Orban's great bombard at Constantinople (1453), Munir Ali's Dardanelles Gun (1464), the sieges of Rhodes (1480, 1522) and Belgrade (1521)."
+
+[tree]
+add = ["Siege Engineers", "Herbal Medicine"]
+remove = []
+
+[tree.basis]
+"Siege Engineers" = "Ottoman siege engineering, especially mining (lağımcı), was among the most developed of its time: miners worked under the walls of Constantinople (1453) and were decisive at Rhodes (1522) and in the first siege of Vienna (1529)."
+"Herbal Medicine" = "Seljuk and Ottoman rulers founded great hospitals (darüşşifa): Gevher Nesibe in Kayseri (1206), Divriği (1228–1229) and the hospital of Bayezid II's complex at Edirne (1488). The absence was ironic."
+
+[[rename]]
+from = "Hussar"
+to = "Akıncı"
+level = 1
+basis = "The akıncı (‘raider’) were the Ottoman light horsemen who raided ahead of the army into Hungary, Austria and Italy (Friuli, 1477–1499); the word hussar itself probably comes, through Serbian, from a word for raider. Same function, identical effect."
+
+[architecture]
+set = "Middle Eastern"
+change = "kept"
+basis = "Seljuk and early Ottoman stone building (Konya, Bursa, Edirne) fits the Middle Eastern set; a Rumi-Ottoman set would be N3."

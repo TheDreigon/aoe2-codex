@@ -1,0 +1,141 @@
+civ = "Malians"
+name = "Malians"
+status = "draft"
+label = "Infantry and Archer civilization"
+summary = "Malians as the Mali Empire of the Mande (c. 1235–1600): adobe building, gold, armoured infantry, Farimba and the Timbuktu team bonus stay; the Dahomey Gbeto gives way to the Tontajon, the Mande ‘quiver-bearers’, Tigui to poisoned arrows, and a hunters' bonus is added; the gunpowder units, Siege Onager, cavalry archers and Arbalester leave, and Bracer enters."
+ideas = [
+  "N2: Jeli (griot): a support unit with an aura (the Centurion's mechanic) that hastens nearby units, for the griots who exhorted warriors and kept the memory of Sunjata (Balla Fasseke).",
+  "N2: Niger war canoes: a fast, cheap river warship with arrows in place of the Galleon tier, for Sonni Ali's fleet and the Sorko and Bozo boatmen (Tarikh al-Sudan).",
+  "N2: A Tontajon with its own unit (Mande dress, self bow, damage-over-time poison) built from existing mechanics, instead of the Composite Bowman model.",
+  "N3: A Songhay civ (1464–1591) with Timbuktu's scholarly peak and the river fleet, and a Ghana (Wagadu) civ or phase, leaving the Malians to the Mali Empire.",
+  "N3: Sahelian siege warfare by blockade and assault (Sonni Ali's long siege of Djenné) instead of the Trebuchet and the Mangonel-line.",
+]
+contested = [
+  "The tontajon clans and the Kurukan Fuga ‘charter’ are known from oral tradition recorded in the 20th century; their exact form and date are debated.",
+  "Abu Bakr II's Atlantic voyage, reported by Mansa Musa to al-Umari's informants.",
+  "The Almoravid conquest of Ghana in 1076 (Conrad and Fisher, 1982–1983).",
+  "The dates of Mansa Musa's reign (1312–1337 or 1307–1332) and the site of the capital (Niani or elsewhere; Fauvelle).",
+  "The founding and date of the Sankore mosque, attributed by al-Sa'di to a wealthy woman.",
+  "The etymology of Farimba and Tigui as used by the game.",
+]
+open_questions = [
+  "Name: ‘Mandinka’ or ‘Mali Empire’ instead of ‘Malians’ (the name the modern republic took in 1960)? Not decided, so the current name is kept.",
+  "Unique unit: the Tontajon reuses the Armenian Composite Bowman (renamed Aghegnavor in the Armenians' draft): an archer that ignores armour, which stands in for poisoned arrows, but the model shows a Caucasian archer with a composite bow. Alternative: the Genitour as Sahelian javelin cavalry (Robin Law, The Horse in West African History, 1980), already shared by the Berbers, Portuguese and Lithuanians. Which do you prefer?",
+  "Trebuchet and Onager stay as the generic anti-building and anti-mass engines although there is no evidence of torsion or traction artillery in the Sahel; only the Siege Onager and the gunpowder pieces leave. Remove the Trebuchet too, with infantry and rams as the substitute?",
+  "Camel Rider and Heavy Camel Rider stay for the Saharan peoples inside the empire (Massufa, Tuareg), although the Mande armies rode horses. Remove them, as in the Ethiopians' draft?",
+  "The Barracks pierce-armour bonus is kept as an abstraction of hide and reed shields, but its basis is thin. Replace it with an archer bonus (e.g. cheaper Archer-line, as for the Mayans)?",
+]
+
+[profile]
+entity = "The Mali Empire (Manden Kurufaba) of the Mande (Maninka) under the Keita mansas"
+region = "Western Sudan: the upper and middle Niger, Senegambia and the southern Saharan towns (Walata, Timbuktu, Gao)"
+window = "c. 1235–1600 (core 1235–1400)"
+sources = [
+  "al-Bakri (1068), al-Umari (c. 1337–1340), Ibn Battuta (visit of 1352–1353) and Ibn Khaldun, in N. Levtzion and J. F. P. Hopkins, Corpus of Early Arabic Sources for West African History (1981)",
+  "al-Sa'di, Tarikh al-Sudan (c. 1655)",
+  "Gomes Eanes de Zurara, Crónica da Guiné (c. 1453)",
+  "Alvise Cadamosto, Navigazioni (voyages of 1455–1456)",
+  "D. T. Niane, Soundjata ou l'épopée mandingue (1960)",
+  "Nehemia Levtzion, Ancient Ghana and Mali (1973)",
+  "Robin Law, The Horse in West African History (1980)",
+  "François-Xavier Fauvelle, Le rhinocéros d'or (2013)",
+  "Michael A. Gomez, African Dominion (2018)",
+]
+
+[[bonus]]
+text = "Buildings cost -15% wood"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Buildings cost -15% wood (Malians)"
+basis = "Sudano-Sahelian architecture builds in banco (earth) with few palm-wood beams (toron); the Djinguereber mosque of Timbuktu (c. 1327, attributed to Abu Ishaq al-Sahili for Mansa Musa) is the classic example."
+
+[[bonus]]
+text = "Villagers drop off +10% more gold"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Villagers drop off +10% more gold (Malians)"
+basis = "Mali controlled the goldfields of Bambuk and Bure; according to al-Umari, Mansa Musa's passage through Cairo on pilgrimage (1324) depressed the value of gold there for years."
+
+[[bonus]]
+text = "Barracks Units +1/+2/+3 pierce armor in Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Barracks Units +1/+2/+3 pierce armor in Feudal/Castle/Imperial Age (Malians)"
+basis = "Mali's army was above all infantry: al-Umari's informants put it at about 100,000 men, of whom about 10,000 were horsemen, and the foot soldiers fought with spears, javelins and bows. The extra pierce armour abstracts the hide and woven shields of Sahelian foot soldiers."
+contested = "No source shows Mande infantry as especially protected against missiles; the bonus is largely a balance choice, kept to preserve the civ's infantry identity."
+
+[[bonus]]
+text = "Hunters work +20% faster"
+kind = "economic"
+level = 1
+change = "new"
+precedent = "Hunters work +40% faster (Mongols)"
+basis = "The Mande hunters' associations (donso) were masters of the bow and of the bush; hunters and hunter-kings run through the Sunjata epic, and hunters served as scouts and archers. The original civ had only three passive bonuses."
+contested = "The medieval antiquity of the donso associations rests on oral tradition and later ethnography."
+
+[team_bonus]
+text = "Universities work +80% faster"
+level = 1
+change = "kept"
+precedent = "Universities work +80% faster (Malians team bonus)"
+basis = "Timbuktu (Djinguereber, Sankore, Sidi Yahya) became a great centre of Islamic learning and manuscript copying, with its peak in the Songhay period (Ahmad Baba, 1556–1627)."
+contested = "‘University’ is anachronistic: learning was organised in circles of teachers around the mosques."
+
+[[unique_unit]]
+name = "Tontajon"
+model = "Composite Bowman"
+building = "Castle"
+level = 1
+change = "new"
+replaces = "Gbeto"
+basis = "Mande tradition gives Sunjata's army the tontajon, the ‘quiver-bearers’ (ton-ta-jon), sixteen warrior clans that formed the military arm of the Manden; archers were the mass of Mande infantry, their arrows were poisoned (see Poisoned Arrows), and Ibn Battuta (1352) saw the mansa himself come to audience with a bow in his hand and a quiver on his back. The Composite Bowman's armour-ignoring shot stands in for poison, which armour does not stop. The Gbeto came from the Fon kingdom of Dahomey (18th–19th centuries), far from Mali in place and time."
+contested = "The tontajon clans are known from oral tradition; and the model shows a composite bow, whereas Mande bows were simple bows."
+
+[[unique_tech]]
+name = "Poisoned Arrows"
+age = "Castle"
+effect = "Foot Archers and Fortifications deal poison damage"
+level = 1
+change = "new"
+replaces = "Tigui (Town Centers fire arrows without garrison)"
+precedent = "Curare (Foot Archers and Fortifications deal poison damage) (Tupi): an existing unique tech, renamed with an identical effect"
+basis = "West African archers poisoned their arrows: Zurara's Chronicle of Guinea tells how Nuno Tristão and most of his crew died of poisoned arrows near the Gambia (1445/1446), and Cadamosto met poison-arrow archers on the Gambia (1455–1456), whose Mandinka lords he describes as subjects of the ‘emperor of Melli’. Tigui (tigi, ‘master’, a truncated Mande title) had no concrete referent."
+contested = "The coastal peoples who killed Nuno Tristão are not named in the sources; the evidence comes from the western fringe of the empire."
+
+[[unique_tech]]
+name = "Farimba"
+age = "Imperial"
+effect = "Cavalry +5 attack"
+level = 1
+change = "kept"
+precedent = "Farimba (Cavalry +5 attack) (Malians)"
+basis = "The name evokes the farin or farba, the Mande governors and military commanders mentioned by Ibn Battuta; the horsemen, mounted on costly horses brought across the Sahara, were the warrior aristocracy (Law, 1980)."
+contested = "The exact etymology used by the game is unconfirmed."
+
+[tree]
+add = ["Bracer"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Cavalry Archer", "Heavy Cavalry Archer", "Arbalester"]
+
+[tree.basis]
+"Bracer" = "Archers were the mass of Mande infantry (the tontajon); lacking Bracer while having the Arbalester contradicted that tradition."
+"Hand Cannoneer" = "Neither Mali nor its Songhay successor used firearms: Songhay's army was routed at Tondibi (1591) by Judar Pasha's Moroccan arquebusiers precisely because it had none."
+"Bombard Cannon" = "As Hand Cannoneer: no gunpowder in the Western Sudan before the Moroccan invasion of 1591."
+"Cannon Galleon" = "No gunpowder and no sea-going navy; the civ also lacked the Galleon, so the Cannon Galleon was incoherent."
+"Siege Onager" = "No evidence of torsion artillery in the Sahel; towns were taken by blockade and assault (the long siege of Djenné in the Tarikh al-Sudan)."
+"Cavalry Archer" = "Sahelian horsemen fought with lance, javelins and sword, and the archers fought on foot (tech tree audit)."
+"Heavy Cavalry Archer" = "As Cavalry Archer."
+"Arbalester" = "The crossbow was unknown in the Sahel (the tech tree audit rates it unfounded); the Tontajon now fills the elite archer role, as the Armenians' draft does with its own archer unique unit."
+
+[[rename]]
+from = "Elite Composite Bowman"
+to = "Elite Tontajon"
+level = 1
+basis = "Follows the unique unit (Composite Bowman → Tontajon) for the Malians only."
+
+[architecture]
+set = "African"
+change = "kept"
+basis = "Sudano-Sahelian earth building (Djinguereber, Djenné, Walata) is what the African set represents."

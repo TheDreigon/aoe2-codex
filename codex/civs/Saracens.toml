@@ -1,0 +1,144 @@
+civ = "Saracens"
+name = "Saracens"
+status = "draft"
+label = "Camel and Naval civilization"
+summary = "Saracens kept as the Arab caliphates and Ayyubid–Mamluk Egypt and Syria (c. 630–1517): the trade, camel, galley and transport bonuses, the Mameluke, Bimaristan, Counterweights and the team bonus (re-read as the naffatun) stay; Mamluk furusiyya enters with a free Heavy Cavalry Archer upgrade and the Cavalier, the caliphal arsenals with Shipwright (renamed Dar al-Sina'a), Fast Fire Ships and Architecture, and the Hand Cannoneer leaves (Ayalon)."
+ideas = [
+  "N2: Remake the Mameluke as a horse-mounted archer-lancer that switches between bow and lance (the Ratha's mode switch) on an existing horse-archer graphic, instead of a camel rider throwing scimitars.",
+  "N2: A Naffat unit (naphtha thrower) with a short-range blast attack strong against buildings and siege engines, built from the existing grenade and fire mechanics.",
+  "N2: Barid: the state post with relay stations and carrier pigeons (Nur al-Din, Baybars) as a line-of-sight technology.",
+  "N3: Split the civ into Arabs (the caliphates, c. 630–1050, naval and commercial) and Mamluks (Egypt and Syria, 1250–1517, cavalry and siege), as Age of Empires IV separates the Abbasids and the Ayyubids.",
+]
+contested = [
+  "Origin of the counterweight trebuchet: Byzantine (Chevedden: in use by c. 1165) or Islamic (Murda al-Tarsusi's treatise for Saladin, c. 1187).",
+  "Ayalon's thesis (1956) that the Mamluk cavalry elite despised hand firearms, and that this weighed in the defeats of Marj Dabiq (1516) and Raydaniyya (1517), has been nuanced by later studies.",
+  "Watson's ‘Arab agricultural revolution’ (1974, 1983) against Decker (2009): Crop Rotation stays out of the tree.",
+  "Craft guilds (asnaf) in Islamic cities before the Ottomans: S. M. Stern (1970) against Massignon; Guilds stays out of the tree.",
+  "Dating of the first Arab siege of Constantinople (674–678 in Theophanes; 667–669 for Jankowiak; denied by Howard-Johnston) and of Poitiers/Tours (732 or 733).",
+]
+open_questions = [
+  "Name: keep ‘Saracens’ (a Greco-Latin exonym that medieval Christians applied to all Muslims) or rename to ‘Arabs’, as the analysis and the names theme recommend? Not decided, so the current name is kept.",
+  "Mameluke: kept, because the name and the anti-cavalry role are right and no existing unit fits better; the camel mount and the thrown scimitar are wrong (Mamluks were horse archers and lancers). N1 alternatives: the Cuman Kipchak renamed ‘Mamluk’ (the Bahri mamluks were Kipchaks, but the unit is a light horse archer already shared by Cumans, Georgians and the Lithuanians' Lipka Tatars), or the Persian Savar renamed (heavy cavalry strong against ranged units, but it would blur Saracens and Persians). Also: modernise the spelling to ‘Mamluk’?",
+  "Shipwright (renamed Dar al-Sina'a) and Fast Fire Ship are both added; with the Galley-line bonus this makes the Saracens a top naval civ. Keep both, or only one?",
+  "Bayt al-Hikma (University technologies cost -25%; precedent ‘Dock and University technologies cost -25%’, Italians) is N1-feasible for the Abbasid translation movement. Use it instead of the Transport Ships bonus?",
+  "Religious vocabulary: rename Monk and Monastery for the Muslim civs of this region (e.g. Sufi and Khanqah, Ribat for the Berbers)? Not done, to keep the vocabulary consistent across regions until the owner decides.",
+]
+
+[profile]
+entity = "The Arab caliphates and the Arabic-speaking Islamic states of the Near East: Rashidun, Umayyad, Abbasid and Fatimid caliphates, the Ayyubids and the Mamluk Sultanate of Egypt and Syria"
+region = "Arabia, Syria, Iraq, Egypt and the southern and eastern Mediterranean"
+window = "c. 630–1517 (military core 1171–1517: Ayyubid and Mamluk Egypt and Syria)"
+sources = [
+  "al-Tabari, Ta'rikh al-rusul wa'l-muluk",
+  "al-Baladhuri, Futuh al-buldan",
+  "Baha al-Din ibn Shaddad, al-Nawadir al-sultaniyya (trans. D. S. Richards, The Rare and Excellent History of Saladin, 2001)",
+  "Murda al-Tarsusi, Tabsirat arbab al-albab (c. 1187)",
+  "al-Maqrizi, Kitab al-suluk",
+  "Hugh Kennedy, The Great Arab Conquests (2007); The Prophet and the Age of the Caliphates (3rd ed., 2016)",
+  "Fred M. Donner, The Early Islamic Conquests (1981)",
+  "David Ayalon, Gunpowder and Firearms in the Mamluk Kingdom (1956)",
+  "Reuven Amitai-Preiss, Mongols and Mamluks: The Mamluk-Ilkhanid War, 1260–1281 (1995)",
+  "Christophe Picard, La mer des califes (2015)",
+  "Michael W. Dols, ‘The Origins of the Islamic Hospital: Myth and Reality’, Bulletin of the History of Medicine 61 (1987)",
+  "J. D. Latham and W. F. Paterson, Saracen Archery (1970)",
+]
+
+[[bonus]]
+text = "Market trading fee only 5%; Markets cost -100 wood"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Market trading fee only 5%; Markets cost -100 wood (Saracens)"
+basis = "The Islamic world joined the Mediterranean, the Indian Ocean and the Sahara with a stable coinage (dinar and dirham), credit and transfer instruments (sakk, hawala, suftaja), suqs and funduqs; the Cairo Geniza letters show dense merchant networks (S. D. Goitein, A Mediterranean Society, 1967–1993). A low trading fee is a fair abstraction."
+
+[[bonus]]
+text = "Camel Units +25% HP"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Camel Units +25% HP (Saracens)"
+basis = "The dromedary gave the conquest armies their strategic mobility, as in Khalid ibn al-Walid's desert crossing to Syria in 634 (al-Baladhuri, al-Tabari), and remained the transport animal of every Arab and Mamluk army. An abstraction of the camel's hardiness."
+contested = "In battle the conquerors fought mostly on horseback or on foot (Yarmuk and Qadisiyya, 636); the camel served above all for transport."
+
+[[bonus]]
+text = "Galley-line attacks +25% faster"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Galley-line attacks +25% faster (Saracens)"
+basis = "Umayyad fleets of oared galleys beat the Byzantines at the Battle of the Masts (654/655) and attacked Constantinople (717–718); Aghlabid and Fatimid fleets held much of the central and eastern Mediterranean until the 11th century (Picard, 2015). Mamluk sea power was intermittent but real (Cyprus 1426, Rhodes 1440 and 1444, the Indian Ocean fleet of 1505–1509)."
+
+[[bonus]]
+text = "Transport Ships +100% HP, +20 carry capacity"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Transport Ships +100% HP, +20 carry capacity (Saracens)"
+basis = "Amphibious expansion: Cyprus (649), Rhodes (654 and 672–673), Crete (c. 827, by Andalusi exiles), Sicily (827–902) and the Balearics (902/903). An abstraction with concrete referents."
+
+[[bonus]]
+text = "Heavy Cavalry Archer upgrade free"
+kind = "military"
+level = 1
+change = "new"
+precedent = "Pikeman upgrade free (Ethiopians); Heavy Cavalry Archer upgrade available in Castle Age and costs -50% (Khitans)"
+basis = "The core of the Mamluk army was the armoured horse archer, also trained with lance and sword in the furusiyya of the barracks schools (tibaq) and the training grounds (maydan) of Cairo; manuals such as Taybugha's on archery (c. 1368; Latham and Paterson, 1970) codify the training. These troops defeated the Mongols at Ain Jalut (1260) and Homs (1281) (Ayalon; Amitai-Preiss, 1995). The original design had no trace of this, the civ's best-documented military trait."
+
+[team_bonus]
+text = "Foot Archers and Skirmishers +2 attack vs. buildings"
+level = 1
+change = "kept"
+precedent = "Foot Archers and Skirmishers +2 attack vs. buildings (Saracens team bonus)"
+basis = "Re-read as the naffatun, the naphtha troops of Abbasid, Ayyubid and Mamluk armies, who threw naphtha pots and shot incendiary arrows; at Acre in 1190 a young Damascene coppersmith burned the crusaders' siege towers with a naphtha mixture (Baha al-Din ibn Shaddad). The original had no stated referent."
+contested = "The naffatun were specialists rather than ordinary archers and skirmishers, so the target is an abstraction."
+
+[[unique_unit]]
+name = "Mameluke"
+model = "Mameluke"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "Mamluks were slave soldiers, mostly Kipchak Turks and from 1382 mostly Circassians, bought young and trained as the elite of the Ayyubid and Mamluk armies; they stopped the Mongols at Ain Jalut (1260) and Homs (1281) and took Acre (1291). The name and the role as an elite unit strong against cavalry are right."
+contested = "The depiction is wrong: Mamluks rode horses, not camels, and fought as heavy horse archers and lancers (Ayalon; Amitai-Preiss); the thrown scimitar is a game invention. Fixing it needs another model (N2, see ideas and open questions)."
+
+[[unique_tech]]
+name = "Bimaristan"
+age = "Castle"
+effect = "Monks passively heal multiple nearby units"
+level = 1
+change = "kept"
+precedent = "Bimaristan (Monks passively heal multiple nearby units) (Saracens)"
+basis = "The bimaristan (Persian bimar ‘sick’ + stan ‘place’) was the great Islamic hospital: Dols (1987) places the first in Baghdad in the early 9th century; Nur al-Din's in Damascus (1154) and Qalawun's al-Mansuri in Cairo (1284–1285), with specialised wards and medical teaching, followed."
+contested = "Bimaristans were staffed by physicians and funded by waqf endowments, not run by clergy; tying them to Monks is an abstraction."
+
+[[unique_tech]]
+name = "Counterweights"
+age = "Imperial"
+effect = "Trebuchets and Mangonel-line +15% attack"
+level = 1
+change = "kept"
+precedent = "Counterweights (Trebuchets and Mangonel-line +15% attack) (Saracens)"
+basis = "Murda al-Tarsusi's treatise for Saladin (c. 1187) contains one of the earliest clear descriptions of counterweight trebuchets; the Mamluks massed them against Acre (1291), and Muslim engineers from Ilkhanid Iran built them for the Mongols at Xiangyang (1273), where the Chinese called them huihui pao, ‘Muslim trebuchets’."
+contested = "A Byzantine origin is argued by Chevedden; extending the effect to the Mangonel-line is a game liberty."
+
+[tree]
+add = ["Cavalier", "Shipwright", "Fast Fire Ship", "Architecture"]
+remove = ["Hand Cannoneer"]
+
+[tree.basis]
+"Cavalier" = "Heavy mail-clad cavalry with lance and sword, sometimes on armoured horses (tijfaf), was the core of Fatimid, Ayyubid and Mamluk armies; stopping at the Knight contradicted the civ's best-documented military identity. The Paladin stays out."
+"Shipwright" = "Renamed Dar al-Sina'a (see the rename): the state arsenals of Tunis (c. 698), Alexandria and Rawda island at Fustat built the caliphal fleets. Its absence was ironic in a naval civ."
+"Fast Fire Ship" = "Islamic fleets used naphtha incendiaries at sea, as the Byzantines used their liquid fire; the fire-ship line had no top tier."
+"Architecture" = "Monumental building from the Dome of the Rock (691/692) and the Great Mosque of Damascus (705–715) to Samarra (836–892), al-Azhar (970–972) and Mamluk Cairo (Sultan Hasan, 1356–1363), and military works such as Saladin's Citadel of Cairo (from 1176)."
+"Hand Cannoneer" = "The Mamluks used cannon in sieges from the 1360s (the Bombard Cannon stays), but their cavalry elite despised hand firearms, left to a small low-status arquebusier corps formed only in the last decades of the sultanate (Ayalon, 1956); Ottoman firearms weighed in Marj Dabiq (1516) and Raydaniyya (1517). Removing it also sets the Saracens apart from the Turks."
+
+[[rename]]
+from = "Shipwright"
+to = "Dar al-Sina'a"
+level = 1
+basis = "Dār al-ṣināʿa, ‘house of manufacture’, the state naval arsenal (Tunis, Alexandria, Rawda); through Venetian it gave European languages the word ‘arsenal’. The function (a state shipyard that builds ships faster and cheaper) is a real equivalent; the effect is identical."
+
+[architecture]
+set = "Middle Eastern"
+change = "kept"
+basis = "Arab-Islamic building of Syria, Iraq and Egypt (domes, courtyards, minarets) is what the Middle Eastern set represents."

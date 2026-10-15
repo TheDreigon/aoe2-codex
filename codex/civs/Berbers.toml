@@ -1,0 +1,132 @@
+civ = "Berbers"
+name = "Berbers"
+status = "draft"
+label = "Cavalry and Naval civilization"
+summary = "Berbers as the Amazigh of the Maghreb and their dynasties, centred on the Almoravids and Almohads (c. 740–1550): the Genitour and its team bonus, cheap Stable units, fast ships and Kasbah stay; the unattested Camel Archer leaves, trans-Saharan trade and pastoralism replace the villager-speed bonus, the lamt-shielded ranks described by al-Bakri replace Maghrebi Camels, and Halberdier, Keep and Architecture enter the tree."
+ideas = [
+  "N2: A Murabit: Almoravid infantry with long spear and lamt shield, strong against cavalry and resistant to arrows, from existing mechanics and graphics, as the Castle unique unit.",
+  "N2: Tabl: the Almoravid war drums of Zallaqa (1086) as an aura that slows nearby enemies or hastens friendly infantry.",
+  "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on a Maghrebi Monastery graphic) for the frontier ribats of Monastir (796) and Sousse (821) and the murabitun who gave the Almoravids their name.",
+  "N2: Tabiya: cheaper and faster walls and towers of rammed earth (the walls of Marrakesh and Rabat, Seville's Torre del Oro, 1220–1221).",
+  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today split between the Berbers and the Saracens.",
+]
+contested = [
+  "‘Berber’ as a category shaped by medieval Arab genealogists and historians (Ramzi Rouighi, Inventing the Berbers, 2019).",
+  "The Almoravid conquest of Ghana in 1076 (Conrad and Fisher, ‘The Conquest that Never Was’, 1982–1983).",
+  "The impact of the Hilalian invasions of the 11th century (Ibn Khaldun against Poncet and Brett).",
+  "The earliest gunpowder in the Maghreb and al-Andalus (Sijilmasa 1274 in Ibn Khaldun; Baza 1324/1325; Algeciras 1342–1344).",
+  "Whether Ibn Yasin's ribat was a real fortified place or the name of a movement.",
+  "The origin of Tariq ibn Ziyad (Berber in most sources) and the make-up of the army of 711.",
+]
+open_questions = [
+  "Name: show the endonym (‘Berbers (Imazighen)’) or rename to ‘Maghrebis’? Not decided, so the current name is kept.",
+  "Without the Camel Archer the Berber Castle trains no unique unit: the Genitour comes, as in the current game, through the team bonus at the Archery Range (like the Portuguese Ginete and the Lithuanian Sulica Rider in their drafts). Also allow the Genitour, and its Elite upgrade, at the Castle?",
+  "Lamt has exactly the effect of the Lithuanian Tower Shields, which the Lithuanians' draft drops. Acceptable as a renamed copy?",
+  "Religious vocabulary: rename the Monastery ‘Ribat’ for the Berbers (the murabitun), alone or as part of a regional Islamic vocabulary (see the Saracens)?",
+  "Gunpowder (Hand Cannoneer, Bombard Cannon) stays for the Marinid and Nasrid 14th–15th centuries, though the earliest dates are contested. Agree?",
+  "Architecture: the repository data does not record sets; this draft assumes the Berbers currently use the Middle Eastern set. If they use another, the entry becomes a change to Middle Eastern.",
+]
+
+[profile]
+entity = "The Amazigh (Berber) peoples of the Maghreb and the states they founded: Zirids, Almoravids, Almohads, Marinids, Zayyanids and Hafsids"
+region = "The Maghreb and the western Sahara, with al-Andalus under Almoravid and Almohad rule"
+window = "c. 740–1550 (core 1040–1269: Almoravids and Almohads)"
+sources = [
+  "al-Bakri, Kitab al-masalik wa'l-mamalik (1068), in N. Levtzion and J. F. P. Hopkins, Corpus of Early Arabic Sources for West African History (1981)",
+  "Ibn Khaldun, Kitab al-'ibar (Histoire des Berbères, trans. de Slane)",
+  "Ibn Abi Zar, Rawd al-qirtas",
+  "Ibn Idhari, al-Bayan al-mughrib",
+  "al-Idrisi, Nuzhat al-mushtaq",
+  "Michael Brett and Elizabeth Fentress, The Berbers (1996)",
+  "Ronald A. Messier, The Almoravids and the Meanings of Jihad (2010)",
+  "Amira K. Bennison, The Almoravid and Almohad Empires (2016)",
+  "Hugh Kennedy, Muslim Spain and Portugal (1996)",
+  "Ramzi Rouighi, Inventing the Berbers (2019)",
+]
+
+[[bonus]]
+text = "Trade Units generate +15% gold"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age"
+precedent = "Trade Units generate +25% gold (Spanish team bonus)"
+basis = "The Almoravid movement rose among the Sanhaja who held the western trans-Saharan routes; they took Sijilmasa and Awdaghust (1054–1055) and struck gold dinars so trusted that Christian Iberia copied them as morabitinos (maravedís), minted in Portugal by Sancho I (Messier, 2010). The villager-speed bonus had only a stretched link with pastoral mobility."
+
+[[bonus]]
+text = "Shepherds work +25% faster"
+kind = "economic"
+level = 1
+change = "new"
+precedent = "Shepherds work +25% faster (Britons)"
+basis = "Herding was the base of Berber life: sheep, goats and camels of the Zenata and Sanhaja nomads and the seasonal transhumance of the mountain Masmuda, on which Ibn Khaldun builds his contrast between nomad and settled Berbers (Brett and Fentress, 1996)."
+
+[[bonus]]
+text = "Stable Units cost -15/20% in Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Stable Units cost -15/20% in Castle/Imperial Age (Berbers)"
+basis = "Horses were plentiful (the hardy Barb) and light horsemen were raised in large numbers from the tribes, far more cheaply than the heavy feudal cavalry of their Iberian enemies."
+
+[[bonus]]
+text = "Ships move +10% faster"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Ships move +10% faster (Berbers)"
+basis = "Light Maghrebi galleys: the Almohad fleet was respected enough for Saladin to ask for its help in 1189–1190, and Hafsid and Marinid fleets followed; the corsair peak (Salé, Algiers, Tunis) is mostly later."
+
+[team_bonus]
+text = "Genitour available at the Archery Range starting in Castle Age"
+level = 1
+change = "kept"
+precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus)"
+basis = "Riding à la gineta, with short stirrups, javelins and leather shield, passed from Zenata and Granadan horsemen to Castile and Portugal, and Zenata volunteers (ghuzat) served Nasrid Granada: one of the best-founded team bonuses in the game."
+
+[[unique_unit]]
+name = "Genitour"
+model = "Genitour"
+building = "Archery Range"
+level = 1
+change = "kept"
+basis = "Jinete/ginete comes from Zanati, ‘Zenata’: light horsemen with javelins and a leather shield (adarga) who fought by encircling, striking and withdrawing. Nasrid Granada and the Christian kingdoms adopted them, and the word entered Spanish and Portuguese. Also shared by the Portuguese (Ginete) and the Lithuanians (Sulica Rider) in their drafts."
+
+[[unique_tech]]
+name = "Kasbah"
+age = "Castle"
+effect = "Team Castles work +25% faster"
+level = 1
+change = "kept"
+precedent = "Kasbah (Team Castles work +25% faster) (Berbers)"
+basis = "The qasaba was the citadel of a Maghrebi town: the Kasbah of the Udayas in Rabat, fortified by the Almohads, and the kasbah of Marrakesh. The name is apt; the effect is an abstraction."
+
+[[unique_tech]]
+name = "Lamt"
+age = "Imperial"
+effect = "Spearman-line and Skirmishers +2 pierce armor"
+level = 1
+change = "new"
+replaces = "Maghrebi Camels (Camel Units regenerate 15 HP per minute)"
+precedent = "Tower Shields (Spearman-line and Skirmishers +2 pierce armor) (Lithuanians): an existing unique tech, renamed with an identical effect"
+basis = "al-Bakri (1068) describes the Almoravids fighting in close ranks, the front rank with long spears and the ranks behind throwing javelins, and the Saharan lamt shields of antelope hide made at Nul Lamta, prized in the Maghreb and al-Andalus; such ranks held the Castilian charge at Zallaqa/Sagrajas (1086). Maghrebi Camels (an abstraction of the dromedary's hardiness) gives way to the Almoravids' most distinctive tactic, which the original design lacked."
+contested = "Which antelope gave the lamt hide (oryx or addax) and how widely lamt shields were used beyond the Almoravid elite."
+
+[tree]
+add = ["Halberdier", "Keep", "Architecture"]
+remove = []
+
+[tree.basis]
+"Halberdier" = "The Almoravid infantry fought as a phalanx with long spears in the front rank (al-Bakri, 1068) and held cavalry charges at Zallaqa/Sagrajas (1086); stopping at the Pikeman contradicted their best-documented tactic."
+"Keep" = "Almohad military building in rammed earth (tabiya): the walls of Marrakesh and Rabat, the Torre del Oro in Seville (1220–1221), and the earlier coastal ribats of Monastir (796) and Sousse (821) with their towers."
+"Architecture" = "Almohad monuments such as the Kutubiyya in Marrakesh, the Hassan Tower in Rabat and the Giralda in Seville; the analysis notes the absence contradicted the civ's own history text."
+
+[architecture]
+set = "Middle Eastern"
+change = "kept"
+basis = "Maghrebi Islamic building (horseshoe arches, courtyards, square minarets, flat roofs) is closer to the Middle Eastern set than to the others; a Maghrebi-Andalusi set would be N3. See the open question on the current set."
+
+[[dropped]]
+item = "Camel Archer"
+kind = "unique_unit"
+reason = "No camel-mounted archer is attested as a Maghrebi troop type: the Saharan Sanhaja rode camels and camels appear in Almoravid armies (tradition places them at Zallaqa), but combat relied on javelins, spears and swords, with the bow secondary. The Elite Camel Archer goes with it; the generic Camel Rider line keeps the camels."
