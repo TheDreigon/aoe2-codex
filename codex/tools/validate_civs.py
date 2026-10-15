@@ -225,8 +225,8 @@ def validate(path, game):
 
     prof = doc.get('profile', {})
     need(r, prof, ['entity', 'region', 'window', 'sources'], '[profile]')
-    if prof.get('window') and not re.search(r'\d{3,4}\s*[–-]\s*(c\.\s*)?\d{3,4}', prof['window']):
-        r.warn(f'[profile] window should give a precise year range such as "1066–1485" (RULES section 1): {prof["window"]!r}')
+    if prof.get('window') and not re.match(r'\d{3,4}\s*[–-]\s*\d{3,4}', prof['window']):
+        r.warn(f'[profile] window should start with a precise year range such as "1066–1485", without "c." (RULES section 1): {prof["window"]!r}')
     if not isinstance(prof.get('sources', []), list):
         r.err('[profile] sources must be a list')
 
