@@ -50,6 +50,7 @@ sources = [
   "France V. Scholes & Ralph L. Roys, The Maya Chontal Indians of Acalan-Tixchel (1948)",
   "Anthony P. Andrews, Maya Salt Production and Trade (1983)",
   "Ross Hassig, Trade, Tribute, and Transportation (1985)",
+  "Elliot M. Abrams, How the Maya Built Their World: Energetics and Ancient Architecture (1994)",
   "Matthew Restall, Maya Conquistador (1998)",
 ]
 
@@ -276,4 +277,4 @@ basis = "Upgrade tier of the renamed Galley, with the same Canoe look (see Galle
 set = "Central American"
 level = 1
 change = "kept"
-basis = "The stepped temples, palaces and corbel-vaulted stone buildings of the existing Mesoamerican set fit the Maya."
+basis = "The stepped temples, palaces and corbel-vaulted stone buildings of the existing Mesoamerican set fit the Maya. Treadmill Crane, which the Maya hold in the game, keeps its generic name as a flagged abstraction of faster building (RULES 6.16.6): there were no cranes or treadwheels, and these buildings were raised by human labour alone, with stone quarried by hand and carried by porters without wheels or draft animals; energetic studies of Copán's buildings measure that work in person-days (Abrams 1994). Decision: it is flagged rather than renamed. The Aztecs' rename, Coatequitl, is a Nahuatl term, which the region avoids giving to another people (see Quilted Cotton Armor; Milpa, the standard term of Maya scholarship, is the one exception), and no Maya term for a labour draft with a period source was found in the sources used here."
