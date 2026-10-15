@@ -2,7 +2,7 @@ civ = "Turks"
 name = "Turks"
 status = "draft"
 label = "Gunpowder civilization"
-summary = "Turks kept as the Seljuks of Rum and above all the Ottomans (1071–1526), one of the best-founded designs in the game: the akıncı, gunpowder and Janissary bonuses, the Janissary and Artillery (Castle) stay; Sipahi moves to the Town Center as ‘Timar’, the land grants that raised the cavalry; the weak gold-mining bonus gives way to the Seljuk and Ottoman hans (Caravanserai); the team bonus is re-based on Turkish horsemen serving neighbours as mercenaries and allies (the Turcopoles, Kantakouzenos' Turkish allies); Siege Engineers, Herbal Medicine and the Caravanserai enter the tree, the Hussar becomes the Akıncı and Shipwright the Tersane."
+summary = "Turks as the Seljuks of Rum and the Ottomans (1071–1526): Sipahi moves to the Town Center as Timar, the Seljuk hans (Caravanserai) replace the gold-mining bonus, Turkish horsemen serving neighbours become the team bonus, and the Hussar and Shipwright are renamed Akıncı and Tersane."
 ideas = [
   "N2: Mehter: the Janissary military band as a support unit with an aura (the Centurion's mechanic) that speeds up nearby infantry and gunpowder units.",
   "N2: Ok Meydanı: a Turkish composite-bow technology (Archer-line and Cavalry Archers +1 range) once the Archer and Crossbowman lines are split; the early Janissaries were archers and Mehmed II founded the Ok Meydanı range in Istanbul after 1453.",
@@ -22,11 +22,11 @@ contested = [
   "How far camels served Seljuk and Ottoman armies as mounts in battle rather than as baggage animals (Ottoman campaigns moved with thousands of camels): the regional analysis sees them as mainly logistic, the tech-tree audit rates the Camel Rider plausible for the Turks. The Camel Rider and Heavy Camel Rider stay as a regional abstraction.",
 ]
 open_questions = [
-  "Name: rename to ‘Ottomans’, as the analysis proposes? The design is Ottoman and the Seljuks are thin (the Caravanserai now gives them an element). Not decided, so the current name is kept.",
+  "Name: rename to ‘Ottomans’, as the analysis proposes? The design is Ottoman and the Seljuks are thin (the Caravanserai now gives them an element). Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
   "Team bonus: the previous draft re-based ‘Gunpowder Units train +25% faster’ on Ottoman guns and gunners for neighbours, but every case falls after 1500 (guns, powder and timber sent for the Mamluk Red Sea fleet in 1510–1511 and Selman Reis's defence of Jeddah in 1517, Brummett, 1994, and Casale, 2010; Babur's ‘custom of Rum’ at Panipat, 1526), and a team bonus cannot meet the late-element rule (Imperial Age only, RULES section 2). This draft uses Turkish horsemen serving neighbours instead (‘Mounted Archers train +25% faster’, also the Magyars' team bonus). Keep that, or restore the gunpowder team bonus as an owner's exception to RULES section 2?",
   "Tabur: share the Bohemian Hussite Wagon (as a second unique unit or through a technology) for the Ottoman wagon forts of Chaldiran (1514) and Mohács (1526), which followed Hungarian and Hussite models? N1-feasible, not done because the Ottoman use falls after 1500 and would be a late element.",
   "Navy: no Fast Fire Ship and no naval bonus, though the fleet acted inside the window: Negroponte (1470), the Otranto landing (1480), Zonchio (1499, where Kemal Reis's gun-carrying göke fought) and Modon (1500); its peak (Rhodes 1522, Preveza 1538, Djerba 1560) comes later. Add Fast Fire Ship or a naval bonus with an existing precedent?",
-  "Siege Engineers stacks with Artillery: Bombard Cannons go from +2 to +3 range and gain +20% attack against buildings, a power increase to the civ's strongest late-game unit. Accept it?",
+  "Codex-wide question CQ9 (see codex/civs/README.md): magnitude ceiling (Siege Engineers stays out, since with Artillery it would give range-15 Bombard Cannons; Sappers, already in the tree, carries the Ottoman miners, the lağımcı).",
   "Sipahi is moved to the Town Center and renamed ‘Timar’, after the institution rather than the soldiers. Keep the old name ‘Sipahi’ instead? (The Saracens share the same tech as Iqta', the institution from which the timar grew.)",
   "Foot archery and skirmishers: the Turks remain the only civ without the Elite Skirmisher, a balance choice with no historical reason (the Ottoman azaps were light foot, many of them archers), and they get no Arbalester, since no Turkish crossbow use is securely attested in the sources used here (the N2 Ok Meydanı idea carries the bow). Add the Elite Skirmisher, or keep it out as the counterweight to the gunpowder bonuses?",
   "Power: with the gold-mining bonus dropped, the Turks' only economic passive is the Imperial Age Caravanserai, so they have no economic bonus before the Imperial Age. Add an early economic passive with an existing precedent, for example ‘Shepherds work +25% faster’ (Britons) for the Turkmen and yörük herders of Anatolia, or accept the change?",
@@ -97,7 +97,7 @@ text = "Mounted Archers train +25% faster"
 level = 1
 change = "new"
 replaces = "Gunpowder Units train +25% faster"
-precedent = "Mounted Archers train +25% faster (Magyars team bonus)"
+precedent = "Mounted Archers train +25% faster (Magyars team bonus; the Tatars' design uses it too)"
 basis = "Turkish horsemen served neighbours as mercenaries and allies throughout the window. Byzantine commanders and emperors hired Turkish horse archers from the 1070s (Anna Komnene, Alexiad), and the Byzantines, then the crusader states and the military orders, raised Turcopoles, light horse archers of Turkish origin or fighting in the Turkish manner, whom the Hospitallers placed under a Turcopolier. In the Byzantine civil war of 1341–1347 Umur of Aydin and Orhan's Ottomans fought for John VI Kantakouzenos, who married his daughter Theodora to Orhan (1346); Ottoman help again in 1352 brought the Ottomans into Europe (Tzympe 1352, Gallipoli 1354) (Kantakouzenos, Histories; Nicol, 1993). The original bonus was a general abstraction of Ottoman logistics, and its transfer to allies is attested only after 1500 (see open questions)."
 relevance = "Turkish horse archers in the service of neighbours, from the Turcopoles to Kantakouzenos' Turkish allies, shaped Byzantine and crusader warfare and opened Europe to the Ottomans; it is a benefit to allies, as RULES 6.2 requires."
 
@@ -136,13 +136,14 @@ basis = "Ottoman superiority in siege artillery is well documented: Orban's grea
 relevance = "Siege artillery opened Constantinople, Belgrade and Rhodes to the Ottomans; without it their 15th–16th-century expansion fails."
 
 [tree]
-add = ["Siege Engineers", "Herbal Medicine", "Caravanserai"]
-remove = []
+add = ["Herbal Medicine", "Caravanserai"]
+remove = ["Siphons", "Incendiaries"]
 
 [tree.basis]
-"Siege Engineers" = "Ottoman sappers (lağımcı) were central to Ottoman siegecraft. At Constantinople (1453) miners from Novo Brdo in Serbia dug the Ottoman mines, all of which Johannes Grant's teams countered (Runciman, 1965), but the effort shows the specialism; later, months of mining and countermining brought down the bastions of Rhodes (1522), and miners also worked at Belgrade (1521). (The first siege of Vienna, 1529, falls outside the window and failed.)"
 "Herbal Medicine" = "Seljuk-era Anatolian rulers and the Ottomans founded great hospitals (darüşşifa): Gevher Nesibe in Kayseri (Kaykhusraw I, 1205–1206), the Mengujekid hospital of Turan Malik at Divriği (1228–1229) and the hospital of Bayezid II's complex at Edirne (1488). The absence was ironic."
 "Caravanserai" = "Granted by the Caravanserai bonus (the Seljuk sultan hans and the Ottoman hans; see there) and added so that the tree shows the building, as in the Khmer and Hindustani designs."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
+"Incendiaries" = "Requires Siphons, which this design removes."
 
 [[rename]]
 from = "Hussar"

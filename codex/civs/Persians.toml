@@ -2,13 +2,13 @@ civ = "Persians"
 name = "Persians"
 status = "draft"
 label = "Cavalry and Archer civilization"
-summary = "Persians as Iran from the late Sasanians to the Timurids (c. 500–1507): War Elephant, Savar, Citadels (Castle), Parthian Tactics and the Caravanserai stay; qanat farming and Procopius' fast-shooting archers replace the starting resources and the Town Center bonus, Khosrow I's land tax becomes the Town Center tech ‘Kharaj’ (Burgundian Vineyards shared), Persian learning passed to neighbours (the madrasa, astronomy) replaces the Knight-line team bonus, Kamandaran leaves as a non-datable tech, Bracer, Arbalester, Keep, Fortified Wall, Arrowslits and Heresy enter, all gunpowder leaves, and the architecture becomes Central Asian."
+summary = "Persians as Iran from the late Sasanians to the Timurids (500–1507): qanat farming and fast-shooting archers become passives, Khosrow I's land tax the Town Center tech Kharaj and Persian learning the team bonus; gunpowder leaves and the architecture becomes Central Asian."
 ideas = [
   "N2: A Daylamite with its own model (sword, javelins and shield; Procopius, Wars VIII.14; the founders of the Buyid dynasty), instead of the Saxon Hearth Troop's graphic offered for N1 (see open questions).",
   "N2: Persian archery as Procopius (Wars I.18) and the Strategikon (XI.1: rapid but not powerful) describe it: Archer-line attacks faster with -1 attack (a negative attack effect does not exist in the game).",
   "N2: A ‘Wall of Gorgan’ technology: Stone Walls and towers +20% HP and built faster (Sauer et al., 2013).",
   "N2: Asvaran who both shoot and charge, using the Ratha's mode switch on a heavy cavalry graphic.",
-  "N3: A separate Timurid civ (1370–1507) with the Flaming Camel and Timurid Siegecraft, which the Tatars' draft drops. The Persians do not take them: Timur's great sieges (Herat 1381, Isfahan 1387) were waged against Iranian cities, so Timurid Siegecraft does not express a Persian trait, and the Flaming Camel is a one-battle stratagem (Delhi, 1398; Nizam al-Din Shami's Zafarnama, 1404), too slight for a unique unit. The Persianate Timurid phase the civ includes, the Herat of Shahrukh and Husayn Bayqara, shows in the architecture.",
+  "N3: A Timurid variant of the Persians, or a Timurid civ carved out of their window (1370–1507), with the Flaming Camel and Timurid Siegecraft, which the Tatars' draft drops. In N1 the Persians, who carry the Timurids as rulers of Iran, leave out the Flaming Camel, a one-battle stratagem (Delhi, 1398) reported in Timurid and later narratives whose earliest attestation is uncertain, too slight for a unique unit; Timurid Siegecraft, for Timur's sieges (Herat 1381, Urgench 1388, Baghdad 1401, Smyrna 1402), is put to the owner (see open questions). The Persianate Timurid phase, the Herat of Shahrukh and Husayn Bayqara, also shows in the architecture.",
   "N3: Split late antique Sasanian Iran and Islamic Persianate Iran into two civs; a Safavid civ (1501–1736) would carry the qizilbash and the firearms adopted after Chaldiran.",
 ]
 contested = [
@@ -17,10 +17,10 @@ contested = [
   "End of the Sasanian empire: Qadisiyya (636/637), Nahavand (642) or the death of Yazdegerd III near Merv (651); regional resistance (Tabaristan) lasted into the 8th century.",
   "Procopius' comparisons of Roman and Persian archery serve his praise of Belisarius' army and may be biased.",
   "Pre-Islamic or Islamic origin of the caravanserai; the dating of the road stations attributed to the Sasanians.",
-  "Including Persianate dynasties of Turkic and Mongol origin (Ghaznavids, Great Seljuks, Ilkhanids, Timurids, the Turkmen Qara Qoyunlu and Aq Qoyunlu) in ‘Persians’ is a choice: they ruled Iran and Khorasan and patronised Persian letters, administration and building, but were not Persians. This civ carries them as rulers of Iran; the Turks carry the Seljuk conquest of Anatolia and the sultanate of Rum, the Mongols the Ilkhanate as a Mongol state, and the Hindustanis the Ghaznavids' Indian campaigns.",
+  "Including Persianate dynasties of Turkic and Mongol origin (Ghaznavids, Great Seljuks, Ilkhanids, Timurids, the Turkmen Qara Qoyunlu and Aq Qoyunlu) in ‘Persians’ is a choice: they ruled Iran and Khorasan and patronised Persian letters, administration and building, but were not Persians. This civ carries them as rulers of Iran; the Turks carry the Seljuk conquest of Anatolia and the sultanate of Rum, the Mongols the Ilkhanate as a Mongol state, and the Hindustanis the Ghaznavids' Indian campaigns. In Iraq the Abbasid caliphate belongs to the Saracens; the Buyid and Seljuk sultans who ruled Baghdad in its name (945 to the 1150s, when the caliphs regained it) are counted here.",
   "The character of Sasanian religious policy: a Zoroastrian state church persecuting apostates, or an empire that integrated the Church of the East (Richard Payne, A State of Mixture, 2015).",
   "Firearms in Iran before 1507: light guns are reported for the Timurids and the Aq Qoyunlu, but the evidence is thin; Iranian armies adopted firearms on a large scale only under the Safavids after Chaldiran (1514), and why Ismail I's army fought there without significant firearms (supply or the qizilbash's contempt for guns) is debated.",
-  "Crossbows in Iranian armies: the charkh is described in Persian military writing of the Ghaznavid–Ghurid tradition (Fakhr-i Mudabbir, early 13th century), but battle accounts say little about it, so how common it was is unclear.",
+  "Crossbows in Iranian armies: the charkh is described in Persian military writing of the Ghaznavid–Ghurid tradition (Fakhr-i Mudabbir, early 13th century), but that manual was written for the Delhi sultan Iltutmish, on the Hindustanis' side of the Ghaznavid split, and battle accounts say little about the weapon, so how common it was in Iran is unclear.",
   "How far camels served Iranian armies as mounts in battle rather than as baggage animals: the regional analysis sees them as mainly logistic, the tech-tree audit rates the Camel Rider plausible for Iran. The Camel Rider and Heavy Camel Rider stay as a regional abstraction.",
 ]
 open_questions = [
@@ -29,14 +29,16 @@ open_questions = [
   "The Town Center bonus is the Persians' best-known feature, replaced here as stretched. Keep it instead of the archer bonus?",
   "Daylamites: Two-Handed Swordsman and Champion stay out (the Sasanian peasant infantry had low status), but the Daylamites (sword, shield and javelins; Procopius, Wars VIII.14; the founders of the Buyid dynasty) would justify an infantry unit. The nearest N1 option is the Saxon Hearth Troop renamed ‘Daylamite’ (it throws a javelin before melee and is strong against ranged units), which needs one of the two unique-unit slots (War Elephant or Savar) or an exception to the cap; the out-of-scope Romans' Legionary is a second choice (no javelins). Take one?",
   "A fifth passive for the frontier walls of Gorgan, Tammisha and Derbent: ‘Walls and Watch Tower-line +30% HP’ (precedent: Great Wall, Chinese)? Not added: Keep, Fortified Wall, Arrowslits and Citadels already carry the fortification theme.",
-  "Team bonus: re-based on Persian learning passed to neighbours with ‘Universities work +80% faster’, which the Chinese, Franks, Malians and Poles also use as their team bonus. Accept the repetition, use ‘Monasteries work +20% faster’ instead for religious influence (the Church of the East's missions from Sasanian Iran, whose churches the Tang called ‘Persian temples’ until 745, and the Persian Sufis of India and Anatolia), or keep the original ‘Knight-line +2 attack vs. Ranged Soldiers’ as an exception, although its benefit to allies is weak?",
-  "Kharaj shares Burgundian Vineyards with the Burgundians, and the Berbers' Taksir (Abd al-Mu'min's survey for the same land tax) uses it too: three civs with the same Town Center tech. Accept?",
+  "Team bonus: re-based on Persian learning passed to neighbours with ‘Universities work +80% faster’, which the Chinese, Franks, Khmer, Malians and Poles also use as their team bonus (and the Georgians' Gelati Academy contains); the repetition itself is codex-wide question CQ11 (see codex/civs/README.md). Keep it, use ‘Monasteries work +20% faster’ instead for religious influence (the Church of the East's missions from Sasanian Iran, whose churches the Tang called ‘Persian temples’ until 745, and the Persian Sufis of India and Anatolia), or keep the original ‘Knight-line +2 attack vs. Ranged Soldiers’ as an exception, although its benefit to allies is weak?",
+  "Codex-wide question CQ11 (see codex/civs/README.md): reuse and stacking (here Kharaj, which is Burgundian Vineyards, shared with five other designs).",
+  "Codex-wide question CQ24 (see codex/civs/README.md): Timur's siege warfare (Timurid Siegecraft, Trebuchets +2 range, has no holder: the Tatars drop it, and this civ carries the Timurids).",
+  "Codex-wide question CQ19 (see codex/civs/README.md): labels (here ‘Cavalry and Archer’ for ‘Cavalry’).",
 ]
 
 [profile]
 entity = "Iran (Ērānshahr): the late Sasanian Empire and the Persian-speaking and Persianate states of Islamic Iran and Khorasan, from the Samanids, Buyids and Ghaznavids through the Great Seljuks and Ilkhanids to the Timurids and the Turkmen Qara Qoyunlu and Aq Qoyunlu"
 region = "Iranian plateau, Mesopotamia, Khorasan and Transoxiana"
-window = "c. 500–1507 (Sasanian core 500–651; ends with the fall of Timurid Herat in 1507)"
+window = "500–1507 (from the start of the time frame, under Kavad I; Sasanian core 500–651; ends with the fall of Timurid Herat in 1507)"
 sources = [
   "Procopius of Caesarea, Wars (Persian Wars)",
   "Maurice, Strategikon (c. 600; trans. G. T. Dennis, 1984)",
@@ -132,7 +134,7 @@ age = "Castle"
 effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
-precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians): an existing unique tech, shared and renamed with an identical effect and age; the Berbers' draft shares it too (Taksir)"
+precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill): an existing unique tech, shared and renamed with an identical effect and age; the Berbers (Taksir), Aztecs (Calpixqueh) and Tatars (Yarlyk) share it too, and the Bengalis have it as a passive"
 basis = "Kavad I began and Khosrow I (531–579) completed a survey of the cultivated land and fixed the land tax (Middle Persian harāg) in silver per jarib according to the crop (wheat and barley, vines, date palms), collected in instalments; it paid a standing army, and the Arab conquerors kept it as the kharāj of Iraq and Iran (al-Tabari, trans. Bosworth, 1999; Daryaee, 2009). Farmers whose fields yield coin to the treasury translate it directly. The tech takes the Arabic name, under which the tax ran through the whole Islamic part of the window. Neither Kamandaran nor Citadels fits the Town Center, so another civ's existing tech is shared (level 1)."
 relevance = "Khosrow's fiscal reform financed the late Sasanian state and, as the kharaj, the caliphate's administration of Iraq and Iran: a turning point of Iranian statecraft."
 
@@ -150,11 +152,11 @@ relevance = "Fortresses decided Iran's wars with Rome over Nisibis and Dara and 
 
 [tree]
 add = ["Bracer", "Arbalester", "Keep", "Fortified Wall", "Arrowslits", "Heresy"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Elite Cannon Galleon"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Elite Cannon Galleon", "Siphons", "Incendiaries", "Block Printing"]
 
 [tree.basis]
 "Bracer" = "Archery was the Persian arm par excellence (Procopius; the Strategikon), so the archers' Blacksmith line should be complete, as the analysis asks."
-"Arbalester" = "The project gives the Arbalester, the crossbow tier, only where crossbows are attested, keeping the Crossbowman as the generic Castle Age bow upgrade until the N2 bow/crossbow split. The crossbow (charkh) was known in the Persianate east: Fakhr-i Mudabbir's manual of war (Adab al-harb wa'l-shaja'a, early 13th century), written in the Ghaznavid–Ghurid tradition, describes it (see contested). With it the Persians' archery gets the full line, as the analysis asks."
+"Arbalester" = "The project gives the Arbalester, the crossbow tier, only where crossbows are attested, keeping the Crossbowman as the generic Castle Age bow upgrade until the N2 bow/crossbow split. The crossbow (charkh) was known in the Persianate east: Fakhr-i Mudabbir's manual of war (Adab al-harb wa'l-shaja'a, early 13th century), written in the Ghaznavid–Ghurid tradition for the Delhi sultan Iltutmish, describes it; it belongs to the Indian side of the Ghaznavid split and is also the basis of the Hindustanis' Arbalester, so for Iran it is indirect evidence (see contested). With it the Persians' archery gets the full line, as the analysis asks."
 "Keep" = "The Wall of Gorgan (c. 195 km with more than 30 forts; Sauer et al., 2013), the Tammisha wall and the walls of Derbent (Khosrow I, 6th century) were among the largest fortification works of late antiquity; Citadels without Keeps was incoherent."
 "Fortified Wall" = "As Keep: the great Sasanian barrier walls against the northern nomads (Gorgan, Tammisha, Derbent)."
 "Arrowslits" = "The analysis lists it with Keep and Fortified Wall: the towers of the Derbent walls and the forts of the Gorgan wall were garrisoned firing points of an archer army."
@@ -163,6 +165,9 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Elite Cannon Ga
 "Bombard Cannon" = "As Hand Cannoneer. Trebuchet, Onager, Siege Ram, Petard and the War Elephant (strong against buildings) still destroy buildings (RULES 6.11)."
 "Cannon Galleon" = "No gunpowder warships: Iran had no ocean-going gun fleet, and even the Safavids needed English East India Company ships to take Hormuz from the Portuguese in 1622. The Galley, Galleon and Fire Ship lines keep the navy."
 "Elite Cannon Galleon" = "As Cannon Galleon."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
+"Incendiaries" = "Requires Siphons, which this design removes."
+"Block Printing" = "No printing in the window: the paper money that the Ilkhan Geikhatu had block-printed at Tabriz on the Chinese model (1294) was withdrawn within months and was not book printing, and printed amulets (tarsh) survive mostly from Egypt (see the Saracens)."
 
 [architecture]
 set = "Central Asian"

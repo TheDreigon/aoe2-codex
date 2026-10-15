@@ -2,13 +2,14 @@ civ = "Ethiopians"
 name = "Ethiopians"
 status = "draft"
 label = "Archer and Infantry civilization"
-summary = "Ethiopians as the Christian highland kingdom from late Aksum to the Adal war (c. 500–1543): the archer and free-Pikeman bonuses stay, and the Shotel Warrior stays only provisionally (it fails the relevance test on weight; the owner decides); mule caravans and the moving royal camp, the amba highlands and the monasteries become passives, gult land grants the Town Center tech (Kshatriyas shared) and the chewa regiments the Castle tech (new, level 2), replacing the unfounded Age-up resources, Royal Heirs and Torsion Engines; Aksum's Red Sea partnership with Byzantium replaces the Outpost team bonus; Hand Cannoneers arrive for the war of 1541–1543 as the civ's one late element, while Bombard Cannon, Siege Onager, Cannon Galleon, camels, cavalry archers, Arbalester and Thumb Ring leave."
+summary = "Ethiopians as the Christian highland kingdom from late Aksum to the Adal war (500–1543): chewa spearmen replace the Shotel Warrior, gult grants and the chewa regiments become the techs, mules, ambas and monasteries passives, Aksum's Red Sea trade the team bonus, and Hand Cannoneers the late element."
 ideas = [
   "N2: A Lalibela church: a rock-hewn Monastery variant (no wood cost, more HP, Monks heal inside) for the Zagwe churches of Lalibela (c. 1200).",
   "N2: An Aksumite naval technology for the port of Adulis and Kaleb's expedition across the Red Sea to Himyar (c. 525).",
   "N2: The tabot carried with the army by the clergy, as a morale aura around Monks.",
   "N2: A dismountable Ethiopian horseman with lance and javelins, for the cavalry Amda Seyon raised in Gojjam and Damot.",
-  "N2: A chewa spearman or archer with its own model, should the owner prefer a unique unit with more historical weight than the Shotel Warrior (see open questions).",
+  "N2: A Chewa Spearman with its own model (a highland spearman with shield) instead of the Andean Kamayuk graphic.",
+  "N2: A sword-armed unit with its own model and stats for the swordsmen Amda Seyon raised (Taddesse Tamrat, 1972), which could take the shotel's name if its medieval use is shown; in N1 the Shotel Warrior is out (see dropped and open questions).",
   "N3: A pack-mule caravan model instead of the Caucasian Mule Cart, since the highlands had almost no wheeled transport (shared with the Portuguese idea of other pack animals).",
   "N3: An Adal (Harar) civ as the Ethiopians' rival, with the Ottoman-supported musketeers of 1542 and the cannon used from 1531.",
   "N3: Aksumite war elephants, if better evidence is found: Malalas describes the king on an elephant-drawn platform, but Cosmas says the Ethiopians tamed only a few elephants for the king.",
@@ -25,20 +26,21 @@ contested = [
   "How far Constantinople directed Kaleb's expedition to Himyar (c. 525): Procopius gives the king's own motive, while the Martyrium Arethae has Byzantine encouragement.",
 ]
 open_questions = [
-  "Mule Cart: added alongside the Lumber and Mining Camps (as in the Tatars' and Portuguese drafts), not replacing them as for Armenians and Georgians. Keep it alongside, replace the camps, or drop it? The owner may want one Mule Cart policy for all civs.",
+  "Codex-wide question CQ4 (see codex/civs/README.md): Mule Cart (here beside the Lumber and Mining Camps, as in the Tatars' design).",
   "Hand Cannoneer: added as the civ's one late element (RULES section 2, Imperial Age only) for the war of 1541–1543; before 1541 the kingdom had only a handful of guns, and Ethiopians took up the musket after Wayna Daga (1543). Keep it, or remove it?",
-  "Siege: Trebuchet, Mangonel, Onager, Scorpion and Heavy Scorpion stay as a generic abstraction of assault and blockade, although no torsion or traction artillery is attested in Ethiopia; only the Siege Onager goes. Keep the abstraction, or remove the Trebuchet and the Mangonel-line and rely on the Siege Ram, Petards and infantry against buildings?",
-  "Arbalester and Thumb Ring are removed under the project's criteria (no crossbow and no thumb draw are attested in Ethiopia), leaving the archers with the Crossbowman, Bracer, the +18% fire rate and Chewa. For an archer civ this is a power loss: accept it, or keep the Arbalester as a flagged generic bow tier until the N2 bow/crossbow split?",
-  "The higher-elevation bonus is shared with the Georgians and the Gurjaras (both keep it in their drafts): three holders. Acceptable repetition?",
-  "Gult has the identical effect of Kshatriyas, which three other drafts also share: the Gurjaras (as Samantas), the Byzantines (Themata) and the Jurchens (Meng'an Mouke). Four civs would hold the same tech under different names, all for land-for-service or levy systems (RULES 6.7). Acceptable?",
-  "Team bonus: Aksum's Red Sea trade and alliance with Byzantium replaces ‘Monasteries +20%’ (which fails RULES 6.2 and became a passive). It rests on the Aksumite part of the window, and the Armenians and Tamils use the same text (‘Trade Units generate +10% gold’): three holders. Accept?",
-  "Shotel Warrior: it fails the relevance test on weight (see its relevance and contested notes), so it stays only provisionally, as an exception carried by fame that only the owner can grant. Keep it on those terms, or re-base the unique unit on the chewa spearmen (for example the Kamayuk, already shared by the Incas and the Berbers) or archers with an existing model, and move the shotel to an N2 idea?",
+  "Codex-wide question CQ7 (see codex/civs/README.md): siege engines that never reached a civ (here the Trebuchet leaves; the Mangonel and Onager stay as the generic stone-thrower).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): long-range siege (without the Trebuchet and the Bombard Cannon the civ relies on the Siege Ram, like the Goths, Khmer, Malay and Saxons).",
+  "Codex-wide question CQ3 (see codex/civs/README.md): crossbows (the Arbalester leaves this archer civ, a power loss that codex-wide question CQ14, power floor, also covers).",
+  "Codex-wide question CQ11 (see codex/civs/README.md): reuse and stacking (here the higher-elevation bonus, shared with the Georgians and the Gurjaras, and Gult, the Kshatriyas effect that seven designs use).",
+  "Team bonus: Aksum's Red Sea trade and alliance with Byzantium replaces ‘Monasteries +20%’ (which fails RULES 6.2 and became a passive), so it rests on the Aksumite part of the window only. Accept? Its text, ‘Trade Units generate +10% gold’, is also the team bonus of the Armenians, Maya, Rus' and Tamils: five holders (codex-wide question CQ11).",
+  "Grant the Shotel Warrior an exception carried by fame (RULES 6.9) in place of the spearmen?",
+  "Codex-wide question CQ19 (see codex/civs/README.md): labels (here ‘Archer and Infantry’ for ‘Archer’).",
 ]
 
 [profile]
 entity = "The Christian kingdom of the Ethiopian highlands: late Aksum, the Zagwe and the Solomonic dynasty"
 region = "The Ethiopian and Eritrean highlands (Tigray, Lasta, Amhara, Shewa), with the Red Sea port of Adulis in the Aksumite period"
-window = "c. 500–1543 (Aksumite Red Sea power to c. 630; the post-Aksumite kingdom and the Zagwe, to 1270; Solomonic core 1270–1543)"
+window = "500–1543 (from the start of the time frame, in late Aksum; Aksumite Red Sea power to c. 630; the post-Aksumite kingdom and the Zagwe, to 1270; Solomonic core 1270–1543)"
 sources = [
   "Cosmas Indicopleustes, Christian Topography (c. 550)",
   "Procopius, Wars I.20 (Kaleb's expedition to Himyar; Justinian's request about the silk trade)",
@@ -108,19 +110,20 @@ level = 1
 change = "new"
 replaces = "Outposts +3 line of sight and cost no stone"
 precedent = "Trade Units generate +25% gold (Spanish team bonus), here at a lower magnitude"
-basis = "Late Aksum was Rome's partner on the Red Sea. Cosmas Indicopleustes traded through Adulis at the beginning of Justin I's reign (c. 518–525; he wrote c. 550), when the king was preparing his expedition against the Himyarites; Kaleb crossed to Himyar (c. 525) against the persecutor of the Christians of Najran, with Byzantine encouragement according to the Martyrium Arethae (see contested); and Justinian asked the Aksumites to buy Indian silk for the Romans so as to bypass Persia (Procopius, Wars I.20). Aksum's gold coinage served that trade (Munro-Hay, 1991). The Outposts bonus had only a tenuous link with amba lookouts."
+basis = "Late Aksum was Rome's partner on the Red Sea. Cosmas Indicopleustes traded through Adulis at the beginning of Justin I's reign (c. 518–525; he wrote c. 550), when the king was preparing his expedition against the Himyarites; Kaleb crossed to Himyar (c. 525) against the persecutor of the Christians of Najran, with Byzantine encouragement according to the Martyrium Arethae (see contested); and Justinian asked the Aksumites to buy Indian silk for the Romans so as to bypass Persia (Procopius, Wars I.20). Aksum's gold coinage served that trade (Munro-Hay, 1991). The Outposts bonus had only a tenuous link with amba lookouts. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)."
 relevance = "The Red Sea trade made Aksum a great power, and it was shared with its Byzantine ally; it benefits allies, as RULES 6.2 requires."
 contested = "Procopius says the silk scheme failed because Persian merchants controlled the Indian ports; the bonus rests on the Aksumite part of the window."
 
 [[unique_unit]]
-name = "Shotel Warrior"
-model = "Shotel Warrior"
+name = "Chewa Spearman"
+model = "Kamayuk"
 building = "Castle"
 level = 1
-change = "kept"
-basis = "The shotel is a real Ethiopian curved sword. Amda Seyon (1314–1344) increased the use of swords and daggers, probably obtained through Muslim traders, and formed a sword-armed regiment (Taddesse Tamrat, 1972)."
-relevance = "Fails on weight: al-Umari makes the spear the main weapon and swords rare, Amda Seyon's sword-armed troops were secondary to the spearmen and archers, and the shotel is securely attested only from the 18th century, its fame being mostly modern. It stays only provisionally, as an exception carried by fame that the owner alone can grant (see open questions)."
-contested = "Secure examples and descriptions of the shotel are mostly 18th–19th century, nothing shows that Amda Seyon's swords were shotels, and its use to hook riders or reach around shields is modern speculation."
+change = "new"
+replaces = "Shotel Warrior"
+basis = "From Amda Seyon (1314–1344) onward the core of the royal army were the chewa, standing regiments raised and maintained by the king (Glorious Victories of Amda Seyon; Taddesse Tamrat, 1972), and al-Umari (cited by Taddesse Tamrat) names the spear as the Ethiopians' main weapon, with swords rare. The Inca Kamayuk, an infantryman with a long spear strong against cavalry and infantry, is the nearest existing unit: the highland spearmen had to stand against the cavalry of Ifat and Adal. The model is shared with the Inca Awqa Kamayuq, the Berbers' Murabit and the Mapuche Colihue Lancer."
+relevance = "The spear was the main weapon of the Christian kingdom (al-Umari), and the spear-armed chewa regiments carried Amda Seyon's and Zara Yaqob's wars; the unit stands for the army that made the Solomonic state."
+contested = "The Kamayuk model is Andean (see the N2 idea), and the regiments mixed spearmen, archers and horsemen; the unit stands for their spear infantry."
 
 [[unique_tech]]
 name = "Gult"
@@ -131,7 +134,7 @@ effect = "Military Units cost -25% food"
 level = 1
 change = "new"
 replaces = "Royal Heirs (Shotel Warriors and Camel Riders receive -3 damage from Mounted Units)"
-precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras, kept there renamed as Samantas; also the Byzantines' Themata and the Jurchens' Meng'an Mouke): an existing unique tech, shared and renamed with an identical effect and age"
+precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras, kept there renamed as Samantas; also the Burmese Ahmudan, the Byzantines' Themata, the Gaels' Buannacht, the Japanese Shugo-Jitō and the Jurchens' Meng'an Mouke): an existing unique tech, shared and renamed with an identical effect and age"
 basis = "Gult was the right to collect tribute, largely in kind, from the peasants of a district, granted by the king to soldiers, nobles and churches; it fed the regiments without cash wages (Taddesse Tamrat, 1972; Crummey, 2000). A royal grant of land revenue belongs at the Town Center. Royal Heirs named a real institution (the princes held on Amba Geshen to prevent succession wars) but its effect had nothing to do with it."
 relevance = "Gult grants were the fiscal base of the Solomonic state, its army and its church; land tenure shaped Ethiopian society until the 20th century."
 contested = "Gult tenure is documented mostly from land charters of the 14th century onward."
@@ -141,23 +144,24 @@ name = "Chewa"
 building = "Castle"
 kind = "military"
 age = "Imperial"
-effect = "Spearman-line and Archer-line +10 HP and train +50% faster"
+effect = "Spearman-line, Chewa Spearmen and Archer-line +10 HP and train +50% faster"
 level = 2
 change = "new"
 replaces = "Torsion Engines (Siege Workshop Units' blast radius increased)"
-precedent = "A new tech with two existing effect types: training speed from ‘Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack)’ (Romans); extra HP from ‘Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age’ (Mapuche)"
-basis = "From Amda Seyon (1314–1344) onward the core of the army were the chewa, standing regiments raised and maintained by the king and later settled on land (Glorious Victories; Taddesse Tamrat, 1972). al-Umari (cited by Taddesse Tamrat) names the spear as the Ethiopians' main weapon, with the bow beside it, so the tech covers spearmen and archers. No existing Ethiopian tech fits (Torsion Engines evoked Greco-Roman torsion artillery, never attested in Ethiopia), so this is a new tech (level 2)."
+precedent = "A new tech with two existing effect types: training speed from ‘Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack)’ (Romans), whose targets also name a unique unit; extra HP from ‘Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age’ (Mapuche)"
+basis = "From Amda Seyon (1314–1344) onward the core of the army were the chewa, standing regiments raised and maintained by the king and later settled on land (Glorious Victories; Taddesse Tamrat, 1972). al-Umari (cited by Taddesse Tamrat) names the spear as the Ethiopians' main weapon, with the bow beside it, so the tech covers spearmen, the Chewa Spearmen among them, and archers. No existing Ethiopian tech fits (Torsion Engines evoked Greco-Roman torsion artillery, never attested in Ethiopia), so this is a new tech (level 2)."
 relevance = "The chewa regiments carried Amda Seyon's and Zara Yaqob's expansion and were the kingdom's army until the Adal war."
 
 [tree]
 add = ["Hand Cannoneer", "Mule Cart"]
-remove = ["Bombard Cannon", "Siege Onager", "Cannon Galleon", "Camel Rider", "Heavy Camel Rider", "Cavalry Archer", "Heavy Cavalry Archer", "Arbalester", "Thumb Ring"]
+remove = ["Bombard Cannon", "Siege Onager", "Trebuchet", "Cannon Galleon", "Camel Rider", "Heavy Camel Rider", "Cavalry Archer", "Heavy Cavalry Archer", "Arbalester", "Thumb Ring"]
 
 [tree.basis]
 "Hand Cannoneer" = "Late element, RULES section 2, and the civ's only one (the unit is Imperial Age only). The great firearms episode of Ethiopian history is the war of 1529–1543: Adal received Arab and Ottoman musketeers from Zabid (1542), Cristóvão da Gama landed with c. 400 Portuguese musketeers (1541; Castanhoso, 1564), and after Wayna Daga (1543) the Ethiopians took up the musket. Before 1541 the kingdom had only a handful of guns, so Ethiopian musketeers proper come after 1500, but the war of 1541–1543 gives the unit clear fame. The tree had it the other way round (Bombard Cannon without Hand Cannoneer)."
-"Mule Cart" = "See the Mule Cart bonus: it stands beside the Lumber and Mining Camps instead of replacing them; the cart model stands in for pack mules."
+"Mule Cart" = "See the Mule Cart bonus: it stands beside the Lumber and Mining Camps instead of replacing them, as in the Tatars' design, where it is the Araba; the cart model stands in for pack mules (codex-wide question CQ4)."
 "Bombard Cannon" = "There were no Ethiopian siege guns before 1543: the highland kingdom took places by blockade and assault, and it was Adal that used a cannon (from 1531, according to Arab Faqih)."
-"Siege Onager" = "The top torsion tier is dropped (the tech tree audit rates it unfounded); the rest of the generic siege line stays as an abstraction of assault and blockade, since mountain warfare turned on ambas and blockades (see open questions)."
+"Siege Onager" = "The top tier of the stone-thrower line is dropped (the tech tree audit rates it unfounded); the Mangonel and Onager stay as a generic abstraction of assault and blockade, since mountain warfare turned on ambas and blockades (codex-wide question CQ7)."
+"Trebuchet" = "No torsion or traction artillery is attested in Ethiopia, where the highland kingdom took places by blockade and assault, so the counterweight engine never reached the civ; the Mangonel and Onager stay as the generic stone-thrower, and the Siege Ram as the late anti-building engine (codex-wide questions CQ7 and CQ13)."
 "Cannon Galleon" = "No gunpowder warships. The generic navy that stays (galleys, Galleon, Carrack, Shipwright) stands for Aksumite Adulis and Kaleb's Red Sea expedition (c. 525); after Aksum the kingdom had no navy of its own, and the coast was held only loosely through the Bahr Negash until the Ottomans took Massawa (1557)."
 "Camel Rider" = "Camels belonged to the lowlands (Afar, Somali, Adal), not to the Christian highland army, which rode horses and mules."
 "Heavy Camel Rider" = "As Camel Rider."
@@ -166,7 +170,18 @@ remove = ["Bombard Cannon", "Siege Onager", "Cannon Galleon", "Camel Rider", "He
 "Arbalester" = "No crossbow is attested in Ethiopia, so under the project's criterion the crossbow tier goes; the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split, and the archers rest on the +18% fire rate, Bracer and Chewa (RULES 6.11). The tech tree audit rates the Ethiopian Arbalester unfounded."
 "Thumb Ring" = "No thumb draw or thumb rings are attested for Ethiopian archery; the thumb draw belongs to the steppe and Asian traditions (names theme), and the Malay and American designs drop the tech on the same ground."
 
+[[rename]]
+from = "Elite Kamayuk"
+to = "Elite Chewa Spearman"
+level = 1
+basis = "Follows the unique unit (Kamayuk → Chewa Spearman) for the Ethiopians only."
+
 [architecture]
 set = "African"
 change = "kept"
 basis = "The African set is the nearest existing one; Aksumite stelae and stone-and-timber walls and the rock-hewn churches of Lalibela would need an Ethiopian set (N3)."
+
+[[dropped]]
+item = "Shotel Warrior"
+kind = "unique_unit"
+reason = "Fails RULES 6.9 on weight: al-Umari makes the spear the main weapon and swords rare, and Amda Seyon's sword-armed troops were secondary to the spearmen and archers. Being securely attested only from the 18th century (see contested), the shotel would also be a second post-1500 element, outside the Imperial Age, beside the Hand Cannoneer (RULES section 2). The Chewa Spearman takes the unique-unit slot; the owner may still grant the Shotel Warrior an exception carried by fame (see open questions and the N2 idea)."

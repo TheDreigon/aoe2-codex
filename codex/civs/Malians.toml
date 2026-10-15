@@ -2,14 +2,14 @@ civ = "Malians"
 name = "Malians"
 status = "draft"
 label = "Infantry and Archer civilization"
-summary = "Malians as the Mali Empire of the Mande (c. 1235–1600): adobe building, gold, armoured infantry, Farimba (Castle) and the Timbuktu team bonus (re-based on Mali-period learning spread to neighbours) stay; the Dahomey Gbeto gives way to the Tontajon, the Mande ‘quiver-bearers’, as mass self-bow archers (Blackwood Archers model); the mansa's governors (farba) replace Tigui as the Town Center tech (new, level 2); the salt-for-gold trade and the poisoned arrows of the Imperial Age (Curare's effect) become passives; the gunpowder units, Siege Onager, camels, cavalry archers, Arbalester and Thumb Ring leave, and Bracer enters."
+summary = "Malians as the Mali Empire of the Mande (1235–1599): Tontajon archers replace the Gbeto, the farba governors become the Town Center tech, the salt trade and poisoned arrows passives, and gunpowder, Trebuchet, Keep, camels and cavalry archers leave, with the Halberdier and Siege Ram as substitutes."
 ideas = [
   "N2: Jeli (griot): a support unit with an aura (the Centurion's mechanic) that hastens nearby units, for the griots who exhorted warriors and kept the memory of Sunjata (Balla Fasseke).",
   "N2: Niger war canoes: a fast, cheap river warship with arrows in place of the Galleon tier, for Sonni Ali's fleet and the Sorko and Bozo boatmen (Tarikh al-Sudan).",
   "N2: A Tontajon with its own model (Mande dress, simple bow, damage-over-time poison) built from existing mechanics, instead of the Tupi Blackwood Archers model.",
   "N2: Donso: the Mande hunters' brotherhoods, masters of the bow and of the bush in the Sunjata epic, as a scouting unit or a hunting-and-scouting technology (their medieval antiquity rests on oral tradition).",
   "N3: A Songhay civ (1464–1591) with Timbuktu's scholarly peak and the river fleet, and a Ghana (Wagadu) civ or phase, leaving the Malians to the Mali Empire.",
-  "N3: Sahelian siege warfare by blockade and assault instead of the Trebuchet and the Mangonel-line (Mali's repeated attacks on Djenné and Sonni Ali's long siege of the town, Tarikh al-Sudan).",
+  "N3: Sahelian siege warfare by blockade and assault (Mali's repeated attacks on Djenné and Sonni Ali's long siege of the town, Tarikh al-Sudan), in place of the generic Mangonel-line and rams.",
 ]
 contested = [
   "The tontajon clans and the Kurukan Fuga ‘charter’ are known from oral tradition recorded in the 20th century; their exact form and date are debated.",
@@ -23,18 +23,22 @@ contested = [
   "Walled towns: the loopholed earthen walls (tata) are known mainly from 19th-century fortifications (Sikasso, Samori's towns); medieval Malian town walls are thinly attested.",
 ]
 open_questions = [
-  "Name: ‘Mandinka’ or ‘Mali Empire’ instead of ‘Malians’ (the name the modern republic took in 1960)? Not decided, so the current name is kept.",
-  "Unique unit: the Tontajon uses the Tupi Blackwood Archers (cheap self-bow archers trained in pairs at half population, ‘strong in high numbers’), which fits the mass of Mande archers with simple bows; the first draft used the Armenian Composite Bowman, whose armour-ignoring composite bow is the opposite of the Mande self bow. Third option: the Genitour as Sahelian javelin cavalry (Law, 1980), now a regional unit. Which do you prefer?",
-  "Siege: Trebuchet, Mangonel, Onager and Scorpion stay as the generic anti-building and anti-mass engines, an abstraction of assault, although no torsion or traction artillery is attested in the Sahel; only the Siege Onager and the gunpowder pieces leave. Keep the abstraction, or remove the Trebuchet and the Mangonel-line too, with infantry, rams and Petards as the substitute?",
-  "Camel Rider and Heavy Camel Rider are removed, since no camel troops are attested in Mali's armies. Restore them as an abstraction of the Saharan peoples inside or beside the empire?",
+  "Name: ‘Mandinka’ or ‘Mali Empire’ instead of ‘Malians’ (the name the modern republic took in 1960)? Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
+  "Unique unit: the Tontajon uses the Tupi Blackwood Archers (cheap self-bow archers trained in pairs at half population, ‘strong in high numbers’), which fits the mass of Mande archers with simple bows; the first draft used the Armenian Composite Bowman, whose armour-ignoring composite bow is the opposite of the Mande self bow. Keep the Tontajon, or prefer the Composite Bowman? The Genitour, for the Sahelian javelin cavalry (Law, 1980), could only come beside it as a regional unit, which is codex-wide question CQ23 (see codex/civs/README.md).",
+  "Codex-wide question CQ7 (see codex/civs/README.md): siege engines that never reached a civ (here the Trebuchet leaves; the Mangonel and Onager stay as the generic stone-thrower).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): long-range siege (without the Trebuchet and the Bombard Cannon the civ relies on the Siege Ram, like the Goths, Khmer, Malay and Saxons).",
+  "Camel Rider and Heavy Camel Rider are removed, since no camel troops are attested in Mali's armies, and the Halberdier replaces them as the anti-cavalry unit (RULES 6.11). Restore them as an abstraction of the Saharan peoples inside or beside the empire?",
   "The Barracks pierce-armour bonus is kept for the civ's infantry identity, but it is an admitted abstraction. Replace it with an archer bonus (e.g. ‘Foot Archers cost -10/20/30% in Feudal/Castle/Imperial Age’, Mayans)?",
   "Town Center tech: Farba (new, level 2) for the mansa's governors. Alternatives: a tech for Mansa Musa's pilgrimage (1324), or Tigui restored as a gameplay survivor without a historical referent?",
+  "Codex-wide question CQ1 (see codex/civs/README.md): navy rule (here a canoe navy, without Galleon, Carrack or siege warship).",
+  "Codex-wide question CQ21 (see codex/civs/README.md): windows past 1500 (here to Mahmud IV's defeat before Djenné, 1599, with no late element).",
+  "Codex-wide question CQ19 (see codex/civs/README.md): labels (here ‘Infantry and Archer’ for ‘Infantry’).",
 ]
 
 [profile]
 entity = "The Mali Empire (Manden Kurufaba) of the Mande (Maninka) under the Keita mansas"
 region = "Western Sudan: the upper and middle Niger, Senegambia and the southern Saharan towns (Walata, Timbuktu, Gao)"
-window = "c. 1235–1600 (core 1235–1400)"
+window = "1235–1599 (from Kirina, traditionally 1235, to Mahmud IV's defeat before Djenné, 1599; core 1235–1400)"
 sources = [
   "al-Bakri (1068), al-Umari (c. 1337–1340), Ibn Battuta (visit of 1352–1353) and Ibn Khaldun, in N. Levtzion and J. F. P. Hopkins, Corpus of Early Arabic Sources for West African History (1981)",
   "al-Sa'di, Tarikh al-Sudan (c. 1655; trans. J. O. Hunwick, Timbuktu and the Songhay Empire, 1999)",
@@ -141,21 +145,27 @@ relevance = "Cavalry was the instrument of the Sudanic empires (Law, 1980): Mali
 contested = "The exact etymology used by the game is unconfirmed."
 
 [tree]
-add = ["Bracer"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Cavalry Archer", "Heavy Cavalry Archer", "Camel Rider", "Heavy Camel Rider", "Arbalester", "Thumb Ring"]
+add = ["Bracer", "Halberdier", "Siege Ram"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Trebuchet", "Cavalry Archer", "Heavy Cavalry Archer", "Camel Rider", "Heavy Camel Rider", "Arbalester", "Thumb Ring", "Carrack", "Keep", "Block Printing"]
 
 [tree.basis]
 "Bracer" = "Archers were the mass of Mande infantry (the tontajon), so the archers' Blacksmith line should be complete; the analysis lists Bracer as missing. Arrowslits, which the analysis lists with it, stays out: medieval Malian fortifications are thinly attested, and the loopholed tata walls are 19th-century (see contested)."
+"Halberdier" = "The anti-cavalry substitute for the removed camels (RULES 6.11), as in the Mongols' and Khitans' designs: a generic top spear tier for Mali's foot soldiers, whom modern historians describe as spearmen and archers (Levtzion, 1973)."
+"Siege Ram" = "Substitute for the removed Trebuchet and Bombard Cannon as the late anti-building engine (RULES 6.11), as for the Goths and the Malay: Sahelian towns were taken, when at all, by blockade and assault (see the Siege Onager), for which the ram is the game's generic tool, an abstraction."
 "Hand Cannoneer" = "Neither Mali nor its Songhay successor used firearms: Songhay's army was routed at Tondibi (1591) by Judar Pasha's Moroccan arquebusiers precisely because it had none."
-"Bombard Cannon" = "As Hand Cannoneer: no gunpowder in the Western Sudan before the Moroccan invasion of 1591. Trebuchet, Battering Ram, Petard and infantry still destroy buildings."
-"Cannon Galleon" = "No gunpowder, and the civ lacked the Galleon, so the Cannon Galleon was incoherent; the generic navy that stays (galleys, Carrack, fire ships) stands for Niger river craft and coastal canoes pending the N2 war canoe."
-"Siege Onager" = "The top torsion tier is dropped (the tech tree audit rates it unfounded); the rest of the generic siege line stays as an abstraction of assault (see open questions). Sahelian towns were taken, when at all, by blockade and assault: al-Sa'di's Tarikh al-Sudan says, with a formulaic number, that the rulers of Mali attacked Djenné ninety-nine times without taking it."
+"Bombard Cannon" = "As Hand Cannoneer: no gunpowder in the Western Sudan before the Moroccan invasion of 1591. Rams, Petards and infantry still destroy buildings."
+"Cannon Galleon" = "No gunpowder, and the civ lacked the Galleon, so the Cannon Galleon was incoherent; the generic navy that stays (galleys, fire ships, hulks and demolition ships) stands for Niger river craft and coastal canoes pending the N2 war canoe."
+"Siege Onager" = "The top tier of the stone-thrower line is dropped (the tech tree audit rates it unfounded); the Mangonel and Onager stay as the generic stone-thrower and the rams as the abstraction of assault (codex-wide question CQ7). Sahelian towns were taken, when at all, by blockade and assault: al-Sa'di's Tarikh al-Sudan says, with a formulaic number, that the rulers of Mali attacked Djenné ninety-nine times without taking it."
+"Trebuchet" = "No torsion or traction artillery is attested in the Sahel (analysis; tech tree audit), so the counterweight engine never reached the civ; the Mangonel and Onager stay as the generic stone-thrower, and the Siege Ram becomes the late anti-building engine (codex-wide questions CQ7 and CQ13)."
 "Cavalry Archer" = "Sahelian horsemen fought with lance, javelins and sword, and the archers fought on foot (tech tree audit)."
 "Heavy Cavalry Archer" = "As Cavalry Archer."
-"Camel Rider" = "No camel troops are attested in Mali's armies: al-Umari counts only horse and foot, the Massufa of Walata and Taghaza were caravaneers and guides, and the Tuareg were rivals who took Timbuktu from Mali in 1433 (analysis; tech tree audit). The Ethiopian design removes its camels on the same kind of evidence."
+"Camel Rider" = "No camel troops are attested in Mali's armies: al-Umari counts only horse and foot, the Massufa of Walata and Taghaza were caravaneers and guides, and the Tuareg were rivals who took Timbuktu from Mali in 1433 (analysis; tech tree audit). The Ethiopian design removes its camels on the same kind of evidence. The Halberdier replaces it as the anti-cavalry unit (RULES 6.11)."
 "Heavy Camel Rider" = "As Camel Rider."
 "Arbalester" = "No crossbow is attested in the Sahel, so under the project's criterion the crossbow tier goes; the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split, and the Tontajon fills the elite archer role. The tech tree audit rates the Malian Arbalester unfounded."
 "Thumb Ring" = "No thumb draw or thumb rings are attested for Sahelian archery; the thumb draw belongs to the steppe and Asian traditions (names theme), and the Malay and American designs drop the tech on the same ground."
+"Carrack" = "Canoe navy: no high-castled sailing warships, as for the American civs."
+"Keep" = "Sudano-Sahelian building was in earth, and medieval Malian town walls are thinly attested (see contested); the Guard Tower stays as the abstraction of defended posts, as for the Muisca."
+"Block Printing" = "No printing in the window: the scholarship of Timbuktu and the Sahel lived in manuscripts copied by hand."
 
 [[rename]]
 from = "Elite Blackwood Archers"
@@ -171,4 +181,4 @@ basis = "Sudano-Sahelian earth building (Djinguereber, Djenné, Walata) is what 
 [[dropped]]
 item = "Tigui (Town Centers fire arrows without garrison)"
 kind = "unique_tech"
-reason = "Relevance test (RULES 6.9): the effect has no documented Malian referent (analysis: stretched), the walled-town reading leans on 19th-century tata, and the previous draft's re-basing on village and canton chiefs (dugutigi, kafutigi) expressed rule through chiefs only loosely. The mansa's governors (Farba), one of the few documented institutions of Mali's government, take the Town Center slot. The effect stays in the game with the Italians' Comune and the Teutons' Burgenordnung; the owner may restore Tigui as a gameplay survivor (see open questions)."
+reason = "Relevance test (RULES 6.9): the effect has no documented Malian referent (analysis: stretched), the walled-town reading leans on 19th-century tata, and the previous draft's re-basing on village and canton chiefs (dugutigi, kafutigi) expressed rule through chiefs only loosely. The mansa's governors (Farba), one of the few documented institutions of Mali's government, take the Town Center slot. The effect stays in the game with the Italians' Comune and the Germans' Burgenordnung; the owner may restore Tigui as a gameplay survivor (see open questions)."

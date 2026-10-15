@@ -2,17 +2,18 @@ civ = "Berbers"
 name = "Berbers"
 status = "draft"
 label = "Cavalry and Naval civilization"
-summary = "Berbers as the Amazigh of the Maghreb and their dynasties, centred on the Almoravids and Almohads (c. 680–1554): cheap Stable units, fast ships and the Genitour team bonus stay, the Genitour itself becoming a regional unit; the Almoravid spearmen with their lamt shields become the Castle unique unit (Murabit, on the Kamayuk model), Yusuf ibn Tashfin's black guard the Castle tech (Chieftains shared) and Abd al-Mu'min's land survey of 1159 the Town Center tech (Taksir, Burgundian Vineyards shared), replacing Kasbah and Maghrebi Camels; trans-Saharan trade and pastoralism replace the villager-speed bonus; the unattested Camel Archer and the post-1500 Hand Cannoneer and Cannon Galleons leave, and Halberdier, Keep and Architecture enter the tree."
+summary = "Berbers as the Amazigh of the Maghreb, centred on the Almoravids and Almohads (683–1554): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave."
 ideas = [
   "N2: A Murabit with its own model (Almoravid infantry with long spear, veil and lamt shield) instead of the Andean Kamayuk graphic.",
   "N2: Tabl: the Almoravid war drums of Zallaqa (1086) as an aura that slows nearby enemies or hastens friendly infantry.",
   "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on a Maghrebi Monastery graphic) for the ribat and the murabitun of Ibn Yasin's movement, from which the Almoravids took their name (the Ifriqiyan ribats of Monastir, 796, and Sousse, 821, were Abbasid and Aghlabid works in a Berber land).",
   "N2: Tabiya: cheaper and faster walls and towers of rammed earth (the Almoravid walls of Marrakesh, 1126–1127; the Almohad walls of Rabat and Seville). The N1 precedents (‘Walls cost -50%’, Mayan team bonus; Detinets, Slavs) were not used because a building technique weighs less than the traits already in the design, and rammed earth was as much Andalusi as Berber (see open questions).",
   "N2: Huffaz: the corps of young men Abd al-Mu'min had trained in Almohad doctrine and in riding, archery, swimming and rowing to staff his state and army (Bennison, 2016), as a technology once a second Almohad moment has a slot.",
-  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today split between the Berbers and the Saracens.",
+  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today represented only in its Almoravid and Almohad periods, by the Berbers.",
 ]
 contested = [
   "‘Berber’ as a category shaped by medieval Arab genealogists and historians (Ramzi Rouighi, Inventing the Berbers, 2019).",
+  "The date of Kusaila's victory over Uqba ibn Nafi at Tahudha, near Biskra, which opens the window: 683 in most accounts, 682 in some.",
   "The Almoravid conquest of Ghana in 1076 (Conrad and Fisher, ‘The Conquest that Never Was’, 1982–1983).",
   "The impact of the Hilalian invasions of the 11th century (Ibn Khaldun against Poncet and Brett).",
   "The earliest gunpowder in the Maghreb: Ibn Khaldun's Marinid engine with powder at Sijilmasa (1274) is doubted, the Marinid defence of Algeciras (1342–1344) is secure, and Maghrebi hand firearms are documented only from the early 16th century. The Nasrid case of Baza (1324/1325) belongs to al-Andalus, not to this civ.",
@@ -23,19 +24,19 @@ contested = [
   "Abd al-Mu'min's survey of 1159–1160 is reported by Ibn Abi Zar (14th century); how fully it was carried out is unknown.",
 ]
 open_questions = [
-  "Name: show the endonym (‘Berbers (Imazighen)’) or rename to ‘Maghrebis’? Not decided, so the current name is kept.",
+  "Name: show the endonym (‘Berbers (Imazighen)’) or rename to ‘Maghrebis’? Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
   "Unique unit: with the Genitour now a regional unit (owner's decision), the Berbers need a counted unique unit. This revision shares the Inca Kamayuk (infantry with long reach, strong against cavalry and infantry) as the ‘Murabit’ for the Almoravid spear ranks. Alternatives: restore the Camel Archer (no camel archers are attested), or share the Saxon Hearth Troop (javelin then melee) for the javelin ranks. Which do you prefer?",
   "Kasbah is dropped: the qasaba was common to the whole Islamic West and much of the word's fame comes from later places, so it fails the relevance test against the Almohad state reform (see dropped). Restore it as an exception carried by fame, for example at the Castle in place of the Black Guard?",
-  "Taksir shares Burgundian Vineyards with the Burgundians and with the Persians' Kharaj, which stands for the same land tax: three holders. Accept, or prefer a new tech (level 2) with another fiscal effect, such as ‘All gold income +10%’ (the first half of Grand Trunk Road)?",
-  "Religious vocabulary: rename the Monastery ‘Ribat’ for the Berbers (the murabitun), alone or as part of a regional Islamic vocabulary (see the Saracens)?",
-  "Power: without the villager-speed bonus and the Maghrebi Camels, with the trade and shepherd bonuses mattering mostly early or in team games, and now without the Hand Cannoneer and the Cannon Galleons, the Berbers are weaker in 1v1 than the current civ. If parity is wanted: a stronger pastoral bonus (‘Livestock animals last +50% longer’, Tatars), ‘Coinage and Banking free’ (analysis alternative), or a fifth bonus for tabiya walls (‘Walls cost -50%’, Mayan team bonus)?",
-  "Shipwright is renamed for the Saracens (Dar al-Sina'a) and the Turks (Tersane); the Berbers keep the generic name, though the Almohad and Hafsid arsenals could justify Dar al-Sina'a here too. Rename it?",
+  "Taksir shares Burgundian Vineyards with the Burgundians (at the Mill), with the Persians' Kharaj, which stands for the same land tax, and with the Aztecs' Calpixqueh and the Tatars' Yarlyk, and the Bengalis have it as a passive: six designs (the reuse itself is codex-wide question CQ11, see codex/civs/README.md). Keep the shared tech, or prefer a new tech (level 2) with another fiscal effect, such as ‘All gold income +10%’ (the first half of Grand Trunk Road)?",
+  "Codex-wide question CQ6 (see codex/civs/README.md): religious vocabulary (here ‘Ribat’ for the Monastery, after the murabitun).",
+  "Power (the Berbers are among the kits of codex-wide question CQ14, see codex/civs/README.md): without the villager-speed bonus and the Maghrebi Camels, with the trade and shepherd bonuses mattering mostly early or in team games, and now without the Hand Cannoneer and the Cannon Galleons, the Berbers are weaker in 1v1 than the current civ. If parity is wanted: a stronger pastoral bonus (‘Livestock animals last +50% longer’, Tatars), ‘Coinage and Banking free’ (analysis alternative), or a fifth bonus for tabiya walls (‘Walls cost -50%’, Mayan team bonus)?",
+  "Shipwright is renamed for the Saracens (Dar al-Sina'a) and the Turks (Tersane); the Berbers keep the generic name, though the Almohad and Hafsid arsenals could justify Dar al-Sina'a here too. Rename it? (One rule for such renames is codex-wide question CQ17, see codex/civs/README.md.)",
 ]
 
 [profile]
 entity = "The Amazigh (Berber) peoples of the Maghreb and the states they founded: Zirids, Almoravids, Almohads, Marinids, Zayyanids, Hafsids and Wattasids"
 region = "The Maghreb and the western Sahara, with al-Andalus under Almoravid and Almohad rule"
-window = "c. 680–1554 (core 1040–1269: Almoravids and Almohads)"
+window = "683–1554 (from Kusaila's victory over Uqba ibn Nafi at Tahudha to the fall of the Wattasids; core 1040–1269: Almoravids and Almohads)"
 sources = [
   "al-Bakri, Kitab al-masalik wa'l-mamalik (1068), in N. Levtzion and J. F. P. Hopkins, Corpus of Early Arabic Sources for West African History (1981)",
   "Ibn Khaldun, Kitab al-'ibar (Histoire des Berbères, trans. de Slane)",
@@ -106,7 +107,7 @@ building = "Castle"
 level = 1
 change = "new"
 replaces = "Camel Archer"
-basis = "al-Bakri (1068) describes the early Almoravids fighting on foot in close ranks, the front rank with long spears and the ranks behind with javelins; in a separate passage he records the prized lamt shields of antelope hide made at Nul Lamta and sought in the Maghreb and al-Andalus, the shield this infantry carried. The Inca Kamayuk, a spearman with long reach strong against cavalry, is the nearest existing unit. Named after the al-murabitun, ‘the people of the ribat’, who gave the Almoravids their name. It replaces the Camel Archer: no camel-mounted archer is attested as a Maghrebi troop type (camels served the Saharan Sanhaja and the army's baggage, and combat relied on spears, javelins and swords)."
+basis = "al-Bakri (1068) describes the early Almoravids fighting on foot in close ranks, the front rank with long spears and the ranks behind with javelins; in a separate passage he records the prized lamt shields of antelope hide made at Nul Lamta and sought in the Maghreb and al-Andalus, the shield this infantry carried. The Inca Kamayuk, a spearman with long reach strong against cavalry, is the nearest existing unit; the Mapuche Colihue Lancer and the Ethiopians' Chewa Spearman use it too. Named after the al-murabitun, ‘the people of the ribat’, who gave the Almoravids their name. It replaces the Camel Archer: no camel-mounted archer is attested as a Maghrebi troop type (camels served the Saharan Sanhaja and the army's baggage, and combat relied on spears, javelins and swords)."
 relevance = "The Almoravid spear infantry built the empire that united the western Maghreb and al-Andalus; it is the defining military trait of the civ's core dynasty."
 contested = "The Kamayuk model is Andean (see the N2 idea), and ‘murabit’ named members of the movement, not a troop type. Which antelope gave the lamt hide (oryx or addax), and how widely lamt shields were used beyond the Almoravid elite, is uncertain."
 
@@ -118,7 +119,7 @@ age = "Castle"
 effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
-precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there; the Persians share it as Kharaj): an existing unique tech, shared and renamed with an identical effect and age (Castle)"
+precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill; the Persians share it as Kharaj, the Aztecs as Calpixqueh and the Tatars as Yarlyk, and the Bengalis have it as a passive): an existing unique tech, shared and renamed with an identical effect and age (Castle)"
 basis = "In 1159–1160 Abd al-Mu'min had the Maghreb surveyed (taksir) from Barqa to the Sus, deducted a third for mountains, rivers and wasteland, and assessed the rest for the land tax (kharaj), payable in grain and coin (Ibn Abi Zar, Rawd al-qirtas, year 555 AH); it gave the Almohad caliphate its fiscal base (Bennison, 2016). Farmers whose fields yield coin to the treasury translate the assessment, as for the Persians' Kharaj, the same land tax. It takes Kasbah's Town Center slot (see dropped)."
 relevance = "The Almohads were the only Berber dynasty to unite the whole Maghreb and al-Andalus under one government, and the survey gave that state its revenue; it is the Almohad state's defining reform."
 
@@ -131,14 +132,14 @@ effect = "Infantry +5 attack vs. Cavalry, +4 vs. Camel Units"
 level = 1
 change = "new"
 replaces = "Maghrebi Camels (Camel Units regenerate 15 HP per minute)"
-precedent = "Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units) (Vikings): an existing unique tech, moved and renamed with an identical effect and age (Castle); the Norse draft drops it"
+precedent = "Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units) (Vikings): an existing unique tech, moved and renamed with an identical effect and age (Castle); the Norwegians' design drops it"
 basis = "Yusuf ibn Tashfin kept a royal guard of black slaves (ʿabīd), and in the 14th-century narratives of Zallaqa/Sagrajas (1086) the Almoravid vanguard held while Yusuf took the Castilian camp and committed this black guard, whose attack broke Alfonso VI's knights; one of its men wounded the king (Rawd al-qirtas; al-Hulal al-mawshiyya; Huici Miranda, 1956). The Almohad and Marinid sultans kept black slave guards beside their tribal troops (Bennison, 2016). Infantry stronger against cavalry translates foot soldiers who broke a charge of armoured knights. Maghrebi Camels, an abstraction of the dromedary's hardiness, gives way to this royal institution."
 relevance = "Slave guards gave the Almoravid, Almohad and Marinid rulers a force of their own beside the tribal levies, and at Zallaqa the black guard halted Alfonso VI's advance and opened al-Andalus to Almoravid rule."
 contested = "The guard's role and numbers at Zallaqa come from late narratives (see the civ-level list)."
 
 [tree]
 add = ["Halberdier", "Keep", "Architecture"]
-remove = ["Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon"]
+remove = ["Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon", "Siphons"]
 
 [tree.basis]
 "Halberdier" = "The Almoravid infantry fought as a phalanx with long spears in the front rank (al-Bakri, 1068); stopping at the Pikeman contradicted their best-documented tactic."
@@ -147,6 +148,7 @@ remove = ["Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon"]
 "Hand Cannoneer" = "No Maghrebi hand firearms are documented before the early 16th century, when Moroccan and Hafsid troops met the Portuguese enclaves with them (the earliest dates are contested), and the famous Moroccan arquebusiers of Alcácer Quibir (1578) and Tondibi (1591) were Saadian, after the window and outside the civ's dynasties: the unit would be a late element without clear Berber fame (RULES section 2). The Bombard Cannon stays on secure in-window evidence: the Marinid defenders of Algeciras fired iron balls with ‘truenos’ against Alfonso XI (1342–1344; Crónica de Alfonso XI)."
 "Cannon Galleon" = "No Maghrebi gun-armed sailing fleet is documented inside the window; the gun-carrying corsair fleets of Algiers and Tunis came with the Barbarossa brothers and the Ottomans after 1516. Galleys, Galleons and fire ships keep the navy (RULES 6.11)."
 "Elite Cannon Galleon" = "As Cannon Galleon."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 
 [[rename]]
 from = "Elite Kamayuk"
