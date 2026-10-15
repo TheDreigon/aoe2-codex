@@ -3,25 +3,28 @@ name = "Norwegians"
 original_name = "Vikings"
 status = "draft"
 label = "Infantry and Naval civilization"
-summary = "Vikings renamed Norwegians (owner's decision): the Norwegian kingdom and its North Atlantic realm, with the Icelandic Commonwealth (c. 790–1469); stockfish, sheep and the settlers' livestock replace the unfounded free Wheelbarrow and Hand Cart, the Leiðangr naval levy becomes the Town Center tech, Berserk and Bogsveigar stay, the Docks team bonus now rests on Norse shipbuilding passed to Irish and Gaelic neighbours, the Christian kingdom gains Monastery techs and Keeps, the Halberdier replaces Chieftains as anti-cavalry, and the Varangian Guard, Cavalier, Mounted Crossbowman, Carrack, Siphons and Catapult Galleon leave."
+summary = "Vikings renamed Norwegians (owner's decision): the Norwegian kingdom and its North Atlantic realm, with the Icelandic Commonwealth (c. 790–1469); stockfish, sheep and the settlers' livestock replace the unfounded free Wheelbarrow and Hand Cart, the Leiðangr naval levy becomes the Town Center tech, Berserk and Bogsveigar stay, the Docks team bonus now rests on the Norse ship that passed to the Gaelic lords of the Isles, the Christian kingdom gains Monastery techs and Keeps, the Halberdier replaces Chieftains as anti-cavalry, and the Varangian Guard, Cavalier, Mounted Crossbowman, Carrack, Siphons and Catapult Galleon leave."
 ideas = [
   "N2: Skíðamenn, a cheap gold-free ski scout replacing Scout Cavalry and faster on snow terrain (ski troops in Sverris saga; the Birkebeinar who carried the child Haakon Haakonsson to safety in 1206).",
   "N2: A Kristnitaka choice at the Monastery: convert (full Monastery tree) or stay pagan (Berserks keep their regeneration), for the conversions of Olaf Tryggvason and St Olaf (995–1030) and the Althing's decision of 999/1000.",
-  "N3: A thing (assembly) building, for the law-things of Norway (Gulaþing, Frostaþing) and the Icelandic Althing (930), and a landnám mechanic for settling empty islands (Iceland c. 870–930, Greenland c. 985, L'Anse aux Meadows c. 1021).",
+  "N3: A thing (assembly) building, for the law-things of Norway (Gulaþing, Frostaþing) and the Icelandic Althing (930), and a landnám mechanic for settling uninhabited or thinly settled islands (Iceland c. 870–930, Greenland c. 985, L'Anse aux Meadows c. 1021).",
   "N3: Walrus ivory and hides as a tradeable resource (Ohthere's walrus hunt reported to King Alfred, c. 890; Greenland ivory in European workshops).",
 ]
 contested = [
   "Etymology of víkingr (vík ‘bay’, the Víken region, víkja ‘to turn aside’ or Old English wīc ‘trading place’); in any case it named an activity, not a people.",
-  "Whether the first raiders of the 790s (Portland, Lindisfarne) were Norwegians: English sources call all Scandinavians ‘Dene’, though one Anglo-Saxon Chronicle version says the Portland men came from Hǫrðaland.",
-  "Date and organisation of the leiðangr before the provincial laws of the 12th–13th centuries: Snorri credits Haakon the Good (mid-10th century), skaldic praise of Hákon jarl's fleet at Hjǫrungavágr (c. 986) is read by some as the earliest allusion to a levy fleet, and Niels Lund (Lið, leding og landeværn, 1996) argues for Denmark that the public levy is a 12th-century development.",
+  "Whether the first raiders (Portland, c. 789; Lindisfarne, 793) were Norwegians: English sources call all Scandinavians ‘Dene’, though the northern versions of the Anglo-Saxon Chronicle (D, E) say the Portland men came from Hǫrðaland.",
+  "Date and organisation of the leiðangr before the provincial laws of the 12th–13th centuries: Snorri credits Haakon the Good (mid-10th century); Rikke Malmros (‘Leding og skjaldekvad’, Aarbøger for nordisk Oldkyndighed og Historie, 1985) reads 11th-century court poetry as evidence of royal levy fleets, while Niels Lund (Lið, leding og landeværn, 1996) argues, for Denmark, that the public levy is a 12th-century development.",
   "Nature of the berserkir: an Odinic warrior cult, ritual trance or literary type; the hallucinogen theories are speculative.",
   "Date of Hafrsfjord (traditionally c. 872, now often the 880s) and the real extent of Harald Fairhair's unification.",
-  "Origin of the Norse of Ireland: the annals' Finngaill and Dubgaill (‘fair’ and ‘dark’ foreigners) are read as Norwegians and Danes, but the reading is debated, and the Dublin dynasty (Uí Ímair) may descend from Ivarr of the Danish-led Great Army; its kings also ruled York (c. 919–954). This design counts the Irish ports with the West Norse world and the Danish settlement of the Danelaw with the Danes.",
+  "Origin of the Norse of Ireland: the annals' Finngaill and Dubgaill (‘fair’ and ‘dark’ foreigners) are read as Norwegians and Danes, but the reading is debated, and the Dublin dynasty (Uí Ímair) may descend from Ívarr of the Danish-led Great Army; its kings also ruled York (c. 919–954), which the Danes' design covers. Whether the Norse ports were Ireland's first towns is debated too (the monastic-town thesis, C. Doherty, 1985). Which civ the Hiberno-Norse towns belong to is a scope question for the owner (open questions).",
 ]
 open_questions = [
   "Window: RULES section 4 defines the realm down to the pledge of Orkney (1468) and Shetland (1469) to Scotland, so the window ends in 1469. Ending it at the personal union with Denmark (1380) or at the Kalmar Union (1397) would leave the union period to the Danes; nothing in the design depends on the years after 1380 except the Halberdier. Which end does the owner prefer?",
   "Shipwright (an N1 option): the Norwegians lack the generic Shipwright (Ships cost -20% wood and build +50% faster), as the Vikings do, to offset their warship discount, although they are the best-documented shipbuilders of the game. Add Shipwright and lower the discount (for example to -10/15% in Castle/Imperial Age)? Kept as in the game here.",
-  "Power budget: the free Wheelbarrow and Hand Cart, a strong land bonus, give way to fishing gold, faster shepherds and sheep for new Town Centers, which depend more on the map; the Varangian Guard, Cavalier, Mounted Crossbowman, Carrack and Catapult Galleon leave, and Keep, Halberdier and three Monastery techs come in. Acceptable?",
+  "Power budget: the free Wheelbarrow and Hand Cart, a strong land bonus, give way to fishing gold, faster shepherds and sheep for new Town Centers, which depend more on the map; the Varangian Guard, Cavalier, Mounted Crossbowman, Carrack and Catapult Galleon leave, and Keep, Halberdier and three Monastery techs come in. Acceptable? One option is to bring the Varangian Guard model back renamed Hirðmaðr, for the royal hirð of St Olaf and Harald Hardrada, as the Danes rename it Housecarl; it is left out here to keep the Norwegians and Danes distinct (region note).",
+  "Hiberno-Norse towns: Dublin, Waterford and Limerick lie outside the realm RULES section 4 lists for the Norwegians, and the Dublin dynasty may descend from the Danish-led Great Army (see contested). Count them with the Norwegians, with the Danes, or with neither, leaving them to the Gaels' design as Norse–Gaelic neighbours? The team bonus no longer depends on them.",
+  "Leiðangr sits at the Town Center as a public obligation fixed in law, run by ship districts and turned into a tax. The alternative puts it at the Dock (its sea side) and gives the Town Center a new tech (level 2) for Magnus Lagabøte's Landslov (1274), the first law code for a whole Scandinavian kingdom. Keep the Town Center?",
+  "Late tiers, a rule for all five civs of this region (Norwegians, Danes, Swedes, Rus', Goths): the Galleon stays everywhere as the engine's generic Imperial Age warship, so that no civ loses its Imperial navy (RULES 6.14), although no civ of the region built galleons; the other late naval items (Carrack, Fast Fire Ship, the demolition ships, Siphons, Incendiaries, Catapult and Cannon Galleons) and the Hussar stay only where the civ had the type or its function (the Danes' Carrack, Fast Fire Ship and Cannon Galleon) and go elsewhere (RULES 6.10). The infantry and archer tiers stay generic, as in all designs. Alternatives: treat all these tiers as generic, which would restore the Carrack, Fast Fire Ship and demolition ships to the civs that have them in the game, or apply the evidence test to the Galleon too. Keep this rule?",
 ]
 
 [profile]
@@ -34,10 +37,11 @@ sources = [
   "Þorbjǫrn hornklofi, Haraldskvæði (c. 900)",
   "Ari Þorgilsson, Íslendingabók; Landnámabók",
   "Snorri Sturluson, Heimskringla (c. 1230)",
-  "Gulaþingslög and Frostaþingslög; Magnus Lagabøte's Landslov (1274); Grágás",
+  "Gulaþingslög and Frostaþingslög (trans. L. M. Larson, The Earliest Norwegian Laws, 1935); Magnus Lagabøte's Landslov (1274); Grágás",
   "Konungs skuggsjá (The King's Mirror, c. 1250)",
   "Profectio Danorum in Hierosolymam (c. 1200)",
   "Judith Jesch, Ships and Men in the Late Viking Age (2001)",
+  "Ole Crumlin-Pedersen and Olaf Olsen (eds.), The Skuldelev Ships I (2002)",
   "Knut Helle (ed.), The Cambridge History of Scandinavia, vol. 1 (2003)",
   "Neil Price, Children of Ash and Elm (2020)",
   "B. Star et al., ‘Ancient DNA reveals the Arctic origin of Viking Age cod from Haithabu, Germany’, PNAS 114 (2017)",
@@ -51,8 +55,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Infantry +20% HP starting in Feudal Age (Vikings)"
-basis = "Norwegian armies fought on foot in the shield wall (skjaldborg), from Hafrsfjord and Stiklestad (1030) to the peasant levies of the civil wars, and used horses to move, not to charge. Mail was costly and rare: Gjermundbu (10th century) is the only near-complete helmet found in Scandinavia, with fragments of a mail shirt, and the Yarm helmet from England is the only other near-complete Viking-age example (Caple, Medieval Archaeology 64, 2020). The bonus stands for shields, cohesion and endurance rather than armour (Price 2020)."
-relevance = "Foot fighting in the shield wall decided Norway's battles from Hafrsfjord to the civil wars; it is the core of Norse warfare."
+basis = "Norwegian armies fought on foot in the shield wall (skjaldborg), from Stiklestad (1030) to the land battles of the civil wars (Kalvskinnet 1179, Ilevollene 1180), and used horses to move, not to charge. Mail was costly and rare: Gjermundbu (10th century) is the only near-complete helmet found in Scandinavia, with fragments of a mail shirt, and the Yarm helmet from England is the only other near-complete Viking-age example (Caple, Medieval Archaeology 64, 2020). The bonus stands for shields, cohesion and endurance rather than armour (Price 2020)."
+relevance = "Foot fighting in the shield wall decided Norway's land battles from Stiklestad to the civil wars; it is the core of Norse warfare."
 
 [[bonus]]
 text = "Warships cost -10/15/20% in Feudal/Castle/Imperial Age"
@@ -60,8 +64,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Warships cost -10/15/20% in Feudal/Castle/Imperial Age (Vikings)"
-basis = "Clinker-built ships from abundant timber, seen in the Norwegian ship burials of Oseberg (834) and Gokstad (c. 900), and a coast organised in ship districts (skipreiður) that built, manned and provisioned ships for the king (Gulaþingslög; Jesch 2001)."
-relevance = "Sea power made the Norwegian kingdom and its island realm possible; a long tradition rather than one reform, so a passive."
+basis = "Clinker-built ships from abundant pine and oak: the Norwegian ship burials of Oseberg (834) and Gokstad (c. 900), and Skuldelev 1, an ocean-going cargo ship built of pine in western Norway c. 1030 and sunk in Roskilde Fjord (Crumlin-Pedersen and Olsen 2002). The levy that called the ships out is rendered by the Leiðangr tech."
+relevance = "Sea power made the Norwegian kingdom and its island realm possible; a long shipbuilding tradition rather than one reform, so a passive."
 
 [[bonus]]
 text = "Fishing Ships generate gold in addition to food"
@@ -88,7 +92,7 @@ kind = "economic"
 level = 1
 change = "new"
 precedent = "New Town Centers spawn 2 Sheep starting in Castle Age (Tatars)"
-basis = "Landnám, the settlement of empty lands: settlers shipped their families, cattle and sheep to the Faroes, Iceland (c. 870–930, recorded farm by farm in Landnámabók) and Greenland (from c. 985), and every new farm began with the livestock brought on board. A new Town Center with its own flock renders a settlement founded from the ships."
+basis = "Landnám, the settlement of lands with few or no inhabitants: Irish hermits (papar) had reached Iceland before the Norse and left when they came (Íslendingabók 1), and people had reached the Faroes centuries earlier (Church et al., Quaternary Science Reviews 77, 2013), but it was the Norse settlers who made these islands farming lands, shipping families, cattle and sheep to the Faroes, Iceland (c. 870–930, recorded farm by farm in Landnámabók) and Greenland (from c. 985). Every new farm began with the livestock brought on board; a new Town Center with its own flock renders a settlement founded from the ships."
 relevance = "Without the landnám there would be no Iceland, no Icelandic Commonwealth and no North Atlantic realm; it is what defines the West Norse world."
 
 [team_bonus]
@@ -96,9 +100,9 @@ text = "Docks cost -15%"
 level = 1
 change = "kept"
 precedent = "Docks cost -15% (Vikings team bonus)"
-basis = "Norse shipbuilding and sea power passed to the neighbours. The Viking-age ports of Ireland, Dublin (841), Waterford (914) and Limerick (922) (Annals of Ulster), became Ireland's first towns and trading ports, and their fleets served others: Harold Godwinson's sons sailed from Ireland against England in 1068–69, and Gruffudd ap Cynan, born in Dublin, won Gwynedd with Hiberno-Norse troops. Skuldelev 2 was built at Dublin c. 1042 and ended its days in Denmark, and the West Highland galley of the Gaelic lords of the Isles descends from the Norse ship (Rixson 1998). Cheaper docks for allies render ships and shipwrights shared with neighbours (RULES 6.2: transferred techniques)."
-relevance = "The Norse ports created Ireland's towns and sea trade, and the Norse ship became the war galley of the Gaelic west for five centuries."
-contested = "Whether the Norse of Dublin came mainly from Norway (see the civ-level notes)."
+basis = "Norse shipbuilding passed to the Gaelic neighbours of the realm. The kingdom of Man and the Isles, a Norse–Gaelic kingdom under Norwegian overlordship until the Treaty of Perth (1266), fought with the Norse clinker-built ship, and the Gaelic lords who inherited the Isles, from Somerled's descendants to the MacDonald Lords of the Isles, built and fought in its descendant, the West Highland galley (birlinn), which became the emblem of their seals and arms and served the clans of the west into the 17th century (Rixson 1998). Cheaper docks for allies render ships and shipbuilding passed to neighbours (RULES 6.2: transferred techniques). The Hiberno-Norse ports of Ireland (Dublin, Waterford, Limerick) and Skuldelev 2, a warship built at Dublin c. 1042, are context only, because whether their Norse count as Norwegians is debated (see the civ-level notes)."
+relevance = "The Norse ship became the war galley of the Gaelic west for some five centuries, the most lasting technique the Norse passed to a neighbour."
+contested = "No medieval West Highland galley survives: its descent from the Norse ship is inferred from its clinker build and from its images on grave slabs and seals."
 
 [[unique_unit]]
 name = "Berserk"
@@ -119,9 +123,9 @@ effect = "Ships train +33% faster; Docks provide +5 population space"
 level = 2
 change = "new"
 precedent = "Effect 1: Ships train +33% faster (Circumnavigation, Portuguese); effect 2: Docks provide +5 population space (Dravidians team bonus). No existing tech renders a levy fleet."
-basis = "The naval levy of the Norwegian kings: each ship district (skipreiða) had to build, man and provision a warship when the king called out the leiðangr, as the laws of the Gulaþing and Frostaþing assemblies (12th–13th centuries) and Magnus Lagabøte's national law (Landslov, 1274) set out in detail. Skaldic praise of Hákon jarl's fleet at Hjǫrungavágr (c. 986; Vellekla, Tindr Hallkelsson's Hákonardrápa) is often read as the earliest allusion to a levy fleet. Faster ships and dock population render crews and hulls called up by district. A state obligation fixed in law, so at the Town Center (RULES 6.2)."
-relevance = "The levy fleet was the backbone of the Norwegian kings' power from the 10th century to the 14th; the Danish leding and Swedish ledung were similar, but the Norwegian laws describe it best."
-contested = "How organised the leiðangr was before the written laws (see the civ-level notes)."
+basis = "The naval levy of the Norwegian kings: each ship district (skipreiða) had to build, man and provision a warship when the king called out the leiðangr, as the laws of the Gulaþing and Frostaþing assemblies (12th–13th centuries) and Magnus Lagabøte's national law (Landslov, 1274) set out in detail. It was a civil institution as much as a military one: the skipreiða was also a district of local administration and taxation, and by the 13th century the levy was commonly paid as a fixed yearly tax in kind, the leidang, which outlived the fleet. Faster ships and dock population render crews and hulls called up by district. A public obligation fixed in law and administered as a tax, so at the Town Center (RULES 6.2)."
+relevance = "The levy fleet was the backbone of the Norwegian kings' power from the 11th century at the latest (Snorri dates it to Haakon the Good) to the 14th; the Danish leding and Swedish ledung were similar, but the Norwegian laws describe it best."
+contested = "How organised the leiðangr was before the written laws; some read 11th-century skaldic verse as evidence of levy fleets (see the civ-level notes)."
 
 [[unique_tech]]
 name = "Bogsveigar"
@@ -132,24 +136,24 @@ effect = "Archer-line and Longships +1 attack"
 level = 1
 change = "kept"
 precedent = "Bogsveigar (Archer-line and Longships +1 attack) (Vikings)"
-basis = "Old Norse bogsveigir, ‘bow-bender’. Norse sea fights opened with an exchange of missiles before boarding: Einarr Þambarskelfir is the famous archer of Olaf Tryggvason's last battle at Svolder (c. 1000, Heimskringla), and the King's Mirror (c. 1250) says that at sea crossbows and longbows are useful, as are all other shooting weapons. Archers are stock figures of saga warfare, Gunnarr of Hlíðarendi in Njáls saga among them."
-relevance = "Missile fire opened and often decided the sea battles that made and unmade Norwegian kings, from Svolder to the civil wars; a broad military trait, though its fame rests partly on the sagas."
+basis = "Old Norse bogsveigir, ‘bow-bender’. Norse sea fights opened with an exchange of missiles before boarding, and the levy laws armed the ships for it: the Gulaþing law required a bow and two dozen arrows for each rowing bench (sessrúm) of a levy ship (trans. Larson 1935). Einarr Þambarskelfir is the famous archer of Olaf Tryggvason's last battle at Svolder (c. 1000, Heimskringla), and the King's Mirror (c. 1250) says that at sea crossbows and longbows are useful, as are all other shooting weapons."
+relevance = "Missile fire opened and supported the sea battles that made and unmade Norwegian kings, from Svolder to the civil wars, and the levy laws put a bow on every rowing bench; a broad military trait, though its fame rests partly on the sagas."
 
 [tree]
 add = ["Keep", "Illumination", "Sanctity", "Herbal Medicine", "Halberdier"]
 remove = ["Varangian Guard", "Elite Varangian Guard", "Cavalier", "Mounted Crossbowman", "Carrack", "Siphons", "Catapult Galleon"]
 
 [tree.basis]
-"Keep" = "Norway built royal stone castles from the late 12th century: Sverresborg in Trondheim and Bergen (1180s), Bergenhus with Håkonshallen (c. 1261), Tunsberghus and Akershus (c. 1299)."
+"Keep" = "Norway built royal stone castles from the late 12th century: Sverresborg in Trondheim and Bergen (1180s), Bergenhus with Håkonshallen (c. 1261), Tunsberghus (mid-13th century) and Akershus (c. 1299)."
 "Illumination" = "Norway was Christian from c. 1030 (St Olaf, Stiklestad), with an archbishopric at Nidaros from 1152/53 whose province reached Iceland, Greenland, the Faroes, Orkney and Man; a pagan Monastery to the end of the window is anachronistic."
 "Sanctity" = "The cult of St Olaf made Nidaros the main pilgrimage centre of the North."
 "Herbal Medicine" = "Monastic houses and hospitals spread with the 12th-century church; a generic Monastery tech held by most civs."
 "Halberdier" = "Substitute for Chieftains and the removed Varangian Guard as anti-cavalry infantry (RULES 6.11); the top spear tier is a generic abstraction, and pole weapons were in use in the late-medieval peasant levies of the window."
-"Varangian Guard" = "The Varangian Guard stays with the Byzantines (RULES section 4). Norwegians served in it (Harald Hardrada, 1034–1043), but as individuals, not as an institution of the kingdom; Berserk, Champion and Halberdier cover its roles."
+"Varangian Guard" = "The Varangian Guard stays with the Byzantines (RULES section 4). Norwegians served in it (Harald Hardrada, 1034–1043), but as individuals, not as an institution of the kingdom. The Danes rename the model Housecarl for their kings' household troops; the Norwegian kings' hirð could justify the same, but the model is left to the Danes to keep the two civs distinct (region note), and Berserk, Champion and Halberdier cover its roles (see open questions)."
 "Elite Varangian Guard" = "Same as the Varangian Guard."
 "Cavalier" = "Norway never fielded a large knightly cavalry; the small mounted hirð of the 13th-century kings, whose retainers took knightly titles under Magnus Lagabøte, is represented by the Knight."
 "Mounted Crossbowman" = "A late-medieval continental troop type (13th–15th centuries) never characteristic of Norway; it came with a generic ‘Western European’ block."
-"Carrack" = "A 15th-century ship type in northern waters, never built by Norway, whose late-medieval trade was carried by Hanseatic cogs and hulks; the holc behind the Hulk is attested from c. 1000. The Galleon stays only as the engine's generic top warship."
+"Carrack" = "A 15th-century ship type in northern waters, never built by Norway, whose late-medieval trade was carried by Hanseatic cogs and hulks; the holc behind the Hulk is attested from c. 1000. The Galleon stays as the engine's generic Imperial Age warship (regional rule for late tiers, see open questions)."
 "Siphons" = "The siphon for liquid fire was a Byzantine state secret that Constantine VII ordered never to be given to another nation (De Administrando Imperio 13)."
 "Catapult Galleon" = "There is no evidence of ship-borne catapults in Norse fleets; the Longship (strong vs buildings) keeps the role of attacking coastal buildings."
 
