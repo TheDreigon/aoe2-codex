@@ -21,10 +21,11 @@ contested = [
 open_questions = []
 
 [profile]
-entity = "Duchy and (from 1198, confirmed by the Golden Bull of Sicily in 1212) Kingdom of Bohemia, with the Lands of the Bohemian Crown (Moravia, Silesia, Lusatia), from the Přemyslids to the Luxembourgs, the Hussite revolution and the Jagiellonians. The Annals of Fulda first mention Bohemian dukes in 845, when fourteen of them were baptised at Regensburg, and in 872 name several, among them Goriwei, probably Bořivoj I, the first historical Přemyslid. The window starts with him, since the design is the Přemyslid duchy and kingdom; the fourteen dukes of 845 led separate groups whose link to that duchy is unknown"
+entity = "Duchy and (from 1198, confirmed by the Golden Bull of Sicily in 1212) Kingdom of Bohemia, with the Lands of the Bohemian Crown (Moravia, Silesia, Lusatia), from the Přemyslids to the Luxembourgs, the Hussite revolution and the Jagiellonians. A single dux of the Bohemians, Lecho, is named as killed in Charlemagne’s campaign of 805 (Chronicle of Moissac); the Annals of Fulda record fourteen Bohemian dukes baptised in 845, in the octave of Epiphany (at Regensburg, Louis the German’s seat, the usual inference, since the annal names no place), and in 872 name several, among them Goriwei, probably Bořivoj I, the first historical Přemyslid. The window starts with him, since the design is the Přemyslid duchy and kingdom; the dukes of 805 and 845 led groups whose link to that duchy is unknown"
 region = "Bohemia and Moravia, with Silesia (from 1327–35) and Lusatia (from 1319–29 and 1367)"
 window = "872–1526 (from the first mention of Bořivoj I, the first historical Přemyslid, to Mohács; focus: the Hussite era, 1419–1471)"
 sources = [
+  "Chronicon Moissiacense (9th century)",
   "Annales Fuldenses (9th century)",
   "Cosmas of Prague, Chronica Boemorum (c. 1120)",
   "Laurence of Březová, Hussite Chronicle (1420s)",
@@ -92,8 +93,8 @@ text = "Gunpowder Units train +25% faster"
 level = 1
 change = "new"
 replaces = "Markets work +80% faster"
-precedent = "Gunpowder Units train +25% faster (Turks team bonus; the Turks’ design gives it up and the Vietnamese design takes it). Identical team-wide effects count once per team (RULES 6.16.12)."
-basis = "The Czech mercenaries: after the Hussite wars, Czech companies, veterans of the wagon fort and the handgun, sold their skills to the neighbours and carried Hussite warfare across Central Europe. Jan Jiskra of Brandýs held Upper Hungary with Czech companies from 1440 and entered King Matthias’ service in 1462, and the Hungarian armies took over the war wagon (Engel 2001; Tóth 2026); in 1433 the Orphans’ field army marched with the Polish army against the Order to the Baltic coast near Danzig (Długosz); in the Thirteen Years’ War (1454–66) Czech companies fought on both sides, and in 1457 the Order’s unpaid mercenaries, many of them Czech under Oldřich Červonka, sold Marienburg, the Order’s capital, to the Polish king (Długosz; Urban 2003). Allies who trained gunpowder troops faster stand for hired Czech handgunners and gunners: a trait that benefited neighbours, mercenaries being one of the cases RULES 6.2 names. It replaces the groschen, a weaker case for the team bonus (see [[dropped]]). The pattern of the Italians’ and Goths’ designs (allies training another civ’s unit, here the Hussite Wagon) is not used: the Magyars’ design already gives the wagon to Hungary through its Black Army tech, and the game’s own team effect fits the handgun as well as the wagon fort."
+precedent = "Gunpowder Units train +25% faster (Turks team bonus; the Turks’ design gives it up and the Vietnamese design takes it as its team bonus; the Rus’ Pushechny Dvor combines it with Gunpowder Units cost -20%, and the Japanese Tanegashima narrows it to Hand Cannoneers). Identical team-wide effects count once per team (RULES 6.16.12)."
+basis = "The Czech mercenaries: during and after the Hussite wars, Czech companies, veterans of the wagon fort and the handgun, sold their skills to the neighbours and carried Hussite warfare across Central Europe. Jan Jiskra of Brandýs held Upper Hungary with Czech companies from 1440 and entered King Matthias’ service in 1462, and the Hungarian armies took over the war wagon (Engel 2001; Tóth 2026); in 1433 the Orphans’ field army marched with the Polish army against the Order to the Baltic coast near Danzig (Długosz); in the Thirteen Years’ War (1454–66) Czech companies fought on both sides, and in 1457 the Order’s unpaid mercenaries, many of them Czech under Oldřich Červenka (Polish Ulryk Czerwonka), sold Marienburg, the Order’s capital, to the Polish king (Długosz; Urban 2003). Allies who trained gunpowder troops faster stand for hired Czech handgunners and gunners: a trait that benefited neighbours, mercenaries being one of the cases RULES 6.2 names. It replaces the groschen, a weaker case for the team bonus (see [[dropped]]). The pattern of the Berbers’, Goths’ and Italians’ designs (allies training another civ’s unit, here the Hussite Wagon) is not used: the Magyars’ design already gives the wagon to Hungary through its Black Army tech, and the game’s own team effect fits the handgun as well as the wagon fort."
 relevance = "Czech companies were the main channel through which the Hussite military revolution, the wagon fort and the massed handgun, reached Hungary, Poland and the Teutonic Order."
 contested = "How much of the Hussite way of fighting the neighbours actually adopted: Hungarian armies took over the wagons but used wagon forts in a secondary, mainly defensive role (Tóth 2026)."
 
@@ -110,6 +111,7 @@ relevance = "The wagon fort is the signature of Hussite warfare and was copied a
 name = "Houfnice"
 model = "Organ Gun"
 building = "Siege Workshop"
+age = "Imperial"
 level = 1
 change = "changed"
 replaces = "Houfnice (upgrade of the Bombard Cannon: long-range anti-building gun that cannot attack at close range)"
@@ -125,7 +127,7 @@ effect = "Gunpowder Units move +10% faster; Hussite Wagons +4 melee armor"
 level = 2
 change = "changed"
 replaces = "Wagenburg Tactics (Gunpowder Units move +10% faster)"
-precedent = "Effect 1: Wagenburg Tactics (Gunpowder Units move +10% faster) (Bohemians); effect 2: Ironclad (Siege Weapons +4 melee armor) (Teutons), narrowed to Hussite Wagons. A new tech under RULES 6.5, since an effect is added: the existing tech keeps only the march, which the analysis rates ‘stretched’ for a static wagon fort, and no existing tech gives the closed fort."
+precedent = "Effect 1: Wagenburg Tactics (Gunpowder Units move +10% faster) (Bohemians); effect 2: Ironclad (Siege Weapons +4 melee armor) (Teutons; the Germans’ design drops it and the Bulgarians’ design keeps it whole as Krum’s Siege Train), narrowed to Hussite Wagons. A new tech under RULES 6.5, since an effect is added: the existing tech keeps only the march, which the analysis rates ‘stretched’ for a static wagon fort, and no existing tech gives the closed fort."
 basis = "Hussite field armies marched in parallel wagon columns that could close into a fort quickly (reconstructed from later 15th-century sources by Durdík 1953; the 1423 Ordinance sets the order and discipline of the march) and ranged far on their raids (the ‘spanilé jízdy’ of 1427–33 reached the Baltic). Once closed, the chained, boarded wagons held off cavalry and storming infantry, as at Ústí nad Labem (1426). The old effect kept only the march; the added armour gives the static fort, which is worth a new tech (level 2) rather than the game’s speed-only effect. The name stays Wagenburg, the German term of the Hussites’ enemies and of modern scholarship, which the game already uses; the Czech is vozová hradba."
 relevance = "Žižka’s wagon-fort tactics, adopted from 1420, carried the Hussites through five crusades (1420–31), all of them defeated, and Žižka never lost a battle."
 
@@ -151,12 +153,12 @@ effect = "Town Centers +100% HP and work +10% faster"
 level = 2
 change = "new"
 precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians), narrowed to Town Centers at +10%; the Armenians’ and Bengalis’ designs use the same pattern for their capitals, and the Maya’s at +15%"
-basis = "On 8 March 1348 Charles IV founded the New Town of Prague, a planned town of broad streets and great markets (the Horse and Cattle Markets) with its own walls beside the Old Town; with the castle, the Old Town and the Lesser Town it made Prague the imperial residence and one of the largest cities of Central Europe, and the defenestration at its town hall on 30 July 1419 began the Hussite revolution (Kaminsky 1967; Šmahel 1993). The same programme of 1348 founded the University (see the University bonus) and defined the Lands of the Bohemian Crown. Town Centers that are sturdier and work faster stand for the walled, growing capital. A new tech (level 2): no existing unique tech represents a planned capital, and the Four Articles cannot be split into a second tech (RULES 6.3). Chosen over Wenceslas II’s mining code (Ius regale montanorum, c. 1300) and groschen reform, which would add a third silver element beside the mining passive."
+basis = "On 8 March 1348 Charles IV founded the New Town of Prague, a planned town of broad streets and great markets (the Horse and Cattle Markets) with its own walls beside the Old Town; with the castle, the Old Town and the Lesser Town it made Prague the imperial residence and one of the largest cities of Central Europe, and the defenestration at its town hall on 30 July 1419 began the Hussite revolution (Kaminsky 1967; Šmahel 1993). The same programme of 1348 founded the University (see the University bonus) and defined the Lands of the Bohemian Crown. Town Centers that are sturdier and work faster stand for the walled, growing capital. A new tech (level 2): no existing unique tech represents a planned capital, and the Four Articles cannot be split into a second tech (RULES 6.3). Chosen over Wenceslas II’s mining code (Ius regale montanorum, c. 1300) and groschen reform, which would add a second silver element beside the mining passive, which already carries the groschen."
 relevance = "Charles IV’s Prague, with its New Town, cathedral, bridge and university, is the image of Bohemia’s golden age, and the New Town became the stronghold of radical Hussitism."
 
 [tree]
 add = ["Plate Barding Armor", "Treadmill Crane"]
-remove = ["Cannon Galleon", "Elite Cannon Galleon", "Galleon", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Siphons", "Incendiaries"]
+remove = ["Cannon Galleon", "Elite Cannon Galleon", "Galleon", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Siphons", "Incendiaries", "Mounted Crossbowman"]
 
 [tree.basis]
 "Plate Barding Armor" = "Before the Hussites, Bohemia fielded first-rate armoured cavalry: Ottokar II won at Kressenbrunn (1260) with his heavy horse and fell at the Marchfeld (1278), and John the Blind died charging with his knights at Crécy (1346). The last cavalry armour upgrade (held by 36 of the game’s 56 civs) restores part of that kingdom without changing the Hussite profile. Bloodlines is not added: the evidence is about armour, not horse breeding."
@@ -168,6 +170,7 @@ remove = ["Cannon Galleon", "Elite Cannon Galleon", "Galleon", "Carrack", "Galle
 "Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon and Carrack are removed (the Bohemians already lacked the Fast Fire Ship)."
 "Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 "Incendiaries" = "Requires Siphons, which this design removes."
+"Mounted Crossbowman" = "Shared basis (level-1 review, section 3.2): the Mounted Crossbowman line stays only where shooting from the saddle is documented. The Hussite crossbowmen fought from the wagons (see the Hussite Wagon), and the sources consulted give no Bohemian mounted crossbowmen shooting from the saddle, before or after the Hussite wars. Removed; the crossbowmen stay as the foot Crossbowman and Arbalester."
 
 [[rename]]
 from = "Elite Organ Gun"
@@ -184,4 +187,4 @@ basis = "Historical fit, the codex criterion (RULES 6.16.8): Bohemia built in th
 [[dropped]]
 item = "Markets work +80% faster"
 kind = "team_bonus"
-reason = "The groschen is a real trait that served the neighbours’ trade, but a weaker one than the Czech mercenaries, who carried the Hussite wagon fort and handguns to Hungary, Poland and the Order; a civ has one team bonus. The coin itself is placed in the basis of the mining passive, as the money of Kutná Hora silver, and its effect stays in the game with the Aztecs’ design."
+reason = "The groschen is a real trait that served the neighbours’ trade, but a weaker one than the Czech mercenaries, who carried the Hussite wagon fort and handguns to Hungary, Poland and the Order; a civ has one team bonus. The coin itself is placed in the basis of the mining passive, as the money of Kutná Hora silver, and its effect stays in the codex as the Aztecs’ design’s team bonus (the market of Tlatelolco)."

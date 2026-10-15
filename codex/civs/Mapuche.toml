@@ -23,13 +23,14 @@ contested = [
   "The periodisation of the Arauco War: open war c. 1550–1656, then a frontier of trade and parliaments until the occupation of Araucanía (1861–1883).",
   "Lautaro between history and epic (Ercilla, La Araucana).",
   "The pre-Hispanic population of Araucanía.",
+  "Generic economy items without a Mapuche equivalent keep their names as flagged abstractions (RULES 6.16.6): Wheelbarrow, Hand Cart and the Trade Cart, since there were no wheeled vehicles before contact and the hueque's use as a pack animal is uncertain (ideas); Heavy Plow and Crop Rotation (see Raised Fields); Treadmill Crane, as an abstraction of faster building, since there were no cranes or treadwheels and the Mapuche built in wood, cane and thatch (see Architecture); and Coinage and Banking, since the Mapuche had no money before contact. The Blacksmith tiers are flagged in the HP bonus.",
 ]
 open_questions = []
 
 [profile]
 entity = "The Mapuche (called reche in 16th-century sources, ‘Araucanians’ by the Spaniards)"
 region = "South-central Chile between the Itata/Biobío and Toltén rivers"
-window = "1100–1598 (from the El Vergel complex to Curalaba; after 1541 only through the Kona, the one late element)"
+window = "1100–1598 (the core is the pre-Hispanic Reche world, c. 1100–1500, from the El Vergel complex on, as the chroniclers of 1541–1598 describe it; after 1541 the window reaches Curalaba only through the Kona, the one late element)"
 replaces = "The game's Mapuche of the Arauco War after 1541: cavalry, the Bolas Rider, Butalmapu, raiding gold and Lautaro's knowledge of the Spanish forts"
 sources = [
   "Jerónimo de Vivar, Crónica y relación copiosa y verdadera de los reinos de Chile (1558)",
@@ -73,7 +74,7 @@ change = "kept"
 precedent = "Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age (Mapuche)"
 basis = "The chroniclers and Ercilla stress the endurance of Mapuche warriors, who also fought in cuirasses and helmets of hardened hide (Vivar; Góngora Marmolejo)."
 relevance = "Endurance and hide armour are the traits every chronicler of Mapuche warfare stresses."
-contested = "Hide armour is attested from 1550 (Vivar) and in Góngora Marmolejo (1575); whether it predates contact is not known, so endurance carries the pre-Hispanic side of the bonus. For the same reason the hide cuirasses do not rename an armour tier: the Blacksmith tiers (Forging, Iron Casting, Blast Furnace, Scale Mail, Chain Mail and Plate Mail Armor, Ring Archer Armor) keep their generic names as a flagged generic equipment level (RULES 6.16.6), since there was no iron or metal armour before contact (afterwards the Mapuche obtained iron by capture and trade and worked it, but never smelted it), and Chemistry stays for its +1 ranged attack as a flagged abstraction."
+contested = "Hide armour is attested from 1550 (Vivar) and in Góngora Marmolejo (1575); whether it predates contact is not known, so endurance carries the pre-Hispanic side of the bonus. For the same reason the hide cuirasses do not rename an armour tier: the Blacksmith tiers (Forging, Iron Casting, Blast Furnace, Bodkin Arrow, Scale Mail, Chain Mail and Plate Mail Armor, Ring Archer Armor) keep their generic names as a flagged generic equipment level (RULES 6.16.6), since there was no iron or metal armour before contact (afterwards the Mapuche obtained iron by capture and trade and worked it, but never smelted it), and Chemistry stays for its +1 ranged attack as a flagged abstraction."
 
 [[bonus]]
 text = "Settlements cost -33%"
@@ -100,10 +101,10 @@ text = "Spearman-line and Skirmishers train +25% faster"
 level = 1
 change = "new"
 replaces = "Spearman-line and Skirmishers +2 line of sight"
-precedent = "Mounted Archers train +25% faster (Magyars team bonus); Camel and Elephant Units train +25% faster (Gurjaras team bonus)"
+precedent = "Conscription (Military buildings, except Siege Workshops, work +33% faster), narrowed to the Spearman-line and Skirmishers at +25%; the same training-speed form as the Magyars' and Gurjaras' team bonuses (Mounted Archers, and Camel and Elephant Units, train +25% faster)"
 basis = "Neighbouring peoples fought together against the Inca armies: by Garcilaso's account (book VII), the Purumaucas (Promaucaes) and their southern neighbours, the Antalli, Pincu and Cauqui, met the Inca on the Maule in a hard-fought battle that halted the Inca advance. These were Mapudungun-speaking peoples between the Cachapoal and the Itata, north of the Reche core, and the battle is contested (Silva 1983). Alliance stayed the Mapuche way of fielding large armies: later sources describe the ayllarewe (‘nine rewe’, groups of lof sharing a ritual centre) sending warriors to each other's wars under a common toqui (Rosales; Bengoa 2003). Faster training of the levy troops renders the warriors that allies sent. RULES 6.2: alliances. The lof and rewe were autonomous polities under no common ruler, so their alliances are alliances between independent allies (RULES 6.16.14), as were those with the neighbouring Mapudungun-speaking peoples. The line-of-sight bonus it replaces had no specific basis (rated unfounded)."
-relevance = "Alliance among autonomous lof and rewe under a common toqui was how the Mapuche and their Mapudungun-speaking neighbours fielded large armies, from the Maule (by Garcilaso's account) to the Arauco War."
-contested = "The pre-Hispanic basis of any Mapuche team bonus is weak: the Maule battle is known mainly from Garcilaso (1609), and its date, scale and outcome are doubted (Silva 1983); Reche participation is not attested; the ayllarewe are documented from the late 16th and the 17th centuries (Rosales), their earlier form being inferred."
+relevance = "Alliance among autonomous lof and rewe, under a toqui chosen for the campaign, was how the Mapuche fielded large armies, a practice the later sources describe and whose earlier form is inferred; by Garcilaso's contested account their Mapudungun-speaking northern neighbours had already met the Inca on the Maule in the same way."
+contested = "The pre-Hispanic basis of any Mapuche team bonus is weak: the Maule battle is known mainly from Garcilaso (1609), and its date, scale and outcome are doubted (Silva 1983); Reche participation is not attested; the ayllarewe are documented from the late 16th and the 17th centuries (Rosales), their earlier form being inferred. The alliances of the colonial wars themselves (Lautaro's campaigns from 1553, the futalmapu) are post-1500, so they illustrate the practice but do not carry this always-on team bonus (RULES section 2), as in the Tupi design."
 
 [[unique_unit]]
 name = "Colihue Lancer"
@@ -135,7 +136,7 @@ effect = "Weichafe and Slingers attack +25% faster"
 level = 1
 change = "new"
 replaces = "Malon"
-precedent = "Caciques (Tupi: Champi Warriors and Slingers attack +25% faster): an existing unique tech, shared and renamed with an identical effect, since the Champi Warriors are the Mapuche Weichafe"
+precedent = "Caciques (Tupi: Champi Warriors and Slingers attack +25% faster): an existing Castle Age unique tech, which the Tupi design replaces with Morubixaba, passed to the Mapuche and renamed with an identical effect and age, since the Champi Warriors are the Mapuche Weichafe"
 basis = "In war the Mapuche chose a war leader, the toqui, named after the polished stone axe (toki) that was his insignia, who led the warriors of the allied lof for the length of a campaign; Lautaro and Caupolicán held the office (Rosales; Bengoa 2003). Clubs and slings were among the weapons of the weichafe. The effect abstracts the toqui's command of the raiding levies of clubmen and slingers; the Colihue Lancers are left out because the tech keeps the existing Caciques effect unchanged, which keeps it at level 1, and the lancers have their own unit role. Malon is dropped: the word belongs mostly to the later mounted raids of the pampas, and its effect (pass-through damage) had no link to it (rated stretched)."
 relevance = "The elected war leader was the Mapuche's only authority above the lof and the institution through which they waged every great war."
 contested = "The toqui is documented from post-1541 sources; its pre-Hispanic form is inferred from the stone axes and from the chroniclers' accounts."
@@ -160,7 +161,7 @@ remove = [
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
   "Crossbowman",
   "Halberdier",
-  "Galleon", "Carrack", "Catapult Galleon", "Siphons",
+  "Galleon", "Carrack", "Catapult Galleon", "Fast Fire Ship", "Galleon, Fast Fire Ship and Carrack", "Siphons",
   "Bombard Tower", "Architecture", "Masonry", "Stone Wall", "Gate",
   "Bolas Rider", "Elite Bolas Rider",
 ]
@@ -178,8 +179,10 @@ remove = [
 "Siege Engineers" = "No siege engines are left to improve."
 "Crossbowman" = "The crossbow was unknown in the Americas, which have neither crossbow tier (RULES 6.16.3), and nothing suggests the Mapuche adopted captured ones; their missile weapons were bows, slings and, in some accounts, bolas. Archers, Slingers and Skirmishers cover the role. In the current game the Bulgarians also lack crossbows."
 "Halberdier" = "Removed under the codex convention for the American civs (RULES 6.16.6, the owner's decision on their power budget): a playability line, not a historical one, since the kept Pikeman bears as European a name; the American spear line stops at the Pikeman, as the game already does for the Aztecs and Muisca. The long lance itself is the Colihue Lancer, and Spearman and Pikeman remain."
-"Galleon" = "Ocean-going sailing warships were unknown; Mapuche boats were dugout canoes (wampu) and, further south, sewn-plank dalcas. Boat tier (RULES 6.16.1), resting on these canoes: the high-seas sailing ships (Galleon, Carrack) are removed and the siege ship goes with the siege engines, while the Galley (renamed Canoe), Fire Ship, Demolition and Hulk lines and the generic Dock techs stay with their tiers as an abstraction for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (RULES 6.16.2)."
+"Galleon" = "Ocean-going sailing warships were unknown; Mapuche boats were dugout canoes (wampu) and, further south, sewn-plank dalcas, and no Mapuche war fleet is documented. Basic navy (RULES 6.16.1), since the Mapuche had no war fleet of their own: the galleys (renamed Canoe), fire ships, the Hulk line, the demolition ships and the generic Dock techs stay as an abstraction for water maps, without the Galleon, Carrack, Fast Fire Ship or a siege warship; the demolition ships are generic post-1500 items kept as flagged abstractions (RULES 6.16.2)."
 "Carrack" = "See Galleon."
+"Fast Fire Ship" = "Removed under the basic navy (see Galleon); the Fire Ship stays."
+"Galleon, Fast Fire Ship and Carrack" = "With the Galleon, Fast Fire Ship and Carrack removed, this upgrade has nothing left to upgrade."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
 "Siphons" = "Removed for its Byzantine name and concept (the siphon that projected Greek fire), which has no American equivalent; the Mapuche were the only American civ with it. The Fire Ship line stays as a generic abstraction for water maps."
 "Bombard Tower" = "Gunpowder towers have no Mapuche basis: arquebuses captured from the Spaniards appear at Quiapo (1558) in an unsuccessful defence, and artillery use is uncertain (tech-tree audit: stretched)."
@@ -230,14 +233,14 @@ basis = "Elite tier of the renamed unit."
 from = "Horse Collar"
 to = "Raised Fields"
 level = 1
-basis = "There were no draft animals. Raised cultivation platforms in the wetlands of the Purén and Lumaco valleys, in use at least from AD 1000 to 1500 (Dillehay et al. 2007) and dated at the sites PU-165 and LU-69 to about 1220–1420 by later botanical studies of Dillehay's team, belong to the same landscape as the kuel ceremonial mounds. Same rename as for the Maya and the Muisca. Heavy Plow (there was no plough before contact: ploughing with hueque is reported from Spilbergen's expedition at Mocha Island in 1615, as retold by Molina) and Crop Rotation keep their generic names as flagged abstractions (RULES 6.16.6), as do Coinage and Banking, since the Mapuche had no money before contact."
+basis = "There were no draft animals. Raised cultivation platforms in the wetlands of the Purén and Lumaco valleys, in use at least from AD 1000 to 1500 (Dillehay et al. 2007) and dated at the sites PU-165 and LU-69 to about 1220–1420 by later botanical studies of Dillehay's team, belong to the same landscape as the kuel ceremonial mounds. Same rename as for the Maya and the Muisca. Heavy Plow (there was no plough before contact: ploughing with hueque is reported from Spilbergen's expedition at Mocha Island in 1615, as retold by Molina) and Crop Rotation keep their generic names as flagged abstractions (RULES 6.16.6; see the civ-level note on generic economy items)."
 
 [[rename]]
 from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Mapuche boats on the coast, the rivers and the lakes were dugout canoes (wampu), with the sewn-plank dalca further south (see the Galleon note). The Scenario Editor Canoe, a light boat that shoots arrows like the Galley (RULES section 5), gives the Galley the look of a dugout; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as for the Aztecs, Maya and Tupi."
+basis = "Mapuche boats on the coast, the rivers and the lakes were dugout canoes (wampu), with the sewn-plank dalca further south (see the Galleon note). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. The rename renders the vessel type the Mapuche had, not a documented war fleet: they are in the basic navy (see Galleon). Same rename as for the Aztecs, Maya and Tupi, and outside the Americas in the Malians' and Avars' designs."
 
 [[rename]]
 from = "War Galley"
@@ -255,7 +258,7 @@ basis = "The South American set fits best among the existing ones; a set of ruka
 [[dropped]]
 item = "Mounted Units generate +3 gold when defeating military units"
 kind = "bonus"
-reason = "Raiding for cattle, horses and iron belongs to the decades after contact: a late element (RULES section 2), and the civ's one allowed late element is the Kona itself. The horse-capture idea is kept for N2."
+reason = "Raiding for cattle, horses and iron belongs to the decades after contact: a late element (RULES section 2), and the civ's one allowed late element is the Kona itself. The horse-capture idea is kept for N2. Its effect now serves the Cumans' design as a passive bonus, for captives and ransom."
 
 [[dropped]]
 item = "Bolas Rider"

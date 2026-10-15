@@ -20,8 +20,9 @@ contested = [
   "The chronology and routes of the Tupi-Guarani expansion to the coast (Brochado against Noelli).",
   "The reliability and rhetorical shaping of Staden and Léry (Whitehead), including the length of Staden's captivity (about nine months in 1554, or 1552–1555).",
   "The identity of Cunhambebe (Thevet speaks of a father and son of the same name).",
-  "The civ's name: ‘Tupi’ names a language family and works as an umbrella term; for the peoples described here (Tupinambá, Tupiniquim, Temiminó, Potiguara, Caeté) ‘Tupinambá’ or ‘Coastal Tupi’ would be more exact (analysis). Decision: the name stays, since English scholarship uses ‘Tupi’ for these coastal peoples (Hemming 1978) and the civ renames are limited to the English, Anglo-Saxons and Arabs (RULES section 4 and 6.16.15); the profile and the summary name the coastal Tupi.",
+  "The civ's name: ‘Tupi’ names a language family and works as an umbrella term; for the peoples described here (Tupinambá, Tupiniquim, Temiminó, Potiguara, Caeté) ‘Tupinambá’ or ‘Coastal Tupi’ would be more exact (analysis). Decision: the name stays under RULES 6.16.15 (a civ is renamed only where standard English scholarship does not use the game's name), since English scholarship uses ‘Tupi’ for these coastal peoples (Hemming 1978); the renames decided in the level-1 review were limited to the English, Anglo-Saxons and Arabs. The profile and the summary name the coastal Tupi.",
   "Almost all written evidence dates from 1550–1570; that the traits of this design (bows, clubs, canoe raids, manioc, palisaded villages, chiefs, collective work) originated before 1500 is inferred from archaeology and from the sources' description of them as native custom (RULES section 2).",
+  "Generic items without a Tupi equivalent keep their names as flagged abstractions (RULES 6.16.6). The Blacksmith tiers (Forging, Iron Casting, Bodkin Arrow, Scale Mail, Chain Mail and Plate Mail Armor, Ring Archer Armor), since the Tupi fought without metal or body armour and tipped their arrows with cane, bone, shark teeth and stingray spines; Chemistry stays for its +1 ranged attack, although the Tupi had no gunpowder, and Blast Furnace, which the Tupi lack in the game, stays absent. Heavy Plow (see Coivara). Wheelbarrow, Hand Cart and the Trade Cart, since there were no wheeled vehicles or pack animals and loads were carried on people's backs: the forehead strap of the Mesoamerican Tumplines rename has no 16th-century coastal source, and the Old Tupi basket name panaku would rename Wheelbarrow only once a coastal source of the period for it is checked. Treadmill Crane, as an abstraction of faster building, since there were no cranes or treadwheels: the longhouses and palisades were raised by work parties, which the Motyrõ tech renders. Coinage and Banking, since the Tupi had no money.",
 ]
 open_questions = []
 
@@ -92,7 +93,7 @@ replaces = "Towers and Castles provide +10 population space"
 precedent = "Transport Ships +5 line of sight and cost -50% (Sicilians team bonus)"
 basis = "Tupi villages made war in alliances, and allied villages joined their canoes for raids along the coast: Staden saw the Tupinambá villages of the Ubatuba region gather a fleet for a raid on their Tupiniquim enemies (1554). The same practice later carried the Tamoio confederation alongside its French allies and the Temiminó of Araribóia alongside the Portuguese in Guanabara Bay (1560s). RULES 6.2: alliances. Each village (taba) under its own chief was an autonomous polity, so alliances between villages are alliances between independent allies (RULES 6.16.14). The bonus it replaces assumed towers and castles the Tupi never built (rated unfounded). The Sicilians have the same team bonus, and with the warships discount the Tupi share both naval elements with the Sicilians' design; the overlap is accepted, since each element rests on its own history (RULES 6.7, 6.16.12)."
 relevance = "Alliances between autonomous villages, joined for canoe raids along the coast, were how the Tupi made war on any scale."
-contested = "The alliances the sources document before the colonial wars are among Tupi villages. The alliances with the French (the Tamoio confederation, 1554–1567) and the Portuguese (the Temiminó, 1560s) are post-1500, and a post-1500 element is allowed only in the Imperial Age (RULES section 2), so they illustrate the practice but do not carry this always-on team bonus."
+contested = "Apart from the alliances with Europeans, the alliances the sources document are between Tupi villages (Staden, 1554). The alliances with the French (the Tamoio confederation, 1554–1567) and the Portuguese (the Temiminó, 1560s) are post-1500, and a post-1500 element is allowed only in the Imperial Age (RULES section 2), so they illustrate the practice but do not carry this always-on team bonus."
 
 [[unique_unit]]
 name = "Blackwood Archers"
@@ -165,7 +166,7 @@ remove = [
 "Slinger" = "The sling is not a characteristic Tupinambá weapon in the 16th-century sources, and the Andean slinger belongs to the Inca world (analysis: wrong)."
 "Galleon" = "Ocean-going sailing warships were unknown; the Tupi navy was a fleet of bark and dugout canoes (see the warships bonus). Boat tier (RULES 6.16.1), resting on these canoes: the high-seas sailing ships (the Galleon; the Tupi never had the Carrack) are removed and the siege ship goes with the siege engines, while the Galley (renamed Canoe), Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction of canoe fleets for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (RULES 6.16.2)."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
-"Keep" = "Region-wide tower policy: only the Keep, a stone tower, needs documented stone towers, so it stays only where they are documented (the Inca); the Guard Tower stays as a generic tier wherever the Watch Tower stays. The Tupi built no towers: their defences were palisades and stakes (Staden's woodcuts), and their Watch Tower and Guard Tower are abstractions of a defended village. The Castle itself stays for structural reasons (it trains the unique unit, researches the Castle tech and is needed for the Imperial Age) until an N3 caiçara replaces it (ideas)."
+"Keep" = "Region-wide tower policy: only the Keep, a stone tower, needs documented stone towers, so it stays only where they are documented (the Inca); the Guard Tower stays as a generic tier wherever the game gives it (the Mapuche, who lack it in the game, stay without it). The Tupi built no towers: their defences were palisades and stakes (Staden's woodcuts), and their Watch Tower and Guard Tower are abstractions of a defended village. The Castle itself stays for structural reasons (it trains the unique unit, researches the Castle tech and is needed for the Imperial Age) until an N3 caiçara replaces it (ideas)."
 "Stone Wall" = "There was no stone building; palisades, sometimes double, were the Tupi fortification. Stone walls are removed (in the current game the Cumans and Goths also lack them; the Goths' design adds them) and Palisade Walls remain."
 "Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
 
@@ -173,7 +174,7 @@ remove = [
 from = "Champi Scout"
 to = "Tacape Scout"
 level = 1
-basis = "The tacape was the Tupi wooden war club. Champi is the Quechua name of the Andean stone or bronze mace, and the Tupi had no metal before contact (analysis: wrong). For the same reason the Blacksmith tiers (Forging, Iron Casting, Scale Mail, Chain Mail and Plate Mail Armor, Ring Archer Armor) keep their generic names as a flagged generic equipment level (RULES 6.16.6): the Tupi fought without metal or body armour. Chemistry stays for its +1 ranged attack as a flagged abstraction. The Tupi lack Blast Furnace in the game, and the design leaves it so."
+basis = "The tacape was the Tupi wooden war club. Champi is the Quechua name of the Andean stone or bronze mace, and the Tupi had no metal before contact (analysis: wrong)."
 
 [[rename]]
 from = "Champi Runner"
@@ -197,20 +198,14 @@ basis = "Same rename as Champi Scout."
 from = "Horse Collar"
 to = "Coivara"
 level = 1
-basis = "There were no draft animals. Fields were cleared by felling and burning the forest (coivara, a word of Tupi origin), and the ash fertilised each new plot: a real equivalent of ‘new Farms provide more food’. Heavy Plow keeps its generic name as a flagged abstraction (RULES 6.16.6), as do Coinage and Banking, since the Tupi had no money; the Tupi already lacked Crop Rotation."
-
-[[rename]]
-from = "Wheelbarrow"
-to = "Panacu"
-level = 1
-basis = "Same effect as Wheelbarrow. There were no wheeled vehicles, and loads were carried in large baskets: Léry (1578) describes Tupinambá women bringing fruit to the ships at Guanabara in great baskets, which he calls by their Tupi name (panacu in the modern spelling, Old Tupi panaku), the word that survives in Brazilian Portuguese for a large basket. The forehead strap (tumpline) of the Mesoamerican renames is used by lowland peoples of the interior (the waturá of the Rio Negro), but no 16th-century source on the coast was found to describe it, so the rename follows the basket that the coastal source names. Hand Cart keeps its generic name as a flagged abstraction (RULES 6.16.6)."
+basis = "There were no draft animals. Fields were cleared by felling and burning the forest (coivara, a word of Tupi origin), and the ash fertilised each new plot: a real equivalent of ‘new Farms provide more food’. Heavy Plow keeps its generic name as a flagged abstraction (RULES 6.16.6; see the civ-level note on generic items); the Tupi already lacked Crop Rotation."
 
 [[rename]]
 from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Tupi war parties travelled in fleets of bark and dugout canoes (igara, ubá), each carrying many warriors (Staden; see the warships bonus). The Scenario Editor Canoe, a light boat that shoots arrows like the Galley (RULES section 5), gives the Galley the look of a war canoe; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as for the Aztecs, Maya and Mapuche; the igara war-canoe line proper is an N3 idea."
+basis = "Tupi war parties travelled in fleets of bark and dugout canoes (igara, ubá), each carrying many warriors (Staden; see the warships bonus). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a war canoe; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. Same rename as for the Aztecs, Maya and Mapuche, and outside the Americas in the Malians' and Avars' designs; the igara war-canoe line proper is an N3 idea."
 
 [[rename]]
 from = "War Galley"
@@ -233,4 +228,4 @@ reason = "A balance device with no historical basis (rated unfounded). The moqu�
 [[dropped]]
 item = "Curare"
 kind = "unique_tech"
-reason = "Curare is a Carib word for a hunting poison of Amazonia and the Guianas, not documented among the coastal Tupi, whose arrowheads were of cane, bone, shark teeth and stingray spines; fortifications with poison damage were invented (rated stretched). Fire Arrows are not used as its replacement because they fail the relevance test (one arrow type, RULES 6.9), although Staden saw the native besiegers of Igarassu shoot burning arrows of cotton and wax in 1548; they are kept as an N2 idea."
+reason = "Curare is a Carib word for a hunting poison of Amazonia and the Guianas, not documented among the coastal Tupi, whose arrowheads were of cane, bone, shark teeth and stingray spines; fortifications with poison damage were invented (rated stretched). Fire Arrows are not used as its replacement because they fail the relevance test (one arrow type, RULES 6.9), although Staden saw the native besiegers of Igarassu shoot burning arrows of cotton and wax in 1548; they are kept as an N2 idea. Curare's effect, narrowed to Foot Archers, now serves the Malians' design as an Imperial Age passive (Foot Archers deal poison damage starting in Imperial Age)."

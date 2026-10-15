@@ -9,6 +9,7 @@ ideas = [
   "N2: Kopparberget, a Mining Camp tech for the Falun copper mine (share letter of 1288; Magnus Eriksson's charter of 1347), if the team bonus ever goes to another trait.",
   "N2: A Bridgettine Monastery tech for St Birgitta (d. 1373) and the order of Vadstena (1384), whose houses spread abroad (Syon in England, 1415).",
   "N3: Trading stations of the eastern ventures (Grobiņa, Staraya Ladoga) as Markets that can be built in neutral or enemy territory.",
+  "N3: A late Nordic brick-Gothic architecture set (Uppsala, Roskilde), shared with the Danes: creating a set is N3 (RULES 6.15).",
 ]
 contested = [
   "The Normanist debate over the Scandinavian part in the origins of the Rus'. Under RULES section 4 the Rus' civ holds the founding elite and the Kievan state, and the Swedes keep the Scandinavians who stayed Scandinavian (traders, raiders, mercenaries).",
@@ -18,7 +19,7 @@ contested = [
   "Whether the Alsnö statute (1279 or 1280) created the secular nobility or regulated a practice already in place.",
   "The free, armed Swedish peasant is also a theme of 19th-century national history (Geijer), and Engelbrekt became a national hero in the same tradition; the peasantry's political weight in the 15th century is real, its idealisation debated. The risings were not peasant affairs alone: nobles and the council soon joined Engelbrekt, and the Stures were magnates who used the peasant levies in their own struggle for the regency.",
   "Jarl: in medieval Sweden a single office of state (Birger Jarl was its last great holder), not a troop type; the Rígsþula, which makes Jarl the ancestor of the nobles, is a West Norse poem of uncertain date (10th–13th century) preserved in Iceland, a literary type rather than Swedish evidence.",
-  "Christian I's wound at Brunkeberg (1471): the accounts agree that a shot struck him in the face and broke several of his teeth, but differ on the weapon (a hand-held hook gun in the Swedish tradition, a cannon ball in others).",
+  "Christian I's wound at Brunkeberg (1471): in the Swedish tradition of the battle a shot from the Swedish side struck him in the mouth and broke several of his teeth. The design could cite no contemporary witness that names the weapon; the hook gun (hakebössa) of the usual retelling rests on later Swedish tradition, so the Hand Cannoneer rests on that tradition and on the general spread of handguns in the Sture period.",
 ]
 open_questions = []
 
@@ -34,8 +35,8 @@ sources = [
   "The runestones of Uppland and Södermanland (the Greece and Ingvar stones)",
   "Ibn Khordadbeh, Book of Roads and Kingdoms; Ibn Fadlan, Risala (922)",
   "Rígsþula (a West Norse poem)",
-  "The Swedish provincial laws (Upplandslagen, 1296; Södermannalagen; Hälsingelagen); Magnus Eriksson's Landslag (c. 1350)",
-  "Erikskrönikan (c. 1320s–1330s); Engelbrektskrönikan (1430s, later part of the Karlskrönikan)",
+  "The Swedish provincial laws (Upplandslagen, 1296; Södermannalagen), ed. and trans. Å. Holmbäck and E. Wessén, Svenska landskapslagar (1933–1946); Magnus Eriksson's Landslag (c. 1350)",
+  "Erikskrönikan (c. 1320s–1330s); Engelbrektskrönikan (1430s, later part of the Karlskrönikan); Sturekrönikan (the rhymed Sture Chronicle)",
   "T. D. Price et al., ‘Isotopic provenancing of the Salme ship burials in Pre-Viking Age Estonia’, Antiquity 90 (2016)",
   "Simon Franklin and Jonathan Shepard, The Emergence of Rus 750–1200 (1996)",
   "Knut Helle (ed.), The Cambridge History of Scandinavia, vol. 1 (2003)",
@@ -70,7 +71,7 @@ level = 1
 change = "changed"
 replaces = "Longships and Catapult Galleons attack +15% faster"
 precedent = "Longships and Catapult Galleons attack +15% faster (Varangians): Longships only"
-basis = "The ship burials of Salme on Saaremaa (c. 750) hold over forty men who died abroad, perhaps on a raid, whom isotope analysis links to central Sweden (Price et al. 2016); some 26 runestones remember the men lost with Ingvar's fleet in the east (c. 1041); and the coast of Uppland was organised in ship districts for the levy (the Roden, later Roslagen; Upplandslagen, 1296). Tacitus' Suiones ‘strong in fleets’ (Germania 44, c. 98) are background, four centuries before the window. Navy tier (RULES 6.16.1): a fleet of ships, the clinker-built warships of Salme, the ledung and the later royal fleet, which keeps every generic tier, the Galleon as a flagged abstraction (RULES 6.16.2). Catapult Galleons are dropped: no ship-borne catapults are known in Scandinavian fleets."
+basis = "The ship burials of Salme on Saaremaa (c. 750) hold over forty men who died abroad, perhaps on a raid, whom isotope analysis links to central Sweden (Price et al. 2016); some 26 runestones remember the men lost with Ingvar's fleet in the east (c. 1041); and the coast of Uppland was organised in ship districts for the levy (the Roden, later Roslagen; Upplandslagen, 1296). Tacitus' Suiones ‘strong in fleets’ (Germania 44, c. 98) are background, four centuries before the window. Navy tier (RULES 6.16.1): a fleet of ships, the clinker-built warships of Salme, the ledung and the later royal fleet. The game's gap of the Varangians, no demolition ships, is kept, the Longship covering the anti-building role, and the Galleon is a flagged abstraction (RULES 6.16.2). Catapult Galleons are dropped: no ship-borne catapults are known in Scandinavian fleets."
 relevance = "The Svear's expansion to the east, from Grobiņa and Salme to Ingvar's expedition, was carried by oared warships."
 
 [[bonus]]
@@ -79,7 +80,7 @@ kind = "other"
 level = 1
 change = "new"
 precedent = "Villagers affected by Infantry Blacksmith upgrades starting in Castle Age (Incas)"
-basis = "Sweden's peasants stayed free and armed. The provincial laws tied the right and duty to bear the ‘people's weapons’ (folkvapn) to free status: Hälsingelagen required every man of age to bear arms to own them, and Södermannalagen had each ship district (hamna) arm the man it sent to the levy fleet. Villagers who share the infantry's armour render a peasantry that kept its own weapons and could go to war; the risings in which it did so are rendered by Engelbrekt's Rising."
+basis = "Sweden's peasants stayed free and armed. The provincial laws tied the right and duty to bear the ‘people's weapons’ (folkvapn) to free status, and the levy rested on them: in the ledung of Svealand each hamna, the oar-place unit of the ship district (skeppslag), armed the man it sent to the levy fleet (Upplandslagen; Södermannalagen; Holmbäck and Wessén, Svenska landskapslagar). Villagers who share the infantry's armour render a peasantry that kept its own weapons and could go to war; the risings in which it did so are rendered by Engelbrekt's Rising."
 relevance = "An armed, free peasantry with a voice of its own set medieval Sweden apart from most of Europe and made the peasant armies of the 15th century possible; it is a defining trait of medieval Sweden."
 contested = "The image of the free, armed peasant also owes much to 19th-century national history (see the civ-level notes)."
 
@@ -124,9 +125,9 @@ effect = "Barracks work +100% faster"
 level = 1
 change = "new"
 replaces = "Vendel Legacy (Knight-line deals trample damage)"
-precedent = "Perfusion (Barracks work +100% faster) (Goths): an existing unique tech, shared and renamed with an identical effect, at the Castle in the Imperial Age as in the game; the Goths' design drops Perfusion"
+precedent = "Perfusion (Barracks work +100% faster) (Goths): an existing unique tech, moved and renamed with an identical effect, at the Castle in the Imperial Age as in the game; the Goths' design drops Perfusion, so no other design holds it"
 basis = "The peasant armies of the 15th century decided Sweden's struggle with the Kalmar kings. In the summer of 1434 the mine owner Engelbrekt Engelbrektsson led the miners and peasants of Bergslagen and Dalarna against Erik of Pomerania's bailiffs; within a few months the rising had spread across Svealand and Götaland and taken most of the royal castles, and in January 1435 an assembly at Arboga made Engelbrekt captain of the realm (rikshövitsman), before his murder in 1436 (Engelbrektskrönikan). A generation later the regent Sten Sture the Elder called out the peasant levies again and, with the burghers of Stockholm and the horsemen of his noble allies, routed Christian I's army at Brunkeberg outside Stockholm (10 October 1471), a victory commemorated by the St George group in Stockholm's great church, commonly attributed to Bernt Notke (1489). Barracks that work twice as fast render levies of armed peasants called out within weeks. A military moment, so at the Castle (RULES 6.2); the later of the civ's two datable moments, so the Imperial Age tech."
-relevance = "The risings of 1434–1471 broke the Kalmar kings' hold on Sweden, gave the peasantry a political voice, and made Engelbrekt and Brunkeberg the founding memories of the Swedish state."
+relevance = "The risings of 1434–1471 broke the Kalmar kings' hold on Sweden, gave the peasantry a political voice, and made Engelbrekt and Brunkeberg central memories of the struggle for Swedish self-rule, cultivated by the regents themselves (the Karlskrönikan; the St George group that Sten Sture commissioned for Brunkeberg)."
 contested = "How far the risings were the peasants' own and how national they were is debated (see the civ-level notes)."
 
 [tree]
@@ -139,12 +140,12 @@ remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbo
 "Keep" = "Stone castles of the medieval kingdom: Stockholm (from the 1250s), Kalmar, Stegeborg and Nyköpingshus, scene of the Nyköping Banquet (1317); Engelbrekt's men took the royal castles in 1434–1436."
 "Gold Shaft Mining" = "Sweden's medieval mines: the copper of Falun (Stora Kopparberg, first recorded in 1288) and the iron of Bergslagen, whose miners rose with Engelbrekt in 1434."
 "Sanctity" = "The cults of St Erik (king, d. 1160) at Uppsala and of St Birgitta (d. 1373, canonised 1391), whose order was founded at Vadstena (consecrated 1384)."
-"Hand Cannoneer" = "Hook guns (hakebössor) were in Swedish use in the Sture period: they are recorded on the Swedish side at Brunkeberg (1471), where, in the Swedish tradition, a shot struck Christian I in the face and broke several of his teeth (see contested). Under RULES 6.16.19(d) the tree follows the represented period, and the struggle with the Union kings to 1500 is part of it, so the Imperial Age unit stands for the handguns of the Sture armies. Further gun items (Bombard Cannon, Bombard Tower, Cannon Galleon) are left out, since no specific Swedish case inside the window could be confirmed, while the Danes' guns rest on cases of 1495–1520 and the Norwegians, whose window ends in 1469, have none."
-"Block Printing" = "Johann Snell printed the first book in Sweden at Stockholm, the Dialogus creaturarum (dated 20 December 1483), in the Greyfriars' house, and then the Missale Upsalense for the archbishop of Uppsala (1484). The same printing-date test keeps Block Printing for the Danes, for whom Snell had printed at Odense in 1482, and removes it from the Norwegians (to 1469) and the Rus' (to 1505)."
+"Hand Cannoneer" = "The unit stands for the handguns of the Sture armies. Firearms were in Swedish hands by the Sture period: in the Swedish tradition of Brunkeberg (1471), a battle the rhymed Sture Chronicle narrates, a shot from the Swedish side struck Christian I in the mouth and broke several of his teeth, the weapon, a hook gun (hakebössa) in the usual retelling, resting on later tradition (see contested). Under RULES 6.16.19(d) the tree follows the represented period, and the struggle with the Union kings to 1500 is part of it, so the Imperial Age unit enters. Further gun items (Bombard Cannon, Bombard Tower, Cannon Galleon) are left out: the Swedish cases weighed for them, the defence of Vyborg against the Muscovite siege of 1495 under Knut Posse and the Swedish storming of Ivangorod (1496), could not be tied to documented Swedish guns in this design. The Danes' guns rest on cases of 1495–1500, and the Norwegians, whose window ends in 1469, have none."
+"Block Printing" = "Johann Snell printed the first book in Sweden at Stockholm, the Dialogus creaturarum (dated 20 December 1483), and then the Missale Upsalense for the archbishop of Uppsala (1484). The same printing-date test keeps Block Printing for the Danes, for whom Snell had printed at Odense in 1482, and removes it from the Norwegians (to 1469) and the Rus' (to 1505)."
 "Varangian Guard" = "The Varangian Guard stays with the Byzantines (RULES section 4): it was an institution of the Byzantine state, though some thirty runestones, most of them in Uppland, name Swedes who went to or died in ‘Greece’. The Champion takes over its heavy infantry role."
 "Elite Varangian Guard" = "Same as the Varangian Guard."
 "Hussar" = "Hungarian and Serbian light cavalry of the 15th century, a type medieval Sweden never fielded; Light Cavalry stays as its top light cavalry."
-"Mounted Crossbowman" = "A continental mounted type not characteristic of Sweden; Swedish crossbowmen are represented by the Arbalester, and the Danes keep the mounted crossbow line."
+"Mounted Crossbowman" = "Shared basis (level-1 review, section 3.2): the Mounted Crossbowman line stays only where shooting from the saddle is documented. No Swedish mounted crossbowmen shooting from the saddle are recorded; Swedish crossbowmen are represented by the Arbalester, and the Danes' and Norwegians' designs drop the line on the same test."
 "Heavy Mounted Crossbowman" = "As for the Mounted Crossbowman, and later still (15th century)."
 "Cranequins" = "A 15th-century spanning device for the mounted crossbow line, which the Swedes no longer have."
 "Incendiaries" = "Requires Siphons, which this design removes."
@@ -154,7 +155,7 @@ remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbo
 [architecture]
 set = "Northern European"
 change = "kept"
-basis = "The set the Viking Sagas expansion gave the Danes, Varangians and Vikings according to its official FAQ (not recorded in the repository data): its timber halls and clinker ships fit Uppland, Birka and Sigtuna. The brick Gothic of the later kingdom (Uppsala Cathedral, consecrated 1435) fits it less well; the set is kept because it fits the larger part of the window, and the late Nordic kingdoms await an N3 set (RULES 6.16.8)."
+basis = "The set the Viking Sagas expansion gave the Danes, Varangians and Vikings according to its official FAQ (not recorded in the repository data): its timber halls and clinker ships fit Uppland, Birka and Sigtuna. The brick Gothic of the later kingdom (Uppsala Cathedral, consecrated 1435) fits it less well; historical fit decides (RULES 6.16.8), and the set is kept because it fits the larger part of the window. A late Nordic brick-Gothic set is an N3 idea, since creating a set is N3 (RULES 6.15)."
 
 [[dropped]]
 item = "Varangian Guards attack +25% faster and generate +50% gold"

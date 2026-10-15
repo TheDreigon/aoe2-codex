@@ -2,7 +2,7 @@ civ = "Incas"
 name = "Inca"
 status = "draft"
 label = "Infantry civilization"
-summary = "The Tawantinsuyu (1400–1533): the roads and the mitmaqkuna colonies become Town Center techs, fitted stonework makes buildings tougher instead of cheaper, llama herding and cloth gifts to allied lords replace the population and Llama bonuses, quilted cotton armour gets its name, and siege engines, crossbows and the Halberdier go."
+summary = "The Tawantinsuyu (1400–1533): the roads and the mitmaqkuna colonies become Town Center techs, fitted stonework makes buildings tougher instead of cheaper, llama herding and cloth gifts to allied lords replace the population and Llama bonuses, and siege engines, crossbows, the Halberdier and the sailing warships go."
 ideas = [
   "N2: Relay posts (chaski) on the roads: Outposts that cost no stone and give +3 line of sight (the game's Ethiopian team bonus, which the Mongols' design puts in their Yam tech), built instantly, and cheaper Spies, completing the Qhapaq Ñan tech (analysis proposal).",
   "N2: The decimal administration (households counted on khipu in units of 10 to 10,000 under hereditary and appointed lords, credited to Thupa Inca) as a population or labour mechanic; the replaced ‘Houses and Settlements provide +5 population space’ could be re-read this way.",
@@ -24,7 +24,7 @@ contested = [
   "The scale of the mitmaqkuna resettlements: the chroniclers' figures are high and uncertain, and how much of the policy was new under the Inca is debated (D'Altroy 2014).",
   "The southern frontier: the chroniclers' Maule (Garcilaso's battle of the Maule) against archaeological evidence for direct Inca control only to the Maipo–Cachapoal line (Stehberg).",
   "Blast Furnace as huayrachina: the tech-tree theme proposes renaming it after the Andean wind furnace, but that furnace smelted silver rather than weapon metal and its pre-Hispanic use is debated, so the tech keeps its generic name as a flagged equipment level (RULES 6.16.6).",
-  "The civ's name: ‘Inca’ was the title of the ruler and of the ruling lineage, and the state, Tawantinsuyu, included dozens of peoples (Chimú, Cañari, Chanka, Wanka, Aymara lordships). Decision: the name stays, since standard English scholarship uses ‘Inca’ (or ‘Inka’) for the state (Hemming 1970; D'Altroy 2014) and the civ renames are limited to the English, Anglo-Saxons and Arabs (RULES section 4 and 6.16.15); the profile names the Tawantinsuyu.",
+  "The civ's name: ‘Inca’ was the title of the ruler and of the ruling lineage, and the state, Tawantinsuyu, included dozens of peoples (Chimú, Cañari, Chanka, Wanka, Aymara lordships). Decision: the name stays under RULES 6.16.15 (a civ is renamed only where standard English scholarship does not use the game's name), since English scholarship uses ‘Inca’ (or ‘Inka’) for the state (Hemming 1970; D'Altroy 2014); the renames decided in the level-1 review were limited to the English, Anglo-Saxons and Arabs. The profile names the Tawantinsuyu.",
   "The cause and date of Huayna Capac's death (c. 1524–1528) and the date of Atahualpa's execution (26 July or 29 August 1533).",
 ]
 open_questions = []
@@ -32,7 +32,7 @@ open_questions = []
 [profile]
 entity = "Tawantinsuyu, the state ruled by the Inca lineage of Cusco"
 region = "The Andes from southern Colombia to the Maipo–Cachapoal (traditionally the Maule): Peru, Ecuador, Bolivia, northern and central Chile and north-west Argentina"
-window = "1400–1533 (expansion of the Tawantinsuyu to Atahualpa's execution, with its core in the expansion and reforms of Pachacuti and Thupa Inca, c. 1400–1493; kingdom of Cusco from c. 1200; Vilcabamba until 1572)"
+window = "1400–1533 (expansion of the Tawantinsuyu to Atahualpa's execution, with its core in the expansion and reforms of Pachacuti and Thupa Inca in the 15th century: from c. 1400 on radiocarbon dates, or 1438 in Rowe's chronology, to Thupa Inca's death, 1493 in Rowe's; kingdom of Cusco from c. 1200; Vilcabamba until 1572)"
 sources = [
   "Francisco de Xerez, Verdadera relación de la conquista del Perú (Seville, 1534)",
   "Juan de Betanzos, Suma y narración de los Incas (1551)",
@@ -50,6 +50,7 @@ sources = [
   "Terence N. D'Altroy, The Incas (2nd ed., 2014)",
   "John Hemming, The Conquest of the Incas (1970)",
   "John Hemming & Edward Ranney, Monuments of the Incas (1982)",
+  "Jean-Pierre Protzen, Inca Architecture and Construction at Ollantaytambo (1993)",
   "R. A. Donkin, Agricultural Terracing in the Aboriginal New World (1979)",
   "Gary Urton, Signs of the Inka Khipu (2003)",
   "María Rostworowski, ‘Mercaderes del valle de Chincha en la época prehispánica’ (1970)",
@@ -101,9 +102,9 @@ level = 1
 change = "new"
 replaces = "Start with a free Llama"
 precedent = "Units more resistant to conversion (Teutons team bonus)"
-basis = "The Inca won allies as well as subjects. Under Viracocha Inca they allied with Cari, lord of Chucuito (the Lupaqa of Lake Titicaca), against his rival Zapana of Hatun Colla; Cari defeated Zapana, who died in the battle, prepared lodgings and provisions for the Inca at Chucuito, and the two lords agreed a peace there (Cieza, part II, chapters 42–43). The Inca bound allied and newly subject lords to the state with gifts of fine cloth (qumpi, woven by the aqllakuna and by male specialists, qumpikamayuq), women and feasts under the norms of Andean reciprocity, offered peaceful submission before war (Chincha, for one, submitted without a battle), and rewarded soldiers with cloth (Murra 1962; Murra 1980). The lords who received Inca cloth gave it on to their own followers and so kept them loyal: the effect, allied units that are harder to turn, is a metaphor for that gift-bound loyalty, since the game's conversion models religious persuasion. RULES 6.2: alliances. The free Llama it replaces showed a benefit to the Inca themselves only and moves to a passive bonus. The game's Teutons have the same team bonus, which the Germans' design gives up as a team bonus (RULES 6.7)."
-relevance = "Alliance and reciprocity sealed with cloth, from Viracocha Inca's pact with Cari of Chucuito on, were how the Inca turned dozens of lordships into allies and subjects, often without a battle."
-contested = "Most lords bound by reciprocity became Inca subjects. The alliance with Cari is the clearest case of an independent ally; it is known from Cieza's informants and falls in the reigns before Pachacuti, whose chronology is contested (see the civ-level notes), and the Lupaqa were later incorporated into the empire."
+basis = "The Inca won allies as well as subjects. Under Viracocha Inca they allied with Cari, lord of Chucuito (the Lupaqa of Lake Titicaca), against his rival Zapana of Hatun Colla; Cari defeated Zapana, who died in the battle, prepared lodgings and provisions for the Inca at Chucuito, and the two lords agreed a peace there (Cieza, part II, chapters 42–43). The Inca bound allied and newly subject lords to the state with gifts of fine cloth (qumpi, woven by the aqllakuna and by male specialists, qumpikamayuq), women and feasts under the norms of Andean reciprocity, offered peaceful submission before war (Chincha, for one, submitted without a battle), and rewarded soldiers with cloth (Murra 1962; Murra 1980). The lords who received Inca cloth gave it on to their own followers and so kept them loyal: the effect, allied units that are harder to turn, is a metaphor for that gift-bound loyalty, since the game's conversion models religious persuasion. RULES 6.2: alliances. The free Llama it replaces showed a benefit to the Inca themselves only and moves to a passive bonus. The game's Teutons have the same team bonus; the Germans' design turns it into a passive (the vows of the Order's brethren), as the Lithuanians' design does (a pagan people holding to its faith), so on a team with either their units receive the effect both from their own passive and from this team bonus, an overlap accepted since each copy rests on its own history (RULES 6.7, 6.16.12)."
+relevance = "Alliances, from Viracocha Inca's pact with Cari of Chucuito on, and reciprocity sealed with gifts of cloth were how the Inca turned dozens of lordships into allies and subjects, often without a battle."
+contested = "Most lords bound by reciprocity became Inca subjects. The alliance with Cari is the clearest case of an independent ally; it is known from Cieza's informants and falls in the reign of Viracocha Inca, before Pachacuti, whose chronology is contested (see the civ-level notes). Other chroniclers (Sarmiento) place the war in the Collao under Pachacuti, against Chuchi Capac, lord of Hatun Colla, rather than in Viracocha's reign with Cari against Zapana. The Lupaqa were later incorporated into the empire."
 
 [[unique_unit]]
 name = "Awqa Kamayuq"
@@ -112,9 +113,9 @@ building = "Castle"
 level = 1
 change = "changed"
 replaces = "Kamayuk"
-basis = "Inca armies were provincial levies, each with its own arms (slings, star-headed maces, clubs, lances and, from the Antisuyu, bows); long spears belonged to that arsenal: Xerez (1534), describing Atahualpa's army at Cajamarca (1532), puts in its rearguard pikemen with lances thirty palms long (some 6 m), who wore a sleeve padded with cotton on the left arm (Xerez; Hemming 1970; D'Altroy 2014). The unit keeps its stats but not its truncated name: kamayuq means ‘specialist’ or ‘person in charge’ (as in khipukamayuq), while Guaman Poma calls the age grade of all adult warrior-tributaries auca camayoc (awqa kamayuq, ‘warrior’). The model is shared with the Berbers' Murabit, the Ethiopians' Chewa Spearman and the Mapuche Colihue Lancer."
+basis = "Inca armies were provincial levies, each with its own arms (slings, star-headed maces, clubs, lances and, from the Antisuyu, bows); long spears belonged to that arsenal: Xerez (1534), describing the arms and order of Atahualpa's armies (1532–33), puts in the rearguard pikemen with lances thirty palms long (some 6 m), who wore on the left arm a sleeve padded with cotton on which they worked the lance (Xerez; Hemming 1970; D'Altroy 2014). The unit keeps its stats but not its truncated name: kamayuq means ‘specialist’ or ‘person in charge’ (as in khipukamayuq), while Guaman Poma calls the age grade of all adult warrior-tributaries auca camayoc (awqa kamayuq, ‘warrior’). The model is shared with the Berbers' Murabit, the Ethiopians' Chewa Spearman and the Mapuche Colihue Lancer."
 relevance = "Long lances were one of the main arms of Inca infantry, which fought only on foot; the name restores Guaman Poma's term for the adult warrior."
-contested = "Xerez describes the army of 1532, and the earlier use of the pike is inferred; the analysis rates the unit plausible."
+contested = "Xerez describes Atahualpa's armies of 1532–33, and the earlier use of the pike is inferred; the analysis rates the unit plausible."
 
 [[unique_tech]]
 name = "Andean Sling"
@@ -125,7 +126,7 @@ effect = "Skirmishers and Slingers no minimum range; Slingers +1 attack"
 level = 1
 change = "kept"
 precedent = "Andean Sling (Incas)"
-basis = "The sling (warak'a) was the main Andean missile weapon, preferred to the bow in the highlands: Xerez (1534) puts the slingers in the van of Atahualpa's army, and conquest accounts stress that sling stones could badly hurt men and horses (Hemming 1970). Removing the minimum range abstracts a weapon that could be used at any distance. A kept existing tech for a long weapon tradition, held as a tech rather than a passive by the effect-size tie-break (RULES 6.2.4); its Castle Age follows the current game, since neither Castle tech marks a datable moment. Decision: it stays a tech, as does Fabric Shields, as a flagged fallback (RULES 6.16.19 b) rather than becoming a passive bonus: it is the game's own Inca tech, its strong effect suits the brake of a tech, and the civ's datable moments, the roads and the resettlements, hold the Town Center."
+basis = "The sling (warak'a) was the main Andean missile weapon, preferred to the bow in the highlands: Xerez (1534), describing the order of Atahualpa's armies, puts the slingers in the van, and conquest accounts stress that sling stones could badly hurt men and horses (Hemming 1970). Removing the minimum range abstracts a weapon that could be used at any distance. A kept existing tech for a long weapon tradition, held as a tech rather than a passive by the effect-size tie-break (RULES 6.2.4); its Castle Age follows the current game, since neither Castle tech marks a datable moment. Decision: it stays a tech, as does Fabric Shields, as a flagged fallback (RULES 6.16.19 b) rather than becoming a passive bonus: it is the game's own Inca tech, its strong effect suits the brake of a tech, and the civ's datable moments, the roads and the resettlements, hold the Town Center."
 relevance = "The sling was the missile weapon of the Andes, and slingers were the Inca army's missile troops."
 
 [[unique_tech]]
@@ -137,7 +138,7 @@ effect = "Awqa Kamayuqs, Slingers and Champi Warriors +1 melee/+1 pierce armor"
 level = 1
 change = "kept"
 precedent = "Fabric Shields (Incas)"
-basis = "Xerez (1534) saw the slingers in the van of Atahualpa's army carry shields they made of narrow, very strong slats and wear doublets quilted with cotton, and the pikemen of the rearguard a sleeve padded with cotton on the left arm; the state stored cloth and arms in the qullqa and issued them for war (Murra 1980). A kept existing tech for an equipment tradition, held as a tech by the effect-size tie-break (RULES 6.2.4), a flagged fallback (RULES 6.16.19 b); its Imperial Age follows the current game. In-game text: ‘Kamayuks, Slingers and Champi Warriors +1 melee/+1 pierce armor’; only the unit name changes."
+basis = "The name is the game's, and the effect renders the Andean soldier's shield together with padded cotton. Andean shields were of wood or cane, sometimes faced with hide or cloth (analysis, rated plausible). Xerez (1534), describing the arms and order of Atahualpa's armies, gives the slingers of the van shields of narrow, very strong slats and doublets quilted with cotton, and the pikemen of the rearguard a cotton-padded sleeve on the left arm; the state stored cloth and arms in the qullqa and issued them for war (Murra 1980). This tech carries Xerez's cotton evidence alone: no Blacksmith tier is renamed after it, since the slingers' doublets fit the generic Padded Archer Armor, whose name already means quilted armour, and the pikemen's sleeve is a lance rest, not body armour (see Tin Bronze). A kept existing tech for an equipment tradition, held as a tech by the effect-size tie-break (RULES 6.2.4), a flagged fallback (RULES 6.16.19 b); its Imperial Age follows the current game. In-game text: ‘Kamayuks, Slingers and Champi Warriors +1 melee/+1 pierce armor’; only the unit name changes."
 relevance = "Shields and padded cotton were the Andean soldier's only body protection, and the state stored and issued them for war."
 
 [[unique_tech]]
@@ -148,7 +149,7 @@ age = "Castle"
 effect = "Infantry and Villagers move +10% faster"
 level = 2
 change = "new"
-precedent = "Infantry moves +10% faster (Squires) and Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age (Berbers): one effect type, movement speed, applied to both targets at +10%. With Squires, Inca infantry moves about +21% faster, less than the Gaels' infantry with its own speed bonus (the game's Celt bonus, which their design keeps). No existing unique tech renders a road system (Grand Trunk Road has a road's name but a gold effect)."
+precedent = "Infantry moves +10% faster (Squires) and Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age (Berbers): one effect type, movement speed, applied to both targets at +10%. With Squires, Inca infantry moves about +21% faster (1.10 × 1.10), within the game's ceiling for the infantry class (RULES 6.16.11): the game's Lithuanian Spearman-line (+10%) reaches the same with Squires, and the game's Muisca Champi Warriors about +26% with Herbalism and Squires. It is slightly faster than the infantry of the game's Celts (+15/+20% in the Castle/Imperial Age, without Squires), whose bonus the Gaels' design keeps. No existing unique tech renders a road system (Grand Trunk Road has a road's name but a gold effect)."
 basis = "The Qhapaq Ñan, a network of some 30,000–40,000 km of roads with stairways, suspension bridges and waystations (tampu) about a day's walk apart, moved armies, mit'a labourers and llama caravans across the empire (Hyslop 1984; Cieza de León). Built mainly under Pachacuti and Thupa Inca, and incorporating older Wari and Chimú roads (Hyslop 1984), it is the state infrastructure of the empire (RULES 6.2: state). Faster infantry and villagers render the roads; the relay runners (chaski) are an N2 idea (see ideas). Villager speed is not also given as a passive bonus, so the roads are not counted twice."
 relevance = "The road network held the Tawantinsuyu together: without it there would have been no Andean empire of this size."
 
@@ -172,12 +173,12 @@ remove = [
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
   "Crossbowman", "Arbalester", "Thumb Ring",
   "Halberdier",
-  "Galleon", "Carrack", "Catapult Galleon",
+  "Galleon", "Carrack", "Catapult Galleon", "Fast Fire Ship", "Galleon, Fast Fire Ship and Carrack",
   "Block Printing", "Guilds",
 ]
 
 [tree.basis]
-"Architecture" = "The Inca were master builders in fitted stone (Sacsayhuamán, the Qurikancha, Ollantaytambo), yet the civ had Masonry and Keep but not Architecture. The Keep fits them, since the region keeps it only where stone towers are documented: Sacsayhuamán had three towers, Muyuq Marka, Sallaq Marka and Paucar Marka, which Garcilaso describes."
+"Architecture" = "The Inca were master builders in fitted stone (Sacsayhuamán, the Qurikancha, Ollantaytambo), yet the civ had Masonry and Keep but not Architecture. The Keep fits them, since the region keeps it only where stone towers are documented: Sacsayhuamán had three towers, Muyuq Marka, Sallaq Marka and Paucar Marka, which Garcilaso describes. Treadmill Crane, which the Inca hold in the game, is renamed Mit'a, after the rotating labour service that raised these buildings (see the renames)."
 "Siege Workshop" = "Andean armies built no siege engines: forts (pukara) were taken by assault, blockade and fire, and the frontier forts of Pambamarca were held for years of war against the Cayambe. Removing the workshop removes all its units; the Champi line, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Every Castle must then be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists, with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2). Incendiary sling stones, recorded at Manco Inca's siege of Cusco (1536), are left to the ideas as an N2 burning effect."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles in the Andes."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
@@ -192,9 +193,11 @@ remove = [
 "Crossbowman" = "The crossbow was unknown in the Americas, which have neither crossbow tier (RULES 6.16.3); Inca missile troops were slingers, with bowmen from the eastern lowlands (Antisuyu). Archers and Slingers cover the role. In the current game the Bulgarians also lack crossbows (so do the current Spanish; the Castilian and Bulgarian designs restore the Crossbowman)."
 "Arbalester" = "Removed with the Crossbowman (see there)."
 "Thumb Ring" = "No thumb rings or thumb draw are attested in the Americas, so the tech goes (RULES 6.16.4)."
-"Halberdier" = "Removed under the codex convention for the American civs (RULES 6.16.6, the owner's decision on their power budget): a playability line, not a historical one, since the kept Pikeman bears as European a name; the American spear line stops at the Pikeman, as the game already does for the Aztecs and Muisca. The Inca have the region's strongest case for the tier: Xerez (1534) saw in Atahualpa's army axes with a metal blade a palm wide, ‘como alabarda’ (like a halberd), beside pikemen with lances thirty palms long. The pikes are the Awqa Kamayuq, Spearman and Pikeman remain, and the Andes knew no cavalry before 1532."
-"Galleon" = "Ocean-going sailing warships were unknown; Andean seafaring used balsa rafts with cotton sails and reed boats. Boat tier (RULES 6.16.1), resting on these rafts: the high-seas sailing ships (Galleon, Carrack) are removed and the siege ship goes with the siege engines, while the Galley, Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (RULES 6.16.2). The Scenario Editor Canoe, a dugout, does not fit sailing rafts, so the Galley keeps its look (the balsa raft is an N3 idea)."
+"Halberdier" = "Removed under the codex convention for the American civs (RULES 6.16.6, the owner's decision on their power budget): a playability line, not a historical one, since the kept Pikeman bears as European a name; the American spear line stops at the Pikeman, as the game already does for the Aztecs and Muisca. The Inca have the region's strongest case for the tier: Xerez (1534), describing the arms of Atahualpa's armies, gives axes with a metal blade a palm wide, ‘como alabarda’ (like a halberd), beside pikemen with lances thirty palms long. The pikes are the Awqa Kamayuq, Spearman and Pikeman remain, and the Andes knew no cavalry before 1532."
+"Galleon" = "Ocean-going sailing warships were unknown. Andean seafaring used balsa rafts with cotton sails, such as the raft that Bartolomé Ruiz intercepted off Ecuador c. 1526, which probably belonged to coastal merchants rather than to the Inca state, and reed boats; no Inca war fleet is documented, and Thupa Inca's raft voyage into the Pacific, told by Sarmiento, is contested. Basic navy (RULES 6.16.1), since the Inca had no war fleet of their own: the galleys, fire ships, the Hulk line, the demolition ships and the generic Dock techs stay as an abstraction for water maps, without the Galleon, Carrack, Fast Fire Ship or a siege warship; the demolition ships are generic post-1500 items kept as flagged abstractions (RULES 6.16.2). The Scenario Editor Canoe, a dugout, does not render sailing rafts, so the Galley keeps its look (the balsa raft is an N3 idea)."
 "Carrack" = "High-castled sailing warships were unknown (see Galleon)."
+"Fast Fire Ship" = "Removed under the basic navy (see Galleon); the Fire Ship stays."
+"Galleon, Fast Fire Ship and Carrack" = "With the Galleon, Fast Fire Ship and Carrack removed, this upgrade has nothing left to upgrade."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
 "Block Printing" = "There was no printing, nor writing in the usual sense: records were kept on knotted cords (khipu). With no equivalent for the function the tech is removed (18 of the game's 56 civs already lack it)."
 "Guilds" = "The Inca economy ran on mit'a labour, storehouses and redistribution, with local barter (qhatu) but, apart from the debated coastal merchants of Chincha (see contested), no professional merchant class like the pochteca (Murra 1980); the current game gave Guilds to the Inca but not to the Aztecs, who had the pochteca."
@@ -203,7 +206,7 @@ remove = [
 from = "Horse Collar"
 to = "Andenes"
 level = 1
-basis = "There were no draft animals. Stone-walled, often irrigated terraces (andenes, the term used in Andean scholarship) turned the mountain slopes into fields, as at Pisac, Moray and the Colca valley (Donkin 1979). A rename beyond the agreed list, applied under RULES 6.16.6."
+basis = "There were no draft animals. Stone-walled, often irrigated terraces (andenes, the term used in Andean scholarship) turned the mountain slopes into fields, as at Pisac, Moray and the Colca valley (Donkin 1979). A rename beyond the agreed list, applied under RULES 6.16.6. Crop Rotation keeps its generic name as a flagged abstraction (RULES 6.16.6), since no Andean equivalent with a period term was found."
 
 [[rename]]
 from = "Heavy Plow"
@@ -215,7 +218,7 @@ basis = "Agreed rename. The chakitaqlla, a foot plough with a footrest, was the 
 from = "Hand Cart"
 to = "Llama Caravans"
 level = 1
-basis = "Agreed rename. There were no carts; llama caravans carried about 25–30 kg per animal across the Andes. The generic Caravan (Trade Units) keeps its name, so two caravan techs appear. Decision: kept so; renaming Caravan as well would add a name without an equivalent, and moving the llama caravan to the Trade Cart needs new content (the llama pack animal is an N3 idea)."
+basis = "Agreed rename. There were no carts; llama caravans carried about 25–30 kg per animal across the Andes. Wheelbarrow keeps its generic name as a flagged abstraction (RULES 6.16.6): there were no wheeled vehicles, and loads went on porters' backs and on llamas. The generic Caravan (Trade Units) keeps its name, so two caravan techs appear. Decision: kept so, since renaming Caravan as well would add a name without an equivalent. The Trade Cart also keeps its generic name and wheeled look, as a flagged abstraction of porters and llama trains (RULES 6.16.6). A llama look for it would be possible in level 1 (the herdable Llama, or the Alpaca of the Scenario Editor, RULES section 5, whose look and behaviour as a trade unit would have to be checked in game), but the Inca had no trade between markets for the unit to render, since exchange ran on redistribution and local barter (see Guilds), and the llama name is already this tech's; so the llama trade unit stays with the N3 idea of llamas as pack animals."
 
 [[rename]]
 from = "Banking"
@@ -224,17 +227,17 @@ level = 1
 basis = "Agreed rename. Knotted-cord records kept by specialists (khipukamayuq) registered census, tribute and storehouse accounts (Urton 2003). The rename keeps Banking's effect (tributes to other players are free) for the shared ground of state accounting; it does not imply that khipu moved goods between polities. Coinage, which Khipu requires, keeps its generic name as a flagged abstraction (RULES 6.16.6): the Inca had no money, and exchange ran on labour service, storehouses and local barter (Murra 1980)."
 
 [[rename]]
+from = "Treadmill Crane"
+to = "Mit'a"
+level = 1
+basis = "There were no cranes or treadwheels: the stones of Inca masonry were hauled with ropes and levers and raised on earthen ramps, such as the ramp by which blocks from the Kachiqhata quarries were dragged up to the Temple of the Sun at Ollantaytambo (Protzen 1993), by labourers who came by the mit'a (‘turn’), the rotating labour service that tributary households owed to the state (Murra 1980; D'Altroy 2014). Cieza (part II, chapter 51) says that the provinces sent twenty thousand men for the works of the fortress of Cusco (Sacsayhuamán), who worked there for a limited time and were then relieved by others. Same effect as Treadmill Crane (Villagers construct buildings +20% faster): organised labour in turns is the Inca equivalent of faster building, as the Aztecs' Coatequitl renders the Mexica labour draft for public works. A rename beyond the agreed list, applied under RULES 6.16.6 and 6.16.15: mit'a is a period term (the chroniclers' mita), and building by rotating labour is the same function inside the window. The mit'a also covered work on the state's fields and herds, weaving and military service (see the Villagers bonus); the rename gives the building turns their name and adds no element of its own."
+
+[[rename]]
 from = "Iron Casting"
 to = "Tin Bronze"
 level = 1
-basis = "There was no iron. After the Inca conquest tin bronze spread at the expense of the older arsenical bronze in regions such as the Upper Mantaro Valley, while plain copper remained common (Owen 2001), and Lechtman describes tin bronze as the alloy the Inca state spread through its provinces (Lechtman 2007); bronze served for tools and for the star-shaped heads of champi maces. Same effect as Iron Casting; a rename beyond the agreed list, applied under RULES 6.16.6. Forging and Blast Furnace keep their generic names as a flagged generic equipment level (RULES 6.16.6): Andean metallurgy worked gold, silver, copper and bronze, never iron, and the huayrachina furnace does not fit Blast Furnace (see contested). Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Inca had no gunpowder."
+basis = "There was no iron. After the Inca conquest tin bronze spread at the expense of the older arsenical bronze in regions such as the Upper Mantaro Valley, while plain copper remained common (Owen 2001), and Lechtman describes tin bronze as the alloy the Inca state spread through its provinces (Lechtman 2007); bronze served for tools and for the star-shaped heads of champi maces. Same effect as Iron Casting; a rename beyond the agreed list, applied under RULES 6.16.6. The other Blacksmith tiers keep their generic names as a flagged generic equipment level (RULES 6.16.6): Forging and Blast Furnace, since Andean metallurgy worked gold, silver, copper and bronze, never iron, and the huayrachina furnace does not fit Blast Furnace (see contested); Bodkin Arrow, although there were no iron arrowheads; and Scale Mail, Chain Mail and Plate Mail Armor and Ring Archer Armor, since there was no metal body armour, only the metal discs some warriors wore on the chest and back, which marked rank as much as they protected. No infantry armour tier is renamed after cotton (RULES 6.16.15): the only infantry cotton item in Xerez is the pikemen's padded sleeve, a lance rest rather than body armour, and the quilted doublets he gives the slingers fit the generic Padded Archer Armor, whose name already means quilted armour; that evidence is carried by Fabric Shields. Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Inca had no gunpowder."
 contested = "How far the Inca imposed a standard alloy is debated."
-
-[[rename]]
-from = "Scale Mail Armor"
-to = "Quilted Cotton Armor"
-level = 1
-basis = "Same effect as Scale Mail Armor. Xerez (1534) saw the slingers in the van of Atahualpa's army wear doublets quilted with cotton, and the pikemen a sleeve padded with cotton on the left arm: quilted cotton was the body armour of Inca soldiers. It renames the first infantry armour tier, the equipment of the ordinary levy; one cotton armour cannot stand for successive tiers, so Chain Mail and Plate Mail Armor and Ring Archer Armor keep their generic names as a flagged generic equipment level (RULES 6.16.6): there was no metal body armour, only the metal discs some warriors wore on the chest and back, which marked rank as much as they protected. The name is free for the Inca, who have neither the Militia-line nor Gambesons (the Maya's Quilted Cotton Armor)."
 
 [[rename]]
 from = "Kamayuk"

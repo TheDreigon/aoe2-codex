@@ -2,13 +2,15 @@ civ = "Danes"
 name = "Danes"
 status = "draft"
 label = "Infantry and Defensive civilization"
-summary = "Denmark from Godfred to the end of the Kalmar Union (808–1523): Trelleborg ring forts and the Danevirke replace the invented siege identity, the Øresund toll is the Town Center tech, the Varangian Guard becomes the Housecarl, Lund's church carries the team bonus, and Kalmar-era guns and ships enter."
+summary = "Denmark from Godfred to the end of the Kalmar Union (808–1523): Trelleborg ring forts and the Danevirke replace the invented siege identity, the Øresund toll is the Town Center tech, the Varangian Guard becomes the Housecarl, Lund's church carries the team bonus, Kalmar-era guns and ships enter, and the mounted crossbow line leaves."
 ideas = [
   "N2: Danegeld: infantry generate gold while attacking enemy buildings (the Keshik and Varangian Guard gold mechanic applied to a new target), instead of the generic loot bonus.",
   "N2: Remove the Housecarl's gold generation inherited from the Varangian Guard model, or tie it to plunder rather than to fighting units; the Anglo-Saxons' design also proposes removing it.",
   "N2: Absalon: a crusading-fleet tech for Warships and Monks, for the Valdemarian crusades led by warrior bishops (Arkona 1168, Estonia 1219).",
+  "N2: Hedeby: a Market tech for the royal emporium to which Godfred moved the merchants of Reric (Royal Frankish Annals s.a. 808), for example on the effect of Silk Road (Trade Units cost -50%).",
   "N3: A true Trelleborg building (circular rampart, four gates, standardised longhouses) instead of the renamed Krepost.",
   "N3: The Øresund toll as a mechanic: Docks earn gold from passing Trade Cogs, beyond what the Town Center tech can express.",
+  "N3: A late Nordic brick-Gothic architecture set (Roskilde, Uppsala), shared with the Swedes: creating a set is N3 (RULES 6.15).",
 ]
 contested = [
   "Who built the Trelleborg-type fortresses (Harald Bluetooth or Sweyn Forkbeard) and why: barracks for the conquest of England, royal control of the provinces, or defence against other Vikings.",
@@ -19,13 +21,15 @@ contested = [
   "When the leding became a public levy: Niels Lund (Lið, leding og landeværn, 1996) argues that it is a 12th-century development rather than a Viking-age institution.",
   "How far Cnut ruled Sweden: his letter of 1027 claims only ‘part of the Swedes’.",
   "Which was the first book printed in Denmark: Johann Snell's Breviarium Ottoniense, printed at Odense in 1482 for Bishop Karl Rønnow, or Guillaume Caoursin's account of the siege of Rhodes, which Snell printed there in the same year. Either way printing falls inside the window, so Block Printing stays in the tree; the same printing-date test gives it to the Swedes (Stockholm, 1483) and removes it from the Norwegians (to 1469) and the Rus' (to 1505).",
+  "Label (RULES 6.16.16): ‘Infantry and Defensive’ follows the redesign, which rests on infantry (the Housecarl, the Jomsviking) and on defence (Trelleborg, the Danevirke, the Fortified Wall). It matches the Anglo-Saxons' design; the relabel ‘Defensive and Naval’ was weighed and not adopted, since the Danes' naval elements (the Longship half of the speed passive, the Carrack and Cannon Galleon of the tree) weigh less than their infantry. The ramparts, the Øresund toll and the fleets set the two designs apart in play.",
+  "Counterweight trebuchet: its Danish use is an inference. Saxo has Erik Emune, in the civil war of the 1130s, besiege Haraldsborg near Roskilde with a throwing engine that Germans living in Roskilde built and worked for him, the Danes being then unskilled in such machines (Vemming Hansen 1992), a traction engine by its date; Kurt Villads Jensen traces large war machines in Denmark and the Baltic around 1200 (2009). The type of the later Danish engines is not recorded in the sources used for this design. The later evidence falls in the counterweight era, so the design reads the Danish engines of the 13th–15th centuries as counterweight engines, a flagged inference on the standard of the Georgians' design (an inference with a stated basis, RULES 6.16.5); if they were man-powered, the Traction Trebuchet would replace the Trebuchet (RULES 6.11).",
 ]
 open_questions = []
 
 [profile]
 entity = "Kingdom of Denmark (the Danes)"
 region = "Jutland, the Danish islands, Scania, Halland and Blekinge; with the Danelaw (9th–10th centuries), Cnut's North Sea empire (1016–1035), the Valdemarian conquests on the southern Baltic coast and in Estonia (1168–1346) and the Kalmar Union (1397–1523), which the Danish crown led; Norway within it is covered by the Norwegians (to 1469) and Sweden by the Swedes (to 1500)"
-window = "808–1523 (from Godfred's rampart and the move of Reric's merchants to Hedeby, Royal Frankish Annals, to the end of the Kalmar Union)"
+window = "808–1523 (from Godfred's rampart and the move of Reric's merchants to Hedeby, Royal Frankish Annals, to the end of the Kalmar Union, a terminal event soon after 1500 as RULES 6.16.17 allows; core 808–1500, from Godfred to King Hans; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Royal Frankish Annals",
   "Anglo-Saxon Chronicle",
@@ -38,7 +42,8 @@ sources = [
   "N. Hooper, ‘The Housecarls in England in the Eleventh Century’, Anglo-Norman Studies 7 (1985)",
   "Niels Lund, Lið, leding og landeværn (1996)",
   "Timothy Bolton, Cnut the Great (2017)",
-  "Kurt Villads Jensen, Crusading at the Edge of Europe (2017)",
+  "Kurt Villads Jensen, Crusading at the Edges of Europe: Denmark and Portugal c.1000–c.1250 (2017); ‘Large Castles and Large War Machines in Denmark and the Baltic around 1200: An Early Military Revolution?’, Revista de História das Ideias 30 (2009)",
+  "Peter Vemming Hansen, ‘Experimental Reconstruction of a Medieval Trébuchet’, Acta Archaeologica 63 (1992)",
 ]
 replaces = "Danes of the Viking Age only (to 1042), with an invented siege identity"
 
@@ -127,21 +132,24 @@ relevance = "Control of the Sound and its toll made Denmark the gatekeeper of th
 
 [tree]
 add = ["Krepost", "Cavalier", "Arbalester", "Fortified Wall", "Architecture", "Hand Cannoneer", "Bombard Cannon", "Carrack", "Cannon Galleon"]
-remove = ["Siege Onager", "Catapult Galleon", "Thumb Ring"]
+remove = ["Siege Onager", "Catapult Galleon", "Thumb Ring", "Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins"]
 
 [tree.basis]
 "Krepost" = "Built as the Trelleborg ring fort (see the bonus and the rename)."
 "Cavalier" = "Valdemarian Denmark fought with armoured knights (Lyndanisse 1219, Bornhöved 1227): in the 12th–13th centuries the naval levy was largely commuted into a tax, and military service shifted to tax-exempt lords serving as armoured horsemen (the herremænd)."
-"Arbalester" = "The Danes already have Mounted and Heavy Mounted Crossbowmen and Cranequins; crossbows were common in the castles and fleets of 13th–15th-century Denmark, so lacking the Arbalester was incoherent."
+"Arbalester" = "Crossbows were common in the castles and fleets of 13th–15th-century Denmark, which gives the top tier the crossbow evidence RULES 6.16.3 asks for; the Danish crossbow is rendered on foot, by the Crossbowman and Arbalester (see the Mounted Crossbowman)."
 "Fortified Wall" = "The Danevirke and Valdemar's brick wall make the Danes one of the great wall-building peoples of the North."
 "Architecture" = "Stone and brick building of the medieval kingdom: Lund Cathedral (high altar consecrated 1145), Valdemar's brick wall and churches, the royal castle of Vordingborg."
-"Hand Cannoneer" = "Guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania, is one of the oldest surviving in Europe), and the Kalmar-era kings fought with firearm infantry, largely hired Germans: King Hans's army at Hemmingstedt (1500) was built around the mercenary Great Guard, which was routed in the marsh with the loss of its guns and baggage. The tree follows the period the design represents (RULES 6.16.19(d)), and the Kalmar Union, which the Danish crown led to 1523, is part of it, so the guns of the Union wars enter; the Swedes take the Hand Cannoneer on their own evidence (Brunkeberg, 1471), and the Norwegians, whose window ends in 1469, have no guns."
-"Bombard Cannon" = "Danish royal armies took artillery into the field in the Union wars: King Hans lost his guns in the marsh at Hemmingstedt (1500), and a cannon shot from Christian II's army mortally wounded the Swedish regent Sten Sture the Younger at Bogesund (January 1520), within the window."
-"Carrack" = "Navy tier (RULES 6.16.1): a fleet of ships, from the Viking-age warships of Hedeby and Skuldelev to the royal fleet of the Union kings, which keeps every generic tier, the Galleon as a flagged abstraction (RULES 6.16.2). King Hans's flagship Gribshunden, sunk off Ronneby in 1495, was a large carvel-built warship of the new type, the kind of ship the Carrack stands for."
+"Hand Cannoneer" = "Guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania, is one of the oldest surviving in Europe), and the Kalmar-era kings fought with hired German infantry: King Hans's army at Hemmingstedt (1500) was built around the mercenary Great Guard, a Landsknecht band of the kind that by 1500 included handgunners (their number in the Guard is not recorded in the sources used for this design), which was routed in the marsh with the loss of its guns and baggage. The tree follows the period the design represents (RULES 6.16.19(d)), and the Kalmar Union, which the Danish crown led to 1523, is part of it, so the guns of the late Kalmar kings enter (Hemmingstedt, 1500); the Swedes take the Hand Cannoneer on their own evidence (Brunkeberg, 1471), and the Norwegians, whose window ends in 1469, have no guns."
+"Bombard Cannon" = "Danish royal forces carried guns by the end of the 15th century: King Hans's flagship Gribshunden carried guns when she sank in 1495 (see the Cannon Galleon), and Hans lost his field guns in the marsh at Hemmingstedt (February 1500). A cannon shot from Christian II's army mortally wounded the Swedish regent Sten Sture the Younger at Bogesund (January 1520), a confirmation after 1500 rather than the basis."
+"Carrack" = "Navy tier (RULES 6.16.1): a fleet of ships, from the Viking-age warships of Hedeby and Skuldelev to the royal fleet of the Union kings. The game's gap of the Danes, no demolition ships, is kept, the Longship covering the anti-building role, and the Galleon is a flagged abstraction (RULES 6.16.2). King Hans's flagship Gribshunden, sunk off Ronneby in 1495, was a large carvel-built warship of the new type, the kind of ship the Carrack stands for."
 "Cannon Galleon" = "Gribshunden carried guns (1495), an early case of shipboard artillery in northern waters."
-"Siege Onager" = "Dropped with the invented ‘Siege’ identity of the game's Danes (Northmen's Fury, the siege discount), whose top tier it was; the Mangonel, Onager and Trebuchet stay as the generic siege line of a medieval kingdom."
+"Siege Onager" = "Dropped with the invented ‘Siege’ identity of the game's Danes (Northmen's Fury, the siege discount), whose top tier it was; the Mangonel and Onager stay as the light stone-thrower (RULES 6.16.5). The Trebuchet stays as a flagged inference (see contested): Danish kings used throwing engines from the 1130s, and the design reads those of the counterweight era (13th–15th centuries) as counterweight engines."
 "Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role. The fire-ship line, Fast Fire Ship included, is kept: Abbo of Saint-Germain describes the Danes sending burning ships against the bridge of Paris (885)."
 "Thumb Ring" = "Danish archers used the European draw and the missile troops of the later kingdom were crossbowmen, so the tech is removed: the Thumb Ring goes only where the thumb draw is attested for a civ's own archers or for an archery tradition its armies demonstrably used (the steppe, Islamic and East Asian traditions; RULES 6.16.4). The Anglo-Saxons' design, among others, removes it on the same ground."
+"Mounted Crossbowman" = "Shared basis (level-1 review, section 3.2): the Mounted Crossbowman line stays only where shooting from the saddle is documented. No Danish crossbowmen shooting from the saddle are recorded: the crossbow served the castles and fleets of the later kingdom, and its mounted service was that of armoured lords (see the Cavalier), so the line, which the game's Danes had without any stated basis, is removed; the Swedes' and Norwegians' designs drop it on the same test."
+"Heavy Mounted Crossbowman" = "As for the Mounted Crossbowman."
+"Cranequins" = "A 15th-century spanning device for the mounted crossbow line, which the Danes no longer have."
 
 [[rename]]
 from = "Krepost"
@@ -153,7 +161,7 @@ basis = "The Danish royal ring fortresses of c. 980, named after the excavated f
 from = "Varangian Guard"
 to = "Housecarl"
 level = 1
-basis = "The húskarlar, household troops of the Danish kings, from Cnut's guard in England (1016–1035) to the law of the retainers that Sven Aggesen attributes to Cnut (Lex Castrensis, 1180s); whether the heregeld paid them is debated (see contested). The axe-armed heavy infantry model is the same one the Anglo-Saxons' design renames Housecarl, so that one model serves one Anglo-Danish institution; the Varangian Guard itself stays Byzantine (RULES section 4). The Goths' dropped Huskarl, which bears the Old Norse name, is not used: the axe-armed Varangian Guard model renders the housecarls' Dane axe better, and one model shared with the Anglo-Saxons' design keeps one institution under one look."
+basis = "The húskarlar, household troops of the Danish kings, from Cnut's guard in England (1016–1035) to the law of the retainers that Sven Aggesen attributes to Cnut (Lex Castrensis, 1180s); whether the heregeld paid them is debated (see contested). The axe-armed heavy infantry model is the same one the Anglo-Saxons' design renames Housecarl, so that one model serves one Anglo-Danish institution; the Varangian Guard itself stays Byzantine (RULES section 4). The Goths' dropped Huskarl, which bears the Old Norse name, is not used: the Varangian Guard renders the housecarls better in role, being strong against cavalry, as the Dane axe was against horsemen at Hastings (the Bayeux Tapestry shows an English axeman striking a horse; Wace, Roman de Rou), whereas the Huskarl is weak against cavalry; its axe, which the game's Gothikon has it throw, fits the Dane axe too, and one model shared with the Anglo-Saxons' design keeps one institution under one look. The Norse Warrior (Scenario Editor, RULES section 5) was weighed as the look of the Housecarl and not used: its base stats make it a light swordsman rather than an armoured guard (to be checked in game), a look alone would not remove the Varangian Guard's gold mechanic (see the N2 idea), and it would split the one model the Anglo-Saxons' design shares."
 
 [[rename]]
 from = "Elite Varangian Guard"
@@ -164,7 +172,7 @@ basis = "Same as the Varangian Guard rename."
 [architecture]
 set = "Northern European"
 change = "kept"
-basis = "The set the Viking Sagas expansion gave the Danes, Varangians and Vikings according to its official FAQ (not recorded in the repository data): its timber halls and clinker ships render Viking-age Denmark, to which most of the design's elements belong (the ring forts, the Danevirke, the Housecarl, the Jomsviking, the Longship). The brick Gothic that the later kingdom shared with northern Germany (Roskilde Cathedral, Valdemar's wall) fits it less well; the set is kept, and the late Nordic kingdoms await an N3 set (RULES 6.16.8)."
+basis = "The set the Viking Sagas expansion gave the Danes, Varangians and Vikings according to its official FAQ (not recorded in the repository data): its timber halls and clinker ships render Viking-age Denmark, to which the design's signature elements belong (the ring forts, the Danevirke, the Housecarl, the Jomsviking, the Longship). The brick building of the later kingdom (Valdemar's wall) and its brick Gothic (Roskilde Cathedral), shared with northern Germany, fit it less well; historical fit decides (RULES 6.16.8), and the set is kept for the signature elements. A late Nordic brick-Gothic set is an N3 idea, since creating a set is N3 (RULES 6.15)."
 
 [[dropped]]
 item = "Northmen's Fury"
@@ -174,4 +182,4 @@ reason = "Its name rests on the apocryphal prayer ‘A furore Normannorum libera
 [[dropped]]
 item = "Hamask"
 kind = "unique_tech"
-reason = "Fails the relevance test (RULES 6.9): the Danish berserk material is legendary and lies before the window (Saxo's berserkir belong to the legendary books of his history, I–IX; Hrólfs saga kraka is a late saga about legendary Lejre), and it duplicates the Norwegians' Berserk. Its slot is not refilled: a tech for Cnut's household troops (Þingalið) would repeat the Housecarl and its bonus on the same evidence (RULES 6.3), so the Danes keep two unique techs (4 passives + 2 techs). Two other moments were weighed and left out: Hedeby, the royal emporium to which Godfred moved the merchants of Reric (808), which the Danevirke tech already takes in through the rampart that joined the town to the wall; and the Valdemarian knights (Lyndanisse 1219, Bornhöved 1227), whom the added Cavalier represents."
+reason = "Fails the relevance test (RULES 6.9): the Danish berserk material is legendary and lies before the window (Saxo's berserkir belong to the legendary books of his history, I–IX; Hrólfs saga kraka is a late saga about legendary Lejre), and it duplicates the Norwegians' Berserk. Its slot is not refilled: a tech for Cnut's household troops (Þingalið) would repeat the Housecarl and its bonus on the same evidence (RULES 6.3), so the Danes keep two unique techs (4 passives + 2 techs, within RULES 6.1). Two other moments were weighed and left out: Hedeby's trade, from Godfred's move of the merchants of Reric to the royal emporium (808), is left out in N1 because the design's economy already rests on the herring, plunder and the Øresund toll (see the N2 idea); and the Valdemarian knights (Lyndanisse 1219, Bornhöved 1227), whom the added Cavalier represents."

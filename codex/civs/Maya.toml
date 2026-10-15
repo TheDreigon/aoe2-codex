@@ -28,7 +28,7 @@ open_questions = []
 [profile]
 entity = "The Maya kingdoms and city-states: the Classic lowland kingdoms (Tikal, Calakmul, Caracol, Copán, Palenque and others) and the Postclassic polities of Yucatán and the highlands (Chichén Itzá, Mayapán, the Yucatec provinces, the K'iche' and Kaqchikel kingdoms)"
 region = "Yucatán Peninsula, Petén, Chiapas, Tabasco, Belize, Guatemala, western Honduras and El Salvador"
-window = "500–1524 (the Classic kingdoms and the Postclassic, to the Spanish conquest of the K'iche')"
+window = "500–1524 (the Classic kingdoms and the Postclassic, to the Spanish conquest of the K'iche', 1524, a terminal event soon after 1500 as RULES 6.16.17 allows; core 500–1500; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Diego de Landa, Relación de las cosas de Yucatán (c. 1566)",
   "Bernal Díaz del Castillo, Historia verdadera (on Champotón, 1517, and Tabasco, 1518)",
@@ -50,16 +50,17 @@ sources = [
   "France V. Scholes & Ralph L. Roys, The Maya Chontal Indians of Acalan-Tixchel (1948)",
   "Anthony P. Andrews, Maya Salt Production and Trade (1983)",
   "Ross Hassig, Trade, Tribute, and Transportation (1985)",
+  "Elliot M. Abrams, How the Maya Built Their World: Energetics and Ancient Architecture (1994)",
   "Matthew Restall, Maya Conquistador (1998)",
 ]
 
 [[bonus]]
-text = "Universities and Monasteries work +33% faster"
+text = "Universities work +33% faster; Monasteries work +20% faster"
 kind = "other"
 level = 1
 change = "new"
 replaces = "Start with +1 Villager, but -50 food"
-precedent = "Universities work +80% faster (Malians team bonus); Monasteries work +20% faster (Lithuanians team bonus)"
+precedent = "Universities work +80% faster (Malians team bonus), at a lower magnitude; Monasteries work +20% faster (Lithuanians team bonus), at the same magnitude, the only Monastery work rate in the game, so the Monastery half cannot go higher in level 1 (RULES section 5)"
 basis = "The Maya developed the most complete writing system of the pre-Columbian Americas, kept by court scribes (aj tz'ib), and an astronomy precise enough for the Venus and eclipse tables of the Dresden Codex (Coe 1992; Martin & Grube 2008). The extra starting Villager it replaces was a balance device with no historical link (rated unfounded)."
 relevance = "Writing, the calendar and astronomy are the best-known achievements of the Maya and the core of their identity."
 
@@ -232,7 +233,7 @@ basis = "Same effect as Gambesons. Landa describes Maya jackets of quilted cotto
 from = "Iron Casting"
 to = "Flint Points"
 level = 1
-basis = "There was no iron. Maya lances, axes and arrows were tipped with knapped flint (chert), as Landa describes, and with obsidian imported from highland sources such as El Chayal and Ixtepeque (Aoyama 2005). Same effect as Iron Casting. The Aztec counterpart is Obsidian Blades. The other Blacksmith tiers keep their generic names as a flagged generic equipment level (RULES 6.16.6): Forging and Blast Furnace, although there was no iron metallurgy (metal, copper bells and axes, arrived late and mostly as imports); Scale Mail, Chain Mail and Plate Mail Armor, although there was no metal armour (Maya warriors wore quilted cotton, which renames Gambesons, and carried flexible or hide shields); and Ring Archer Armor, beside Padded and Leather Archer Armor, which have real equivalents in cotton and hide. Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Maya had no gunpowder."
+basis = "There was no iron. Maya lances, axes and arrows were tipped with knapped flint (chert), as Landa describes, and with obsidian imported from highland sources such as El Chayal and Ixtepeque (Aoyama 2005). Same effect as Iron Casting. The Aztec counterpart is Obsidian Blades. The other Blacksmith tiers keep their generic names as a flagged generic equipment level (RULES 6.16.6): Forging and Blast Furnace, although there was no iron metallurgy (metal, copper bells and axes, arrived late and mostly as imports); Bodkin Arrow, although arrows were tipped with flint and obsidian, not forged iron; Scale Mail, Chain Mail and Plate Mail Armor, although there was no metal armour (Maya warriors wore quilted cotton, which renames Gambesons, and carried flexible or hide shields); and Ring Archer Armor, beside Padded and Leather Archer Armor, which have real equivalents in cotton and hide. Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Maya had no gunpowder."
 
 [[rename]]
 from = "Wheelbarrow"
@@ -244,13 +245,13 @@ basis = "There were no wheeled vehicles; Maya porters, like all Mesoamerican por
 from = "Hand Cart"
 to = "Carrying Frames"
 level = 1
-basis = "Porters slung wooden carrying frames from the tumpline throughout Mesoamerica (Hassig 1985). Same rename as for the Aztecs."
+basis = "Porters slung wooden carrying frames from the tumpline throughout Mesoamerica (Hassig 1985). Same rename as for the Aztecs. The Trade Cart keeps its generic name and look as a flagged abstraction of porter trains and the canoe trade (RULES 6.16.6), since there were no wheeled vehicles."
 
 [[rename]]
 from = "Coinage"
 to = "Cacao Currency"
 level = 1
-basis = "There were no coins: Landa says the Yucatec Maya traded salt, cloth and slaves for cacao and stone beads, which were their money. Same rename as for the Aztecs."
+basis = "There were no coins: Landa says the Yucatec Maya traded salt, cloth and slaves for cacao and stone beads, which were their money. Same rename as for the Aztecs. Banking (tributes to other players are free) keeps its generic name as a flagged abstraction (RULES 6.16.6), since no Maya equivalent with a period term was found."
 
 [[rename]]
 from = "Guilds"
@@ -263,7 +264,7 @@ from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Maya fleets were dugout canoes: off Guanaja in 1502 Columbus's men met a trading canoe ‘as long as a galley’ with some 25 paddlers (Ferdinand Columbus), the Chontal of Tabasco and Acalan carried the coastal trade in canoes (Scholes & Roys 1948), and in 1518 armed warriors in canoes met Grijalva's ships off Tabasco (Bernal Díaz, who sailed with him). The Scenario Editor Canoe, a light boat that shoots arrows like the Galley (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as for the Aztecs, Mapuche and Tupi."
+basis = "Maya fleets were dugout canoes: off Guanaja in 1502 Columbus's men met a trading canoe ‘as long as a galley’ with some 25 paddlers (Ferdinand Columbus), the Chontal of Tabasco and Acalan carried the coastal trade in canoes (Scholes & Roys 1948), and in 1518 armed warriors in canoes met Grijalva's ships off Tabasco (Bernal Díaz, who says he sailed with him). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. Same rename as for the Aztecs, Mapuche and Tupi, and outside the Americas in the Malians' and Avars' designs."
 
 [[rename]]
 from = "War Galley"
@@ -276,4 +277,4 @@ basis = "Upgrade tier of the renamed Galley, with the same Canoe look (see Galle
 set = "Central American"
 level = 1
 change = "kept"
-basis = "The stepped temples, palaces and corbel-vaulted stone buildings of the existing Mesoamerican set fit the Maya."
+basis = "The stepped temples, palaces and corbel-vaulted stone buildings of the existing Mesoamerican set fit the Maya. Treadmill Crane, which the Maya hold in the game, keeps its generic name as a flagged abstraction of faster building (RULES 6.16.6): there were no cranes or treadwheels, and these buildings were raised by human labour alone, with stone quarried by hand and carried by porters without wheels or draft animals; energetic studies of Copán's buildings measure that work in person-days (Abrams 1994). Decision: it is flagged rather than renamed. The Aztecs' rename, Coatequitl, is a Nahuatl term, which the region avoids giving to another people (see Quilted Cotton Armor; Milpa, the standard term of Maya scholarship, is the one exception), and no Maya term for a labour draft with a period source was found in the sources used here."

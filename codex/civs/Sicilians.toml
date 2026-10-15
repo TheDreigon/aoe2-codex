@@ -2,7 +2,7 @@ civ = "Sicilians"
 name = "Sicilians"
 status = "draft"
 label = "Infantry and Cavalry civilization"
-summary = "Sicilians as the Italo-Normans and the Kingdom of Sicily (1030–1266): the Norman charge (Imperial Age) replaces the bonus-damage bonus, a fleet bonus is added, First Crusade becomes the Magna Expeditio levy, the royal Diwan takes the Town Center and Lucera's Muslim archers replace Hauberk."
+summary = "Sicilians as the Italo-Normans and the Kingdom of Sicily (1030–1266): the Norman charge (Imperial Age) replaces the bonus-damage bonus, a fleet bonus is added, First Crusade becomes the Magna Expeditio levy, the royal Diwan takes the Town Center, Lucera's Muslim archers replace Hauberk and the mounted crossbow line leaves the tree."
 ideas = [
   "N2: The archers of Lucera as a unique unit of their own (Muslim foot archers with composite bows), instead of a tech for the Archer-line.",
   "N3: A Normans civ of its own (Normandy, England, Italy) or a variant system, since the Normans are split between the Franks (Normandy), the English (Anglo-Norman England from 1066) and the Sicilians (southern Italy and Sicily).",
@@ -13,7 +13,7 @@ contested = [
   "Scale of the 'Arab agricultural revolution' (Andrew Watson) in Sicily.",
   "The reputation of William I 'the Bad', which comes mostly from the hostile Hugo Falcandus.",
   "Bohemond's motives in the First Crusade: ambition for Byzantine lands (Malaterra, Anna Komnene) or piety (Gesta Francorum). Bohemond and Tancred (Antioch, 1098) belong to the history text: they were Italo-Normans of Apulia, but the county of Sicily stayed out of the crusade.",
-  "The name: 'Sicilians' for the Regnum Siciliae, which covers the Hauteville and Hohenstaufen kingdom with its Greek and Muslim subjects, as the design does (the diwan, Lucera, the fleet, Thumb Ring, Frederick II's castles), or 'Italo-Normans', which would end the window in 1194 and re-base the archer tech on the Muslim troops of Roger I and Roger II. The design keeps 'Sicilians', since standard scholarship names the kingdom so (RULES section 4 and 6.16.15; level-1 review decision).",
+  "The name: 'Sicilians' for the Regnum Siciliae, which covers the Hauteville and Hohenstaufen kingdom with its Greek and Muslim subjects, as the design does (the diwan, Lucera, the fleet, Thumb Ring, Frederick II's castles), or 'Italo-Normans', which would end the window in 1194 and re-base the archer tech on the Muslim troops of Roger I and Roger II. The design keeps 'Sicilians', since standard scholarship names the kingdom so: the Regnum Siciliae, which included the mainland from Roger II's coronation (1130). The Italo-Norman principalities of 1030–1130 (Aversa, Apulia and Calabria, the county of Sicily) come under the name as the kingdom's antecedents, and the word stands for the realm, not only for the island's people (RULES section 4 and 6.16.15; level-1 review decision).",
 ]
 open_questions = []
 
@@ -49,7 +49,7 @@ level = 1
 change = "kept"
 precedent = "Start with +100 stone (Sicilians)"
 basis = "An abstraction of the Norman castle-building programme that held newly conquered land (Melfi, Adrano, Paternò, Caccamo) (Loud, 2000)."
-relevance = "The Normans secured each conquered district with a castle from the start, and stone in hand from the first minutes abstracts that priority. It is the thinnest of the civ's three castle traits, but it is kept rather than given to another trait such as Palermo's silk and tiraz workshops (silk workers brought from Thebes in 1147) (level-1 review decision)."
+relevance = "The Normans secured each conquered district with a castle from the start, and stone in hand from the first minutes abstracts that priority. It is the thinnest of the civ's three castle traits. It is kept as the game's own level-1 bonus, since the castle network is the conquest's signature, rather than giving the slot to Palermo's royal silk workshop (the tiraz, which made Roger II's coronation mantle in 1133–34 and took in silk workers carried off from Thebes and Corinth in 1147) (level-1 review decision)."
 
 [[bonus]]
 text = "Farm upgrades provide +125% additional food"
@@ -141,7 +141,7 @@ age = "Castle"
 effect = "Town Centers work +10% faster"
 level = 2
 change = "new"
-precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians): the work-rate effect only, Town Centers only, at its Feudal Age value (+10%), as in the Georgians' and Cumans' designs (Chqondideli, Council of Khans). A new tech (level 2): no existing unique tech renders a royal administration"
+precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians, whose design drops it): the work-rate effect only, Town Centers only, at its Feudal Age value (+10%), as in the Georgians' and Cumans' designs (Chqondideli, Council of Khans). A new tech (level 2): no existing unique tech renders a royal administration"
 basis = "Roger II's kingdom was governed through a royal diwan on Fatimid lines, staffed by Arabic- and Greek-writing officials: from the 1140s its offices kept Arabic registers of the villeins attached to each estate (jarāʾid) and of estate boundaries, confirmed grants and collected the king's revenues, and the royal administration issued documents in Arabic, Greek and Latin (Johns, 2002; Takayama, 1993). Ibn Jubayr (1184–1185) still found Muslim officials and pages in William II's palace. A Town Center that works faster abstracts a government that knew its lands and men; no other Latin kingdom had an Arabic-language administration. The tech structure follows RULES 6.2 (level-1 review decision): Magna Expeditio, a royal levy of feudal service, keeps First Crusade's place at the Castle, and the diwan takes the Town Center, rather than the Assizes of Ariano (conventionally 1140) or al-Idrisi's Tabula Rogeriana (1154); with it the civ has 6 passive bonuses and 3 unique techs, the cap of 9 (RULES 6.1)."
 relevance = "The Arabic-Greek royal diwan, at the heart of a trilingual administration, is the most distinctive institution of the Norman kingdom, without parallel in Latin Europe, and the instrument of its kings' wealth; the analysis names it as the main missing feature."
 contested = "How much the diwan owed to Fatimid models rather than to the Kalbid and Byzantine practice already on the island is debated (Johns, 2002; Metcalfe, 2009)."
@@ -162,7 +162,7 @@ contested = "Numbers are uncertain, for the deportations as for the archers at C
 
 [tree]
 add = ["Thumb Ring", "Architecture", "Treadmill Crane", "Theocracy", "Fortified Wall"]
-remove = ["Cannon Galleon", "Cranequins", "Heavy Mounted Crossbowman", "Siphons"]
+remove = ["Cannon Galleon", "Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins", "Siphons"]
 
 [tree.basis]
 "Thumb Ring" = "Given for an archery tradition the kingdom's armies demonstrably used, the Islamic one, rather than for an attested draw of their own: Muslim troops served the Hauteville from the conquest onwards, and the Muslim archers of Lucera were a royal corps under Frederick II and Manfred. The Islamic tradition drew with the thumb, as its Arabic manuals teach, from Taybugha's Mamluk manual (c. 1368; Latham and Paterson, Saracen Archery, 1970) to an anonymous manual of c. 1500 thought to be North African (Faris and Elmer, Arab Archery, 1945); that the archers of Sicily and Lucera drew the same way is an inference from that tradition, since no source specific to them describes their draw (RULES 6.16.4). It supports the Lucera tech."
@@ -171,9 +171,10 @@ remove = ["Cannon Galleon", "Cranequins", "Heavy Mounted Crossbowman", "Siphons"
 "Theocracy" = "In 1098 Urban II granted Roger I the apostolic legation, the root of the 'Monarchia Sicula' through which the kings controlled the island's church, and the Martorana mosaic shows Roger II crowned by Christ (Houben, 2002). The name fits; the effect is the generic one."
 "Fortified Wall" = "The towns of the kingdom were walled (Palermo, Bari, Salerno), and Frederick II's castles enclose their courtyards with stone curtain walls and corner towers (Castello Maniace, Castello Ursino). The Donjon replaces only the tower line, so the stone walls of a civ of castle-builders should reach the generic top tier."
 "Cannon Galleon" = "No gunpowder in the window: the earliest European records of cannon date from 1326, sixty years after Benevento (1266), and the civ already lacks Bombard Cannon and Hand Cannoneer. Under RULES 6.11 the anti-ship role at sea stays with the Galley and Fire Ship lines and the anti-building role with the single-use Heavy Demolition Ship, and on land with the Trebuchet; no substitute siege warship is added (RULES 6.16.1)."
-"Cranequins" = "The cranequin, a rack-and-pinion winder for heavy crossbows, belongs to the late 14th and 15th centuries, after the window (1266) (names theme of the analysis); RULES 6.10 forbids renaming it to hide the anachronism, and no 13th-century equivalent is attested in the kingdom. The civ does not need it to play (RULES 6.11)."
-"Heavy Mounted Crossbowman" = "The Imperial tier stands for the mounted crossbowmen of the 14th–15th centuries. The tech tree audit justified mounted crossbowmen for the Sicilians by the Angevin and Aragonese kingdom, after the window (1266), and no source checked here documents them in the Hohenstaufen kingdom; since the kingdom used crossbowmen widely (Frederick II's balistarii), the basic Mounted Crossbowman stays as the regional unit (RULES 6.1). Nothing the civ needs to play is lost (RULES 6.11)."
-"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ. The Sicilians keep the fleet-of-ships tier (RULES 6.16.1): the galley fleets of Christodulus, George of Antioch and Margaritus of Brindisi (Stanton, 2011)."
+"Mounted Crossbowman" = "Shared basis (level-1 review, section 3.2): the Mounted Crossbowman line stays only where shooting from the saddle is documented. No mounted crossbowmen are documented in the kingdom before 1266 in the sources checked for this design: the kingdom's crossbowmen (Frederick II's balistarii) are evidence for the crossbow, not for shooting from horseback, and the generic Crossbowman carries them (RULES 6.16.3); the tech tree audit justified mounted crossbowmen for the Sicilians by the Angevin and Aragonese kingdom, after the window. Removed; nothing the civ needs to play is lost (RULES 6.11): the foot Archer and crossbow lines, with the Lucera tech, keep the missile role, the Light Cavalry and the Cavalier the mounted one."
+"Heavy Mounted Crossbowman" = "Same reason as the Mounted Crossbowman, and later still (14th–15th centuries)."
+"Cranequins" = "The cranequin, a rack-and-pinion winder for heavy crossbows, belongs to the late 14th and 15th centuries, after the window (1266) (names theme of the analysis); RULES 6.10 forbids renaming it to hide the anachronism, and no 13th-century equivalent is attested in the kingdom. The mounted crossbow line it improves also leaves the tree (see the Mounted Crossbowman), and the civ does not need it to play (RULES 6.11)."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ. The Sicilians keep the fleet-of-ships tier (RULES 6.16.1): the galley fleets of Christodulus, George of Antioch and Margaritus of Brindisi (Stanton, 2011), with the Galleon, a 16th-century type, as the skeleton's flagged abstraction (RULES 6.16.2)."
 
 [architecture]
 set = "Mediterranean"

@@ -8,14 +8,15 @@ ideas = [
   "N3: Capture instead of conversion and killing: infantry that defeats enemy soldiers takes captives, which promote the captor (the warrior ranks of the Codex Mendoza) and feed tribute; captured enemy cult images kept in the Coateocalli (Durán) instead of Relics.",
   "N3: Re-theme the Monastery as a teocalli with tlamacazqueh (priests), the god-bearers (teomamaqueh) who led the army, and Nahuatl tech names.",
   "N2: A tribute mechanic proper: Castles and Town Centers yielding a slow income of food, cloth and gold, with the Market tribute fee at 0% (the Calpixqueh tech is the N1 stand-in).",
+  "N2: Quimichtin (‘mice’, Sahagún), the scouts and spies of Mexica armies, as a scout unit of their own, so that the Eagle line can stand for the eagle order alone (the Eagle Scout's misfit is flagged in the Jaguar Warrior basis).",
   "N2: Regional names for the Blacksmith armour lines (chimalli shields, tlahuiztli warrior suits) once Blacksmith granularity is decided (RULES section 10).",
   "N2: A bow line split from the Crossbowman (RULES section 10), so the Aztec archer (tlahuitolli bow) can improve without crossbows.",
   "N3: Assault mechanics (scaling ladders, firing the temple) as the American alternative to siege engines (RULES section 10).",
 ]
 contested = [
   "The purpose of the xochiyaoyotl (flower wars): ritual capture of victims for sacrifice (Durán, Tezozómoc) or a strategy of attrition and encirclement of Tlaxcala (Hassig 1988; Isaac 1983).",
-  "The origin of the flower wars: the story that they began during the famine of 1450–54, to feed the gods with captives, is Ixtlilxóchitl's (early 17th century); Hicks (1979) doubts it, since Ixtlilxóchitl does not use the term and no other source confirms it. Durán instead credits the arrangement to Tlacaelel under Moctezuma I (1440–1469), who called the nearby enemy cities a market where the god could buy victims. Both accounts place the arrangement with Tlaxcala and its neighbours under Moctezuma I, which is all the design relies on; it follows neither origin story.",
-  "The civ's name: ‘Aztecs’ is an 18th–19th-century scholarly label (Clavijero, Humboldt, Prescott); the people called themselves Mexica or Tenochca, and the empire was the Triple Alliance with Texcoco and Tlacopan. Decision: the name stays, since standard English scholarship uses it for this entity (Smith 2012; Townsend 2019) and the civ renames are limited to the English, Anglo-Saxons and Arabs (RULES section 4 and 6.16.15); the profile names the Mexica and the Triple Alliance.",
+  "The origin of the flower wars: the story that they began during the famine of 1450–54, to feed the gods with captives, is Ixtlilxóchitl's (early 17th century), and Hicks (1979) doubts it. Durán instead credits the arrangement to Tlacaelel under Moctezuma I (1440–1469), who called the nearby enemy cities a market where the god could buy victims. Both accounts place the arrangement with Tlaxcala and its neighbours under Moctezuma I, which is all the design relies on; it follows neither origin story, and how far the wars were prearranged at all belongs to the debate on their purpose (see the note above).",
+  "The civ's name: ‘Aztecs’ is an 18th–19th-century scholarly label (Clavijero, Humboldt, Prescott); the people called themselves Mexica or Tenochca, and the empire was the Triple Alliance with Texcoco and Tlacopan. Decision: the name stays under RULES 6.16.15 (a civ is renamed only where standard English scholarship does not use the game's name), since English scholarship uses ‘Aztec’ for the Mexica and the Triple Alliance (Hassig 1988, Aztec Warfare; Berdan, Smith et al. 1996, Aztec Imperial Strategies), and Smith (2012) uses ‘Aztecs’ more broadly for the Nahuatl-speaking peoples of Late Postclassic central Mexico. Townsend (2019) prefers ‘Mexica’ in her text. The renames decided in the level-1 review were limited to the English, Anglo-Saxons and Arabs; the profile names the Mexica and the Triple Alliance.",
   "The scale of human sacrifice: Durán's 80,400 victims at the 1487 rededication of the Templo Mayor against much lower modern estimates; the Huey Tzompantli excavations (INAH, since 2015) confirm large-scale sacrifice accumulated over decades. Harner's ‘protein’ hypothesis (1977) is rejected.",
   "Hegemonic or territorial empire, and the degree of provincial control (Berdan, Smith et al. 1996).",
   "The population of Tenochtitlan in 1519 (estimates c. 150,000–250,000) and of central Mexico.",
@@ -27,7 +28,7 @@ open_questions = []
 [profile]
 entity = "The Mexica (Tenochca) of Tenochtitlan and the Triple Alliance (Excan Tlahtoloyan: Tenochtitlan, Texcoco and Tlacopan)"
 region = "Basin of Mexico and central Mesoamerica"
-window = "1325–1521 (from the traditional foundation of Tenochtitlan to its fall; the Triple Alliance from 1428)"
+window = "1325–1521 (from the traditional foundation of Tenochtitlan to its fall, a terminal event soon after 1500 as RULES 6.16.17 allows; core 1428–1500, the Triple Alliance from Itzcoatl's victory over Azcapotzalco to the reign of Ahuitzotl; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Codex Mendoza (c. 1541); ed. Frances F. Berdan & Patricia Rieff Anawalt (1992)",
   "Bernardino de Sahagún, Florentine Codex (c. 1577)",
@@ -98,7 +99,7 @@ model = "Jaguar Warrior"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The ocelomeh were, with the eagle warriors (cuauhmeh), one of the two great military orders, ranked below only the otontin and the cuachicqueh; entry depended above all on taking captives, and many members were nobles. The Codex Mendoza shows warriors rising in rank and insignia with each captive. The extra damage after defeating enemies evokes this promotion, although merit came from capturing, not killing (Hassig 1988). The regional Eagle Warrior line also stays in the Aztec tree. Decision: the generic and regional unit lines keep their game names (no Macuahuitl Warrior or Tequihua for the Two-Handed Swordsman and Champion, no quimichtin, Sahagún's ‘mice’, for the Eagle Scout), since N1 renames a shared item only where a period term names the same function (RULES 6.16.15), and the eagle order is a rank, not a scout."
+basis = "The ocelomeh were, with the eagle warriors (cuauhmeh), one of the two great military orders, ranked below only the otontin and the cuachicqueh; entry depended above all on taking captives, and many members were nobles. The Codex Mendoza shows warriors rising in rank and insignia with each captive. The extra damage after defeating enemies evokes this promotion, although merit came from capturing, not killing (Hassig 1988). The regional Eagle Warrior line also stays in the Aztec tree. Decision: the generic unit lines keep their game names (no Macuahuitl Warrior or Tequihua for the Two-Handed Swordsman and Champion), since neither is a period term for the same function, the first being a modern coinage and the second a rank (RULES 6.16.15). The regional Eagle line is shared with the Maya, and its upper tiers stand for the eagle order; renaming its scout tier alone, for instance after the quimichtin (Sahagún's ‘mice’, the scouts and spies of Mexica armies), would split the line. So the misfit of the Eagle Scout, which turns a noble order into a cheap scout (rated stretched), is flagged for the site, and quimichtin scouts are an N2 idea."
 relevance = "The jaguar and eagle orders, below only the otontin and cuachicqueh, were the elite of a warrior hierarchy built on taking captives, and they are the emblem of Aztec warfare."
 
 [[unique_tech]]
@@ -124,9 +125,9 @@ level = 1
 change = "changed"
 replaces = "Garland Wars"
 precedent = "Garland Wars (Aztecs): identical effect, renamed"
-basis = "Renamed to the standard English rendering of xochiyaoyotl (‘flower war’). The Triple Alliance fought recurrent, prearranged wars against Tlaxcala, Huexotzinco and Cholula in which picked warriors displayed their skill and took captives. Durán credits the arrangement to Tlacaelel under Moctezuma I (1440–1469); the story that the wars began during the famine of 1450–54 is Ixtlilxóchitl's, and Hicks (1979) doubts it (see contested). Both accounts place the arrangement under Moctezuma I, after the ancient atlatl in the civ's own chronology (RULES 6.4). The attack bonus stands for the battle experience of these veterans (Durán; Hassig 1988)."
+basis = "Renamed to the standard English rendering of xochiyaoyotl (‘flower war’). The Triple Alliance fought recurrent wars against Tlaxcala, Huexotzinco and Cholula, which the sources present as prearranged, in which picked warriors displayed their skill and took captives. Durán credits the arrangement to Tlacaelel under Moctezuma I (1440–1469); the story that the wars began during the famine of 1450–54 is Ixtlilxóchitl's, and Hicks (1979) doubts it (see contested). Both accounts place the arrangement under Moctezuma I, after the ancient atlatl in the civ's own chronology (RULES 6.4). The attack bonus stands for the battle experience of these veterans (Durán; Hassig 1988)."
 relevance = "The flower wars shaped the empire's last six decades and, in one reading, left Tlaxcala unconquered to become Cortés's decisive ally."
-contested = "Ritual capture for sacrifice (Durán, Tezozómoc) or a strategy of attrition (Hassig 1988; Isaac 1983); the famine origin is Ixtlilxóchitl's alone, doubted by Hicks (1979), while Durán credits Tlacaelel."
+contested = "Ritual capture for sacrifice (Durán, Tezozómoc) or a strategy of attrition (Hassig 1988; Isaac 1983), and with it how far the wars were prearranged; the famine origin is Ixtlilxóchitl's, doubted by Hicks (1979), while Durán credits Tlacaelel."
 
 [[unique_tech]]
 name = "Calpixqueh"
@@ -207,7 +208,7 @@ basis = "Same effect as Gambesons (Militia-line +1 pierce armor): the ichcahuipi
 from = "Iron Casting"
 to = "Obsidian Blades"
 level = 1
-basis = "There was no iron. Prismatic obsidian blades struck from prepared cores, much of it the green obsidian of the Sierra de las Navajas near Pachuca, edged the macuahuitl and tipped darts and spears (Hassig 1988; Smith 2012). Same effect as Iron Casting. The Maya counterpart is Flint Points and the Inca one Tin Bronze. The other Blacksmith tiers keep their generic names as a flagged generic equipment level (RULES 6.16.6): Forging and Blast Furnace, although there was no iron metallurgy (metals, copper, gold and silver, were mostly ornamental), and Scale Mail, Chain Mail and Plate Mail Armor, although there was no metal armour: the quilted cotton ichcahuipilli already renames Gambesons and cannot stand for three tiers more, and the feathered warrior suits (tlahuiztli) that veterans wore with it were above all insignia of rank, whose added protection is not established (an N2 idea). Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Mexica had no gunpowder. The Aztecs lack Ring Archer Armor in the game, and the design leaves it so."
+basis = "There was no iron. Prismatic obsidian blades struck from prepared cores, much of it the green obsidian of the Sierra de las Navajas near Pachuca, edged the macuahuitl and tipped darts and spears (Hassig 1988; Smith 2012). Same effect as Iron Casting. The Maya counterpart is Flint Points and the Inca one Tin Bronze. The other Blacksmith tiers keep their generic names as a flagged generic equipment level (RULES 6.16.6): Forging and Blast Furnace, although there was no iron metallurgy (metals, copper, gold and silver, were mostly ornamental); Bodkin Arrow, although arrowheads were of obsidian and flint, not forged iron; and Scale Mail, Chain Mail and Plate Mail Armor, although there was no metal armour. The quilted cotton ichcahuipilli already renames Gambesons and cannot stand for three tiers more. The feathered warrior suits (tlahuiztli) that veterans wore over it are documented above all as insignia granted by the number of captives taken (Codex Mendoza, fols. 64r–67r); how much protection they added beyond the cotton armour is uncertain, so they do not pass the same-function test for an armour tier (RULES 6.16.15), and regional armour names stay an N2 idea. Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Mexica had no gunpowder. The Aztecs lack Ring Archer Armor in the game, and the design leaves it so."
 
 [[rename]]
 from = "Wheelbarrow"
@@ -219,26 +220,26 @@ basis = "There were no wheeled vehicles: loads were carried with the tumpline (m
 from = "Hand Cart"
 to = "Carrying Frames"
 level = 1
-basis = "Porters used a wooden carrying frame (cacaxtli) slung from the tumpline, shown in the Codex Mendoza (Hassig 1985). Parallel to the agreed Hand Cart → Llama Caravans for the Incas; same rename for the Maya."
+basis = "Porters used a wooden carrying frame (cacaxtli) slung from the tumpline, shown in the Codex Mendoza (Hassig 1985). Parallel to the agreed Hand Cart → Llama Caravans for the Incas; same rename for the Maya. The Trade Cart keeps its generic name and look as a flagged abstraction of the pochteca's porter trains (RULES 6.16.6), since there were no wheeled vehicles."
 
 [[rename]]
 from = "Coinage"
 to = "Cacao Currency"
 level = 1
-basis = "There were no coins: cacao beans served as small change and standard cotton mantles (quachtli) as larger units of value in markets and tribute (Berdan, Smith et al. 1996). Same rename for the Maya, where Landa also records cacao as money."
+basis = "There were no coins: cacao beans served as small change and standard cotton mantles (quachtli) as larger units of value in markets and tribute (Berdan, Smith et al. 1996). Same rename for the Maya, where Landa also records cacao as money. Banking (tributes to other players are free) keeps its generic name as a flagged abstraction (RULES 6.16.6), since no Mesoamerican equivalent with a period term was found."
 
 [[rename]]
 from = "Treadmill Crane"
 to = "Coatequitl"
 level = 1
-basis = "There were no cranes or treadwheels: temples, causeways and dikes were raised by the coatequitl, the rotational labour draft for public works that each calpolli owed to its city and ruler (Hassig 1985; Smith 2012). Same effect as Treadmill Crane (Villagers construct buildings +20% faster): organised labour is the Mexica equivalent of faster building, as the tumpline is of the Wheelbarrow. A rename beyond the agreed list, applied under RULES 6.16.6."
+basis = "There were no cranes or treadwheels: temples, causeways and dikes were raised by the coatequitl, the rotational labour draft for public works that each calpolli owed to its city and ruler (Hassig 1985; Smith 2012). Same effect as Treadmill Crane (Villagers construct buildings +20% faster): organised labour is the Mexica equivalent of faster building, as the tumpline is of the Wheelbarrow. A rename beyond the agreed list, applied under RULES 6.16.6. The Inca design renames it Mit'a, after the Andean rotating labour service; the Maya keep Treadmill Crane under its generic name as a flagged abstraction, since the term is Nahuatl (see the Maya design)."
 
 [[rename]]
 from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "The Mexica fought on the lake in dugout canoes (acalli): thousands of them defended Tenochtitlan in 1521, and Cortés had thirteen brigantines built to break them (Cortés, third letter; Bernal Díaz). The Scenario Editor Canoe, a light boat that shoots arrows like the Galley (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename for the Maya, Mapuche and Tupi; the acalli war-canoe line proper is an N3 idea."
+basis = "The Mexica fought on the lake in dugout canoes (acalli): thousands of them defended Tenochtitlan in 1521, and Cortés had thirteen brigantines built to break them (Cortés, third letter; Bernal Díaz). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. Same rename for the Maya, Mapuche and Tupi, and outside the Americas in the Malians' and Avars' designs; the acalli war-canoe line proper is an N3 idea."
 
 [[rename]]
 from = "War Galley"

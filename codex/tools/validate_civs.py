@@ -15,7 +15,8 @@ civs and a precise time window, RULES section 1), the level constraints that can
 checked mechanically (item names exist in the game, architecture set exists, only unique techs may be
 level 2) and whether every original bonus, unique unit and unique tech is accounted for. Units that exist only
 in campaigns and the Scenario Editor (codex/tools/scenario-units.md) count as existing game content (RULES
-section 5): they are accepted as the `model` of a unique unit or of a per-civ rename.
+section 5): they are accepted as the `model` of a unique unit or of a per-civ rename. A unique unit reusing an
+existing unit as it is is level 1; with adapted stats (a "stats" key) it is level 2 (RULES section 5).
 Errors make the exit code 1; warnings do not. With several files, it also lists the unit models and the
 effects (bonuses, team bonuses, unique techs) that more than one design uses, so that the holder lists in
 the precedents can be checked.
@@ -293,7 +294,12 @@ def validate(path, game):
     for n, u in enumerate(uus, 1):
         w = f'[[unique_unit]] {u.get("name", n)}'
         need(r, u, ['name', 'model', 'change', 'basis', 'relevance'], w)
-        check_level(r, u, w)
+        # RULES section 5: an existing unit as it is, with a new name, is level 1; with adapted stats it is level 2.
+        check_level(r, u, w, allowed=(1, 2))
+        if u.get('level') == 2 and not u.get('stats'):
+            r.err(f'{w}: a level-2 unique unit (existing art with adapted stats, RULES section 5) needs a "stats" key')
+        if u.get('level') == 1 and u.get('stats'):
+            r.warn(f'{w}: "stats" is only for level-2 units with adapted stats; a level-1 unit keeps the model\'s own stats')
         if u.get('change') not in CHANGES:
             r.err(f'{w}: change must be one of kept, changed, new')
         if u.get('model') and u['model'] not in all_names and u['model'] not in scenario:
