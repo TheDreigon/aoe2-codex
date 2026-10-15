@@ -27,6 +27,7 @@ open_questions = [
   "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (without the Cannon Galleons this naval civ has no siege warship, and no substitute is given).",
   "Codex-wide question CQ7 (see codex/civs/README.md): Siege engines that never reached a civ (here the counterweight Trebuchet leaves; the Mangonel and Onager stay as the generic stone-thrower).",
   "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (without the Trebuchet, and with no Bombard Cannon in the game's tree, the civ breaks buildings with the Siege and Armored Elephants, the Mangonel-line and the Petard).",
+  "Codex-wide question CQ25 (see codex/civs/README.md): Rule interpretations, point (b) on a long tradition in a tech slot (here Mahayana, which renders some four centuries of Pala patronage of Buddhism rather than a datable moment; point (a) bears on its Imperial Age).",
 ]
 
 [profile]
@@ -154,7 +155,7 @@ age = "Imperial"
 effect = "Villagers and Monks take -10% population space"
 level = 1
 change = "changed"
-precedent = "Mahayana (Villagers and Monks take -10% population space) (Bengalis): moved to the Monastery (religion, RULES 6.2), identical effect and age. It stays in the Imperial Age, its game age, although the Pala centuries come before the Castle Age Shah-i Bangalah (1352): RULES 6.4 orders ages only between two Castle techs (codex-wide question CQ25)."
+precedent = "Mahayana (Villagers and Monks take -10% population space) (Bengalis): moved to the Monastery (religion, RULES 6.2), identical effect and age. It stays in the Imperial Age, its game age, although the Pala centuries come before the Castle Age Shah-i Bangalah (1352): RULES 6.4 orders ages only between two Castle techs (codex-wide question CQ25, point a)."
 basis = "The Palas, who styled themselves paramasaugata (‘devout Buddhists’), were the last great royal patrons of Mahayana and Vajrayana Buddhism in India; they endowed monasteries, shrines and images across Bengal and Bihar, and the Vajrayana of their age, carried to Tibet by masters such as Atisha (who left Vikramashila c. 1040), shaped Tibetan Buddhism. The effect is an arbitrary abstraction of a large, cheaply sustained monastic and lay population."
 relevance = "Royal patronage of Mahayana and Vajrayana Buddhism defines the Pala centuries and their legacy in Tibet."
 
@@ -164,7 +165,7 @@ remove = ["Cannon Galleon", "Elite Cannon Galleon", "Arbalester", "Trebuchet", "
 
 [tree.basis]
 "Treadmill Crane" = "An abstraction of faster building: no treadwheel cranes are attested in Bengal, and the tech stands for the scale of its brick building, from the mahavihara of Somapura, among the largest monasteries of South Asia, to the Adina mosque (1373–75), the largest mosque of the subcontinent in its day. Stone Shaft Mining stays absent, which fits a delta without stone."
-"Cannon Galleon" = "No secure evidence of guns on the Sultanate's boats: the gun-armed river flotilla (nawara) is Mughal, of the 17th century. The Galley and Fire Ship lines keep the anti-ship role at sea and the single-use Demolition Ship the anti-building role; no substitute siege warship is added (codex-wide question CQ1: Navy rule)."
+"Cannon Galleon" = "No secure evidence of guns on the Sultanate's boats: the gun-armed river flotilla (nawara) is Mughal, of the 17th century. The Galley and Fire Ship lines keep the anti-ship role at sea and the single-use Demolition Ship the anti-building role; no substitute siege warship is added (codex-wide question CQ1: Navy rule). The Galleon and Carrack stay as flagged generic abstractions of the royal war fleets of the Palas and the sultans (see the ship-regeneration bonus) under the codex navy rule (CQ1)."
 "Elite Cannon Galleon" = "Same basis."
 "Arbalester" = "No crossbows are attested in Pala, Sena or Sultanate armies, whose archers used bamboo bows; in South Asia the crossbow belongs mainly to the hill peoples of the north-east. Under the project's criterion (Armenians, Ethiopians, Malians) the crossbow tier goes and the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split; the Paik and the Elephant Archer carry the archery."
 "Trebuchet" = "Bengal's wars turned on boats, elephants and foot archers, and the counterweight trebuchet is not attested in Pala, Sena or Sultanate Bengal in the sources used here. Removed under the codex default for siege engines that never reached a civ (codex-wide question CQ7); the Mangonel-line stays as the generic stone-thrower, and with the Siege and Armored Elephants and the Petard it keeps the civ able to break buildings, though without a long-range siege weapon (codex-wide question CQ13)."

@@ -34,6 +34,7 @@ open_questions = [
   "Codex-wide question CQ7 (see codex/civs/README.md): Siege engines that never reached a civ (here the counterweight Trebuchet leaves; the Mangonel-line stays as the generic stone-thrower).",
   "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here the team bonus ‘Trade Units generate +10% gold’, held by five designs, and three passives shared with other designs: fishing gold with the Norwegians, Farms +10% food with the Aztecs and Khmer, and the Transport Ships bonus with the Burmese; with less reuse the team bonus could be narrowed to Trade Cogs, as the analysis' Ainnurruvar proposal does, at the cost of making it useless on land maps, since the guilds traded overland as much as by sea).",
   "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (without the Trebuchet and the Bombard Cannon the civ breaks buildings with the Siege and Armored Elephants, the Siege Onager, the Petard and Kadaram's infantry).",
+  "Codex-wide question CQ25 (see codex/civs/README.md): Rule interpretations, point (b) on a long tradition in a tech slot (here Wootz Steel, which renders a crucible-steel tradition of many centuries rather than a datable moment).",
 ]
 
 [profile]
@@ -193,7 +194,7 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Cannon Galleon",
 "Hand Cannoneer" = "The window ends in 1323; firearms reached South India only from the later 14th and 15th centuries, with the Bahmanis (1366 according to Firishta, contested) and Vijayanagara, which belong to a future Deccan civ (see ideas)."
 "Bombard Cannon" = "Same basis. The Mangonel-line, the Siege and Armored Elephants and the Petard keep the civ able to break fortifications; elephants and assault were the attested ways of taking forts."
 "Bombard Tower" = "Same basis: no gunpowder fortifications in the Tamil country before 1323."
-"Cannon Galleon" = "Same basis. The Galley and Fire Ship lines and the Kalam keep the anti-ship role at sea and the single-use Heavy Demolition Ship the anti-building role; no substitute siege warship is added (codex-wide question CQ1: Navy rule)."
+"Cannon Galleon" = "Same basis. The Galley and Fire Ship lines and the Kalam keep the anti-ship role at sea and the single-use Heavy Demolition Ship the anti-building role; no substitute siege warship is added (codex-wide question CQ1: Navy rule). The Galleon and Carrack stay as flagged generic abstractions of the fleets that carried Tamil armies overseas, royal or requisitioned (see the Kalam and the Transport Ship bonus), under the codex navy rule (CQ1)."
 "Elite Cannon Galleon" = "Same basis."
 "Arbalester" = "No crossbows are attested in Pallava, Chola or Pandya armies. Under the project's criterion (Armenians, Ethiopians, Malians) the crossbow tier goes and the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split."
 "Thumb Ring" = "No thumb draw or thumb rings are attested for Pallava, Chola or Pandya archers. Other designs drop the tech on the same ground (among them the Ethiopians, Malians and Gurjaras), and the Bengalis do not get it; the thumb draw belongs to the steppe tradition of the Turkish horse archers, for whom the Hindustanis keep it. The Archer-line and the Elephant Archers keep the civ's archery."
