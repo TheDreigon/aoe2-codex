@@ -2,12 +2,13 @@ civ = "Malians"
 name = "Malians"
 status = "draft"
 label = "Infantry and Archer civilization"
-summary = "Malians as the Mali Empire of the Mande (1235–1599): Tontajon archers replace the Gbeto, the farba governors become the Town Center tech, the salt trade and poisoned arrows passives, war canoes (the Scenario Editor's Canoe) the Galley line, and gunpowder, Trebuchet, Keep, Treadmill Crane, camels and cavalry archers leave, with the Halberdier and Siege Ram as substitutes."
+summary = "Malians as the Mali Empire of the Mande (1235–1599): Tontajon archers replace the Gbeto, the farba governors become the Town Center tech, the salt trade and poisoned arrows passives, war canoes (the Scenario Editor's Canoe) the Galley line, and gunpowder, Trebuchet, Keep, camels and cavalry archers leave, with the Halberdier and Siege Ram as substitutes."
 ideas = [
   "N2: Jeli (griot): a support unit with an aura (the Centurion's mechanic) that hastens nearby units, for the griots who exhorted warriors and kept the memory of Sunjata (Balla Fasseke).",
   "N2: Give the Canoe (the Galley line on the Scenario Editor's Canoe model) stats of its own, a fast and cheap river warship with arrows, for the Niger boatmen (the Sorko and Bozo) and Sonni Ali's later fleet (Tarikh al-Sudan); N1 gives it only the canoe's look.",
-  "N2: A Tontajon with its own model (Mande dress, simple bow, damage-over-time poison) built from existing mechanics, instead of the Tupi Blackwood Archers model.",
+  "N2: Give the Tontajon stats of its own on the existing Blackwood Archers art (RULES section 5): a simple-bow archer with damage-over-time poison, built from existing mechanics.",
   "N2: Donso: the Mande hunters' brotherhoods, masters of the bow and of the bush in the Sunjata epic, as a scouting unit or a hunting-and-scouting technology (their medieval antiquity rests on oral tradition).",
+  "N3: A Tontajon model of its own (Mande dress and simple bow) instead of the Tupi Blackwood Archers model (new art, RULES section 5).",
   "N3: A Songhay civ (1464–1591) with Timbuktu's scholarly peak and the river fleet, and a Ghana (Wagadu) civ or phase, leaving the Malians to the Mali Empire.",
   "N3: Sahelian siege warfare by blockade and assault (Mali's repeated attacks on Djenné and Sonni Ali's long siege of the town, Tarikh al-Sudan), in place of the generic Mangonel-line and rams.",
 ]
@@ -106,7 +107,7 @@ change = "new"
 replaces = "Gbeto"
 basis = "Mande tradition gives Sunjata's army the tontajon, the ‘quiver-bearers’ (ton-ta-jon), sixteen clans of free warriors who formed the military arm of the Manden; archers were the mass of Mande infantry, using simple bows whose weakness they made up for with poison, and Ibn Battuta (1352) saw the mansa himself come to audience with a bow in his hand and a quiver on his back. The Blackwood Archers, cheap self-bow archers trained in pairs at half population and strong in high numbers, fit that mass archery; the Armenian Composite Bowman, the alternative, has an armour-ignoring composite bow, the opposite of the Mande self bow. The Gbeto came from the Fon kingdom of Dahomey (18th–19th centuries), far from Mali in place and time."
 relevance = "Archers were the bulk of the army that founded and held the empire, and the quiver-bearers are the founding warrior class of Mande tradition."
-contested = "The tontajon clans are known from oral tradition; the model shows a Tupi archer, shared with the Tupi (see the N2 idea)."
+contested = "The tontajon clans are known from oral tradition; the model shows a Tupi archer, shared with the Tupi (see the N3 idea)."
 
 [[unique_tech]]
 name = "Farba"
@@ -136,7 +137,7 @@ contested = "The exact etymology used by the game is unconfirmed."
 
 [tree]
 add = ["Bracer", "Halberdier", "Siege Ram"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Trebuchet", "Cavalry Archer", "Heavy Cavalry Archer", "Camel Rider", "Heavy Camel Rider", "Arbalester", "Thumb Ring", "Carrack", "Keep", "Treadmill Crane", "Block Printing"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Trebuchet", "Cavalry Archer", "Heavy Cavalry Archer", "Camel Rider", "Heavy Camel Rider", "Arbalester", "Thumb Ring", "Carrack", "Keep", "Block Printing"]
 
 [tree.basis]
 "Bracer" = "Archers were the mass of Mande infantry (the tontajon), so the archers' Blacksmith line should be complete; the analysis lists Bracer as missing. Arrowslits, which the analysis lists with it, stays out: medieval Malian fortifications are thinly attested, and the loopholed tata walls are 19th-century (see contested)."
@@ -155,7 +156,6 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", 
 "Thumb Ring" = "No thumb draw or thumb rings are attested for Sahelian archery (RULES 6.16.4); the thumb draw belongs to the steppe and Asian traditions (names theme), and other designs drop the tech on the same ground (among them the Ethiopians, Malay, Maya, Inca and Muisca)."
 "Carrack" = "The navy is the boat tier (RULES 6.16.1), which keeps the generic lines without the Galleon and Carrack: Mali's craft were dugout canoes, on its own river, where Ibn Battuta travelled down the Niger from Timbuktu (1353) in a small boat carved from a single piece of wood (Levtzion and Hopkins, 1981), and on the empire's western fringe, where canoes of archers attacked the Portuguese on the Gambia (Cadamosto, 1455); there were no high-castled sailing warships."
 "Keep" = "Sudano-Sahelian building was in earth, and medieval Malian town walls are thinly attested (see contested); the Guard Tower stays as the abstraction of defended posts, as for the Muisca."
-"Treadmill Crane" = "Removed under the region's one reading of the tech (see the Arabs' design), which gives it, as a generic abstraction of faster building, only where large building programmes raised in stone or fired brick are a documented trait of the civ. No lifting machine is attested in the Sahel, and Sudano-Sahelian building in banco (sun-dried earth) was raised by hand, the projecting toron beams serving as fixed scaffolding; Mali's monumental building, Mansa Musa's Djinguereber (c. 1327) and the domed audience hall that Abu Ishaq al-Sahili built for him (Ibn Khaldun, in Levtzion and Hopkins, 1981), belongs largely to one reign. The Ethiopians are judged the same way; the earthen architecture is carried by the -15% wood bonus and the African set."
 "Block Printing" = "No printing in the window: the scholarship of Timbuktu and the Sahel lived in manuscripts copied by hand."
 
 [[rename]]
@@ -181,7 +181,7 @@ basis = "Upgrade tier of the renamed Galley, with the same Canoe look (see Galle
 [architecture]
 set = "African"
 change = "kept"
-basis = "Sudano-Sahelian earth building (Djinguereber, Djenné, Walata) is what the African set represents. Treadmill Crane leaves under the region's one reading of the tech (see the tree)."
+basis = "Sudano-Sahelian earth building (Djinguereber, Djenné, Walata) is what the African set represents. Treadmill Crane stays in the tree, as in the game, flagged as a generic abstraction of faster building under the region's one reading of the tech (see the Arabs' design), as in the American designs whose civs built without cranes: no lifting machine is attested in the Sahel, and building in banco (sun-dried earth) was raised by hand, the projecting toron beams serving as fixed scaffolding. It rests on Mansa Musa's building, the Djinguereber (c. 1327) and the domed audience hall that Abu Ishaq al-Sahili built for him (Ibn Khaldun, in Levtzion and Hopkins, 1981); the earthen architecture is also carried by the -15% wood bonus and the African set."
 
 [[dropped]]
 item = "Tigui (Town Centers fire arrows without garrison)"

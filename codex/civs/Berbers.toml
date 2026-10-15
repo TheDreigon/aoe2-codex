@@ -4,10 +4,10 @@ status = "draft"
 label = "Cavalry and Naval civilization"
 summary = "Berbers as the Amazigh of the Maghreb, centred on the Almoravids and Almohads (683–1554): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, rammed-earth (tabiya) walls a passive, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave."
 ideas = [
-  "N2: A Murabit with its own model (Almoravid infantry with long spear, veil and lamt shield) instead of the Andean Kamayuk graphic.",
   "N2: Tabl: the Almoravid war drums of Zallaqa (1086) as an aura that slows nearby enemies or hastens friendly infantry.",
-  "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on a Maghrebi Monastery graphic) for the ribat and the murabitun of Ibn Yasin's movement, from which the Almoravids took their name (the Ifriqiyan ribats of Monastir, 796, and Sousse, 821, were Abbasid and Aghlabid works in a Berber land). In N1 the Monastery keeps its generic name (RULES 6.16.9).",
+  "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on the Middle Eastern set's existing Monastery; a Maghrebi graphic of its own would be N3) for the ribat and the murabitun of Ibn Yasin's movement, from which the Almoravids took their name (the Ifriqiyan ribats of Monastir, 796, and Sousse, 821, were Abbasid and Aghlabid works in a Berber land). In N1 the Monastery keeps its generic name (RULES 6.16.9).",
   "N2: Huffaz: the corps of young men Abd al-Mu'min had trained in Almohad doctrine and in riding, archery, swimming and rowing to staff his state and army (Bennison, 2016), as a technology once a second Almohad moment has a slot.",
+  "N3: A Murabit with its own model (Almoravid infantry with long spear, veil and lamt shield) instead of the Andean Kamayuk graphic (new art, RULES section 5).",
   "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today represented only in its conquest and Umayyad province (711–750), by the Arabs, and in its Almoravid and Almohad periods, by the Berbers.",
 ]
 contested = [
@@ -111,7 +111,7 @@ change = "new"
 replaces = "Camel Archer"
 basis = "al-Bakri (1068) describes the early Almoravids fighting on foot in close ranks, the front rank with long spears and the ranks behind with javelins; in a separate passage he records the prized lamt shields of antelope hide made at Nul Lamta and sought in the Maghreb and al-Andalus, the shield this infantry carried. The Inca Kamayuk, a spearman with long reach strong against cavalry, is the nearest existing unit; the Mapuche Colihue Lancer and the Ethiopians' Chewa Spearman use it too. Named after the al-murabitun, ‘the people of the ribat’, who gave the Almoravids their name. It replaces the Camel Archer: no camel-mounted archer is attested as a Maghrebi troop type (camels served the Saharan Sanhaja and the army's baggage, and combat relied on spears, javelins and swords)."
 relevance = "The Almoravid spear infantry built the empire that united the western Maghreb and al-Andalus; it is the defining military trait of the civ's core dynasty."
-contested = "The Kamayuk model is Andean (see the N2 idea), and ‘murabit’ named members of the movement, not a troop type. Which antelope gave the lamt hide (oryx or addax), and how widely lamt shields were used beyond the Almoravid elite, is uncertain. The Kamayuk fits better than the alternatives: a restored Camel Archer has no attested referent, the Saxons' Hearth Troop (javelin, then melee) renders only the rear ranks, and the Scenario Editor's Heavy Pikeman, a Pikeman with 20 more HP and a European look, lacks the reach that renders the long spears."
+contested = "The Kamayuk model is Andean (see the N3 idea), and ‘murabit’ named members of the movement, not a troop type. Which antelope gave the lamt hide (oryx or addax), and how widely lamt shields were used beyond the Almoravid elite, is uncertain. The Kamayuk fits better than the alternatives: a restored Camel Archer has no attested referent, the Saxons' Hearth Troop (javelin, then melee) renders only the rear ranks, and the Scenario Editor's Heavy Pikeman, a Pikeman with 20 more HP and a European look, lacks the reach that renders the long spears."
 
 [[unique_tech]]
 name = "Taksir"
