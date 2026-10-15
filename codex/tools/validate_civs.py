@@ -6,11 +6,12 @@ Usage (from the repository root):
     python -I codex/tools/validate_civs.py --find NAME     list the civs that currently have an item
     python -I codex/tools/validate_civs.py --names         list every unit, tech and building name
 
-Checks the structure described in codex/civs/README.md and codex/RULES.md (sections 6 and 8):
-composition (4-6 bonuses with at least one economic and one military, one team bonus, two unique
-techs for Castle and Imperial Age, at least one unique unit), required fields, level-1 constraints
-that can be checked mechanically (item names exist in the game, architecture set exists) and
-whether every original bonus, unique unit and unique tech is accounted for.
+Checks the structure described in codex/civs/README.md and codex/RULES.md (v0.2, sections 6 and 8):
+composition (4-6 passive bonuses with at least one economic and one military; one team bonus; 2-4
+unique techs, one at the Castle and one at the Town Center, with valid buildings, kinds and ages;
+1-2 unique units, regional units not counting), required fields, the level constraints that can be
+checked mechanically (item names exist in the game, architecture set exists, only unique techs may be
+level 2) and whether every original bonus, unique unit and unique tech is accounted for.
 Errors make the exit code 1; warnings do not.
 """
 import json
@@ -34,6 +35,18 @@ ARCHITECTURE_SETS = {
     'Southeast Asian', 'Western European',
 }
 KINDS = {'economic', 'military', 'other'}
+TECH_BUILDINGS = {
+    'Castle', 'Town Center', 'Market', 'Monastery', 'University', 'Dock', 'Mill', 'Lumber Camp',
+    'Mining Camp', 'Barracks', 'Archery Range', 'Stable', 'Siege Workshop',
+}
+MILITARY_BUILDINGS = {'Castle', 'Barracks', 'Archery Range', 'Stable', 'Siege Workshop', 'Dock'}
+TECH_KINDS = {'military', 'civil'}
+AGES = ['Dark', 'Feudal', 'Castle', 'Imperial']
+# Regional units do not count as unique units (RULES 6.1).
+REGIONAL_UNITS = {
+    'Steppe Lancer', 'Elite Steppe Lancer', 'Genitour', 'Elite Genitour',
+    'Mounted Crossbowman', 'Heavy Mounted Crossbowman',
+}
 CHANGES = {'kept', 'changed', 'new'}
 DROPPED_KINDS = {'bonus', 'team_bonus', 'unique_unit', 'unique_tech', 'unique_building', 'tree', 'other'}
 
@@ -114,9 +127,9 @@ def need(r, table, keys, where):
             r.err(f'{where}: missing or empty "{k}"')
 
 
-def check_level(r, table, where):
-    if table.get('level') != 1:
-        r.err(f'{where}: level must be 1 in a level-1 design (got {table.get("level")!r})')
+def check_level(r, table, where, allowed=(1,)):
+    if table.get('level') not in allowed:
+        r.err(f'{where}: level must be {" or ".join(map(str, allowed))} here (got {table.get("level")!r})')
 
 
 def validate(path, game):
@@ -179,8 +192,12 @@ def validate(path, game):
             r.err('[team_bonus]: change must be one of kept, changed, new')
 
     uus = doc.get('unique_unit', [])
-    if not uus:
-        r.err('at least one [[unique_unit]] is required')
+    counted = [u for u in uus if u.get('model') not in REGIONAL_UNITS]
+    if not 1 <= len(counted) <= 2:
+        r.err(f'{len(counted)} unique units (regional units not counted); RULES 6.1 asks for 1 or 2')
+    for u in uus:
+        if u.get('model') in REGIONAL_UNITS:
+            r.warn(f'[[unique_unit]] {u.get("name")}: {u["model"]} is a regional unit and does not count as a unique unit')
     for n, u in enumerate(uus, 1):
         w = f'[[unique_unit]] {u.get("name", n)}'
         need(r, u, ['name', 'model', 'change', 'basis'], w)
@@ -191,16 +208,42 @@ def validate(path, game):
             r.err(f'{w}: model "{u["model"]}" is not an existing unit or building name')
 
     uts = doc.get('unique_tech', [])
-    if len(uts) != 2:
-        r.err(f'{len(uts)} unique techs; RULES 6.1 asks for exactly 2')
-    if sorted(t.get('age', '') for t in uts) != ['Castle', 'Imperial']:
-        r.err('unique techs must be one Castle Age and one Imperial Age tech (age = "Castle" / "Imperial")')
+    if not 2 <= len(uts) <= 4:
+        r.err(f'{len(uts)} unique techs; RULES 6.1 asks for 2 to 4')
+    buildings = Counter(t.get('building') for t in uts)
+    if not buildings['Castle']:
+        r.err('no unique tech at the Castle (RULES 6.1)')
+    if not buildings['Town Center']:
+        r.err('no unique tech at the Town Center (RULES 6.1)')
+    castle_ages = sorted(t.get('age', '') for t in uts if t.get('building') == 'Castle')
+    if len(castle_ages) == 2 and castle_ages != ['Castle', 'Imperial']:
+        r.err('two Castle techs must be one Castle Age and one Imperial Age tech (RULES 6.4)')
+    if len(castle_ages) > 2:
+        r.err('more than two unique techs at the Castle')
     for n, t in enumerate(uts, 1):
         w = f'[[unique_tech]] {t.get("name", n)}'
-        need(r, t, ['name', 'age', 'effect', 'change', 'precedent', 'basis'], w)
-        check_level(r, t, w)
+        need(r, t, ['name', 'building', 'kind', 'age', 'effect', 'change', 'precedent', 'basis'], w)
+        check_level(r, t, w, allowed=(1, 2))
         if t.get('change') not in CHANGES:
             r.err(f'{w}: change must be one of kept, changed, new')
+        if t.get('building') and t['building'] not in TECH_BUILDINGS:
+            r.err(f'{w}: building must be one of {sorted(TECH_BUILDINGS)}')
+        if t.get('kind') and t['kind'] not in TECH_KINDS:
+            r.err(f'{w}: kind must be military or civil')
+        age = t.get('age')
+        if not age:
+            continue
+        if age not in AGES:
+            r.err(f'{w}: age must be one of {AGES}')
+            continue
+        if age == 'Dark':
+            r.err(f'{w}: no unique tech in the Dark Age (RULES 6.4)')
+        if t.get('building') == 'Castle' and AGES.index(age) < 2:
+            r.err(f'{w}: a Castle tech cannot be earlier than the Castle Age')
+        if t.get('kind') == 'military' and t.get('building') in MILITARY_BUILDINGS and AGES.index(age) < 2:
+            r.err(f'{w}: military techs outside the Castle are Castle Age at the earliest (RULES 6.4)')
+    if len(bonuses) + len(uts) > 9:
+        r.warn(f'{len(bonuses)} passive bonuses + {len(uts)} unique techs > 9 (cap proposed in RULES 6.1, not enforced)')
 
     tree = doc.get('tree', {})
     have = trees[civ]
