@@ -1,0 +1,157 @@
+civ = "Armenians"
+name = "Armenians"
+status = "draft"
+label = "Cavalry and Archer civilization"
+summary = "Refocused on Greater Armenia (Bagratid Ani, Vaspurakan, 884–1064): the Cilician navy, the infantry bonuses, the Warrior Priest and Fereters go; the nakharar noble cavalry (lance and bow) gets the Sparapet tech, Paladin, Plate Barding and the full horse-archer line, the archer UU takes its Armenian name, and Trdat's churches and Ani's walls give the Imperial Age tech."
+ideas = [
+  "N2: Replace the Warrior Priest with a priest support unit modelled on the yerets Ghevond at Avarayr (451), who exhorted the army: an aura that strengthens nearby troops, with no melee role (Yeghishe).",
+  "N2: A noble cavalry unit that switches between lance and bow, like the Ratha, for the azat horsemen of the Parthian-Sasanian tradition.",
+  "N3: Cilician Armenia (c. 1080–1375) as a separate civ or variant: Latin-style knights and military orders, crossbows, the castles studied by R. W. Edwards and the port of Ayas.",
+  "N3: A Caucasian architecture set shared with the Georgians, and separate Armenian and Georgian church buildings instead of one shared Fortified Church (the churches split c. 607–609).",
+  "N3: Caravan-city trade (Dvin, Ani, Artsn) as a market or caravan building of its own.",
+]
+contested = [
+  "Date of the conversion of Armenia: 301 by tradition, c. 314 for most scholars.",
+  "Date and figures of the Military List (Zoranamak): an Arsacid-period list (4th century) or a later compilation, and how literally its cavalry numbers can be read (Adontz; Toumanoff).",
+  "Ashot I's coronation: 884 or 885, with a crown sent by Caliph al-Muʿtamid and a second one from Basil I.",
+  "Whether Mesrop Mashtots also created the Georgian and Caucasian Albanian alphabets (Koryun's claim, rejected by Georgian scholarship).",
+  "Armenian origin of several Byzantine emperors (Heraclius, Basil I).",
+  "The degree of Armenian autonomy under the Abbasids and the role of the Bagratids in it.",
+]
+open_questions = [
+  "Mule Cart: this draft keeps the status quo, the Mule Cart replacing the Lumber and Mining Camps for Armenians and Georgians, with its two Armenian bonuses. Should it instead stand alongside the camps, and should other pack-animal civs get it?",
+  "The Warrior Priest is dropped (no documented Armenian troop of fighting priests). Keep it as an abstraction of the clergy at Avarayr instead?",
+  "Cilicia leaves the core (owner's decision). Should Cilician Armenia later become its own civ or variant (N3), taking the Cilician Fleet idea, crossbows and Latin knights with it?",
+  "Arbalester is removed (the crossbow came to the Armenians through the Latins in Cilicia). Acceptable, given that the archer UU covers the elite archer role?",
+  "Rename Composite Bowman to Aghegnavor (the Classical Armenian word for archer)? Done in this draft; the generic English name is the alternative.",
+  "Team bonus: Armenian caravan trade (+10% gold for Trade Units) is proposed in place of the unfounded Infantry line of sight. Alternatives: a relic or monastery team bonus.",
+]
+
+[profile]
+entity = "Greater Armenia: the Bagratid kingdom of Ani, the Artsruni kingdom of Vaspurakan and the nakharar principalities"
+region = "Armenian Highlands: Shirak and Ani, Vaspurakan around Lake Van, Taron, Syunik"
+window = "884–1064 (with roots in the nakharar age, 5th–9th centuries)"
+sources = [
+  "Movses Khorenatsi, History of the Armenians",
+  "Buzandaran Patmutʻiwnkʻ (The Epic Histories), tr. N. Garsoïan (1989)",
+  "Yeghishe, History of Vardan and the Armenian War; Ghazar Parpetsi",
+  "Hovhannes Draskhanakerttsi, History of Armenia (10th century)",
+  "Stepanos Taronetsi (Asoghik), Universal History (c. 1004)",
+  "Aristakes Lastivertsi, History (11th century)",
+  "N. Adontz, Armenia in the Period of Justinian (1908; tr. N. Garsoïan, 1970)",
+  "C. Toumanoff, Studies in Christian Caucasian History (1963)",
+  "R. Hovannisian (ed.), The Armenian People from Ancient to Modern Times (1997)",
+  "R. H. Hewsen, Armenia: A Historical Atlas (2001)",
+  "H. Manandian, The Trade and Cities of Armenia in Relation to Ancient World Trade (tr. N. Garsoïan, 1965)",
+]
+replaces = "Armenians of Greater Armenia and of the Armenian Kingdom of Cilicia (c. 451–1375)"
+
+[[bonus]]
+text = "Mule Carts cost -25%"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Mule Carts cost -25% (Armenians)"
+basis = "Pack mules and horses moved goods across a plateau whose roads climb above 2,000 m; the caravan cities of Dvin, Ani and Artsn lived on pack-animal traffic between Byzantium, the Caliphate and the steppe (Manandian, 1965). An abstraction, kept as part of the Caucasian mobile-dropsite economy."
+
+[[bonus]]
+text = "Mule Cart technology effects +40%"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Mule Cart technology effects +40% (Armenians)"
+basis = "A mechanical companion of the Mule Cart, which replaces the Lumber and Mining Camps; kept so that the camp-less economy keeps working (see the open question on the Mule Cart). No specific historical content beyond the mountain pack-animal economy."
+
+[[bonus]]
+text = "First Fortified Church receives a free Relic"
+kind = "other"
+level = 1
+change = "kept"
+precedent = "First Fortified Church receives a free Relic (Armenians)"
+basis = "Armenia is traditionally the first state to adopt Christianity (Trdat III and Gregory the Illuminator) and has a strong relic culture: the Holy Lance kept at Geghard, the relics of Etchmiadzin, the reliquary of Gregory the Illuminator's right hand."
+contested = "The conversion is dated 301 by tradition and c. 314 by most scholars."
+
+[[bonus]]
+text = "Knight-line and Cavalry Archers cost -15% gold"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Spearman- and Militia-line upgrades (except Man-at-Arms) available one age earlier"
+precedent = "Szlachta Privileges: Knight-line costs -60% gold (Poles); All units cost -20% gold (Portuguese)"
+basis = "The army of Greater Armenia was the sum of the contingents of the nakharar houses, whose noble horsemen (azatkʻ) armed and kept themselves from their own domains; the Military List (Zoranamak) records the cavalry each house owed the crown (Adontz, 1908/1970; Toumanoff, 1963). The sources count Armenian armies in horsemen, who fought with lance and bow in the Parthian-Sasanian manner (Buzandaran). No source singles out Armenian infantry as precocious, as the replaced bonus did."
+contested = "The date and the figures of the Military List are debated."
+
+[team_bonus]
+text = "Trade Units generate +10% gold"
+level = 1
+change = "new"
+replaces = "Infantry +2 line of sight"
+precedent = "Trade Units generate +25% gold (Spanish team bonus); Trade Units generate +10% food in addition to gold (Bengalis team bonus)"
+basis = "Armenian cities were relays of the trade between Byzantium, the Caliphate and the steppe: Dvin (Arab Dabil), Ani under the Bagratids and Artsn, a rich merchant town near Theodosiopolis sacked by the Seljuks in 1048–1049 (Aristakes Lastivertsi; Manandian, 1965). The line-of-sight bonus had no identifiable basis."
+
+[[unique_unit]]
+name = "Aghegnavor"
+model = "Composite Bowman"
+building = "Castle"
+level = 1
+change = "changed"
+replaces = "Composite Bowman"
+basis = "Renamed with the Classical Armenian word for archer (ałełnawor, from ałełn, “bow”; Bedrossian's Armenian-English dictionary). Armenian archery is ancient: in the founding myth Hayk kills Bel with an arrow (Movses Khorenatsi I.11), and Armenian soldiers served in Byzantine and Fatimid armies. “Composite Bowman” named nothing Armenian, since the composite bow was common to the whole Near East, and it was not adopted in the 11th century as the original history text claims. Ignoring armor remains a game abstraction."
+
+[[unique_tech]]
+name = "Sparapet"
+age = "Castle"
+effect = "Knight-line +1 melee/+2 pierce armor"
+level = 1
+change = "new"
+replaces = "Cilician Fleet (Demolition Ships +20% blast radius; Galley-line and Dromons +1 range)"
+precedent = "Hauberk (Knight-line +1 melee/+2 pierce armor) (Sicilians)"
+basis = "The sparapet was the commander-in-chief of the Armenian host, an office hereditary in the Mamikonian house from the 4th to the 8th century and held by the Bagratids in the 9th (Smbat the Confessor, sparapet 826–855), from which they rose to kingship in 884/885 (Toumanoff, 1963). It stands for the armoured noble cavalry he led. Cilician Fleet invented a war fleet that Cilicia never had and belongs to the Cilician kingdom, which leaves the core of the civ."
+
+[[unique_tech]]
+name = "Trdat the Architect"
+age = "Imperial"
+effect = "Fortified Churches and Castles +30% HP and built +50% faster"
+level = 1
+change = "new"
+replaces = "Fereters (Infantry (except Spearman-line) +30 HP; Warrior Priests heal +100% faster)"
+precedent = "Great Wall: Walls, Watch Tower-line and Bombard Towers +30% HP (Chinese); Fortifications built +50% faster (Sicilians)"
+basis = "Trdat built the cathedral of Ani (completed 1001) and, summoned after the earthquake of 989, rebuilt the collapsed dome of Hagia Sophia by 994 (Stepanos Taronetsi); Smbat II girded Ani with its double walls (989), and the monasteries of Sanahin and Haghpat were founded under Bagratid patronage in the 960s–970s. Fereters is a Latin-English church word (feretory, from feretrum) with no Armenian institution behind it."
+
+[tree]
+add = ["Paladin", "Plate Barding Armor", "Heavy Cavalry Archer", "Parthian Tactics", "Thumb Ring", "Architecture", "Keep", "Stone Shaft Mining"]
+remove = ["Dromon", "Bombard Tower", "Arbalester"]
+
+[tree.basis]
+"Paladin" = "The noble heavy cavalry was the main arm of Armenian armies, recruited as such by the Sasanians and the Byzantines; denying the top of the Knight-line was the main inversion of the original design."
+"Plate Barding Armor" = "Armoured horsemen of the Iranian tradition, as in the Sasanian heavy cavalry with which the Armenian nobility served (Garsoïan)."
+"Heavy Cavalry Archer" = "The azat horsemen fought with lance and bow (Buzandaran); the civ had Cavalry Archer without its upgrade."
+"Parthian Tactics" = "The Parthian-Sasanian horse-archery tradition of the Armenian nobility, ruled by an Arsacid branch until 428."
+"Thumb Ring" = "Thumb-draw archery of the Iranian and Near Eastern world; it also suits the civ's archer identity."
+"Architecture" = "Armenia was a major centre of medieval architecture: Zvartnots (643–652), the cathedral of Ani by Trdat, the church of Aghtamar (915–921), Ani's churches."
+"Keep" = "Mountain fortresses such as Amberd and Bjni and the walled cities of Ani and Kars."
+"Stone Shaft Mining" = "Building in dressed tuff and the carving of khachkars (cross-stones) made stone working central to Armenian culture."
+"Dromon" = "A Byzantine ship type; Greater Armenia had no war fleet, and Cilicia, which leaves the core, relied on Genoese, Venetian and Cypriot ships."
+"Bombard Tower" = "No gunpowder before 1064; even Cilicia fell (1375) before gunpowder mattered in the region."
+"Arbalester" = "The crossbow reached the Armenians through the Latins in Cilicia, after the Crusades (Anna Komnene still describes it as a novelty brought by the Franks in 1097); Crossbowman stays as the generic archer upgrade."
+
+[[rename]]
+from = "Elite Composite Bowman"
+to = "Elite Aghegnavor"
+level = 1
+basis = "Follows the rename of the unique unit (Composite Bowman → Aghegnavor)."
+
+[architecture]
+set = "Mediterranean"
+change = "kept"
+basis = "Stone architecture is closer to Armenian churches and fortresses than the other existing sets, though Armenian conical domes and tuff walls are not Romanesque; a Caucasian set is N3."
+
+[[dropped]]
+item = "Galley-line and Dromons fire an additional projectile"
+kind = "bonus"
+reason = "Its only basis was the Cilician coast, which leaves the core identity; Greater Armenia was landlocked and the Cilician kingdom never had a significant war fleet."
+
+[[dropped]]
+item = "Warrior Priest"
+kind = "unique_unit"
+reason = "No documented Armenian troop of fighting priests: the clergy at Avarayr (451), such as the priest Ghevond, exhorted the army and were later martyred (Yeghishe), and the military orders in Cilicia were Latin. Replaced in spirit by the N2 support-priest idea."

@@ -1,0 +1,136 @@
+civ = "Georgians"
+name = "Georgians"
+status = "draft"
+label = "Defensive and Cavalry civilization"
+summary = "The Bagrationi kingdom of Georgia (1008–1490, core 1089–1213): Monaspa, Svan Towers, aznauri, the mountain defence and the Builder's repairs are kept; the unfounded cavalry regeneration gives way to David IV's Kipchak settlers as a second unique unit, the monastery tree is completed and the anachronistic gunpowder units leave."
+ideas = [
+  "N2: A Didgori charge for the Monaspa and Knight-line (12 August 1121), using the existing charge-attack mechanic.",
+  "N2: A Gelati Academy tech (founded 1106): cheaper and faster University technologies.",
+  "N2: Svan gold: Gold Shaft Mining and faster gold mining, if medieval (not only ancient: Strabo, Geography XI.2.19) evidence for gold washing in Svaneti and Racha is found.",
+  "N2: A Trebizond protectorate trade tech (1204), for Tamar's support of the Komnenoi of Trebizond.",
+  "N3: Alan (Ossetian) allies alongside the Kipchaks.",
+  "N3: A Georgian monastery-academy building distinct from the Armenian walled monastery (the churches split c. 607–609); the most iconic Georgian fortified churches, Ananuri and Gremi, are 16th–17th century.",
+  "N3: A Caucasian architecture set shared with the Armenians.",
+]
+contested = [
+  "Composition of the monaspa (Kipchaks, royal servants in the sense of mamluks, or lesser Georgian nobles) and the documentary basis of the usual figure of 5,000.",
+  "Number of Kipchaks settled by David IV: his historian speaks of 40,000 warriors; the usual reading as 40,000 families (160,000–200,000 people) is challenged, with estimates of about 13,000–15,000 families.",
+  "Troop numbers at Didgori (1121): Christian sources give hundreds of thousands of Muslims, Ibn al-Athir c. 30,000; modern estimates vary widely.",
+  "Date of the unification: 1008 (Kartli) or 1010 (Kakheti-Hereti).",
+  "Dating of the Svan tower-houses.",
+  "Etymology of aznauri (Leonti Mroveli's Azon or an Iranian origin, cf. Armenian azat).",
+  "Identity of Gregory Pakourianos, claimed as Georgian and as Armenian.",
+]
+open_questions = [
+  "Mule Cart: this draft keeps the status quo (the Mule Cart replaces the Lumber and Mining Camps for Georgians and Armenians, and the Georgians start with one). Keep it, put it alongside the camps, or extend it to other civs?",
+  "The Kipchak is shared with the Cumans (steppe region) and trained at the Archery Range from the Castle Age, like the Berber Genitour; its Elite upgrade would sit there too. Is this the right building, or should it be a Castle unit? The Bulgarians in this region also get Kipchaks through Cuman Mercenaries: acceptable overlap?",
+  "Gold Shaft Mining stays out: the gold of Colchis and Svaneti is attested mainly in ancient sources (Strabo). Add it anyway?",
+]
+
+[profile]
+entity = "Kingdom of Georgia (Sakartvelo) under the Bagrationi dynasty"
+region = "Southern Caucasus: Kartli, Kakheti, Imereti, Abkhazia, Tao-Klarjeti and Svaneti"
+window = "1008–1490 (core 1089–1213, David IV to Tamar)"
+sources = [
+  "Kartlis Tskhovreba (The Georgian Chronicles), especially the Life of David, King of Kings (c. 1123–1126) and the Histories and Eulogies of the Sovereigns (Tamar)",
+  "Ibn al-Athir, al-Kamil fi l-tarikh (Didgori); Matthew of Edessa, Chronicle; Walter the Chancellor, Bella Antiochena",
+  "C. Toumanoff, Studies in Christian Caucasian History (1963)",
+  "W. E. D. Allen, A History of the Georgian People (1932)",
+  "D. Rayfield, Edge of Empires: A History of Georgia (2012)",
+  "R. G. Suny, The Making of the Georgian Nation (2nd ed., 1994)",
+  "S. H. Rapp Jr., Studies in Medieval Georgian Historiography (2003)",
+  "A. Eastmond, Royal Imagery in Medieval Georgia (1998)",
+]
+
+[[bonus]]
+text = "Start with a Mule Cart"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Start with a Mule Cart (Georgians)"
+basis = "Pack animals carried goods through the valleys and passes of the Caucasus and on the caravan roads through Tbilisi between Persia, Byzantium and the steppe. An abstraction shared with the Armenians."
+
+[[bonus]]
+text = "Units and buildings receive -15% damage when located on higher elevation"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Units and buildings receive -15% damage when located on higher elevation (Georgians)"
+basis = "Defence in mountain country: hill fortresses, the valleys of the Greater Caucasus and long highland resistance to the Mongols and Timur; Didgori (1121) was fought on broken ground chosen by David IV."
+
+[[bonus]]
+text = "Kipchaks available at the Archery Range starting in Castle Age"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Mounted Units regenerate 2/8/14 HP per minute in Feudal/Castle/Imperial Age"
+precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus); Marauders: Tarkans can be trained at Stables (Huns)"
+basis = "David IV married Gurandukht, daughter of the Kipchak khan Otrok, and settled Kipchaks in Georgia c. 1118–1120 as military colonists; his historian speaks of 40,000 warriors, and Kipchak horsemen were decisive at Didgori (1121) (Life of David; Rayfield, 2012). Their absence was the main gap of the original civ. The regeneration bonus it replaces had no identifiable historical basis: nothing distinguishes Georgian horses or remounts in this respect."
+contested = "The number of Kipchaks: 40,000 warriors in the Life of David; the common reading as 40,000 families, each owing a mounted soldier, is disputed (estimates of c. 13,000–15,000 families)."
+
+[[bonus]]
+text = "Fortified Churches provide Villagers in a 9 tiles radius with +10% work rate"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Fortified Churches provide Villagers in a 9 tiles radius with +10% work rate (Georgians)"
+basis = "Monasteries were great landowners and organisers of farming and learning: Gelati (founded by David IV in 1106), Ikalto, Shio-Mgvime and the monasteries of David Gareja."
+
+[team_bonus]
+text = "Building repairs cost -25%"
+level = 1
+change = "kept"
+precedent = "Building repairs cost -25% (Georgians team bonus)"
+basis = "A play on the epithet of David IV, Aghmashenebeli, “the Builder” or “the Restorer”, who rebuilt the kingdom after the Seljuk devastations; a pun, but on a real title."
+
+[[unique_unit]]
+name = "Monaspa"
+model = "Monaspa"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The monaspa (roughly “host of servants”) was the royal guard that David IV formed in his military reform of c. 1118, well armed with lance and bow and serving the king directly. Growing stronger near other heavy cavalry abstracts a cohesive elite."
+contested = "Its strength (the usual 5,000) and composition (Kipchaks, royal servants or lesser nobles) are debated."
+
+[[unique_unit]]
+name = "Kipchak"
+model = "Kipchak"
+building = "Archery Range"
+level = 1
+change = "new"
+basis = "The Kipchak horse archers settled by David IV (see the Kipchak bonus); the same unit as the Cumans' Kipchak, since they were the same people."
+
+[[unique_tech]]
+name = "Svan Towers"
+age = "Castle"
+effect = "Fortifications +2 attack; Watch Tower-line deals pass through damage"
+level = 1
+change = "kept"
+precedent = "Svan Towers (Fortifications +2 attack; Watch Tower-line deals pass through damage) (Georgians)"
+basis = "The tower-houses of Svaneti (generally dated to the 9th–13th centuries, many later) are real and emblematic; they defended families in feuds and against raids rather than serving as state fortifications. The pass-through mechanic is a game invention on a sound name."
+
+[[unique_tech]]
+name = "Aznauri Cavalry"
+age = "Imperial"
+effect = "Mounted Units take -20% population space"
+level = 1
+change = "kept"
+precedent = "Aznauri Cavalry (Mounted Units take -20% population space) (Georgians)"
+basis = "The aznauri were the Georgian middle nobility who served on horseback with their own retinues, the base of the feudal cavalry; lower population space abstracts warriors who equipped and supported themselves."
+contested = "Etymology of aznauri (Leonti Mroveli's Azon or an Iranian word, cf. Armenian azat, “free, noble”)."
+
+[tree]
+add = ["Thumb Ring", "Illumination", "Atonement"]
+remove = ["Hand Cannoneer", "Cannon Galleon"]
+
+[tree.basis]
+"Thumb Ring" = "The Kipchak settlers were steppe horse archers and the monaspa carried the bow; the civ had Heavy Cavalry Archer and Parthian Tactics without Thumb Ring."
+"Illumination" = "A strong monastic culture: the academy of Gelati (1106), Iviron on Mount Athos (c. 980), Petritsoni (1083) and the Monastery of the Cross in Jerusalem."
+"Atonement" = "As for Illumination: the full monastery tree for one of the great Orthodox monastic cultures."
+"Hand Cannoneer" = "Firearms reached only a small part of the Georgian army by the end of the 16th century, after the kingdom had split (c. 1490) (Tbilisi State University studies on Georgian firearms)."
+"Cannon Galleon" = "No gunpowder in the period, and the kingdom never kept a significant war fleet despite the Abkhazian Black Sea coast."
+
+[architecture]
+set = "Mediterranean"
+change = "kept"
+basis = "Stone church and fortress architecture is closer to Georgian building than the other existing sets; a Caucasian set is N3."
