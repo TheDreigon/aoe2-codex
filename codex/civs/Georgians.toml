@@ -4,7 +4,8 @@ status = "draft"
 label = "Cavalry and Defensive civilization"
 summary = "The Bagrationi kingdom of Georgia (1008–1490): Monaspa, mountain defence and the monastic economy stay; the aznauri become a passive, David IV's Kipchaks a second unique unit and the Castle tech, his chancellor-archbishop the Town Center tech and Gelati a University tech; the hand cannon leaves."
 ideas = [
-  "N2: Svan gold: Gold Shaft Mining and faster gold mining, if medieval (not only ancient: Strabo, Geography XI.2.19) evidence for gold washing in Svaneti and Racha is found.",
+  "N2: Svan gold: Gold Shaft Mining and faster gold mining, if medieval (not only ancient: Strabo, Geography XI.2.19) evidence for gold washing in Svaneti and Racha is found; until then Gold Shaft Mining stays out of the tree, as in the game.",
+  "N2: An Imperial Age Castle tech for Tamar's era (1184–1213), which has no unique tech: the commander-in-chief (amirspasalari) Zakare Mkhargrdzeli and the victories of Shamkor (1195) and Basiani (1202/1205), if a fitting effect is found; no existing effect expresses them well, so N1 leaves the era to the team bonus (the Zakarid reconquest of Armenian towns).",
   "N2: A Trebizond protectorate trade tech (1204), for Tamar's support of the Komnenoi of Trebizond.",
   "N2: Viticulture (wine in qvevri; St Nino's vine cross) as an economic trait, if a fitting effect and medieval evidence of its economic weight are found.",
   "N3: Alan (Ossetian) allies alongside the Kipchaks.",
@@ -23,19 +24,9 @@ contested = [
   "Etymology of aznauri (Leonti Mroveli's Azon or an Iranian origin, cf. Armenian azat).",
   "Identity of Gregory Pakourianos, claimed as Georgian and as Armenian.",
   "The role of Ioane Petritsi at Gelati rests largely on tradition.",
+  "Counterweight trebuchet: the civ keeps the game's Trebuchet, but its Georgian use is an inference. The engine was in Byzantine and Ayyubid use within the core period (Zeugminon in 1165, Niketas Choniates; al-Tarsusi's treatise for Saladin, c. 1187), and Tamar's armies took fortified cities (Ani 1199, Dvin 1203, Kars 1206–1207), but no Georgian source consulted for this design names the engines they used; Kars fell after a long blockade. The Mangonel line is the light stone-thrower (RULES 6.16.5).",
 ]
-open_questions = [
-  "Codex-wide question CQ4 (see codex/civs/README.md): Mule Cart (the game's version is kept here: the Mule Cart replaces the Lumber and Mining Camps and the Georgians start with one, as a generic abstraction of highland haulage).",
-  "Kipchaks: the Kipchak is a unique unit trained at the Castle, with its Elite upgrade there as for the Cumans, and the Castle tech Kipchak Settlers also lets the Archery Range train it (the Huns' Marauders pattern). It benefits from Thumb Ring and, from the Imperial Age, from the aznauri population bonus. The model is the unique unit of four designs (the Cumans' and Georgians' Kipchak, the Hindustanis' Ghulam and the Saracens' Mamluk), and the Bulgarians give free Elite Kipchaks to their team through Cuman Alliance, as the Cumans do through Cuman Mercenaries. Is this degree of sharing acceptable?",
-  "Didgori has no tech of its own: the battle (1121) was the outcome of David IV's military reform, which Kipchak Settlers represents (RULES 6.3), and no source describes a lance charge there that a charge effect could render (the Sicilians' design has a similar charge as a passive and the Goths' as a Castle tech). Tamar's era (1184–1213) therefore has no unique tech. An Imperial Age Castle tech could be added for it, for example for the commander-in-chief (amirspasalari) Zakare Mkhargrdzeli and the victories of Shamkor (1195) and Basiani (1202/1205), though no existing effect expresses them well. Add one?",
-  "Svan Towers is dropped for relevance, like the Japanese Yasama: the Svan tower-houses are emblematic but were family defences in one mountain province and did not shape the kingdom's history. Keep it as a fame exception instead (it would take the Castle slot of Kipchak Settlers or a fourth tech slot)?",
-  "Codex-wide question CQ10 (see codex/civs/README.md): Ages of reused effects (the aznauri passive keeps Aznauri Cavalry's Imperial Age gate, a balance choice inherited from the original tech, not a historical date).",
-  "Chqondideli uses “Town Centers work +10% faster” (the Persian work-rate effect) for a stronger central government. Alternatives among existing effects: “All gold income +10% faster” for the royal fiscal administration, or “Villagers gather, build, and repair +5% faster” (the Tamils' Uttaramerur) for David the Builder's restoration of the realm. Which does the owner prefer?",
-  "All three unique techs are level 2 (Kipchak Settlers, Chqondideli, Gelati Academy), because no existing tech fits these moments. Acceptable, or keep fewer new techs (e.g. leave the Gelati Academy as an N2 idea)?",
-  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (the kingdom had no significant war fleet, so under the default rule the civ keeps the basic navy only: the Cannon Galleon, Galleon and Fast Fire Ship leave and no substitute siege warship is given).",
-  "Gold Shaft Mining stays out: the gold of Colchis and Svaneti is attested mainly in ancient sources (Strabo). Add it anyway?",
-  "Codex-wide question CQ19 (see codex/civs/README.md): Labels (the game's “Defensive and Cavalry civilization” becomes “Cavalry and Defensive civilization”: the cavalry, from the aznauri to the Monaspa and the Kipchaks, carries most of the civ).",
-]
+open_questions = []
 
 [profile]
 entity = "Kingdom of Georgia (Sakartvelo) under the Bagrationi dynasty"
@@ -64,8 +55,8 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Start with a Mule Cart (Georgians)"
-basis = "Pack animals carried timber, stone and ore through the valleys and passes of the Caucasus; the Mule Cart's mobile drop site abstracts this highland haulage. A generic abstraction shared with the Armenians and kept as the game's status quo pending the owner's Mule Cart question (codex-wide question CQ4); the caravan trade through Tbilisi, retaken in 1122, which with tribute and booty paid for the golden age, is a different matter."
-relevance = "A borderline pass: pack transport shaped the economy of a mountain kingdom, but pack animals were universal; it is kept as the game's status quo pending the owner's Mule Cart question."
+basis = "Pack animals carried timber, stone and ore through the valleys and passes of the Caucasus; the Mule Cart's mobile drop site abstracts this highland haulage. A generic abstraction shared with the Armenians: the Georgians stay one of the Mule Cart's four holders, with the game's version that replaces the Lumber and Mining Camps (RULES 6.16.7); the caravan trade through Tbilisi, retaken in 1122, which with tribute and booty paid for the golden age, is a different matter."
+relevance = "A borderline pass: pack transport shaped the economy of a mountain kingdom, but pack animals were universal; it is kept with the game's Mule Cart (RULES 6.16.7)."
 
 [[bonus]]
 text = "Units and buildings receive -15% damage when located on higher elevation"
@@ -92,7 +83,7 @@ level = 1
 change = "changed"
 replaces = "Aznauri Cavalry (Mounted Units take -20% population space), formerly the Imperial Age unique tech"
 precedent = "Aznauri Cavalry: Mounted Units take -20% population space (Georgians); for an age-gated passive, +10 population space in Imperial Age (Goths) and Town Centers cost -50% wood starting in Castle Age (Britons)"
-basis = "The aznauri were the Georgian nobility, from great lords (didebulni) to lesser knights, who served on horseback with their own retinues and formed the base of the feudal cavalry; lower population space abstracts warriors who equipped and supported themselves. A social estate, not a datable reform, so it becomes a passive (RULES 6.2). The Imperial Age gate is a balance choice inherited from the original tech, not a historical date."
+basis = "The aznauri were the Georgian nobility, from great lords (didebulni) to lesser knights, who served on horseback with their own retinues and formed the base of the feudal cavalry; lower population space abstracts warriors who equipped and supported themselves. A social estate, not a datable reform, so it becomes a passive (RULES 6.2). The Imperial Age gate is a balance choice inherited from the original tech, not a historical date: a moved effect keeps the game's age or a later one, and the site labels this as a game constraint (RULES 6.16.11)."
 relevance = "The mounted service nobility was the backbone of the kingdom's armies from Bagrat III to Tamar and beyond."
 contested = "Etymology of aznauri (Leonti Mroveli's Azon or an Iranian word, cf. Armenian azat, “free, noble”)."
 
@@ -121,7 +112,7 @@ model = "Kipchak"
 building = "Castle"
 level = 1
 change = "new"
-basis = "The Kipchak horse archers whom David IV settled in Georgia c. 1118–1120, after his marriage to Gurandukht, daughter of the khan Atrak (Otrok in the Rus' chronicles); his historian speaks of 40,000 warriors (Life of David; Golden, 1984; Rayfield, 2012). Kipchak contingents fought at Didgori (Ibn al-Athir), and many modern historians consider them decisive. The same unit as the Cumans' Kipchak, since the Qivchaqni of the Georgian sources belonged to the same Cuman-Kipchak confederation (see the Cumans' contested note); trained at the Castle with its Elite upgrade there, as for the Cumans."
+basis = "The Kipchak horse archers whom David IV settled in Georgia c. 1118–1120, after his marriage to Gurandukht, daughter of the khan Atrak (Otrok in the Rus' chronicles); his historian speaks of 40,000 warriors (Life of David; Golden, 1984; Rayfield, 2012). Kipchak contingents fought at Didgori (Ibn al-Athir), and many modern historians consider them decisive. The same unit as the Cumans' Kipchak, since the Qivchaqni of the Georgian sources belonged to the same Cuman-Kipchak confederation (see the Cumans' contested note); trained at the Castle with its Elite upgrade there, as for the Cumans. The model also serves, each use on its own history, the Hindustanis' Ghulam and the Arabs' Mamluk, and the Bulgarians' Cuman Alliance gives free Elite Kipchaks to their team; RULES 6.7 and 6.16.12 accept this reuse. It benefits from Thumb Ring and, from the Imperial Age, from the aznauri population bonus."
 relevance = "Without the Kipchak settlers David IV would have lacked the army that reversed the Seljuk conquest; their absence was the main gap of the original civ."
 contested = "The number settled (see the civ-level contested list)."
 
@@ -135,7 +126,7 @@ level = 2
 change = "new"
 replaces = "Svan Towers (Fortifications +2 attack; Watch Tower-line deals pass through damage), dropped for relevance: the Svan tower-houses were family defences in one province and did not shape the kingdom's history"
 precedent = "Marauders: Tarkans can be trained at Stables (Huns, a Castle tech); Genitour available at the Archery Range starting in Castle Age (Berbers team bonus)"
-basis = "David IV's military reform of c. 1118–1121 rested on the Kipchaks: after marrying Gurandukht, daughter of the khan Atrak, he settled Kipchak families on royal land in a kingdom emptied by the Seljuk “Great Turkish troubles” of the 1080s, each family owing a soldier, which gave the crown a standing army independent of the great lords (Life of David; Golden, 1984). At Didgori (12 August 1121), according to Ibn al-Athir, a Kipchak detachment feigned to desert and fell on the Muslim leaders before the royal army broke Ilghazi's coalition (Walter the Chancellor and Matthew of Edessa also mention a small Frankish contingent), which opened the way to Tbilisi (1122). The tech lets the settled Kipchaks be raised outside the Castle. It also stands for Didgori, which has no tech of its own: the battle was the outcome of the same reform (RULES 6.3), and no source describes a lance charge there that a charge effect could render."
+basis = "David IV's military reform of c. 1118–1121 rested on the Kipchaks: after marrying Gurandukht, daughter of the khan Atrak, he settled Kipchak families on royal land in a kingdom emptied by the Seljuk “Great Turkish troubles” of the 1080s, each family owing a soldier, which gave the crown a standing army independent of the great lords (Life of David; Golden, 1984). At Didgori (12 August 1121), according to Ibn al-Athir, a Kipchak detachment feigned to desert and fell on the Muslim leaders before the royal army broke Ilghazi's coalition (Walter the Chancellor and Matthew of Edessa also mention a small Frankish contingent), which opened the way to Tbilisi (1122). The tech lets the settled Kipchaks be raised outside the Castle. It also stands for Didgori, which has no tech of its own: the battle was the outcome of the same reform (RULES 6.3), and no source describes a lance charge there that a charge effect could render. Svan Towers is not kept as a fame exception: the slot goes to the reform that reversed the Seljuk conquest."
 relevance = "The settlement was the decisive measure of David IV's reform: it repopulated the kingdom, gave the crown the army of Didgori (1121) and of Tamar's campaigns, and reversed the Seljuk conquest; a datable military reform at the Castle."
 contested = "How many Kipchaks were settled, and how decisive they were at Didgori (see the civ-level contested list)."
 
@@ -148,7 +139,7 @@ effect = "Town Centers work +10% faster"
 level = 2
 change = "new"
 precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians): the work-rate effect only, Town Centers only, at its Feudal Age value (+10%); the Cumans' Council of Khans and the Sicilians' Diwan use the same new tech for their governments"
-basis = "In 1103 David IV called the church council of Ruisi and Urbnisi, which deposed unworthy bishops, many of them creatures of the great families, and set the church in order; he joined the see of Chqondidi to the office of chancellor (mtsignobartukhutsesi), so that the archbishop-chancellor (the Chqondideli), first his tutor Giorgi, became the first of the king's ministers and headed the royal administration for the rest of the golden age (Life of David; Suny, 1994; Rayfield, 2012). Faster Town Centers abstract the stronger central government."
+basis = "In 1103 David IV called the church council of Ruisi and Urbnisi, which deposed unworthy bishops, many of them creatures of the great families, and set the church in order; he joined the see of Chqondidi to the office of chancellor (mtsignobartukhutsesi), so that the archbishop-chancellor (the Chqondideli), first his tutor Giorgi, became the first of the king's ministers and headed the royal administration for the rest of the golden age (Life of David; Suny, 1994; Rayfield, 2012). Faster Town Centers abstract the stronger central government; this effect is preferred to “All gold income +10% faster” (the royal fiscal administration) and to the Tamils' Uttaramerur effect (David's restoration of the realm), since the reform built a government rather than a treasury or a work force."
 relevance = "The reform bound the church and the nobility to the crown and created the central government that carried David IV's restoration and Tamar's reign; a datable state institution, at the Town Center (RULES 6.2)."
 contested = "The date of the council and of the union of the see with the chancellorship (see the civ-level contested list)."
 
@@ -161,7 +152,7 @@ effect = "University technologies cost -25%; Universities work +80% faster"
 level = 2
 change = "new"
 precedent = "Dock and University technologies cost -25% (Italians; University part only); Universities work +80% faster (Malians team bonus)"
-basis = "David IV founded the monastery and academy of Gelati in 1106, and his historian calls it a second Jerusalem and another Athens (Life of David). Tradition links it with the philosophers Ioane Petritsi and Arsen Iqaltoeli (on Petritsi, L. Gigineishvili, The Platonic Theology of Ioane Petritsi, 2007). It became the intellectual centre of the golden age and the burial place of David IV."
+basis = "David IV founded the monastery and academy of Gelati in 1106, and his historian calls it a second Jerusalem and another Athens (Life of David). Tradition links it with the philosophers Ioane Petritsi and Arsen Iqaltoeli (on Petritsi, L. Gigineishvili, The Platonic Theology of Ioane Petritsi, 2007). It became the intellectual centre of the golden age and the burial place of David IV. It is a distinct datable moment from the military and church reforms (RULES 6.3), so it keeps a third tech slot, level 2 like the other two, since no existing tech fits these moments."
 relevance = "Gelati was the centre of Georgian learning in the golden age and remains one of the symbols of Georgian identity; a datable institution at the University."
 contested = "The role of Ioane Petritsi at Gelati rests largely on tradition."
 
@@ -170,12 +161,12 @@ add = ["Thumb Ring", "Illumination", "Atonement"]
 remove = ["Hand Cannoneer", "Cannon Galleon", "Galleon", "Fast Fire Ship", "Galleon, Fast Fire Ship and Carrack", "Block Printing"]
 
 [tree.basis]
-"Thumb Ring" = "The Kipchak settlers were steppe horse archers and the monaspa carried the bow (Golden, 1984); the civ had Heavy Cavalry Archer and Parthian Tactics without Thumb Ring."
+"Thumb Ring" = "The Kipchak settlers were steppe horse archers and the monaspa carried the bow (Golden, 1984): a steppe archery tradition the kingdom's armies demonstrably used (RULES 6.16.4); the civ had Heavy Cavalry Archer and Parthian Tactics without Thumb Ring."
 "Illumination" = "A strong monastic culture: the academy of Gelati (1106), Iviron on Mount Athos (c. 980), Petritsoni (1083) and the Monastery of the Cross in Jerusalem."
 "Atonement" = "As for Illumination: the full monastery tree for one of the great Orthodox monastic cultures."
-"Hand Cannoneer" = "Firearms are not attested in Georgian armies of the core period (1089–1213), and we know of no evidence of their use before the kingdom split (c. 1490). Any guns of its last decades would be marginal, so the tree follows the period the civ represents, as for the Byzantines' guns of 1453 (codex-wide question CQ25)."
-"Cannon Galleon" = "No naval artillery and no significant war fleet in the period, despite the Abkhazian Black Sea coast; under the codex navy rule no substitute siege warship is given."
-"Galleon" = "No significant war fleet (see Cannon Galleon): the basic navy only, under the codex navy rule (Galley and War Galley, Fire Galley and Fire Ship, Hulk and War Hulk, demolition ships and the Dock techs)."
+"Hand Cannoneer" = "Firearms are not attested in Georgian armies of the core period (1089–1213), and we know of no evidence of their use before the kingdom split (c. 1490). Any guns of its last decades would be marginal, so the tree follows the period the civ represents, as for the Byzantines' guns of 1453 (RULES 6.16.19(d))."
+"Cannon Galleon" = "No naval artillery and no significant war fleet in the period, despite the Abkhazian Black Sea coast; the civ has the basic navy (RULES 6.16.1), with no substitute siege warship."
+"Galleon" = "No significant war fleet of its own (see Cannon Galleon): the basic navy only (RULES 6.16.1: Galley and War Galley, Fire Galley and Fire Ship, Hulk and War Hulk, demolition ships and the Dock techs)."
 "Fast Fire Ship" = "As Galleon."
 "Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon and Fast Fire Ship are removed (the Georgians already lacked the Carrack)."
 "Block Printing" = "No printing in the window: the first book in Georgian type, a Georgian–Italian dictionary, was printed in Rome in 1629."
