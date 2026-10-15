@@ -24,6 +24,7 @@ open_questions = [
   "Power check: the civ loses the stable discount, Flemish Revolution, the relic team bonus, Hussar, Siphons and Incendiaries, and gains the archer discount, the common coinage (a third tech), the Golden Fleece, the trade team bonus and three tree items (Arbalester, Siege Engineers, Dry Dock): a shift from cavalry towards archers, siege and economy, with three economic elements (the early economic upgrades, the Vineyards and the coinage). Acceptable?",
   "Flemish Militia keeps its name although the Flemish towns fought the dukes more often than for them (Gavere, 1453). Keep it?",
   "Codex-wide question CQ19 (see codex/civs/README.md): Labels (here the game’s ‘Cavalry civilization’ becomes ‘Cavalry and Gunpowder civilization’).",
+  "Codex-wide question CQ25 (see codex/civs/README.md): Rule interpretations, point (a) on the chronological order of unique techs (here the Order of the Golden Fleece, founded in 1430, is the Imperial Age tech at the Castle, in the slot of Flemish Revolution, while Vierlander Coinage, for the common coinage of 1433–34, is a Castle Age tech at the Town Center, the game age of Grand Trunk Road).",
 ]
 
 [profile]

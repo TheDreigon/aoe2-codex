@@ -29,6 +29,7 @@ open_questions = [
   "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here Edgar's Recoinage, Clerical Recruitment, the Fyrd and the team bonus ‘Monasteries work +20% faster’).",
   "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (without the Trebuchet the Saxons have no long-range siege weapon and rely on the Siege Ram as the RULES 6.11 substitute; the Armenians, Ethiopians, Goths, Khmer, Malay and Malians are in the same position).",
   "Codex-wide question CQ14 (see codex/civs/README.md): Power floor (the tree loses fifteen items, mostly later than 1066).",
+  "Codex-wide question CQ25 (see codex/civs/README.md): Rule interpretations, point (a) on the chronological order of unique techs (here the Fyrd, for Alfred’s divided levy of 893, is the Imperial Age tech at the Castle, while Edgar's Recoinage, for the reform of c. 973, and Clerical Recruitment, for the conversion of the Danelaw and the 10th-century Benedictine reform, are Castle Age techs at the Town Center and the Monastery; all three keep the game ages of their effects).",
 ]
 
 [profile]
