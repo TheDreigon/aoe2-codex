@@ -2,7 +2,7 @@ civ = "Magyars"
 name = "Magyars"
 status = "draft"
 label = "Cavalry civilization"
-summary = "Magyars cover the Conquest and the kingdom to Mohács: the Huszar costs no gold, the reflex bow becomes an Imperial Age passive, Kremnica gold and castle-building replace two bonuses, Stephen I’s counties and Matthias’ Black Army are the techs, and gunpowder and Central European architecture come in."
+summary = "Magyars cover the Conquest and the kingdom to Mohács: the Huszar costs no gold, the reflex bow becomes an Imperial Age passive, Kremnica gold and castle-building replace two bonuses, Stephen I’s counties and Matthias’ Black Army are the techs, gunpowder and Central European architecture come in, and the Danube flotilla takes the boat tier."
 ideas = [
   "N2: Végvár (border fortress): Castles and towers cost less stone, gain HP and heal garrisoned units, for the 15th-century belt of frontier fortresses from Belgrade to Jajce.",
   "N2: Székely frontier guards: cheap Cavalry Archers from towers and Castles with extra line of sight, after the Székelys and Pechenegs who guarded the borders and formed the archer vanguard of Árpád-age armies (the Illuminated Chronicle names them as the vanguard, for example on the Olšava in 1116; Otto of Freising, present at the battle on the Fischa in 1146, names Pechenegs in the Hungarian vanguard).",
@@ -17,7 +17,7 @@ contested = [
   "How far the Mongol invasion of 1241–42 caused the wave of stone castles (Fügedi and his critics).",
   "The real share of gunners in Matthias’ army (the ‘one in four’ figure is much repeated but of unclear origin), how much of the Hussite wagon-fort tactics Hungary took over (Tóth 2026: the wagons, not the Hussite way of fighting with them), and the name ‘Black Army’, attested only after 1490.",
   "The origin of John Hunyadi (Vlach according to most sources, or Hungarian).",
-  "Navy (RULES 6.16.1): a fleet of ships, classified by vessel. The kingdom’s war fleet was the royal Danube flotilla: John Hunyadi’s river fleet broke the Ottoman blockade of Belgrade on 14 July 1456 (Pálosfalvi 2018), and Matthias’ flotilla served at the siege of Šabac (1475–76) (Veszprémy 2009). Its warship was the naszád (from the Slavic nasad, a river vessel with built-up sides): the undated report on Matthias’ forces by the Venetian envoy Sebastiano Badoer (Baduario, in Hungary 1474–76), quoted by Szendrei (1896) and Bánlaky, counts 34 naszáds at Belgrade, each with 18 oars, 18 handgunners, two gunners and a light gun (cerbottana) in the bow. The sources consulted do not describe how the naszád was built, so the tier is an inference, made on what separates it from the Rus’ monoxyla, which the codex keeps in the boat tier on their construction (dugouts built up with planks, De Administrando Imperio 9). The crews were of a similar size (the Primary Chronicle reckons Oleg’s tribute of 907 at forty men to a ship), but the naszáds were the warships of a royal flotilla, each with a fighting crew of handgunners and a bow gun, that fought for control of the river and supported sieges (Belgrade 1456, Šabac 1475–76), while the monoxyla were built each year for the trading voyage to Constantinople and also served in raids. The Galleon stays as a flagged abstraction (RULES 6.16.2), and the Carrack and Fast Fire Ship as generic tiers that a fleet of ships keeps (RULES 6.16.1), abstractions for a river flotilla; the Cannon Galleon stays for the naszáds’ bow guns, an abstraction of a light piece. Contested: if the naszád was itself a built-up dugout, as its Slavic name may suggest, the flotilla would belong in the boat tier; and Badoer’s total of 330 ships for the royal fleet is probably inflated, since his letter from the Šabac campaign speaks of about 100 (Veszprémy 2009).",
+  "Navy (RULES 6.16.1): the boat tier, classified by vessel (see the Galleon in the tree). The kingdom’s war fleet was the royal Danube flotilla: John Hunyadi’s river fleet broke the Ottoman blockade of Belgrade on 14 July 1456 (Pálosfalvi 2018), and Matthias’ flotilla served at the siege of Šabac (1475–76) (Veszprémy 2009). Its warship was the naszád (from the Slavic nasad, a river vessel with built-up sides): the undated report on Matthias’ forces by the Venetian envoy Sebastiano Badoer (Baduario, in Hungary 1474–76), quoted by Szendrei (1896) and Bánlaky, counts 34 naszáds at Belgrade, each with 18 oars, 18 handgunners, two gunners and a light gun (cerbottana) in the bow (figures as quoted by Szendrei and Bánlaky; not confirmed at first hand). The sources consulted do not describe how the naszád was built, and the one image found, an illustration of 16th-century naszád crews known here only from a later reproduction, shows a long, narrow oared boat with a mast and cabins at bow and stern, not how its hull was built. A crew of about forty, as in Badoer’s figures, is that of the Rus’ monoxyla (the Primary Chronicle reckons Oleg’s tribute of 907 at forty men to a ship), which the codex keeps in the boat tier, and a royal flotilla with fighting crews and bow guns is a matter of role, not of hull; so the flotilla is classed as boats, as the Bengalis’ design classes royal river war fleets whose hulls no source describes. The Cannon Galleon stays as a special warship for the naszáds’ bow guns, an abstraction of a light piece, resting on Badoer’s figures as quoted. Contested: a period description or depiction of planked river galleys would move the flotilla to the fleet of ships; and Badoer’s total of 330 ships for the royal fleet is probably inflated, since a letter from the Šabac campaign reportedly speaks of about 100 (Veszprémy 2009).",
   "Crossbows (RULES 6.16.3): the Arbalester is kept on the Czech companies that served Hungarian kings and lords from 1440 (Jiskra in Upper Hungary from 1440 and in Matthias’ service from 1462; the brotherhoods hired after Kostoľany, 1467; Engel 2001) and fought in the Hussite manner, whose wagon crews combined crossbowmen with handgunners (Durdík 1953, see the Bohemians’ design). The sources consulted give no crossbow corps of the kingdom’s own, so the evidence is indirect and flagged as thin.",
   "Tree decisions: Plate Mail Armor (for Matthias’ armoured foot), Arrowslits, Architecture, the Bombard Tower (for the post-1241 castles and the végvár line) and the Monastery’s Atonement, Redemption and Faith (for the kingdom of the ‘holy kings’: Stephen and Emeric canonised in 1083, Ladislaus in 1192; Pannonhalma, 996; the Pauline order) stay out for the power budget (RULES 6.14); Black Army’s +2 pierce armour partly stands in for Plate Mail Armor, and the Keep and Fortified Wall carry the castles.",
 ]
@@ -26,7 +26,7 @@ open_questions = []
 [profile]
 entity = "The Hungarians: the Conquest-era tribal confederation and Grand Principality (895–1000) and the Kingdom of Hungary of the Árpáds, Angevins, Sigismund, the Hunyadis and the Jagiellonians, to Mohács (1526)"
 region = "Carpathian Basin"
-window = "895–1526 (from the Conquest of the Carpathian Basin to Mohács, a terminal event soon after 1500 as RULES 6.16.17 allows; core 895–1490, from the Conquest to Matthias’ death; nothing in the design originates after 1500)"
+window = "895–1526 (from the Conquest of the Carpathian Basin to Mohács, a terminal event soon after 1500 as RULES 6.16.17 allows; core 895–1490, from the Conquest to Matthias’ death; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Leo VI, Tactica (c. 900)",
   "Annales Fuldenses (9th century)",
@@ -49,7 +49,7 @@ sources = [
   "János Szendrei, Magyar hadtörténelmi emlékek az ezredéves országos kiállításon (1896)",
   "József Bánlaky, A magyar nemzet hadtörténelme (1928–1942)",
   "Tamás Pálosfalvi, From Nicopolis to Mohács: A History of Ottoman–Hungarian Warfare, 1389–1526 (2018)",
-  "László Veszprémy, ‘Szabács ostroma (1475–1476)’, Hadtörténelmi Közlemények 122 (2009)",
+  "László Veszprémy, ‘Szabács ostroma (1475–1476)’, Hadtörténelmi Közlemények 122 (2009) (title and volume not yet verified in a library catalogue)",
   "Dominik Tóth, ‘The Wagenburg-warfare in the Army of King Matthias’, East Central Europe: Between the Baltic and the Adriatic 2:1 (2026)",
 ]
 
@@ -108,7 +108,7 @@ contested = "How far 1241 caused the castle-building wave is debated."
 text = "Mounted Archers train +25% faster"
 level = 1
 change = "kept"
-precedent = "Mounted Archers train +25% faster (Magyars team bonus); the Turks’ design uses it too, while the Tatars’ design now has a team bonus of its own. Identical team-wide effects count once per team (RULES 6.16.12)."
+precedent = "Mounted Archers train +25% faster (Magyars team bonus); the Turks’ design uses it too, but not the Tatars’ design, which has a different team bonus. Identical team-wide effects count once per team (RULES 6.16.12)."
 basis = "Hungarian horse archers often fought as allies and auxiliaries of their neighbours: for Arnulf of Carinthia against Moravia (892, Annales Fuldenses) and for Byzantium against Bulgaria (894–895, De Administrando Imperio); in 1278 Ladislaus IV’s army, with the Cuman horse archers settled in Hungary as royal auxiliaries since 1239–46, fought beside Rudolf of Habsburg at the Marchfeld (Engel 2001). RULES 6.2: alliances and auxiliaries."
 relevance = "Mounted archery defined the Magyars from the Conquest to the Cuman auxiliaries of the 13th century, and it was what their allies sought from them."
 
@@ -150,13 +150,15 @@ contested = "The name ‘Black Army’ is attested only after Matthias’ death 
 
 [tree]
 add = ["Hand Cannoneer", "Bombard Cannon", "Keep", "Fortified Wall"]
-remove = []
+remove = ["Galleon", "Carrack"]
 
 [tree.basis]
 "Hand Cannoneer" = "Owner’s decision. Matthias’ army is traditionally credited with an unusually high share of handgunners (often given as one in four infantrymen, a figure of unclear origin), Czech mercenaries had brought Hussite firearms to Hungary since the 1440s, and Hunyadi’s wagon forts used guns; a kingdom without hand firearms was the most serious gap in the regional trees."
 "Bombard Cannon" = "Matthias kept a large artillery train and won by siege at Jajce (1463), Šabac (1476), Vienna (1485) and Wiener Neustadt (1487) (Engel 2001); the Magyars had no gunpowder siege weapon at all."
 "Keep" = "After 1241 stone castles multiplied across the kingdom, and in the 15th century it maintained a line of frontier fortresses (Fügedi 1986; Pálosfalvi 2018); the Keep (held by 37 of the game’s 56 civs) was missing from one of the most castle-rich kingdoms of the frontier."
 "Fortified Wall" = "Same basis: the castle and town walls of the post-1241 kingdom and the great frontier fortresses such as Belgrade (Nándorfehérvár), which withstood Mehmed II in 1456."
+"Galleon" = "Navy tier (RULES 6.16.1): the boat tier, by vessel. The royal Danube flotilla, the kingdom’s war fleet, was made of naszáds, oared river boats whose hulls the sources consulted do not describe (see the navy note under contested). The high-seas sailing warships (Galleon, Carrack) are removed, while the Galley, Fire Ship, Demolition and Hulk lines keep their tiers as an abstraction of the river flotilla for water maps, with the Dock techs and the ‘Galleon, Fast Fire Ship and Carrack’ upgrade kept for the Fast Fire Ship. The Cannon Galleon stays as a special warship for the naszáds’ bow guns."
+"Carrack" = "See Galleon."
 
 [architecture]
 set = "Central European"
