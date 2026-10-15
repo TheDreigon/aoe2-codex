@@ -1,0 +1,144 @@
+civ = "Bengalis"
+name = "Bengalis"
+status = "draft"
+label = "Elephant and Naval civilization"
+summary = "Bengalis kept as Bengal from the Palas to the Bengal Sultanate (c. 750–1538): elephants, river fleets, the rice surplus, the team bonus and Mahayana stay; the paik foot soldier replaces the chariot as unique unit, elephant medicine (Hastyayurveda, the Dravidians’ Medical Corps moved east) replaces the misapplied Paiks tech, fired-brick building and the monastic universities replace the cavalry and armoured-monk bonuses, and the Sultanate’s Hand Cannoneers and Bombard Cannons enter the tree."
+ideas = [
+  "N2: A river war-boat unique ship for the delta fleets (Monghyr plate; the Sultanate’s navy; Babur on the Ghaghra, 1529), with its name chosen carefully: kosa and ghurab are attested mostly for the Mughal flotilla (nawara) of the 17th century.",
+  "N3: New art for the Paik: a lightly armed foot soldier with bamboo bow, sword and shield, instead of the borrowed Ghulam model.",
+  "N3: Brick-and-terracotta building art for Bengal (Somapura, the Adina mosque, the Sixty Dome mosque at Bagerhat).",
+  "N3: The missing eastern neighbours: Kamarupa and the Ahom kingdom of Assam (which defeated Bengal’s invasion of 1532–33), and Orissa under the Eastern Gangas and Gajapatis.",
+]
+contested = [
+  "Whether the choice of Gopala by the prakriti (Khalimpur plate) was an election or the legitimation of a strongman by local notables.",
+  "The identification of Sulaiman’s kingdom of ‘Rahma’ with the Palas: dominant, but not unanimous.",
+  "The reach of Devapala’s southern conquests and a possible Pala–Pandya clash (the Badal pillar against the Sinnamanur plates).",
+  "Who destroyed Nalanda and when: Minhaj’s account of Odantapuri, and the Tibetan pilgrim Dharmasvamin, who still found Nalanda partly active in 1234–36.",
+  "The causes of Bengal’s Islamisation: Richard Eaton’s agrarian-frontier thesis against explanations by forced conversion or migration.",
+  "When firearms reached Bengal, before or after the first Portuguese contacts.",
+  "Whether the Palas actually used war chariots.",
+]
+open_questions = [
+  "The Ratha is dropped: Pala inscriptions mention chariots only in the formula of the fourfold army, and no Pala battle is known to have involved them. Keep it as a second unique unit for the commanders’ chariots that Xuanzang still describes in 7th-century India?",
+  "The Paik reuses the model of the Hindustanis’ old Ghulam (spear infantry), freed when the Ghulam became a horse archer. Acceptable in N1, given that most paiks were lightly armed archers and spearmen?",
+  "Hand Cannoneer and Bombard Cannon are added for the late Sultanate (Babur, 1529; João de Barros via Banglapedia), but the firm evidence starts just after 1500. Add them, or leave Bengal without land gunpowder?",
+  "The brick bonus reuses the effect of the Rus’ tech Detinets (part of the stone cost of Castles and towers paid in wood) for the fired brick of a stoneless delta. Acceptable as an abstraction?",
+]
+
+[profile]
+entity = "Bengal: the kingdom of Gauda under Shashanka, the Pala empire, the Sena kingdom and the Sultanate of Bengal"
+region = "Bengal and, under the Palas, Bihar: the Ganges–Brahmaputra delta and the lower Ganges plain"
+window = "c. 750–1538 (Shashanka’s Gauda, c. 600–625, as prelude)"
+sources = [
+  "Khalimpur copper plate of Dharmapala; Monghyr copper plate of Devapala; Badal pillar inscription",
+  "Sandhyakaranandi, Ramacharita (12th century)",
+  "Sulaiman al-Tajir, Akhbar al-Sin wa’l-Hind (851), in Elliot and Dowson, vol. I",
+  "Minhaj al-Siraj Juzjani, Tabaqat-i Nasiri (c. 1260)",
+  "Ibn Battuta, Rihla (Bengal, 1346)",
+  "Ma Huan, Yingya Shenglan (1433)",
+  "Babur, Baburnama (the campaign of 1529)",
+  "Tomé Pires, Suma Oriental (1512–15); João de Barros, Décadas da Ásia",
+  "R. C. Majumdar (ed.), The History of Bengal, vol. I (1943); Jadunath Sarkar (ed.), vol. II (1948)",
+  "Richard M. Eaton, The Rise of Islam and the Bengal Frontier, 1204–1760 (1993)",
+  "Thomas R. Trautmann, Elephants and Kings: An Environmental History (2015)",
+  "Banglapedia (Asiatic Society of Bangladesh), article ‘Military’",
+]
+
+[[bonus]]
+text = "Town Centers spawn 2 Villagers when the next Age is reached"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Town Centers spawn 2 Villagers when the next Age is reached (Bengalis)"
+basis = "The fertile, densely peopled delta and its rice surplus: Ibn Battuta (1346) says he never saw a land where provisions were so cheap, and Eaton (1993) traces the agrarian expansion of the eastern delta. An abstraction, kept."
+
+[[bonus]]
+text = "Elephant Units receive -25% bonus damage and are more resistant to conversion"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Elephant Units receive -25% bonus damage and are more resistant to conversion (Bengalis)"
+basis = "Elephants were the prestige arm of Bengal from the Palas to the sultans: Sulaiman (851) gives the king of ‘Rahma’, usually taken to be the Pala ruler, some 50,000 elephants (an inflated but telling figure), and Bengal remained a main source of elephants for the Delhi sultans (Digby 1971; Trautmann 2015). The resistance to conversion is pure mechanics."
+
+[[bonus]]
+text = "Ships regenerate 15 HP per minute"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Ships regenerate 15 HP per minute (Bengalis)"
+basis = "War on the delta was fought on the rivers: Devapala’s Monghyr plate describes the royal fleet of boats on the Ganges by his camp, the Sultanate kept a river navy (Banglapedia, ‘Military’), and Babur met Bengali boats on the Ghaghra in 1529. Easy repair in boatyards such as Sonargaon and Chittagong is a fair abstraction."
+
+[[bonus]]
+text = "Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost"
+kind = "other"
+level = 1
+change = "new"
+replaces = "Cavalry +2 attack vs. Skirmishers"
+precedent = "Detinets: Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost (Slavs)"
+basis = "The delta has no building stone, so Bengal built in fired brick, burnt with wood: the Pala mahavihara of Somapura (Paharpur), the largely brick Adina mosque at Pandua (1373–75) and the brick gateways of Gaur. The cavalry bonus it replaces had no basis: Bengal was notoriously poor in horses, which it imported, and Bakhtiyar Khalji took Nadia c. 1204 by surprise with a small cavalry vanguard (Minhaj)."
+contested = "Treating brick as cheaper ‘stone’ paid partly in fuel wood is an abstraction."
+
+[[bonus]]
+text = "Monastery and University technologies cost -25%"
+kind = "other"
+level = 1
+change = "new"
+replaces = "Monks +3 melee/+3 pierce armor"
+precedent = "Dock and University technologies cost -25% (Italians); Monastery technologies cost -50% (Burmese)"
+basis = "The Palas patronised the great Buddhist monastic universities: Dharmapala founded Vikramashila and Somapura, and Nalanda, Odantapuri and Jagaddala drew students from Tibet, China and Southeast Asia; Atisha left Vikramashila for Tibet c. 1040. The armour bonus it replaces suggested armoured monks, the opposite of what happened: the mahaviharas were sacked around 1200 (Odantapuri, Vikramashila)."
+
+[team_bonus]
+text = "Trade Units generate +10% food in addition to gold"
+level = 1
+change = "kept"
+precedent = "Trade Units generate +10% food in addition to gold (Bengalis team bonus)"
+basis = "Bengal exported rice and sugar to the Maldives, Malacca and the western Indian Ocean (Ma Huan, 1433; Tomé Pires), and Ibn Battuta stresses the abundance of grain. A good translation of a food-surplus economy tied to trade."
+
+[[unique_unit]]
+name = "Paik"
+model = "Ghulam"
+building = "Castle"
+level = 1
+change = "new"
+replaces = "Ratha (Mounted Archer)"
+basis = "Paik (from Sanskrit padatika, merged with Persian payk) was the foot soldier of Bengal and Orissa, armed with bamboo bow, sword, shield and spear and later the matchlock, and the backbone of the Sultanate’s armies and of the later Baro-Bhuyans (Banglapedia, ‘Military’; Kolff 1990); Babur noted the Bengali infantry’s bows and firearms in 1529. The model is the Hindustanis’ former spear infantry, freed when their Ghulam became a horse archer; its pass-through thrust stands for deep massed ranks."
+contested = "A Castle-trained elite unit is an abstraction: most paiks were part-time peasant soldiers, and the borrowed model is better armoured than they were (see ideas)."
+
+[[unique_tech]]
+name = "Hastyayurveda"
+age = "Castle"
+effect = "Elephant Units regenerate 30 HP per minute"
+level = 1
+change = "new"
+replaces = "Paiks (Rathas and Elephant Units attack +20% faster)"
+precedent = "Medical Corps (Elephant Units regenerate 30 HP per minute) (Dravidians)"
+basis = "The Hastyayurveda, the Sanskrit treatise on elephant medicine attributed to the sage Palakapya, is framed as his teaching to King Romapada of Anga at Champa, near modern Bhagalpur, in the Pala heartland where Dharmapala founded Vikramashila; Pala and Sultanate rulers kept great royal elephant stables (Trautmann 2015). Moved from the Dravidians’ Medical Corps (same effect), a modern military name. It replaces Paiks, which named the foot soldier but sped up chariots and elephants; the paik is now the unique unit."
+contested = "The treatise is hard to date, and elephant medicine was a pan-Indian tradition (the Keralan Matangalila is another branch)."
+
+[[unique_tech]]
+name = "Mahayana"
+age = "Imperial"
+effect = "Villagers and Monks take -10% population space"
+level = 1
+change = "kept"
+precedent = "Mahayana (Villagers and Monks take -10% population space) (Bengalis)"
+basis = "The Palas were the last great royal patrons of Mahayana and Vajrayana Buddhism in India, and their monasteries shaped Tibetan Buddhism (Atisha, c. 1040). The effect is an arbitrary abstraction of a large, cheaply sustained monastic and lay population."
+
+[tree]
+add = ["Hand Cannoneer", "Bombard Cannon", "Treadmill Crane"]
+remove = []
+
+[tree.basis]
+"Hand Cannoneer" = "Babur noted the Bengali infantry’s firearms and the skill of Bengal’s gunners on the Ghaghra (1529), João de Barros credits artillery for Bengal’s supremacy over Arakan and Tripura (via Banglapedia), and Turbak’s invasion of the Ahom kingdom (1532) carried guns, according to the Buranjis. A late phase of the window, without any bonus."
+"Bombard Cannon" = "Same basis: the Sultanate’s artillery, which Babur rated highly. The Bengalis had no land gunpowder at all, only the Cannon Galleon."
+"Treadmill Crane" = "Bengal’s builders raised monumental works in brick: the mahavihara of Somapura, among the largest monasteries of South Asia, and the Adina mosque (1373–75), the largest mosque of the subcontinent in its day. Stone Shaft Mining stays absent, which fits a delta without stone."
+
+[architecture]
+set = "South Asian"
+change = "kept"
+basis = "Kept: the South Asian set is the closest existing one; Bengal’s brick and terracotta forms would need N3 art (see ideas)."
+
+[[dropped]]
+item = "Ratha"
+kind = "unique_unit"
+reason = "War chariots had all but left Indian battlefields after the Gupta period; Pala inscriptions mention them only in the conventional formula of the fourfold army (elephants, horses, chariots, foot), and no Pala battle is known to have turned on them. The paik, the real backbone of Bengali armies, takes its place (see open questions)."
