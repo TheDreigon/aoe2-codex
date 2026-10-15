@@ -1,6 +1,6 @@
 # aoe2-codex rules
 
-Version 0.1, 15 October 2026. This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
+Version 0.2, 15 October 2026. This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
 
 - **[decided]**: agreed; changes only after a new discussion.
 - **[in principle]**: accepted, but the details are still open.
@@ -65,16 +65,29 @@ On the site, every change carries its level label.
 
 ## 6. Civ design rules
 
-1. **Composition.** Every civ has **4 to 6 passive bonuses**, **1 team bonus** and **2 unique technologies** (one Castle Age, one Imperial Age). The passive bonuses include at least one economic and one military bonus. **[decided]**
-2. **Unique technologies.** A unique tech must never merely give back something the tree took away. If it unlocks something generic, it must also bring a second, exclusive effect. **[decided]**
-3. **Repeated bonuses.** Allowed when history justifies them. A civ's identity comes from the combination of its bonuses, not from each bonus being unique. **[decided]**
-4. **Grounding.** Every element (bonus, unit, tech, tree change) states its historical basis and, whenever possible, a source. Where historians disagree, we say so. **[decided]**
-5. **Rename or replace.** Rename when the function has a historical equivalent (Horse Collar → *Chinampas* for the Aztecs). Replace or remove when it doesn't: a renamed trebuchet is still a trebuchet. Renames can be per civ. **[decided]**
-6. **Replace rather than only remove.** When we remove something the civ needs in order to play, we look for a substitute with the same function (as the Traction Trebuchet does). **[in principle]**
-7. **Consistency with the text.** The tree must not contradict our history text for the civ. **[in principle]**
-8. **Civ profile.** Every civ has a profile with the entity it represents, its region, its time window and its main sources. **[in principle]**
-9. **Game structure.** We keep the AoE2 skeleton: four ages, the counter system and a similar "power budget" across civs. N1 does not promise balance, but it avoids obvious absurdities. **[in principle]**
-10. **Architecture sets.** Reassigning an existing set is N1 (Persians → Central Asian); creating a new set is N3 (a "Steppe" set for Avars, Mongols and Cumans). **[decided]**
+1. **Composition.** Every civ has:
+   - **4 to 6 passive bonuses**, with at least one economic and one military bonus. Unique buildings ("Can build X") and starting bonuses ("Start with X") count as passive bonuses. **[decided]**
+   - **2 to 4 unique technologies.** One at the **Castle** and one at the **Town Center** are mandatory. Up to two more can be researched at other main buildings: Castle, Town Center, Market, Monastery, University, Dock, Mill, Lumber Camp, Mining Camp, Barracks, Archery Range, Stable, Siege Workshop. **[decided]**
+   - **1 team bonus.** Whether some civs may have two is still open. **[proposal]**
+   - **1 or 2 unique units.** A naval unique unit counts. Regional units (Steppe Lancer, Genitour/Jinete, Mounted Crossbowman) do not. **[in principle]**
+   - A combined cap of **passive bonuses + unique techs ≤ 9**, so that no civ has both the most bonuses and the most techs. **[proposal]**
+2. **Where each historical trait goes.** Ask these questions in order: **[decided]**
+   1. Did it benefit neighbours or allies (trade, transferred techniques, mercenaries, alliances, religious influence)? Then it is the **team bonus**. A trait that only benefited the civ itself is never a team bonus.
+   2. Is it **structural** (geography, environment, economic base, social structure, a long military tradition)? Then it is a **passive bonus**.
+   3. Is it **datable** (a reform, invention, institution or adopted technique, usually with a proper name)? Then it is a **unique technology**: military or royal at the **Castle**; state or government at the **Town Center**; other themes at the building where they belong (trade at the Market, religion at the Monastery, knowledge and writing at the University, the sea at the Dock, farming at the Mill, and so on).
+   4. The size of the effect only breaks ties: a very strong effect suits a tech (its cost and delay act as a brake); a small, continuous edge suits a passive. History decides first.
+3. **Number of datable moments.** Extra unique techs exist only for distinct datable moments, never one reform split in two. If a civ has more moments than slots, the rest become age-gated passives ("starting in the Imperial Age") or N2 ideas. If it has too few, a structural trait with a recognisable moment of formalisation can be promoted (the Castilian municipal militias, formalised as the Santa Hermandad in 1476). For peoples without a state, the Town Center tech represents a community institution; if its historical basis is weak, we say so. **[in principle]**
+4. **Ages of unique techs.** With two techs at the Castle, one is Castle Age and one Imperial Age, in chronological order within the civ's own time window. Techs at the Town Center and at civil buildings: Feudal Age at the earliest, never Dark Age. Military techs outside the Castle (Barracks, Archery Range, Stable, Siege Workshop, Dock): Castle Age at the earliest. **[in principle]**
+5. **Levels of unique techs.** Moving an existing unique tech to another building, or renaming it, is N1. Creating a new tech, even with an effect that already exists elsewhere, is N2. **[in principle]**
+6. **Unique technologies never just give things back.** A unique tech must never merely give back something the tree took away. If it unlocks something generic, it must also bring a second, exclusive effect. **[decided]**
+7. **Repeated bonuses.** Allowed when history justifies them. A civ's identity comes from the combination of its bonuses, not from each bonus being unique. **[decided]**
+8. **Grounding.** Every element (bonus, unit, tech, tree change) states its historical basis and, whenever possible, a source. Where historians disagree, we say so. **[decided]**
+9. **Rename or replace.** Rename when the function has a historical equivalent (Horse Collar → *Chinampas* for the Aztecs). Replace or remove when it doesn't: a renamed trebuchet is still a trebuchet. Renames can be per civ. **[decided]**
+10. **Replace rather than only remove.** When we remove something the civ needs in order to play, we look for a substitute with the same function (as the Traction Trebuchet does). **[in principle]**
+11. **Consistency with the text.** The tree must not contradict our history text for the civ. **[in principle]**
+12. **Civ profile.** Every civ has a profile with the entity it represents, its region, its time window and its main sources. **[in principle]**
+13. **Game structure.** We keep the AoE2 skeleton: four ages, the counter system and a similar "power budget" across civs. N1 does not promise balance, but it avoids obvious absurdities. **[in principle]**
+14. **Architecture sets.** Reassigning an existing set is N1 (Persians → Central Asian); creating a new set is N3 (a "Steppe" set for Avars, Mongols and Cumans). **[decided]**
 
 ## 7. History texts
 
@@ -130,12 +143,25 @@ basis = "Light cavalry riding à la gineta, central to the Reconquista and the M
 
 [[unique_tech]]
 name = "Volta do Mar"
+building = "Dock"             # Castle | Town Center | Market | Monastery | University | Dock | Mill | ...
+kind = "civil"                # military | civil
 age = "Imperial"
 effect = "Sets the entire map to explored; Ships train +33% faster"
-level = 1
+level = 1                     # an existing tech moved and renamed
 change = "changed"
 replaces = "Circumnavigation"
 basis = "The Portuguese technique of returning through the open Atlantic (15th century)."
+
+[[unique_tech]]
+name = "Lei das Sesmarias"
+building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "Farmers work +15% faster"
+level = 2                     # a new tech, with an effect that exists elsewhere
+change = "new"
+precedent = "Farmers work +15% faster (Slavs)"
+basis = "The 1375 law of King Ferdinand I forcing abandoned land back into cultivation."
 
 [team_bonus]
 text = "Technologies research +25% faster"
