@@ -8,7 +8,7 @@ ideas = [
   "N3: A Mon civ (Hanthawaddy, 1287–1539), a Meitei (Manipur) civ that would take back the Arambai and Manipur Cavalry, and an Arakan (Mrauk-U) civ.",
 ]
 contested = [
-  "The name: ‘Burmese’ is a European exonym (the Bamar call themselves Bamar, and the country Myanmar), and the civ merges Bamar, Pyu and Mon. Standard English scholarship on the precolonial kingdoms writes of Burma and the Burmese (Lieberman, Aung-Thwin), so the civ keeps the name (RULES 6.16.15), with the Bamar-led kingdoms as the entity of the profile.",
+  "The name: ‘Burmese’ is the European form of the colloquial endonym Bamar (literary Myanma), and the civ merges Bamar, Pyu and Mon. Most standard English scholarship on the precolonial kingdoms writes of Burma and the Burmese (Lieberman 1984, 2003; Aung-Thwin 1985), though some now write Myanmar or Myanma (Charney 1997; Aung-Thwin and Aung-Thwin 2012), so the civ keeps the name (RULES 6.16.15), with the Bamar-led kingdoms as the entity of the profile.",
   "The role of the Mon and of Thaton in the making of Pagan (Luce versus Aung-Thwin, The Mists of Rāmañña, 2005).",
   "The weight of the Mongol invasions against internal crisis in the fall of Pagan, and whether the Mongols reached the capital.",
   "The causes of the Toungoo collapse in 1599: over-extension and depopulation by levies, or climate.",
@@ -19,14 +19,15 @@ contested = [
   "The bayingyi communities proper were settled by Anaukpetlun after 1613, outside the window; the name is extended here to the 16th-century mercenaries. It is kept, flagged, as the Burmese name for exactly these gunners; neutral names such as ‘Feringhi’ (the Indo-Persian name for the Portuguese) or ‘Portuguese Gunners’ were considered and not adopted.",
   "Bows were in regular use in Burmese armies. Crossbows are known in the region above all among its hill peoples, and their regular use by the Bamar royal armies is not shown, so the Arbalester stays out under the project’s crossbow criterion (RULES 6.16.3) and the Crossbowman remains the generic bow tier. Leather and Ring Archer Armor are added for the bow arm, whose weakness in the game was a balance choice; keeping the archers as weak as in the game, as a counterweight to the new Hand Cannoneer, was considered and not adopted.",
   "No stone-throwing engine is attested in Burmese sieges: the counterweight Trebuchet is removed as an anachronism, and no Traction Trebuchet replaces it (the traction test, RULES 6.16.5): unlike Đại Việt, whose inferred engine rests on a Chinese-model army between two neighbours with recorded engines, nothing in Burmese warfare points to one. The Mangonel line stays as the light stone-thrower of the game skeleton, an abstraction.",
-  "The war boats: the river war boats of the Irrawaddy kingdoms are described in detail only from the 18th–19th centuries, as long, shallow-draft oared boats on dugout hulls; the design projects that construction back on the continuity of river warfare that Charney (1997) studies, and classes the Burmese navy accordingly as the boat tier (see the Galleon). The Mon and the Arakanese of the coast kept more seaworthy fleets.",
+  "The war boats: the river war boats of the Irrawaddy kingdoms are described in detail only from the 18th–19th centuries, as long, shallow-draft oared boats on expanded dugout hulls; the design projects that construction back on the continuity of river warfare that Charney (1997) studies, and classes the Burmese navy accordingly as the boat tier (see the Galleon). The Mon and the Arakanese of the coast kept more seaworthy fleets.",
+  "Toungoo at sea: the seagoing shipping of the Mon ports came under the Bamar-led kingdom only when Tabinshwehti took Pegu (1538–39), which became his capital, and Martaban (1541), late in the window; from Pegu the Toungoo kings could draw on Mon shipping and on Portuguese ships and mercenaries. How far they fought with seagoing war fleets of their own, for instance in their campaigns against Arakan, is not settled here. The design does not rest the navy on them: the tier follows the river fleets of the core, Pagan and Ava (RULES 6.16.19(d)).",
 ]
 open_questions = []
 
 [profile]
 entity = "The Bamar-led kingdoms of the Irrawaddy basin: Pagan, Ava and the First Toungoo Empire"
 region = "Irrawaddy basin (Upper and Lower Burma)"
-window = "1044–1599 (core: Pagan, 1044–1287, and Ava, 1364–1555; the First Toungoo Empire, 1510–1599, at the edge)"
+window = "1044–1599 (core: Pagan to Ava, 1044–c. 1500; late Ava and the First Toungoo Empire, to 1599, at the edge, RULES 6.16.17)"
 sources = [
   "Inscriptions of Pagan (Myazedi, 1112–13)",
   "Cūḷavaṃsa, ch. 60 (tr. W. Geiger)",
@@ -40,6 +41,7 @@ sources = [
   "Victor Lieberman, Burmese Administrative Cycles (1984); Strange Parallels, vol. 1 (2003)",
   "Sun Laichen, ‘Military Technology Transfers from Ming China and the Emergence of Northern Mainland Southeast Asia (c. 1390–1527)’ (2003)",
   "Michael W. Charney, ‘Shallow-draft Boats, Guns, and the Aye-ra-wa-ti: Continuity and Change in Ship Structure and River Warfare in Precolonial Myanma’, Oriens Extremus 40 (1997)",
+  "Michael Aung-Thwin and Maitrii Aung-Thwin, A History of Myanmar Since Ancient Times (2012)",
 ]
 
 [[bonus]]
@@ -49,7 +51,7 @@ level = 1
 change = "new"
 replaces = "Lumber Camp technologies free"
 precedent = "Transport Ships +100% HP, +20 carry capacity (Saracens; the Arabs’ design gives it up, and the Tamils’ design holds it too)"
-basis = "The Irrawaddy was the highway of the Burmese kingdoms: their armies moved and were supplied by river, in fleets of oared war boats on dugout hulls that also fought on the river, from the Ava–Hanthawaddy wars (1385–1424) to the Toungoo campaigns, and the crown’s servicemen came to include hereditary boat-service groups (Lieberman 1984). The Lumber Camp bonus it replaces failed the relevance test: large-scale teak extraction belongs to the 18th–19th centuries, and timber did not set Burma apart from its neighbours."
+basis = "The Irrawaddy was the highway of the Burmese kingdoms: their armies moved and were supplied by river, in fleets of oared war boats that also fought on the river (built, in the 18th–19th-century descriptions, on expanded dugout hulls, a construction projected back here; see contested), from the Ava–Hanthawaddy wars (1385–1424) to the Toungoo campaigns, and the crown’s servicemen came to include hereditary boat-service groups (Lieberman 1984). The Lumber Camp bonus it replaces failed the relevance test: large-scale teak extraction belongs to the 18th–19th centuries, and timber did not set Burma apart from its neighbours."
 relevance = "River fleets carried and supplied the great Burmese campaigns; without the Irrawaddy flotillas the kingdoms of the dry zone could not reach the delta."
 
 [[bonus]]
@@ -130,7 +132,7 @@ contested = "The name is post-1613 (see contested)."
 
 [tree]
 add = ["Hand Cannoneer", "Leather Archer Armor", "Ring Archer Armor"]
-remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Trebuchet", "Galleon", "Carrack", "Cannon Galleon", "Elite Cannon Galleon", "Block Printing"]
+remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Trebuchet", "Galleon", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Cannon Galleon", "Elite Cannon Galleon", "Block Printing"]
 
 [tree.basis]
 "Hand Cannoneer" = "Ava used firearms of Ming origin, hand guns among them, in the 15th century, inside the window (Sun Laichen 2003), and Toungoo armies used them on a large scale with Portuguese musketeers (Martaban, 1541). The civ had Bombard Cannon but no hand-held gun, against its own game history text."
@@ -140,7 +142,8 @@ remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Trebuch
 "Heavy Cavalry Archer" = "As for the Cavalry Archer."
 "Parthian Tactics" = "As for the Cavalry Archer."
 "Trebuchet" = "No stone-throwing engine is attested in Burmese sieges, which were won by blockade, assault and, from the 15th–16th centuries, guns; the counterweight trebuchet reached China only in 1273, and there is no evidence that it reached Burma, although Yuan armies fought there in 1277–87 and 1300–01. The Bombard Cannon (Ava’s Ming-type guns and the Toungoo artillery) and the rams keep the civ able to destroy buildings (RULES 6.11)."
-"Galleon" = "The Burmese navy is classed as the boat tier (RULES 6.16.1), by its vessels: the war fleets of Pagan, Ava and Toungoo were river war boats, long, shallow-draft and oared, on hulls hollowed from a single trunk and widened (see contested), which carried the armies on the Irrawaddy, fought on it and were manned by the crown’s boat-service groups (Lieberman 1984; Charney 1997); the seaworthy fleets of the coast belonged to the Mon and the Arakanese, outside the Bamar-led kingdoms of this design. The high-seas sailing warships (Galleon, Carrack) are removed, while the Galley, Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction of river fleets for water maps."
+"Galleon" = "The Burmese navy is classed as the boat tier (RULES 6.16.1), by its vessels: the war fleets of Pagan and Ava, the core of the window, were river war boats, long, shallow-draft and oared, which carried the armies on the Irrawaddy and fought on it, manned in later centuries by the crown’s boat-service groups (Lieberman 1984; Charney 1997); the 18th–19th-century descriptions show them built on hulls hollowed from a single trunk and widened, a construction projected back here (see contested). The seagoing shipping of the Mon ports came under Toungoo only from 1538–39, at the edge of the window; the tier follows the river fleets of the core (RULES 6.16.19(d)), and the Toungoo use of Mon and Portuguese seagoing vessels is flagged (see contested). The high-seas sailing warships (Galleon, Carrack) are removed, while the Galley, Fire Ship, Demolition and Hulk lines keep their Castle Age tiers (War Galley, Fire Ship, Demolition Ship and War Hulk; the Burmese already lacked the Fast Fire Ship and Heavy Demolition Ship) as a generic abstraction of river fleets for water maps. The Scenario Editor’s Canoe (RULES section 5), which the American and Malian designs use as the Galley’s look, was considered and not adopted: in the game it is a light boat (70 HP; codex/tools/scenario-units-stats.md), while the Irrawaddy war boats were long oared vessels carrying a fighting crew, nearer in scale and role to the Galley, and their dugout construction is itself projected back from later sources."
+"Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon and Carrack are removed (the Burmese already lacked the Fast Fire Ship)."
 "Carrack" = "As for the Galleon."
 "Cannon Galleon" = "No gun-armed war boats are documented for Pagan or Ava, whose river fleets were oared war boats (see the Transport Ships bonus); a case resting on the Toungoo river fleets of the 16th century, with their Portuguese gunners, would make a second late element beside Bayingyi (RULES section 2)."
 "Elite Cannon Galleon" = "As for the Cannon Galleon."
