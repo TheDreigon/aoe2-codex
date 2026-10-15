@@ -1,0 +1,150 @@
+civ = "Tatars"
+name = "Tatars"
+status = "draft"
+label = "Cavalry Archer civilization"
+summary = "Tatars refocused on the Golden Horde (Ulus of Jochi, c. 1242–1502) and separated from Timur, who devastated it: the pastoral bonuses, free Thumb Ring and Parthian Tactics and the Keshik are kept; the Timurid Flaming Camel and Timurid Siegecraft and the unfounded elevation bonus leave; Silk Armor is renamed, and the Horde's wagon camps (araba), trade tax (tamga) and Islam enter."
+ideas = [
+  "N3: A separate Timurid civ (1370–1507), or a Timurid phase of the Persians, with the Flaming Camel, Timurid Siegecraft and the elephants Timur took from Delhi and used at Ankara (1402).",
+  "N2: Yarlyk: tribute from vassal princes (the Rus' vykhod, collected first by baskaks, then by the princes of Moscow) as a passive gold income tied to Castles.",
+  "N2: Ulan (oğlan) light lancer, after the title of the Chinggisid princes, which gave the Polish ułan and the European uhlan.",
+  "N3: The ordu as a moving city: Town Centers that pack and move, as Ibn Battuta saw Özbeg's camp, “a vast city on the move” with mosques and bazaars.",
+  "N3: A “Steppe” architecture set shared with the Avars, Mongols and Cumans.",
+]
+contested = [
+  "“Golden Horde” (Zolotaya Orda) is a 16th-century Russian name; contemporaries spoke of the Ulus of Jochi, the Ulugh Ulus or the Desht-i Qipchaq, and “Tatar” is an exonym that moved from an eastern Mongolian confederation (destroyed in 1202) to the Mongols and then to Turkic-speaking peoples.",
+  "That the Jochid khans kept a kheshig guard like the Yuan and the Ilkhans is likely but thinly documented.",
+  "Gunpowder (Hand Cannoneer and Bombard Tower are kept): in 1376 the defenders of Bolghar on the Volga, then under the Horde, let loose “thunder” from the walls against the Russians (Rus' chronicles); whether these were guns is debated, and the Horde's successor khanates (Kazan, Crimea) used firearms in the 15th–16th centuries.",
+  "The relative weight of the Black Death (U. Schamiloglu) and of Timur's campaigns of 1391 and 1395 in the Horde's decline.",
+  "The presence of Genoese infantry in Mamai's army at Kulikovo (1380).",
+]
+open_questions = [
+  "Name: keep “Tatars” (the exonym of Rus' and Latin sources, and of the game) or rename to “Golden Horde” (anachronistic but the name historians and players recognise) or “Jochids” / “Ulus of Jochi” (the contemporaries' terms)? This draft keeps “Tatars” and recommends “Golden Horde”.",
+  "Unique unit: the Keshik is kept and shared with the Mongols. Alternatively, the Horde could (also) train the Kipchak, since al-Umari says the Tatars mixed with the Qipchaqs and became like them; the Lithuanians' draft already gives the Lipka Tatars Elite Kipchaks, and the Georgians and Bulgarians share the Kipchak too.",
+  "Mule Cart as the Araba: alongside the Lumber and Mining Camps (this draft) or replacing them, as for Armenians and Georgians? Should the Mongols share it (Rubruck describes the same carts among them)?",
+  "Navy: the Galleon tier and the Cannon Galleons are removed, keeping War Galley, Fire Ship and War Hulk, as for the Avars and Cumans. Acceptable on water maps?",
+  "Camel Rider and Heavy Camel Rider are removed (camels carried baggage); the Horde keeps Halberdiers and Steppe Lancers. Agree?",
+]
+
+[profile]
+entity = "Ulus of Jochi (the “Golden Horde”), to the fall of the Great Horde"
+region = "Pontic-Caspian steppe (Desht-i Qipchaq), the Volga, Crimea and northern Khwarezm; overlord of the Rus' principalities"
+window = "c. 1242–1502"
+sources = [
+  "William of Rubruck, Itinerarium (1253–1255; trans. P. Jackson, 1990)",
+  "Ibn Battuta, Rihla (trans. H. A. R. Gibb, vol. 2, 1962)",
+  "Ibn Fadlallah al-Umari, Masalik al-absar",
+  "Francesco Balducci Pegolotti, La pratica della mercatura (c. 1340; partial trans. in H. Yule and H. Cordier, Cathay and the Way Thither, 1916)",
+  "Rus' chronicles (Laurentian, Rogozh, Nikon)",
+  "C. J. Halperin, Russia and the Golden Horde (1985)",
+  "D. Ostrowski, Muscovy and the Mongols (1998)",
+  "I. Vásáry, Cumans and Tatars (2005)",
+  "M. Favereau, The Horde: How the Mongols Changed the World (2021)",
+]
+replaces = "Tatars as a merger of the Golden Horde with Timur's empire (1370–1507), its enemy"
+
+[[bonus]]
+text = "Livestock animals last +50% longer"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Livestock animals last +50% longer (Tatars)"
+basis = "Rubruck (1253) and Ibn Battuta (1332–1333) describe immense herds of sheep, horses and cattle, mutton and kumis as staples; Ibn Battuta says horses were so many that they were driven to India in droves of about six thousand."
+
+[[bonus]]
+text = "New Town Centers spawn 2 Sheep starting in Castle Age"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "New Town Centers spawn 2 Sheep starting in Castle Age (Tatars)"
+basis = "Every camp moved with its flocks between summer and winter pastures along the Volga and the Don; a new camp was first of all a new pasture. An abstraction."
+
+[[bonus]]
+text = "Thumb Ring, Parthian Tactics free"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Thumb Ring, Parthian Tactics free (Tatars)"
+basis = "The thumb draw and shooting backwards in feigned flight were the Horde's way of war: at the Vorskla (1399) Edigu's horsemen drew Vytautas's Lithuanian army forward, then encircled and destroyed it; thumb rings are found in Horde-period graves."
+
+[[bonus]]
+text = "Can build Arabas (mobile dropsites) in addition to Lumber Camps and Mining Camps"
+kind = "economic"
+level = 1
+change = "new"
+precedent = "Mule Cart: unique mobile dropsite (Armenians, Georgians); Start with a Mule Cart (Georgians); the form of “Can build Caravanserai in Imperial Age” (Hindustanis, Persians)"
+basis = "Crossing the Jochid steppe in 1253, Rubruck saw felt houses carried whole on carts, one drawn by 22 oxen, and rich households with a hundred or two hundred carts; Ibn Battuta (1332–1333) travelled in the wagons the people of the Qipchaq steppe called araba and saw Özbeg's camp as a city on the move (Rihla). The Mule Cart, renamed, is the game's existing mobile camp."
+
+[team_bonus]
+text = "Mounted Archers +2 line of sight"
+level = 1
+change = "kept"
+precedent = "Mounted Archers +2 line of sight (Tatars)"
+basis = "Steppe armies scouted with wide screens of horse archers. A harmless abstraction."
+
+[[unique_unit]]
+name = "Keshik"
+model = "Keshik"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The khan's guard (kheshig), the Chinggisid institution that the successor khanates kept (Yuan, Ilkhanate), and the armoured lancers who fought beside the horse archers in the Horde's armies; now shared with the Mongols, where the institution began. The gold earned in combat stands for booty and tribute."
+contested = "A Jochid kheshig is plausible but not directly documented (see contested)."
+
+[[unique_tech]]
+name = "Leather Lamellar"
+age = "Castle"
+effect = "Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor"
+level = 1
+change = "changed"
+replaces = "Silk Armor (Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor)"
+precedent = "Silk Armor: Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor (Tatars); same effect, renamed"
+basis = "Carpini (1247) describes the armour of the Mongol armies that founded the Horde: strips of hardened leather in several layers laced together, and iron lamellae tied with thongs. The old name rested on the story that silk shirts helped draw arrows out, which has no medieval source (its earliest known form is in M. Prawdin's Genghis Khan, 1934)."
+
+[[unique_tech]]
+name = "Tamga"
+age = "Imperial"
+effect = "Trade Units generate +25% gold"
+level = 1
+change = "new"
+replaces = "Timurid Siegecraft (Trebuchets +2 range)"
+precedent = "Trade Units generate +25% gold (Spanish team bonus)"
+basis = "The tamga was the Mongol tax on commerce (R. Pochekaev); in the Horde it was levied at Sarai and on the trade of the ports the khans let the Italians hold (Caffa from the 1260s, Tana from 1332). Pegolotti (c. 1340) calls the road from Tana through Sarai to Cathay safe by day and by night, and the Russian word for customs, tamozhnya, comes from tamga. Timurid Siegecraft belonged to Timur, the Horde's enemy."
+
+[tree]
+add = ["Mule Cart", "Faith", "Sanctity"]
+remove = ["Camel Rider", "Heavy Camel Rider", "Galleon", "Fast Fire Ship", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Cannon Galleon", "Elite Cannon Galleon"]
+
+[tree.basis]
+"Mule Cart" = "Added and renamed Araba (see the bonus): the Horde's wagon camps. It stands beside the Lumber and Mining Camps instead of replacing them."
+"Faith" = "Islam became the Horde's state religion under Özbeg (1313–1341), after Berke's personal conversion (r. 1257–1266); the khans also protected the Orthodox Church, with a bishopric at Sarai from 1261."
+"Sanctity" = "As Faith: the mosques, madrasas and Sufi lodges of Sarai, Bolghar and Solkhat, where Özbeg's mosque was built in 1314."
+"Camel Rider" = "Camels carried baggage and caravan goods in the Horde and Khwarezm; there is no record of camel cavalry."
+"Heavy Camel Rider" = "As Camel Rider."
+"Galleon" = "The Horde had no war fleet: the Black Sea and Azov ports were held by Genoese and Venetians, and its wars were fought on land and across rivers. The Tatars keep a basic river and coastal navy (Galley-line to War Galley, Fire Ship, War Hulk)."
+"Fast Fire Ship" = "As Galleon."
+"Carrack" = "As Galleon; the carrack is a late-medieval Latin ship type."
+"Galleon, Fast Fire Ship and Carrack" = "Nothing left to upgrade once the three ships are removed."
+"Cannon Galleon" = "No naval artillery is recorded for the Horde."
+"Elite Cannon Galleon" = "As Cannon Galleon."
+
+[[rename]]
+from = "Mule Cart"
+to = "Araba"
+level = 1
+basis = "Ibn Battuta's word for the wagons of the Qipchaq steppe, which carried felt tents and goods; araba is still the Turkic word for a cart."
+
+[architecture]
+set = "Central Asian"
+level = 1
+change = "kept"
+basis = "The Horde's towns (Sarai, Bolghar, Solkhat and Urgench in Khwarezm) built in fired brick with glazed tilework in the Khwarezmian and Iranian tradition, which the Central Asian set approximates; a Steppe set would fit the wagon camps (N3)."
+
+[[dropped]]
+item = "Units deal +25% damage when fighting from higher elevation"
+kind = "bonus"
+reason = "Unfounded: the advantage of high ground is universal, and steppe warfare was fought mostly on open plains; nothing ties it to the Horde."
+
+[[dropped]]
+item = "Flaming Camel"
+kind = "unique_unit"
+reason = "A Timurid unit: Timur's stratagem against the elephants of Delhi (1398), reported by Nizam al-Din Shami and amplified in the later Malfuzat-i Timuri. Timur devastated the Horde in 1391 and 1395, so it has no place here; it is left for a Timurid civ or a Timurid phase of the Persians."

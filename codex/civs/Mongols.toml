@@ -1,0 +1,137 @@
+civ = "Mongols"
+name = "Mongols"
+status = "draft"
+label = "Cavalry Archer civilization"
+summary = "The Mongol Empire (1206–1368) keeps its horse archers, hunting, remounts, Mangudai and mobile siege train, and gains Chinggis's guard (the Keshik, shared with the Tatars), the yam relay system in place of Nomads, decimal mobilisation, horse armour and Yuan hand cannons, while losing camel cavalry and Champions."
+ideas = [
+  "N2: A Noyan command unit with an aura for nearby mounted units, for the decimal organisation (arban, jaghun, minggan, tümen) and its flag and drum signals (Carpini).",
+  "N3: Gers that are packed onto carts and set up elsewhere, keeping their population space (Rubruck), instead of the dropped Nomads.",
+  "N2: Darqan: religious tolerance and tax exemptions for clergy (Changchun, 1223; Möngke's debate at Karakorum, 1254) as a Monastery effect instead of conversion.",
+  "N2: Huihui pao, the counterweight trebuchet built for Kublai by Ismail and Ala al-Din at Xiangyang (1273), as a distinct siege unit or tech.",
+  "N2: Hashar: captive levies driven ahead of the army at sieges (Juvaini), as a cheap expendable infantry or siege-labour effect.",
+  "N3: A “Steppe” architecture set shared with the Avars, Tatars and Cumans.",
+]
+contested = [
+  "The Mangudai as a “suicide squad”: the Manggud tribe and its role in the vanguard are real (Secret History §170–171), but the popular story has no known primary source.",
+  "Gunpowder: Yuan armies used early guns, but whether these count as Mongol rather than Chinese troops in Yuan service, and claims of Mongol gunpowder in the West (Mohi, 1241), are debated (K. Chase, Firearms, 2003; T. Andrade, The Gunpowder Age, 2016).",
+  "Army sizes and the number of remounts per man are modern estimates (T. May suggests three to five horses).",
+  "Whether the ideology of universal rule goes back to Chinggis or only to his successors (Güyük's letter of 1246).",
+]
+open_questions = [
+  "The Keshik is shared with the Tatars (Golden Horde) instead of moved: the kheshig began under Chinggis, but the successor khanates kept it. Should it be Mongol-only, with the Tatars getting another unit?",
+  "Drill is kept as the Imperial tech (rated plausible). Swap it for Huihui Pao (Timurid Siegecraft renamed: Trebuchets +2 range, for Xiangyang 1273)?",
+  "Hand Cannoneer for the Yuan phase is a contested addition; keep it, or leave the Mongols without land gunpowder as now?",
+  "Camel Rider and Heavy Camel Rider are removed (Bactrian camels carried baggage). With no Halberdier, the Mongols' anti-cavalry is Pikeman, horse archers and Monks. Acceptable, or give back the Camel Rider as an abstraction?",
+]
+
+[profile]
+entity = "Mongol Empire (Yeke Mongγol Ulus) and its Toluid successors, the Yuan and the Ilkhanate"
+region = "Mongolian plateau, with conquests from China and Korea to Iran, the Caucasus and the Pontic steppe"
+window = "1206–1368"
+sources = [
+  "The Secret History of the Mongols (trans. I. de Rachewiltz, 2004)",
+  "ʿAta-Malik Juvaini, History of the World-Conqueror (trans. J. A. Boyle, 1958)",
+  "Rashid al-Din, Jamiʿ al-tawarikh (trans. W. M. Thackston, 1998–1999)",
+  "John of Plano Carpini, Ystoria Mongalorum (1247)",
+  "William of Rubruck, Itinerarium (1253–1255; trans. P. Jackson, 1990)",
+  "Marco Polo, Description of the World",
+  "Yuanshi (official history of the Yuan)",
+  "T. May, The Mongol Art of War (2007)",
+  "T. Allsen, Mongol Imperialism (1987)",
+  "D. Morgan, The Mongols (2nd ed., 2007)",
+  "P. Jackson, The Mongols and the West (2005)",
+]
+
+[[bonus]]
+text = "Hunters work +40% faster"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Hunters work +40% faster (Mongols)"
+basis = "Juvaini describes the great battue (jerge), in which the army ringed the game for weeks with the discipline of a campaign, and says Chinggis held hunting to be the proper training of commanders; hunting also kept Temüjin's abandoned family alive (Secret History)."
+contested = "Pastoralism (horses, sheep, milk) was the economic base; hunting was a supplement and a school of war."
+
+[[bonus]]
+text = "Cavalry Archers attack +25% faster"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Cavalry Archers attack +25% faster (Mongols)"
+basis = "Carpini (1247) says each warrior had to carry two or three bows, or at least one good one, and three large quivers; the Mongols softened the enemy with sustained arrow fire before closing in (May 2007). An abstraction of volume of fire."
+
+[[bonus]]
+text = "Scout Cavalry-line and Steppe Lancers +20/30% HP in Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Scout Cavalry-line and Steppe Lancers +20/30% HP in Castle/Imperial Age (Mongols)"
+basis = "Each rider led several remounts and changed horses on the march, which gave Mongol horsemen exceptional endurance (May 2007); the lancers wore lamellar armour (Carpini)."
+
+[[bonus]]
+text = "Conscription free"
+kind = "military"
+level = 1
+change = "new"
+precedent = "Conscription free (Vietnamese)"
+basis = "In 1206 Chinggis reorganised the steppe peoples into decimal units, 95 thousands (minggan) under named commanders (Secret History §202), so that the whole male population could be mobilised by tens, hundreds and thousands; later censuses of north China (1235–1236), Rus' (1257–1259) and Iran registered men for levy and tax (Allsen 1987)."
+
+[team_bonus]
+text = "Scout Cavalry-line +2 line of sight"
+level = 1
+change = "kept"
+precedent = "Scout Cavalry-line +2 line of sight (Mongols)"
+basis = "Mongol armies advanced behind wide screens of scouts and gathered intelligence from merchants and spies long before a campaign, as before the invasion of Hungary in 1241 (May 2007; Jackson 2005). An abstraction."
+
+[[unique_unit]]
+name = "Mangudai"
+model = "Mangudai"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "Named after the Manggud, who with the Uru'ud formed Chinggis's vanguard against the Kereyid at Qalaqaljit Elet in 1203 (Secret History §170–171); an elite horse archer is a faithful picture of the Mongol core."
+contested = "The modern reading of the Mangudai as a suicide squad has no primary source."
+
+[[unique_unit]]
+name = "Keshik"
+model = "Keshik"
+building = "Castle"
+level = 1
+change = "new"
+basis = "The kheshig, Chinggis's guard, was created in 1204 with day and night guards and quiver-bearers, and expanded to 10,000 men in 1206 (Secret History §191, §224–234); it served as the school of the empire's commanders and governors and survived under the Yuan and the Ilkhans. It was missing from the Mongols and is now shared with the Tatars; the gold earned in combat stands for the booty distributed through the khan's household."
+
+[[unique_tech]]
+name = "Yam"
+age = "Castle"
+effect = "Outposts +3 line of sight and cost no stone; Trade Units move +20% faster"
+level = 1
+change = "new"
+replaces = "Nomads (Lost Houses do not decrease population space)"
+precedent = "Outposts +3 line of sight and cost no stone (Ethiopians team bonus); Caravan: Trade Units move +20% faster (generic tech), with Bloodlines and Caravan effects +50% (Varangians) as precedent for strengthening the trade-speed effect"
+basis = "Ögödei organised the yam, a network of relay stations with fresh horses and supplies, c. 1234–1235; Marco Polo describes posts every 25–30 miles, and holders of a paiza tablet (envoys and licensed ortoq merchants) could claim mounts and lodging (Allsen 1987; A. Silverstein, Postal Systems in the Pre-Modern Islamic World, 2007). Nomads had little effect and caught little of the moving ger camps it alluded to (see N3 idea)."
+
+[[unique_tech]]
+name = "Drill"
+age = "Imperial"
+effect = "Siege Workshop Units move +50% faster"
+level = 1
+change = "kept"
+precedent = "Drill: Siege Workshop Units move +50% faster (Mongols)"
+basis = "The Mongols kept corps of Chinese and Muslim engineers with the army: Hülegü took a thousand households of Chinese artillerists and naphtha-throwers west in 1253 (Juvaini; Rashid al-Din), and engines, ladders and stones were hauled to Nishapur in 1221 by the thousand (Juvaini). A mobile siege train is a fair abstraction."
+contested = "The name is the game's; engines were also built on the spot from local timber and forced labour."
+
+[tree]
+add = ["Hand Cannoneer", "Plate Barding Armor"]
+remove = ["Camel Rider", "Heavy Camel Rider", "Champion"]
+
+[tree.basis]
+"Hand Cannoneer" = "Yuan armies used early metal-barrelled guns: the Heilongjiang hand cannon (made no later than 1288) is linked to the war against Nayan's allies, the Xanadu gun is dated 1298, and ceramic bombs were recovered from the wreck of the 1281 invasion fleet off Takashima (Andrade 2016; R. Sasaki, The Origin of the Lost Fleet of the Mongol Empire, 2015). Contested (see above)."
+"Plate Barding Armor" = "Carpini (1247) describes armour for horses made of leather strips laid in several layers and shaped to the body; the absence of the last horse-armour upgrade contradicted the sources."
+"Camel Rider" = "Bactrian camels carried the Mongols' baggage and dismantled gers; there is no record of camel-mounted combat troops."
+"Heavy Camel Rider" = "As Camel Rider."
+"Champion" = "The Mongol army proper had no heavy infantry; foot soldiers came from subject levies (Chinese, Persian), which the Two-Handed Swordsman still covers."
+
+[architecture]
+set = "East Asian"
+level = 1
+change = "kept"
+basis = "Karakorum's palace and the Yuan capital Dadu were built largely by Chinese craftsmen, and Rubruck describes Karakorum's Chinese and Muslim quarters; a Steppe set would fit the gers and wagon camps better (N3)."
