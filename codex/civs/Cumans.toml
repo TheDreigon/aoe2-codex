@@ -2,44 +2,51 @@ civ = "Cumans"
 name = "Cumans"
 status = "draft"
 label = "Cavalry civilization"
-summary = "The Cuman-Kipchak confederation (c. 1055–1241, with its diaspora to c. 1400) keeps its speed, extra Feudal Town Center, Kipchak, Steppe Husbandry and Cuman Mercenaries; the invented Feudal-Age siege and cheap military buildings give way to ransom and captive-taking and to early feigned-flight tactics, the team bonus becomes the Cuman raiders that neighbouring rulers hired to lay waste their enemies' lands, Bracer and Konchak's great crossbow enter the tree, and camels, Champions, Siege Onagers and the ocean-going fleet leave."
+summary = "The Cuman-Kipchak confederation (1055–1241, with its diaspora to c. 1400) keeps its speed, extra Feudal Town Center, Kipchak, Steppe Husbandry (now the Town Center tech, for the mounted levy of the camps) and Cuman Mercenaries; herding gets its own bonus, the invented Feudal-Age siege and cheap military buildings give way to ransom and captive-taking and to early feigned-flight tactics, the team bonus becomes the Cuman horsemen that neighbouring rulers hired to ravage their enemies' lands, Bracer and Konchak's great crossbows enter the tree, and camels, the Champion, the Siege Onager and Siege Ram and the ocean-going fleet leave."
 ideas = [
-  "N2: Konchak's “living fire” (1184): Scorpions and Mangonels leave burning ground, the effect of the Khitan Mounted Trebuchet's projectiles as a tech.",
+  "N2: Konchak's “living fire” (1184/1185): Scorpions and Mangonels leave burning ground, the effect of the Khitan Mounted Trebuchet's projectiles as a tech.",
   "N3: A kurgan sanctuary with stone ancestor statues replacing the Monastery (Rubruck; S. A. Pletneva, Polovtsy, 1990).",
   "N3: Vezha: wagon-camp walls that can be packed and moved (the vezhi of the Rus' chronicles), instead of the dropped Palisade bonus.",
   "N2: A masked heavy lancer unique unit, after the iron face masks, mail and lamellar from Cuman and Chernye Klobuky kurgans.",
-  "N2: Dynastic marriages: a tech that makes allies' Stable units cheaper (Köten's daughter married Mstislav of Galicia, who fought for him at the Kalka in 1223; Elizabeth the Cuman married Stephen V of Hungary).",
+  "N2: Dynastic marriages, as a tech or a second team bonus that makes allies' Stable units cheaper: in 1107/1108 the daughters of two khans named Aepa married sons of Vladimir Monomakh and Oleg Sviatoslavich (Primary Chronicle), Atrak's daughter Gurandukht married David IV of Georgia, Köten's son-in-law Mstislav of Galicia fought for him at the Kalka (1223), and Elizabeth the Cuman married Stephen V of Hungary.",
   "N2: Captive raids: gold for each enemy Villager killed by mounted units (the slave trade through Sudak).",
   "N3: A “Steppe” architecture set shared with the Avars, Mongols and Tatars.",
 ]
 contested = [
   "Cumans and Kipchaks: one people, two branches of one confederation, or two associated peoples (P. B. Golden).",
   "Origins: the Qun of al-Marwazi (c. 1120), driven west from the Khitan lands, or the Kimek-Kipchak milieu of the Irtysh.",
-  "The extent of Cuman siegecraft: Konchak's engines of 1184 are an isolated record.",
+  "The extent of Cuman siegecraft: they besieged rarely, mostly by blockade (Torchesk, 1093), and Konchak's engines of 1184/1185 are an isolated record.",
+  "Herding and farming: Robert de Clari says the Cumans neither ploughed nor sowed, but S. A. Pletneva's third stage of Polovtsian nomadism (12th century) has fixed winter quarters with some cultivation.",
   "How many Cumans settled in Hungary (Rogerius speaks of some 40,000 families with Köten in 1239) and in Georgia under David IV.",
   "The Cuman, Vlach or Bulgarian origin of the Asen dynasty of Bulgaria (A. Madgearu, The Asanids, 2016).",
+  "The authenticity of the Lay of Igor's Campaign has been challenged (A. A. Zimin; E. L. Keenan, Josef Dobrovský and the Origins of the Igor' Tale, 2003); most scholars accept it (A. A. Zaliznyak, 2004). This design takes its facts from the Hypatian Chronicle.",
 ]
 open_questions = [
-  "The extra Town Center in the Feudal Age is kept as the Cumans' signature, read as a confederation of autonomous hordes, although the analysis rates it stretched (Cumans had few fixed settlements). Keep it, or replace it with a pastoral bonus?",
-  "With the Feudal-Age rams gone, the Cumans destroy buildings from the Castle Age like most civs (rams, Onager, Heavy Scorpion, Trebuchet). Acceptable?",
-  "Navy: the Galleon tier and the Catapult Galleon are removed, keeping War Galley, Fire Ship and War Hulk, as for the Avars and Tatars. Acceptable on water maps?",
-  "The Kipchak is now shared beyond the Cumans (Georgians as a unit; Bulgarians and Lithuanians through Cuman Mercenaries or its renamed copy), and might go to the Tatars too (see Tatars). Is that degree of sharing acceptable for a unique unit?",
+  "Extra Town Center in the Feudal Age: kept as the Cumans' signature, read as a confederation of autonomous hordes, although the analysis rates it stretched (a Town Center is a fixed seat); herding now has its own bonus (Livestock animals last +50% longer). Alternative for a fuller pastoral identity: replace the extra Town Center with “Pastures replace Farms” (Khitans), on Clari's “neither plough nor sow” and the booty lists of 1103. Keep the current pair, or switch?",
+  "Town Center tech: Steppe Husbandry moves there as the community institution the rules ask of a people without a state (RULES 6.3), read as the mounted levy of the camps, an inferred institution. Alternative: a new level-2 Town Center tech for the khans' marriage alliances or for the self-governing Cuman seats in Hungary (Ladislaus IV's Cuman laws, 1279), with Steppe Husbandry back at the Castle. Which?",
+  "Siege: with the Feudal-Age rams, the Siege Onager and the Siege Ram gone, the Cumans destroy buildings in the Castle Age only with the Battering and Capped Ram and the Mangonel-line, and keep the Onager and the Trebuchet as the generic late minimum. Acceptable?",
+  "Regional navy rule (same question in the Avars, Cumans and Tatars files): peoples without a seagoing war fleet keep the Galley-line to War Galley, the Fire Ship, the Hulk-line (the game's generic melee warship) and demolition ships, and lose the Galleon tier and every siege warship, as several other regions' designs now do (e.g. the Khitans, the Malians and the American civs). On water maps coastal buildings then fall only to galleys, demolition ships and landed siege. Keep the rule?",
+  "Kipchak sharing: the unit is now used by the Georgians (as a unit) and, on its model, by the Hindustanis (Ghulam) and the Saracens (Mamluk), and the Bulgarians get free Elite Kipchaks through Cuman Alliance, identical to Cuman Mercenaries, so Cumans and Bulgarians could stack free Kipchaks in team games; the Lithuanians no longer use it, and the Tatars are advised not to take it. Is this degree of sharing acceptable for a unique unit?",
+  "Team bonus: “Scout Cavalry-line +2 attack vs. buildings” is identical to the Lithuanians' new team bonus and close to the Hindustanis' (Scout Cavalry-line and Camel Units), and the Magyars' team-bonus basis also cites the Cuman horse archers at the Marchfeld (1278). Keep it, separated from Cuman Mercenaries as raids versus battles and settlement, or choose another ally-benefit trait? If civs could have two team bonuses, the khans' marriage alliances (see ideas) would be the second.",
+  "Hussar (a 15th-century Hungarian word) is kept as the game-wide name for the top light cavalry. Rename it per civ for the Cumans and Tatars as “Qazaq” (a Turkic word first recorded in the Codex Cumanicus, whose exact sense there is uncertain; later ‘free man, freebooter’, and the source of “Cossack”)?",
+  "Architecture until the N3 Steppe set: Central Asian is kept, the set the game made for its steppe civs, although it draws on Persianate and Timurid brick building; Eastern European (the Rus', Hungarian and Bulgarian settings of the Cumans and their diaspora) is the alternative, as for the Avars. Which?",
 ]
 
 [profile]
 entity = "Cuman-Kipchak confederation (Polovtsy, Kun, Qipchaq) and its diaspora"
-region = "Pontic-Caspian steppe (Desht-i Qipchaq), from the Danube to the Volga; later Hungary, Bulgaria, Georgia and Egypt"
-window = "c. 1055–1241 (diaspora to c. 1400)"
+region = "Desht-i Qipchaq from the Danube to the Irtysh, with the western (Cuman-Polovtsian) branch at the core; later Hungary, Bulgaria, Georgia and Egypt"
+window = "1055–1241 (diaspora to c. 1400)"
 sources = [
   "Russian Primary Chronicle (Povest' vremennykh let)",
   "Hypatian Chronicle (Kievan and Galician-Volhynian chronicles)",
-  "The Lay of Igor's Campaign",
   "Anna Komnene, Alexiad",
   "Robert de Clari, The Conquest of Constantinople",
   "Geoffroy de Villehardouin, The Conquest of Constantinople",
-  "Rogerius, Carmen miserabile (1241)",
+  "Rogerius, Carmen miserabile (c. 1244)",
   "Life of David, King of Kings (Kartlis Tskhovreba)",
+  "Ibn al-Athir, The Complete History (al-Kamil fi al-tarikh)",
   "Codex Cumanicus (early 14th century)",
+  "The Lay of Igor's Campaign (authenticity debated)",
   "P. B. Golden, An Introduction to the History of the Turkic Peoples (1992); Nomads and Sedentary Societies in Medieval Eurasia (1998)",
   "I. Vásáry, Cumans and Tatars: Oriental Military in the Pre-Ottoman Balkans, 1185–1365 (2005)",
   "S. A. Pletneva, Polovtsy (1990)",
@@ -53,7 +60,8 @@ level = 1
 change = "kept"
 precedent = "One additional Town Center can be built in Feudal Age (Cumans)"
 basis = "The Cumans were a confederation of autonomous hordes, each under its own khan (Sharukan, Boniak, Konchak, Köten) with its own camps and winter quarters; the Rus' chronicles even name Polovtsian “towns”, Sharukan and Sugrov, taken in 1111. An extra early centre stands for this dispersed, many-headed polity."
-contested = "A Town Center is a fixed seat, and the Cumans had few permanent settlements (Sharukan and Sugrov probably housed settled non-Cumans as well); the analysis rates the bonus stretched."
+relevance = "The Cumans never formed a state: hordes under their own khans acted separately, which made them formidable raiders and sought-after allies but unable to meet the Mongols together."
+contested = "A Town Center is a fixed seat, and the Cumans had few permanent settlements (Sharukan and Sugrov probably housed settled non-Cumans as well); the analysis rates the bonus stretched (see open questions)."
 
 [[bonus]]
 text = "Mounted Units move +5/10/15% faster in Feudal/Castle/Imperial Age"
@@ -61,7 +69,18 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Mounted Units move +5/10/15% faster in Feudal/Castle/Imperial Age (Cumans)"
-basis = "Robert de Clari says each Cuman had ten or twelve horses that followed him, and that they rode in a day and a night what took others several days; Boniak's raid reached the gates of Kiev in 1096 (Primary Chronicle). It also stands in for Husbandry, which the Cumans lack."
+basis = "Robert de Clari (ch. 65) says each Cuman had ten or twelve horses that followed him, and that they rode in a day and a night what took others several days; Boniak's raid reached the gates of Kiev in 1096 (Primary Chronicle). It also stands in for Husbandry, which the Cumans lack."
+relevance = "Speed and surprise were the Cumans' main weapons in two centuries of raids on Rus', Byzantium and Hungary."
+
+[[bonus]]
+text = "Livestock animals last +50% longer"
+kind = "economic"
+level = 1
+change = "new"
+precedent = "Livestock animals last +50% longer (Tatars)"
+basis = "Herding was the Cuman economy: Robert de Clari (ch. 65) says they neither ploughed nor sowed, lived in felt tents and fed on milk, cheese and meat, and the Rus' chronicles list the cattle, sheep, horses and camels taken in the Polovtsian camps (vezhi) in 1103 (Primary Chronicle). Shared with the Tatars, whose Qipchaq subjects were the same pastoralists after 1241."
+relevance = "Herds were the Cumans' wealth and food, and the target of every Rus' campaign into the steppe."
+contested = "S. A. Pletneva's third stage of Polovtsian nomadism (12th century) has fixed winter quarters with some cultivation."
 
 [[bonus]]
 text = "Mounted Units generate +3 gold when defeating military units"
@@ -70,7 +89,8 @@ level = 1
 change = "new"
 replaces = "Archery Ranges and Stables cost -75 wood"
 precedent = "Mounted Units generate +3 gold when defeating military units (Mapuche)"
-basis = "Prisoners were wealth: the princes captured with Igor Sviatoslavich in 1185 were held in the Polovtsian camps for ransom, Igor himself escaping (Hypatian Chronicle; the Lay of Igor's Campaign), Rus' captives were driven into the steppe after the Polovtsian victory of 1093 (Primary Chronicle), and Kipchak captives and slaves were sold through Sudak in the Crimea, the trade that later filled the Mamluk regiments of Egypt (Golden 1992). The wood discount on military buildings had no historical link."
+basis = "Prisoners were wealth: the princes captured with Igor Sviatoslavich in 1185 were held in the Polovtsian camps for ransom, Igor himself escaping (Hypatian Chronicle), and Rus' captives were driven into the steppe after the Polovtsian victory of 1093 (Primary Chronicle); Ibn al-Athir describes Sudak in the Crimea as the Kipchaks' port, where slaves and furs were exchanged for cloth (Golden 1992). The wood discount on military buildings had no historical link."
+relevance = "Captives and ransom were a main source of Cuman wealth and drove the raids that defined their relations with Rus' and Byzantium."
 contested = "An abstraction: ransom and the slave trade concerned civilians as much as soldiers."
 
 [[bonus]]
@@ -80,7 +100,8 @@ level = 1
 change = "new"
 replaces = "Siege Workshop and Battering Ram available in Feudal Age; Capped Ram available in Castle Age"
 precedent = "Parthian Tactics available in Castle Age (Persians)"
-basis = "Feigned flight, shooting backwards and ambush were the Cumans' hallmark: at Adrianople (1205) Kaloyan's Cuman horse archers lured the Latin knights into a pursuit and destroyed them (Villehardouin; Robert de Clari), and Byzantine and Rus' writers describe the same tactics. The Feudal-Age siege bonus had no basis: the Cumans raided and did not besiege, and Konchak's engines of 1184 are an isolated case."
+basis = "Feigned flight, shooting backwards and ambush were the Cumans' hallmark: at Adrianople (1205) Kaloyan's Cuman horse archers lured the Latin knights into a pursuit and destroyed them (Villehardouin; Robert de Clari), and Byzantine and Rus' writers describe the same tactics. The Feudal-Age siege bonus had no basis: the Cumans besieged rarely, and mostly by blockade (Torchesk, 1093), and Konchak's engines of 1184/1185 are an isolated case."
+relevance = "The feigned retreat was the Cumans' signature tactic and decided their best-known victory, Adrianople (1205)."
 
 [team_bonus]
 text = "Scout Cavalry-line +2 attack vs. buildings"
@@ -88,7 +109,8 @@ level = 1
 change = "new"
 replaces = "Palisade Walls +33% HP"
 precedent = "Scout Cavalry-line and Camel Units +2 attack vs. buildings (Hindustanis team bonus)"
-basis = "Neighbouring rulers hired Cuman horsemen above all to lay waste their enemies' lands: Oleg Sviatoslavich brought the Polovtsy against his Rus' rivals (1078, 1094), which earned him the name Gorislavich in the Lay of Igor's Campaign, and Kaloyan's Cumans ravaged Byzantine and Latin Thrace (1205–1206; Villehardouin). The Palisade bonus had no Cuman basis; their wagon camps (vezhi) are an N3 idea."
+basis = "Neighbouring rulers often hired Cuman horsemen to lay waste their enemies' lands: Oleg Sviatoslavich brought the Polovtsy against his Rus' rivals in 1078 and 1094 (Primary Chronicle), and Kaloyan's Cumans ravaged Byzantine and Latin Thrace in 1205–1206 (Villehardouin). The team bonus stands for these raids on an ally's behalf; Cuman contingents in pitched battle and Cuman settlement abroad belong to Cuman Mercenaries. RULES 6.2: a benefit to allies. The Palisade bonus had no Cuman basis; their wagon camps (vezhi) are an N3 idea."
+relevance = "For two centuries Rus', Bulgarian and Hungarian rulers used Cuman raiders as a weapon in their own wars."
 
 [[unique_unit]]
 name = "Kipchak"
@@ -97,26 +119,35 @@ building = "Castle"
 level = 1
 change = "kept"
 basis = "The horse archer was the core of every Cuman army; Qïpčaq is the people's own name in Muslim and Turkic sources (the Codex Cumanicus records their language). The volley of several arrows abstracts massed fire."
+relevance = "The mounted archer was the Cuman warrior, the reason neighbours sought the Cumans as allies and feared them as raiders."
 contested = "The unit bears an ethnonym rather than a type of warrior."
 
 [[unique_tech]]
 name = "Steppe Husbandry"
+building = "Town Center"
+kind = "military"
 age = "Castle"
 effect = "Scout Cavalry-line, Steppe Lancers and Cavalry Archers train +100% faster"
 level = 1
-change = "kept"
-precedent = "Steppe Husbandry: Scout Cavalry-line, Steppe Lancers and Cavalry Archers train +100% faster (Cumans)"
-basis = "Every adult man was a trained rider with many remounts (Robert de Clari), so whole hordes could be mounted and set in motion at once."
+change = "changed"
+replaces = "Steppe Husbandry (Castle unique tech, same effect)"
+precedent = "Steppe Husbandry: Scout Cavalry-line, Steppe Lancers and Cavalry Archers train +100% faster (Cumans): moved to the Town Center, identical effect"
+basis = "Each Cuman led ten or twelve horses trained to follow him (Robert de Clari, ch. 65), so that a whole horde could be mounted and set in motion at once (an inference); the camp, with its families, herds and wagons, was the unit from which the riders turned out. For a people without a state the Town Center tech stands for a community institution (RULES 6.3): here the mounted levy of the camps. Its speed of mobilisation is distinct from the speed on the march that the movement bonus covers."
+relevance = "The ability of every camp to put its men on horseback at once let the Cumans raise raids and allied contingents at short notice."
+contested = "As an institution the camp levy is inferred rather than documented (RULES 6.3: a weak basis, said openly)."
 
 [[unique_tech]]
 name = "Cuman Mercenaries"
+building = "Castle"
+kind = "military"
 age = "Imperial"
 effect = "All team members can train 5 free Elite Kipchaks per Castle"
 level = 1
 change = "kept"
 precedent = "Cuman Mercenaries: All team members can train 5 free Elite Kipchaks per Castle (Cumans)"
-basis = "Cumans served or settled as allies across Eastern Europe: Tugorkan and Boniak at Levounion for Alexios I (1091), the Kipchak families David IV settled in Georgia (c. 1118–1120), Köten's people in Hungary (1239), the allies of the Asen tsars, and Hungarian Cumans at the Marchfeld (1278)."
-contested = "The Kipchaks who ruled Mamluk Egypt came as slave-soldiers, not as mercenaries."
+basis = "Cumans fought in pitched battle and settled as allies across Eastern Europe: Tugorkan and Boniak at Levounion for Alexios I (1091; Anna Komnene), the Kipchak families David IV settled in Georgia (c. 1118–1120), who fought at Didgori (1121), the allies of the Asen tsars from 1186 to Adrianople (1205), Köten's people in Hungary (1239) and the Hungarian Cumans at the Marchfeld (1278)."
+relevance = "Service and settlement among their neighbours carried Cuman history beyond 1241 and shaped the armies of Georgia, Bulgaria and Hungary."
+contested = "The Kipchaks who ruled Mamluk Egypt came as slave soldiers, not as mercenaries."
 
 [tree]
 add = ["Bracer", "Heavy Scorpion"]
@@ -124,14 +155,14 @@ remove = ["Siege Onager", "Siege Ram", "Camel Rider", "Champion", "Galleon", "Fa
 
 [tree.basis]
 "Bracer" = "A horse-archer people without the last archery upgrade contradicted its identity; Byzantine, Rus' and Hungarian sources describe Cuman archery, feigned flight and ambush."
-"Heavy Scorpion" = "In 1184 Konchak marched on Rus' with a crossbow so large that fifty men could barely span it, and with a Muslim who shot “living fire” (Hypatian Chronicle); a heavy bolt-thrower fits the record better than early rams."
-"Siege Onager" = "The Cumans had no tradition of heavy siege artillery; the Onager remains."
+"Heavy Scorpion" = "In 1184/1185 Konchak advanced on Rus' with crossbows so stiff that fifty men could barely draw them, and with a Muslim who shot “living fire”; both were lost on the Khorol (1 March 1185; Hypatian Chronicle). A heavy bolt-thrower fits this record better than early rams."
+"Siege Onager" = "The Cumans had no siege train of their own and besieged mostly by blockade, so the top siege tiers are cut; the Onager, the Capped Ram and the Trebuchet remain as the generic minimum the civ needs to destroy buildings (RULES 6.11)."
 "Siege Ram" = "As Siege Onager; the Capped Ram remains."
 "Camel Rider" = "The Rus' chronicles list camels among the booty taken in Polovtsian camps (for example in 1103), as pack animals, not cavalry."
 "Champion" = "The Cumans fought almost entirely on horseback; the Two-Handed Swordsman remains for allied or subject foot."
-"Galleon" = "The Cumans had no war fleet; they keep a basic river and coastal navy (Galley-line to War Galley, Fire Ship, War Hulk)."
+"Galleon" = "The Cumans had no war fleet; they keep a basic river and coastal navy: Galley-line to War Galley, Fire Ship, the Hulk-line as the game's generic melee warship, and demolition ships."
 "Fast Fire Ship" = "As Galleon."
-"Carrack" = "As Galleon; the carrack is a late-medieval Latin ship type."
+"Carrack" = "As Galleon: no ocean-going ships."
 "Galleon, Fast Fire Ship and Carrack" = "Nothing left to upgrade once the three ships are removed."
 "Catapult Galleon" = "No Cuman ship-borne artillery; this siege warship, given to several non-seafaring civs, has no basis here."
 
@@ -139,4 +170,4 @@ remove = ["Siege Onager", "Siege Ram", "Camel Rider", "Champion", "Galleon", "Fa
 set = "Central Asian"
 level = 1
 change = "kept"
-basis = "The Cumans built little beyond tents, wagons and kurgan sanctuaries with stone statues; Central Asian is the nearest steppe-world set until a Steppe set exists (N3)."
+basis = "The Cumans built little beyond tents, wagons and kurgan sanctuaries with stone statues; Central Asian, the set the game made for its steppe civs, is kept as a stopgap until a Steppe set exists (N3), although it draws on Persianate and Timurid brick building (see open questions)."
