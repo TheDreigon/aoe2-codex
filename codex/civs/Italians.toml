@@ -2,7 +2,7 @@ civ = "Italians"
 name = "Italians"
 status = "draft"
 label = "Archer and Naval civilization"
-summary = "Italians as the communes and maritime republics (1000–1494): the Genoese Crossbowman stays and becomes the team's mercenary, the Condottiero gives way to the Condotta, Silk Road becomes the Commenda, the commune takes the Town Center, the Arsenal of Venice comes to the Dock, banking replaces fishing, the Hussar becomes the Stradiot and the Mounted Crossbowman leaves the tree."
+summary = "Italians as the communes and maritime republics (1000–1494): the Genoese Crossbowman stays and becomes the team's mercenary, the Condottiero gives way to the Condotta, Silk Road becomes the Commenda, the commune takes the Town Center, the Arsenal of Venice comes to the Dock, banking replaces fishing, the Hussar becomes the Stradiot, and the Mounted Crossbowman and the Cannon Galleon leave the tree."
 ideas = [
   "N2: A heavy-cavalry unit of its own for the lance of the condotte (a man-at-arms in Milanese plate, paid almost only in gold and trainable by allies), instead of borrowing a model; the analysis proposes it for the Condottiero.",
   "N2: Carroccio: a slow, non-combat wagon giving armour to nearby infantry with the Centurion's aura mechanism, for the Milanese carroccio at Legnano (1176) and Cortenuova (1237).",
@@ -168,14 +168,16 @@ contested = "No document fixes the foundation in 1104, which is a later traditio
 
 [tree]
 add = ["Halberdier", "Siege Engineers"]
-remove = ["Mounted Crossbowman", "Thumb Ring", "Siphons", "Incendiaries"]
+remove = ["Mounted Crossbowman", "Thumb Ring", "Siphons", "Incendiaries", "Cannon Galleon", "Elite Cannon Galleon"]
 
 [tree.basis]
 "Halberdier" = "Communal infantry with polearms was decisive in medieval Italy: the Milanese foot held around the carroccio against Barbarossa's knights at Legnano (1176), and Italian polearms (roncone, partisan) were widespread; in the game 43 of the 56 civs have it, but not the Italians."
 "Siege Engineers" = "Italy's military engineering (Taccola, Francesco di Giorgio Martini) was exported across Europe: the Bolognese Aristotele Fioravanti built the Dormition Cathedral in Moscow and served Ivan III as master of artillery after 1475. Its absence contradicted the civ's own University bonus."
 "Thumb Ring" = "The Thumb Ring is given where the thumb draw is attested for a civ's own archers or for an archery tradition its armies demonstrably used (the steppe, Islamic and East Asian traditions); civs whose archers used the European draw, or whose missile troops were crossbowmen, do not get it. The Italian states do not: their archers used the European draw and their missile troops the crossbow (see the Genoese Crossbowman) (RULES 6.16.4)."
-"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ. The Italians keep the fleet-of-ships tier (RULES 6.16.1): the war galleys of Venice, Genoa and Pisa and the round ships of their merchant fleets (Lane, 1973; Epstein, 1996). The Cannon Galleon and its Elite upgrade stay on thinner ground: Florence ordered metal cannon in 1326, and the Venetians used bombards in the war of Chioggia (1378–1381), a war of galleys and boats fought in and around the lagoon (see the gunpowder passive), but this design does not yet cite a source for guns mounted on an Italian warship before 1494, which RULES 6.16.1 asks for. They are flagged as a weakly grounded abstraction, and leave the tree if no such source is found."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ. The Italians keep the fleet-of-ships tier (RULES 6.16.1): the war galleys of Venice, Genoa and Pisa and the round ships of their merchant fleets (Lane, 1973; Epstein, 1996)."
 "Incendiaries" = "Requires Siphons, which this design removes."
+"Cannon Galleon" = "RULES 6.16.1 keeps the Cannon Galleon only where gun-armed warships are documented inside the window. The Italian states adopted guns early on land: Florence ordered metal cannon in 1326, and the Venetians used bombards in the war of Chioggia (1379–1380) (see the gunpowder passive). But the sources used for this design record no guns aboard an Italian warship before 1494, and an inference from the land guns does not meet the rule, so the line is removed. Nothing the civ needs to play is lost (RULES 6.11): at sea the Galley and Fire Ship lines keep the anti-ship role, and on land the Bombard Cannon and the Trebuchet keep the anti-building role; no substitute siege warship is added."
+"Elite Cannon Galleon" = "Same reason as the Cannon Galleon."
 "Mounted Crossbowman" = "Shared basis (level-1 review, section 3.2): the Mounted Crossbowman line stays only where shooting from the saddle is documented. Mounted crossbowmen (balestrieri a cavallo) were a regular part of the armies of Milan and Venice in the 15th century (Mallett, 1974; the level-1 analysis rates them plausible), but no source found for this design shows them shooting from the saddle rather than riding to the fight and shooting on foot. Removed; the line returns if a source shows Italian crossbowmen shooting from horseback. Nothing the civ needs to play is lost (RULES 6.11): the Genoese Crossbowman and the foot Archer line keep the missile role, the Stradiot and the Light Cavalry the light-horse role."
 
 [[rename]]
