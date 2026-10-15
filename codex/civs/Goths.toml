@@ -2,7 +2,7 @@ civ = "Goths"
 name = "Goths"
 status = "draft"
 label = "Cavalry and Infantry civilization"
-summary = "Goths redefined as the Visigothic (418–711) and Ostrogothic (493–553) kingdoms, Roman successor states rather than a ‘barbarian horde’: the bowless Gothic Lancer (Leitis model, weak vs archers as in Procopius), lance cavalry, Leovigild's royal host (Comitatenses renamed) and a federate team bonus replace the cheap infantry flood; the Liber Iudiciorum (Forced Levy renamed) becomes the Town Center tech for the code's levy laws; Roman towns, estates and building carry the economy; walls and the Siege Ram come in, and the anachronistic gunpowder, horse archers, counterweight Trebuchet, Hussar, late warships, Huskarl, Anarchy and Perfusion leave."
+summary = "Goths redefined as the Visigothic and Ostrogothic kingdoms (418–711): the bowless Gothic Lancer, lance cavalry, Leovigild's Host and a federate team bonus replace the infantry flood, the Liber Iudiciorum is the Town Center tech, and gunpowder, horse archers and the Trebuchet leave."
 ideas = [
   "N2: Two mutually exclusive Monastery techs, ‘Homoian Church’ and ‘Third Council of Toledo’ (589): Arian loyalty (Heresy free, stronger Monks) or Catholic conversion (Atonement and Redemption, cheaper Monastery techs).",
   "N2: Morbus Gothorum, Fredegar's ‘disease of the Goths’ of deposing their kings (IV.82): an elective-kingship mechanic, for example a choice at each Age between a bonus and the risk of a usurpation.",
@@ -20,12 +20,15 @@ contested = [
 ]
 open_questions = [
   "Unit name: ‘Gothic Lancer’ is descriptive, since no Gothic word for a lancer is attested; gardingi and buccellarii were royal or private retainers, not a troop type. Keep it, or use a Latin term?",
-  "Remaining late-antiquity anachronisms: under the regional rule for late tiers (see the Norwegians' open questions) the Carrack, Fast Fire Ship, demolition ships and Hussar now leave, as the counterweight Trebuchet does (with the Siege Ram as substitute); the Galleon, Champion, Halberdier, Petard, Plate Mail Armor and the torsion engines (Mangonel and Scorpion lines) stay as generic abstractions. Remove more in N1, or wait for the N3 late-antiquity ceiling in the ideas?",
-  "Liber Iudiciorum shares the Malay Forced Levy, which the Saxons' draft also renames (Fyrd): three holders of one effect, all for compulsory levies. Accept the repetition?",
+  "Remaining late-antiquity anachronisms: the Hussar and the counterweight Trebuchet leave (the Siege Ram substitutes for the Trebuchet; see CQ7), while the Champion, Halberdier, Plate Mail Armor and the torsion engines (Mangonel and Scorpion lines) stay as generic abstractions, and the Galleon, Carrack, Fast Fire Ship, demolition ships, Petard and Heated Shot stay as flagged abstractions under the codex navy rule and the rule for generic post-1500 items (CQ1, CQ2). Remove more in N1, or wait for the N3 late-antiquity ceiling in the ideas?",
   "Theodoric's thousand dromons (Cassiodorus, Variae V.16–17) are represented only by keeping the regional Dromon; add a Dromon cost bonus instead of one of the economic bonuses?",
   "Team bonus: Gothic Lancers at the Castle for allies in the Imperial Age, within the precedents of the Condottiero, the Genitour and Cuman Mercenaries; the ‘unit for allies’ pattern is also the team bonus of the Berber, Italian, Maya and Tupi drafts. Keep it, or choose another federate effect?",
-  "Power budget: against the current Goths, the design loses the infantry discount, infantry attack against buildings, the hunting bonus, +10 population, instant Loom, the Huskarl, Anarchy, Perfusion, gunpowder, the horse archers, the counterweight Trebuchet, the Hussar and the late warships, and gains lance cavalry (Knight-line +1 attack vs. Infantry and the Gothic Lancer), cheaper Town Centers and Farms, free Masonry and Architecture, walls and towers, Plate Mail Armor, Heresy and the Siege Ram, with Leovigild's Host and the Liber Iudiciorum as unique techs (4 passives + 2 techs). Leovigild's Host gives the Comitatenses charge one age earlier than the game does, and the Sicilians' draft asks for one policy on this charge across civs; Plate Barding Armor, added in the previous draft for a gameplay reason only, is no longer added. Acceptable, or return Leovigild's Host to the Imperial Age?",
-  "Third tech: the conversion of the Visigoths at the Third Council of Toledo (589) would pass the relevance test easily and could take a third slot at the Monastery now (a new tech, level 2), ahead of the N2 choice between Arian and Catholic techs in the ideas. Add it?",
+  "Power budget: against the current Goths, the design loses the infantry discount, infantry attack against buildings, the hunting bonus, +10 population, instant Loom, the Huskarl, Anarchy, Perfusion, gunpowder, the horse archers, the counterweight Trebuchet, the Hussar, Siphons and Incendiaries, and gains lance cavalry (Knight-line +1 attack vs. Infantry and the Gothic Lancer), cheaper Town Centers and Farms, free Masonry and Architecture, walls and towers, Plate Mail Armor, Heresy and the Siege Ram, with Leovigild's Host and the Liber Iudiciorum as unique techs (4 passives + 2 techs). Both techs come in the Imperial Age, Leovigild's Host keeping the age of the game's Comitatenses, so the Goths have no unique tech in the Castle Age (see the third-tech question); Plate Barding Armor, added in the previous draft for a gameplay reason only, is no longer added. Acceptable?",
+  "Third tech: the conversion of the Visigoths at the Third Council of Toledo (589) would pass the relevance test easily and could take a third slot at the Monastery now (a new tech, level 2), ahead of the N2 choice between Arian and Catholic techs in the ideas; as a Castle Age tech it would also give the Goths a unique tech in that age, which they now lack. Add it?",
+  "Codex-wide question CQ10 (see codex/civs/README.md): Ages of reused effects.",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking.",
+  "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege.",
+  "Codex-wide question CQ19 (see codex/civs/README.md): Labels.",
 ]
 
 [profile]
@@ -88,7 +91,7 @@ basis = "The Gothic kings built in the Roman manner: Theodoric's palace, churche
 relevance = "Gothic rule kept Roman building alive in Italy and Hispania; Theodoric's Ravenna is the kingdoms' best-known monument."
 
 [team_bonus]
-text = "Gothic Lancer (non-Elite) available at the Castle in Imperial Age"
+text = "Gothic Lancer (without the Elite upgrade) available at the Castle in Imperial Age"
 level = 1
 change = "new"
 replaces = "Barracks work +20% faster"
@@ -111,11 +114,11 @@ contested = "The Leitis model is not used elsewhere in the drafts (the Lithuania
 name = "Leovigild's Host"
 building = "Castle"
 kind = "military"
-age = "Castle"
+age = "Imperial"
 effect = "Militia-line and Knight-line train +50% faster and receive a charge attack"
 level = 1
 change = "new"
-precedent = "Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack) (Romans, out of scope): shared and renamed, identical in play (the Goths have no Centurions), and moved from the Imperial to the Castle Age because Leovigild's reign (568/569–586) comes before the 7th-century levy laws of the Imperial Age Town Center tech"
+precedent = "Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack) (Romans, out of scope): shared and renamed, identical in play (the Goths have no Centurions) and in age"
 basis = "Leovigild made the Visigothic kingdom a peninsular state by war: John of Biclaro records a campaign almost every year from 570, against the Byzantine south and rebel Córdoba (570–572), Cantabria (574), the revolt of his son Hermenegild (579–584), the Basques (581) and the Suevic kingdom, which he annexed (585). Isidore says he enlarged the realm by war and was the first Gothic king to sit on a throne in royal dress (Historia Gothorum 49–51), and he was the first to strike gold coins in his own name (Collins 2004). Faster training renders the royal host called out year after year, and the charge the Visigothic horse, which trusted most in the swift charge (Historia Gothorum 70); the Militia-line charge is a game abstraction with no Gothic evidence. Royal and military, so at the Castle (RULES 6.2)."
 relevance = "Leovigild's campaigns united Hispania under Toledo and gave the Visigothic kingship its throne, regalia and coinage; the Visigothic Spain of later memory begins with him."
 contested = "Isidore's portrait of an Arian king is partisan (see the civ-level notes)."
@@ -136,7 +139,7 @@ contested = "Whether the thiufa was a field unit or an administrative frame, and
 
 [tree]
 add = ["Stone Wall", "Gate", "Guard Tower", "Fortified Wall", "Plate Mail Armor", "Heresy", "Siege Ram"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry Archer", "Hussar", "Trebuchet", "Carrack", "Fast Fire Ship", "Demolition Raft", "Demolition Ship", "Heavy Demolition Ship", "Siphons", "Incendiaries"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry Archer", "Hussar", "Trebuchet", "Siphons", "Incendiaries"]
 
 [tree.basis]
 "Stone Wall" = "Theodoric restored the walls of Rome and other cities (Anonymus Valesianus 67; Cassiodorus, Variae), Leovigild founded walled Reccopolis (578), and Toledo, Septimania and the Pyrenean passes had Visigothic fortifications; a wall-less ‘nomad’ tree is the barbarian stereotype."
@@ -150,15 +153,16 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry A
 "Bombard Cannon" = "As for the Hand Cannoneer."
 "Cavalry Archer" = "Belisarius explained his victories by the Goths' lack of mounted archers: their horsemen used only spears and swords and their bowmen fought on foot (Procopius, Wars V.27)."
 "Heavy Cavalry Archer" = "As for the Cavalry Archer."
-"Hussar" = "Hungarian and Serbian light cavalry of the 15th century, eight centuries after the Gothic kingdoms; Light Cavalry stays (regional rule for late tiers, see the Norwegians' open questions)."
+"Hussar" = "Hungarian and Serbian light cavalry of the 15th century, eight centuries after the Gothic kingdoms; Light Cavalry stays."
 "Trebuchet" = "The counterweight trebuchet appears in the 12th century, five centuries after the Gothic kingdoms, and the Goths were notoriously poor besiegers (Fritigern ‘at peace with walls’, Ammianus 31.6.4). The Mangonel and Scorpion lines stay only as generic abstractions: at Vitiges' siege of Rome (537) the torsion engines stood on the walls, on Belisarius' side (Procopius, Wars V.21), and the Goths' own engines, rams and towers, are rendered by the Siege Ram."
-"Carrack" = "A 15th-century ship type; Theodoric's fleet was of dromons (Cassiodorus, Variae V.16–17), kept as the regional Dromon, and the Galleon stays as the engine's generic Imperial Age warship (regional rule for late tiers)."
-"Fast Fire Ship" = "No Gothic fire ships are known; the Fire Galley and Fire Ship stay as generic early warships, without the top upgrade (regional rule for late tiers)."
-"Demolition Raft" = "Explosive ships are an early modern device (the Antwerp ‘hellburners’ of 1585), with no Gothic counterpart (regional rule for late tiers)."
-"Demolition Ship" = "Same as the Demolition Raft."
-"Heavy Demolition Ship" = "Same as the Demolition Raft."
 "Siphons" = "The fire siphon was a Byzantine invention of c. 672 and a state secret (De Administrando Imperio 13), after the Ostrogoths and never shared with the Visigoths."
-"Incendiaries" = "No incendiary or exploding ships are attested in Gothic fleets; the demolition ships leave for the same reason."
+"Incendiaries" = "Requires Siphons, which this design removes."
+
+[[rename]]
+from = "Elite Leitis"
+to = "Elite Gothic Lancer"
+level = 1
+basis = "Follows the unique unit (Leitis → Gothic Lancer), for the Goths only; the Lithuanians' design drops the Leitis."
 
 [architecture]
 set = "Mediterranean"

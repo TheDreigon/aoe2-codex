@@ -3,7 +3,7 @@ name = "Swedes"
 original_name = "Varangians"
 status = "draft"
 label = "Cavalry and Naval civilization"
-summary = "Varangians renamed Swedes (owner's decision) and widened to Sweden from Vendel-period Uppland to the struggle with the Kalmar Union (c. 500–1500): the Jarl, Vendel Legacy, the Bloodlines and Caravan bonus, fur-hunting gold and the Longship bonus stay; the Varangian Guard stays with the Byzantines, so its bonus and Gothikon leave; the Alsnö statute becomes the Town Center tech (Szlachta Privileges renamed), Swedish copper and iron carry the team bonus and the armed peasantry a new passive; Champion, Arbalester and Keep come in, and the Hussar, the mounted crossbows, the Carrack, the fire-ship upgrades and the Catapult Galleon leave."
+summary = "Varangians renamed Swedes (500–1500): fur-hunting gold, the Jarl and Vendel Legacy stay, the Varangian Guard stays Byzantine, so its bonus and Gothikon leave, Alsnö Stadga becomes the Town Center tech, Swedish iron and copper carry the team bonus, and an armed peasantry gets a new passive."
 ideas = [
   "N2: An armed trading fellowship (félag, named on runestones) as a Market unit that carries gold like a Trade Cart but fights back, for the merchant-warriors of Birka and Gotland.",
   "N2: Kopparberget, a Mining Camp tech for the Falun copper mine (share letter of 1288; Magnus Eriksson's charter of 1347), if the team bonus ever goes to another trait.",
@@ -21,15 +21,15 @@ contested = [
 ]
 open_questions = [
   "Unit name: the Jarl keeps its name for its fame and because the Rígsþula makes Jarl the ancestor of the warrior nobility; in medieval Sweden, though, jarl was one office of state (Birger Jarl). Rename it after the mounted frälse (for example ‘Frälseman’)?",
-  "Vendel Legacy is kept on fame and as the civ's oldest identity: it names a period, not a reform, and its trample is inferred from display art. The alternative is a datable military moment at the Castle, for example an Imperial Age tech for the peasant armies of Engelbrekt and the Stures (1434–1471), with the armed-villager passive re-based on the weapon laws (folkvapen) alone and the Vendel horses left to Bloodlines. Keep Vendel Legacy?",
-  "Power budget: the Swedes lose the Varangian Guard and its bonus, Gothikon, the shepherd and fishing gold, the Hussar, the mounted crossbow line, the Carrack and the fire-ship upgrades, and gain Champion, Arbalester, Keep, Gold Shaft Mining, Sanctity, the Alsnö statute and the armed-villager passive; the late economy rests on trade and on the gold the statute saves on knights. The tree has no gunpowder: guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania) and stood in the castles of the Union wars, so a late gunpowder item would not contradict the history, but no specific Swedish case could be checked for this design, while the Danes' guns rest on cases at and after 1500 (Hemmingstedt, Gribshunden, Bogesund). Acceptable as it is, or add the Bombard Cannon (or the Hand Cannoneer) in the Imperial Age?",
+  "Vendel Legacy is kept for the mounted elite of the formative age of the Svear kingship, but it names a period, not a reform, and its trample is inferred from display art. The alternative is a datable military moment at the Castle, for example an Imperial Age tech for the peasant armies of Engelbrekt and the Stures (1434–1471), with the armed-villager passive re-based on the weapon laws (folkvapen) alone and the Vendel horses left to Bloodlines. Keep Vendel Legacy?",
+  "Power budget: the Swedes lose the Varangian Guard and its bonus, Gothikon, the shepherd and fishing gold, the Hussar, the mounted crossbow line, Siphons, Incendiaries and the Catapult Galleon, and gain Champion, Arbalester, Keep, Gold Shaft Mining, Sanctity, Alsnö Stadga and the armed-villager passive; the late economy rests on trade and on the gold the statute saves on knights. The tree has no gunpowder: guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania) and stood in the castles of the Union wars, so a late gunpowder item would not contradict the history, but no specific Swedish case could be checked for this design, while the Danes' guns rest on cases at and after 1500 (Hemmingstedt, Gribshunden, Bogesund). Acceptable as it is, or add the Bombard Cannon (or the Hand Cannoneer) in the Imperial Age?",
   "Architecture: as for the Danes, the Northern European set renders the timber halls of the Viking age, while the late kingdom built in brick Gothic (Uppsala Cathedral, consecrated 1435). Keep the set, reassign Central European (N1), or wait for an N3 set?",
 ]
 
 [profile]
 entity = "The Swedes (Svear and Götar): the Svear kingship of Uppland, the eastern ventures of the Viking Age and the medieval kingdom of Sweden"
 region = "The Mälaren region and Uppland, Götaland and, from the 13th century, Finland; with the Viking-age routes across the eastern Baltic (Grobiņa, Salme, Staraya Ladoga) and Gotland in its Viking-age role"
-window = "c. 500–1500"
+window = "500–1500 (the bounds of the time frame: Vendel-period Uppland to the struggle with the Kalmar Union)"
 sources = [
   "Tacitus, Germania 44 (c. 98; background before the window)",
   "Jordanes, Getica (551)",
@@ -116,11 +116,11 @@ level = 1
 change = "kept"
 precedent = "Vendel Legacy (Knight-line deals trample damage) (Varangians)"
 basis = "The helmets from the boat graves of Vendel and Valsgärde in Uppland (from c. 550), which gave the Vendel period its name, carry plates with riders armed with lances, some riding down a fallen foe, a motif taken from Roman cavalry tombstones and also seen at Sutton Hoo. The trample renders the charge of the mounted elite as its own art shows it; it is an inference from display art."
-relevance = "Passes on fame and as the civ's oldest identity rather than on weight: the Vendel period is the formative age of the Svear kingship centred on Old Uppsala, and its helmets are among the best-known finds of early medieval Scandinavia; the tech names a period, not a reform (see open questions)."
+relevance = "Passes on weight: the mounted elite buried with horses, helmets and weapons in the boat graves of Vendel and Valsgärde (c. 550–800) is the warrior aristocracy of the formative age of the Svear kingship centred on Old Uppsala; the tech names that age rather than a reform (see open questions)."
 contested = "The iconography is aristocratic display, not proof of shock tactics."
 
 [[unique_tech]]
-name = "Alsnö stadga"
+name = "Alsnö Stadga"
 building = "Town Center"
 kind = "civil"
 age = "Imperial"
@@ -134,7 +134,7 @@ contested = "Its date, and whether it created the nobility or regulated an exist
 
 [tree]
 add = ["Champion", "Arbalester", "Keep", "Gold Shaft Mining", "Sanctity"]
-remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins", "Carrack", "Fast Fire Ship", "Incendiaries", "Siphons", "Catapult Galleon"]
+remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins", "Incendiaries", "Siphons", "Catapult Galleon"]
 
 [tree.basis]
 "Champion" = "Substitute for the removed Varangian Guard as heavy infantry (RULES 6.11); the top swordsman tier is a generic abstraction."
@@ -144,13 +144,11 @@ remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbo
 "Sanctity" = "The cults of St Erik (king, d. 1160) at Uppsala and of St Birgitta (d. 1373, canonised 1391), whose order was founded at Vadstena (consecrated 1384)."
 "Varangian Guard" = "The Varangian Guard stays with the Byzantines (RULES section 4): it was an institution of the Byzantine state, though some thirty runestones, most of them in Uppland, name Swedes who went to or died in ‘Greece’. The Champion takes over its heavy infantry role."
 "Elite Varangian Guard" = "Same as the Varangian Guard."
-"Hussar" = "Hungarian and Serbian light cavalry of the 15th century; Light Cavalry stays (regional rule for late tiers, see the Norwegians' open questions)."
+"Hussar" = "Hungarian and Serbian light cavalry of the 15th century, a type medieval Sweden never fielded; Light Cavalry stays as its top light cavalry."
 "Mounted Crossbowman" = "A continental mounted type not characteristic of Sweden; Swedish crossbowmen are represented by the Arbalester, and the Danes keep the mounted crossbow line for the Valdemarian period."
 "Heavy Mounted Crossbowman" = "As for the Mounted Crossbowman, and later still (15th century)."
 "Cranequins" = "A 15th-century spanning device for the mounted crossbow line, which the Swedes no longer have."
-"Carrack" = "No Swedish carracks are known: the late-medieval kingdom's shipping was largely Hanseatic, and Gustav Vasa had to buy his first fleet from Lübeck in 1522. The Galleon stays as the engine's generic Imperial Age warship (regional rule for late tiers)."
-"Fast Fire Ship" = "No fire ships are known in Swedish fleets; the generic Fire Galley and Fire Ship stay as early warships, without the top upgrade (regional rule for late tiers)."
-"Incendiaries" = "No incendiary or exploding ships are known in Swedish fleets."
+"Incendiaries" = "Requires Siphons, which this design removes."
 "Siphons" = "The fire siphon was a Byzantine state secret never to be given to other nations (De Administrando Imperio 13)."
 "Catapult Galleon" = "No ship-borne catapults are known in Scandinavian fleets; the Longship (strong vs buildings) keeps the anti-building naval role, as for the Norwegians and Danes."
 

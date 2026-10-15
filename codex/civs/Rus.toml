@@ -3,7 +3,7 @@ name = "Rus'"
 original_name = "Slavs"
 status = "draft"
 label = "Cavalry and Defensive civilization"
-summary = "Slavs renamed Rus' (owner's decision) and centred on the Rus' from Oleg's Kiev, with its Scandinavian founding elite, to Ivan III's Muscovy (882–1505), leaving Bulgaria and Moravia to their own civs: farming, monks, the Boyar and Detinets stay; steppe horse archery and armoured cavalry replace Arson, Gambesons and the siege discount, the Poliudie tribute becomes the Town Center tech, the Baptism of Rus' (988) replaces Druzhina at the Monastery, Ivan III's Pomest'e is the Imperial Age tech and Novgorod's trade with the Hanse the team bonus, and the tree gains Muscovite guns, the Bombard Tower, Architecture, the Arbalester and steppe archery upgrades while the Cannon Galleon, Carrack, Fast Fire Ship, demolition ships, Hussar and Siege Onager leave."
+summary = "Slavs renamed Rus' (882–1505): steppe horse archery and armoured horsemen replace Arson, Gambesons and the siege discount, Poliud'e and Pomest'e become Town Center techs, the Baptism of Rus' replaces Druzhina, Novgorod's Hanse trade is the team bonus, and Muscovite guns enter."
 ideas = [
   "N2: Monastic colonisation: Monasteries also accept wood and food drop-offs, for the monasteries of the north-east (Trinity–Sergius, Kirillo-Belozersky, Solovetsky), following Klyuchevsky's thesis.",
   "N2: Ushkuiniki, Novgorod's river raiders of the 14th century, as fast river boats.",
@@ -25,9 +25,12 @@ contested = [
   "Whether the pishchali that the Muscovites fired on the Ugra (1480) included hand-held guns: the word then also covered light cannon.",
 ]
 open_questions = [
-  "Power budget: the Rus' gain land gunpowder, the Bombard Tower, Architecture, the Arbalester, Thumb Ring, Bracer and the horse-archer discount, with Poliudie and the Baptism of Rus' as new unique techs (4 passives + 4 techs = 8, within the proposed cap of 9), and lose Arson, Gambesons, the siege discount, Druzhina, the Siege Onager, the Hussar, the demolition ships and the gun and carrack ships. Poliudie comes in the Castle Age, one age earlier than its source tech, the Vietnamese' Paper Money. Acceptable?",
-  "Team bonus: ‘Trade Units generate +10% gold’ is now the team bonus of five drafts (Armenians, Ethiopians, Maya, Tamils, Rus'). Keep it, or use another trade effect for Novgorod (for example ‘Markets work +80% faster’, the Bohemians' team bonus)?",
+  "Power budget: the Rus' gain land gunpowder, the Bombard Tower, Architecture, the Arbalester, Thumb Ring, Bracer and the horse-archer discount, with Poliud'e, the Baptism of Rus' and Pomest'e as new unique techs beside Detinets (4 passives + 4 techs = 8, within the proposed cap of 9), and lose Arson, Gambesons, the siege discount, Druzhina, the Siege Onager, the Hussar, Block Printing and the Cannon Galleon, their only siege warship. Poliud'e and Pomest'e keep the Imperial Age of the game's Paper Money and Aznauri Cavalry, so both Town Center techs come in the Imperial Age and the Castle Age has only Detinets and the Baptism of Rus'. Acceptable?",
   "Boyar: the Rus' unit is now shared with the Lithuanians' Boyar and is the model of the Germans' mounted Teutonic Knight, so three civs field the same heavy cavalry (see the Lithuanians' question). From the Rus' side the Lithuanian sharing is historical (the Ruthenian boyars of the Grand Duchy), and the Rus' heavy cavalry stays distinct through the Knight-line armour bonus and Pomest'e. Accept?",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule.",
+  "Codex-wide question CQ10 (see codex/civs/README.md): Ages of reused effects.",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking.",
+  "Codex-wide question CQ19 (see codex/civs/README.md): Labels.",
 ]
 
 [profile]
@@ -66,7 +69,7 @@ kind = "military"
 level = 1
 change = "new"
 replaces = "Arson, Gambesons free"
-precedent = "Cavalry Archers cost -10/20% in Castle/Imperial Age (Huns; the Avars' and Hindustanis' drafts also use it)"
+precedent = "Cavalry Archers cost -10/20% in Castle/Imperial Age (Huns; the Avars', Hindustanis' and Tatars' designs also use it)"
 basis = "War against the steppe brought the composite bow and the horse archer into Rus' armies: Rus' bows and quivers follow steppe models (Medvedev 1966); from the 12th century Turkic nomads settled on the Ros served as Kiev's frontier guard, the Black Hoods (named from 1146, Hypatian Chronicle); and after the Mongol conquest the cavalry of Muscovy fought in the Tatar manner with bow and sabre (Ostrowski 1998; Herberstein, 1549, just after the window). The replaced bonus is dropped for relevance: Gambesons rested on one armour type, the quilted tegilyai, known mainly from 16th-century Muscovite musters, and Arson on the folk tale of Olga burning Iskorosten with birds (Primary Chronicle s.a. 946)."
 relevance = "Steppe-style archery grew in Rus' warfare from the 12th century, through the Black Hoods, and above all in the Muscovite cavalry after the Mongol conquest; the Castle/Imperial gating follows that later weight."
 
@@ -96,7 +99,7 @@ level = 1
 change = "new"
 replaces = "Military buildings (except Castles) provide +5 population space"
 precedent = "Trade Units generate +25% gold (Spanish team bonus), at a lower magnitude; Trade Units generate +10% food in addition to gold (Bengalis team bonus)"
-basis = "Novgorod was the eastern pole of the Baltic trade: its furs and wax supplied the merchants of Gotland and the Hanse, who kept their own courts in the city (the Gotlanders' court and the German Peterhof) under a treaty with the Germans and Gotlanders of the late 12th century, until Ivan III closed the Peterhof in 1494. Allied trade earning more gold renders a partner whose goods made others rich (RULES 6.2: trade). The replaced team bonus had no historical basis, and the first draft's ‘Building repairs cost -25%’ rested on the rebuilding of the Rus' timber towns, which benefited only the Rus'."
+basis = "Novgorod was the eastern pole of the Baltic trade: its furs and wax supplied the merchants of Gotland and the Hanse, who kept their own courts in the city (the Gotlanders' court and the German Peterhof) under a treaty with the Germans and Gotlanders of the late 12th century, until Ivan III closed the Peterhof in 1494. Allied trade earning more gold renders a partner whose goods made others rich (RULES 6.2: trade). The replaced team bonus had no historical basis, and the first draft's ‘Building repairs cost -25%’ rested on the rebuilding of the Rus' timber towns, which benefited only the Rus'. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)."
 relevance = "Novgorod's trade with the Hanse lasted three centuries and made it the richest of the Rus' cities."
 
 [[unique_unit]]
@@ -134,34 +137,34 @@ relevance = "The conversion of 988 made Rus' an Orthodox Christian land tied to 
 contested = "The date and place of Vladimir's baptism differ between the sources (see the civ-level notes)."
 
 [[unique_tech]]
-name = "Poliudie"
+name = "Poliud'e"
 building = "Town Center"
 kind = "civil"
-age = "Castle"
+age = "Imperial"
 effect = "Lumberjacks slowly generate gold in addition to wood"
 level = 1
 change = "new"
-precedent = "Paper Money (Lumberjacks slowly generate gold in addition to wood) (Vietnamese): shared and renamed, identical effect, at the Town Center like the Vietnamese draft's own Town Center tech, but in the Castle Age rather than the Imperial Age, because Olga's reform (946–947) falls early in the Rus' window"
-basis = "Tribute was the first business of the Rus' state. Constantine VII describes the poliudia: every November the princes left Kiev with all the Rus' to spend the winter among their Slav tributaries, returning in April (De Administrando Imperio 9). After the Drevlians killed Igor for demanding a second tribute (945), Olga regularised the system with fixed dues (uroki) and collection points (pogosty) (Primary Chronicle s.a. 946–947); the tech renders the tribute system as she reformed it. Tribute came largely from the forest, in furs, honey and wax, and furs were money of account: the Russkaya Pravda reckons fines in grivnas of kunas (‘martens’). ‘Lumberjacks generate gold’ is an abstraction of that forest revenue. A state institution, so at the Town Center (RULES 6.2)."
+precedent = "Paper Money (Lumberjacks slowly generate gold in addition to wood) (Vietnamese, whose design drops it): moved to the Town Center and renamed, identical effect and age"
+basis = "Tribute was the first business of the Rus' state. Constantine VII describes the poliud'e, which his Greek renders as poliudia and glosses as ‘rounds’: every November the princes left Kiev with all the Rus' to spend the winter among their Slav tributaries, returning in April (De Administrando Imperio 9). After the Drevlians killed Igor for demanding a second tribute (945), Olga regularised the system with fixed dues (uroki) and collection points (pogosty) (Primary Chronicle s.a. 946–947); the tech renders the tribute system as she reformed it. Tribute came largely from the forest, in furs, honey and wax, and furs were money of account: the Russkaya Pravda reckons fines in grivnas of kunas (‘martens’). ‘Lumberjacks generate gold’ is an abstraction of that forest revenue. A state institution, so at the Town Center (RULES 6.2)."
 relevance = "Tribute collection built the early Rus' state, and Olga's reform is the first recorded reform of Rus' government."
 contested = "Whether the kuna reckoning meant furs used as money (see the civ-level notes)."
 
 [[unique_tech]]
 name = "Pomest'e"
-building = "Castle"
-kind = "military"
+building = "Town Center"
+kind = "civil"
 age = "Imperial"
 effect = "Mounted Units take -20% population space"
 level = 1
 change = "new"
-precedent = "Aznauri Cavalry (Mounted Units take -20% population space) (Georgians, whose draft turns it into a passive): shared and renamed, identical effect and age"
-basis = "After annexing Novgorod (1478) Ivan III deported many of its landowners and, from the late 1480s, granted their estates as pomest'ia, lands held on condition of service, to servitors (deti boyarskie) who owed mounted service with their armed men; the Novgorod cadastres of the 1490s record them, and the system became the base of the Muscovite cavalry. Lower population space renders horsemen maintained by land rather than by pay."
+precedent = "Aznauri Cavalry (Mounted Units take -20% population space) (Georgians, whose draft turns it into a passive): shared, moved from the Castle to the Town Center and renamed, identical effect and age; the Tatars' design shares it too, as the Beglerbeg"
+basis = "After annexing Novgorod (1478) Ivan III deported many of its landowners and, from the late 1480s, granted their estates as pomest'ia, lands held on condition of service, to servitors (deti boyarskie) who owed mounted service with their armed men; the Novgorod cadastres of the 1490s record them, and the system became the base of the Muscovite cavalry. Lower population space renders horsemen maintained by land rather than by pay. A land-tenure system run by the grand prince's government and recorded in its cadastres, so at the Town Center (RULES 6.2), like the Turks' Timar and the Byzantines' Themata."
 relevance = "The service-land system created the Muscovite service class that fought Russia's wars until the 17th century."
 contested = "Its models are debated (see the civ-level notes)."
 
 [tree]
 add = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Thumb Ring", "Bracer", "Architecture", "Arbalester"]
-remove = ["Cannon Galleon", "Carrack", "Fast Fire Ship", "Demolition Raft", "Demolition Ship", "Hussar", "Siege Onager"]
+remove = ["Cannon Galleon", "Hussar", "Siege Onager", "Block Printing"]
 
 [tree.basis]
 "Hand Cannoneer" = "The chronicles say that on the Ugra (1480) the Muscovites drove back the Tatars with arrows and pishchali, a word that then covered light guns as well as hand-held ones; firearms had been in Rus' use since 1382 and spread through the 15th century (Kirpichnikov, Voennoe delo na Rusi v XIII–XV vv., 1976). The unit stands for the gunpowder infantry of the late window. If hand guns are unambiguous only after 1500, it is the civ's one late element under RULES section 2, which it meets: it is an Imperial Age unit, and Muscovy's musketeers, the later streltsy, give it fame."
@@ -172,12 +175,9 @@ remove = ["Cannon Galleon", "Carrack", "Fast Fire Ship", "Demolition Raft", "Dem
 "Architecture" = "Stone and brick building of the later window: the white-stone churches of Vladimir-Suzdal (12th century) and the brick Kremlin of Moscow (1485–1495), built by Italian architects."
 "Arbalester" = "Crossbows (samostrely) were secondary to the bow in field armies but a regular weapon in the defence of Rus' towns: crossbow bolts are common in 13th–14th-century finds (Medvedev 1966), and in the tale of Tokhtamysh's siege of Moscow (1382) the defenders shot crossbows from the walls, where the clothier Adam killed the son of a Horde prince with a crossbow bolt from the Frolov gate. The top tier suits a civ labelled defensive."
 "Cannon Galleon" = "The Rus' had no purpose-built warships and no gun-armed ships: their fleets were river-sea boats (monoxyla, lod'i), which nonetheless crossed the Black Sea against Constantinople in 860, 941 and 1043."
-"Carrack" = "No Rus' carracks: Hanseatic cogs sailed only to the mouth of the Neva, and goods went up to Novgorod in river boats. The Galleon stays as the engine's generic Imperial Age warship (regional rule for late tiers, see the Norwegians' open questions)."
-"Fast Fire Ship" = "No Rus' fire ships are known: their fleets were the victims of Greek fire in 941 and 1043. The generic Fire Galley and Fire Ship stay as early warships, without the top upgrade (regional rule for late tiers)."
-"Demolition Raft" = "Explosive ships are an early modern device (the Antwerp ‘hellburners’ of 1585) with no Rus' counterpart; they leave under the regional rule for late tiers, as the Norse civs never had them. This reverses the previous draft, which kept them as generic."
-"Demolition Ship" = "Same as the Demolition Raft."
-"Hussar" = "Hungarian and Serbian light cavalry of the 15th century; Rus' light horsemen fought as mounted archers in the steppe manner, rendered by the Cavalry Archer, and Light Cavalry stays (regional rule for late tiers)."
+"Hussar" = "Hungarian and Serbian light cavalry of the 15th century; Rus' light horsemen fought as mounted archers in the steppe manner, rendered by the Cavalry Archer, and Light Cavalry stays."
 "Siege Onager" = "Dropped with the original ‘Infantry and Siege’ identity and its siege discount, whose top tier it was; the Mangonel, Onager and Trebuchet stay as the generic siege line, and Muscovy's late siege power is represented by the Bombard Cannon."
+"Block Printing" = "No printing in the window (to 1505): Moscow's first press worked anonymously from the 1550s, and the first dated Moscow book, Ivan Fedorov's Apostol, appeared in 1564."
 
 [architecture]
 set = "Eastern European"

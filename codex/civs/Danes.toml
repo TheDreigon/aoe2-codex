@@ -2,7 +2,7 @@ civ = "Danes"
 name = "Danes"
 status = "draft"
 label = "Infantry and Defensive civilization"
-summary = "The kingdom of Denmark from Godfred and the Danevirke to the end of the Kalmar Union (c. 800–1523): the herring and Danegeld bonuses and the Jomsviking stay; Trelleborg ring forts (the Krepost renamed) and the Danevirke (Fortified Bastions renamed) make it the fortification-building state, the Øresund toll becomes the Town Center tech, Lund's church carries the team bonus, the Varangian Guard becomes the royal Housecarl, Valdemarian knights and crossbowmen and Kalmar-era guns and ships enter, and Hamask, Northmen's Fury, the siege discount, Siege Onager and Catapult Galleon leave."
+summary = "Denmark from Godfred to the end of the Kalmar Union (808–1523): Trelleborg ring forts and the Danevirke replace the invented siege identity, the Øresund toll is the Town Center tech, the Varangian Guard becomes the Housecarl, Lund's church carries the team bonus, and Kalmar-era guns and ships enter."
 ideas = [
   "N2: Danegeld: infantry generate gold while attacking enemy buildings (the Keshik and Varangian Guard gold mechanic applied to a new target), instead of the generic loot bonus.",
   "N2: Remove the Housecarl's gold generation inherited from the Varangian Guard model, or tie it to plunder rather than to fighting units; the Saxons' draft proposes the same.",
@@ -22,16 +22,17 @@ contested = [
 open_questions = [
   "Danevirke shares the Jurchens' Jiehao, both renaming Fortified Bastions: one tech for two border ramparts. A more literal option is a walls effect, for example the Chinese Great Wall (Walls, Watch Tower-line and Bombard Towers +30% HP) shared and renamed (level 1), close to the Saxons' walls bonus; repetition is allowed (RULES 6.7). Keep regeneration?",
   "Housecarl: the Varangian Guard is renamed Housecarl, as for the Saxons, so that one model serves one Anglo-Danish institution. The alternative is the Goths' Huskarl, now unused (exceptional pierce armour, strong vs buildings, weak vs cavalry). Keep the rename?",
-  "Power budget: the Danes gain the Trelleborg, the Øresund toll, Cavalier, Arbalester, Fortified Wall, Architecture, Hand Cannoneer, Bombard Cannon, Carrack and Cannon Galleon, and lose the Barracks and Siege Workshop discount, Hamask, Northmen's Fury, the Siege Onager and the Catapult Galleon. Þingalið, the previous draft's tech for Cnut's household troops, is dropped because it repeated the Housecarl and its bonus, so the Danes have two unique techs (4 passives + 2 techs). Acceptable, or add a third tech for a distinct moment: Hedeby, the royal emporium to which Godfred moved the merchants of Reric (Royal Frankish Annals, 808), for example Silk Road (Trade Units cost -50%, the Italians' Commenda) shared and renamed at the Market (level 1); or the Valdemarian knights (Lyndanisse 1219, Bornhöved 1227), for example Hauberk (Knight-line +1 melee/+2 pierce armor, the Armenians' Sparapet) shared and renamed at the Castle in the Imperial Age (level 1)?",
+  "Power budget: the Danes gain the Trelleborg, the Øresund toll, Cavalier, Arbalester, Fortified Wall, Architecture, Hand Cannoneer, Bombard Cannon, Carrack and Cannon Galleon, and lose the Barracks and Siege Workshop discount, Hamask, Northmen's Fury, the Siege Onager, the Catapult Galleon and Thumb Ring. Þingalið, the previous draft's tech for Cnut's household troops, is dropped because it repeated the Housecarl and its bonus, so the Danes have two unique techs (4 passives + 2 techs). Acceptable, or add a third tech for a distinct moment: Hedeby, the royal emporium to which Godfred moved the merchants of Reric (Royal Frankish Annals, 808), for example Silk Road (Trade Units cost -50%, the Italians' Commenda) shared and renamed at the Market (level 1); or the Valdemarian knights (Lyndanisse 1219, Bornhöved 1227), for example Hauberk (Knight-line +1 melee/+2 pierce armor, the Armenians' Sparapet) shared and renamed at the Castle in the Imperial Age (level 1)?",
   "Distinctness from the Saxons: the Danes share with the Saxons' draft the label (Infantry and Defensive), the Housecarl, the Northern European set, the Longship and the team bonus ‘Monasteries work +20% faster’, which seven drafts now use (Bulgarians, Danes, Gaels, Hindustanis, Khitans, Malay, Saxons). Keep, give the Danes another religious-influence effect (for example ‘Monastery technologies cost -33%’, the Koreans' team bonus), or relabel them ‘Defensive and Naval civilization’ for the ramparts, ring forts and fleets that set them apart?",
-  "Øresundstold uses the gold half of Grand Trunk Road, now in ten drafts (see its precedent). Keep it, or wait for N3 to render the toll in its own form (Docks earning gold from passing Trade Cogs, in the ideas)?",
   "Architecture: the Northern European set renders the timber halls of the Viking age, but from the 12th century Denmark built in the brick Gothic it shared with northern Germany (Roskilde Cathedral, Valdemar's wall). Keep the set, reassign Central European (N1), or wait for an N3 set for the late kingdom?",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking.",
+  "Codex-wide question CQ19 (see codex/civs/README.md): Labels.",
 ]
 
 [profile]
 entity = "Kingdom of Denmark (the Danes)"
-region = "Jutland, the Danish islands, Scania, Halland and Blekinge; with the Danelaw (9th–10th centuries), Cnut's North Sea empire (1016–1035), the Valdemarian conquests on the southern Baltic coast and in Estonia (1168–1346) and the Kalmar Union (1397–1523)"
-window = "c. 800–1523"
+region = "Jutland, the Danish islands, Scania, Halland and Blekinge; with the Danelaw (9th–10th centuries), Cnut's North Sea empire (1016–1035), the Valdemarian conquests on the southern Baltic coast and in Estonia (1168–1346) and the Kalmar Union (1397–1523), which the Danish crown led; Norway within it is covered by the Norwegians (to 1469) and Sweden by the Swedes (to 1500)"
+window = "808–1523 (from Godfred's rampart and the move of Reric's merchants to Hedeby, Royal Frankish Annals, to the end of the Kalmar Union)"
 sources = [
   "Royal Frankish Annals",
   "Anglo-Saxon Chronicle",
@@ -133,7 +134,7 @@ relevance = "Control of the Sound and its toll made Denmark the gatekeeper of th
 
 [tree]
 add = ["Krepost", "Cavalier", "Arbalester", "Fortified Wall", "Architecture", "Hand Cannoneer", "Bombard Cannon", "Carrack", "Cannon Galleon"]
-remove = ["Siege Onager", "Catapult Galleon"]
+remove = ["Siege Onager", "Catapult Galleon", "Thumb Ring"]
 
 [tree.basis]
 "Krepost" = "Built as the Trelleborg ring fort (see the bonus and the rename)."
@@ -143,10 +144,11 @@ remove = ["Siege Onager", "Catapult Galleon"]
 "Architecture" = "Stone and brick building of the medieval kingdom: Lund Cathedral (high altar consecrated 1145), Valdemar's brick wall and churches, the royal castle of Vordingborg."
 "Hand Cannoneer" = "Guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania, is one of the oldest surviving in Europe), and the Kalmar-era kings fought with firearm infantry, largely hired Germans: King Hans's army at Hemmingstedt (1500) was built around the mercenary Great Guard, which was routed in the marsh with the loss of its guns and baggage."
 "Bombard Cannon" = "Danish royal armies took artillery into the field in the Union wars: King Hans lost his guns in the marsh at Hemmingstedt (1500), and a cannon shot from Christian II's army mortally wounded the Swedish regent Sten Sture the Younger at Bogesund (January 1520), within the window."
-"Carrack" = "King Hans's flagship Gribshunden, sunk off Ronneby in 1495, was a large carvel-built warship of the new type, the kind of ship the Carrack stands for (regional rule for late tiers, see the Norwegians' open questions)."
+"Carrack" = "King Hans's flagship Gribshunden, sunk off Ronneby in 1495, was a large carvel-built warship of the new type, the kind of ship the Carrack stands for."
 "Cannon Galleon" = "Gribshunden carried guns (1495), an early case of shipboard artillery in northern waters."
 "Siege Onager" = "Dropped with the invented ‘Siege’ identity of the original design (Northmen's Fury, the siege discount), whose top tier it was; the Mangonel, Onager and Trebuchet stay as the generic siege line of a medieval kingdom."
 "Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role. The fire-ship line, Fast Fire Ship included, is kept: Abbo of Saint-Germain describes the Danes sending burning ships against the bridge of Paris (885)."
+"Thumb Ring" = "No thumb draw is attested: the civ's archers used the European draw and its missile troops the crossbow; the codex gives the tech only where a thumb draw is attested (Gurjaras, Tamils, Saxons)."
 
 [[rename]]
 from = "Krepost"
