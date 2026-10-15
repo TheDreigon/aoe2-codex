@@ -29,7 +29,7 @@ open_questions = []
 [profile]
 entity = "The Gurjara-Pratihara empire and the Rajput kingdoms that followed it in western, northern and central India: the Chahamanas (Chauhans) of Shakambhari and Ajmer and their branch at Ranthambore, the Tomaras of Delhi and, from 1394, of Gwalior, the Gahadavalas of Kannauj, the Paramaras of Malwa, the Chaulukyas (Solankis) and Vaghelas of Gujarat, the Guhilas and Sisodias of Mewar, the Chandelas of Bundelkhand, and in the 15th century the Rathores of Marwar (Mandore 1395, Jodhpur 1459), the Kachwahas of Amber and the Bhatis of Jaisalmer"
 region = "Western, northern and central India: Rajasthan, Gujarat, Malwa and Bundelkhand, and at the Pratihara peak Kannauj and the upper Ganges plain"
-window = "730–1527 (the start is approximate: Nagabhata I; Pratihara core 730–1036; to Rana Sanga's defeat at Khanwa, 1527, a terminal event soon after 1500, as RULES 6.16.17 allows; nothing in the design originates after 1500)"
+window = "730–1527 (the start is approximate: Nagabhata I; Pratihara core 730–1036; to Rana Sanga's defeat at Khanwa, 1527, a terminal event soon after 1500, as RULES 6.16.17 allows; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Akhbar al-Sin wa'l-Hind (851, traditionally attributed to the merchant Sulaiman), tr. in Elliot and Dowson, vol. I (1867); ed. J. Sauvaget (1948)",
   "al-Mas'udi, Muruj al-Dhahab (written 943–47; in India c. 915–16), in Elliot and Dowson, vol. I",

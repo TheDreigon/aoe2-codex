@@ -27,7 +27,7 @@ open_questions = []
 [profile]
 entity = "The Delhi Sultanate (the so-called Mamluk sultans of the Qutbi, Shamsi and Balbani lines, then the Khaljis, Tughluqs, Sayyids and Lodis) and its Ghaznavid and Ghurid forerunners in their Indian campaigns and in the Punjab (Ghaznavid Iran and Khorasan belong to the Persians)"
 region = "Northern India (Hindustan): the Punjab, Delhi and the Ganges–Yamuna Doab, with campaigns and provinces from Sind to Bengal and the Deccan"
-window = "1001–1526 (from Mahmud of Ghazni's victory over Jayapala near Peshawar to Panipat, a terminal event soon after 1500, as RULES 6.16.17 allows; the Sultanate 1206–1526; core 1192–1398, from the second battle of Tarain to Timur's sack of Delhi; nothing in the design originates after 1500)"
+window = "1001–1526 (from Mahmud of Ghazni's victory over Jayapala near Peshawar to Panipat, a terminal event soon after 1500, as RULES 6.16.17 allows; the Sultanate 1206–1526; core 1192–1398, from the second battle of Tarain to Timur's sack of Delhi; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Minhaj al-Siraj Juzjani, Tabaqat-i Nasiri (c. 1260)",
   "Fakhr-i Mudabbir, Adab al-harb wa'l-shaja'a (dedicated to Iltutmish, 1211–36)",
