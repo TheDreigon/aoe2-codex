@@ -13,9 +13,10 @@ ideas = [
 ]
 contested = [
   "Name: ‘Turks’ or ‘Ottomans’. The design is mostly Ottoman, but it also carries the Seljuks of Rum, and English scholarship speaks of both as Turks (the Seljuk and the Ottoman Turks), so the civ keeps the game's name (RULES section 4 and 6.16.15); a separate Seljuk civ is an N3 idea.",
-  "Origin of the iqta' and of the Ottoman timar (shared with the Arabs' design): Köprülü (1931) derived the Ottoman timar from the Seljuk and Ilkhanid iqta', against theories of Byzantine origin; Ostrogorsky (Pour l'histoire de la féodalité byzantine, 1954) saw it as the continuation of the Byzantine pronoia that the Ottomans found in the Balkans; İnalcık (‘Ottoman Methods of Conquest’, 1954; 1973) showed that Christian pronoia holders were taken into the timar registers of the conquered Balkans while tracing the institution to the iqta'. Bartusis (Land and Privilege in Byzantium, 2012) doubts that the pronoia was ever a standard military fief, which weakens a direct Byzantine derivation. The codex follows the iqta' lineage, with Balkan continuity as a contributing factor.",
+  "Origin of the Ottoman timar: iqta' or pronoia (shared with the Arabs' design): Köprülü (1931) derived the Ottoman timar from the Seljuk and Ilkhanid iqta', against theories of Byzantine origin; Ostrogorsky (Pour l'histoire de la féodalité byzantine, 1954) saw it as the continuation of the Byzantine pronoia that the Ottomans found in the Balkans; İnalcık (‘Ottoman Methods of Conquest’, 1954; 1973) showed that Christian pronoia holders were taken into the timar registers of the conquered Balkans while tracing the institution to the iqta'. Bartusis (Land and Privilege in Byzantium, 2012) treats the pronoia as a grant of fiscal revenues, usually to soldiers, rather than a fief, which makes a direct institutional derivation of the timar harder to show. The codex follows the iqta' lineage, with Balkan continuity as a contributing factor.",
   "The ‘gazi thesis’ of Ottoman origins: Wittek (1938) against Lindner (1983), Kafadar (1995) and Lowry (2003).",
   "When the Janissaries adopted firearms (1440s or 1460s).",
+  "When the Ottomans adopted the wagon fort (tabur): they met Hunyadi's wagon forts at Varna (1444) and Kosovo (1448), and their use of a wagon-and-gun line is usually dated from Otlukbeli (1473), against Uzun Hasan (Ágoston, 2005), though how early and how fully they took it over is uncertain; its fame rests on Chaldiran (1514) and Mohács (1526).",
   "Figures for the siege of 1453 (guns and Janissaries) in Kritovoulos, Barbaro and Doukas; modern estimates put the corps well below 15,000.",
   "The alleged printing bans of Bayezid II (1485) and Selim I (1515), questioned by Kathryn Schwartz (2017); Block Printing stays out.",
   "The ‘gunpowder empires’ model (Hodgson, McNeill) against Streusand and Ágoston.",
@@ -28,7 +29,7 @@ open_questions = []
 [profile]
 entity = "The Turkish sultanates of Anatolia and the Balkans: the Seljuks of Rum and, above all, the Ottoman Empire (the Great Seljuk state in Iran is carried by the Persians)"
 region = "Anatolia and the Balkans"
-window = "1071–1526 (Ottoman core 1389–1526)"
+window = "1071–1526 (from Manzikert to Mohács, 1526, a terminal event soon after 1500 as RULES 6.16.17 allows; Ottoman core 1389–1500; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Michael Attaleiates, History (Manzikert, 1071)",
   "Anna Komnene, Alexiad",
@@ -92,7 +93,7 @@ text = "Mounted Archers train +25% faster"
 level = 1
 change = "new"
 replaces = "Gunpowder Units train +25% faster"
-precedent = "Mounted Archers train +25% faster (Magyars team bonus; the Tatars' design uses it too)"
+precedent = "Mounted Archers train +25% faster (Magyars team bonus; the Magyars' design keeps it, while the Tatars' design now has a team bonus of its own)"
 basis = "Turkish horsemen served neighbours as mercenaries and allies throughout the window. Byzantine commanders and emperors hired Turkish horse archers from the 1070s (Anna Komnene, Alexiad), and the Byzantines, then the crusader states and the military orders, raised Turcopoles, light horse archers of Turkish origin or fighting in the Turkish manner, whom the Hospitallers placed under a Turcopolier. In the Byzantine civil war of 1341–1347 Umur of Aydin and Orhan's Ottomans fought for John VI Kantakouzenos, who married his daughter Theodora to Orhan (1346); Ottoman help again in 1352 brought the Ottomans into Europe (Tzympe 1352, Gallipoli 1354) (Kantakouzenos, Histories; Nicol, 1993). The original bonus was a general abstraction of Ottoman logistics. Ottoman guns and gunners did reach neighbours, but every case falls after 1500 (guns, powder and timber for the Mamluk Red Sea fleet in 1510–1511 and Selman Reis's defence of Jeddah in 1517, Brummett, 1994, and Casale, 2010; Babur's ‘custom of Rum’ at Panipat, 1526), and a team bonus cannot meet the late-element rule (Imperial Age only, RULES section 2), so the horsemen carry the team bonus. Identical team-wide effects count once per team (RULES 6.16.12)."
 relevance = "Turkish horse archers in the service of neighbours, from the Turcopoles to Kantakouzenos' Turkish allies, shaped Byzantine and crusader warfare and opened Europe to the Ottomans; it is a benefit to allies, as RULES 6.2 requires."
 
@@ -102,7 +103,7 @@ model = "Janissary"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The yeniçeri (‘new troops’) were formed under Murad I (c. 1363–1380) from the sultan's fifth of war captives (pençik) and later from the devşirme levy of Christian boys; they began as archers and took up firearms from the mid-15th century. The unit represents the Janissary of c. 1450–1600 well; the Scenario Editor's Royal Janissary, a stronger variant, adds nothing the game's unit lacks. The wagon fort (tabur) behind which the Janissaries fought at Chaldiran (1514) and Mohács (1526), on Hungarian and Hussite models, is not added through the Bohemians' Hussite Wagon: every Ottoman use falls after 1500."
+basis = "The yeniçeri (‘new troops’) were formed under Murad I (c. 1363–1380) from the sultan's fifth of war captives (pençik) and later from the devşirme levy of Christian boys; they began as archers and took up firearms from the mid-15th century. The unit represents the Janissary of c. 1450–1600 well; the Scenario Editor's Royal Janissary, a stronger variant, adds nothing the game's unit lacks. The wagon fort (tabur) behind which the Janissaries fought, most famously at Chaldiran (1514) and Mohács (1526), on Hungarian and Hussite models, is not added through the Bohemians' Hussite Wagon: it was a field-fortification tactic rather than a troop type, the Hussite Wagon would take the civ's second unique-unit slot to render a Bohemian institution, and its Ottoman fame rests on battles after 1500 (on when the Ottomans adopted it, see contested)."
 relevance = "The Janissaries were the core of the Ottoman army and, through the devşirme, of the Ottoman state; they are also the troops most associated with the Turks."
 
 [[unique_tech]]
@@ -150,7 +151,7 @@ basis = "The akıncı (‘raider’) were the Ottoman light horsemen who raided 
 from = "Shipwright"
 to = "Tersane"
 level = 1
-basis = "The Ottoman state arsenals (tersane), at Gallipoli from c. 1390 and on the Golden Horn after 1453, enlarged by Selim I from 1515; the word itself comes, through Italian darsena, from the Arabic dār al-ṣināʿa, which the Arabs' renamed Shipwright uses. Same function (a state shipyard), identical effect. The navy is a fleet of ships (RULES 6.16.1): the galleys of Gallipoli and the Golden Horn and the gun-carrying göke of Kemal Reis at Zonchio (1499) keep the game's generic tiers and the Cannon Galleon. The game's lack of the Fast Fire Ship stands and no naval bonus is added: the fleet fought inside the window (Negroponte 1470, the Otranto landing 1480, Zonchio 1499, Modon 1500), but its peak (Rhodes 1522, Preveza 1538, Djerba 1560) comes after it."
+basis = "The Ottoman state arsenals (tersane), at Gallipoli from c. 1390 and on the Golden Horn after 1453, enlarged by Selim I from 1515; the word itself comes, through Italian darsena, from the Arabic dār al-ṣināʿa, which the Arabs' renamed Shipwright uses. Same function (a state shipyard), identical effect. The navy is a fleet of ships (RULES 6.16.1): the galleys of Gallipoli and the Golden Horn and the gun-carrying göke of Kemal Reis at Zonchio (1499) keep the game's generic tiers, the Galleon as a flagged abstraction (RULES 6.16.2), and the Cannon Galleon. The game's lack of the Fast Fire Ship stands and no naval bonus is added: the fleet fought inside the window (Negroponte 1470, the Otranto landing 1480, Zonchio 1499, Modon 1500), but its peak (Rhodes 1522, Preveza 1538, Djerba 1560) comes after it."
 
 [architecture]
 set = "Middle Eastern"

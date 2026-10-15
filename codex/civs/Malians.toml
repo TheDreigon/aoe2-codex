@@ -2,7 +2,7 @@ civ = "Malians"
 name = "Malians"
 status = "draft"
 label = "Infantry and Archer civilization"
-summary = "Malians as the Mali Empire of the Mande (1235–1599): Tontajon archers replace the Gbeto, the farba governors become the Town Center tech, the salt trade and poisoned arrows passives, war canoes (the Scenario Editor's Canoe) the Galley line, and gunpowder, Trebuchet, Keep, camels and cavalry archers leave, with the Halberdier and Siege Ram as substitutes."
+summary = "Malians as the Mali Empire of the Mande (1235–1599): Tontajon archers replace the Gbeto, the farba governors become the Town Center tech, the salt trade and poisoned arrows passives, war canoes (the Scenario Editor's Canoe) the Galley line, and gunpowder, Trebuchet, Keep, Treadmill Crane, camels and cavalry archers leave, with the Halberdier and Siege Ram as substitutes."
 ideas = [
   "N2: Jeli (griot): a support unit with an aura (the Centurion's mechanic) that hastens nearby units, for the griots who exhorted warriors and kept the memory of Sunjata (Balla Fasseke).",
   "N2: Give the Canoe (the Galley line on the Scenario Editor's Canoe model) stats of its own, a fast and cheap river warship with arrows, for the Niger boatmen (the Sorko and Bozo) and Sonni Ali's later fleet (Tarikh al-Sudan); N1 gives it only the canoe's look.",
@@ -28,7 +28,7 @@ open_questions = []
 [profile]
 entity = "The Mali Empire (Manden Kurufaba) of the Mande (Maninka) under the Keita mansas"
 region = "Western Sudan: the upper and middle Niger, Senegambia and the southern Saharan towns (Walata, Timbuktu, Gao)"
-window = "1235–1599 (from Kirina, traditionally 1235, to Mahmud IV's defeat before Djenné, 1599, a terminal event past 1500 as RULES 6.16.17 allows; core 1235–1400; no late element)"
+window = "1235–1599 (from Kirina, traditionally 1235, to Mahmud IV's defeat before Djenné, 1599, a terminal event after 1500 with a stated core inside the time frame (RULES 6.16.17, accepted for the Malians in the level-1 review, section 6, CQ21); core 1235–1400; no late element)"
 sources = [
   "al-Bakri (1068), al-Umari (c. 1337–1340), Ibn Battuta (visit of 1352–1353) and Ibn Khaldun, in N. Levtzion and J. F. P. Hopkins, Corpus of Early Arabic Sources for West African History (1981)",
   "al-Sa'di, Tarikh al-Sudan (c. 1655; trans. J. O. Hunwick, Timbuktu and the Songhay Empire, 1999)",
@@ -130,13 +130,13 @@ effect = "Cavalry +5 attack"
 level = 1
 change = "kept"
 precedent = "Farimba (Cavalry +5 attack) (Malians)"
-basis = "The name seems to come from farin, ‘brave’, a Mande title of war leaders that also lies behind the governors' title farba; the horsemen, mounted on costly horses brought across the Sahara, were the warrior aristocracy (Law, 1980). They fought with lance, javelins and sword and are carried by the generic Stable lines; the regional Genitour is not extended to the Malians (owner's decision, RULES 6.16.10)."
+basis = "The name seems to come from farin, ‘brave’, a Mande title of war leaders that also lies behind the governors' title farba; the horsemen, mounted on costly horses brought across the Sahara, were the warrior aristocracy (Law, 1980). They fought with lance, javelins and sword and are carried by the generic Stable lines; the regional Genitour is not extended to the Malians (owner's decision, RULES 6.16.10). The cavalry aristocracy is a long tradition rather than a datable moment, so Farimba keeps the mandatory Castle slot as a flagged fallback (RULES 6.16.19(b)): no datable military reform of the mansas is documented well enough to replace it, and Kirina (1235), the founding victory, is a battle, not a reform."
 relevance = "Cavalry was the instrument of the Sudanic empires (Law, 1980): Mali's mounted nobility conquered and policed the savanna."
 contested = "The exact etymology used by the game is unconfirmed."
 
 [tree]
 add = ["Bracer", "Halberdier", "Siege Ram"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Trebuchet", "Cavalry Archer", "Heavy Cavalry Archer", "Camel Rider", "Heavy Camel Rider", "Arbalester", "Thumb Ring", "Carrack", "Keep", "Block Printing"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Trebuchet", "Cavalry Archer", "Heavy Cavalry Archer", "Camel Rider", "Heavy Camel Rider", "Arbalester", "Thumb Ring", "Carrack", "Keep", "Treadmill Crane", "Block Printing"]
 
 [tree.basis]
 "Bracer" = "Archers were the mass of Mande infantry (the tontajon), so the archers' Blacksmith line should be complete; the analysis lists Bracer as missing. Arrowslits, which the analysis lists with it, stays out: medieval Malian fortifications are thinly attested, and the loopholed tata walls are 19th-century (see contested)."
@@ -149,12 +149,13 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", 
 "Trebuchet" = "No torsion or traction artillery is attested in the Sahel (analysis; tech tree audit), so the counterweight engine never reached the civ and is removed (RULES 6.16.5); the Mangonel and Onager stay as the generic stone-thrower, and the Siege Ram becomes the late anti-building engine."
 "Cavalry Archer" = "Sahelian horsemen fought with lance, javelins and sword, and the archers fought on foot (tech tree audit)."
 "Heavy Cavalry Archer" = "As Cavalry Archer."
-"Camel Rider" = "No camel troops are attested in Mali's armies: al-Umari counts only horse and foot, the Massufa of Walata and Taghaza were caravaneers and guides, and the Tuareg were rivals who took Timbuktu from Mali in 1433 (analysis; tech tree audit). The Ethiopian design removes its camels on the same kind of evidence. The Halberdier replaces it as the anti-cavalry unit (RULES 6.11); the camels are not kept as an abstraction of the Saharan peoples beside the empire, who did not fight for it."
+"Camel Rider" = "No camel troops are attested in Mali's armies: al-Umari counts only horse and foot, the Massufa of Walata and Taghaza were caravaneers and guides, and the Tuareg were rivals who took Timbuktu from Mali in 1433 (analysis; tech tree audit). The Ethiopian design removes its camels on the same kind of evidence. The Halberdier replaces it as the anti-cavalry unit (RULES 6.11); the camels are not kept as an abstraction of the Saharan peoples inside or beside the empire, whose service in Mali's armies is not attested."
 "Heavy Camel Rider" = "As Camel Rider."
 "Arbalester" = "No crossbow is attested in the Sahel, so the crossbow tier goes (RULES 6.16.3); the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split, and the Tontajon fills the elite archer role. The tech tree audit rates the Malian Arbalester unfounded."
 "Thumb Ring" = "No thumb draw or thumb rings are attested for Sahelian archery (RULES 6.16.4); the thumb draw belongs to the steppe and Asian traditions (names theme), and other designs drop the tech on the same ground (among them the Ethiopians, Malay, Maya, Inca and Muisca)."
-"Carrack" = "The navy is the boat tier (RULES 6.16.1), which keeps the generic lines without the Galleon and Carrack: Mali's war craft were dugout canoes, the canoes of archers that attacked the Portuguese on the Gambia (Cadamosto, 1455) and Nuno Tristão's party (1446) on the empire's western fringe, and the boats of the Niger, with no high-castled sailing warships."
+"Carrack" = "The navy is the boat tier (RULES 6.16.1), which keeps the generic lines without the Galleon and Carrack: Mali's craft were dugout canoes, on its own river, where Ibn Battuta travelled down the Niger from Timbuktu (1353) in a small boat carved from a single piece of wood (Levtzion and Hopkins, 1981), and on the empire's western fringe, where canoes of archers attacked the Portuguese on the Gambia (Cadamosto, 1455); there were no high-castled sailing warships."
 "Keep" = "Sudano-Sahelian building was in earth, and medieval Malian town walls are thinly attested (see contested); the Guard Tower stays as the abstraction of defended posts, as for the Muisca."
+"Treadmill Crane" = "Removed under the region's one reading of the tech (see the Arabs' design), which gives it, as a generic abstraction of faster building, only where large building programmes raised in stone or fired brick are a documented trait of the civ. No lifting machine is attested in the Sahel, and Sudano-Sahelian building in banco (sun-dried earth) was raised by hand, the projecting toron beams serving as fixed scaffolding; Mali's monumental building, Mansa Musa's Djinguereber (c. 1327) and the domed audience hall that Abu Ishaq al-Sahili built for him (Ibn Khaldun, in Levtzion and Hopkins, 1981), belongs largely to one reign. The Ethiopians are judged the same way; the earthen architecture is carried by the -15% wood bonus and the African set."
 "Block Printing" = "No printing in the window: the scholarship of Timbuktu and the Sahel lived in manuscripts copied by hand."
 
 [[rename]]
@@ -168,7 +169,7 @@ from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Mali's war craft were dugout canoes: canoes of archers attacked Cadamosto's caravels on the Gambia with poisoned arrows (1455), and boatmen worked the Niger (see the Carrack). The Scenario Editor's Canoe (RULES section 5; codex/tools/scenario-units.md), a light boat that shoots arrows like the Galley, gives the Galley the look of a dugout war canoe, which fits the boat tier far better than a Mediterranean galley; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as in the Aztec, Maya, Mapuche and Tupi designs. No Mande name for the war canoe is secure in the sources used here, so the generic English name is used."
+basis = "Mali's craft were dugout canoes: Ibn Battuta travelled down the Niger from Timbuktu (1353) in a small boat carved from a single piece of wood (Levtzion and Hopkins, 1981), and canoes of archers attacked Cadamosto's caravels on the Gambia with poisoned arrows (1455) (see the Carrack). The Scenario Editor's Canoe (RULES section 5; codex/tools/scenario-units.md), a light boat that shoots arrows like the Galley, gives the Galley the look of a dugout war canoe, which fits the boat tier far better than a Mediterranean galley; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as in the Aztec, Maya, Mapuche and Tupi designs. No Mande name for the war canoe is secure in the sources used here, so the generic English name is used."
 
 [[rename]]
 from = "War Galley"
@@ -180,7 +181,7 @@ basis = "Upgrade tier of the renamed Galley, with the same Canoe look (see Galle
 [architecture]
 set = "African"
 change = "kept"
-basis = "Sudano-Sahelian earth building (Djinguereber, Djenné, Walata) is what the African set represents. Treadmill Crane stays in the tree under the region's one reading of the tech (see the Arabs' design): no treadwheel crane is attested in the Sahel, so it is kept as a generic abstraction of faster building, resting on the great earthen mosques raised under the mansas, such as the Djinguereber of Timbuktu (c. 1327)."
+basis = "Sudano-Sahelian earth building (Djinguereber, Djenné, Walata) is what the African set represents. Treadmill Crane leaves under the region's one reading of the tech (see the tree)."
 
 [[dropped]]
 item = "Tigui (Town Centers fire arrows without garrison)"
