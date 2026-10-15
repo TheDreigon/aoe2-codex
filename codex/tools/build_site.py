@@ -32,6 +32,9 @@ DEFAULT_TECH_COST = {'Food': 300, 'Gold': 250}
 DEFAULT_RESEARCH_TIME = 60
 AGE_ROWS = {'Dark': [1], 'Feudal': [3, 2], 'Castle': [5, 4], 'Imperial': [6, 7]}
 AGE_IDS = {'Dark': 1, 'Feudal': 2, 'Castle': 3, 'Imperial': 4}
+# Unique-tech icons by age, whatever the building: the game's silver (Castle) and gold (Imperial)
+# crowns, and a bronze crown for the Feudal Age made from the silver one (img/Tech/codex-ut-feudal.png).
+UNIQUE_TECH_PICTURES = {'Feudal': 'codex-ut-feudal', 'Castle': 33, 'Imperial': 107}
 TREE_NAMES = {  # design name -> name used in the site's tree files
     'Trebuchet': 'Trebuchet (Packed)', 'Blackwood Archers': 'Blackwood Archer',
     'Elite Blackwood Archers': 'Elite Blackwood Archer',
@@ -292,13 +295,12 @@ class Builder:
             building = ut['building']
             age = ut['age']
             prec = self.precedent_tech(ut)
+            picture = UNIQUE_TECH_PICTURES.get(age, 33)
             if ut.get('level') == 1 and prec is not None:
                 tid = prec['node_id']
-                picture = prec['picture_index']
             else:
                 tid = self.next_tech
                 self.next_tech += 1
-                picture = prec['picture_index'] if prec else 33
                 cost = dict(self.data['data']['Tech'].get(str(prec['node_id']), {}).get('Cost', DEFAULT_TECH_COST)) if prec else dict(DEFAULT_TECH_COST)
                 rt = self.data['data']['Tech'].get(str(prec['node_id']), {}).get('ResearchTime', DEFAULT_RESEARCH_TIME) if prec else DEFAULT_RESEARCH_TIME
                 self.data['data']['Tech'][str(tid)] = {'Cost': cost, 'ID': tid, 'ResearchTime': rt, 'internal_name': ut['name']}
