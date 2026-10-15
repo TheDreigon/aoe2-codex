@@ -1,0 +1,158 @@
+civ = "Spanish"
+name = "Spanish"
+status = "draft"
+label = "Cavalry and Monk civilization"
+summary = "Spanish brought back from the 1480–1550 monarchy to the medieval Christian kingdoms of Castile and Aragon: the Almogavar (Hearth Troop) replaces the Conquistador, the Missionary is re-based as a Freire of the military orders, Órdenes Militares replaces Inquisition, Supremacy is renamed Milicias Concejiles, Mesta, jinete and galley bonuses replace the unfounded and anachronistic ones, and Crossbowman, Arbalester, Siege Engineers and the Mule Cart are added."
+ideas = [
+  "N2: A Jinete unit (light horse with lance and thrown javelins, able to fight at close range) replacing the Hussar for the Spanish, built from existing mechanics; it could later be shared with the Portuguese Ginete under one consistent name.",
+  "N2: An Almogavar of its own: a cheap food-and-wood light infantryman whose charged javelin throw (Xianbei Raider or Bolas Rider mechanism) is strong against cavalry (analysis proposal).",
+  "N2: Turn the Freire into a mounted brother of the orders with a weak melee attack and healing instead of conversion (analysis alternative).",
+  "N2: Ballesteros de Nómina: a Crossbowman-line tech once the archer and crossbow lines are split (RULES section 10).",
+  "N3: Split Castile and the Crown of Aragon into two civs; the Almogavar, Lauria's galleys and the Consolat de Mar would go to Aragon (the representation theme notes that if Shu, Wei and Wu are three civs, Castile and Aragon could be two).",
+  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada); today al-Andalus is split between the Berbers and the Saracens.",
+]
+contested = [
+  "The 'Reconquista' as one continuous project: a historiographical construction (García Sanjuán, Ríos Saloma) or a still useful category (García Fitz, O'Callaghan).",
+  "'Convivencia': Américo Castro against Sánchez-Albornoz; Menocal (2002) against Fernández-Morera (2016); Soifer (2009).",
+  "The weight of artillery in the fall of Granada (Cook, 1993) against the Nasrid civil war and economic exhaustion.",
+  "Iberian priority in the use of gunpowder (Huéscar 1324, Algeciras 1342–1344), on the Nasrid side.",
+]
+open_questions = [
+  "Rename Spanish to Castilians? 'Spanish' is anachronistic before 1479 and hides the Crown of Aragon, but a Castile-only civ would have to give up the Almogavar and the Catalan galleys (or keep them as Castilian too: the Siete Partidas regulate Castilian almogávares, and Castile had its own galleys).",
+  "Jinetes: the Spanish keep the generic Hussar (with a cheaper Scout Cavalry-line) instead of a Hussar renamed 'Jinete', because the Portuguese UU is the Genitour-based 'Ginete' and two different units with the same name would be confusing. Alternatives: share the Ginete with the Spanish as 'Jinete', or rename the Spanish Hussar anyway.",
+  "Mule Cart (arrieros): given to the Spanish alongside the Lumber Camp and Mining Camp, as for the Portuguese. Keep, make it replace the camps, or drop it here?",
+  "The Missionary is kept as a renamed Freire of the military orders, as the analysis suggests. Accept, or drop the mounted monk entirely (the Spanish would then lose their Monk identity)?",
+  "Dropped: Builders work +30% faster (no Hispanic basis) and the Conquistador (1519 onwards, outside the window). Should the Conquistador survive as a late Imperial Age unit, for example through a tech, as the analysis allows?",
+]
+
+[profile]
+entity = "The Christian kingdoms of central and eastern Iberia: the Crown of Castile (with León) and the Crown of Aragon"
+region = "Central, northern and eastern Iberian Peninsula and the western Mediterranean"
+window = "1037–1516"
+sources = [
+  "Alfonso X, Siete Partidas (c. 1256–1265)",
+  "Ramon Muntaner, Crònica (c. 1325–1328); Bernat Desclot, Crònica",
+  "Pero López de Ayala, Crónica del rey don Enrique II",
+  "Hernando del Pulgar, Crónica de los Reyes Católicos",
+  "Joseph F. O'Callaghan, Reconquest and Crusade in Medieval Spain (2003)",
+  "James F. Powers, A Society Organized for War: The Iberian Municipal Militias in the Central Middle Ages, 1000–1284 (1988)",
+  "Joseph F. O'Callaghan, The Spanish Military Order of Calatrava and its Affiliates (1975)",
+  "Derek W. Lomax, La Orden de Santiago, 1170–1275 (1965)",
+  "Julius Klein, The Mesta: A Study in Spanish Economic History, 1273–1836 (1920)",
+  "Lawrence V. Mott, Sea Power in the Medieval Mediterranean: The Catalan-Aragonese Fleet in the War of the Sicilian Vespers (2003)",
+  "Weston F. Cook Jr., 'The Cannon Conquest of Nasrid Spain and the End of the Reconquista', Journal of Military History (1993)",
+  "Wendy R. Childs, Anglo-Castilian Trade in the Later Middle Ages (1978)",
+  "Miguel Ángel Ladero Quesada, Castilla y la conquista del reino de Granada (1967)",
+]
+replaces = "The Spanish monarchy of c. 1480–1550 (Conquistador, Missionary, Inquisition, Cannon Galleon)"
+
+[[bonus]]
+text = "Shepherds work +25% faster"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Receive +20 gold for each technology researched"
+precedent = "Shepherds work +25% faster (Britons)"
+basis = "The Honrado Concejo de la Mesta, recognised by Alfonso X in 1273, organised the transhumance of Castile's flocks between the summer pastures of León and Old Castile and the winter pastures of Extremadura and Andalusia; wool, merino above all, became the kingdom's main export through the fairs of Burgos and Medina del Campo (Klein, 1920). The gold-per-technology bonus it replaces had no historical anchor."
+
+[[bonus]]
+text = "Blacksmith upgrades cost no gold"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Blacksmith upgrades cost no gold (Spanish)"
+basis = "Basque iron from the ferrerías of Biscay and Gipuzkoa was exported in bulk to England and Flanders (Childs, 1978), and Toledo blades were famous by the 15th century: abundant, cheap metalwork is a real trait."
+
+[[bonus]]
+text = "Gunpowder Units attack +18% faster"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Gunpowder Units attack +18% faster (Spanish)"
+basis = "Castile won the Granada war (1482–1492) largely by artillery sieges (Ronda 1485, Málaga 1487, with more than 200 guns) with handgunners (espingarderos) in the field, and Gonzalo Fernández de Córdoba's entrenched arquebusiers won at Cerignola in 1503 (Cook, 1993)."
+contested = "Mostly at or just after the end of the window; in the 15th century Italy, Burgundy, Bohemia and Germany led in handguns."
+
+[[bonus]]
+text = "Scout Cavalry-line costs -15%"
+kind = "military"
+level = 1
+change = "new"
+precedent = "Scout Cavalry-line costs -15% (Magyars)"
+basis = "The jinetes, light horsemen riding à la gineta with lance, javelins and leather adarga, cheaper to raise and mount than the heavy hombres de armas, were the characteristic cavalry of the Granada frontier and of the Catholic Monarchs' Granada campaigns, and were hired abroad as 'genitours' (Ladero Quesada, 1967). The style came from the Zenata horsemen of Granada."
+
+[[bonus]]
+text = "Galley-line +1 attack"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Cannon Galleons fire more accurately at moving targets"
+precedent = "Ballistas (Romans): Galley-line +2 attack; Bogsveigar (Vikings): Archer-line and Longships +1 attack"
+basis = "Catalan-Aragonese and Castilian galleys fought with massed crossbowmen: Roger of Lauria's Catalan crossbowmen won at Malta (1283) and in the Bay of Naples (1284) (Muntaner; Desclot; Mott, 2003), and Ambrosio Boccanegra's Castilian galleys, armed with heavy crossbows, destroyed Pembroke's English convoy at La Rochelle (1372) (López de Ayala). The bonus it replaces was anachronistic: the galleon is a 16th-century ship, and the Armada of 1588 was not noted for accurate gunnery (Martin and Parker)."
+
+[team_bonus]
+text = "Trade Units generate +25% gold"
+level = 1
+change = "kept"
+precedent = "Trade Units generate +25% gold (Spanish team bonus)"
+basis = "Castilian wool went north through Burgos and Bilbao (the Consulado de Burgos was founded in 1494), and Catalan merchants traded across the Mediterranean under the Llibre del Consolat de Mar (printed 1484). Generic, but defensible."
+
+[[unique_unit]]
+name = "Almogavar"
+model = "Hearth Troop"
+building = "Castle"
+level = 1
+change = "new"
+replaces = "Conquistador"
+basis = "Almogavars were light frontier infantry of the Crown of Aragon, and of Castile, where the Siete Partidas regulate almogávares and their adalides: unarmoured men with heavy javelins (azconas) and a short sword, who threw before closing (Muntaner; Desclot). They fought the Angevins in Sicily and Calabria (1282–1302) and, as the Catalan Company, destroyed the knights of the Duchy of Athens at Halmyros (1311). The Hearth Troop's javelin-then-melee attack fits them closely. The Conquistador it replaces belongs to 1519–1550, and Cortés's horsemen fought with lance and sword, not firearms (Bernal Díaz)."
+contested = "Muntaner was a partisan participant; the almogavars' victories over knights (Halmyros was fought on marshy ground) contrast with the Hearth Troop's weakness against cavalry."
+
+[[unique_unit]]
+name = "Freire"
+model = "Missionary"
+building = "Monastery"
+level = 1
+change = "changed"
+replaces = "Missionary"
+basis = "The military orders of Calatrava (1158, Cistercian), Santiago (1170), Alcántara and Montesa (1317) joined religious life and frontier war: freires clérigos served as priests and freires caballeros held the frontier castles (O'Callaghan, 1975; Lomax, 1965). Santiago also ran hospitals at Toledo, Cuenca, Moya and Alarcón to ransom and care for captives. A mounted religious who heals fits them far better than the Franciscan missionaries of the Americas, whose Rule (1223) forbade riding except in necessity or illness, and whose first twelve walked from Veracruz to Mexico in 1524."
+contested = "The orders did not proselytise; the conversion mechanic stays an abstraction of religious influence."
+
+[[unique_tech]]
+name = "Órdenes Militares"
+age = "Castle"
+effect = "Knight-line +20 HP and more resistant to conversion"
+level = 1
+change = "new"
+replaces = "Inquisition"
+precedent = "Bloodlines: Mounted Units +20 HP; Sipahi (Turks): Mounted Archers +20 HP; First Crusade (Sicilians): units more resistant to conversion"
+basis = "The professed knights of the orders were the permanent core of the Castilian frontier: they held Calatrava, Uclés and Alcántara and fought at Alarcos (1195) and Las Navas de Tolosa (1212) under religious vows (O'Callaghan, 1975 and 2003). The Inquisition it replaces (1478) judged only the baptised and converted no one; forced conversions came from royal decrees (1492, 1499–1526) (Kamen, 1997)."
+
+[[unique_tech]]
+name = "Milicias Concejiles"
+age = "Imperial"
+effect = "Villagers +40 HP, +6 attack, +2 melee/+2 pierce armor"
+level = 1
+change = "changed"
+replaces = "Supremacy"
+precedent = "Supremacy (Spanish): identical effect, renamed"
+basis = "The frontier fueros (the Latin fuero of Sepúlveda, 1076; the Fuero de Cuenca, late 12th century) obliged every householder to serve in the town militia, and commoners who could keep a horse became caballeros villanos; these concejo militias carried much of the Castilian expansion of the 11th–13th centuries (Powers, 1988; The Code of Cuenca, tr. Powers, 2000). 'Supremacy' named nothing historical."
+
+[tree]
+add = ["Crossbowman", "Arbalester", "Siege Engineers", "Mule Cart"]
+remove = []
+
+[tree.basis]
+"Crossbowman" = "The crossbow was a central weapon of Christian Iberia: the Aragonese crossbowmen praised by Muntaner, the municipal ballesteros of Castile and the royal ballesteros de nómina of the 15th century; Cortés still had 32 crossbowmen against 13 handgunners in 1519 (Bernal Díaz). Only the Spanish and the Bulgarians lack it today, though the Spanish already have mounted crossbowmen."
+"Arbalester" = "Same basis as the Crossbowman: the foot crossbowman stayed central in Castilian and Aragonese armies and fleets until the end of the 15th century."
+"Siege Engineers" = "The Granada war was a war of sieges (Ronda 1485, Málaga 1487, Baza 1489) with a large royal artillery train, and Pedro Navarro pioneered gunpowder mines at the Castel Nuovo of Naples (1503) (Cook, 1993). Its absence contradicted the civ's history."
+"Mule Cart" = "Castilian land transport ran on mule trains driven by arrieros; mules were ridden so widely that the Catholic Monarchs had to order people to ride horses instead, to protect horse breeding (pragmática proclaimed at Murcia, 1499). Given alongside the Lumber Camp and Mining Camp, not replacing them (open question)."
+
+[architecture]
+set = "Mediterranean"
+level = 1
+change = "kept"
+basis = "Castilian and Aragonese Romanesque, Gothic and Mudéjar building sits well in the Mediterranean set; an Iberian set would be N3."
+
+[[dropped]]
+item = "Builders work +30% faster"
+kind = "bonus"
+reason = "Stretched: nothing specifically Hispanic in building speed; the link to the repoblación and to Castile as a 'land of castles' is weak (analysis). Its slot goes to the jinete bonus."

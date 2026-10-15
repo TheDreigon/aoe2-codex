@@ -1,0 +1,145 @@
+civ = "Portuguese"
+name = "Portuguese"
+status = "draft"
+label = "Archer and Naval civilization"
+summary = "Portuguese rebuilt from the owner's agreed example so that the medieval kingdom (1139–1415) stands beside the Avis expansion: free crossbow upgrades for the besteiros do conto, the Ginete (Genitour) instead of the Organ Gun, Aljubarrota and Volta do Mar instead of Arquebus and Circumnavigation, a fishing bonus instead of the unfounded forager-wood and -20% gold bonuses, and Arrowslits, Hoardings, Heavy Mounted Crossbowman and the Mule Cart added."
+ideas = [
+  "N2: Besteiro do Conto as a unique unit: a cheap food-and-wood crossbowman with high attack and slow reload, trainable at the Castle and Town Center, built from existing unit mechanics (analysis proposal).",
+  "N2: Nau da Índia: the Carrack line keeps its boarding attack and gains a short-range secondary cannon attack, for the naus of the Carreira da Índia that combined artillery and boarding (Diu, 1509).",
+  "N2: Volta do Mar revealing only water and coastline, with a ship speed bonus, as the analysis proposes; revealing part of the map by terrain type is a new effect.",
+  "N2: Split the Archer and Crossbowman lines (RULES section 10); the free-upgrade bonus would then belong to the crossbow line only.",
+  "N2: Shipwright for the Portuguese (the tech tree audit notes the irony that they lack it), balanced by smaller ship bonuses elsewhere.",
+  "N3: Pack animals other than the Caucasian Mule Cart and a muleteer (almocreve) model of its own.",
+]
+contested = [
+  "The role of Prince Henry and the 'school of Sagres': a myth for Peter Russell (2000) against the older nationalist historiography; the epithet 'Navigator' is a 19th-century coinage.",
+  "Technical origin of the caravel: a Portuguese development of coastal and fishing craft, or a Mediterranean and Arab inheritance.",
+  "The founding date of the besteiros do conto: D. Dinis (c. 1299) or D. Afonso IV.",
+  "Aljubarrota: the famous 'square' of Nuno Álvares Pereira never existed and the battle introduced no new tactical model (Monteiro, 2006).",
+  "Origins of independence: proto-national identity or a feudal and dynastic conflict (Herculano, Mattoso); the Ourique 'miracle' (1139) is a later founding myth.",
+]
+open_questions = [
+  "Mule Cart (almocreves): this draft gives it to the Portuguese alongside the Lumber Camp and Mining Camp, not replacing them (the Armenians and Georgians keep the replacing version). The Spanish get it the same way; the Italians and Byzantines do not. Keep this, make it replace the camps, or leave the Mule Cart Caucasian only?",
+  "The Ginete is trained at the Archery Range from the Castle Age, exactly as the Berber Genitour (also shared by the Lithuanian Sulica Rider), so the Portuguese Castle trains no unique unit. Keep it at the Archery Range or move it (and its Elite upgrade) to the Castle?",
+  "Team bonus: this draft keeps 'Technologies research +25% faster' from the owner's example, though the analysis rates it stretched. Alternative with a precise basis: the Treaty of Windsor (1386) and the English archers at Aljubarrota, as 'Archery Ranges work +10% faster' (the Britons' team bonus effect).",
+  "Volta do Mar is moved from the Castle Age (where Circumnavigation is now) to the Imperial Age, as in the RULES example, and Aljubarrota takes the Castle Age slot. Agree?",
+  "Heavy Mounted Crossbowman added for the besteiros de cavalo: their scale is not verified here. Keep, or leave the Portuguese at Mounted Crossbowman?",
+  "Four passive bonuses only (the minimum). Add a fifth, for example for the castle network of D. Dinis, or is the tree change (Arrowslits, Hoardings) enough?",
+]
+
+[profile]
+entity = "Kingdom of Portugal (Burgundian and Avis dynasties)"
+region = "Western Iberian Peninsula, with the Moroccan strongholds, the Atlantic islands and the West African coast"
+window = "1139–1521"
+sources = [
+  "Fernão Lopes, Crónica de D. João I (c. 1440s)",
+  "Gomes Eanes de Zurara, Crónica da Tomada de Ceuta; Crónica dos Feitos da Guiné",
+  "Duarte Pacheco Pereira, Esmeraldo de Situ Orbis (c. 1505)",
+  "João Gouveia Monteiro, A Guerra em Portugal nos Finais da Idade Média (1998)",
+  "João Gouveia Monteiro, Os Castelos Portugueses dos Finais da Idade Média (1999)",
+  "A. H. de Oliveira Marques, History of Portugal (1972)",
+  "Bailey W. Diffie and George D. Winius, Foundations of the Portuguese Empire, 1415–1580 (1977)",
+  "A. R. Disney, A History of Portugal and the Portuguese Empire (2009)",
+  "Peter Russell, Prince Henry 'the Navigator': A Life (2000)",
+  "Robert Ricard, Études sur l'histoire des Portugais au Maroc (1955)",
+]
+replaces = "The Portugal of the Discoveries only (c. 1415–1550): Organ Gun, Arquebus, Circumnavigation"
+
+[[bonus]]
+text = "Crossbowman and Arbalester upgrades free"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Foragers generate wood in addition to food"
+precedent = "Militia-line upgrades free (Bulgarians); Pikeman upgrade free (Ethiopians)"
+basis = "The besteiros do conto: from about 1299 the Crown made every concelho keep a fixed quota (conto) of crossbowmen, mostly artisans, under an anadel-mor; by the early 15th century there were some 5,000 in about 300 units, Lisbon alone owing 300 (Monteiro, 1998; L. R. Ferreira, 2014, on the besteiros under João I). Crossbowmen fought beside the dismounted men-at-arms at Atoleiros (1384) and Aljubarrota (1385) (Fernão Lopes). The forager-wood bonus it replaces had no historical basis."
+contested = "Whether the institution began under D. Dinis or D. Afonso IV is debated."
+
+[[bonus]]
+text = "Fishing Ships work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "All units cost -20% gold"
+precedent = "Fishing Ships work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age; +100% HP (Japanese), without the HP part"
+basis = "Fish and salt were staples of the medieval Portuguese economy and export trade: the treaty of London (20 October 1353) gave the merchants and fishermen of Lisbon and Porto reciprocal fishing rights off the English coast for 50 years, and the salt pans of Setúbal, Aveiro and the Tagus estuary fed the trade in salted fish (Oliveira Marques). The -20% gold bonus it replaces had no basis: Portugal was a small kingdom short of coin, and the gold of Mina (from 1471) is already the Feitoria's role."
+
+[[bonus]]
+text = "Ships +10/15/20% HP in Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Ships +10/15/20% HP in Feudal/Castle/Imperial Age (Portuguese)"
+basis = "An acceptable abstraction of the large, sturdy naus (carracks) of the Carreira da Índia and of long experience on the open Atlantic; the age scaling is purely mechanical (Diffie and Winius, 1977)."
+contested = "Before c. 1400 the royal navy was modest and was organised with Genoese help (Manuel Pessanha, admiral from 1317)."
+
+[[bonus]]
+text = "Can build Feitoria in Imperial Age"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Can build Feitoria in Imperial Age (Portuguese)"
+basis = "Feitorias were the central institution of the Portuguese trading network: Flanders (Bruges, later Antwerp), Arguim (1440s), São Jorge da Mina (1482), Calicut and Cochin (1500–1503) (Diffie and Winius, 1977; Disney, 2009). Passive income is a fair abstraction of a chain of trading posts; the history text must say that Arguim and Mina also traded in enslaved people (from 1441–1444, described by Zurara)."
+
+[team_bonus]
+text = "Technologies research +25% faster"
+level = 1
+change = "kept"
+precedent = "Technologies research +25% faster (Portuguese team bonus)"
+basis = "Portuguese nautical science as a shared asset: João II's mathematicians worked out latitude from the sun's declination, José Vizinho tested it on the Guinea coast (1485), and his Latin version of Abraham Zacuto's tables was printed at Leiria in 1496 (Almanach Perpetuum) and used by later pilots (Russell, 2000). Kept from the owner's agreed example."
+contested = "The 'school of Sagres' is a myth (Russell, 2000), and speeding up every technology is generic; see the open question on the Treaty of Windsor alternative."
+
+[[unique_unit]]
+name = "Ginete"
+model = "Genitour"
+building = "Archery Range"
+level = 1
+change = "new"
+replaces = "Organ Gun"
+basis = "Light horsemen riding à gineta (short stirrups, lance, javelins and leather adarga), a style both Iberian kingdoms took from Zenata and Granadan horsemen. It dominated the raiding war around the Moroccan strongholds (Ceuta 1415, Alcácer Ceguer 1458, Arzila and Tangier 1471), where riding à gineta or à brida is a basic distinction (Zurara; Ricard, 1955). The Genitour's thrown javelins fit the ginete; the Berbers keep their Genitour. The Organ Gun it replaces was the pan-European ribaudequin (England 1339, Flanders 1382, Burgundy, Italy), with no Portuguese speciality."
+contested = "The ginete also charged with the lance, which the Genitour (no close-range attack) cannot do; see the Spanish file, where the jinete stays the generic Hussar to avoid two units with the same name."
+
+[[unique_unit]]
+name = "Caravel"
+model = "Caravel"
+building = "Dock"
+level = 1
+change = "kept"
+basis = "The lateen caravel was refined in Portugal through the 15th century and carried the Guinea voyages and Bartolomeu Dias (1487–1488); it also served as an armed patrol ship in the Strait and off Morocco (Diffie and Winius, 1977). It was mainly a light exploration ship; the armed 'caravela redonda' is the closest war version."
+
+[[unique_tech]]
+name = "Aljubarrota"
+age = "Castle"
+effect = "Infantry and Foot Archers receive -2 damage from Mounted Units"
+level = 1
+change = "new"
+replaces = "Arquebus"
+precedent = "Royal Heirs (Ethiopians): Shotel Warriors and Camel Riders receive -3 damage from Mounted Units (target widened, magnitude lowered)"
+basis = "Nuno Álvares Pereira's defensive dismounted tactics: at Atoleiros (1384) he had his horsemen dismount and, with spearmen and some 100 crossbowmen, broke a larger Castilian force; at Aljubarrota (1385) the Portuguese, with English archers, fought on foot from a chosen position and defeated the Franco-Castilian army; Valverde followed (Fernão Lopes; Monteiro, 1998, and his 2012 article on Atoleiros). The Arquebus tech it replaces had no Portuguese specificity: the arquebus was a German and Burgundian weapon that Portugal spread rather than developed."
+contested = "Monteiro (2006) showed that the 'square' never existed; much of the Franco-Castilian vanguard attacked on foot at Aljubarrota, so the anti-cavalry effect leans mostly on Atoleiros."
+
+[[unique_tech]]
+name = "Volta do Mar"
+age = "Imperial"
+effect = "Sets the entire map to explored; Ships train +33% faster"
+level = 1
+change = "changed"
+replaces = "Circumnavigation"
+precedent = "Circumnavigation (Portuguese): identical effect, renamed and moved from the Castle to the Imperial Age as in the owner's agreed example"
+basis = "The Portuguese way home from Guinea: sailing out into the open Atlantic towards the Azores, worked out on the 15th-century West African voyages and in use before the Mina voyages of the 1470s; its South Atlantic form took Dias round the Cape (1487–1488) and Gama to India (1497–1498), helped by solar tables and the astrolabe (Diffie and Winius, 1977). Circumnavigation honoured the Castilian expedition of Magellan and Elcano (1519–1522), which Portugal tried to stop."
+
+[tree]
+add = ["Arrowslits", "Hoardings", "Heavy Mounted Crossbowman", "Mule Cart"]
+remove = []
+
+[tree.basis]
+"Arrowslits" = "Portugal kept a dense network of frontier castles, rebuilt under D. Dinis (1279–1325) and his successors with tall keeps, machicolations and loopholes (Monteiro, 1999). Owner's decision in the agreed example."
+"Hoardings" = "Same castle network: wooden and later stone galleries on the walls of the Dinis-era castles (Monteiro, 1999). Owner's decision in the agreed example."
+"Heavy Mounted Crossbowman" = "The besteiros de cavalo, mounted crossbowmen raised alongside the besteiros do conto in the 14th and 15th centuries (Monteiro, 1998); the Portuguese already have the Mounted Crossbowman. Their numbers are not verified here (open question)."
+"Mule Cart" = "The almocreves (from Arabic al-mukārī, 'hirer of beasts'): professional muleteers who carried goods, letters and people between towns and villages and appear throughout the forais; pack mules were the normal land transport of a mountainous kingdom with few roads. Given alongside the Lumber Camp and Mining Camp, not replacing them (open question)."
+
+[architecture]
+set = "Mediterranean"
+level = 1
+change = "kept"
+basis = "Portuguese Romanesque and Gothic (Braga, Alcobaça, Batalha) and the whitewashed southern towns sit well in the Mediterranean set; an Iberian set of its own would be N3."
