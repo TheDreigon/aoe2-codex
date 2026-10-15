@@ -53,6 +53,7 @@ sources = [
   "Len Scales, The Shaping of German Identity: Authority and Crisis, 1245–1414 (2012)",
   "Robert Bartlett, The Making of Europe (1993)",
   "Philippe Dollinger, The German Hansa (1964; English translation 1970)",
+  "Beata Możejko, Peter von Danzig: The Story of a Great Caravel, 1462–1475 (2020)",
   "Eric Christiansen, The Northern Crusades (2nd ed. 1997)",
   "William Urban, The Teutonic Knights: A Military History (2003)",
   "Lucien Febvre and Henri-Jean Martin, L’apparition du livre (1958)",
@@ -187,7 +188,7 @@ remove = ["Siege Onager", "Siphons"]
 "Architecture" = "Romanesque Speyer, Gothic Cologne, the brick Gothic of the Baltic towns and the Order’s castles (Marienburg) make the absence hard to justify for a defensive civilization."
 "Treadmill Crane" = "The medieval treadwheel crane is almost a German emblem: the crane of Cologne cathedral stood on the unfinished south tower from the 15th century until 1868, and the Krantor of Danzig (1442–44) was built under the Order."
 "Gold Shaft Mining" = "Germany was the mining heart of medieval Europe (Rammelsberg, Freiberg, the Harz and the Erzgebirge, Schwaz in Tyrol) (Bartlett 1993); lacking the late mining upgrade contradicted that."
-"Dry Dock" = "Hanseatic fleets dominated the Baltic and the North Sea, defeated Denmark (1367–70) and carried the Order to Gotland (1398) (Dollinger 1964); a weak navy contradicted this."
+"Dry Dock" = "Hanseatic fleets dominated the Baltic and the North Sea, defeated Denmark (1367–70) and carried the Order to Gotland (1398) (Dollinger 1964); a weak navy contradicted this. The Galleon and Carrack stay as flagged generic abstractions of these war fleets under the codex navy rule (CQ1). The Cannon Galleon stays for a documented gun-armed Hanseatic warship: for the Hanse’s war against England, Danzig fitted out its great caravel Peter von Danzig with guns, and the ship cruised the North Sea in 1471–73 and under Paul Beneke took a galley carrying Memling’s Last Judgment (1473) (Możejko 2020)."
 "Siege Onager" = "Removed to offset the additions. There is no specific German basis for the top tier of the stone-thrower line (held by only 15 of the game’s 56 civs); the Germans keep the Onager, Capped Ram, Trebuchet and Bombard Cannon."
 "Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 
