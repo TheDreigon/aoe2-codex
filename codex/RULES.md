@@ -76,7 +76,15 @@ The level measures the **implementation cost for a future modder**, not historic
 
 On the site, every change carries its level label.
 
-**Existing content includes the Scenario Editor.** Units that exist in the game, with art and data, but are trainable only in campaigns and the Scenario Editor (the Crusader Knight, the Mounted Samurai, the Pagan Priest, the Canoe and others, listed in [`tools/scenario-units.md`](tools/scenario-units.md)) count as existing game content for N1. A design may use one as the model of a unique unit, or as the look of a renamed generic unit. Each use passes the usual historical review; such a unit is chosen only where it fits a civ better than the current borrowing. **[decided]**
+**Existing content includes the Scenario Editor.** Units that exist in the game, with art and data, but are trainable only in campaigns and the Scenario Editor (the Crusader Knight, the Mounted Samurai, the Pagan Priest, the Canoe and others, listed in [`tools/scenario-units.md`](tools/scenario-units.md), with their base stats in [`tools/scenario-units-stats.md`](tools/scenario-units-stats.md)) count as existing game content. A design may use one as the model of a unique unit, or as the look of a renamed generic unit. Each use passes the usual historical review; such a unit is chosen only where it fits a civ better than the current borrowing. **[decided]**
+
+**Reusing a unit's art.** The model (art) of any existing unit, whether trainable in normal games or only in campaigns and the Scenario Editor, may be reused for a codex unit (owner's decision, 15 October 2026). **[decided]**
+
+| Reuse | Level |
+|---|---|
+| The unit as it is, with only a new name | N1 |
+| A new name and adapted stats (hit points, attack, armour, cost, speed and the like): a new unit without new art | N2 |
+| New art or animations | N3 |
 
 **Narrowing.** A passive bonus or team bonus that applies an existing effect to a narrower set of targets, or at a lower magnitude, is N1. A unique tech stays N1 only when it is identical in play to an existing tech (rule 6.5). **[decided]**
 
@@ -247,6 +255,6 @@ set = "Mediterranean"
 
 ## 12. Changes
 
-- **0.5 (15 October 2026).** After the level-1 review (`reviews/level-1-review.md`): the 26 codex-wide questions become decided conventions (rule 6.16); units of the campaigns and the Scenario Editor count as existing content for N1, and narrowed or weaker passive and team effects are N1 (section 5); Britons, Saxons and Saracens are renamed English, Anglo-Saxons and Arabs; the Avars' trebuchet bonus becomes a cost reduction for the Traction Trebuchet; the Gaels include the kingdom of Scotland; Mississippians and Javanese are proposed as N3 civs (section 4); this changelog is added.
+- **0.5 (15 October 2026).** After the level-1 review (`reviews/level-1-review.md`): the 26 codex-wide questions become decided conventions (rule 6.16); units of the campaigns and the Scenario Editor count as existing content, any existing unit's art may be reused (as it is: N1; with adapted stats: N2; with new art: N3), and narrowed or weaker passive and team effects are N1 (section 5); Britons, Saxons and Saracens are renamed English, Anglo-Saxons and Arabs; the Avars' trebuchet bonus becomes a cost reduction for the Traction Trebuchet; the Gaels include the kingdom of Scotland; Mississippians and Javanese are proposed as N3 civs (section 4); this changelog is added.
 - **0.4.1 (15 October 2026).** Open historical questions settled; who decides (section 11).
 - **0.1–0.4 (October 2026).** Unique techs at named buildings, where each historical trait goes (rule 6.2), the relevance test (rule 6.9), late elements (section 2), renamed civs (section 4).
