@@ -2,33 +2,37 @@ civ = "Britons"
 name = "Britons"
 status = "draft"
 label = "Foot Archer civilization"
-summary = "Kept as what the design already is, the Kingdom of England after 1066 (core c. 1277–1453): longbow, wool, planted towns, Yeomen and Warwolf kept; a dismounted men-at-arms bonus added; the Mounted Crossbowman line and Cranequins removed; Bombard Cannon and Carrack added; the period before 1066 is left to the Saxons."
+summary = "The Kingdom of England after 1066 (core c. 1277–1453): longbow, wool, planted towns and dismounted men-at-arms; Yeomen moves to the Town Center as the Crown’s arms legislation, the Chevauchée replaces Warwolf (a single engine, dropped under the relevance test), the archer team bonus is re-based on English archers serving allies, the Mounted Crossbowman line, Cranequins and Siphons leave the tree and Bombard Cannon and Carrack join it; the period before 1066 is left to the Saxons."
 ideas = [
   "N2: A mounted archer that rides at cavalry speed and dismounts to shoot as a Longbowman (the Ratha’s mode switch), as the historical substitute for the removed Mounted Crossbowman line: English mounted archers rode to the fight and shot on foot (Strickland and Hardy, The Great Warbow, 2005).",
   "N2: Give the Longbowman a faster rate of fire and only slightly more range than the Arbalester, since the war bow’s edge lay in shooting rate and massed volleys rather than range (Strickland and Hardy 2005; Curry 2005).",
+  "N2: Split the Archer and Crossbowman lines (RULES section 10), so that the longbow bonuses stop applying to crossbows, which English field armies used little after c. 1300.",
   "N2: A ‘Bill’ name or variant for the late-medieval English polearm infantry (Wars of the Roses; still used at Flodden, 1513).",
   "N3: An Anglo-Norman layer (the French-speaking elite and the Angevin lands, 1066–1204), which no civ represents today.",
   "N3: If this civ is renamed ‘English’, the name ‘Britons’ is freed for a Brythonic civ (Welsh, Cornish, Bretons): the archers of Gwent praised by Gerald of Wales, Owain Glyndŵr’s revolt, the Breton captains of the Hundred Years War.",
 ]
 contested = [
-  "Whether the longbow’s advantage lay in range at all: Strickland and Hardy and Anne Curry stress rate of shooting and massed use, with ranges comparable to contemporary crossbows; this design keeps the game’s range bonus (see open questions).",
+  "Where the longbow’s advantage lay: Strickland and Hardy and Anne Curry stress rate of shooting and massed use, with ranges comparable to contemporary crossbows. This design follows that reading; the game’s range bonus is kept only as the civ’s established convention (see open questions).",
   "The effect of arrows on plate armour: Clifford Rogers argues for real lethality, Kelly DeVries is more sceptical, and modern tests disagree; arrows killed horses and lightly armoured men above all.",
   "The size and archer ratio of Henry V’s army at Agincourt (Sumption, Barker and Rogers, about five archers per man-at-arms, against Anne Curry’s larger army of c. 9,000).",
   "The Welsh origin of the longbow (Gerald of Wales on the archers of Gwent, 1188) against the view that it was the ordinary European self bow (Strickland and Hardy; Bradbury).",
   "The scale of English gunpowder use at Crécy (1346): reported by Giovanni Villani, absent from most other accounts.",
+  "How common hand guns were in English armies before 1485: the battlefield survey of Bosworth found lead shot from small guns (Foard and Curry, 2013), but the written sources name mostly foreign hand-gunners (Burgundian and Flemish) in the Wars of the Roses. This design adds the Bombard Cannon but not the Hand Cannoneer.",
+  "What the chevauchées were for: Clifford Rogers argues that Edward III used them to force the French to battle as well as to ruin the Valois tax base; other historians stress plunder and economic war that avoided battle.",
 ]
 open_questions = [
   "Name (not decided): the design is England 1066–1485, and ‘Britons’ historically means the Brythonic peoples the English displaced (Welsh, Cornish, Bretons). Rename to ‘English’? If so, should the Saxons become ‘Anglo-Saxons’ to keep the two English civs distinct, and should ‘Britons’ be reserved for a future Brythonic civ?",
-  "Range or rate of fire? The range bonus is rated plausible and is kept. The analysis proposes replacing ‘Foot Archers +1/+2 range in Castle/Imperial Age’ with ‘Foot Archers attack +10/+20% faster in Castle/Imperial Age’ (precedent: ‘Foot Archers attack +18% faster’, Ethiopians), which matches the scholarship better but changes the civ’s best-known feature. Owner’s choice.",
-  "Hand Cannoneer: only the Bombard Cannon is added (Harfleur, the Norman sieges). Hand guns in English field armies before 1500 were mostly foreign mercenaries (Burgundian and Flemish hand-gunners in the Wars of the Roses); add the Hand Cannoneer anyway?",
-  "A ‘Stakes’ unique tech (Henry V’s order that every archer carry a sharpened stake, Gesta Henrici Quinti) is N1-feasible: ‘Foot Archers receive -40% bonus damage’ (precedent: ‘Soldiers receive -40% bonus damage’, Sicilians) plus ‘+2 melee armor’. It would have to replace Yeomen or Warwolf, both rated plausible and kept here. Swap?",
+  "Range or rate of fire? The history is settled above (rate and mass), so this is a question of taste: the range bonus is the civ’s best-known feature, and Yeomen adds +1 range on top of it, so the civ stacks range twice. Options: (a) keep both as they are; (b) turn the civ bonus into ‘Foot Archers attack +10/+20% faster in Castle/Imperial Age’ (precedent: ‘Foot Archers attack +18% faster’, Ethiopians); (c) split: keep range on Yeomen and make the civ bonus rate of fire, so the familiar feature survives once.",
+  "Warwolf is dropped under the relevance test (a single engine at a single siege) and its Castle slot goes to the Chevauchée. It is the Britons’ best-known tech in the game: keep it anyway for its fame, either instead of the Chevauchée or as a third tech (Castle Age at the Castle, before the Chevauchée in Imperial Age)?",
+  "A third tech at the Market for the Calais Staple (1363), the wool monopoly that paid for the Crown’s wars (analysis proposal; e.g. ‘Trade Units generate +10% gold’, after the Spanish team bonus ‘Trade Units generate +25% gold’)? The wool trade also fed the cloth towns of Flanders and Italy, so it is a second team-bonus-type trait (RULES 6.2); here wool stays in the Shepherds bonus and the archers carry the team bonus.",
 ]
 
 [profile]
-entity = "Kingdom of England (Anglo-Norman, Angevin, Plantagenet, Lancastrian and Yorkist England)"
-region = "England, with Wales after 1283 and the English lands in France (Gascony, Calais, Lancastrian Normandy)"
+entity = "Kingdom of England (Anglo-Norman, Angevin/Plantagenet, Lancastrian and Yorkist England)"
+region = "England, with Wales after 1283, the English lordship of Ireland (from 1171) and the English lands in France (Gascony, Calais, Lancastrian Normandy)"
 window = "1066–1485 (design core c. 1277–1453, from Edward I’s Welsh wars to Castillon)"
 sources = [
+  "Statute of Winchester (1285)",
   "Jean Froissart, Chroniques",
   "Gesta Henrici Quinti (c. 1417)",
   "Matthew Strickland and Robert Hardy, The Great Warbow (2005)",
@@ -36,9 +40,11 @@ sources = [
   "Clifford J. Rogers, War Cruel and Sharp: English Strategy under Edward III, 1327–1360 (2000)",
   "Michael Prestwich, Armies and Warfare in the Middle Ages: The English Experience (1996); Edward I (1988)",
   "Jonathan Sumption, The Hundred Years War (5 vols., 1990–2023)",
+  "William Caferro, John Hawkwood: An English Mercenary in Fourteenth-Century Italy (2006)",
   "T. H. Lloyd, The English Wool Trade in the Middle Ages (1977)",
   "Maurice Beresford, New Towns of the Middle Ages: Town Plantation in England, Wales and Gascony (1967)",
   "N. A. M. Rodger, The Safeguard of the Sea: A Naval History of Britain 660–1649 (1997)",
+  "Glenn Foard and Anne Curry, Bosworth 1485: A Battlefield Rediscovered (2013)",
 ]
 replaces = "Britons as an umbrella for all of English history from c. 400 to 1453; Anglo-Saxon England (c. 450–1066) now belongs to the Saxons"
 
@@ -49,6 +55,7 @@ level = 1
 change = "kept"
 precedent = "Shepherds work +25% faster (Britons)"
 basis = "Wool was England’s chief export and the fiscal engine of its wars: the ‘Ancient Custom’ on wool (1275), the wool subsidies and the Calais Staple (1363) paid for the armies of Edward I and Edward III, and the Lord Speaker still sits on the Woolsack (T. H. Lloyd, The English Wool Trade in the Middle Ages, 1977). An abstraction: sheep were valued for wool rather than meat."
+relevance = "Wool was England’s main export and the tax base of its wars for three centuries."
 
 [[bonus]]
 text = "Town Centers cost -50% wood starting in Castle Age"
@@ -57,6 +64,7 @@ level = 1
 change = "kept"
 precedent = "Town Centers cost -50% wood starting in Castle Age (Britons)"
 basis = "Town plantation: Beresford’s gazetteer counts 171 towns planted in England between 1066 and 1370, 84 in Wales and 124 in Gascony, among them Edward I’s castle-boroughs in north Wales (Flint, Rhuddlan, Conwy, Caernarfon, Beaumaris) and New Winchelsea (Beresford, New Towns of the Middle Ages, 1967). The cheap Castle-Age Town Center stands for these planned boroughs."
+relevance = "Planted boroughs carried English settlement and rule into Wales and Gascony; a borderline pass, since new towns were founded all over Europe."
 contested = "The basis is supplied after the fact; the bonus was probably designed for balance. Rated ‘stretched’ by the analysis, kept because planted towns are a real and well-documented English phenomenon."
 
 [[bonus]]
@@ -65,23 +73,27 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Foot Archers +1/+2 range in Castle/Imperial Age (Britons)"
-basis = "The English longbow tradition: Henry III’s assizes of arms (1242, 1252) and Edward I’s Statute of Winchester (1285) obliged the poorer free men to keep bows and arrows, and Edward III’s proclamation of 1363 ordered archery practice on holidays. Massed archery decided Falkirk (1298), Halidon Hill (1333), Crécy (1346), Poitiers (1356) and Agincourt (1415) (Strickland and Hardy 2005)."
-contested = "The bonus models range, the least defensible attribute: the longbow’s ranges were comparable to crossbows’, and its advantage lay in rate of shooting and mass (see open questions). It also applies to the Crossbowman line, which the English used little in the field."
+basis = "The English longbow tradition: Henry III’s writs of 1242 and 1252 and Edward I’s Statute of Winchester (1285) obliged the poorer free men to keep bows and arrows, and Edward III’s proclamation of 1363 ordered archery practice on holidays. Massed archery was central at Falkirk (1298), Halidon Hill (1333), Crécy (1346) and Agincourt (1415), and supporting at Poitiers (1356), where the French attacked largely on foot, the archers ran short of arrows and the Captal de Buch’s flank attack settled the day (Strickland and Hardy 2005; Rogers 2000)."
+relevance = "The massed longbow is the defining English weapon from Falkirk to Agincourt and the best-known trait of the civ."
+contested = "The bonus models range, the attribute the scholarship rates least (see the civ-level contested list and open questions). It also applies to the Crossbowman line, which English field armies used little after c. 1300."
 
 [[bonus]]
 text = "Militia-line +1/+2 melee armor in Castle/Imperial Age"
 kind = "military"
 level = 1
 change = "new"
-precedent = "Infantry and Mounted Units +1/+2 melee armor in Castle/Imperial Age (Teutons); Militia-line +5 melee armor (Bulgarians, Bagains)"
-basis = "The English fought dismounted. Anglo-Norman knights dismounted to fight at Tinchebray (1106) and at the Standard (1138); from Dupplin Moor (1332) and Halidon Hill (1333) English men-at-arms in full armour fought on foot in the centre with archers on the wings, the system of Crécy, Poitiers and Agincourt (Prestwich 1996; Rogers 2000). The game’s Militia-line, whose second tier is literally called Man-at-Arms, stands for these armoured dismounted men-at-arms."
+precedent = "Infantry and Mounted Units +1/+2 melee armor in Castle/Imperial Age (Teutons), narrowed to the Militia-line at the same magnitude; Bagains (Militia-line +5 melee armor) (Bulgarians) shows the Militia-line as an armour target"
+basis = "Anglo-Norman knights dismounted to fight at Tinchebray (1106) and at the Standard (1138); from Dupplin Moor (1332, the Disinherited under Edward Balliol) and Halidon Hill (1333) English men-at-arms in full armour fought on foot in the centre with archers on the wings, the system of Crécy, Poitiers and Agincourt (Prestwich 1996; Rogers 2000). What was English was the combination of dismounted men-at-arms with massed archers on the wings; dismounting itself was common Western practice (the French fought largely on foot at Poitiers and Agincourt). The game’s Militia-line, whose second tier is literally called Man-at-Arms, stands for these armoured dismounted men-at-arms."
+relevance = "Dismounted men-at-arms were half of the English tactical system that won the great battles of the Hundred Years War."
 
 [team_bonus]
 text = "Archery Ranges work +10% faster"
 level = 1
 change = "kept"
 precedent = "Archery Ranges work +10% faster (Britons)"
-basis = "England’s capacity to raise archers in numbers: commissions of array in the shires, indentured retinues from the 1340s in which archers came to outnumber men-at-arms, and compulsory practice (Prestwich 1996)."
+basis = "English archers served allies and employers abroad: under the Black Prince they decided Nájera (1367) for Pedro I of Castile; a small English contingent fought with John I of Portugal at Aljubarrota (1385), on the eve of the Treaty of Windsor (1386); John Hawkwood’s White Company and its archers served Pisa, Milan and Florence from the 1360s to 1394 (Caferro 2006); Henry of Bolingbroke’s archers fought beside the Teutonic Order before Vilnius (1390); and Charles the Bold hired English archers in the 1470s (Vaughan, Charles the Bold, 1973). Re-based on this benefit to allies (RULES 6.2): the earlier basis, England’s own recruiting by commissions of array and indentures, benefited only England."
+relevance = "The English archer was England’s best-known military export, and Nájera and Aljubarrota show allies winning with him."
+contested = "The size of the English contingent at Aljubarrota is uncertain; the figures in the sources differ."
 
 [[unique_unit]]
 name = "Longbowman"
@@ -90,39 +102,54 @@ building = "Castle"
 level = 1
 change = "kept"
 basis = "The emblematic soldier of English armies from Edward I’s Welsh wars to Castillon (1277–1453). Bows recovered from the Mary Rose (sunk 1545) suggest very heavy draw weights (estimates of c. 100–180 lbf, debated). English archers also carried swords or bucklers and stakes and were decisive only alongside dismounted men-at-arms (Strickland and Hardy 2005)."
+relevance = "The longbowman is the emblem of English arms in the Hundred Years War and the civ’s identity in the game."
 
 [[unique_tech]]
 name = "Yeomen"
+building = "Town Center"
+kind = "civil"
 age = "Castle"
 effect = "Foot Archers and Skirmisher-line +1 range; Watch Tower-line +2 attack"
 level = 1
-change = "kept"
-precedent = "Yeomen (Britons)"
-basis = "Yeomen, the free smallholders and tenants who were the recruiting base of English archery, obliged by the assizes of arms and the Statute of Winchester (1285) to keep bows, and by the proclamation of 1363 to practise (Strickland and Hardy 2005)."
-contested = "The tower bonus may allude to the Yeomen Warders of the Tower of London, but that body descends from the Yeomen of the Guard founded in 1485, at the very end of the window; the link is speculative."
+change = "changed"
+replaces = "Yeomen (Castle unique tech, same effect)"
+precedent = "Yeomen (Foot Archers and Skirmisher-line +1 range; Watch Tower-line +2 attack) (Britons): moved to the Town Center, identical effect"
+basis = "The yeomen, the free smallholders and tenants who were the recruiting base of English archery, were armed by royal legislation: Henry III’s writs of 1242 and 1252 extended Henry II’s Assize of Arms (1181) to bows and arrows for the poorer free men; Edward I’s Statute of Winchester (1285) fixed the arms every man had to keep by his wealth and ordered a watch at the town gates from sunset to sunrise (‘watch and ward’); and Edward III’s proclamation of 1363 ordered archery practice on holidays (Strickland and Hardy 2005). At the Town Center because it rests on the Crown’s legislation, a state matter (RULES 6.2); the tower half fits the Statute’s watch."
+relevance = "Royal arms legislation created the reservoir of archers behind every English army from Falkirk to Agincourt."
+contested = "The tower bonus has also been read as an allusion to the Yeomen Warders of the Tower of London, but that body descends from the Yeomen of the Guard (1485), at the very end of the window; the link to the Statute’s watch is this design’s reading."
 
 [[unique_tech]]
-name = "Warwolf"
+name = "Chevauchée"
+building = "Castle"
+kind = "military"
 age = "Imperial"
-effect = "Trebuchets deal blast damage and are more accurate"
-level = 1
-change = "kept"
-precedent = "Warwolf (Britons)"
-basis = "The Warwolf was the giant trebuchet Edward I had built for the siege of Stirling (1304); he refused to accept the garrison’s surrender until the engine had been tried (Prestwich, Edward I, 1988). Edward I’s siege engineering, like his castles, was outstanding for its time."
-contested = "A single machine rather than a national doctrine, and ‘blast damage’ is a game convention: a trebuchet threw one heavy stone."
+effect = "Knight-line and Scout Cavalry-line +2 attack vs. buildings; loot 25% of the resource cost of each destroyed building"
+level = 2
+change = "new"
+replaces = "Warwolf (Trebuchets deal blast damage and are more accurate)"
+precedent = "Effect 1: Scout Cavalry-line and Camel Units +2 attack vs. buildings (Hindustanis team bonus), with the Knight-line in place of the Camel Units; effect 2: Loot 25% of the resource cost of each destroyed building (Danes). No existing unique tech renders a raiding strategy: the game has these effects only as a passive bonus and a team bonus."
+basis = "The chevauchée, the great mounted raid that burned and plundered across enemy country, was the core of Edward III’s strategy: the Cambrésis (1339), Normandy on the way to Crécy (1346), the Black Prince’s raids from Bordeaux to Narbonne (1355) and towards the Loire before Poitiers (1356), Reims (1359–60) and John of Gaunt’s march from Calais to Bordeaux (1373) (Rogers, War Cruel and Sharp, 2000; Sumption). The whole army rode, men-at-arms and mounted archers alike; the game’s mounted units stand for both. Replaces Warwolf, dropped under the relevance test (see [[dropped]]); the analysis proposed this tech."
+relevance = "The chevauchées brought on Crécy and Poitiers and the Treaty of Brétigny (1360): they were how England waged the Hundred Years War."
+contested = "What the raids were for (see the civ-level contested list)."
 
 [tree]
 add = ["Bombard Cannon", "Carrack"]
-remove = ["Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins"]
+remove = ["Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins", "Siphons"]
 
 [tree.basis]
-"Bombard Cannon" = "English armies besieged with gunpowder artillery: guns at the siege of Calais (1346–47), Henry V’s train of great guns at Harfleur (1415) and the artillery of the conquest of Normandy (Caen 1417, Rouen 1418–19) (Sumption, vol. IV). The civ already had the Cannon Galleon; land artillery removes that incoherence."
-"Carrack" = "Genoese carracks captured at the battle of the Seine (1416) were taken into Henry V’s navy, which also built its own ‘great ships’, the largest being the Grace Dieu (launched 1418); the Mary Rose (1511) is an English carrack at the edge of the window (Rodger, The Safeguard of the Sea, 1997). The Britons were the only civ of the region without it."
-"Mounted Crossbowman" = "English ‘mounted archers’ rode to battle and shot on foot with the longbow; crossbowmen served in English garrisons and armies (many of them Gascon or foreign) but were never a national arm, and none fought from horseback (Strickland and Hardy 2005). Substitute: none needed in N1, the archers are the foot Archer line and the Longbowman; see the N2 idea of a dismounting mounted archer."
+"Bombard Cannon" = "English armies besieged with gunpowder artillery: guns at the siege of Calais (1346–47), Henry V’s train of great guns at Harfleur (1415) and the artillery of the conquest of Normandy (Caen 1417, Rouen 1418–19) (Sumption, vol. IV). The civ already had the Cannon Galleon; land artillery removes that incoherence. The Hand Cannoneer is not added (see contested)."
+"Carrack" = "Genoese carracks captured at the battle of the Seine (1416) were taken into Henry V’s navy, which also built its own ‘great ships’, the largest being the Grace Dieu (launched 1418); the Mary Rose (1511), built just after the window, shows the type in English service (Rodger, The Safeguard of the Sea, 1997). The Britons were the only civ of the region without it."
+"Mounted Crossbowman" = "Crossbowmen, many of them foreign (Gascon, Brabançon, Genoese), were important in Angevin and early Edwardian armies, among them mounted crossbowmen (balistarii equites) in the pay of John and Henry III, who used their horses to move; whether they shot from the saddle is unclear. After c. 1300 the longbow displaced the crossbow in English field armies, and the ‘mounted archers’ of the Hundred Years War rode to battle and shot on foot with the longbow (Strickland and Hardy 2005; Prestwich 1996). Removed for the design core; no substitute is needed, since the archers are the foot Archer line and the Longbowman (see the N2 idea of a dismounting mounted archer)."
 "Heavy Mounted Crossbowman" = "Same reason as the Mounted Crossbowman."
-"Cranequins" = "The cranequin (rack-and-pinion spanning device) is a late continental crossbow fitting of the 15th century; it has no place in an army built on the longbow."
+"Cranequins" = "The cranequin (rack-and-pinion spanning device) is a 15th-century continental crossbow fitting; it has no place in an army built on the longbow."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret that Constantine VII ordered never to be given to another nation (De Administrando Imperio 13). Fire ships stay."
 
 [architecture]
 set = "Western European"
 change = "kept"
 basis = "Anglo-Norman Romanesque (Durham, the Tower of London) and English Gothic, with the stone castles of Edward I’s Welsh programme (Arnold Taylor, The Welsh Castles of Edward I, 1986)."
+
+[[dropped]]
+item = "Warwolf (Trebuchets deal blast damage and are more accurate)"
+kind = "unique_tech"
+reason = "Relevance test (RULES 6.9): the Warwolf was a single engine built for a single siege, Stirling (1304), whose garrison Edward I would not let surrender until the engine had been tried (Prestwich, Edward I, 1988); erasing it changes neither the course nor the identity of medieval England, and ‘blast damage’ is a game invention (a trebuchet threw one heavy stone). Its Castle slot goes to the Chevauchée, the weightier trait the civ lacked. The owner may keep it for its fame (open questions)."
