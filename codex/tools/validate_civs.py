@@ -6,14 +6,16 @@ Usage (from the repository root):
     python -I codex/tools/validate_civs.py --find NAME     list the civs that currently have an item
     python -I codex/tools/validate_civs.py --names         list every unit, tech and building name
 
-Checks the structure described in codex/civs/README.md and codex/RULES.md (v0.4.1, sections 1, 6 and 8):
+Checks the structure described in codex/civs/README.md and codex/RULES.md (v0.5, sections 1, 5, 6 and 8):
 composition (4-6 passive bonuses with at least one economic and one military; one team bonus; 2-4
 unique techs, one at the Castle and one at the Town Center, with valid buildings, kinds and ages;
 1-2 unique units, regional units not counting), required fields (including the one-line relevance
 statement of RULES 6.9 for every bonus, team bonus, unique unit and unique tech; original_name for renamed
 civs and a precise time window, RULES section 1), the level constraints that can be
 checked mechanically (item names exist in the game, architecture set exists, only unique techs may be
-level 2) and whether every original bonus, unique unit and unique tech is accounted for.
+level 2) and whether every original bonus, unique unit and unique tech is accounted for. Units that exist only
+in campaigns and the Scenario Editor (codex/tools/scenario-units.md) count as existing game content (RULES
+section 5): they are accepted as the `model` of a unique unit or of a per-civ rename.
 Errors make the exit code 1; warnings do not. With several files, it also lists the unit models and the
 effects (bonuses, team bonuses, unique techs) that more than one design uses, so that the holder lists in
 the precedents can be checked.
@@ -54,7 +56,22 @@ AGES = ['Dark', 'Feudal', 'Castle', 'Imperial']
 # 'RegionalUnit' in data/trees/) plus the Genitour, which the owner made a regional unit.
 OWNER_REGIONAL_UNITS = {'Genitour', 'Elite Genitour'}
 CHANGES = {'kept', 'changed', 'new'}
+SCENARIO_UNITS_FILE = ROOT / 'codex' / 'tools' / 'scenario-units.md'
 DROPPED_KINDS = {'bonus', 'team_bonus', 'unique_unit', 'unique_tech', 'unique_building', 'tree', 'other'}
+
+
+def load_scenario_units():
+    """Names of the units listed in codex/tools/scenario-units.md (first column of its table), without the
+    wiki's disambiguation suffix, e.g. 'Canoe (Age of Empires II)' -> 'Canoe'."""
+    units = set()
+    if not SCENARIO_UNITS_FILE.exists():
+        return units
+    for line in SCENARIO_UNITS_FILE.read_text(encoding='utf-8').splitlines():
+        cells = [c.strip() for c in line.strip().strip('|').split('|')]
+        if not line.startswith('|') or len(cells) < 2 or cells[0] in ('Unit', '') or set(cells[0]) <= set('-: '):
+            continue
+        units.add(re.sub(r'\s*\(Age of Empires II\)$', '', cells[0]))
+    return units
 
 
 def load_game():
@@ -73,6 +90,7 @@ def load_game():
     help_texts = {civ: s.get(str(c['help_string_id']), '') for civ, c in d['civs'].items()}
     display = {civ: s.get(str(c['name_string_id'])) or civ for civ, c in d['civs'].items()}
     help_texts['__display__'] = display
+    help_texts['__scenario__'] = load_scenario_units()
     help_texts['__prereq__'], help_texts['__substitutes__'] = load_prerequisites(names, d['civs'])
     help_texts['__regional__'] = OWNER_REGIONAL_UNITS | {
         x['name'] for f in (ROOT / 'data' / 'trees').glob('*.json')
@@ -265,6 +283,7 @@ def validate(path, game):
 
     uus = doc.get('unique_unit', [])
     regional = help_texts['__regional__']
+    scenario = help_texts['__scenario__']
     counted = [u for u in uus if u.get('model') not in regional]
     if not 1 <= len(counted) <= 2:
         r.err(f'{len(counted)} unique units (regional units not counted); RULES 6.1 asks for 1 or 2')
@@ -277,8 +296,8 @@ def validate(path, game):
         check_level(r, u, w)
         if u.get('change') not in CHANGES:
             r.err(f'{w}: change must be one of kept, changed, new')
-        if u.get('model') and u['model'] not in all_names:
-            r.err(f'{w}: model "{u["model"]}" is not an existing unit or building name')
+        if u.get('model') and u['model'] not in all_names and u['model'] not in scenario:
+            r.err(f'{w}: model "{u["model"]}" is not an existing unit or building name, nor a Scenario Editor unit')
 
     uts = doc.get('unique_tech', [])
     if not 2 <= len(uts) <= 4:
@@ -359,6 +378,8 @@ def validate(path, game):
         check_level(r, rn, w)
         if rn.get('from') and rn['from'] not in all_names:
             r.err(f'{w}: "{rn["from"]}" is not an existing unit, tech or building name')
+        if rn.get('model') and rn['model'] not in all_names and rn['model'] not in scenario:
+            r.err(f'{w}: model "{rn["model"]}" is not an existing unit name, nor a Scenario Editor unit')
 
     arch = doc.get('architecture', {})
     need(r, arch, ['set', 'basis'], '[architecture]')
@@ -397,6 +418,8 @@ def main(argv):
     if argv[:1] == ['--names']:
         for n in sorted(all_names):
             print(f'{n} ({"/".join(sorted(all_names[n]))})')
+        for n in sorted(game[1]['__scenario__'] - set(all_names)):
+            print(f'{n} (Scenario Editor unit)')
         return 0
     files = [Path(a) for a in argv] or sorted(CIVS_DIR.glob('*.toml'))
     failed = 0
@@ -426,9 +449,17 @@ def main(argv):
         for d in docs.values():
             for u in d.get('unique_unit', []):
                 models[u.get('model')].append(f'{d.get("name")} ({u.get("name")})')
+        for d in docs.values():
+            for rn in d.get('rename', []):
+                if rn.get('model'):
+                    models[rn['model']].append(f'{d.get("name")} ({rn.get("from")} renamed {rn.get("to")})')
+        scenario = game[1]['__scenario__'] - set(all_names)
         for model, holders in sorted(models.items()):
             if len(holders) > 1:
                 print(f'note: unit model "{model}" is used by ' + ', '.join(holders))
+        for model, holders in sorted(models.items()):
+            if model in scenario:
+                print(f'note: Scenario Editor unit "{model}" is the model of ' + ', '.join(holders))
         effects = defaultdict(list)
         for d in docs.values():
             for kind, items in (('bonus', d.get('bonus', [])), ('team bonus', [d.get('team_bonus', {})]),

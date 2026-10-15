@@ -1,5 +1,6 @@
 civ = "Saracens"
-name = "Saracens"
+name = "Arabs"
+original_name = "Saracens"
 status = "draft"
 label = "Cavalry Archer and Naval civilization"
 summary = "Saracens as the Arab caliphates and Ayyubid–Mamluk Egypt and Syria (632–1517): a horse-archer Mamluk replaces the camel Mameluke, Iqta' land grants and Arabic science passed to neighbours are new, Bimaristan moves to the Town Center, and the Hand Cannoneer and Cannon Galleons leave."

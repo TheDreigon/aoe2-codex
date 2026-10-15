@@ -1,5 +1,6 @@
 civ = "Saxons"
-name = "Saxons"
+name = "Anglo-Saxons"
+original_name = "Saxons"
 status = "draft"
 label = "Infantry and Defensive civilization"
 summary = "Anglo-Saxon England (449–1066) rebuilt around the burh and the fyrd: earthwork walls and garrisoned towns replace castle arrows, the shield wall becomes a passive, the Fyrd and Edgar's Recoinage are the new techs, the continental missions the team bonus, and post-1066 items leave the tree."

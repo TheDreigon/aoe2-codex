@@ -1,5 +1,6 @@
 civ = "Britons"
-name = "Britons"
+name = "English"
+original_name = "Britons"
 status = "draft"
 label = "Foot Archer civilization"
 summary = "England after 1066 (core c. 1277–1453): Yeomen moves to the Town Center, the Chevauchée replaces Warwolf, dismounted men-at-arms gain armour, archers serving allies carry the team bonus, and the Mounted Crossbowman line leaves the tree as Bombard Cannon, Carrack and Crop Rotation join it."

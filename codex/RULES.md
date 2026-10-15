@@ -1,6 +1,6 @@
 # aoe2-codex rules
 
-Version 0.4.1, 15 October 2026. This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
+Version 0.5, 15 October 2026 (changes in section 12). This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
 
 - **[decided]**: agreed; changes only after a new discussion.
 - **[in principle]**: accepted, but the details are still open.
@@ -40,12 +40,15 @@ The five tests:
 |---|---|---|---|
 | Shu, Wei, Wu | Move to the **"Out of scope"** section, with the original design and an explanation. Their documented elements (Traction Trebuchet, Tuntian, river navy) go to the Chinese civs. | — | [decided] |
 | Romans | "Out of scope": earlier than the time frame; the medieval Romans are the Byzantines. | — | [decided] |
-| Huns | Replaced by the **Avars** (567–796), where the Tarkan and the trebuchet bonus make sense. | N1 | [decided] |
+| Huns | Replaced by the **Avars** (567–796), where the Tarkan and a trebuchet bonus make sense. The bonus goes to the engine the Avars used, as "Traction Trebuchets cost -25%": the sources stress the number of the Avar engines, not their aim (Archbishop John contrasts the inaccurate Avar engines with the Roman torsion artillery; S. McCotter 2003). | N1 | [decided] |
 | Vikings | Renamed **Norwegians**: the Norwegian kingdom and its North Atlantic realm (the Faroes; Orkney and Shetland until 1468–69; the Hebrides and Man until 1266; Greenland from 1261; Iceland from 1262–64), with the earlier Icelandic Commonwealth as part of the same West Norse world. "Viking" was an activity; "Norse" would read as the umbrella for all Scandinavians next to the Danes and Swedes. | N1 | [decided] |
 | Danes | Kept, extended beyond 1042 to the medieval kingdom (the Valdemars, the Kalmar Union). | N1 | [decided] |
 | Varangians | Renamed **Swedes**. "Varangian" (Greek *Varangoi*, Old East Slavic *varyagi*, from Old Norse *væringi*, "sworn man") is what Greeks, Rus' and Arabs called Scandinavians abroad, first recorded in the 11th century, never a people's or state's own name. The Swedes cover c. 500–1500: Vendel-period Uppland; the eastern ventures (Grobiņa, Salme, Birka, Gotland silver, Ingvar); the kingdom (Stockholm 1252, the Alsnö statute 1279/80, Falun 1288); and resistance to the Kalmar Union (Engelbrekt 1434, Brunkeberg 1471). The Varangian Guard stays with the Byzantines. | N1 | [decided] |
 | Slavs | Renamed **Rus'**, from the late 9th century (Oleg in Kiev, traditionally 882) to c. 1500. The founding elite was largely Scandinavian (in 839 the *Rhos* were identified as Swedes), but the Rus' were from the start a distinct people and state ruling a mostly Slavic and Finnic population; Slavic names enter the dynasty by c. 945, and Christianity becomes official in 988. Scandinavians who stayed Scandinavian (traders, raiders, mercenaries) belong to the Swedes. How far the Scandinavian elite shaped the early state is contested (the "Normanist" debate). | N1 | [decided] |
-| Celts | Reworked as **Gaels** (Gaelic Ireland and Scotland). | N1 | [decided] |
+| Celts | Reworked as **Gaels** (Gaelic Ireland and Scotland, with the medieval kingdom of Scotland). | N1 | [decided] |
+| Britons | Renamed **English**: the design is the kingdom of England after 1066, and in English scholarship "Britons" means the Brythonic peoples (Welsh, Cornish, Bretons), which frees the name for a possible Brythonic civ. | N1 | [decided] |
+| Saxons | Renamed **Anglo-Saxons**, decided together with the English so that the two English civs stay distinct: the design is England from the settlement to 1066. The term is contested (some scholars prefer "early medieval English" or "Early English"); the site flags it. | N1 | [decided] |
+| Saracens | Renamed **Arabs**: "Saracens" was a Greek and Latin outsiders' name, and the design is the Arab caliphates and the Arabic-speaking states of Egypt and Syria to 1517. | N1 | [decided] |
 | Dravidians | Renamed **Tamils** (Pallavas, Cholas, Pandyas). The Deccan polities (Chalukyas, Rashtrakutas, Hoysalas, Vijayanagara) could become a separate civ later. | N1 | [decided] |
 | Tatars | Centred on the Golden Horde, separated from Timur, who devastated it in 1391 and 1395. | N1 | [decided] |
 | Spanish | Renamed **Castilians**: the current design is essentially Castile, and "Spain" was a dynastic union only from 1479. | N1 | [decided] |
@@ -56,6 +59,8 @@ The five tests:
 | Chinese | Split into **Tang, Song and Ming**. Historically justified; when to do it is the owner's call. | N3 | [in principle] |
 | (new) | **Aragonese**: the Crown of Aragon (1137–1516), with the Almogàvers, Roger de Lauria's galleys and the *Consolat de Mar*. | N3 | [decided] |
 | (new) | **Tibetans**: top-priority new civ. One civ covering the Tibetan Empire (c. 618–842) and the monastic period up to c. 1500: military techs from the imperial era, civil and religious techs from the monastic era. | N3 | [decided] |
+| (new) | **Mississippians**: Cahokia and the chiefdoms of the American Southeast (c. 800–1600), the mound-building societies of the Mississippi valley. | N3 | [proposal] |
+| (new) | **Javanese**: the Javanese kingdoms from Mataram (Medang) to Majapahit (c. 732–1527), which the Malay design leaves out. | N3 | [proposal] |
 
 Splitting civs for the sake of accuracy is allowed. **[decided]**
 
@@ -70,6 +75,10 @@ The level measures the **implementation cost for a future modder**, not historic
 | **N3: Rebuild** | New buildings, units and mechanics; changes to the rock-paper-scissors counter system; new architecture sets; new civs. | Full freedom, but every change cites a source. |
 
 On the site, every change carries its level label.
+
+**Existing content includes the Scenario Editor.** Units that exist in the game, with art and data, but are trainable only in campaigns and the Scenario Editor (the Crusader Knight, the Mounted Samurai, the Pagan Priest, the Canoe and others, listed in [`tools/scenario-units.md`](tools/scenario-units.md)) count as existing game content for N1. A design may use one as the model of a unique unit, or as the look of a renamed generic unit. Each use passes the usual historical review; such a unit is chosen only where it fits a civ better than the current borrowing. **[decided]**
+
+**Narrowing.** A passive bonus or team bonus that applies an existing effect to a narrower set of targets, or at a lower magnitude, is N1. A unique tech stays N1 only when it is identical in play to an existing tech (rule 6.5). **[decided]**
 
 ## 6. Civ design rules
 
@@ -97,6 +106,26 @@ On the site, every change carries its level label.
 13. **Civ profile.** Every civ has a profile with the entity it represents, its region, its time window and its main sources. **[in principle]**
 14. **Game structure.** We keep the AoE2 skeleton: four ages, the counter system and a similar "power budget" across civs. N1 does not promise balance, but it avoids obvious absurdities. **[in principle]**
 15. **Architecture sets.** Reassigning an existing set is N1 (Persians → Central Asian); creating a new set is N3 (a "Steppe" set for Avars, Mongols and Cumans). **[decided]**
+16. **Codex-wide conventions.** The level-1 review (October 2026) settled 26 codex-wide questions (CQ1–CQ26). They are decided conventions for every civ; the owner can overrule any of them (section 11). **[decided]**
+    1. **Navy (CQ1).** Navies are classified by vessel, not by water. Planked war galleys or ships make a **fleet of ships**, which keeps every generic tier. Dugouts, rafts and light boats make the **boat tier**, which keeps the generic lines without the Galleon and Carrack. A civ without a war fleet of its own keeps the **basic navy** (galleys, fire ships, the Hulk line, demolition ships and the Dock techs), without the Galleon, Carrack, Fast Fire Ship or a siege warship. Special warships (Cannon Galleon, Catapult Galleon, Dromon, Longship, Lou Chuan, Turtle Ship) appear only where the type is documented, and the Cannon Galleon needs gun-armed warships inside the window. Every file names its tier and the vessels it rests on.
+    2. **Generic post-1500 items (CQ2).** The Petard, demolition ships, Heated Shot and the Galleon of a fleet of ships stay as flagged abstractions of the game's skeleton and never count as a civ's one late element (section 2).
+    3. **Crossbows (CQ3).** In Old World civs the Crossbowman is the generic Castle Age bow tier, as an abstraction, until the bow and crossbow lines are split in N2. The Arbalester needs crossbow evidence. The pre-contact Americas have neither.
+    4. **Thumb Ring (CQ26).** Only where the thumb draw is attested for the civ's archers, or for an archery tradition its armies demonstrably used (steppe, Islamic, East Asian).
+    5. **Siege engines (CQ7, CQ13).** Engines that never reached a civ are removed; the counterweight Trebuchet appears in the 1160s–1180s and reached China only in 1273. The Mangonel line is the light stone-thrower everywhere. The Traction Trebuchet is given wherever heavy stone-throwing engines are attested before the counterweight era (the traction test). A civ may have no long-range anti-building weapon when none is attested. The American civs have no siege engines (owner's decision).
+    6. **Americas (CQ12, CQ20).** The American civs keep the removals of siege engines, crossbows, the Halberdier and the Galleon. Blast Furnace, Plate Mail Armor and Ring Archer Armor stay as generic equipment levels, renamed where a documented equivalent exists, on the same footing as Forging, Scale Mail and Chain Mail. Renames of generic items follow rule 10 wherever a file documents the real equivalent, Coinage included; an item kept without an equivalent is flagged as an abstraction.
+    7. **Mule Cart (CQ4).** It stays with its four holders (Armenians, Georgians, Ethiopians, Tatars); extending it waits for N2 or N3 (section 10).
+    8. **Architecture (CQ5).** Historical fit decides. The steppe civs keep stopgap sets until a Steppe set exists (N3).
+    9. **Religious vocabulary (CQ6).** The Monk, the Monastery and its techs keep the game's generic names in N1; the site notes that "Monk" fits Muslim civs worst.
+    10. **Regional units (CQ8, CQ23).** No unit the game classifies as regional counts as a unique unit. The regional Genitour serves the Berbers, Castilians, Portuguese and Lithuanians (owner's decision), not the Malians.
+    11. **Magnitudes and ages (CQ9, CQ10).** The ceiling is measured per unit class: no unit line goes beyond the highest value the game gives that class. An existing effect that is moved or becomes a passive keeps the game's age or a later one, never an earlier one; the site labels this as a game constraint.
+    12. **Reuse (CQ11).** Reused effects are accepted in N1, each resting on its own history (rule 7). Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present. A diversification pass for team bonuses and Town Center techs is planned for N2.
+    13. **Power floor (CQ14).** No blanket compensation for kits that history leaves weak; only historically grounded extras.
+    14. **Alliances of autonomous polities (CQ15).** Alliances between autonomous polities of one people (the Mapuche, the Tupi) are alliances between independent allies and satisfy rule 2.
+    15. **Names (CQ16, CQ17, CQ18, CQ22).** A civ is renamed only where standard English scholarship does not use the game's name for the design's entity (section 4). A shared generic item is renamed for one civ only when it has the same function inside the window, the new name is a period term, and the generic name is foreign or anachronistic to the civ; modern coinages are flagged. A codex unit may take the name of a different existing game unit (Ghulam, Teutonic Knight, Houfnice), with a note on the site. Item names use a plain romanization for non-Latin scripts (Pinyin without tones, Revised Romanization, no scholarly diacritics for Arabic, Persian and Indic); Latin-script languages keep their diacritics.
+    16. **Labels (CQ19).** The in-game label follows the redesign, using the game's label categories.
+    17. **Windows past 1500 (CQ21).** A window may run to a terminal event soon after 1500, with a stated core inside the time frame.
+    18. **Timurid Siegecraft (CQ24).** Not for the Persians; its best home is a possible Mongol Huihui Pao (1273), a design option.
+    19. **Rule readings (CQ25).** (a) The chronological order of rule 4 binds only the two Castle techs. (b) An existing unique tech that renders a long tradition stays a tech only as a flagged fallback. (c) Defence lines go to the Castle, fortified towns to the Town Center. (d) The tree follows the period the design represents, not everything attested at the edge of the window.
 
 ## 7. History texts
 
@@ -215,3 +244,9 @@ set = "Mediterranean"
 
 - **Historical questions** (what is true, how strong the evidence is, which reading of a contested point the design follows) are settled by Claude, the project's research assistant. Claude cites sources, flags contested points and runs an adversarial check on major calls. **[decided]**
 - **Design, scope, priorities and taste** are settled by the project owner, TheDreigon, who can overrule any decision, historical ones included. **[decided]**
+
+## 12. Changes
+
+- **0.5 (15 October 2026).** After the level-1 review (`reviews/level-1-review.md`): the 26 codex-wide questions become decided conventions (rule 6.16); units of the campaigns and the Scenario Editor count as existing content for N1, and narrowed or weaker passive and team effects are N1 (section 5); Britons, Saxons and Saracens are renamed English, Anglo-Saxons and Arabs; the Avars' trebuchet bonus becomes a cost reduction for the Traction Trebuchet; the Gaels include the kingdom of Scotland; Mississippians and Javanese are proposed as N3 civs (section 4); this changelog is added.
+- **0.4.1 (15 October 2026).** Open historical questions settled; who decides (section 11).
+- **0.1–0.4 (October 2026).** Unique techs at named buildings, where each historical trait goes (rule 6.2), the relevance test (rule 6.9), late elements (section 2), renamed civs (section 4).
