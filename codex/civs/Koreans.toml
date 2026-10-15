@@ -1,0 +1,136 @@
+civ = "Koreans"
+name = "Koreans"
+status = "draft"
+label = "Defensive and Naval civilization"
+summary = "The Korean states from the Three Kingdoms to early Joseon (c. 500–1598): the Turtle Ship, stone mining, free archer and tower upgrades, cheap warships, Rocket Carts and gunpowder stay; Goguryeo’s armoured cavalry (Gaema Musa, from the Cataphract) replaces the War Wagon, Eupseong becomes Sanseong, Shinkichon becomes Singijeon and applies to Rocket Carts only, the retreat into fortresses gives the team bonus, and the tree gains Heavy Scorpion, Plate Barding Armor and the Traction Trebuchet in place of the counterweight Trebuchet."
+ideas = [
+  "N2: Pyeonjeon: foot archers and Cavalry Archers +1 range for the short arrows shot through a guide tube (tongah), feared by Jurchens and Japanese.",
+  "N2: Panokseon: a two-deck warship with high HP as the backbone of the Joseon fleet (1555), replacing the Galleon line, with the Turtle Ship kept as a rare elite ship.",
+  "N2: Monk-soldiers (seungbyeong): Monks able to switch to melee combat, for Kim Yun-hu at Cheoin (1232) and the monk armies of Hyujeong and Yujeong (1592–93).",
+  "N2: Sanseong as an elevation bonus: Castles, towers and walls on high ground gain HP.",
+  "N3: Balhae (698–926), and Goryeo’s wars with the Khitans (993–1019) and Jurchens (1107–09) reflected in campaigns or civ links.",
+]
+contested = [
+  "Whether the geobukseon carried iron plates and can be called the first ironclad; the Korean sources of 1592 describe a spiked roof.",
+  "The historical belonging of Goguryeo and Balhae (Korean historiography versus China’s ‘Northeast Project’).",
+  "The real weight of the hwacha in the victory of Haengju (1593) and the numbers of combatants.",
+  "How long Goguryeo’s fully armoured cavalry lasted: most images of armoured horses are 4th–5th century.",
+]
+open_questions = [
+  "Rename the Rocket Cart to Hwacha for the Koreans (and the Heavy Rocket Cart to a matching name)? The unit is shared with Chinese, Jurchens and Khitans.",
+  "Mangonel and Onager stay out: the Rocket Cart already fills the anti-unit blast slot, and the Traction Trebuchet stands for the traction catapults (pocha) of the sources. Add the Mangonel line as well?",
+  "The Gaema Musa stands mainly for Goguryeo (to 668), while most other elements are Goryeo–Joseon. Acceptable as the civ’s land unique unit, or prefer another existing model?",
+  "Team bonus: garrison capacity for the retreat into fortresses is historically sound but weak in play. Accept, or choose another existing effect?",
+  "Name: ‘Koreans’ derives from Goryeo; the medieval states had their own names (Goguryeo, Silla, Goryeo, Joseon). Keep ‘Koreans’?",
+]
+
+[profile]
+entity = "The Korean states: Goguryeo, Baekje and Silla, Unified Silla, Goryeo (918–1392) and early Joseon"
+region = "Korean peninsula, with Goguryeo’s lands in southern Manchuria"
+window = "c. 500–1598 (core: Goryeo and early Joseon, 918–1598)"
+sources = [
+  "Kim Bu-sik, Samguk Sagi (1145)",
+  "Goryeosa (1451)",
+  "Joseon Wangjo Sillok (Annals of the Joseon Dynasty)",
+  "Gukjo oryeui seorye (1474)",
+  "Yi Sun-sin, Nanjung Ilgi (war diary, 1592–98)",
+  "Ki-baik Lee, A New History of Korea (1984)",
+  "Michael J. Seth, A History of Korea (2010)",
+  "Kenneth M. Swope, A Dragon’s Head and a Serpent’s Tail (2009)",
+  "Joseph Needham et al., Science and Civilisation in China, vol. 5, part 7 (1986)",
+]
+
+[[bonus]]
+text = "Stone miners work +20% faster"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Stone miners work +20% faster (Koreans)"
+basis = "Korean defence rested on stone: the mountain fortresses of Goguryeo, the walls of Hanyang (1396) and the town walls (eupseong) raised in numbers in the 15th century, above all on the south coast against the wakō."
+
+[[bonus]]
+text = "Ranged Soldiers cost -50% wood"
+kind = "military"
+level = 1
+change = "changed"
+replaces = "Ranged Soldiers and Infantry cost -50% wood"
+precedent = "Ranged Soldiers and Infantry cost -50% wood (Koreans), without the Infantry"
+basis = "The bow was the leading Korean weapon, from the hunting archers of the Goguryeo tomb murals to the horn bow (gakgung) and the Joseon military examinations (mugwa) centred on archery. The infantry discount, which had no specific basis, is removed."
+
+[[bonus]]
+text = "Archer armor and tower upgrades free (Bombard Tower requires Chemistry)"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Archer armor and tower upgrades free (Bombard Tower requires Chemistry) (Koreans)"
+basis = "Archers on fortifications were the core of Korean defence, from the defence of Ansi against Tang Taizong (645) to Gwiju (1231) against the Mongols; an abstraction."
+
+[[bonus]]
+text = "Warships cost -20% wood"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Warships cost -20% wood (Koreans)"
+basis = "Korea had a large shipbuilding capacity: on Mongol orders Goryeo built some 900 ships within months for the invasion of Japan in 1274 (Goryeosa), and Joseon developed the panokseon (1555). Jang Bogo’s Cheonghaejin (828) and Choe Mu-seon’s ship-borne guns against the wakō at Jinpo (1380) show the naval tradition."
+
+[team_bonus]
+text = "Town Centers +10 garrison capacity; Towers +5 garrison capacity"
+level = 1
+change = "new"
+replaces = "Villagers +3 line of sight"
+precedent = "Town Centers +10 garrison capacity; Towers +5 garrison capacity (Teutons)"
+basis = "Korean defence repeatedly emptied the fields and withdrew the people into fortresses: against the Sui (612) and the Tang (Ansi, 645), against the Khitans, and against the Mongols, when people were moved into mountain fortresses and onto islands while the court held out on Ganghwa (1232–70). The line-of-sight bonus it replaces had no identifiable link."
+
+[[unique_unit]]
+name = "Turtle Ship"
+model = "Turtle Ship"
+building = "Dock"
+level = 1
+change = "kept"
+basis = "The geobukseon is mentioned in 1413 in the Annals of King Taejong and was used by Yi Sun-sin from 1592 (Sacheon, Dangpo, Hansan), armed with cheonja and jija cannons. There were very few, probably three to five; the panokseon was the backbone of the fleet."
+contested = "Iron plating is not documented in the Korean sources of 1592, which describe a roof covered with spikes."
+
+[[unique_unit]]
+name = "Gaema Musa"
+model = "Cataphract"
+building = "Castle"
+level = 1
+change = "new"
+replaces = "War Wagon"
+basis = "Goguryeo tomb murals (Anak Tomb No. 3, 357, and later tombs) show riders and horses in full lamellar armour (gaema, ‘armoured horse’), the shock cavalry of a kingdom that fought the Sui and Tang until 668; Goryeo again raised a large cavalry corps (sin’gigun) in Yun Gwan’s Byeolmuban of 1104 against the Jurchen horsemen. The Cataphract, a heavily armoured lancer, is the existing model. The War Wagon it replaces had no known Korean prototype: the hwacha were rocket or gun carts, already represented by the Rocket Cart."
+contested = "Most images of fully armoured horses are 4th–5th century; their survival into the 7th century and beyond is an inference."
+
+[[unique_tech]]
+name = "Sanseong"
+age = "Castle"
+effect = "Watch Tower-line +2 range"
+level = 1
+change = "changed"
+replaces = "Eupseong (Watch Tower-line +2 range)"
+precedent = "Eupseong (Watch Tower-line +2 range) (Koreans)"
+basis = "Korean defence relied on mountain fortresses (sanseong) whose walls followed the ridges, so that defenders shot down on besiegers from above: Ansi held against Tang Taizong in 645, Gwiju and Cheoin against the Mongols in 1231–32. Eupseong means town walls, unrelated to tower range, so the same effect takes the name of the mountain fortress."
+
+[[unique_tech]]
+name = "Singijeon"
+age = "Imperial"
+effect = "Rocket Carts +1 range, fire additional projectiles"
+level = 1
+change = "changed"
+replaces = "Shinkichon (Rocket Carts and Turtle Ships +1 range, fire additional projectiles)"
+precedent = "Shinkichon (Rocket Carts and Turtle Ships +1 range, fire additional projectiles) (Koreans), applied to Rocket Carts only"
+basis = "Singijeon (神機箭) were rocket arrows derived from Goryeo’s juhwa, renamed and standardised in 1448 and fired in volleys of up to 100 from the hwacha improved under Munjong (1451); their specifications are in the Gukjo oryeui seorye (1474). The romanisation is corrected (Revised Romanization), and the Turtle Ship part is removed because the ships fired large arrows from cannon, not singijeon."
+
+[tree]
+add = ["Heavy Scorpion", "Plate Barding Armor", "Traction Trebuchet"]
+remove = ["Trebuchet"]
+
+[tree.basis]
+"Heavy Scorpion" = "Silla’s heavy crossbows were famous: the Samguk Sagi (year 669) says the Tang emperor summoned the artisan Gu Jinchon, whose crossbows were said to reach 1,000 paces; those he made in China reached only 30, then 60 paces, he blamed the timber, and he was suspected of hiding his secret. The civ had the Scorpion without its upgrade."
+"Plate Barding Armor" = "The fully armoured horses (gaema) of the Goguryeo murals; it also serves the Gaema Musa."
+"Traction Trebuchet" = "Both sides used traction stone-throwers (pocha) at the siege of Gwiju (1231, Goryeosa), and Goguryeo presented engines captured from the Sui to Japan in 618 (Nihon Shoki). It replaces the counterweight Trebuchet as the heavy stone-thrower (RULES 6.6), beside the Bombard Cannon of late Goryeo and Joseon."
+"Trebuchet" = "The counterweight trebuchet reached China only in 1273 (Xiangyang), and the Korean sources used here record traction engines only; Korea then turned to guns (Choe Mu-seon’s Office of Firearms, 1377)."
+
+[architecture]
+set = "East Asian"
+change = "kept"
+basis = "Korean palaces, temples and fortress gates belong to the East Asian timber-frame tradition."

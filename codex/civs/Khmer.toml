@@ -1,0 +1,145 @@
+civ = "Khmer"
+name = "Khmer"
+status = "draft"
+label = "Elephant and Siege civilization"
+summary = "The Angkorian empire (802–1431): the Ballista Elephant, Double Crossbows, the elephant speed bonus and the Scorpion team bonus stay; the unfounded age-up, drop-off and house-garrison mechanics give way to rice farming, temple-building, spear-and-shield infantry and Jayavarman VII’s rest houses (Dharmaśālā, from the Caravanserai), his hospitals replace Tusk Swords, and the mounted archers and gunpowder units leave the tree."
+ideas = [
+  "N3: A baray (reservoir) building that waters nearby Farms, if the agricultural role of the barays is upheld (Fletcher, Evans).",
+  "N2: Tonle Sap fleet: a naval tech for the river battles against the Cham shown on the Bayon and Banteay Chhmar (c. 1177–81).",
+  "N2: Double Crossbows reworked as one heavier bolt (more attack and range) rather than an extra projectile, closer to the double-bow engines of the reliefs.",
+  "N2: Hospitals as a regeneration aura around Monasteries and Town Centers (the analysis’ Ārogyaśālā proposal), instead of the Bimaristan effect used here.",
+  "N3: Champa and Siam (Sukhothai, Ayutthaya) as civs, Angkor’s main rivals.",
+]
+contested = [
+  "The devarāja cult: a god-king or the kingdom’s protective deity (Cœdès versus Kulke and Jacques); the source, Sdok Kak Thom (1052), is 250 years later than 802.",
+  "The ‘hydraulic city’: whether the barays served irrigation, flood control or symbolism (Groslier versus van Liere and Acker; the LiDAR surveys).",
+  "The ‘fall’ of Angkor in 1431 versus a gradual decline and a move of the capital south for trade (Vickery).",
+  "The origin of the double-bow engines on elephants (Chinese, through Champa? Cham contingents?).",
+  "The dates of Jayavarman II: traditional 802–850 (Cœdès) or c. 770–834 (Vickery, Jacques).",
+]
+open_questions = [
+  "Siege: Zhou Daguan, describing the army in 1296–97, says the soldiers fought naked and barefoot with lance and shield; as recalled here (not re-checked in this environment) he adds that they had no bows, stone-throwers, armour or helmets. Remove the Trebuchet and the Mangonel line, leaving rams, Scorpions and Ballista Elephants as the Khmer siege arm?",
+  "The Caravanserai is shared with Persians and Hindustanis and renamed Dharmaśālā (the inscription says ‘houses with fire’). Accept the building and the name?",
+  "The farm bonus rests partly on Angkor’s water management, whose agricultural role is debated. Keep it?",
+  "Five bonuses (three economic) replace three strong economic mechanics, including the unique ‘no buildings required’ rule. Is the power budget acceptable?",
+]
+
+[profile]
+entity = "The Khmer Empire of Angkor (Kambujadeśa)"
+region = "Mekong basin and the Tonle Sap, with provinces in present-day Thailand, Laos and southern Vietnam"
+window = "802–1431 (traditional dates; antecedents in Chenla from c. 550)"
+sources = [
+  "Zhou Daguan, Zhenla fengtu ji (A Record of Cambodia, 1296–97)",
+  "Song shi, chapter 489 (Champa, 1171)",
+  "Inscriptions of Sdok Kak Thom (K.235, 1052), Ta Prohm (K.273, 1186) and Preah Khan (K.908, 1191)",
+  "Reliefs of Angkor Wat, the Bayon and Banteay Chhmar",
+  "George Cœdès, Les États hindouisés d’Indochine et d’Indonésie (1964)",
+  "Michel Jacq-Hergoualc’h, The Armies of Angkor (2007)",
+  "Roland Fletcher, Damian Evans et al., Greater Angkor Project (LiDAR surveys)",
+  "David Chandler, A History of Cambodia",
+]
+
+[[bonus]]
+text = "Farms +10% food"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Farmers don’t require Mills or Town Centers to drop off food"
+precedent = "Farms +10% food (Chinese team bonus)"
+basis = "Angkor lived on rice grown around the Tonle Sap and managed through a vast network of reservoirs (barays; the West Baray, 11th century, is c. 8 × 2.1 km), canals and embankments mapped by LiDAR (Fletcher, Evans); Zhou Daguan (1296–97) reports that rice could be harvested several times a year. The drop-off mechanic it replaces matched no identifiable trait."
+contested = "How far the barays served irrigation rather than flood control or symbolism is debated."
+
+[[bonus]]
+text = "Builders work +25% faster"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "No buildings required to advance to the next Age or to unlock other buildings"
+precedent = "Builders work +30% faster (Spanish)"
+basis = "Angkor raised more than a thousand temples, from Angkor Wat (Suryavarman II, c. 1113–1150) to the Bayon and Angkor Thom of Jayavarman VII, with labour attached to the temples by royal foundation: the Ta Prohm stela (1186) counts tens of thousands of people in the service of a single temple. The age-up rule it replaces had no historical basis."
+
+[[bonus]]
+text = "Battle Elephants move +10% faster"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Battle Elephants move +10% faster (Khmer)"
+basis = "The reliefs of Angkor Wat show Suryavarman II and his generals on elephants, and those of the Bayon war elephants in battle; the speed is a generic abstraction of skill with elephants."
+
+[[bonus]]
+text = "Spearman-line costs -25%"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Villagers can garrison in Houses"
+precedent = "Camel Riders, Skirmishers and Spearman-line cost -25% (Byzantines)"
+basis = "The mass of Khmer armies was infantry with spear and shield and little or no body armour, as the reliefs of Angkor Wat and the Bayon show and Zhou Daguan describes (1296–97). The house-garrison bonus it replaces had no basis: Zhou Daguan describes common houses of wood and thatch with no defensive role."
+
+[[bonus]]
+text = "Can build Dharmaśālā (Caravanserai) in Imperial Age"
+kind = "economic"
+level = 1
+change = "new"
+precedent = "Can build Caravanserai in Imperial Age (Persians, Hindustanis)"
+basis = "Jayavarman VII’s royal roads linked Angkor with the provinces, and the Preah Khan inscription (1191) lists 121 ‘houses with fire’ along them, the rest houses usually called dharmaśālā. The Caravanserai, which heals and speeds Trade Carts, is the closest existing equivalent."
+
+[team_bonus]
+text = "Scorpions +1 range"
+level = 1
+change = "kept"
+precedent = "Scorpions +1 range (Khmer team bonus)"
+basis = "Coherent with the heavy crossbows of the reliefs, mounted on elephants and on wheeled carriages; a generic abstraction."
+
+[[unique_unit]]
+name = "Ballista Elephant"
+model = "Ballista Elephant"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The reliefs of the Bayon and Banteay Chhmar (Jayavarman VII, 1181–c. 1218) show heavy double-bow crossbows mounted on elephants and on wheeled carts; in some scenes the crews seem to wear the Cham headdress. Their frequency is unknown, and ‘can destroy trees’ is a game invention."
+contested = "Their origin: Chinese multiple-bow bed crossbows (plausible, not documented) or Cham contingents serving Jayavarman VII."
+
+[[unique_tech]]
+name = "Ārogyaśālā"
+age = "Castle"
+effect = "Monks passively heal multiple nearby units"
+level = 1
+change = "new"
+replaces = "Tusk Swords (Battle Elephants +3 attack)"
+precedent = "Bimaristan (Monks passively heal multiple nearby units) (Saracens)"
+basis = "Jayavarman VII founded hospitals (ārogyaśālā) across the empire: the Ta Prohm stela (1186) counts 102, and his hospital edict was inscribed in their chapels, Buddhist foundations supplied by the state. Tusk Swords, which it replaces, has no support in the Angkorian reliefs: blades on tusks are attested mainly in India and later."
+contested = "The hospitals had their own carers and physicians; tying them to Monks is an abstraction, as for the Saracen Bimaristan."
+
+[[unique_tech]]
+name = "Double Crossbows"
+age = "Imperial"
+effect = "Ballista Elephants and Scorpions fire an additional projectile"
+level = 1
+change = "kept"
+precedent = "Double Crossbow (Ballista Elephants and Scorpions fire an additional projectile) (Khmer)"
+basis = "The name matches the double-bow crossbows of the Khmer reliefs, related to the multiple-bow bed crossbows of Song China."
+contested = "The second bow gave power to a single large bolt, which is what the reliefs show; the extra projectile misreads the weapon, though some Chinese bed crossbows did shoot sheaves of arrows."
+
+[tree]
+add = ["Caravanserai"]
+remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon"]
+
+[tree.basis]
+"Caravanserai" = "Given by the Dharmaśālā bonus: the rest houses of Jayavarman VII’s roads (Preah Khan inscription, 1191)."
+"Cavalry Archer" = "No evidence of Khmer mounted archers; cavalry was marginal (small horses and riders with lances in the reliefs). The only mention of mounted archery in the Khmer–Cham wars is on the Cham side: in 1171 a man from Fujian advised the Cham king to adopt it against the Khmer elephants, and Champa bought horses (Song shi, ch. 489)."
+"Heavy Cavalry Archer" = "As for the Cavalry Archer."
+"Parthian Tactics" = "As for the Cavalry Archer."
+"Hand Cannoneer" = "Angkor declined before firearms spread in the region; Cambodian firearms belong to the post-Angkorian kingdom of Longvek (16th century), with adventurers such as Diogo Veloso and Blas Ruiz in the 1590s."
+"Cannon Galleon" = "No gunpowder in the Angkorian period; the Khmer fleet fought with oared boats on the Tonle Sap and the rivers (Bayon reliefs)."
+"Elite Cannon Galleon" = "As for the Cannon Galleon."
+
+[[rename]]
+from = "Caravanserai"
+to = "Dharmaśālā"
+level = 1
+basis = "The rest houses (‘houses with fire’) that Jayavarman VII set along his roads; same building and effect."
+
+[architecture]
+set = "Southeast Asian"
+change = "kept"
+basis = "The set evokes the stone temple towers of Angkor."

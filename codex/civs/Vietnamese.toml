@@ -1,0 +1,138 @@
+civ = "Vietnamese"
+name = "Vietnamese"
+status = "draft"
+label = "Archer and Naval civilization"
+summary = "Đại Việt from Ngô Quyền to the Lê (938–1527): the Rattan Archer, the archer HP bonus, free Conscription (renamed Ngụ Binh Ư Nông) and Paper Money stay; the unfounded economic and scouting bonuses give way to the Red River dikes and the river fleets of Bạch Đằng, Chatras takes the Sino-Vietnamese name Tượng Binh, the Imperial Skirmisher and its team bonus give way to the crossbow tradition, the Hand Cannoneer enters the tree, the mounted archers leave and the architecture becomes East Asian."
+ideas = [
+  "N2: Bạch Đằng stakes: obstacles in shallow water that damage and hold enemy ships, for the river victories of 938 and 1288 (stakes have been excavated in the estuary).",
+  "N2: A crossbow Rattan Archer (nỏ thủ) when the Archer and Crossbowman lines are split (owner’s list, RULES 10); the multi-shot ‘magic crossbow’ of Cao Lỗ remains legend.",
+  "N2: Vườn không nhà trống (‘empty gardens, empty houses’): scorched earth and evacuation against the Yuan (1258, 1285, 1287–88), as attrition for enemy units in Vietnamese territory.",
+  "N2: Hỏa khí: a gunpowder tech for Hand Cannoneers and Fire Lancers (Chế Bồng Nga killed by gunfire in 1390; Hồ Nguyên Trừng’s work for the Ming; Sun Laichen 2003).",
+  "N2: A Văn Miếu / examination tech for the Confucian state (Temple of Literature 1070, first examination 1075, Quốc Tử Giám 1076).",
+  "N3: A Champa civ (c. 192–1471, Panduranga to 1832), the rival of Đại Việt and Angkor, which could take back the Sanskrit name Chatras.",
+]
+contested = [
+  "The historicity of the Hùng kings and Văn Lang: the Đông Sơn culture versus traditions elaborated in the 14th–15th centuries (Kelley 2005).",
+  "Where Vietnamese firearms came from (transfer from China or local development) and how far they influenced the Ming.",
+  "The nationalist narrative of continuous resistance to China, criticised by Keith W. Taylor for erasing regional diversity and periods of integration.",
+  "Stakes at Bạch Đằng in 981 (tradition only), and whether the excavated stakes belong to 938 or to 1288.",
+]
+open_questions = [
+  "Rename the civ to Đại Việt, the state’s name from 1054 (Đại Cồ Việt from 968)? ‘Việt Nam’ dates from 1804.",
+  "Architecture: changed from Southeast Asian to East Asian, because Đại Việt built in Chinese timber-frame forms. Accept?",
+  "The Imperial Skirmisher and its team bonus are dropped (no matching Vietnamese troop type). Keep the unit as a game abstraction instead?",
+  "Fast Fire Ship stays out: the river victories rested on stakes, tides and boarding, and this draft found no clear source for fire ships. Add it with the naval bonus?",
+  "Conscription is renamed Ngụ Binh Ư Nông for this civ only (same effect). Accept the per-civ rename?",
+]
+
+[profile]
+entity = "Đại Việt (Đại Cồ Việt from 968, Đại Việt from 1054): the Ngô, Đinh, Early Lê, Lý, Trần, Hồ and Later Lê states of the Việt (Kinh)"
+region = "Red River delta and northern Vietnam, expanding south at the expense of Champa"
+window = "938–1527 (core 1009–1497)"
+sources = [
+  "Ngô Sĩ Liên et al., Đại Việt sử ký toàn thư (1479)",
+  "Lê Tắc, An Nam chí lược (c. 1335)",
+  "Trần Hưng Đạo, Hịch tướng sĩ (1284)",
+  "Yuan shi; Ming shilu",
+  "Keith W. Taylor, The Birth of Vietnam (1983); A History of the Vietnamese (2013)",
+  "John K. Whitmore, Vietnam, Hồ Quý Ly, and the Ming (1985)",
+  "Sun Laichen, ‘Military Technology Transfers from Ming China and the Emergence of Northern Mainland Southeast Asia (c. 1390–1527)’, Journal of Southeast Asian Studies 34 (2003)",
+  "Liam C. Kelley, Beyond the Bronze Pillars (2005)",
+]
+
+[[bonus]]
+text = "Mill technologies free"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Economic upgrades cost no wood and research +100% faster"
+precedent = "Mill technologies free (Franks)"
+basis = "The wet-rice economy of the Red River delta depended on dikes: the Trần built general dikes along the river in 1248 and kept the hydraulic network under state care, the base of the delta’s dense population. The state’s investment in water control is abstracted as free farming upgrades; the bonus it replaces had no identifiable link."
+
+[[bonus]]
+text = "Foot Archers and Skirmishers +20% HP"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Foot Archers and Skirmishers +20% HP (Vietnamese)"
+basis = "An abstraction of light infantry protected by wicker and rattan shields, common in Southeast Asia and southern China."
+
+[[bonus]]
+text = "Ngụ Binh Ư Nông (Conscription) free"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Conscription free (Vietnamese)"
+basis = "The Lý and Trần kept rotating peasant-soldiers who farmed in peacetime (ngụ binh ư nông, ‘lodging soldiers in agriculture’), and the Trần mobilised the whole country against the Mongols: the elders of the Diên Hồng conference (1284) voted to fight, and soldiers tattooed ‘Sát Thát’ (‘kill the Tatars’) on their arms."
+
+[[bonus]]
+text = "Ships move +10% faster"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Enemy Town Centers are revealed at the start of the game"
+precedent = "Ships move +10% faster (Berbers)"
+basis = "Đại Việt’s most celebrated victories were won on the rivers: at Bạch Đằng in 938 Ngô Quyền’s light boats drew the Southern Han fleet over stakes planted in the riverbed at high tide, and in 1288 Trần Hưng Đạo set the same trap for the Yuan fleet (Đại Việt sử ký toàn thư); in 1287–88 Trần Khánh Dư destroyed the Yuan supply fleet at Vân Đồn. Speed abstracts the light river craft that lured enemies into these traps. The scouting bonus it replaces was only weakly linked to guerrilla intelligence."
+
+[team_bonus]
+text = "Archery Ranges work +10% faster"
+level = 1
+change = "new"
+replaces = "Imperial Skirmisher upgrade available in Imperial Age"
+precedent = "Archery Ranges work +10% faster (Britons team bonus)"
+basis = "The crossbow (nỏ) was the Việt weapon par excellence: bronze trigger mechanisms and thousands of arrowheads have been found at Cổ Loa, Chinese sources mention the crossbowmen of Jiaozhi, and crossbows were used against the Song (1075–77) and the Mongols. The team bonus it replaces derived from an unfounded unit."
+
+[[unique_unit]]
+name = "Rattan Archer"
+model = "Rattan Archer"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "Shields and protection of rattan and wicker were common in Southeast Asia and southern China (the rattan-shield troops, tengpai, of the Ming), which justifies the high pierce armour."
+contested = "The characteristic Việt missile weapon was the crossbow rather than the bow, and ‘rattan armour’ is associated more with the peoples of south-west China."
+
+[[unique_tech]]
+name = "Tượng Binh"
+age = "Castle"
+effect = "Battle Elephants +100 HP"
+level = 1
+change = "changed"
+replaces = "Chatras (Battle Elephants +100 HP)"
+precedent = "Chatras (Battle Elephants +100 HP) (Vietnamese)"
+basis = "War elephants fought in Vietnamese armies: the Hồ used them against the Ming at Đa Bang (1407), and so did Lê Lợi’s insurrection in the 1420s. The effect stays, but the Sanskrit chattra (royal parasol) belongs to the Indianised courts of Champa and Angkor; tượng binh, ‘elephant troops’, is the Sino-Vietnamese term."
+
+[[unique_tech]]
+name = "Paper Money"
+age = "Imperial"
+effect = "Lumberjacks slowly generate gold in addition to wood"
+level = 1
+change = "kept"
+precedent = "Paper Money (Lumberjacks slowly generate gold in addition to wood) (Vietnamese)"
+basis = "Hồ Quý Ly, regent of the Trần and later usurper, issued paper money (Thông bảo hội sao) in 1396, a real experiment modelled on Chinese practice (jiaozi, c. 1024). The effect (lumberjacks generate gold) is a game abstraction."
+contested = "The issue was coercive, unpopular and short-lived (Whitmore 1985)."
+
+[tree]
+add = ["Hand Cannoneer"]
+remove = ["Cavalry Archer", "Heavy Cavalry Archer"]
+
+[tree.basis]
+"Hand Cannoneer" = "In 1390 the Cham king Chế Bồng Nga was killed by Vietnamese gunfire; after the Ming conquest Hồ Nguyên Trừng directed firearms production for the Ming, and the Lê used firearms against Champa (1471) and Lan Xang (1479–80) (Sun Laichen 2003). The civ had Bombard Cannon and Fire Lancer but no hand-held gun, against its own game history text."
+"Cavalry Archer" = "No Vietnamese tradition of mounted archery is known, and horses were scarce in the delta."
+"Heavy Cavalry Archer" = "As for the Cavalry Archer."
+
+[[rename]]
+from = "Conscription"
+to = "Ngụ Binh Ư Nông"
+level = 1
+basis = "Same effect. ‘Conscription’ evokes modern compulsory service (France, 1798); the Lý–Trần system of rotating peasant-soldiers is the Vietnamese equivalent of a standing levy."
+
+[architecture]
+set = "East Asian"
+change = "changed"
+replaces = "Southeast Asian"
+basis = "Đại Việt built in Chinese timber-frame forms with tiled, curved roofs: the One Pillar Pagoda (1049), the Temple of Literature (1070) and the Thăng Long citadel, unlike the Indic brick and stone towers of Champa and Angkor that the Southeast Asian set evokes."
+
+[[dropped]]
+item = "Imperial Skirmisher"
+kind = "unique_unit"
+reason = "No Vietnamese troop type matching an ‘imperial’ javelin skirmisher is known; it was a balance variant. The Vietnamese keep the Elite Skirmisher."

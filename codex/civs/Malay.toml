@@ -1,0 +1,130 @@
+civ = "Malay"
+name = "Malay"
+status = "draft"
+label = "Naval civilization"
+summary = "The Malay maritime states from Srivijaya to Malacca (c. 671–1511): the fish-trap, elephant and dock bonuses, Thalassocracy with its Harbor and Forced Levy stay; entrepôt trade and the Orang Laut fleets replace the faster age-up and the free infantry armour, the Karambit Warrior becomes the Hulubalang, and the mounted archers, Knight-line and Thumb Ring leave the tree."
+ideas = [
+  "N3: A Javanese civ (Mataram, Singhasari, Majapahit) with jong ships and cetbang guns, separating Java from the Malay world (Andaya 2008).",
+  "N2: Jong: a huge, slow junk with high HP and transport capacity, for the junks described by Tomé Pires and Gaspar Correia (Pati Unus’ fleet against Malacca, 1513; Manguin).",
+  "N2: Lela and rentaka: light bronze swivel guns firing from ships, Harbors and towers.",
+  "N2: A blowpipe (sumpit) skirmisher dealing poison damage (cf. Curare).",
+  "N2: Orang Laut amphibious infantry trained at the Harbor.",
+  "N2: Syahbandar: better Market rates for the harbour administration of Malacca.",
+]
+contested = [
+  "The nature and location of Srivijaya: Palembang, Jambi or Chaiya; a centralised empire or a network of kedatuan (Kulke).",
+  "The relation between the Sailendras of Java and Srivijaya.",
+  "The founding date of Malacca (c. 1400) and who converted to Islam, Parameswara or his successor.",
+  "The number of guns taken at Malacca in 1511: about 3,000 of 8,000 in João de Barros, 2,000 bronze pieces in other accounts; probably inflated.",
+  "The 14th-century dating of Majapahit’s cetbang guns, based on late sources.",
+]
+open_questions = [
+  "Scope and name: this draft centres the civ on the Malay states (Srivijaya, Melayu, Malacca) and leaves Java (Majapahit) to a future Javanese civ (N3). Keep the name ‘Malay’ and this scope, or split now?",
+  "Hulubalang (war chief, warrior retainer) is the name the analysis proposes for the Karambit Warrior, but the unit’s half-population mechanic suits a mass levy better than an elite title. Accept, or another name?",
+  "Hand Cannoneer stays out: the Malay word istinggar comes from Portuguese espingarda, which suggests that matchlocks spread with or after the Portuguese, while Malacca’s light artillery is attested (the civ keeps Bombard Cannon and Bombard Tower). Add it?",
+  "Knight and Cavalier leave (cavalry was marginal), but Arbalester stays although bow and crossbow mattered little. Remove Arbalester too?",
+  "Losing the faster age-up and the free infantry armour weakens the civ on land maps. Acceptable for N1?",
+]
+
+[profile]
+entity = "The Malay maritime states of the Straits: Srivijaya, Melayu (Jambi) and the Sultanate of Malacca"
+region = "Strait of Malacca: south-eastern Sumatra and the Malay Peninsula"
+window = "c. 671–1511"
+sources = [
+  "Yijing, travel accounts (671–695)",
+  "Inscriptions of Kedukan Bukit (682) and Kota Kapur (686)",
+  "Sejarah Melayu (Malay Annals)",
+  "Ma Huan, Yingya shenglan (1433)",
+  "Tomé Pires, Suma Oriental (c. 1512–15)",
+  "Brás de Albuquerque, Comentários do Grande Afonso de Albuquerque (1557)",
+  "João de Barros, Décadas da Ásia",
+  "O. W. Wolters, Early Indonesian Commerce (1967); The Fall of Srivijaya in Malay History (1970)",
+  "Anthony Reid, Southeast Asia in the Age of Commerce, 1450–1680 (1988–93)",
+  "Leonard Y. Andaya, Leaves of the Same Tree (2008)",
+]
+replaces = "A Malay–Javanese umbrella civ that also took in Majapahit (Java)"
+
+[[bonus]]
+text = "Trade Cogs generate +20% gold"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Advancing to the next Age is +66% faster"
+precedent = "Trade Units generate +25% gold (Spanish team bonus)"
+basis = "Srivijaya and Malacca were entrepôts that lived by drawing the shipping of the Straits into their ports: Yijing stayed at Srivijaya on his way to India (671–695), and Malacca, with four harbour masters (syahbandar) for the merchants of different nations, led Tomé Pires to write that whoever is lord of Malacca has his hand on the throat of Venice. The faster age-up it replaces had no historical basis."
+
+[[bonus]]
+text = "Galley-line attacks +25% faster"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Infantry armor upgrades free"
+precedent = "Galley-line attacks +25% faster (Saracens)"
+basis = "The sea peoples of the Straits (Orang Laut) manned the fleets of Srivijaya and Malacca, patrolled the straits and drove passing ships into the ruler’s port (Wolters 1970; Andaya 2008). The free infantry armour it replaces contradicted the light Malay infantry, with shield, spear and kris, and mail (baju rantai) only for the elite."
+
+[[bonus]]
+text = "Battle Elephants cost -25/35% in Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Battle Elephants cost -25/35% in Castle/Imperial Age (Malay)"
+basis = "Malacca met the Portuguese with war elephants in 1511 (Comentários of Albuquerque), and Sumatran sultanates used them; the discount is an abstraction."
+contested = "Java had few war elephants; the bonus fits the Malay states better than Majapahit."
+
+[[bonus]]
+text = "Fish Traps cost -33% and provide +200% food"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Fish Traps cost -33% and provide +200% food (Malay)"
+basis = "Fixed fish traps (kelong, sero, bagan) and fish as the staple protein are real features of Malay coastal societies."
+
+[team_bonus]
+text = "Docks +6 line of sight"
+level = 1
+change = "kept"
+precedent = "Docks +6 line of sight (Malay team bonus)"
+basis = "The Orang Laut were the eyes of the Straits, watching and controlling passing ships for Srivijaya and Malacca; an abstraction."
+
+[[unique_unit]]
+name = "Hulubalang"
+model = "Karambit Warrior"
+building = "Castle"
+level = 1
+change = "changed"
+replaces = "Karambit Warrior"
+basis = "Malay rulers fought with their war chiefs and champions (hulubalang) and the followers they brought, armed with spear, kris and shield; warfare in the region aimed at capturing people and relied on numbers (Reid). The karambit, a small curved knife of the Minangkabau for farm work and close defence, never armed a corps of troops, so the unit takes the name of the warriors; the half-population mechanic abstracts the mass of followers."
+contested = "Hulubalang were leaders and elite retainers; a half-population unit fits a levy better (see open questions)."
+
+[[unique_tech]]
+name = "Thalassocracy"
+age = "Castle"
+effect = "Docks are upgraded to Harbors"
+level = 1
+change = "kept"
+precedent = "Thalassocracy (Docks are upgraded to Harbors) (Malay)"
+basis = "The scholarly term (Greek) fits Srivijaya and Malacca, sea powers that controlled the Straits of Malacca and Sunda. Malay ports were defended by palisades and light guns (lela, rentaka), abstracted by the Harbor, the Malay unique building that shoots at enemies."
+
+[[unique_tech]]
+name = "Forced Levy"
+age = "Imperial"
+effect = "Militia-line gold cost is replaced by additional food cost"
+level = 1
+change = "kept"
+precedent = "Forced Levy (Militia-line gold cost is replaced by additional food cost) (Malay)"
+basis = "War in Southeast Asia aimed at capturing and mobilising people: the common people (rakyat) were called up, and dependants, debt-bondsmen (hamba) and corvée labour supplied troops (Reid). Paying the levy in food rather than gold fits an infantry of levies."
+
+[tree]
+add = []
+remove = ["Cavalry Archer", "Knight", "Cavalier", "Thumb Ring"]
+
+[tree.basis]
+"Cavalry Archer" = "The Malay world has no tradition of mounted archery."
+"Knight" = "Cavalry was marginal in Malay warfare; the heavy shock arm was the elephant."
+"Cavalier" = "As for the Knight."
+"Thumb Ring" = "Bow and crossbow mattered little; the characteristic missile weapons were the blowpipe (sumpit), javelins and throwing spears (lembing) and later firearms. The thumb draw belongs to the steppe and East Asian archery traditions."
+
+[architecture]
+set = "Southeast Asian"
+change = "kept"
+basis = "The set evokes the brick and stone temples (candi) of the region; the timber palaces of Malacca have no closer existing set."
