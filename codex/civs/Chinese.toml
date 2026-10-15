@@ -13,6 +13,7 @@ ideas = [
   "N2: Mo dao infantry: Tang long two-handed blades used against cavalry (Li Siye at Xiangji, 757).",
   "N3: The Grand Canal (Sui, 605–611) as a unique trade structure linking Markets and Docks.",
   "N3: The examination system (keju) and state paper money (jiaozi, 1024) as distinct economic and administrative mechanics.",
+  "N3: For the Song civ of the split, the Scenario Editor Flamethrower (RULES section 5; a slow, short-ranged siege weapon in the game data, whose look and role must be checked in game) as a model for the pump for “fierce fire oil” (menghuo you) that the Wujing Zongyao (1044) sets on city walls. Weighed for N1 and not used: both unique-unit slots are filled, no current borrowing fits poorly, and at sea the Dragon Ship already renders the pump.",
 ]
 contested = [
   "The date of the invention of gunpowder (a Daoist alchemical warning attributed to the 9th century is hard to date; the first published formulas are in the Wujing Zongyao, 1044) and of the first true rockets (12th–13th century).",
@@ -105,8 +106,8 @@ model = "Chu Ko Nu"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The repeating crossbow (lian nu) is attested from a 4th-century BC Chu tomb at Qinjiazui (Hubei) to the Wubei zhi (1621). The Sanguozhi credits Zhuge Liang with improving it, and Pei Songzhi's commentary describes his yuanrong, which shot ten iron bolts at once; hence the later name zhuge nu. It was light and short-ranged, used above all to defend walls and houses, sometimes with poisoned bolts (Needham and Yates 1994)."
-relevance = "Attested for two thousand years and tied to Zhuge Liang since the Sanguozhi, the repeating crossbow is the best-known form of China's signature weapon; it weighed less in battle than the heavy single-shot crossbow (see the Archer-line bonus), so this is a borderline case that its long fame tips (RULES 6.9). Kept at the level-1 review's default: the N1 alternative, a “Shenbi Crossbowman” on the Genoese Crossbowman model for the Song “divine-arm bow” (1068), would take a model already shared by the Italians and by the Portuguese design's Besteiro do Conto, so the heavy crossbow stays with the Archer-line bonus and the N2 idea."
+basis = "The repeating crossbow (lian nu) is attested from a 4th-century BC Chu tomb at Qinjiazui (Hubei) to the Wubei zhi (1621). The Sanguozhi credits Zhuge Liang with improving it, and Pei Songzhi's commentary describes his yuanrong, which shot ten iron bolts at once; hence the later name zhuge nu. It was light and short-ranged, used above all to defend walls and houses, sometimes with poisoned bolts (Needham and Yates 1994). Kept at the level-1 review's default, since the repeating crossbow's fame tips the borderline case (see relevance). A “Shenbi Crossbowman” on the Genoese Crossbowman model (strong against cavalry, as the Song heavy crossbow was against the Jin horse), after the “divine-arm bow” of 1068, remains the N1 alternative; sharing the model would be allowed (RULES 6.16.12). Until then the heavy crossbow is carried by the Archer-line bonus and the N2 idea."
+relevance = "Attested for two thousand years and tied to Zhuge Liang since the Sanguozhi, the repeating crossbow is the best-known form of China's signature weapon; it weighed less in battle than the heavy single-shot crossbow (see the Archer-line bonus), so this is a borderline case that its long fame tips (RULES 6.9)."
 contested = "The decisive Chinese crossbow was the heavy single-shot type (see the Archer-line bonus and the N2 idea); the name duplicates the out-of-scope Shu's Bolt Magazine, and its romanisation is Wade-Giles (pinyin: Zhuge nu). The game's name is kept (the level-1 review's default); a rename would follow the plain pinyin of RULES 6.16.15."
 
 [[unique_unit]]
@@ -127,7 +128,7 @@ age = "Castle"
 effect = "Walls, Watch Tower-line and Bombard Towers +30% HP"
 level = 1
 change = "kept"
-precedent = "Great Wall: Walls, Watch Tower-line and Bombard Towers +30% HP (Chinese); the Koreans' design shares it as Eupseong, at the Town Center"
+precedent = "Great Wall: Walls, Watch Tower-line and Bombard Towers +30% HP (Chinese); the Koreans' design shares it as Eupseong, at the Town Center, and the Japanese design as Genko Borui, at the Castle (without the Bombard Towers)"
 basis = "Walls were a constant of Chinese defence, but the tech is anchored on one datable moment: the Sui long walls, raised with mass levies against the Türks between 585 and 608 (Sui shu). Later works carry the same tradition: Song walled cities and Yu Jie's mountain fortresses in Sichuan, such as Diaoyucheng, which held the Mongols from 1243 to 1279 and before which Möngke died in 1259; Nanjing's brick-faced city wall (1366–1393); and, after the Tumu disaster (1449), Yu Zijun's rammed-earth line across the Ordos (1474) (Waldron 1990). The Bombard Tower clause fits the Ming. Walls as a whole are a structural trait; the tech stays paid rather than becoming a passive because the effect is large (RULES 6.2, step 4), and no separate walls passive is added, for the power budget."
 relevance = "Walls were the backbone of Chinese defence and city life (cheng means both wall and city), and the Great Wall is the best-known emblem of China; weight and fame both pass the bar."
 contested = "Waldron (1990): a single continuous Great Wall is a modern myth; the Tang and Song built no long walls, the largest border works of the 12th century were Jin (jiehao), and the Ming called their frontier walls bianqiang (“border walls”)."
