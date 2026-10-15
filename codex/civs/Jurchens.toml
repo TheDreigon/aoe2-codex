@@ -2,10 +2,10 @@ civ = "Jurchens"
 name = "Jurchens"
 status = "draft"
 label = "Cavalry and Gunpowder civilization"
-summary = "The Jurchen Jin (1114–1234) keep cavalry, siegecraft and the Iron Pagoda; the Grenadier becomes the Bomb Thrower, Meng'an Mouke the Town Center tech and the Traction Trebuchet the heavy engine, Bombard Cannon and Rocket Carts leave, and the unfounded friendly-fire and line-of-sight bonuses go."
+summary = "The Jurchen Jin (1114–1234) keep cavalry, siegecraft and the Iron Pagoda; the Grenadier becomes the Bomb Thrower, Meng'an Mouke the Town Center tech and the Traction Trebuchet the heavy engine; Bombard Cannon, Rocket Carts, the Lou Chuan and the unfounded friendly-fire and line-of-sight bonuses go."
 ideas = [
   "N2: Light flanking cavalry (guaizi ma) supporting the Iron Pagoda, if the contested reading of the Song sources is accepted.",
-  "N2: Traction Trebuchets that throw iron bombs (zhentianlei), with blast damage against units and buildings, as at Qizhou (1221) and Kaifeng (1232); Zhentianlei would then apply to them in place of its Lou Chuan clause, which has no Jin basis.",
+  "N2: Traction Trebuchets that throw iron bombs (zhentianlei), with blast damage against units and buildings, as at Qizhou (1221) and Kaifeng (1232); Zhentianlei would then extend to them.",
   "N3: The jiehao as a unique cheap earthwork wall of trench and rampart, beyond what the Jiehao tech can express.",
   "N2: Jingkang artisans: a tech that cheapens siege and gunpowder units after enemy production buildings are captured or destroyed, after the craftsmen, engines and books carried off from Kaifeng in 1127.",
   "N2: Gyrfalcons (haidongqing): a scouting and hunting tech; the Liao's falcon levies on the Jurchens were one cause of the revolt of 1114.",
@@ -22,12 +22,12 @@ contested = [
   "Reading of the Jin shi (44, Bing zhi) on the early Jurchen men, 平居則聽以佃漁射獵習為勞事: here 佃 most likely stands for 畋, “to hunt”, as in the Yijing's 以佃以漁, so the passage speaks of hunting, fishing and shooting, not of farming. Jurchen farming is attested otherwise (the settled shu Nüzhen; iron farm tools from Jin-period sites in Manchuria).",
 ]
 open_questions = [
-  "Power check: the Jurchens lose the friendly-fire reduction (so Bomb Throwers and Zhentianlei explosions now hurt friendly units at full strength), the Fire Lancer attack speed, the Rocket Cart, the Bombard Cannon and the counterweight Trebuchet, and gain Thumb Ring, the Long Swordsman, the Traction Trebuchet and Meng'an Mouke as a third tech. Held back: Parthian Tactics (with the +25% attack speed it would give Jurchen Cavalry Archers the full Mongol package) and the light pao (the Mangonel renamed Whirlwind Pao, as for the Khitans), since the Bomb Thrower already gives the civ a blast attack. Add either, or restore the friendly-fire reduction as a pure game convention?",
+  "Power check: the Jurchens lose the friendly-fire reduction (so Bomb Throwers and Zhentianlei explosions now hurt friendly units at full strength), the Fire Lancer attack speed, the Rocket Cart, the Bombard Cannon, the counterweight Trebuchet, the Lou Chuan, Siphons and Incendiaries, and gain Thumb Ring, the Long Swordsman, the Traction Trebuchet and Meng'an Mouke as a third tech. Held back: Parthian Tactics (with the +25% attack speed it would give Jurchen Cavalry Archers the full Mongol package) and the light pao (the Mangonel renamed Whirlwind Pao, as for the Khitans), since the Bomb Thrower already gives the civ a blast attack. Add either, or restore the friendly-fire reduction as a pure game convention?",
   "Team bonus: “Siege Workshops work +20% faster” rests on Jin officers and engineers who went over to Chinggis Khan from 1211 and on the Kaifeng craftsmen spared in 1233. The transfer ran largely through the Jin state's Han and Khitan subjects (Guo Baoyu, Xue Talahai, Yelü Chucai), and the neighbour that benefited was the Jin's conqueror, so it meets RULES 6.2 (transferred techniques, service) in the letter. Alternative: the Jin–Song border markets (quechang) reopened after the peace of 1141–42, with a trade team effect, although the Khitans' Chanyuan Treaty already renders the Liao–Song markets. Keep?",
   "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking. Concerned here: Meng'an Mouke, the Kshatriyas effect shared by seven Town Center techs; with less reuse it could become a level-2 cavalry levy (Mounted Units train +25% faster and cost -15% food), which would set the Jurchens apart.",
   "Names: Grenadier → Bomb Thrower (plain English, like the game's Fire Lancer and Rocket Cart), and Thunderclap Bombs → Zhentianlei (the Jin's own name for its iron bomb). Prefer “Heaven-Shaking Thunder” for the tech, or a Chinese term such as “Zhentianlei Thrower” for the unit?",
   "The Steppe Lancer is kept (see contested). Remove it to set the forest Jurchens further apart from the steppe civs?",
-  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule. Concerned here: the Lou Chuan, kept from the game as the Jin siege warship; the Jin war fleets of 1161 (Tangdao, Caishi) are documented, but the sources used here record no Jin tower ships or ship-borne stone-throwers, so a strict reading of the rule would remove it, and Zhentianlei would then name only the Bomb Thrower.",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule. Concerned here: the Lou Chuan, removed because no Jin tower ships or ship-borne stone-throwers are recorded; with a siege-warship floor it would return as the civ's siege warship, and Zhentianlei would again name it.",
 ]
 
 [profile]
@@ -147,18 +147,18 @@ name = "Zhentianlei"
 building = "Castle"
 kind = "military"
 age = "Imperial"
-effect = "Bomb Throwers and Lou Chuans detonate when defeated; projectiles produce additional explosions"
+effect = "Bomb Throwers detonate when defeated; projectiles produce additional explosions"
 level = 1
 change = "changed"
 replaces = "Thunderclap Bombs (Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions)"
-precedent = "Thunderclap Bombs: Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions (Jurchens); identical in play and renamed: the effect names the Bomb Thrower (the Grenadier renamed) and leaves out the Rocket Cart, which this design removes"
-basis = "At Qizhou (1221) the Jin besiegers threw iron-cased bombs from trebuchets (Zhao Yurong, Xinsi Qi Qi lu), and at Kaifeng in 1232 the defenders used the zhentianlei (“heaven-shaking thunder”), an iron pot of gunpowder launched by trebuchet or lowered on chains onto the Mongol sappers, whose roar the Jin shi says was heard a hundred li away and whose blast pierced iron armour; with the flying fire lances, these were the only two weapons the northern troops feared (Jin shi, biography of Chizhan Hexi; Needham 1986; Andrade 2016). The tech takes the Jin name, since “thunderclap” (pili) named the older, soft-cased Song bomb. The Lou Chuan clause stays only because the Jurchens keep the Lou Chuan and a level-1 tech must stay identical in play; it has no Jin basis, since in 1161 the Jin fleets were the victims of Song fire arrows and bombs at Tangdao and Caishi, not their users."
+precedent = "Thunderclap Bombs: Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions (Jurchens); identical in play and renamed: the effect names the Bomb Thrower (the Grenadier renamed) and leaves out the Rocket Cart and the Lou Chuan, which this design removes"
+basis = "At Qizhou (1221) the Jin besiegers threw iron-cased bombs from trebuchets (Zhao Yurong, Xinsi Qi Qi lu), and at Kaifeng in 1232 the defenders used the zhentianlei (“heaven-shaking thunder”), an iron pot of gunpowder launched by trebuchet or lowered on chains onto the Mongol sappers, whose roar the Jin shi says was heard a hundred li away and whose blast pierced iron armour; with the flying fire lances, these were the only two weapons the northern troops feared (Jin shi, biography of Chizhan Hexi; Needham 1986; Andrade 2016). The tech takes the Jin name, since “thunderclap” (pili) named the older, soft-cased Song bomb."
 relevance = "The Jin's iron bombs and fire lances, the weapons of their last stand at Kaifeng, give them their place in the history of gunpowder."
 contested = "The Jin shi names the zhentianlei only for Kaifeng (1232); the iron bombs of Qizhou (1221) appear in Zhao Yurong's account as iron fire pao (tie huopao)."
 
 [tree]
 add = ["Traction Trebuchet", "Thumb Ring", "Long Swordsman"]
-remove = ["Trebuchet", "Bombard Cannon", "Rocket Cart", "Heavy Rocket Cart"]
+remove = ["Trebuchet", "Bombard Cannon", "Rocket Cart", "Heavy Rocket Cart", "Lou Chuan", "Siphons", "Incendiaries"]
 
 [tree.basis]
 "Traction Trebuchet" = "The Jin used man-powered traction trebuchets in mass at Taiyuan and Kaifeng (1125–1127) and in the defence of Kaifeng in 1232, where they threw iron bombs; it replaces the counterweight Trebuchet as heavy siege artillery (RULES 6.11), as for the out-of-scope Three Kingdoms."
@@ -168,6 +168,9 @@ remove = ["Trebuchet", "Bombard Cannon", "Rocket Cart", "Heavy Rocket Cart"]
 "Bombard Cannon" = "The oldest securely dated metal-barrelled gun is the Xanadu gun of 1298 (the Heilongjiang gun is dated by context to c. 1288); a possibly earlier Tangut bronze piece from Wuwei is of disputed date. The Jin fought with fire lances and bombs, not cannon."
 "Rocket Cart" = "Multiple-rocket carts are Ming (and the Korean hwacha of 1451); whether the Jin “flying fire” of 1232 was a true rocket is disputed. The Bomb Thrower stays as the civ's blast weapon, so no Mangonel-line substitute is added (the Khitans, who have no other, get the light pao)."
 "Heavy Rocket Cart" = "Upgrade of the removed Rocket Cart."
+"Lou Chuan" = "No Jin tower ships (louchuan) or ship-borne stone-throwers are recorded, so the siege warship is removed, with no substitute (codex-wide question CQ1: Navy rule). The Jin did have war fleets of their own, raised for Wanyan Liang's invasion of 1161: the Song destroyed the sea fleet off Tangdao and beat back the attempt to cross the Yangtze at Caishi (Jin shi; Song shi). The Galleon and Carrack stay as flagged generic abstractions of these fleets under the codex navy rule (CQ1)."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13). China had its own liquid-fire projector, the pump for “fierce fire oil” (menghuo you) of the Wujing Zongyao (1044), but no ship-borne liquid fire is documented for the Jin fleets, which suffered Song fire weapons in 1161 (see Lou Chuan)."
+"Incendiaries" = "Requires Siphons, which this design removes."
 
 [[rename]]
 from = "Grenadier"
