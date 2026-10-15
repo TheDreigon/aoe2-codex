@@ -2,38 +2,44 @@ civ = "Malay"
 name = "Malay"
 status = "draft"
 label = "Naval civilization"
-summary = "The Malay maritime states from Srivijaya to Malacca (c. 671–1511): the fish-trap, elephant and dock bonuses, Thalassocracy with its Harbor and Forced Levy stay; entrepôt trade and the Orang Laut fleets replace the faster age-up and the free infantry armour, the Karambit Warrior becomes the Hulubalang, and the mounted archers, Knight-line and Thumb Ring leave the tree."
+summary = "The Malay maritime states of the Straits from Srivijaya to Malacca (671–1511): the fish-trap and elephant bonuses, Thalassocracy (now at the Dock) and Forced Levy stay; the entrepôt trade and the Orang Laut fleets replace the faster age-up and the free infantry armour, Malacca’s harbour masters become the Town Center tech (Syahbandar, the Grand Trunk Road effect), the Islam that Malacca carried across the archipelago replaces the dock-sight team bonus, the Karambit Warrior becomes the Hulubalang, and the mounted archers, Knight-line, Thumb Ring and the counterweight Trebuchet leave the tree."
 ideas = [
-  "N3: A Javanese civ (Mataram, Singhasari, Majapahit) with jong ships and cetbang guns, separating Java from the Malay world (Andaya 2008).",
-  "N2: Jong: a huge, slow junk with high HP and transport capacity, for the junks described by Tomé Pires and Gaspar Correia (Pati Unus’ fleet against Malacca, 1513; Manguin).",
+  "N3: A Javanese civ (Mataram, Singhasari, Majapahit), separating agrarian, brick-building Java from the maritime Malay world (Wolters), with the jong, the huge junks described by Tomé Pires and Gaspar Correia (Pati Unus’ fleet against Malacca, 1513; Manguin), and the bronze cetbang guns of Majapahit, whose 14th-century dating rests on late sources.",
   "N2: Lela and rentaka: light bronze swivel guns firing from ships, Harbors and towers.",
   "N2: A blowpipe (sumpit) skirmisher dealing poison damage (cf. Curare).",
   "N2: Orang Laut amphibious infantry trained at the Harbor.",
-  "N2: Syahbandar: better Market rates for the harbour administration of Malacca.",
 ]
 contested = [
   "The nature and location of Srivijaya: Palembang, Jambi or Chaiya; a centralised empire or a network of kedatuan (Kulke).",
   "The relation between the Sailendras of Java and Srivijaya.",
-  "The founding date of Malacca (c. 1400) and who converted to Islam, Parameswara or his successor.",
+  "The founding date of Malacca (c. 1400) and who converted to Islam, Parameswara or his successor; the title of sultan is fixed only with Muzaffar Shah (c. 1445).",
+  "How far the spread of Islam in the archipelago owed to Malacca rather than to Pasai, to Gujarati, Tamil and Chinese Muslim merchants or to Sufi teachers.",
+  "That the Orang Laut manned Srivijaya’s fleets is inferred back from Malacca and Johor evidence (Wolters 1970).",
   "The number of guns taken at Malacca in 1511: about 3,000 of 8,000 in João de Barros, 2,000 bronze pieces in other accounts; probably inflated.",
-  "The 14th-century dating of Majapahit’s cetbang guns, based on late sources.",
+  "Hand-held guns before 1511: the matchlock came with the Portuguese (istinggar, from Portuguese espingarda), while bedil, the older Malay word for a gun, is not Portuguese (usually derived from Tamil), and the Portuguese of 1511 describe many guns at Malacca, mostly light pieces on stockades and ships; the Sejarah Melayu’s scene of Malaccans astonished by Portuguese gunfire (1509) is usually read as literary. The design reads Malacca’s guns as artillery and keeps the Hand Cannoneer out, since hand guns would come after the window.",
+  "Light Malay artillery (lela, rentaka) on stockades and ships is attested for 1511, heavy siege guns in Malay offensive warfare are not: the Bombard Cannon is kept as an abstraction of Malacca’s guns (see open questions).",
+  "No stone-throwing engines are attested in Malay warfare, which was fought through raids, sea battles and assaults on stockades: the counterweight Trebuchet is removed as an anachronism, and the Mangonel line stays as a game abstraction.",
+  "Bow and crossbow mattered little in Malay warfare, whose missile weapons were the blowpipe, javelins and later guns: the Arbalester stays as an abstraction of the missile arm (see open questions), while Thumb Ring goes.",
 ]
 open_questions = [
-  "Scope and name: this draft centres the civ on the Malay states (Srivijaya, Melayu, Malacca) and leaves Java (Majapahit) to a future Javanese civ (N3). Keep the name ‘Malay’ and this scope, or split now?",
-  "Hulubalang (war chief, warrior retainer) is the name the analysis proposes for the Karambit Warrior, but the unit’s half-population mechanic suits a mass levy better than an elite title. Accept, or another name?",
-  "Hand Cannoneer stays out: the Malay word istinggar comes from Portuguese espingarda, which suggests that matchlocks spread with or after the Portuguese, while Malacca’s light artillery is attested (the civ keeps Bombard Cannon and Bombard Tower). Add it?",
-  "Knight and Cavalier leave (cavalry was marginal), but Arbalester stays although bow and crossbow mattered little. Remove Arbalester too?",
-  "Losing the faster age-up and the free infantry armour weakens the civ on land maps. Acceptable for N1?",
+  "Scope and name: this design centres the civ on the Malay states (Srivijaya, Melayu, Singapura, Pasai and Malacca) and leaves Java (Majapahit) to a future Javanese civ (N3). Keep the name ‘Malay’ and this scope, or split now?",
+  "Unique unit name: Hulubalang (war chief, warrior retainer, as Hang Tuah) names an elite, while the half-population mechanic suits a mass. Keep it, reading the unit as a war chief’s band of followers, or use ‘Rakyat’ (the commoners called up for war, the word of the Malacca-period texts, which also ties in with Forced Levy)?",
+  "Siege and gunpowder: the Bombard Cannon stays as an abstraction of Malacca’s guns, so that the civ keeps a long-range weapon against buildings (it has no Trebuchet and no Siege Ram). Alternative: remove it too and add the Siege Ram, letting the Bombard Tower, the Harbor and the Cannon Galleon stand for the lela and rentaka. The Hand Cannoneer stays out either way (see contested). Which?",
+  "Arbalester: kept as an abstraction although bow and crossbow mattered little (see contested), because the civ is weak on land without it. Remove it?",
+  "Power and team bonuses: the land economy now rests on Syahbandar (gold income and market fee), and the civ loses the faster age-up, the free infantry armour, the Knight-line, Thumb Ring and the Trebuchet. Acceptable? The Malay also have two team-bonus candidates: the Islam carried by Malacca’s network (used here) and the entrepôt that served foreign merchants (kept as the Trade Cogs passive); if some civs may have two team bonuses (RULES 6.1, proposal), the Malay are a candidate.",
 ]
 
 [profile]
-entity = "The Malay maritime states of the Straits: Srivijaya, Melayu (Jambi) and the Sultanate of Malacca"
-region = "Strait of Malacca: south-eastern Sumatra and the Malay Peninsula"
-window = "c. 671–1511"
+entity = "The Malay maritime states of the Straits: Srivijaya, Melayu (Jambi), Singapura (Temasek), Samudera-Pasai and the Sultanate of Malacca"
+region = "Strait of Malacca: Sumatra and the Malay Peninsula"
+window = "671–1511"
 sources = [
   "Yijing, travel accounts (671–695)",
   "Inscriptions of Kedukan Bukit (682) and Kota Kapur (686)",
+  "Zhao Rugua, Zhufan zhi (1225)",
+  "Ibn Battuta, Rihla (Samudera-Pasai, 1345–46)",
   "Sejarah Melayu (Malay Annals)",
+  "Undang-Undang Melaka (15th century; ed. Liaw Yock Fang, 1976)",
   "Ma Huan, Yingya shenglan (1433)",
   "Tomé Pires, Suma Oriental (c. 1512–15)",
   "Brás de Albuquerque, Comentários do Grande Afonso de Albuquerque (1557)",
@@ -42,7 +48,7 @@ sources = [
   "Anthony Reid, Southeast Asia in the Age of Commerce, 1450–1680 (1988–93)",
   "Leonard Y. Andaya, Leaves of the Same Tree (2008)",
 ]
-replaces = "A Malay–Javanese umbrella civ that also took in Majapahit (Java)"
+replaces = "Proposed, pending the scope question: the game’s Malay–Javanese umbrella civ, which also took in Majapahit (Java)"
 
 [[bonus]]
 text = "Trade Cogs generate +20% gold"
@@ -50,8 +56,18 @@ kind = "economic"
 level = 1
 change = "new"
 replaces = "Advancing to the next Age is +66% faster"
-precedent = "Trade Units generate +25% gold (Spanish team bonus)"
-basis = "Srivijaya and Malacca were entrepôts that lived by drawing the shipping of the Straits into their ports: Yijing stayed at Srivijaya on his way to India (671–695), and Malacca, with four harbour masters (syahbandar) for the merchants of different nations, led Tomé Pires to write that whoever is lord of Malacca has his hand on the throat of Venice. The faster age-up it replaces had no historical basis."
+precedent = "Trade Units generate +25% gold (Spanish team bonus), applied to Trade Cogs"
+basis = "Srivijaya and Malacca were entrepôts that lived by drawing the shipping of the Straits into their ports: Yijing stayed at Srivijaya on his way to India and back (671–695), and in Malacca, where he heard 84 languages, Tomé Pires wrote that whoever is lord of Malacca has his hand on the throat of Venice (Suma Oriental). The faster age-up it replaces had no historical basis."
+relevance = "Srivijaya and Malacca existed to collect the trade of the Straits; the entrepôt is the economic base of every Malay state of the window."
+
+[[bonus]]
+text = "Fish Traps cost -33% and provide +200% food"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Fish Traps cost -33% and provide +200% food (Malay)"
+basis = "Ma Huan (1433) found Malacca’s land poor for rice and its people living largely by fishing from dugout canoes, and the sea peoples of the Straits, the Orang Laut, lived from the sea; fixed stake traps are still traditional on these coasts."
+relevance = "Fishing fed the port towns and the sea peoples on which Srivijaya’s and Malacca’s power rested, so it shaped the civ (brief 5.5)."
 
 [[bonus]]
 text = "Galley-line attacks +25% faster"
@@ -60,7 +76,8 @@ level = 1
 change = "new"
 replaces = "Infantry armor upgrades free"
 precedent = "Galley-line attacks +25% faster (Saracens)"
-basis = "The sea peoples of the Straits (Orang Laut) manned the fleets of Srivijaya and Malacca, patrolled the straits and drove passing ships into the ruler’s port (Wolters 1970; Andaya 2008). The free infantry armour it replaces contradicted the light Malay infantry, with shield, spear and kris, and mail (baju rantai) only for the elite."
+basis = "The sea peoples of the Straits (Orang Laut) manned the fleets of Malacca, and probably those of Srivijaya (Wolters 1970), patrolled the straits and drove passing ships into the ruler’s port; Zhao Rugua (1225) says Srivijaya commanded the strait, kept an iron chain against pirates and attacked ships that would not call. Malacca’s fleets were lancaran and other oared craft with light guns. The free infantry armour it replaces contradicted the light Malay infantry, with shield, spear and kris, and mail (baju rantai) only for the elite."
+relevance = "Naval control of the Straits, exercised through the Orang Laut fleets, was the foundation of both Srivijaya and Malacca."
 
 [[bonus]]
 text = "Battle Elephants cost -25/35% in Castle/Imperial Age"
@@ -68,23 +85,17 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Battle Elephants cost -25/35% in Castle/Imperial Age (Malay)"
-basis = "Malacca met the Portuguese with war elephants in 1511 (Comentários of Albuquerque), and Sumatran sultanates used them; the discount is an abstraction."
-contested = "Java had few war elephants; the bonus fits the Malay states better than Majapahit."
-
-[[bonus]]
-text = "Fish Traps cost -33% and provide +200% food"
-kind = "economic"
-level = 1
-change = "kept"
-precedent = "Fish Traps cost -33% and provide +200% food (Malay)"
-basis = "Fixed fish traps (kelong, sero, bagan) and fish as the staple protein are real features of Malay coastal societies."
+basis = "Malacca met the Portuguese with war elephants in 1511, when the sultan and his son led them at the bridge (Comentários of Albuquerque), and the Sejarah Melayu shows a court that kept royal elephants; the discount is an abstraction."
+relevance = "War elephants were the royal land arm of the Malay sultans, the heavy force that met the Portuguese at Malacca."
 
 [team_bonus]
-text = "Docks +6 line of sight"
+text = "Monasteries work +20% faster"
 level = 1
-change = "kept"
-precedent = "Docks +6 line of sight (Malay team bonus)"
-basis = "The Orang Laut were the eyes of the Straits, watching and controlling passing ships for Srivijaya and Malacca; an abstraction."
+change = "new"
+replaces = "Docks +6 line of sight"
+precedent = "Monasteries work +20% faster (Lithuanians team bonus)"
+basis = "Malacca’s rulers adopted Islam in the 15th century (see contested), after Samudera-Pasai, whose sultan Malik al-Saleh died in 1297 and which Ibn Battuta visited in 1345–46. Malacca became the main Islamic centre of the Straits, and its merchants and teachers carried Islam along its trade network, to the ports of the Peninsula and east Sumatra, to the north coast of Java and to the Moluccas (Pires; Reid 1993; Andaya 2008); Malay became the language of Islam in the archipelago, and in later usage ‘masuk Melayu’, to become Malay, meant to convert. A team bonus because it is religious influence on neighbours (RULES 6.2). The Docks line-of-sight bonus it replaces described the Orang Laut watching the Straits for the ruler, a benefit to the civ alone; the Orang Laut now ground the Galley-line bonus."
+relevance = "Islam, adopted by Malacca’s rulers and carried by its network, became the core of Malay identity and reshaped the religious map of the archipelago."
 
 [[unique_unit]]
 name = "Hulubalang"
@@ -93,38 +104,58 @@ building = "Castle"
 level = 1
 change = "changed"
 replaces = "Karambit Warrior"
-basis = "Malay rulers fought with their war chiefs and champions (hulubalang) and the followers they brought, armed with spear, kris and shield; warfare in the region aimed at capturing people and relied on numbers (Reid). The karambit, a small curved knife of the Minangkabau for farm work and close defence, never armed a corps of troops, so the unit takes the name of the warriors; the half-population mechanic abstracts the mass of followers."
+basis = "Malay rulers fought with their war chiefs and champions (hulubalang), such as Hang Tuah of the Malacca tradition, and the followers they brought, armed with spear, kris and shield; warfare in the region aimed at capturing people and relied on numbers (Reid). The karambit, a small curved knife of the Minangkabau for farm work and close defence, never armed a corps of troops, so the unit takes the name of the warriors; the half-population mechanic abstracts the war chiefs’ bands of followers."
+relevance = "Manpower-centred warfare by chiefs and their followers was the substance of Malay land war, and the hulubalang Hang Tuah is the hero of Malay tradition."
 contested = "Hulubalang were leaders and elite retainers; a half-population unit fits a levy better (see open questions)."
 
 [[unique_tech]]
+name = "Syahbandar"
+building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "All gold income +10% faster; Market trading fee reduced to 10%"
+level = 1
+change = "new"
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect"
+basis = "Malacca’s port was run by four harbour masters (syahbandar), each in charge of the merchants of a group of nations, from Gujarat to China and Ryukyu: they received the captains, presented them to the bendahara, found them warehouses and assessed the duties (Pires, Suma Oriental), under the 15th-century codes of Malacca (the Undang-Undang Melaka and the maritime Undang-Undang Laut). Faster gold income and a lower market fee abstract an efficient, open port. At the Town Center because the syahbandar were royal officers, one of the great offices of the sultanate (RULES 6.2). It also gives the civ an economic edge on land maps."
+relevance = "The syahbandar system made Malacca the great entrepôt of 15th-century Asia; open, regulated trade defined the Malay sultanate."
+
+[[unique_tech]]
 name = "Thalassocracy"
+building = "Dock"
+kind = "military"
 age = "Castle"
 effect = "Docks are upgraded to Harbors"
 level = 1
-change = "kept"
-precedent = "Thalassocracy (Docks are upgraded to Harbors) (Malay)"
-basis = "The scholarly term (Greek) fits Srivijaya and Malacca, sea powers that controlled the Straits of Malacca and Sunda. Malay ports were defended by palisades and light guns (lela, rentaka), abstracted by the Harbor, the Malay unique building that shoots at enemies."
+change = "changed"
+precedent = "Thalassocracy (Docks are upgraded to Harbors) (Malay): moved from the Castle to the Dock, identical effect"
+basis = "The scholarly term (Greek) fits both states: Srivijaya commanded the straits of Malacca and Sunda in the 7th–11th centuries (the Kota Kapur inscription of 686 on Bangka), and Malacca held the Strait of Malacca in the 15th. By 1511 Malacca’s waterfront was defended by palisades and light guns (lela, rentaka), which the Harbor, the Malay unique building that shoots at enemies, abstracts. At the Dock because it is the civ’s sea power (RULES 6.2)."
+relevance = "Sea power over the Straits was the foundation of both Srivijaya and Malacca."
 
 [[unique_tech]]
 name = "Forced Levy"
+building = "Castle"
+kind = "military"
 age = "Imperial"
 effect = "Militia-line gold cost is replaced by additional food cost"
 level = 1
 change = "kept"
 precedent = "Forced Levy (Militia-line gold cost is replaced by additional food cost) (Malay)"
 basis = "War in Southeast Asia aimed at capturing and mobilising people: the common people (rakyat) were called up, and dependants, debt-bondsmen (hamba) and corvée labour supplied troops (Reid). Paying the levy in food rather than gold fits an infantry of levies."
+relevance = "In the Malay world power was counted in people rather than land (Reid): the ability to call up and capture manpower decided its wars."
 
 [tree]
 add = []
-remove = ["Cavalry Archer", "Knight", "Cavalier", "Thumb Ring"]
+remove = ["Cavalry Archer", "Knight", "Cavalier", "Thumb Ring", "Trebuchet"]
 
 [tree.basis]
 "Cavalry Archer" = "The Malay world has no tradition of mounted archery."
-"Knight" = "Cavalry was marginal in Malay warfare; the heavy shock arm was the elephant."
+"Knight" = "Cavalry was marginal in Malay warfare; the heavy shock arm was the elephant (unlike the Khmer, whose reliefs show horsemen)."
 "Cavalier" = "As for the Knight."
 "Thumb Ring" = "Bow and crossbow mattered little; the characteristic missile weapons were the blowpipe (sumpit), javelins and throwing spears (lembing) and later firearms. The thumb draw belongs to the steppe and East Asian archery traditions."
+"Trebuchet" = "No stone-throwing engine is attested in Malay warfare (see contested), and the counterweight trebuchet reached China only in 1273 and never this region. The Bombard Cannon and the rams keep the civ able to destroy buildings (RULES 6.11; see open questions)."
 
 [architecture]
 set = "Southeast Asian"
 change = "kept"
-basis = "The set evokes the brick and stone temples (candi) of the region; the timber palaces of Malacca have no closer existing set."
+basis = "The set evokes the brick and stone temples (candi) of the region, such as those of Muara Jambi and Muara Takus in the lands of Melayu and Srivijaya; the timber palaces of Malacca have no closer existing set."
