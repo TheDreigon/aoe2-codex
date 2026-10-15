@@ -30,7 +30,7 @@ open_questions = [
   "Arbalester: removed, since there is no evidence for the crossbow in Malay warfare (see contested). Keep it anyway for the civ’s strength on land?",
   "Power: the land economy rests on Syahbandar (gold income and market fee), and the civ loses the faster age-up, the free infantry armour, the Knight-line, Thumb Ring, the Arbalester, the Bombard Cannon, the Trebuchet and the Keep (with Siphons and Block Printing). Acceptable? (See also codex-wide question CQ14, power floor.)",
   "Second team bonus: the Malay have a second team-bonus candidate, the entrepôt that served foreign merchants (kept as the Trade Cogs passive). If some civs may have two team bonuses (RULES 6.1, proposal), should the Malay be one of them?",
-  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here the team bonus ‘Monasteries work +20% faster’, now held by eight designs, and Syahbandar, the Grand Trunk Road effect shared by six Town Center techs).",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here the team bonus ‘Monasteries work +20% faster’, held by eight designs, and Syahbandar, the Grand Trunk Road effect shared by six Town Center techs).",
   "Syahbandar sits at the Town Center on the argument that in a port-state like Malacca the administration of the port was the core of government. Alternatively, move it to the Market (trade, RULES 6.2) and give the Town Center the Malacca law digest (Undang-Undang Melaka, compiled under Muhammad Shah and Muzaffar Shah), as a new tech (level 2) unless an existing effect fits. Which?",
 ]
 
@@ -74,7 +74,7 @@ level = 1
 change = "kept"
 precedent = "Fish Traps cost -33% and provide +200% food (Malay)"
 basis = "Ma Huan (1433) found Malacca’s land poor for rice and its people living largely by fishing from dugout canoes, and the sea peoples of the Straits, the Orang Laut, lived from the sea. The fixed stake trap itself is an abstraction, known on these coasts from later records; the entrepôts themselves were fed largely by rice imported from Java, Siam and Pegu (Pires)."
-relevance = "Fishing, and the sea peoples who lived by it, were the base of coastal Malay life and of the Orang Laut on whom the rulers’ fleets depended (brief 5.5)."
+relevance = "Fishing, and the sea peoples who lived by it, were the base of coastal Malay life and of the Orang Laut on whom the rulers’ fleets depended (RULES 6.9)."
 
 [[bonus]]
 text = "Galley-line attacks +25% faster"
@@ -100,7 +100,7 @@ text = "Monasteries work +20% faster"
 level = 1
 change = "new"
 replaces = "Docks +6 line of sight"
-precedent = "Monasteries work +20% faster (Lithuanians team bonus, which their draft gives up); also the team bonus of the Bulgarian, Burmese, Danish, Gaelic, Hindustani, Khitan and Saxon designs (codex-wide question CQ11)"
+precedent = "Monasteries work +20% faster (Lithuanians team bonus, which their design gives up); also the team bonus of the Bulgarian, Burmese, Danish, Gaelic, Hindustani, Khitan and Saxon designs (codex-wide question CQ11)"
 basis = "The Straits were a religious centre for their neighbours for eight centuries. Under Srivijaya it was Buddhist: Yijing (671–695) found more than a thousand monks there and advised Chinese pilgrims to train there before going on to India; the Nālandā copper plate of Devapāla (c. 860) records a monastery built at Nālandā by Bālaputradeva, king of Suvarṇadvīpa; the Larger Leiden plates (1006) record the Cūḷāmaṇivarma-vihāra at Nāgapaṭṭinam, built by the king of Śrīvijaya and Kaṭāha; and Atiśa studied under Dharmakīrti of Suvarṇadvīpa (c. 1012–24) before he went to Tibet (Cœdès 1964). Under Malacca it was Muslim: its rulers adopted Islam in the 15th century (see contested), after Samudera-Pasai, whose sultan Malik al-Saleh died in 1297 and which Ibn Battuta visited in 1345–46, and Malacca’s merchants and teachers carried Islam along its trade network to the ports of the Peninsula and east Sumatra, to the north coast of Java and to the Moluccas (Pires; Reid 1993; Andaya 2008); Malay became the language of Islam in the archipelago, and in later usage ‘masuk Melayu’, to become Malay, meant to convert. A team bonus because it is religious influence on neighbours (RULES 6.2). The Docks line-of-sight bonus it replaces described the Orang Laut watching the Straits for the ruler, a benefit to the civ alone; the Orang Laut now ground the Galley-line bonus."
 relevance = "Buddhist Srivijaya and Muslim Malacca each made the Straits a religious centre for their neighbours, from India and Tibet to the Moluccas, and Islam became the core of Malay identity."
 
@@ -123,7 +123,7 @@ age = "Castle"
 effect = "All gold income +10% faster; Market trading fee reduced to 10%"
 level = 1
 change = "new"
-precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect; five other drafts’ Town Center techs share it (the Burgundians’ Vierlander Coinage, the Hindustanis’ Tanka, the Khitans’ Chanyuan Treaty, the Muisca’s Cotton Mantles and the Saxons’ Edgar's Recoinage; codex-wide question CQ11)"
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect; five other designs’ Town Center techs share it (the Burgundians’ Vierlander Coinage, the Hindustanis’ Tanka, the Khitans’ Chanyuan Treaty, the Muisca’s Cotton Mantles and the Saxons’ Edgar's Recoinage; codex-wide question CQ11)"
 basis = "Malacca’s port was run by four harbour masters (syahbandar), each in charge of the merchants of a group of nations, from Gujarat to China and Ryūkyū: they received the captains, presented them to the bendahara, found them warehouses and dispatched their goods (Pires, Suma Oriental), under the 15th-century codes of Malacca (the Undang-Undang Melaka and the maritime Undang-Undang Laut). The syahbandars were not among the great officers of state (the bendahara, the penghulu bendahari, the temenggung and the laksamana) but served under the treasurer, the penghulu bendahari (Sejarah Melayu). Faster gold income and a lower market fee abstract an efficient, open port. At the Town Center rather than the Market because in a port-state like Malacca the administration of the port was the core of government and of the crown’s revenue (see open questions). It also gives the civ an economic edge on land maps."
 relevance = "The syahbandar system made Malacca the great entrepôt of 15th-century Asia; running open, regulated trade was the business of the Malay sultanate’s government."
 
@@ -158,7 +158,7 @@ add = ["Siege Ram"]
 remove = ["Cavalry Archer", "Knight", "Cavalier", "Thumb Ring", "Arbalester", "Bombard Cannon", "Trebuchet", "Keep", "Siphons", "Block Printing"]
 
 [tree.basis]
-"Siege Ram" = "The rams take the anti-building role of the removed Bombard Cannon (RULES 6.11), as for the Khmer; Malay land war against fortifications meant assaults on stockades, for which the ram is the game’s generic tool, an abstraction. With the Goths, Khmer and Saxons, the Malay are one of four civs outside the Americas with no long-range siege weapon (no Trebuchet, Traction Trebuchet or Bombard Cannon), all of which rely on the Siege Ram as the RULES 6.11 substitute (codex-wide question CQ13)."
+"Siege Ram" = "The rams take the anti-building role of the removed Bombard Cannon (RULES 6.11), as for the Khmer; Malay land war against fortifications meant assaults on stockades, for which the ram is the game’s generic tool, an abstraction. Like the Armenians, Ethiopians, Goths, Khmer, Malians and Saxons, the Malay have no long-range siege weapon (no Trebuchet, Traction Trebuchet or Bombard Cannon) and rely on the Siege Ram as the RULES 6.11 substitute (codex-wide question CQ13)."
 "Bombard Cannon" = "Heavy siege guns are not attested in Malay offensive warfare: Malacca’s guns of 1511 were mostly light pieces on stockades and ships (see contested). The Siege Ram takes the anti-building role, and Malay gunpowder stays in the Harbor (Lela), the Bombard Tower and the Cannon Galleon (codex-wide question CQ13)."
 "Arbalester" = "No evidence for the crossbow in Malay warfare, whose missile weapons were the blowpipe, javelins and later guns; under the project’s crossbow criterion the Crossbowman stays as the generic bow tier (see open questions)."
 "Cavalry Archer" = "The Malay world has no tradition of mounted archery."
