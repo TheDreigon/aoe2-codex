@@ -2,9 +2,9 @@ civ = "Aztecs"
 name = "Aztecs"
 status = "draft"
 label = "Infantry civilization"
-summary = "The Mexica and the Triple Alliance (1325–1521): chinampas, temple-burning infantry and a Tlatelolco market team bonus replace the start gold, Monk bonus and Relic gold, tribute becomes the Calpixqueh tech, and siege engines, crossbows and Imperial metal tiers give way to Slingers and local names."
+summary = "The Mexica and the Triple Alliance (1325–1521): chinampas, temple-burning infantry and a Tlatelolco market team bonus replace the start gold, Monk bonus and Relic gold, tribute becomes the Calpixqueh tech, siege engines and crossbows give way to Slingers, and the galleys become war canoes."
 ideas = [
-  "N3: An acalli war-canoe line (cheap, fast, carries a war party, throws darts) replacing the Galley-line, Fire Ships and Hulks: thousands of canoes defended Lake Texcoco in 1521 and Cortés had to build thirteen brigantines to break them (Cortés, third letter).",
+  "N3: An acalli war-canoe line (cheap, fast, carries a war party, throws darts) replacing the Galley-line, Fire Ships and Hulks: thousands of canoes defended Lake Texcoco in 1521 and Cortés had to build thirteen brigantines to break them (Cortés, third letter). In N1 the Canoe and War Canoe renames give the Galley line the look of the Scenario Editor Canoe.",
   "N3: Capture instead of conversion and killing: infantry that defeats enemy soldiers takes captives, which promote the captor (the warrior ranks of the Codex Mendoza) and feed tribute; captured enemy cult images kept in the Coateocalli (Durán) instead of Relics.",
   "N3: Re-theme the Monastery as a teocalli with tlamacazqueh (priests), the god-bearers (teomamaqueh) who led the army, and Nahuatl tech names.",
   "N2: A tribute mechanic proper: Castles and Town Centers yielding a slow income of food, cloth and gold, with the Market tribute fee at 0% (the Calpixqueh tech is the N1 stand-in).",
@@ -14,25 +14,15 @@ ideas = [
 ]
 contested = [
   "The purpose of the xochiyaoyotl (flower wars): ritual capture of victims for sacrifice (Durán, Tezozómoc) or a strategy of attrition and encirclement of Tlaxcala (Hassig 1988; Isaac 1983).",
+  "The origin of the flower wars: the story that they began during the famine of 1450–54, to feed the gods with captives, is Ixtlilxóchitl's (early 17th century); Hicks (1979) doubts it, since Ixtlilxóchitl does not use the term and no other source confirms it. Durán instead credits the arrangement to Tlacaelel under Moctezuma I (1440–1469), who called the nearby enemy cities a market where the god could buy victims. Both accounts place the arrangement with Tlaxcala and its neighbours under Moctezuma I, which is all the design relies on; it follows neither origin story.",
+  "The civ's name: ‘Aztecs’ is an 18th–19th-century scholarly label (Clavijero, Humboldt, Prescott); the people called themselves Mexica or Tenochca, and the empire was the Triple Alliance with Texcoco and Tlacopan. Decision: the name stays, since standard English scholarship uses it for this entity (Smith 2012; Townsend 2019) and the civ renames are limited to the English, Anglo-Saxons and Arabs (RULES section 4 and 6.16.15); the profile names the Mexica and the Triple Alliance.",
   "The scale of human sacrifice: Durán's 80,400 victims at the 1487 rededication of the Templo Mayor against much lower modern estimates; the Huey Tzompantli excavations (INAH, since 2015) confirm large-scale sacrifice accumulated over decades. Harner's ‘protein’ hypothesis (1977) is rejected.",
   "Hegemonic or territorial empire, and the degree of provincial control (Berdan, Smith et al. 1996).",
   "The population of Tenochtitlan in 1519 (estimates c. 150,000–250,000) and of central Mexico.",
   "The date of Tenochtitlan's foundation (1325 or 1345) and the historicity of the migration from Aztlan.",
   "The story that Moctezuma took Cortés for Quetzalcoatl, probably a post-conquest construction (Townsend; Restall).",
 ]
-open_questions = [
-  "Rename the civ ‘Mexica’ or ‘Aztecs (Mexica)’? ‘Aztecs’ is an 18th–19th-century scholarly label (Clavijero, Humboldt, Prescott); the people called themselves Mexica or Tenochca, and the empire was the Triple Alliance with Texcoco and Tlacopan. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
-  "Label (codex-wide question CQ19): the game's ‘Infantry and Monk’ becomes ‘Infantry’, because the Monk HP bonus (rated stretched) is replaced and no element now rests on the priesthood. Accept, or keep ‘Monk’ for the weight of the priesthood (an N3 re-theme of the Monastery is in the ideas)?",
-  "Regional names for unit lines (region-wide): for example Macuahuitl Warrior and Tequihua for the Two-Handed Swordsman and Champion, and scouts (the quimichtin, ‘mice’, of Sahagún) instead of the Eagle Scout, which turns the elite eagle order into a cheap Dark Age scout. Wanted?",
-  "Atlatl: the spear-thrower is a pan-Mesoamerican weapon tradition, kept as an existing tech by the effect-size tie-break (RULES 6.2.4), not a datable moment (RULES 6.3; the general rule is codex-wide question CQ25, point b). Keep it for its fame, or replace it with a level-2 Castle tech for a datable moment of Mexica military history, such as Itzcoatl's victory over Azcapotzalco (1428), after which he granted conquered lands to the nobles and warriors who had fought, or Moctezuma I's laws tying noble privilege and dress to deeds in war (Durán)?",
-  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision), the first civs in the game without them. The Aztecs break buildings with anti-building infantry, Arson, Sappers and Petards, but every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. Accept the risk until an N2/N3 assault unit exists?",
-  "Region-wide, metal arms and armour: the criterion is the name of a metal weapon or armour tier. The Imperial-Age tiers are removed (for the Aztecs Blast Furnace and Plate Mail Armor; they already lacked Ring Archer Armor), a playability line rather than a historical one (the Lithuanians already lack Blast Furnace and Plate Mail Armor). A lower tier is renamed only where a specific, documented equivalent exists for that tech: Iron Casting → Obsidian Blades (Flint Points for the Maya, Tin Bronze for the Inca) and Gambesons → Ichcahuipilli. Forging, Scale Mail Armor and Chain Mail Armor stay as a flagged generic equipment level, since one quilted cotton armour cannot stand for two successive tiers, and Chemistry stays for its +1 ranged attack, although none of these peoples had gunpowder. Remove or rename the remaining tiers too, at a cost to playability?",
-  "Keep: only the Keep, a stone tower, needs documented stone towers, so it stays in the region only where they are documented, which means the Inca (the towers of Sacsayhuamán); the Guard Tower stays as a generic tier wherever the Watch Tower stays. The Aztecs, who built no towers, are therefore not given the Keep, and the Guard Tower and Fortified Wall stay as abstractions. A Mesoamerican Keep could instead rest on a pre-1500 fact, as a design abstraction: a town's main temple-pyramid was its last stronghold, and its capture and burning marked the conquest (the Codex Mendoza glyph; the conquistadors called the temples ‘torres’, and Cortés counted more than four hundred of them at Cholula, second letter). Add the Keep for the Aztecs on that basis?",
-  "Codex-wide question CQ2 (see codex/civs/README.md): Generic post-1500 items.",
-  "Codex-wide question CQ3 (see codex/civs/README.md): Crossbows.",
-  "Codex-wide question CQ12 (see codex/civs/README.md): American power budget.",
-  "Codex-wide question CQ20 (see codex/civs/README.md): American renames beyond the agreed list.",
-]
+open_questions = []
 
 [profile]
 entity = "The Mexica (Tenochca) of Tenochtitlan and the Triple Alliance (Excan Tlahtoloyan: Tenochtitlan, Texcoco and Tlacopan)"
@@ -47,6 +37,8 @@ sources = [
   "Ross Hassig, Trade, Tribute, and Transportation (1985)",
   "Ross Hassig, Aztec Warfare: Imperial Expansion and Political Control (1988)",
   "Barry L. Isaac, ‘The Aztec Flowery War: a geopolitical explanation’, Journal of Anthropological Research 39 (1983)",
+  "Fernando de Alva Ixtlilxóchitl, Historia de la nación chichimeca (early 17th century)",
+  "Frederic Hicks, ‘“Flowery war” in Aztec history’, American Ethnologist 6 (1979)",
   "Frances F. Berdan, Michael E. Smith et al., Aztec Imperial Strategies (1996)",
   "Michael E. Smith, The Aztecs (3rd ed., 2012)",
   "R. A. Donkin, Agricultural Terracing in the Aboriginal New World (1979)",
@@ -78,7 +70,7 @@ level = 1
 change = "new"
 replaces = "Monks gain +5 HP for each researched Monastery technology"
 precedent = "Infantry +1/+2/+3 attack vs. buildings in Feudal/Castle/Imperial Age (Goths)"
-basis = "Mesoamerican armies had no siege engines. Most wars were decided by defeating the defending army in the field, few towns were walled, and once resistance broke the attackers entered the town and burned its main temple, which marked the conquest: the Codex Mendoza's sign for a conquered altepetl is a burning temple with its roof toppled (a conventional glyph: the town was then folded into the tribute system, not destroyed) (Hassig 1988). This bonus is the substitute for the removed siege weapons (RULES 6.11 and section 10); the Maya and the Gaels' design use it too, while the Goths' design drops it (RULES 6.7). The Monk bonus it replaces linked priestly austerities to a purely mechanical HP progression (rated stretched)."
+basis = "Mesoamerican armies had no siege engines. Most wars were decided by defeating the defending army in the field, few towns were walled, and once resistance broke the attackers entered the town and burned its main temple, which marked the conquest: the Codex Mendoza's sign for a conquered altepetl is a burning temple with its roof toppled (a conventional glyph: the town was then folded into the tribute system, not destroyed) (Hassig 1988). This bonus is the substitute for the removed siege weapons (RULES 6.11 and section 10); the Maya and the Gaels' design use it too, while the Goths' design drops it (RULES 6.7). The Monk bonus it replaces linked priestly austerities to a purely mechanical HP progression (rated stretched). With it gone, no element rests on the priesthood, so the label drops the game's ‘Monk’ and becomes ‘Infantry civilization’ (RULES 6.16.16); the priesthood is left to the N3 re-theme of the Monastery (ideas)."
 relevance = "Defeating the field army, then entering the town and firing its main temple, was how the Triple Alliance conquered, and it is the civ's main means of breaking buildings without engines."
 
 [[bonus]]
@@ -97,7 +89,7 @@ level = 1
 change = "new"
 replaces = "Relics generate +33% gold"
 precedent = "Markets work +80% faster (Bohemians team bonus)"
-basis = "Tlatelolco, the market of Tenochtitlan's twin city, astonished the Spaniards: Cortés (second letter, 1520) reckoned that more than sixty thousand people traded there daily, under judges who settled disputes and checked measures. The market and the pochteca drew goods and traders from all Mesoamerica, and the pochteca traded at ports of trade outside the empire such as Xicalanco, and at Xoconochco (Soconusco) before its conquest under Ahuitzotl (1486–1502), after which it paid tribute (Sahagún, Florentine Codex, book 9; Codex Mendoza; Berdan, Smith et al. 1996). RULES 6.2: trade that benefited neighbours. The game's Relics follow the Christian cult of relics, and the Mexica sacred bundles (tlaquimilolli) produced no wealth (rated unfounded). The Bohemians have the same team bonus (repetition allowed, RULES 6.7)."
+basis = "Tlatelolco, the market of Tenochtitlan's twin city, astonished the Spaniards: Cortés (second letter, 1520) reckoned that more than sixty thousand people traded there daily, under judges who settled disputes and checked measures. The market and the pochteca drew goods and traders from all Mesoamerica, and the pochteca traded at ports of trade outside the empire such as Xicalanco, and at Xoconochco (Soconusco) before its conquest under Ahuitzotl (1486–1502), after which it paid tribute (Sahagún, Florentine Codex, book 9; Codex Mendoza; Berdan, Smith et al. 1996). RULES 6.2: trade that benefited neighbours. The game's Relics follow the Christian cult of relics, and the Mexica sacred bundles (tlaquimilolli) produced no wealth (rated unfounded). The game's Bohemians hold the same team bonus; the Bohemians' design gives it up for the Czech mercenaries (repetition would be allowed in any case, RULES 6.7)."
 relevance = "Tlatelolco was the greatest market of the Americas and the hub of the exchange that tied the Triple Alliance to the rest of Mesoamerica."
 
 [[unique_unit]]
@@ -106,7 +98,7 @@ model = "Jaguar Warrior"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The ocelomeh were, with the eagle warriors (cuauhmeh), one of the two great military orders, ranked below only the otontin and the cuachicqueh; entry depended above all on taking captives, and many members were nobles. The Codex Mendoza shows warriors rising in rank and insignia with each captive. The extra damage after defeating enemies evokes this promotion, although merit came from capturing, not killing (Hassig 1988). The regional Eagle Warrior line also stays in the Aztec tree."
+basis = "The ocelomeh were, with the eagle warriors (cuauhmeh), one of the two great military orders, ranked below only the otontin and the cuachicqueh; entry depended above all on taking captives, and many members were nobles. The Codex Mendoza shows warriors rising in rank and insignia with each captive. The extra damage after defeating enemies evokes this promotion, although merit came from capturing, not killing (Hassig 1988). The regional Eagle Warrior line also stays in the Aztec tree. Decision: the generic and regional unit lines keep their game names (no Macuahuitl Warrior or Tequihua for the Two-Handed Swordsman and Champion, no quimichtin, Sahagún's ‘mice’, for the Eagle Scout), since N1 renames a shared item only where a period term names the same function (RULES 6.16.15), and the eagle order is a rank, not a scout."
 relevance = "The jaguar and eagle orders, below only the otontin and cuachicqueh, were the elite of a warrior hierarchy built on taking captives, and they are the emblem of Aztec warfare."
 
 [[unique_tech]]
@@ -118,7 +110,7 @@ effect = "Skirmishers +1 attack, +1 range"
 level = 1
 change = "kept"
 precedent = "Atlatl (Aztecs)"
-basis = "The spear-thrower (ahtlatl) with its darts (tlacochtli) was a feared weapon, used mostly by elite warriors as the armies closed, after the bow and sling volleys (Hassig 1988). It was pan-Mesoamerican and far older than the Mexica (already at Teotihuacan), which is why the Maya keep their own atlatl tech (Hul'che Javelineers) with a different effect (intended overlap, RULES 6.7). As a long weapon tradition it is not a datable moment (RULES 6.2, 6.3): it is a kept existing tech, held as a tech rather than a passive by the effect-size tie-break (RULES 6.2.4), since a strong effect suits the brake of cost and delay; a datable alternative is put to the owner (see open questions)."
+basis = "The spear-thrower (ahtlatl) with its darts (tlacochtli) was a feared weapon, used mostly by elite warriors as the armies closed, after the bow and sling volleys (Hassig 1988). It was pan-Mesoamerican and far older than the Mexica (already at Teotihuacan), which is why the Maya keep their own atlatl tech (Hul'che Javelineers) with a different effect (intended overlap, RULES 6.7). As a long weapon tradition it is not a datable moment (RULES 6.2, 6.3): it is a kept existing tech, held as a tech rather than a passive by the effect-size tie-break (RULES 6.2.4), since a strong effect suits the brake of cost and delay. Decision: it stays as a flagged fallback (RULES 6.16.19 b), for its fame and as the game's own Aztec tech. The datable alternatives, Itzcoatl's grants of conquered land to the nobles and warriors who fought Azcapotzalco (1428) and Moctezuma I's laws tying noble privilege and dress to deeds in war (Durán), would be new level-2 techs and are not used."
 relevance = "The atlatl was the missile weapon of the Mexica elite, and its Nahuatl name is the word the world uses for the spear-thrower: fame tips a weapon tradition that could otherwise be a detail."
 contested = "Conquistador claims that atlatl darts pierced armour are anecdotal."
 
@@ -132,9 +124,9 @@ level = 1
 change = "changed"
 replaces = "Garland Wars"
 precedent = "Garland Wars (Aztecs): identical effect, renamed"
-basis = "Renamed to the standard English rendering of xochiyaoyotl (‘flower war’). The Triple Alliance fought recurrent, prearranged wars against Tlaxcala, Huexotzinco and Cholula in which picked warriors displayed their skill and took captives; Durán places their start after the famine of 1450–54, so they come after the ancient atlatl in the civ's own chronology (RULES 6.4). The attack bonus stands for the battle experience of these veterans (Durán; Hassig 1988); with Blast Furnace removed it also keeps late Aztec infantry viable."
+basis = "Renamed to the standard English rendering of xochiyaoyotl (‘flower war’). The Triple Alliance fought recurrent, prearranged wars against Tlaxcala, Huexotzinco and Cholula in which picked warriors displayed their skill and took captives. Durán credits the arrangement to Tlacaelel under Moctezuma I (1440–1469); the story that the wars began during the famine of 1450–54 is Ixtlilxóchitl's, and Hicks (1979) doubts it (see contested). Both accounts place the arrangement under Moctezuma I, after the ancient atlatl in the civ's own chronology (RULES 6.4). The attack bonus stands for the battle experience of these veterans (Durán; Hassig 1988)."
 relevance = "The flower wars shaped the empire's last six decades and, in one reading, left Tlaxcala unconquered to become Cortés's decisive ally."
-contested = "Ritual capture for sacrifice (Durán, Tezozómoc) or a strategy of attrition (Hassig 1988; Isaac 1983)."
+contested = "Ritual capture for sacrifice (Durán, Tezozómoc) or a strategy of attrition (Hassig 1988; Isaac 1983); the famine origin is Ixtlilxóchitl's alone, doubted by Hicks (1979), while Durán credits Tlacaelel."
 
 [[unique_tech]]
 name = "Calpixqueh"
@@ -145,7 +137,7 @@ effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
 precedent = "Burgundian Vineyards (Burgundians): identical effect, shared, moved to the Town Center and renamed"
-basis = "After the Triple Alliance of 1428 the conquered provinces paid tribute on a fixed schedule: staple foods from the nearer provinces; cotton mantles, cacao, feathers, warrior suits and gold from the distant ones, recorded province by province in the Codex Mendoza and collected by the stewards (calpixqueh) installed in each province (Berdan & Anawalt 1992; Berdan, Smith et al. 1996). Farm output turning into gold renders tribute in kind becoming the wealth of the state. Tribute is a datable institution, so it is the Town Center tech rather than a passive bonus (RULES 6.2). The effect is Burgundian Vineyards, kept by the Burgundians and shared in the Persians', Berbers' and Tatars' designs, and the Bengalis' design has it as a passive: six civs in all (RULES 6.7; the reuse itself is codex-wide question CQ11)."
+basis = "After the Triple Alliance of 1428 the conquered provinces paid tribute on a fixed schedule: staple foods from the nearer provinces; cotton mantles, cacao, feathers, warrior suits and gold from the distant ones, recorded province by province in the Codex Mendoza and collected by the stewards (calpixqueh) installed in each province (Berdan & Anawalt 1992; Berdan, Smith et al. 1996). Farm output turning into gold renders tribute in kind becoming the wealth of the state. Tribute is a datable institution, so it is the Town Center tech rather than a passive bonus (RULES 6.2). The effect is Burgundian Vineyards, kept by the Burgundians and shared in the Persians', Berbers' and Tatars' designs, and the Bengalis' design has it as a passive: six civs in all (RULES 6.7; reuse is accepted in N1, RULES 6.16.12)."
 relevance = "Tribute was the purpose and the engine of the Triple Alliance's expansion: the empire was above all a tribute empire."
 contested = "How far the empire controlled its provinces, and how regular collection was outside the core (Berdan, Smith et al. 1996)."
 
@@ -155,7 +147,6 @@ remove = [
   "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager", "Siege Onager",
   "Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
   "Crossbowman", "Arbalester",
-  "Blast Furnace", "Plate Mail Armor",
   "Carrack", "Catapult Galleon",
   "Block Printing",
 ]
@@ -164,8 +155,8 @@ remove = [
 "Slinger" = "Slingers fought beside archers as standard Aztec missile troops (Hassig 1988), and Bernal Díaz repeatedly describes showers of sling stones. The regional Slinger, which the Inca, Muisca and Mapuche keep and the Maya also receive, takes over part of the role of the removed crossbows."
 "Guilds" = "The pochteca were professional long-distance merchants organised in hereditary, self-governing corporations with their own courts, who also served the state as spies (Sahagún, Florentine Codex, book 9). The current game gives Guilds to the Incas but not to the Aztecs; here it is added and renamed Pochteca (agreed rename)."
 "Masonry" = "The Mexica and their allies built in stone and lime: the Templo Mayor, the causeways across the lake, the Chapultepec aqueduct and Nezahualcoyotl's dike (1449). The civ already had Fortified Wall without Masonry or Architecture, which was incoherent."
-"Architecture" = "Same basis as Masonry: monumental and hydraulic engineering on the scale of the Templo Mayor and the dike of Nezahualcoyotl."
-"Siege Workshop" = "No Mesoamerican people built siege engines: towns fell to assault, fire and blockade. Removing the workshop removes all its units; infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision; RULES 6.11 and section 10). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (codex-wide question CQ2)."
+"Architecture" = "Same basis as Masonry: monumental and hydraulic engineering on the scale of the Templo Mayor and the dike of Nezahualcoyotl. Decision: the Keep, which the Aztecs lack in the game, is not added, since the region gives it only where defensive stone towers are documented (the Inca); the temple-pyramid as a town's last stronghold (the burning-temple glyph of the Codex Mendoza; Cortés's ‘torres’ at Cholula) is a reading the design declines, and the Guard Tower and Fortified Wall stay as abstractions."
+"Siege Workshop" = "No Mesoamerican people built siege engines: towns fell to assault, fire and blockade. Removing the workshop removes all its units; infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Every Castle must then be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles in pre-Hispanic Mesoamerica."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."
@@ -176,11 +167,9 @@ remove = [
 "Siege Tower" = "Removed with the Siege Workshop: a wheeled assault tower; Mesoamerican assaults used no such engines."
 "Trebuchet" = "Counterweight artillery never existed in the Americas; the only trebuchet seen at Tenochtitlan was built by the Spaniards in 1521 and failed at its first shot (Bernal Díaz; Cortés, third letter)."
 "Siege Engineers" = "No siege engines are left to improve."
-"Crossbowman" = "The crossbow was unknown in the pre-Hispanic Americas; Aztec missile troops were archers, slingers and atlatl dart-throwers (Hassig 1988). Archers, Slingers and Skirmishers with Atlatl cover the role. In the current game the Bulgarians also lack crossbows (so do the current Spanish; the Castilian and Bulgarian designs restore the Crossbowman)."
+"Crossbowman" = "The crossbow was unknown in the pre-Hispanic Americas, which have neither crossbow tier (RULES 6.16.3); Aztec missile troops were archers, slingers and atlatl dart-throwers (Hassig 1988). Archers, Slingers and Skirmishers with Atlatl cover the role. In the current game the Bulgarians also lack crossbows (so do the current Spanish; the Castilian and Bulgarian designs restore the Crossbowman)."
 "Arbalester" = "Removed with the Crossbowman (see there)."
-"Blast Furnace" = "There was no iron metallurgy: Aztec blades were of obsidian and metals (copper, gold, silver) were mostly ornamental. Removed with the other Imperial-Age tiers of metal arms and armour, a playability line rather than a historical one (the Lithuanians already lack both Blast Furnace and Plate Mail Armor): the lower Blacksmith tiers stay as a generic equipment level, Iron Casting is renamed Obsidian Blades, and Flower Wars keeps late infantry attack (see open questions)."
-"Plate Mail Armor" = "Removed with the Imperial-Age tiers of metal arms and armour (see Blast Furnace): there was no metal armour. Mexica warriors wore the quilted cotton ichcahuipilli, which the Spaniards themselves adopted, and carried shields (chimalli); the Ichcahuipilli tech (Gambesons) stays, and Scale Mail and Chain Mail Armor stay as a generic equipment level."
-"Carrack" = "High-castled sailing warships were unknown; the Mexica navy was thousands of dugout canoes (acalli) on Lake Texcoco (Cortés, third letter). The Aztecs already lack the Galleon. Codex navy rule for canoe and raft fleets (codex-wide question CQ1): the high-seas sailing ships (Galleon, Carrack) are removed and the siege ship goes with the siege engines, while the Galley, Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction of canoe fleets for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (codex-wide question CQ2)."
+"Carrack" = "High-castled sailing warships were unknown; the Mexica navy was thousands of dugout canoes (acalli) on Lake Texcoco (Cortés, third letter). The Aztecs already lack the Galleon. Boat tier (RULES 6.16.1), resting on the acalli: the high-seas sailing ships (Galleon, Carrack) are removed and the siege ship goes with the siege engines, while the Galley (renamed Canoe), Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction of canoe fleets for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (RULES 6.16.2)."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
 "Block Printing" = "There was no printing: Mexica books (amoxtli) were painted by hand. With no equivalent for the function the tech is removed (18 of the game's 56 civs already lack it)."
 
@@ -218,7 +207,7 @@ basis = "Same effect as Gambesons (Militia-line +1 pierce armor): the ichcahuipi
 from = "Iron Casting"
 to = "Obsidian Blades"
 level = 1
-basis = "There was no iron. Prismatic obsidian blades struck from prepared cores, much of it the green obsidian of the Sierra de las Navajas near Pachuca, edged the macuahuitl and tipped darts and spears (Hassig 1988; Smith 2012). Same effect as Iron Casting; Forging, which does not name iron, keeps its generic name. The Maya counterpart is Flint Points and the Inca one Tin Bronze."
+basis = "There was no iron. Prismatic obsidian blades struck from prepared cores, much of it the green obsidian of the Sierra de las Navajas near Pachuca, edged the macuahuitl and tipped darts and spears (Hassig 1988; Smith 2012). Same effect as Iron Casting. The Maya counterpart is Flint Points and the Inca one Tin Bronze. The other Blacksmith tiers keep their generic names as a flagged generic equipment level (RULES 6.16.6): Forging and Blast Furnace, although there was no iron metallurgy (metals, copper, gold and silver, were mostly ornamental), and Scale Mail, Chain Mail and Plate Mail Armor, although there was no metal armour: the quilted cotton ichcahuipilli already renames Gambesons and cannot stand for three tiers more, and the feathered warrior suits (tlahuiztli) that veterans wore with it were above all insignia of rank, whose added protection is not established (an N2 idea). Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Mexica had no gunpowder. The Aztecs lack Ring Archer Armor in the game, and the design leaves it so."
 
 [[rename]]
 from = "Wheelbarrow"
@@ -242,7 +231,21 @@ basis = "There were no coins: cacao beans served as small change and standard co
 from = "Treadmill Crane"
 to = "Coatequitl"
 level = 1
-basis = "There were no cranes or treadwheels: temples, causeways and dikes were raised by the coatequitl, the rotational labour draft for public works that each calpolli owed to its city and ruler (Hassig 1985; Smith 2012). Same effect as Treadmill Crane (Villagers construct buildings +20% faster): organised labour is the Mexica equivalent of faster building, as the tumpline is of the Wheelbarrow. Pending approval with the other renames beyond the agreed list (codex-wide question CQ20)."
+basis = "There were no cranes or treadwheels: temples, causeways and dikes were raised by the coatequitl, the rotational labour draft for public works that each calpolli owed to its city and ruler (Hassig 1985; Smith 2012). Same effect as Treadmill Crane (Villagers construct buildings +20% faster): organised labour is the Mexica equivalent of faster building, as the tumpline is of the Wheelbarrow. A rename beyond the agreed list, applied under RULES 6.16.6."
+
+[[rename]]
+from = "Galley"
+to = "Canoe"
+model = "Canoe"
+level = 1
+basis = "The Mexica fought on the lake in dugout canoes (acalli): thousands of them defended Tenochtitlan in 1521, and Cortés had thirteen brigantines built to break them (Cortés, third letter; Bernal Díaz). The Scenario Editor Canoe, a light boat that shoots arrows like the Galley (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename for the Maya, Mapuche and Tupi; the acalli war-canoe line proper is an N3 idea."
+
+[[rename]]
+from = "War Galley"
+to = "War Canoe"
+model = "Canoe"
+level = 1
+basis = "Upgrade tier of the renamed Galley, with the same Canoe look (see Galley)."
 
 [architecture]
 set = "Central American"

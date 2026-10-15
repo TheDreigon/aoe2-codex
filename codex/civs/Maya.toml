@@ -2,10 +2,10 @@ civ = "Mayans"
 name = "Maya"
 status = "draft"
 label = "Archer civilization"
-summary = "The Maya kingdoms (500–1524): scribes and astronomers replace the extra Villager, city-burning infantry the siege engines and sea trade the walls team bonus, divine kingship becomes the Town Center tech, the Plumed Archer reaches the Archery Range in the Imperial Age, and crossbows and the Keep go."
+summary = "The Maya kingdoms (500–1524): scribes and astronomers replace the extra Villager, city-burning infantry the siege engines and sea trade the walls team bonus, divine kingship becomes the Town Center tech, the Plumed Archer reaches the Archery Range in the Imperial Age, the galleys become war canoes, and crossbows, the Halberdier and the Keep go."
 ideas = [
   "N2: Identity by period: discounts on the Spearman-line and Skirmishers (Classic spear and atlatl) in Feudal and Castle Age, passing to Foot Archers in Imperial Age (Postclassic bow), as the analysis proposes.",
-  "N3: A large trading and war canoe (the canoe met by Columbus's men off Guanaja in 1502, ‘as long as a galley’, with some 25 paddlers and a cargo of cacao, copper and cloth) replacing the Trade Cog and Galley-line.",
+  "N3: A large trading and war canoe (the canoe met by Columbus's men off Guanaja in 1502, ‘as long as a galley’, with some 25 paddlers and a cargo of cacao, copper and cloth) replacing the Trade Cog and Galley-line; in N1 the Canoe and War Canoe renames give the Galley line the look of the Scenario Editor Canoe.",
   "N3: Royal captives (baak): kings bore titles such as ‘he of twenty captives’; captured enemies held at a Castle or Monastery would work like Relics.",
   "N2: A bow line split from the Crossbowman (RULES section 10); the Plumed Archer at the Archery Range in the Imperial Age is the N1 stop-gap.",
   "N3: Re-theme the Monastery and Relics (divine kings, k'uhul ajaw; ancestor shrines) and add a scribe or astronomer unit.",
@@ -21,19 +21,9 @@ contested = [
   "Late Classic population size in the light of LiDAR (Canuto et al. 2018).",
   "The extent and form of lowland wetland fields (raised, or ditched and drained), debated since the radar-based overestimates of the 1980s (Pope & Dahlin 1989; Beach et al. 2009); the field complexes of northern Belize are well documented (Beach et al. 2019).",
   "Periodisation: the Late Classic is usually dated c. 600–900 and the Postclassic from c. 900–1000, but where the Postclassic ends is a convention, since the conquest came piecemeal: the K'iche' fell in 1524, where the window ends, northern Yucatán in 1527–1546 and the Itza of Nojpetén only in 1697.",
-  "The Eagle Warrior line: the eagle order is Nahua; Maya eagle and jaguar warriors appear at Chichén Itzá (Platform of the Eagles and Jaguars, Postclassic, with central Mexican influence). Kept as plausible (tech-tree audit), with Holcans as a Yucatec-Nahua hybrid.",
+  "The Eagle Warrior line: the eagle order is Nahua; Maya eagle and jaguar warriors appear at Chichén Itzá (Platform of the Eagles and Jaguars, Postclassic, with central Mexican influence). Kept as plausible (tech-tree audit), with Holcans as a Yucatec-Nahua hybrid. Decision: the Militia-line and the Eagle line keep their game names, since N1 renames a shared item only where a period term names the same function (RULES 6.16.15).",
 ]
-open_questions = [
-  "Crossbow substitute: the Crossbowman and Arbalester are removed and the Plumed Archer becomes trainable at the Archery Range in the Imperial Age (Italian Condottiero precedent), so in the Castle Age the Archer-line stops at the Archer. The availability bonus is a RULES 6.11 substitution, not a separate trait, and takes the sixth passive slot (6 passives + 3 techs = 9, the proposed cap); a level-2 Archery Range tech instead would free that slot for a weightier trait (for example the sacbeob causeways, at present an N3 idea). Accept, or prefer Castle Age availability (stronger) or a level-2 Archery Range tech?",
-  "‘Milpa’ (agreed rename for Crop Rotation) is a Nahuatl word, against the region's rule of not giving one people's word to another; it is kept as the standard term of Mexican Spanish and of Maya scholarship. Use the Yucatec kool for the Maya instead?",
-  "Regional names for unit lines (region-wide): Maya names for the Militia-line or the Eagle line? Not done, since regional names for unit lines have not been agreed.",
-  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision), the first civs in the game without them. The Maya break buildings with anti-building infantry, Arson, Sappers and Petards, but every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. Accept the risk until an N2/N3 assault unit exists?",
-  "Region-wide, metal arms and armour: the criterion is the name of a metal weapon or armour tier. The Imperial-Age tiers (Blast Furnace, Plate Mail Armor, Ring Archer Armor) are removed, a playability line rather than a historical one (the Lithuanians already lack Blast Furnace and Plate Mail Armor). A lower tier is renamed only where a specific, documented equivalent exists for that tech: Iron Casting → Flint Points (Obsidian Blades for the Aztecs, Tin Bronze for the Inca) and Gambesons → Quilted Cotton Armor. Forging, Scale Mail Armor and Chain Mail Armor stay as a flagged generic equipment level, since one quilted cotton armour cannot stand for two successive tiers, and Chemistry stays for its +1 ranged attack, although the Maya had no gunpowder. Remove or rename the remaining tiers too, at a cost to playability?",
-  "Codex-wide question CQ2 (see codex/civs/README.md): Generic post-1500 items.",
-  "Codex-wide question CQ3 (see codex/civs/README.md): Crossbows.",
-  "Codex-wide question CQ12 (see codex/civs/README.md): American power budget.",
-  "Codex-wide question CQ20 (see codex/civs/README.md): American renames beyond the agreed list.",
-]
+open_questions = []
 
 [profile]
 entity = "The Maya kingdoms and city-states: the Classic lowland kingdoms (Tikal, Calakmul, Caracol, Copán, Palenque and others) and the Postclassic polities of Yucatán and the highlands (Chichén Itzá, Mayapán, the Yucatec provinces, the K'iche' and Kaqchikel kingdoms)"
@@ -41,7 +31,7 @@ region = "Yucatán Peninsula, Petén, Chiapas, Tabasco, Belize, Guatemala, weste
 window = "500–1524 (the Classic kingdoms and the Postclassic, to the Spanish conquest of the K'iche')"
 sources = [
   "Diego de Landa, Relación de las cosas de Yucatán (c. 1566)",
-  "Bernal Díaz del Castillo, Historia verdadera (on Champotón, 1517)",
+  "Bernal Díaz del Castillo, Historia verdadera (on Champotón, 1517, and Tabasco, 1518)",
   "Ferdinand Columbus, The Life of the Admiral Christopher Columbus (on the Guanaja canoe, 1502)",
   "Popol Vuh (Ximénez manuscript, c. 1701)",
   "Dresden Codex",
@@ -118,7 +108,7 @@ kind = "military"
 level = 1
 change = "new"
 precedent = "Condottiero available at the Barracks in Imperial Age (Italians team bonus); Genitour available at the Archery Range starting in Castle Age (Berbers team bonus)"
-basis = "This bonus is a RULES 6.11 substitution rather than a separate trait. The bow was the main weapon of the Postclassic Maya (Landa; Bernal Díaz on Champotón, 1517); the crossbow was unknown in the Americas, so the Crossbowman and Arbalester are removed, and the Plumed Archer, which stands for the ordinary Maya bowman (its plumes and speed are game conventions), becomes the Imperial-Age foot archer of the Archery Range in their place. The Imperial Age follows the Italian precedent and keeps the main unique unit from becoming a cheap Castle Age mass unit. It is the civ's sixth passive, at the proposed cap of nine elements (see open questions)."
+basis = "This bonus is a RULES 6.11 substitution rather than a separate trait. The bow was the main weapon of the Postclassic Maya (Landa; Bernal Díaz on Champotón, 1517); the crossbow was unknown in the Americas, so the Crossbowman and Arbalester are removed, and the Plumed Archer, which stands for the ordinary Maya bowman (its plumes and speed are game conventions), becomes the Imperial-Age foot archer of the Archery Range in their place. The Imperial Age follows the Italian precedent and keeps the main unique unit from becoming a cheap Castle Age mass unit, so in the Castle Age the Archer-line stops at the Archer. It is the civ's sixth passive, at the proposed cap of nine elements (6 passives + 3 techs). Decision: this substitution is kept rather than Castle Age availability, which would make the unique unit a cheap mass unit, or a level-2 Archery Range tech, which would spend a tech slot on a substitution; the sacbeob causeways stay an N3 idea."
 relevance = "The bow was the weapon of the Postclassic Maya levies (Landa), and an Imperial-Age foot archer at the Archery Range keeps that weight in the late game."
 
 [team_bonus]
@@ -127,7 +117,7 @@ level = 1
 change = "new"
 replaces = "Walls cost -50%"
 precedent = "Trade Units generate +25% gold (Spanish team bonus), at a lower magnitude"
-basis = "Postclassic Maya traders, above all the Chontal of Tabasco and Acalan, carried cacao, cotton cloth, salt, honey and obsidian by canoe around Yucatán and traded at ports of trade such as Xicalanco and Cozumel, where Nahua merchants also came (Scholes & Roys 1948); off Guanaja in 1502 Columbus's men met a trading canoe ‘as long as a galley’ laden with cacao, copper and cloth (Ferdinand Columbus), and the salt beds of northern Yucatán supplied much of Mesoamerica (Andrews 1983). RULES 6.2: trade that benefited neighbours. The walls discount it replaces protected only their builders and becomes a passive bonus. The same team bonus is in the Armenians', Ethiopians', Rus' and Tamils' designs (RULES 6.7). Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner, codex-wide question CQ11)."
+basis = "Postclassic Maya traders, above all the Chontal of Tabasco and Acalan, carried cacao, cotton cloth, salt, honey and obsidian by canoe around Yucatán and traded at ports of trade such as Xicalanco and Cozumel, where Nahua merchants also came (Scholes & Roys 1948); off Guanaja in 1502 Columbus's men met a trading canoe ‘as long as a galley’ laden with cacao, copper and cloth (Ferdinand Columbus), and the salt beds of northern Yucatán supplied much of Mesoamerica (Andrews 1983). RULES 6.2: trade that benefited neighbours. The walls discount it replaces protected only their builders and becomes a passive bonus. The same team bonus is in the Armenians', Ethiopians', Rus' and Tamils' designs (RULES 6.7). Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (RULES 6.16.12)."
 relevance = "Seaborne trade tied the Postclassic Maya to the rest of Mesoamerica and made the ports and salt beds of Yucatán a hub of exchange."
 
 [[unique_unit]]
@@ -149,7 +139,7 @@ effect = "Skirmishers fire an additional projectile"
 level = 1
 change = "kept"
 precedent = "Hul'che Javelineers (Mayans)"
-basis = "Hul'che (hulche) is the Yucatec Maya name of the spear-thrower: a Yucatec specimen in the Smithsonian is catalogued as ‘(Hulche) or spear-thrower (atlatl)’; the colonial dictionaries (the Calepino de Motul; the Diccionario Maya Cordemex, 1980) have not been checked. Warriors with atlatls and darts fill the carvings and murals of Terminal Classic and Early Postclassic Chichén Itzá (Temple of the Warriors), and the Spaniards met darts or javelins at Champotón in 1517 (Bernal Díaz). The extra projectile is an abstraction of dart volleys; the Aztec Atlatl gives range and attack instead (intended overlap, RULES 6.7). As a weapon tradition it is not a datable moment: it is a kept existing tech, held as a tech by the effect-size tie-break (RULES 6.2.4). Castle Age, before the Late Postclassic holkan of the Imperial tech (RULES 6.4)."
+basis = "Hul'che (hulche) is the Yucatec Maya name of the spear-thrower: a Yucatec specimen in the Smithsonian is catalogued as ‘(Hulche) or spear-thrower (atlatl)’; the colonial dictionaries (the Calepino de Motul; the Diccionario Maya Cordemex, 1980) have not been checked. Warriors with atlatls and darts fill the carvings and murals of Terminal Classic and Early Postclassic Chichén Itzá (Temple of the Warriors), and the Spaniards met darts or javelins at Champotón in 1517 (Bernal Díaz). The extra projectile is an abstraction of dart volleys; the Aztec Atlatl gives range and attack instead (intended overlap, RULES 6.7). As a weapon tradition it is not a datable moment: it is a kept existing tech, held as a tech by the effect-size tie-break (RULES 6.2.4), a flagged fallback (RULES 6.16.19 b). Castle Age, before the Late Postclassic holkan of the Imperial tech (RULES 6.4)."
 relevance = "Before the bow prevailed, the atlatl was, with the spear, the weapon of Maya war imagery, culminating in the warrior art of Chichén Itzá, the leading power of northern Yucatán in the Terminal Classic (c. 850–1000): it carries the earlier half of the window, as the archer bonus carries the Postclassic."
 contested = "Classic images of the atlatl often show Teotihuacan-style warriors (Tikal Stela 31, 445), before the time window."
 
@@ -185,7 +175,6 @@ remove = [
   "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet",
   "Crossbowman", "Arbalester", "Thumb Ring",
-  "Blast Furnace", "Plate Mail Armor", "Ring Archer Armor",
   "Halberdier",
   "Galleon", "Carrack", "Catapult Galleon",
   "Block Printing", "Keep",
@@ -194,7 +183,7 @@ remove = [
 [tree.basis]
 "Slinger" = "The Maya who fought the first Spanish expeditions in 1517 used slings as well as bows and lances (Bernal Díaz, on Champotón). The regional Slinger, shared with the Aztecs, the Inca, the Muisca and the Mapuche, replaces part of the role of the removed crossbows."
 "Gambesons" = "Quilted cotton armour is well documented among the Maya: Landa describes jackets of cotton quilted in two layers with coarse salt as very strong, and the Spaniards met cotton-armoured warriors in 1517. The Maya have the Militia-line but lacked the tech; it is added and renamed Quilted Cotton Armor."
-"Siege Workshop" = "The Maya built no siege engines: cities fell to assault, fire and blockade. Removing the workshop removes all its units; infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision; RULES 6.11 and section 10). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (codex-wide question CQ2)."
+"Siege Workshop" = "The Maya built no siege engines: cities fell to assault, fire and blockade. Removing the workshop removes all its units; infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Every Castle must then be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."
@@ -204,14 +193,11 @@ remove = [
 "Heavy Scorpion" = "Removed with the Siege Workshop (see Scorpion)."
 "Siege Tower" = "Removed with the Siege Workshop: a wheeled assault tower."
 "Trebuchet" = "Counterweight artillery never existed in the Americas."
-"Crossbowman" = "The crossbow was unknown in the pre-Hispanic Americas; Maya missile troops used bows, slings and atlatls. The Plumed Archer becomes available at the Archery Range in the Imperial Age in its place (bonus). In the current game the Bulgarians also lack crossbows (so do the current Spanish; the Castilian and Bulgarian designs restore the Crossbowman)."
+"Crossbowman" = "The crossbow was unknown in the pre-Hispanic Americas, which have neither crossbow tier (RULES 6.16.3); Maya missile troops used bows, slings and atlatls. The Plumed Archer becomes available at the Archery Range in the Imperial Age in its place (bonus). In the current game the Bulgarians also lack crossbows (so do the current Spanish; the Castilian and Bulgarian designs restore the Crossbowman)."
 "Arbalester" = "Removed with the Crossbowman (see there)."
-"Thumb Ring" = "No thumb rings or thumb draw are attested in the Americas (game-model theme); the Britons, the archer civ par excellence, also lack the tech."
-"Blast Furnace" = "There was no iron metallurgy: Maya weapons were of flint and obsidian, and metal (copper bells and axes) arrived late and mostly as imports. Removed with the other Imperial-Age tiers of metal arms and armour, a playability line rather than a historical one (the Lithuanians already lack both Blast Furnace and Plate Mail Armor): the lower Blacksmith tiers stay as a generic equipment level and Iron Casting is renamed Flint Points (see open questions)."
-"Plate Mail Armor" = "Removed with the Imperial-Age tiers of metal arms and armour (see Blast Furnace): there was no metal armour, and Maya warriors wore quilted cotton and carried flexible or hide shields. Quilted Cotton Armor (Gambesons) is added; Scale Mail and Chain Mail Armor stay as a generic equipment level."
-"Ring Archer Armor" = "Removed with the other Imperial-Age tiers of metal arms and armour, a playability line rather than a historical one (see Blast Furnace). Padded and Leather Archer Armor, which have real equivalents in cotton and hide, stay."
-"Halberdier" = "The halberd is a 14th–15th-century European polearm, and the Maya met no cavalry before the Spanish expeditions (Centla, 1519); Spearman and Pikeman remain for the spear of Classic imagery (names theme). Several civs already stop at the Pikeman."
-"Galleon" = "Ocean-going sailing warships were unknown; Maya seafaring used large dugout canoes (the canoe seen off Guanaja in 1502). Codex navy rule for canoe and raft fleets (codex-wide question CQ1): the high-seas sailing ships (Galleon, Carrack) are removed and the siege ship goes with the siege engines, while the Galley, Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction of canoe fleets for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (codex-wide question CQ2)."
+"Thumb Ring" = "No thumb rings or thumb draw are attested in the Americas, so the tech goes (RULES 6.16.4); the game's Britons, the archer civ par excellence, also lack it."
+"Halberdier" = "Removed under the codex convention for the American civs (RULES 6.16.6, the owner's decision on their power budget): a playability line, not a historical one, since the kept Pikeman bears as European a name; the American spear line stops at the Pikeman, as the game already does for the Aztecs and Muisca. The Maya met no cavalry before the Spanish expeditions (Centla, 1519), and Spearman and Pikeman remain for the spear of Classic imagery."
+"Galleon" = "Ocean-going sailing warships were unknown; Maya seafaring used large dugout canoes (the canoe seen off Guanaja in 1502; the Chontal canoe trade, Scholes & Roys 1948). Boat tier (RULES 6.16.1), resting on these dugouts: the high-seas sailing ships (Galleon, Carrack) are removed and the siege ship goes with the siege engines, while the Galley (renamed Canoe), Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction of canoe fleets for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (RULES 6.16.2)."
 "Carrack" = "High-castled sailing warships were unknown (see Galleon)."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
 "Block Printing" = "There was no printing: Maya books (codices of bark paper) were painted by hand, and Landa burned many of them at Maní in 1562. With no equivalent for the function the tech is removed (18 of the game's 56 civs already lack it); the scribes are represented by the University and Monastery bonus."
@@ -234,7 +220,7 @@ basis = "There was no plough. Agricultural terraces covered whole hillsides arou
 from = "Crop Rotation"
 to = "Milpa"
 level = 1
-basis = "Agreed rename (Crop Rotation → Milpa), applied to both Mesoamerican civs: the milpa, intercropping maize, beans and squash, is the basis of Maya farming to this day. ‘Milpa’ is Nahuatl (mīlli with -pan) but is the standard term of Mexican Spanish and of Maya scholarship, as ‘andenes’ is Spanish for Andean terraces; the Yucatec word is kool (see open questions). The tier order is a game convention: historically the milpa came first, and raised fields and terraces intensified it later."
+basis = "Agreed rename (Crop Rotation → Milpa), applied to both Mesoamerican civs: the milpa, intercropping maize, beans and squash, is the basis of Maya farming to this day. ‘Milpa’ is Nahuatl (mīlli with -pan) but is the standard term of Mexican Spanish and of Maya scholarship, as ‘andenes’ is Spanish for Andean terraces. Decision: it is kept rather than the Yucatec kool, although the region otherwise avoids giving one people's word to another. The tier order is a game convention: historically the milpa came first, and raised fields and terraces intensified it later."
 
 [[rename]]
 from = "Gambesons"
@@ -246,7 +232,7 @@ basis = "Same effect as Gambesons. Landa describes Maya jackets of quilted cotto
 from = "Iron Casting"
 to = "Flint Points"
 level = 1
-basis = "There was no iron. Maya lances, axes and arrows were tipped with knapped flint (chert), as Landa describes, and with obsidian imported from highland sources such as El Chayal and Ixtepeque (Aoyama 2005). Same effect as Iron Casting; Forging, which does not name iron, keeps its generic name. The Aztec counterpart is Obsidian Blades."
+basis = "There was no iron. Maya lances, axes and arrows were tipped with knapped flint (chert), as Landa describes, and with obsidian imported from highland sources such as El Chayal and Ixtepeque (Aoyama 2005). Same effect as Iron Casting. The Aztec counterpart is Obsidian Blades. The other Blacksmith tiers keep their generic names as a flagged generic equipment level (RULES 6.16.6): Forging and Blast Furnace, although there was no iron metallurgy (metal, copper bells and axes, arrived late and mostly as imports); Scale Mail, Chain Mail and Plate Mail Armor, although there was no metal armour (Maya warriors wore quilted cotton, which renames Gambesons, and carried flexible or hide shields); and Ring Archer Armor, beside Padded and Leather Archer Armor, which have real equivalents in cotton and hide. Chemistry stays for its +1 ranged attack as a flagged abstraction, although the Maya had no gunpowder."
 
 [[rename]]
 from = "Wheelbarrow"
@@ -270,7 +256,21 @@ basis = "There were no coins: Landa says the Yucatec Maya traded salt, cloth and
 from = "Guilds"
 to = "P'olom"
 level = 1
-basis = "Same effect as Guilds (Market trading fee reduced to 15%). The Yucatec word for merchant was p'olom (ppolom in colonial spelling), and merchant lords led the canoe trade of the Chontal of Acalan, whose ruler was its chief merchant (Scholes & Roys 1948). The Maya counterpart of the agreed Aztec Pochteca, pending approval with the other renames beyond the agreed list (codex-wide question CQ20)."
+basis = "Same effect as Guilds (Market trading fee reduced to 15%). The Yucatec word for merchant was p'olom (ppolom in colonial spelling), and merchant lords led the canoe trade of the Chontal of Acalan, whose ruler was its chief merchant (Scholes & Roys 1948). The Maya counterpart of the agreed Aztec Pochteca, a rename beyond the agreed list applied under RULES 6.16.6."
+
+[[rename]]
+from = "Galley"
+to = "Canoe"
+model = "Canoe"
+level = 1
+basis = "Maya fleets were dugout canoes: off Guanaja in 1502 Columbus's men met a trading canoe ‘as long as a galley’ with some 25 paddlers (Ferdinand Columbus), the Chontal of Tabasco and Acalan carried the coastal trade in canoes (Scholes & Roys 1948), and in 1518 armed warriors in canoes met Grijalva's ships off Tabasco (Bernal Díaz, who sailed with him). The Scenario Editor Canoe, a light boat that shoots arrows like the Galley (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as for the Aztecs, Mapuche and Tupi."
+
+[[rename]]
+from = "War Galley"
+to = "War Canoe"
+model = "Canoe"
+level = 1
+basis = "Upgrade tier of the renamed Galley, with the same Canoe look (see Galley)."
 
 [architecture]
 set = "Central American"
