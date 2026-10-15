@@ -25,11 +25,11 @@ open_questions = [
   "Label: ‘Infantry and Defensive’ becomes ‘Cavalry and Defensive’, because heavy cavalry was the elite arm of German armies from the 10th to the 14th century and the Order’s brothers fought mounted. Infantry keeps a place (the melee-armour bonus, Champion, and the Landsknechte tech for the foot of the late 15th century). Keep ‘Cavalry and Defensive’ or return to ‘Infantry and Defensive’?",
   "Teutonic Knight: changed from infantry to cavalry on the Boyar model, the foot version dropped. In N1 it has the Boyar’s stats, like the Rus' Boyar and the Lithuanians’ Boyar (the boyar banners the Order met at Grunwald); the conversion-resistance passive is what sets it apart. Accept, keep the foot Teutonic Knight until the N2 unit, or keep it as a second unique unit for dismounted knights in siege and garrison?",
   "Conversion resistance: the game’s civ-wide team bonus cannot stay a team bonus (RULES 6.2: it benefited only the civ), and as a civ-wide passive it would stretch the vows of a few hundred professed brethren over the whole kingdom, so it is narrowed to the Teutonic Knight and takes the slot of ‘Murder Holes, Herbal Medicine free’. Keep this passive, or give the slot to another German trait?",
-  "Town Center tech: Henry I’s burgs reuse Tigui (Town Centers fire arrows without garrison), renamed ‘Burgenordnung’ (level 1). The Italians’ Comune shares it too and the Malians’ draft drops Tigui, so two civs would hold it, each renamed (RULES 6.7 allows repeats). Historically the Golden Bull of 1356, which fixed the royal election by seven electors until 1806, is the stronger state moment of the German kingdom; it would need a new level-2 tech, and the choice of its effect is the owner’s. Keep Burgenordnung, or switch to a Golden Bull tech (or the Imperial Reform of 1495), with Henry I’s burgs staying as the root of the garrison passive?",
+  "Town Center tech: Henry I’s burgs reuse Tigui (Town Centers fire arrows without garrison), renamed ‘Burgenordnung’ (level 1). The Italians’ Comune shares it too and the Malians’ design drops Tigui, so two civs hold it, each renamed (RULES 6.7 allows repeats). Historically the Golden Bull of 1356, which fixed the royal election by seven electors until 1806, is the stronger state moment of the German kingdom; it would need a new level-2 tech, and the choice of its effect is the owner’s. Keep Burgenordnung, or switch to a Golden Bull tech (or the Imperial Reform of 1495), with Henry I’s burgs staying as the root of the garrison passive?",
   "Team bonus: two more German traits benefited neighbours. The Ostsiedlung: Polish, Bohemian and Hungarian rulers invited German settlers under German law (ius Teutonicum, Magdeburg law); here it is a passive (Farms -40%). Printing, here a University tech: German printers set up the first presses of Italy (Subiaco 1465, Venice 1469), France (Paris 1470), Hungary and Poland (Buda and Kraków 1473). Keep the miners as the only team bonus, add one of these if civs may have two, or swap (printing would then leave the University)?",
   "Light Cavalry: the Order used native Prussian light horse on its raids into Lithuania. Add Light Cavalry to the tree (not done here, to keep the power budget)?",
   "Shipwright: the analysis also proposes it for the Hanseatic fleets; only Dry Dock is added here. Add Shipwright too?",
-  "Shared parts (RULES 6.7): Farms -40% is also the Goths’ passive in their draft, the Saxons’ draft takes the Town Center half of the garrison bonus, Tigui is shared with the Italians’ Comune, Hanse’s trade effect is the game’s Spanish team bonus (kept by the Castilians, and also the Mongols’ team bonus and the Tatars’ Tamga in their drafts), Landsknechte is the Goths’ Perfusion (dropped in their draft), and the Teutonic Knight has the Boyar’s stats. Each repeat has a German basis, but much of the civ is built from shared parts. Acceptable?",
+  "Shared parts (RULES 6.7): Farms -40% is also a passive in the Goths’ design, the Saxons’ design takes the Town Center half of the garrison bonus, Tigui is shared with the Italians’ Comune, Hanse’s trade effect is the game’s Spanish team bonus (kept by the Castilians, and also the Mongols’ team bonus and the Tatars’ Tamga in their designs), Landsknechte is the Goths’ Perfusion (dropped in their design), Gutenberg's Press has the effect of a Bengali passive and of half of the Georgians’ Gelati Academy, and the Teutonic Knight has the Boyar’s stats. Each repeat has a German basis, but much of the civ is built from shared parts. Acceptable?",
   "Composition: 5 passive bonuses + 4 unique techs = 9, the proposed cap (RULES 6.1). Keep Gutenberg's Press as the fourth tech, or move printing to the team-bonus question or to the ideas and stay at 8?",
   "Codex-wide question CQ18 (see codex/civs/README.md): Reused names (the mounted Teutonic Knight, on the Boyar model, and its Elite tier share their names with the game’s infantry Teutonic Knight).",
 ]
@@ -67,7 +67,7 @@ text = "Farms cost -40%"
 kind = "economic"
 level = 1
 change = "kept"
-precedent = "Farms cost -40% (Teutons); the Goths’ draft copies it"
+precedent = "Farms cost -40% (Teutons); the Goths’ design copies it"
 basis = "Read as the Ostsiedlung (12th–14th centuries): locators settled peasants east of the Elbe and in Silesia, Bohemia and Poland under ‘German law’ (ius Teutonicum), with standard holdings (Hufen), the heavy plough and several rent-free years (Freijahre) to clear and sow new land (Bartlett 1993). An abstraction: cheap farms stand for the low start-up cost of these settlements."
 relevance = "The Ostsiedlung moved the German-speaking frontier from the Elbe to the Baltic and the Carpathians and reshaped the map of Central Europe for seven centuries."
 
@@ -76,7 +76,7 @@ text = "Town Centers +10 garrison capacity; Towers +5 garrison capacity"
 kind = "military"
 level = 1
 change = "kept"
-precedent = "Town Centers +10 garrison capacity; Towers +5 garrison capacity (Teutons); the Saxons’ draft takes the Town Center half"
+precedent = "Town Centers +10 garrison capacity; Towers +5 garrison capacity (Teutons); the Saxons’ design takes the Town Center half"
 basis = "The German lands had one of the densest networks of castles in Europe (estimates run to more than ten thousand Burgen) and hundreds of walled towns, where the people of the countryside took refuge in war; the Teutonic Order ruled Prussia and its share of Livonia from convent-castles, brick in Prussia and stone in Livonia, each held by a convent of brothers with their men-at-arms. The datable start of this tradition, Henry I’s burgs of 926–933, is the Town Center tech."
 relevance = "The castle and the walled town are the defining features of the German medieval landscape and the root of the civ’s ‘Defensive’ label."
 
@@ -85,7 +85,7 @@ text = "Infantry and Mounted Units +1/+2 melee armor in Castle/Imperial Age"
 kind = "military"
 level = 1
 change = "kept"
-precedent = "Infantry and Mounted Units +1/+2 melee armor in Castle/Imperial Age (Teutons); the Britons’ draft narrows it to the Militia-line"
+precedent = "Infantry and Mounted Units +1/+2 melee armor in Castle/Imperial Age (Teutons); the Britons’ design narrows it to the Militia-line"
 basis = "Nuremberg, Augsburg and Landshut were among the great armour-making centres of 15th-century Europe (‘Gothic’ plate; the Helmschmid workshop of Augsburg worked for Maximilian I), and Passau and Solingen blades were exported widely. The link is strongest for the Imperial Age."
 relevance = "German plate armour was an export industry and a European byword; the heavily armoured German knight and Landsknecht are part of the civ’s identity."
 
@@ -95,7 +95,7 @@ kind = "military"
 level = 1
 change = "changed"
 replaces = "Murder Holes, Herbal Medicine free"
-precedent = "Elephant Units receive -25% bonus damage and are more resistant to conversion (Bengalis), conversion part, with the Teutonic Knight as the target; Units more resistant to conversion (Teutons team bonus, now the Inca design’s team bonus). The Castilians’ draft gives its military-order Freire the same resistance through a tech."
+precedent = "Elephant Units receive -25% bonus damage and are more resistant to conversion (Bengalis), conversion part, with the Teutonic Knight as the target; Units more resistant to conversion (Teutons team bonus, now the Inca design’s team bonus). The Castilians’ design gives its military-order Freire the same resistance through a tech (Órdenes Militares)."
 basis = "The brother-knights were professed religious: they took vows of poverty, chastity and obedience, lived in convents under a rule taken from the Templars and the Hospitallers (confirmed by Innocent III in 1199, with the Order’s own statutes compiled in the 13th century), and fought a crusade preached and renewed for two centuries (Christiansen 1997; Urban 2003). The game’s infantry Teutonic Knight was itself resistant to conversion; this passive keeps that trait for the mounted unit. The game’s conversion is a change of allegiance, so the bonus stands for religious commitment, not for a documented immunity. It narrows the game’s civ-wide team bonus, which cannot stay a team bonus under RULES 6.2 and as a civ-wide passive would stretch the vows of a few hundred brethren over the whole kingdom."
 relevance = "Without its professed brethren and their vows the Order would not exist; the brother-knights were its core and its fighting elite."
 
@@ -113,7 +113,7 @@ text = "Natural gold sources last +15% longer"
 level = 1
 change = "new"
 replaces = "Units more resistant to conversion"
-precedent = "Natural gold sources last +15% longer (Muisca team bonus; the Muisca draft replaces it, so in the drafts only the Germans hold it)"
+precedent = "Natural gold sources last +15% longer (Muisca team bonus; the Muisca design replaces it, so in the codex only the Germans hold it)"
 basis = "German miners opened and ran mines all over Central Europe: Rammelsberg near Goslar (silver, traditionally from 968) and Freiberg (1168) at home, then Jihlava and Kutná Hora in Bohemia, Kremnica and Banská Štiavnica in Hungary, and Novo Brdo in Serbia, carrying the mining law of Freiberg and Jihlava with them; their drainage adits and shaft techniques kept deep mines working (Bartlett 1993; Agricola codified this knowledge in De re metallica, 1556). Mines ‘lasting longer’ abstract deeper and longer exploitation, not larger ore bodies. As a team bonus it reflects German mining expertise working for the neighbours (RULES 6.2: transferred techniques)."
 relevance = "German mining made Central Europe the silver and gold supplier of the continent and spread German law and settlers; it benefited Bohemia, Hungary and Serbia as much as the Empire."
 
@@ -135,7 +135,7 @@ age = "Castle"
 effect = "Town Centers fire arrows without garrison"
 level = 1
 change = "new"
-precedent = "Tigui (Town Centers fire arrows without garrison) (Malians): an existing unique tech, moved to the Town Center, shared and renamed with an identical effect; the Italians’ Comune shares it too, and the Malians’ draft drops Tigui, so two civs hold it, each renamed"
+precedent = "Tigui (Town Centers fire arrows without garrison) (Malians): an existing unique tech, moved to the Town Center, shared and renamed with an identical effect; the Italians’ Comune shares it too, and the Malians’ design drops Tigui, so two civs hold it, each renamed"
 basis = "During the truce with the Magyars (926–933) Henry I had fortified refuges (urbes) built and ordered that one in nine of the agrarii milites live in them permanently, that a third of the harvest be stored there and that councils, gatherings and feasts be held there (Widukind I.35): the burgs were seats of assembly and supply as well as of defence. In the marches between the Saale and the Elbe the later burgwards, districts grouped around a fort, served for defence, administration and the collection of tithes. A permanent garrison is what lets the Town Center shoot without villagers inside. Castle Age, Tigui’s original age, rather than Feudal."
 relevance = "The burgs let Henry I’s young kingdom withstand the Magyar raids and defeat them at Riade (933), the start of the defence that culminated at the Lechfeld (955)."
 contested = "‘Burgenordnung’ is a modern historians’ name; whether Henry issued a systematic ordinance, and who the agrarii milites were, is debated (Bachrach 2012)."
@@ -149,7 +149,7 @@ effect = "Trade Units generate +25% gold; Hulk-line +20% HP"
 level = 2
 change = "new"
 replaces = "Ironclad (Siege Weapons +4 melee armor)"
-precedent = "Effect 1: Trade Units generate +25% gold (Spanish team bonus; kept by the Castilians’ draft, and also the Mongols’ team bonus and the Tatars’ Tamga in their drafts); effect 2: Longships and Catapult Galleons +20% HP (Saxons)"
+precedent = "Effect 1: Trade Units generate +25% gold (Spanish team bonus; kept by the Castilians’ design, and also the Mongols’ team bonus and the Tatars’ Tamga in their designs); effect 2: Longships and Catapult Galleons +20% HP (Saxons)"
 basis = "The Hanse (c. 1250–1500; first general diet 1356) linked Lübeck, Hamburg, Cologne, Danzig and dozens of other German towns, with Kontore at Novgorod, Bergen, London and Bruges; its cogs and later hulks (the ship type that gives the game’s Hulk-line its name) also fought, and the towns forced Denmark to the Peace of Stralsund (1370). The Teutonic Order took part in the Hanse with its Prussian towns and conquered Gotland from the Victual Brothers in 1398 (Dollinger 1964). Ironclad is dropped: it is the mid-19th-century term for armoured warships (La Gloire 1859, Monitor 1862), and covering siege engines with hides and boards was universal."
 relevance = "The Hanse dominated the trade of northern Europe for three centuries and is one of the best-known German institutions of the Middle Ages."
 
@@ -162,7 +162,7 @@ effect = "Barracks work +100% faster"
 level = 1
 change = "new"
 replaces = "Crenellations (Castles +3 range, garrisoned Infantry fires arrows)"
-precedent = "Perfusion (Barracks work +100% faster) (Goths): an existing unique tech, shared and renamed with an identical effect, at the Castle in the Imperial Age as in the game; the Goths’ draft drops Perfusion"
+precedent = "Perfusion (Barracks work +100% faster) (Goths): an existing unique tech, shared and renamed with an identical effect, at the Castle in the Imperial Age as in the game; the Goths’ design drops Perfusion"
 basis = "From about 1486–87 Maximilian I, King of the Romans, raised German foot on the Swiss model, the Landsknechte: pikemen with halberdiers and two-handed swordsmen (the double-pay Doppelsöldner) and, more and more, handgunners. Colonels and captains recruited them under contract, mustered them, swore them to articles of war and paid them by the month, so that a prince with money could raise thousands of foot within weeks; within a few years they fought for Maximilian in the Low Countries, in Hungary (1490) and in Italy, and other princes hired them too (Baumann 1994). Barracks that work twice as fast abstract this contract recruitment. It takes the Castle slot of Crenellations (see [[dropped]])."
 relevance = "The Landsknechte were the German answer to the Swiss pike and became the most widely hired infantry of Europe; they are among the best-known German soldiers of any age."
 
@@ -188,7 +188,7 @@ remove = ["Siege Onager", "Siphons"]
 "Treadmill Crane" = "The medieval treadwheel crane is almost a German emblem: the crane of Cologne cathedral stood on the unfinished south tower from the 15th century until 1868, and the Krantor of Danzig (1442–44) was built under the Order."
 "Gold Shaft Mining" = "Germany was the mining heart of medieval Europe (Rammelsberg, Freiberg, the Harz and the Erzgebirge, Schwaz in Tyrol) (Bartlett 1993); lacking the late mining upgrade contradicted that."
 "Dry Dock" = "Hanseatic fleets dominated the Baltic and the North Sea, defeated Denmark (1367–70) and carried the Order to Gotland (1398) (Dollinger 1964); a weak navy contradicted this."
-"Siege Onager" = "Removed to offset the additions. There is no specific German basis for the top tier of the stone-thrower line (held by only 15 civs); the Germans keep the Onager, Capped Ram, Trebuchet and Bombard Cannon."
+"Siege Onager" = "Removed to offset the additions. There is no specific German basis for the top tier of the stone-thrower line (held by only 15 of the game’s 56 civs); the Germans keep the Onager, Capped Ram, Trebuchet and Bombard Cannon."
 "Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 
 [[rename]]
@@ -205,7 +205,7 @@ basis = "The Central European set is the one modelled on the German lands: Roman
 [[dropped]]
 item = "Murder Holes, Herbal Medicine free"
 kind = "bonus"
-reason = "Fails the relevance test (RULES 6.9): both techniques were common to all of Latin Europe, and the first draft already called the bonus flavour rather than a distinctive trait. Monastic medicine (Hildegard of Bingen) is carried by the Monks’ healing bonus. Its slot goes to the Teutonic Knights’ conversion resistance."
+reason = "Fails the relevance test (RULES 6.9): both techniques were common to all of Latin Europe, so the bonus is flavour rather than a distinctive trait. Monastic medicine (Hildegard of Bingen) is carried by the Monks’ healing bonus. Its slot goes to the Teutonic Knights’ conversion resistance."
 
 [[dropped]]
 item = "Crenellations (Castles +3 range, garrisoned Infantry fires arrows)"

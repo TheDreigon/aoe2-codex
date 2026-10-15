@@ -29,7 +29,7 @@ open_questions = [
   "Plate Mail Armor (for Matthias’ armoured infantry), Arrowslits, Architecture and Bombard Tower (for the post-1241 castles and the végvár line) are still missing; they are held back for the power budget, and Black Army’s +2 pierce armour partly stands in for Plate Mail Armor. Add any of them?",
   "Monastery: Atonement, Redemption and Faith are missing from the kingdom of the ‘holy kings’ (Stephen and Emeric canonised in 1083, Ladislaus in 1192; St Elizabeth and St Margaret; Pannonhalma, 996; the Pauline order founded in Hungary). Add Faith at least?",
   "Codex-wide question CQ5 (see codex/civs/README.md): Architecture (historical fit applied: the Magyars move to the Central European set, so neighbours now look alike).",
-  "Regional sameness: four of the five civs of the region now have a mining economy element (Bohemian silver, Polish salt, Hungarian gold, the German miners’ team bonus). Each is historically justified, but the economic identities converge. Accept, or vary one (e.g. Magyar gold mines that last longer instead of faster miners)?",
+  "Regional sameness: four of the five Central European civs (all but the Lithuanians) now have a mining economy element (Bohemian silver, Polish salt, Hungarian gold, the German miners’ team bonus). Each is historically justified, but the economic identities converge. Accept, or vary one (e.g. Magyar gold mines that last longer instead of faster miners)?",
 ]
 
 [profile]
@@ -106,7 +106,7 @@ kind = "other"
 level = 1
 change = "new"
 replaces = "Melee attack upgrades free"
-precedent = "Fortifications built +50% faster; Town Centers built +100% faster (Sicilians), fortification part only; the Saxons’ draft narrows it to Walls and Gates"
+precedent = "Fortifications built +50% faster; Town Centers built +100% faster (Sicilians), fortification part only; the Saxons’ design narrows it to Walls and Gates"
 basis = "After the Mongol invasion of 1241–42 Béla IV pressed nobles, prelates and towns to build stone castles, and dozens rose within a generation (Fügedi 1986); in the 15th century the kingdom held a belt of frontier fortresses against the Ottomans (Belgrade, held in 1456; Jajce, taken in 1463; Šabac, taken in 1476) (Pálosfalvi 2018). The free melee upgrades it replaces rested only on a weak link to the Conquest-era sabre."
 relevance = "The castle-building after 1241 reshaped the kingdom’s power structure, and the frontier fortresses held the Ottomans back for decades, from Belgrade (1456) to its fall in 1521."
 contested = "How far 1241 caused the castle-building wave is debated."
@@ -115,7 +115,7 @@ contested = "How far 1241 caused the castle-building wave is debated."
 text = "Mounted Archers train +25% faster"
 level = 1
 change = "kept"
-precedent = "Mounted Archers train +25% faster (Magyars team bonus); the Turks’ and Tatars’ designs now use it too. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)"
+precedent = "Mounted Archers train +25% faster (Magyars team bonus); the Turks’ and Tatars’ designs now use it too. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner, codex-wide question CQ11)"
 basis = "Hungarian horse archers often fought as allies and auxiliaries of their neighbours: for Arnulf of Carinthia against Moravia (892, Annales Fuldenses) and for Byzantium against Bulgaria (894–895, De Administrando Imperio); in 1278 Ladislaus IV’s army, with the Cuman horse archers settled in Hungary as royal auxiliaries since 1239–46, fought beside Rudolf of Habsburg at the Marchfeld (Engel 2001). RULES 6.2: alliances and auxiliaries."
 relevance = "Mounted archery defined the Magyars from the Conquest to the Cuman auxiliaries of the 13th century, and it was what their allies sought from them."
 
@@ -136,7 +136,7 @@ age = "Feudal"
 effect = "Town Centers cost -50% stone"
 level = 2
 change = "new"
-precedent = "Town Centers cost -50% stone (Bulgarians); the Goths’ draft takes it as a passive and the Bulgarians’ draft drops it"
+precedent = "Town Centers cost -50% stone (Bulgarians); the Goths’ design takes it as a passive and the Bulgarians’ design drops it"
 basis = "Stephen I (997–1038, crowned 1000/1001) organised the new Christian kingdom into counties (Latin comitatus, later Hungarian vármegye), each run from a royal castle by an ispán (comes) with its castle folk; until the mid-13th century these castles were earth-and-timber ramparts rather than stone (Engel 2001; Fügedi 1986). Cheaper Town Centers stand for the spread of these stone-less royal centres across the Carpathian Basin. A new tech (level 2): no existing unique tech fits a state founding."
 relevance = "The county system founded with the Christian kingdom was the frame of Hungarian government for nine centuries."
 contested = "How many counties Stephen founded, and how far the system developed later in the 11th century, is debated (Engel 2001; Kristó 1988)."
@@ -162,7 +162,7 @@ remove = []
 [tree.basis]
 "Hand Cannoneer" = "Owner’s decision. Matthias’ army is traditionally credited with an unusually high share of handgunners (often given as one in four infantrymen, a figure of unclear origin), Czech mercenaries had brought Hussite firearms to Hungary since the 1440s, and Hunyadi’s wagon forts used guns; a kingdom without hand firearms was the most serious gap in the regional trees."
 "Bombard Cannon" = "Matthias kept a large artillery train and won by siege at Jajce (1463), Šabac (1476), Vienna (1485) and Wiener Neustadt (1487) (Engel 2001); the Magyars had no gunpowder siege weapon at all."
-"Keep" = "After 1241 stone castles multiplied across the kingdom, and in the 15th century it maintained a line of frontier fortresses (Fügedi 1986; Pálosfalvi 2018); the Keep (held by 37 civs) was missing from one of the most castle-rich kingdoms of the frontier."
+"Keep" = "After 1241 stone castles multiplied across the kingdom, and in the 15th century it maintained a line of frontier fortresses (Fügedi 1986; Pálosfalvi 2018); the Keep (held by 37 of the game’s 56 civs) was missing from one of the most castle-rich kingdoms of the frontier."
 "Fortified Wall" = "Same basis: the castle and town walls of the post-1241 kingdom and the great frontier fortresses such as Belgrade (Nándorfehérvár), which withstood Mehmed II in 1456."
 
 [architecture]
