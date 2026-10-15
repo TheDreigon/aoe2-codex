@@ -26,7 +26,9 @@ open [localhost:8000](http://localhost:8000) in any browser:
 
 ## Authors
 
-[TheDreigon](https://github.com/TheDreigon) - aoe2-codex (historical rework)
+[TheDreigon](https://github.com/TheDreigon) - aoe2-codex (historical rework): creator and project owner. Started the project and keeps driving it with its ideas and direction; rules, design decisions and review.
+
+Claude (Anthropic's AI assistant) - research, design drafts, reviews and tooling, under the owner's direction. The historical content is AI-assisted and was checked by adversarial reviews, but it may still contain errors: corrections with sources are welcome.
 
 ### aoe2techtree
 
