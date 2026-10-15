@@ -20,6 +20,8 @@ contested = [
   "The causes of Aksum's decline: environmental (Butzer) or the loss of the Red Sea trade.",
   "The historical value of the Kebra Nagast (14th century) as Solomonic legitimation.",
   "When Debre Asbo was renamed Debre Libanos under Zara Yaqob (1434 or 1445 in different accounts).",
+  "No crossbow is attested in Ethiopia: the Crossbowman and Arbalester stay only as the generic bow upgrades of the regional archer rule, pending the N2 bow/crossbow split.",
+  "Ethiopian use of firearms before 1543: a handful of guns under Lebna Dengel; the musket spread only under Galawdewos and Sarsa Dengel.",
 ]
 open_questions = [
   "Mule Cart: added alongside the Lumber and Mining Camps (as in the Tatars' and Portuguese drafts), not replacing them as for Armenians and Georgians. Keep it alongside, replace the camps, or drop it? The owner may want one Mule Cart policy for all civs.",
@@ -150,7 +152,7 @@ add = ["Hand Cannoneer", "Mule Cart"]
 remove = ["Bombard Cannon", "Siege Onager", "Cannon Galleon", "Camel Rider", "Heavy Camel Rider", "Cavalry Archer", "Heavy Cavalry Archer"]
 
 [tree.basis]
-"Hand Cannoneer" = "The great firearms episode of Ethiopian history is the war of 1529–1543: Adal received Arab and Ottoman musketeers from Zabid (1542), Cristóvão da Gama landed with c. 400 Portuguese musketeers (1541; Castanhoso, 1564), and after Wayna Daga (1543) the Ethiopians took up the musket. The tree had it the other way round (Bombard Cannon without Hand Cannoneer)."
+"Hand Cannoneer" = "The great firearms episode of Ethiopian history is the war of 1529–1543: Adal received Arab and Ottoman musketeers from Zabid (1542), Cristóvão da Gama landed with c. 400 Portuguese musketeers (1541; Castanhoso, 1564), and after Wayna Daga (1543) the Ethiopians took up the musket. The tree had it the other way round (Bombard Cannon without Hand Cannoneer). Contested: Ethiopian musketeers proper appear only after 1543; before that the kingdom had a handful of guns and Portuguese allies, so the unit stands at the very edge of the window (see open questions)."
 "Mule Cart" = "See the Mule Cart bonus: it stands beside the Lumber and Mining Camps instead of replacing them; the cart model stands in for pack mules."
 "Bombard Cannon" = "There were no Ethiopian siege guns before 1543: the highland kingdom took places by blockade and assault, and it was Adal that used a cannon (from 1531, according to Arab Faqih)."
 "Siege Onager" = "The top torsion tier is dropped (the tech tree audit rates it unfounded); the rest of the generic siege line stays as an abstraction of assault and blockade, since mountain warfare turned on ambas and blockades (see open questions)."
