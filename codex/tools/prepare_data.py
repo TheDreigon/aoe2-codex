@@ -1,16 +1,16 @@
-"""Prepara os ficheiros de trabalho a partir dos dados do jogo no repositório.
+"""Prepare local working files from the game data in this repository.
 
-Uso (a partir da raiz do repo):
-    python -I codex/ferramentas/preparar_dados.py [--historia]
+Usage (from the repository root):
+    python -I codex/tools/prepare_data.py [--history]
 
-Escreve em codex/.local/dados/ (pasta ignorada pelo git):
-  - civ_bonuses.md   texto de bónus de cada civ
-  - civ_trees.md     lacunas de cada civ face à maioria e itens raros
-  - all_items.md     todas as unidades, techs e edifícios, com descrição e civs que os têm
-  - grupos/<regiao>.md  um ficheiro por região (regioes.json) juntando tudo, mais o texto de
-                        história original quando existir em codex/.local/historia-original/
-Com --historia, descarrega primeiro os textos de história do jogo (wiki do fandom) para
-codex/.local/historia-original/. Esses textos são da Microsoft: ficam só localmente.
+Writes to codex/.local/data/ (ignored by git):
+  - civ_bonuses.md      the bonus text of every civ
+  - civ_trees.md        each civ's gaps compared with the majority of civs, plus its rare items
+  - all_items.md        every unit, tech and building, with its description and the civs that have it
+  - regions/<region>.md one file per region (regions.json) combining all of the above, plus the
+                        original history text when it exists in codex/.local/original-history/
+With --history, first downloads the game's history texts (from the fandom wiki) into
+codex/.local/original-history/. Those texts belong to Microsoft: they stay local only.
 """
 import json
 import re
@@ -23,10 +23,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 TOOLS = Path(__file__).resolve().parent
-OUT = ROOT / 'codex' / '.local' / 'dados'
-HIST = ROOT / 'codex' / '.local' / 'historia-original'
+OUT = ROOT / 'codex' / '.local' / 'data'
+HIST = ROOT / 'codex' / '.local' / 'original-history'
 
-# Nome da página da wiki para cada civ (secção "History").
+# Wiki page holding each civ's "History" section.
 WIKI_PAGES = {
     'Armenians': 'Armenians', 'Aztecs': 'Aztecs (Age of Empires II)', 'Bengalis': 'Bengalis',
     'Berbers': 'Berbers (Age of Empires II)', 'Bohemians': 'Bohemians', 'Britons': 'Britons',
@@ -64,7 +64,7 @@ def fetch_history():
         try:
             w = json.load(urllib.request.urlopen(req, timeout=30))['parse']['wikitext']['*']
         except Exception as exc:  # noqa: BLE001 - report and continue with the other civs
-            print(civ, 'ERRO', exc)
+            print(civ, 'ERROR', exc)
             continue
         m = re.search(r'(?ms)^==\s*History\s*==\s*\n(.*?)(?=^==[^=])', w)
         h = m.group(1) if m else ''
@@ -73,14 +73,14 @@ def fetch_history():
         h = re.sub(r"'''?", '', h)
         h = re.sub(r'</?(?:section|onlyinclude|noinclude)[^>]*>', '', h)
         (HIST / f'{civ}.md').write_text(
-            f'# {civ} — texto de história do jogo (ageofempires.fandom.com, página "{page}")\n\n' + h.strip() + '\n',
+            f'# {civ}: original in-game history text (ageofempires.fandom.com, page "{page}")\n\n' + h.strip() + '\n',
             encoding='utf-8')
         print(civ, len(h))
         time.sleep(0.3)
 
 
 def main():
-    if '--historia' in sys.argv:
+    if '--history' in sys.argv:
         fetch_history()
     d = json.loads((ROOT / 'data' / 'data.json').read_text(encoding='utf-8'))
     s = json.loads((ROOT / 'data' / 'locales' / 'en' / 'strings.json').read_text(encoding='utf-8'))
@@ -110,8 +110,8 @@ def main():
             have = set(c[k])
             common = [i for i, v in cnt[k].items() if v >= n * 0.5]
             miss = sorted({name_help(k, i)[0] for i in common if i not in have})
-            lines.append(f'- {k} MISSING (que >=50% das civs têm): ' + (', '.join(miss) or 'nenhum'))
-        lines.append('- Itens raros/únicos (<=3 civs):')
+            lines.append(f'- {k} MISSING (held by >=50% of civs): ' + (', '.join(miss) or 'none'))
+        lines.append('- Rare/unique items (held by <=3 civs):')
         for k in ['Unit', 'Tech', 'Building']:
             for i in sorted(set(c[k])):
                 if cnt[k][i] <= 3:
@@ -122,7 +122,7 @@ def main():
     (OUT / 'civ_trees.md').write_text(
         '\n\n'.join(f'## {name}\n' + gaps(name) for name in civs), encoding='utf-8')
 
-    items = ['# Todas as unidades/techs/edifícios, com descrição e quantas das civs os têm']
+    items = ['# All units, techs and buildings, with description and how many civs have each']
     for k in ['Unit', 'Tech', 'Building']:
         items.append(f'\n## {k}')
         for i, v in sorted(cnt[k].items(), key=lambda x: -x[1]):
@@ -131,16 +131,16 @@ def main():
             items.append(f'- {nm} [{v}/{n}]{holders}: ' + h.replace('\n', ' ')[:400])
     (OUT / 'all_items.md').write_text('\n'.join(items), encoding='utf-8')
 
-    regioes = json.loads((TOOLS / 'regioes.json').read_text(encoding='utf-8'))
-    (OUT / 'grupos').mkdir(exist_ok=True)
-    for g, cl in regioes.items():
+    regions = json.loads((TOOLS / 'regions.json').read_text(encoding='utf-8'))
+    (OUT / 'regions').mkdir(exist_ok=True)
+    for g, cl in regions.items():
         blocks = []
         for name in cl:
             hist_file = HIST / f'{name}.md'
-            hist = hist_file.read_text(encoding='utf-8') if hist_file.exists() else '(texto de história não descarregado: correr com --historia)'
-            blocks.append(f'## {name}\n### Texto de bónus\n' + clean(s.get(str(civs[name]['help_string_id']), ''))
-                          + '\n### Tech tree\n' + gaps(name) + '\n### Texto de história original\n' + hist)
-        (OUT / 'grupos' / f'{g}.md').write_text(f'# Região: {g}\n\n' + '\n\n'.join(blocks), encoding='utf-8')
+            hist = hist_file.read_text(encoding='utf-8') if hist_file.exists() else '(history text not downloaded: run with --history)'
+            blocks.append(f'## {name}\n### Bonus text\n' + clean(s.get(str(civs[name]['help_string_id']), ''))
+                          + '\n### Tech tree\n' + gaps(name) + '\n### Original history text\n' + hist)
+        (OUT / 'regions' / f'{g}.md').write_text(f'# Region: {g}\n\n' + '\n\n'.join(blocks), encoding='utf-8')
     print('ok:', OUT)
 
 
