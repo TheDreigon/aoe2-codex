@@ -148,7 +148,7 @@ remove = ["Siege Onager", "Catapult Galleon", "Thumb Ring"]
 "Cannon Galleon" = "Gribshunden carried guns (1495), an early case of shipboard artillery in northern waters."
 "Siege Onager" = "Dropped with the invented ‘Siege’ identity of the game's Danes (Northmen's Fury, the siege discount), whose top tier it was; the Mangonel, Onager and Trebuchet stay as the generic siege line of a medieval kingdom."
 "Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role. The fire-ship line, Fast Fire Ship included, is kept: Abbo of Saint-Germain describes the Danes sending burning ships against the bridge of Paris (885)."
-"Thumb Ring" = "No thumb draw is attested: the civ's archers used the European draw and its missile troops the crossbow; the Gurjaras', Tamils' and Saxons' designs, among others, remove the tech on the same ground."
+"Thumb Ring" = "Danish archers used the European draw and the missile troops of the later kingdom were crossbowmen, so the tech is removed: the Thumb Ring goes only where the thumb draw is attested for a civ's own archers or for an archery tradition its armies demonstrably used (the steppe, Islamic and East Asian traditions). The Saxons' design, among others, removes it on the same ground."
 
 [[rename]]
 from = "Krepost"

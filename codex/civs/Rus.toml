@@ -25,9 +25,9 @@ contested = [
   "Whether the pishchali that the Muscovites fired on the Ugra (1480) included hand-held guns: the word then also covered light cannon.",
 ]
 open_questions = [
-  "Power budget: the Rus' gain land gunpowder, the Bombard Tower, Architecture, the Arbalester, Thumb Ring, Bracer, the horse-archer discount and the Knight-line pierce armour, with Poliud'e, the Baptism of Rus' and Pomest'e as new unique techs beside Detinets (4 passives + 4 techs = 8, within the proposed cap of 9), and lose Arson, Gambesons, the siege discount, Druzhina, the Siege Onager, the Hussar, Block Printing and the Cannon Galleon, their only siege warship. Poliud'e and Pomest'e keep the Imperial Age of the game's Paper Money and Aznauri Cavalry, so both Town Center techs come in the Imperial Age and the Castle Age has only Detinets and the Baptism of Rus'. Acceptable?",
+  "Power budget: the Rus' gain land gunpowder, the Bombard Tower, Architecture, the Arbalester, Thumb Ring, Bracer, the horse-archer discount and the Knight-line pierce armour, with Poliud'e, the Baptism of Rus' and Pomest'e as new unique techs beside Detinets (4 passives + 4 techs = 8, within the proposed cap of 9), and lose Arson, Gambesons, the siege discount, Druzhina, the Siege Onager, the Hussar, Block Printing, the Galleon and Carrack, and the Cannon Galleon, their only siege warship. Poliud'e and Pomest'e keep the Imperial Age of the game's Paper Money and Aznauri Cavalry, so both Town Center techs come in the Imperial Age and the Castle Age has only Detinets and the Baptism of Rus'. Acceptable?",
   "Boyar: the Rus' unit is shared with the Lithuanians' Boyar and is the model of the Germans' mounted Teutonic Knight, so three civs field the same heavy cavalry (see the Lithuanians' question). From the Rus' side the Lithuanian sharing is historical (the Ruthenian boyars of the Grand Duchy), and the Rus' heavy cavalry stays distinct through the Knight-line armour bonus and Pomest'e. Accept?",
-  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule.",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (the Rus' fleets were river-sea boats, so under the default rule the Galleon, Carrack and Cannon Galleon leave, the generic lines stay with the Fast Fire Ship, and no substitute siege warship is given).",
   "Codex-wide question CQ10 (see codex/civs/README.md): Ages of reused effects.",
   "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking.",
   "Codex-wide question CQ19 (see codex/civs/README.md): Labels.",
@@ -164,16 +164,18 @@ contested = "Its models are debated (see the civ-level notes)."
 
 [tree]
 add = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Thumb Ring", "Bracer", "Architecture", "Arbalester"]
-remove = ["Cannon Galleon", "Hussar", "Siege Onager", "Block Printing"]
+remove = ["Galleon", "Carrack", "Cannon Galleon", "Hussar", "Siege Onager", "Block Printing"]
 
 [tree.basis]
 "Hand Cannoneer" = "The chronicles say that on the Ugra (1480) the Muscovites drove back the Tatars with arrows and pishchali, a word that then covered light guns as well as hand-held ones; firearms had been in Rus' use since 1382 and spread through the 15th century (Kirpichnikov, Voennoe delo na Rusi v XIII–XV vv., 1976). The unit stands for the gunpowder infantry of the late window. If hand guns are unambiguous only after 1500, it is the civ's one late element under RULES section 2, which it meets: it is an Imperial Age unit, and Muscovy's musketeers, the later streltsy, give it fame."
 "Bombard Cannon" = "Ivan III brought Italian engineers who also cast and served guns, Aristotele Fioravanti (in Moscow from 1475) among them, and a cannon house in Moscow is first documented in 1488."
 "Bombard Tower" = "In 1382 the defenders of Moscow fired tyufyaki and pushki from the Kremlin walls against Tokhtamysh, the first firearms in Rus' hands that the chronicles name (see contested)."
-"Thumb Ring" = "Rus' archery followed steppe models (see the horse-archer bonus); the exact draw is not documented, so the tech stands for steppe archery in general."
+"Thumb Ring" = "Given for the steppe archery tradition that Rus' armies demonstrably used; the draw of the Rus' archers themselves is not documented. Rus' bows and quivers followed steppe models; the Black Hoods, Turkic nomads settled on the Ros, served Kiev as frontier troops; and the Muscovite cavalry fought in the Tatar manner with bow and sabre (see the horse-archer bonus)."
 "Bracer" = "A generic archery upgrade held by most civs; its absence left the Rus' Cavalry Archers, a well-attested troop type, without the last range upgrade."
 "Architecture" = "Stone and brick building of the later window: the white-stone churches of Vladimir-Suzdal (12th century) and the brick Kremlin of Moscow (1485–1495), built by Italian architects."
 "Arbalester" = "Crossbows (samostrely) were secondary to the bow in field armies but a regular weapon in the defence of Rus' towns: crossbow bolts are common in 13th–14th-century finds (Medvedev 1966), and in the tale of Tokhtamysh's siege of Moscow (1382) the defenders shot crossbows from the walls, where the clothier Adam killed the son of a Horde prince with a crossbow bolt from the Frolov gate. The top tier suits a civ labelled defensive."
+"Galleon" = "Rus' fleets were fleets of boats, not of ships, from the river-sea boats that crossed the Black Sea against Constantinople (see Cannon Galleon) to the ushkui of the Novgorodian river raiders in the 14th century. Under the codex navy rule for boat and canoe fleets (codex-wide question CQ1), the high-seas sailing warships (Galleon, Carrack) are removed, while the Galley, Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction for water maps; the ‘Galleon, Fast Fire Ship and Carrack’ upgrade stays for the Fast Fire Ship."
+"Carrack" = "See Galleon."
 "Cannon Galleon" = "The Rus' had no purpose-built warships and no gun-armed ships: their fleets were river-sea boats (monoxyla, lod'i), which nonetheless crossed the Black Sea against Constantinople in 860, 941 and 1043."
 "Hussar" = "Hungarian and Serbian light cavalry of the 15th century; Rus' light horsemen fought as mounted archers in the steppe manner, rendered by the Cavalry Archer, and Light Cavalry stays."
 "Siege Onager" = "Dropped with the original ‘Infantry and Siege’ identity and its siege discount, whose top tier it was; the Mangonel, Onager and Trebuchet stay as the generic siege line, and Muscovy's late siege power is represented by the Bombard Cannon."
