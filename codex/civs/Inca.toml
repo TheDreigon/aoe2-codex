@@ -1,0 +1,213 @@
+civ = "Incas"
+name = "Inca"
+status = "draft"
+label = "Infantry and Defensive civilization"
+summary = "The Tawantinsuyu (c. 1400–1533): storehouse logistics, the mit'a, slings, textile armour and llamas stay; the road network replaces the unfounded population bonus, stronger fortifications replace the stone discount, fire-slinging is added, the Kamayuk becomes the Awqa Kamayuq, and siege engines, crossbows, the Imperial iron tiers, Thumb Ring, Guilds, printing and European ships give way to Architecture and the agreed Andean names (Chakitaqlla, Khipu, Llama Caravans)."
+ideas = [
+  "N2: Qhapaq Ñan and chaski as a unique tech: faster movement for units and Trade Units, Outposts built instantly with extra line of sight (the tampu and chaski posts), cheaper Spies.",
+  "N3: Replace the Market with a qullqa (state storehouse) that redistributes rather than buys and sells, with income from mit'a labour.",
+  "N3: Llamas as pack animals: a mobile dropsite like the Mule Cart (the owner's N3 idea of other pack animals).",
+  "N3: Balsa sailing rafts (the raft with cotton sails intercepted by Bartolomé Ruiz off Ecuador c. 1526) replacing the Galley-line and Trade Cog.",
+  "N3: Captured huacas: enemy cult objects taken to Cusco as hostages, instead of conversion.",
+  "N2: Incendiary sling stones as a burning (damage-over-time) effect on buildings, beyond the flat bonus used here; boleadoras (liwi) slowing cavalry, as in Manco Inca's rebellion.",
+]
+contested = [
+  "Chronology of the expansion: 1438 (Rowe, after Cabello Valboa) or earlier radiocarbon dates (Ogburn 2012; Marsh et al. 2017).",
+  "The historicity of the Chanka war and of Pachacuti as sole reformer, largely dynastic propaganda.",
+  "Dual rulership (Zuidema, Duviols) or a single line of succession.",
+  "The nature of the state: Baudin's 'socialist empire' (1928, discredited) or reciprocity and redistribution (Murra).",
+  "Khipu as writing or as numerical records only (Urton; Hyland).",
+  "How far the Inca standardised tin bronze: it replaced arsenical bronze in the Mantaro Valley after the conquest, but local alloys continued elsewhere (studies in north-west Argentina).",
+  "The cause and date of Huayna Capac's death (c. 1524–1528) and the date of Atahualpa's execution (26 July or 29 August 1533).",
+]
+open_questions = [
+  "Rename the civ 'Tawantinsuyu'? 'Inca' was the title of the ruler and the ruling lineage, and the state included dozens of peoples (Chimú, Cañari, Chanka, Wanka, Aymara lordships).",
+  "Wheelbarrow and Coinage keep their generic names: Andean loads were carried in cloth bundles and by llamas, and there was no money. Rename, keep or remove? Coinage cannot be removed without losing Banking (here Khipu), which requires it.",
+  "Blast Furnace is removed. The tech-tree theme suggests renaming it after the huayrachina wind furnace instead, but that furnace smelted silver, not weapon metal, and its pre-Hispanic use is debated. Confirm the removal?",
+  "The fire-slinging bonus rests on the siege of Cusco (1536), after the conquest, as RULES section 10 already suggests. Accept this post-1533 episode as basis?",
+  "Guilds is removed: Andean exchange happened in local fairs (qhatu) and Rostworowski argues for coastal merchants at Chincha, but there was no merchant class like the pochteca. Accept?",
+  "The architecture set is given as South American; the repository data does not record the current assignment, so whether this is a change (if the Inca still use the Central American set) could not be checked.",
+]
+
+[profile]
+entity = "Tawantinsuyu, the state ruled by the Inca lineage of Cusco"
+region = "The Andes from southern Colombia to the Maule River (Peru, Ecuador, Bolivia, northern Chile and north-west Argentina)"
+window = "c. 1400–1533 (kingdom of Cusco from c. 1200; Vilcabamba until 1572)"
+sources = [
+  "Juan de Betanzos, Suma y narración de los Incas (1551)",
+  "Pedro Cieza de León, Crónica del Perú (1553)",
+  "Pedro Sarmiento de Gamboa, Historia de los Incas (1572)",
+  "Pedro Pizarro, Relación del descubrimiento y conquista del Perú (1571)",
+  "Felipe Guaman Poma de Ayala, Nueva corónica y buen gobierno (c. 1615)",
+  "Bernabé Cobo, Historia del Nuevo Mundo (1653)",
+  "John V. Murra, The Economic Organization of the Inka State (1956/1980)",
+  "John Hyslop, The Inka Road System (1984)",
+  "Terence N. D'Altroy, The Incas (2nd ed., 2014)",
+  "John Hemming, The Conquest of the Incas (1970)",
+  "R. A. Donkin, Agricultural Terracing in the Aboriginal New World (1979)",
+  "Gary Urton, Signs of the Inka Khipu (2003)",
+]
+
+[[bonus]]
+text = "Military Units cost -15/20/25/30% food in Dark/Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Military Units cost -15/20/25/30% food in Dark/Feudal/Castle/Imperial Age (Incas)"
+basis = "The state stored food, cloth and weapons in thousands of storehouses (qullqa) along the roads, such as the hundreds of storehouses above Huánuco Pampa studied by Craig Morris, and fed its armies from them on the march; freeze-dried potatoes (chuño) and dried meat (ch'arki) kept for years (Murra 1980; D'Altroy 2014)."
+
+[[bonus]]
+text = "Villagers affected by Infantry Blacksmith upgrades starting in Castle Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Villagers affected by Infantry Blacksmith upgrades starting in Castle Age (Incas)"
+basis = "Military service was a form of mit'a: adult tributary men (hatun runa) served as soldiers in rotating turns and went back to their fields (Murra 1980; D'Altroy 2014)."
+
+[[bonus]]
+text = "Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Houses and Settlements provide +5 population space"
+precedent = "Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age (Berbers)"
+basis = "The Qhapaq Ñan, tens of thousands of kilometres of roads with stairways, suspension bridges and waystations (tampu) about a day's walk apart, moved mit'a labourers, porters, llama caravans and chaski runners across the empire (Hyslop 1984; Cieza de León). The population bonus it replaces had no clear historical link (rated stretched)."
+
+[[bonus]]
+text = "Fortifications +20% HP"
+kind = "military"
+level = 1
+change = "changed"
+replaces = "Buildings cost -15% stone"
+precedent = "Great Wall (Chinese): Walls, Watch Tower-line and Bombard Towers +30% HP; Buildings +10/20/30/40% HP in Dark/Feudal/Castle/Imperial Age (Byzantines)"
+basis = "Inca stonework was expensive in labour, not cheap in stone: fitted ashlar raised by mit'a workers at Sacsayhuamán, Ollantaytambo and the frontier forts (pukara), whose Inca walls in Cusco withstood the earthquakes of 1650 and 1950 that brought down colonial buildings. As the analysis notes, durability represents this better than a stone discount."
+
+[[bonus]]
+text = "Slingers +2 attack vs. buildings"
+kind = "military"
+level = 1
+change = "new"
+precedent = "Foot Archers and Skirmishers +2 attack vs. buildings (Saracens team bonus)"
+basis = "During Manco Inca's siege of Cusco (1536) the besiegers heated sling stones in their fires, wrapped them in cotton and shot them onto the thatched roofs, and most of the city burned in a day (Pedro Pizarro; Hemming 1970). Andean forts were otherwise taken by assault and blockade. With Petards and the Champi line this bonus replaces the removed siege engines (RULES section 10, which names this very substitute)."
+contested = "The episode is post-conquest (1536); earlier use of incendiary slings is not documented."
+
+[team_bonus]
+text = "Start with a free Llama"
+level = 1
+change = "kept"
+precedent = "Start with a free Llama (Incas team bonus)"
+basis = "Llamas, the only large pack animals of the Americas, carried weapons and supplies for Inca armies and storehouses (D'Altroy 2014); ethnographic caravan studies put a sustainable load at about 25–30 kg per animal. In the game they are only food livestock, an abstraction of the Andean herds."
+
+[[unique_unit]]
+name = "Awqa Kamayuq"
+model = "Kamayuk"
+building = "Castle"
+level = 1
+change = "changed"
+replaces = "Kamayuk"
+basis = "Long-shafted spears belonged to the Inca arsenal, and the Spaniards met long lances in battle. The unit keeps its stats but not its truncated name: kamayuq means 'specialist' or 'person in charge' (as in khipukamayuq), while Guaman Poma calls the age grade of adult warriors auca camayoc (awqa kamayuq, 'warrior')."
+
+[[unique_tech]]
+name = "Andean Sling"
+age = "Castle"
+effect = "Skirmishers and Slingers no minimum range; Slingers +1 attack"
+level = 1
+change = "kept"
+precedent = "Andean Sling (Incas)"
+basis = "The sling (warak'a) was the main Andean missile weapon, preferred to the bow in the highlands, and conquest accounts stress that sling stones could badly hurt men and horses. Removing the minimum range abstracts a weapon that could be used at any distance."
+
+[[unique_tech]]
+name = "Fabric Shields"
+age = "Imperial"
+effect = "Awqa Kamayuqs, Slingers and Champi Warriors +1 melee/+1 pierce armor"
+level = 1
+change = "kept"
+precedent = "Fabric Shields (Incas)"
+basis = "Andean shields were of wood or cane, sometimes faced with hide or cloth, and officers wore quilted cotton tunics; fine cloth (qumpi) was the most valuable political good of the state (Murra 1980). With Plate Mail Armor removed this is the Inca late armour. In-game text: ‘Kamayuks, Slingers and Champi Warriors +1 melee/+1 pierce armor’; only the unit name changes."
+
+[tree]
+add = ["Architecture"]
+remove = [
+  "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
+  "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
+  "Crossbowman", "Arbalester", "Thumb Ring",
+  "Blast Furnace", "Plate Mail Armor", "Ring Archer Armor",
+  "Halberdier",
+  "Galleon", "Carrack", "Catapult Galleon",
+  "Block Printing", "Guilds",
+]
+
+[tree.basis]
+"Architecture" = "The Inca were master builders in fitted stone (Sacsayhuamán, Qurikancha, Ollantaytambo), yet the civ had Masonry and Keep but not Architecture."
+"Siege Workshop" = "Andean armies built no siege engines: forts (pukara) were taken by assault, blockade and fire. Removing the workshop removes all its units; Petards, the Champi line, Arson and the fire-slinging bonus replace them (owner's decision, brief section 6; RULES section 10)."
+"Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles in the Andes."
+"Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
+"Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."
+"Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."
+"Onager" = "Removed with the Siege Workshop (see Mangonel)."
+"Scorpion" = "Removed with the Siege Workshop: no bolt-throwers existed in the Americas."
+"Heavy Scorpion" = "Removed with the Siege Workshop (see Scorpion)."
+"Siege Tower" = "Removed with the Siege Workshop: a wheeled assault tower."
+"Trebuchet" = "Counterweight artillery never existed in the Americas."
+"Siege Engineers" = "No siege engines are left to improve."
+"Crossbowman" = "The crossbow was unknown in the Americas; Inca missile troops were slingers, with bowmen from the eastern lowlands (Antisuyu). Archers and Slingers cover the role; the Spanish and Bulgarians already lack crossbows."
+"Arbalester" = "Removed with the Crossbowman (see there)."
+"Thumb Ring" = "No thumb rings or thumb draw are attested in the Americas (game-model theme)."
+"Blast Furnace" = "There was no iron: Andean metallurgy worked gold, silver, copper and bronze. The Imperial-Age iron tiers are removed (the Lithuanians already lack both Blast Furnace and Plate Mail Armor); Iron Casting is renamed Tin Bronze."
+"Plate Mail Armor" = "There was no plate armour; Inca soldiers wore quilted cotton tunics and carried shields, represented by Fabric Shields."
+"Ring Archer Armor" = "Mail rings are iron armour; removed with the other Imperial-Age iron tiers."
+"Halberdier" = "The halberd is a European polearm of the 14th–15th centuries, and the Andes knew no cavalry before 1532; the long spear is represented by the Awqa Kamayuq, and Spearman and Pikeman remain."
+"Galleon" = "Ocean-going sailing warships were unknown; Andean seafaring used balsa rafts with cotton sails and reed boats."
+"Carrack" = "High-castled sailing warships were unknown (see Galleon)."
+"Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
+"Block Printing" = "There was no printing, nor writing in the usual sense: records were kept on knotted cords (khipu). With no equivalent for the function the tech is removed (18 civs already lack it)."
+"Guilds" = "The Inca economy ran on mit'a labour, storehouses and redistribution, with local barter (qhatu) but no professional merchant class (Murra 1980); the current game gave Guilds to the Inca but not to the Aztecs, who had the pochteca."
+
+[[rename]]
+from = "Horse Collar"
+to = "Andenes"
+level = 1
+basis = "There were no draft animals. Stone-walled, often irrigated terraces (andenes, the term used in Andean scholarship) turned the mountain slopes into fields, as at Pisac, Moray and the Colca valley (Donkin 1979)."
+
+[[rename]]
+from = "Heavy Plow"
+to = "Chakitaqlla"
+level = 1
+basis = "Agreed rename. The chakitaqlla, a foot plough with a footrest, was the Andean tillage tool; Guaman Poma draws it in his agricultural calendar."
+
+[[rename]]
+from = "Hand Cart"
+to = "Llama Caravans"
+level = 1
+basis = "Agreed rename. There were no carts; llama caravans carried about 25–30 kg per animal across the Andes."
+
+[[rename]]
+from = "Banking"
+to = "Khipu"
+level = 1
+basis = "Agreed rename. Knotted-cord records kept by specialists (khipukamayuq) registered census, tribute and storehouse accounts (Urton 2003)."
+
+[[rename]]
+from = "Iron Casting"
+to = "Tin Bronze"
+level = 1
+basis = "There was no iron. In conquered regions such as the Mantaro Valley the older arsenical bronze gave way to tin bronze after the Inca conquest (Upper Mantaro Archaeological Research Project), and bronze was used for tools and the star-shaped heads of champi maces. Same effect as Iron Casting."
+contested = "How far the Inca imposed a standard alloy is debated."
+
+[[rename]]
+from = "Kamayuk"
+to = "Awqa Kamayuq"
+level = 1
+basis = "Guaman Poma's term for the age grade of adult warriors; 'kamayuk' alone means 'specialist' (see the unique unit)."
+
+[[rename]]
+from = "Elite Kamayuk"
+to = "Elite Awqa Kamayuq"
+level = 1
+basis = "Elite tier of the renamed unit."
+
+[architecture]
+set = "South American"
+level = 1
+change = "kept"
+basis = "The Andean set of the region's civs fits the Inca; whether the current game still gives them the Central American set could not be checked in the repository data (open question)."

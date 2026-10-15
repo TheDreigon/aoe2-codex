@@ -1,0 +1,207 @@
+civ = "Tupi"
+name = "Tupi"
+status = "draft"
+label = "Archer and Infantry civilization"
+summary = "The coastal Tupi peoples, above all the Tupinambá (c. 1000–1567): great bows, the ibirapema club and palisaded villages stay; the moquém, manioc, war canoes and allied canoe flotillas replace the unfounded balance bonuses and the tower team bonus, Morubixaba replaces the Taíno-named Caciques, Fire Arrows replace the Amazonian Curare, the Blackwood Archers take the place of the removed crossbows, the Champi line becomes Tacape, and slingers, towers, stone walls and siege engines are removed."
+ideas = [
+  "N3: An igara war-canoe line (bark or dugout canoes with dozens of warriors, firing arrows) replacing the Galley-line.",
+  "N2: Capture and renaming: warriors who kill or capture enemies gain lasting bonuses, as the executioner of a captive took new names and prestige (Fernandes 1952; Viveiros de Castro 1992).",
+  "N3: A caiçara (palisaded village) replacing the Castle and Watch Tower.",
+  "N3: Re-theme the Monk as the pajé and the wandering karaí prophets.",
+  "N3: A victory condition other than Wonders and Relics for stateless societies (game-model theme).",
+  "N3: Feather work (the Tupinambá feather cloaks) and cauim feasts as cultural content for the history text and site.",
+]
+contested = [
+  "The reality and meaning of anthropophagy: Arens' denial (1979) is rejected by most; readings by Fernandes, Viveiros de Castro and Fausto.",
+  "The 'Land without Evil' migrations: pre-colonial (H. Clastres) or a reaction to colonialism (Pompa; Noelli).",
+  "The chronology and routes of the Tupi-Guarani expansion to the coast (Brochado against Noelli).",
+  "The reliability and rhetorical shaping of Staden and Léry (Whitehead), including the length of Staden's captivity (about nine months in 1554, or 1552–1555).",
+  "The identity of Cunhambebe (Thevet speaks of a father and son of the same name).",
+]
+open_questions = [
+  "Time frame: almost all written evidence dates from 1550–1570, outside 500–1500. Accept a window of c. 1000–1567, with archaeology for the earlier part, as an edge case?",
+  "The Slinger is removed: slings are not characteristic of the Tupinambá in 16th-century sources. Accept?",
+  "The Castle and Watch Tower are kept for structural reasons although the Tupi built only palisades. Accept until an N3 caiçara exists?",
+  "Tupi names for the new techs (for example tatá, 'fire', for Fire Arrows) instead of English?",
+  "The fire-arrow passages behind the Fire Arrows tech could not be re-checked in the primary texts during this design; confirm or adjust the basis before review.",
+  "Wheelbarrow and Hand Cart keep their generic names. Rename (the Tupi carried loads in baskets with tumplines) or keep?",
+]
+
+[profile]
+entity = "The Tupi-speaking peoples of the Brazilian coast: Tupinambá (including the Tamoio of Rio de Janeiro and São Paulo), Tupiniquim, Temiminó, Potiguara and Caeté"
+region = "Atlantic coast of Brazil"
+window = "c. 1000–1567 (coastal Tupi before contact; written record c. 1500–1570, centred on Guanabara Bay 1555–1567)"
+sources = [
+  "Hans Staden, Warhaftige Historia (Marburg, 1557); ed. N. Whitehead & M. Harbsmeier (2008)",
+  "André Thevet, Les Singularitez de la France Antarctique (1557)",
+  "Jean de Léry, Histoire d'un voyage faict en la terre du Brésil (1578)",
+  "Gabriel Soares de Sousa, Tratado descritivo do Brasil em 1587",
+  "José de Anchieta, letters; Arte de grammatica da lingoa mais usada na costa do Brasil (1595)",
+  "Florestan Fernandes, A organização social dos Tupinambá (1949); A função social da guerra na sociedade Tupinambá (1952)",
+  "Alfred Métraux, La religion des Tupinamba (1928)",
+  "Eduardo Viveiros de Castro, From the Enemy's Point of View (1992)",
+  "Carlos Fausto, 'Fragmentos de história e cultura tupinambá' (1992)",
+  "John Hemming, Red Gold (1978)",
+]
+
+[[bonus]]
+text = "Villagers can garrison in Settlements"
+kind = "other"
+level = 1
+change = "kept"
+precedent = "Villagers can garrison in Settlements (Tupi); Villagers can garrison in Houses (Khmer)"
+basis = "Tupinambá villages (taba) of a few great communal houses (oca) were ringed by palisades, sometimes double, as the woodcuts of Staden's book (1557) show."
+
+[[bonus]]
+text = "Meat of hunted and livestock animals doesn't decay"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Start with +25 of each resource"
+precedent = "Meat of hunted and livestock animals doesn't decay (Jurchens)"
+basis = "Game and fish were smoked and dried on the moquém, a wooden grill over a slow fire, so that they kept and could be carried; Léry describes it, and through French boucan it gave the word 'buccaneer'. The starting resources it replaces were a balance device with no historical basis (rated unfounded)."
+
+[[bonus]]
+text = "Farmers work +15% faster"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Archery Range and Barracks upgrades cost -50% food"
+precedent = "Farmers work +15% faster (Slavs)"
+basis = "The Tupinambá staple was manioc, grown by women in slash-and-burn gardens and made into flours (including a dry flour that kept for months and was carried on campaigns) and into cauim beer (Léry 1578; Soares de Sousa 1587); it yields much food for little labour. The bonus it replaces had no direct basis (rated unfounded)."
+
+[[bonus]]
+text = "Warships cost -10/15/20% in Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Fallen units return 15% of their cost"
+precedent = "Warships cost -10/15/20% in Feudal/Castle/Imperial Age (Vikings)"
+basis = "War parties travelled in fleets of bark and dugout canoes (igara, ubá), each carrying dozens of warriors; Staden describes raids of many canoes, and Portuguese sources tell of a 'battle of the canoes' in Guanabara Bay (1566). The bonus it replaces had no clear link and, if it alluded to anthropophagy, inverted it: the Tupinambá ate captive enemies, not their own dead (rated unfounded)."
+
+[[bonus]]
+text = "Blackwood Archers available at the Archery Range starting in Castle Age"
+kind = "military"
+level = 1
+change = "new"
+precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus); Anarchy (Goths: Huskarls can be trained at Barracks); Marauders (Huns: Tarkans can be trained at Stables)"
+basis = "The crossbow was unknown in Brazil, so the Crossbowman and Arbalester are removed; the Tupi bowman with his great hardwood bow, the Blackwood Archers, takes their place as the Castle Age foot archer of the Archery Range (RULES 6.6)."
+
+[team_bonus]
+text = "Transport Ships +5 line of sight and cost -50%"
+level = 1
+change = "new"
+replaces = "Towers and Castles provide +10 population space"
+precedent = "Transport Ships +5 line of sight and cost -50% (Sicilians team bonus)"
+basis = "Tupi alliances fought by canoe: the Tamoio confederation sailed with its French allies, and the Temiminó of Araribóia fought for the Portuguese in Guanabara Bay (1567); canoe flotillas carried allied war parties along the coast. The bonus it replaces assumed towers and castles the Tupi never built (rated unfounded)."
+
+[[unique_unit]]
+name = "Blackwood Archers"
+model = "Blackwood Archers"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The chroniclers describe bows taller than European ones, made of hard dark woods (the airi palm, pau-d'arco), and massed archery was central to Tupinambá war. Training the Blackwood Archer in pairs at half population abstracts these masses. Also trainable at the Archery Range (see bonuses)."
+
+[[unique_unit]]
+name = "Ibirapema Warrior"
+model = "Ibirapema Warrior"
+level = 1
+change = "kept"
+basis = "The ibirapema, a decorated wooden club, is the most iconic Tupinambá object: it served in the ritual execution of captives and also in battle (Staden; Léry). The frontal area attack is an acceptable abstraction of the heavy two-handed club."
+
+[[unique_tech]]
+name = "Morubixaba"
+age = "Castle"
+effect = "Tacape Warriors and Ibirapema Warriors attack +25% faster"
+level = 1
+change = "changed"
+replaces = "Caciques"
+precedent = "Caciques (Tupi: Champi Warriors and Slingers attack +25% faster); Paiks (Bengalis: Rathas and Elephant Units attack +20% faster)"
+basis = "'Cacique' is a Taíno word from the Antilles; the Tupi called their chiefs morubixaba, like Cunhambebe, whose authority was greatest in war and rested on prestige won in combat. The effect keeps its kind but now applies to the Tupi club fighters instead of the Andean mace and the sling, which the Tupi did not use."
+
+[[unique_tech]]
+name = "Fire Arrows"
+age = "Imperial"
+effect = "Foot Archers +2 attack vs. buildings and deal fire damage to buildings"
+level = 1
+change = "new"
+replaces = "Curare"
+precedent = "Foot Archers and Skirmishers +2 attack vs. buildings (Saracens team bonus); Red Cliffs Tactics (Wu: Demolition Ships and Fire Archers deal fire damage to ships and buildings)"
+basis = "Attackers set palisaded villages and, later, Portuguese settlements and sugar mills alight by shooting arrows wrapped in burning cotton onto the thatched roofs, as the analysis's 16th-century sources and the game's own Tupi history text report. The tech is also the Tupi's late substitute for siege engines. Curare is a Carib word for a hunting poison of Amazonia and the Guianas, not documented among the coastal Tupi, whose arrowheads were of cane, bone, shark teeth and stingray spines; fortifications with poison damage were invented (rated stretched)."
+contested = "The fire-arrow passages could not be re-checked in Staden and Léry during this design (see open questions)."
+
+[tree]
+add = []
+remove = [
+  "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
+  "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet",
+  "Crossbowman", "Arbalester",
+  "Plate Mail Armor", "Ring Archer Armor",
+  "Halberdier", "Slinger",
+  "Galleon", "Catapult Galleon",
+  "Keep", "Guard Tower", "Stone Wall", "Gate", "Heated Shot",
+  "Heavy Plow",
+]
+
+[tree.basis]
+"Siege Workshop" = "The Tupi built no siege engines: villages were attacked by surprise, by assault on the palisade and with fire. Removing the workshop removes all its units; Petards, the Tacape line (strong against buildings), Arson and Fire Arrows replace them (owner's decision, brief section 6; RULES section 10)."
+"Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
+"Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
+"Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."
+"Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."
+"Onager" = "Removed with the Siege Workshop (see Mangonel)."
+"Scorpion" = "Removed with the Siege Workshop: no bolt-throwers existed in the Americas."
+"Heavy Scorpion" = "Removed with the Siege Workshop (see Scorpion)."
+"Siege Tower" = "Removed with the Siege Workshop: a wheeled assault tower."
+"Trebuchet" = "Counterweight artillery never existed in the Americas."
+"Crossbowman" = "The crossbow was unknown in Brazil; Tupi warfare rested on great bows. The Blackwood Archers become available at the Archery Range in its place (bonus)."
+"Arbalester" = "Removed with the Crossbowman (see there)."
+"Plate Mail Armor" = "There was no metal before contact and the Tupi fought unarmoured; the Imperial-Age iron tiers are removed throughout the region (the Tupi already lacked Blast Furnace)."
+"Ring Archer Armor" = "Mail rings are iron armour; removed with the other Imperial-Age iron tiers."
+"Halberdier" = "The halberd is a European polearm and the Tupi fought with bows and clubs; Spearman and Pikeman remain as a generic abstraction."
+"Slinger" = "The sling is not a characteristic Tupinambá weapon in the 16th-century sources, and the Andean slinger belongs to the Inca world (analysis: wrong)."
+"Galleon" = "Ocean-going sailing warships were unknown; the Tupi navy was a fleet of canoes."
+"Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
+"Keep" = "The Tupi built no towers; their defences were palisades and stakes (Staden's woodcuts)."
+"Guard Tower" = "See Keep. The Watch Tower stays as a minimal abstraction of a defended village; the Huns, Goths, Cumans and Mapuche also stop at the Watch Tower."
+"Stone Wall" = "There was no stone building; palisades, sometimes double, were the Tupi fortification. Stone walls are removed, as for the Cumans and Goths, and Palisade Walls remain."
+"Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
+"Heated Shot" = "Red-hot shot against ships is a 16th-century artillery technique, and the Tupi had no towers or castles to fire it."
+"Heavy Plow" = "There was no plough and no draft animal; manioc gardens were cleared by fire and worked with digging sticks. With no equivalent for the function the tech is removed; Coivara and the farming bonus represent Tupi agriculture, and the Tupi already lacked Crop Rotation."
+
+[[rename]]
+from = "Champi Scout"
+to = "Tacape Scout"
+level = 1
+basis = "The tacape was the Tupi wooden war club. Champi is the Quechua name of the Andean stone or bronze mace, and the Tupi had no metal before contact (analysis: wrong)."
+
+[[rename]]
+from = "Champi Runner"
+to = "Tacape Runner"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Champi Warrior"
+to = "Tacape Warrior"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Elite Champi Warrior"
+to = "Elite Tacape Warrior"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Horse Collar"
+to = "Coivara"
+level = 1
+basis = "There were no draft animals. Fields were cleared by felling and burning the forest (coivara, a word of Tupi origin), and the ash fertilised each new plot: a real equivalent of 'new Farms provide more food'."
+
+[architecture]
+set = "South American"
+level = 1
+change = "kept"
+basis = "The South American set fits best among the existing ones; a set of thatched longhouses and palisades would be N3."

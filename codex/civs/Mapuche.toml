@@ -1,0 +1,205 @@
+civ = "Mapuche"
+name = "Mapuche"
+status = "draft"
+label = "Infantry and Counter-Units civilization"
+summary = "The Mapuche (Reche) of south-central Chile (c. 1100–1598): foraging, decentralised levies, tough infantry, Kona and Bolas Riders and the Butalmapu alliances stay; Lautaro's relieving squadrons and pike squares (Toqui) replace Malon, earth-and-timber pucarás replace the line-of-sight team bonus, the Champi line becomes Weichafe, and siege engines, crossbows, the Imperial iron tiers, gunpowder towers, stone building and the ocean navy are removed."
+ideas = [
+  "N3: Recentre the civ on its pre-Hispanic and early-contact core (El Vergel complex, the Inca frontier on the Maule) with infantry unique units, keeping the cavalry as a late option.",
+  "N2: Pucarás with staked pits that slow enemy cavalry (Peteroa 1556–57, Quiapo 1558).",
+  "N2: Horse capture: each enemy mounted unit killed lowers the cost of the next Kona (the first Mapuche horses were captured from the Spaniards).",
+  "N3: Herds of hueque (the chilihueque camelid), used in ritual and as bride wealth, as livestock or a pack animal.",
+  "N3: Re-theme the Monk as the machi, and add the kuel ceremonial mounds of Purén–Lumaco as a monument.",
+  "N3: Parliaments (koyagtun; the Spanish–Mapuche parliament of Quilín, 1641) as a diplomatic mechanic.",
+]
+contested = [
+  "Ethnogenesis and ethnonym: a shift from 'reche' to 'mapuche' under colonial pressure (Boccara) or long continuity (Bengoa, Dillehay).",
+  "The real extent of Inca rule south of the Maipo and the historicity, date and outcome of the battle of the Maule (known mainly from Garcilaso; Osvaldo Silva dates it much later and doubts it was decisive).",
+  "The periodisation of the Arauco War: open war c. 1550–1656, then a frontier of trade and parliaments until the occupation of Araucanía (1861–1883).",
+  "Lautaro between history and epic (Ercilla, La Araucana).",
+  "The origin of the butalmapu: native institution or product of the colonial relationship (Boccara).",
+  "The pre-Hispanic population of Araucanía.",
+]
+open_questions = [
+  "Time frame: almost all of the design (cavalry, bolas riders, Lautaro, the butalmapu) is later than 1541. Keep the Arauco War as the edge of a window c. 1100–1598, or recentre on the pre-Hispanic period, which needs new units (N3)?",
+  "The label changes from 'Cavalry and Counter-Units' to 'Infantry and Counter-Units', since horses arrived only after 1541. Accept?",
+  "The Halberdier is kept as the top pike tier because the Mapuche fielded pike squares of long colihue lances against the Spanish horse, although the halberd itself is European. Keep, or stop at the Pikeman like the other American civs?",
+  "Butalmapu is kept although the futalmapu are documented mainly in the 17th–18th centuries. Keep, or rename it to an earlier alliance term (the ayllarewe) once its attestation is checked?",
+  "Wheelbarrow, Hand Cart and Crop Rotation keep their generic names. Rename or keep?",
+]
+
+[profile]
+entity = "The Mapuche (called reche in 16th-century sources, 'Araucanians' by the Spaniards)"
+region = "South-central Chile between the Itata/Biobío and Toltén rivers"
+window = "c. 1100–1598 (El Vergel complex c. 1100–1450; Inca frontier on the Maule c. 1470–1530; Arauco War to Curalaba, 1598)"
+sources = [
+  "Jerónimo de Vivar, Crónica y relación copiosa y verdadera de los reinos de Chile (1558)",
+  "Alonso de Ercilla, La Araucana (1569–1589)",
+  "Alonso de Góngora Marmolejo, Historia de todas las cosas que han acaecido en el reino de Chile (1575)",
+  "Pedro Mariño de Lobera, Crónica del Reino de Chile (c. 1595)",
+  "Diego de Rosales, Historia general del Reino de Chile (c. 1674)",
+  "José Bengoa, Historia del pueblo mapuche (1985); Historia de los antiguos mapuches del sur (2003)",
+  "Guillaume Boccara, Guerre et ethnogenèse mapuche dans le Chili colonial (1998)",
+  "Tom D. Dillehay, Monuments, Empires, and Resistance (2007)",
+  "Tom D. Dillehay et al., 'Cultivated wetlands and emerging complexity in south-central Chile', Antiquity (2007)",
+]
+
+[[bonus]]
+text = "Foragers drop off +25% food"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Foragers drop off +25% food (Mapuche)"
+basis = "Gathering was a large part of a mixed economy: araucaria pine nuts (piñones), above all among the Pehuenche, wild fruits and shellfish on the coast, alongside the cultivation of potato, maize, quinoa, beans and madi."
+
+[[bonus]]
+text = "Settlements can train Spearman-line and Skirmishers"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Settlements can train Spearman-line and Skirmishers (Mapuche)"
+basis = "Mobilisation was decentralised: each lof or rewe sent its own warriors (weichafe) under its lonko, with no standing army or barracks (Bengoa; Boccara)."
+
+[[bonus]]
+text = "Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age (Mapuche)"
+basis = "The chroniclers and Ercilla stress the endurance of Mapuche warriors, who also fought in cuirasses and helmets of hardened leather."
+
+[[bonus]]
+text = "Mounted Units generate +3 gold when defeating military units"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Mounted Units generate +3 gold when defeating military units (Mapuche)"
+basis = "After contact, raiding brought cattle, horses, iron and captives, the main forms of wealth and prestige; the bonus belongs to the late, mounted edge of the window."
+
+[[bonus]]
+text = "Enemy Castles are revealed on the map"
+kind = "other"
+level = 1
+change = "kept"
+precedent = "Enemy Castles are revealed on the map (Mapuche); Enemy Town Centers are revealed at the start of the game (Vietnamese)"
+basis = "Lautaro had served Valdivia as a groom and knew the Spanish forts and their routines; after Curalaba (1598) the Mapuche took and destroyed the seven Spanish towns south of the Biobío."
+
+[team_bonus]
+text = "Palisade Walls +33% HP"
+level = 1
+change = "new"
+replaces = "Spearman-line and Skirmishers +2 line of sight"
+precedent = "Palisade Walls +33% HP (Cumans team bonus)"
+basis = "The Mapuche fought from field forts of earth and timber with ditches and staked pits, which the chroniclers call pucarás: Lautaro's at Marihueñu (1554) and Peteroa (1556–57), and Quiapo (1558) (Vivar; Góngora Marmolejo; Rosales). The line-of-sight bonus it replaces had no specific basis (rated unfounded)."
+
+[[unique_unit]]
+name = "Kona"
+model = "Kona"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "Kona were the young warriors in the service of a lonko. As riders they fit the decades after c. 1560, when the Mapuche, having captured and then bred horses, fielded the cavalry that destroyed the Spaniards at Curalaba (1598)."
+contested = "Kona meant a young warrior or dependant rather than a formal elite; Mapuche cavalry is post-1550, at the edge of the time frame."
+
+[[unique_unit]]
+name = "Bolas Rider"
+model = "Bolas Rider"
+building = "Archery Range"
+level = 1
+change = "kept"
+basis = "Bolas and lassos were used against Spanish horses from Tucapel (1553) onwards, at first on foot; the unit stands for the counter-cavalry tactics the Mapuche developed in the Arauco War."
+contested = "Mounted use of bolas is more typical of the peoples of the pampas and Patagonia and of the later 'araucanisation' of the pampas."
+
+[[unique_tech]]
+name = "Toqui"
+age = "Castle"
+effect = "Infantry regenerate 15 HP per minute; Spearman-line receive -3 damage from Mounted Units"
+level = 1
+change = "new"
+replaces = "Malon"
+precedent = "Infantry regenerates 10/15/30 HP per minute in Feudal/Castle/Imperial Age (Wu); Maghrebi Camels (Berbers: Camel Units regenerate 15 HP per minute); Royal Heirs (Ethiopians: Shotel Warriors and Camel Riders receive -3 damage from Mounted Units)"
+basis = "War leaders (toqui, named after the stone axe that was their insignia) were chosen in assemblies for the duration of a war. At Tucapel (25 December 1553) Lautaro sent fresh squadrons one after another against Valdivia's horsemen until they were exhausted, while pikemen, clubmen and bola- and lasso-throwers brought the riders down (Vivar; Góngora Marmolejo). The regeneration abstracts the relief of tired squadrons; the damage reduction, the pike squares that held the Spanish horse. Malon is dropped: the word belongs mostly to the later mounted raids of the pampas, and its effect (pass-through damage) had no link to it (rated stretched)."
+
+[[unique_tech]]
+name = "Butalmapu"
+age = "Imperial"
+effect = "Team Castle Unique Units and Bolas Riders cost -15%"
+level = 1
+change = "kept"
+precedent = "Butalmapu (Mapuche)"
+basis = "The futalmapu ('great lands') were the regional alliances (coast, plain, foothills, mountains) through which the Mapuche dealt with the Spanish Crown in parliaments; a discount shared with allies evokes such alliances."
+contested = "Documented mainly in the 17th–18th centuries; Boccara sees them partly as a product of the colonial relationship."
+
+[tree]
+add = []
+remove = [
+  "Siege Workshop", "Battering Ram", "Capped Ram", "Mangonel", "Onager",
+  "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
+  "Crossbowman",
+  "Blast Furnace", "Plate Mail Armor", "Ring Archer Armor",
+  "Galleon", "Carrack", "Catapult Galleon", "Siphons", "Carvel Hull",
+  "Bombard Tower", "Architecture", "Masonry", "Stone Wall", "Gate",
+  "Heavy Plow",
+]
+
+[tree.basis]
+"Siege Workshop" = "The Mapuche built no siege engines; they took Spanish forts by assault, blockade and fire. Removing the workshop removes all its units; Petards, the Weichafe line (strong against buildings) and Arson replace them (owner's decision, brief section 6; RULES section 10)."
+"Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
+"Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
+"Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."
+"Onager" = "Removed with the Siege Workshop (see Mangonel)."
+"Scorpion" = "Removed with the Siege Workshop: no bolt-throwers existed in the Americas."
+"Heavy Scorpion" = "Removed with the Siege Workshop (see Scorpion)."
+"Siege Tower" = "Removed with the Siege Workshop: a wheeled assault tower."
+"Trebuchet" = "Counterweight artillery never existed in the Americas."
+"Siege Engineers" = "No siege engines are left to improve."
+"Crossbowman" = "The crossbow was unknown in the Americas, and nothing suggests the Mapuche adopted captured ones; their missile weapons were bows, slings and bolas. Archers, Slingers, Skirmishers and the Bolas Rider cover the role."
+"Blast Furnace" = "There was no iron before contact; afterwards the Mapuche obtained it by capture and trade and worked it, but never smelted it. Removed with the other Imperial-Age iron tiers."
+"Plate Mail Armor" = "There was no plate armour; Mapuche warriors wore hardened leather, represented by the HP bonus."
+"Ring Archer Armor" = "Mail rings are iron armour; removed with the other Imperial-Age iron tiers."
+"Galleon" = "Ocean-going sailing warships were unknown; Mapuche boats were dugout canoes (wampu) and, further south, sewn-plank dalcas."
+"Carrack" = "See Galleon."
+"Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
+"Siphons" = "Named after the Byzantine fire siphon; the Mapuche used no fire ships. They were the only American civ with this tech."
+"Carvel Hull" = "A European shipbuilding technique (flush planking on a frame); the Mapuche were the only American civ with it."
+"Bombard Tower" = "Gunpowder towers have no Mapuche basis: arquebuses captured from the Spaniards appear at Quiapo (1558) in an unsuccessful defence, and artillery use is uncertain (tech-tree audit: stretched)."
+"Architecture" = "The Mapuche built in wood, cane and thatch (the ruka) and raised earthwork forts, not stone buildings."
+"Masonry" = "See Architecture; the Aztecs, Byzantines and Tupi also lack Masonry."
+"Stone Wall" = "Mapuche defences were earthworks, ditches and palisades; stone walls are removed, as for the Cumans and Goths, and the Palisade Wall is strengthened by the team bonus."
+"Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
+"Heavy Plow" = "There was no plough before contact (the ploughing with hueque that Spilbergen reported on Mocha Island in 1614 is post-contact). With no equivalent for the function the tech is removed; Raised Fields keep the Mapuche's own farming technique."
+
+[[rename]]
+from = "Champi Scout"
+to = "Weichafe Scout"
+level = 1
+basis = "Weichafe is the Mapudungun word for warrior. Champi, the Quechua name of the Andean mace, is foreign to the Mapuche, whose clubs were of wood and whose stone axe (toki) was the war leader's insignia."
+
+[[rename]]
+from = "Champi Runner"
+to = "Weichafe Runner"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Champi Warrior"
+to = "Weichafe"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Elite Champi Warrior"
+to = "Elite Weichafe"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Horse Collar"
+to = "Raised Fields"
+level = 1
+basis = "There were no draft animals. Raised cultivation platforms in the wetlands of the Purén and Lumaco valleys, radiocarbon-dated to about 1220–1420, belong to the same landscape as the kuel ceremonial mounds (Dillehay et al. 2007 and later work by Dillehay's team). Same rename as for the Maya and the Muisca."
+
+[architecture]
+set = "South American"
+level = 1
+change = "kept"
+basis = "The South American set fits best among the existing ones; a set of rukas and earthwork pucarás would be N3."

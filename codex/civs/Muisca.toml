@@ -1,0 +1,208 @@
+civ = "Muisca"
+name = "Muisca"
+status = "draft"
+label = "Skirmisher and Monk civilization"
+summary = "The Muisca chiefdoms of the Altiplano Cundiboyacense (c. 800–1540): jeques, markets, cotton armour, güecha warriors and tumbaga stay; salt now makes their wealth, the unfounded age-up and Settlement bonuses and the Temple Guard are dropped, the Quechua names go (Champi → Macana, Huaracas → Muisca Slings), and siege engines, crossbows, Thumb Ring, stone fortifications, printing and the ocean navy give way to Arson and Raised Fields."
+ideas = [
+  "N2: A mummy-bearer support unit: warriors carried the mummies of famous ancestors into battle, strengthening nearby güechas (Simón; Piedrahita).",
+  "N3: A palisaded cacique enclosure (cercado) replacing the Castle and the towers.",
+  "N3: Reed rafts on the sacred lakes (Guatavita, Tota, Fúquene; the gold Muisca raft found at Pasca in 1969) instead of an ocean navy.",
+  "N3: Salt cakes, cotton mantles and emeralds (Somondoco, Chivor) as distinct trade goods in a reworked Market.",
+  "N3: Re-theme the Monastery as the sanctuaries of Sugamuxi and Guatavita with their jeques (chyquy), and offerings of gold figurines (tunjos) in sacred lakes.",
+  "N2: Güecha darts: Guecha Warriors and Skirmishers +1 range, +1 attack (analysis proposal), if the region can bear a third atlatl-type tech.",
+]
+contested = [
+  "Whether the Muisca formed a 'confederation' or a network of chiefdoms (Langebaek; Gamboa).",
+  "The population at the conquest (estimates from c. 300,000 to over one million).",
+  "The El Dorado ritual: known from Rodríguez Freyle (1636–38), a century after the conquest, and probably already out of use before 1537.",
+  "How warlike the Muisca were: the conquerors saw them as traders more than fighters; the scale of their wars and their real use of the bow are debated.",
+  "The extent of human sacrifice (moxa).",
+  "The reliability of the Muisca calendar reconstructed by Duquesne in the 18th century.",
+]
+open_questions = [
+  "The Champi line is renamed Macana, after the palm-wood clubs the chroniclers describe; 'macana' is itself a Taíno word spread by the Spaniards. Is there a muysccubun term to use instead?",
+  "The Temple Guard is dropped (no documented corps of temple guards). Leave the Guecha Warrior as the only unique unit until an N2 mummy-bearer exists, or give the Muisca another existing unit?",
+  "The Muisca keep a minimal navy (Galley, Fire and Hulk lines, Transport, Fishing Ship) for water maps although they lived on an inland plateau at c. 2,600 m. Accept, or cut further?",
+  "The Castle is kept for structural reasons (unique unit, unique techs, Imperial Age requirement), though the Muisca built in wood, cane and wattle-and-daub. Accept until an N3 replacement exists?",
+  "Herbalism keeps its generic name (the effect stands for coca, called hayo in the chronicles). Rename it?",
+  "Wheelbarrow, Hand Cart and Crop Rotation keep their generic names. Rename or keep?",
+]
+
+[profile]
+entity = "The Muisca (muysca, 'people') chiefdoms: the zipazgo of Bacatá, the zacazgo of Hunza, the sacred chiefdom of Iraca (Sugamuxi) and Tundama"
+region = "Altiplano Cundiboyacense, Eastern Ranges of the Colombian Andes"
+window = "c. 800–1540 (Early Muisca 800–1200, Late Muisca 1200–1537; Spanish conquest 1537–1540)"
+sources = [
+  "Epítome de la conquista del Nuevo Reino de Granada (attributed to Gonzalo Jiménez de Quesada, c. 1548–1550)",
+  "Juan de Castellanos, Elegías de varones ilustres de Indias (1589)",
+  "Pedro Simón, Noticias historiales (1626)",
+  "Juan Rodríguez Freyle, El Carnero (1636–1638)",
+  "Lucas Fernández de Piedrahita, Historia general de las conquistas del Nuevo Reino de Granada (1688)",
+  "Carl Henrik Langebaek, Los muiscas (2019)",
+  "Jorge Augusto Gamboa Mendoza, El cacicazgo muisca en los años posteriores a la Conquista (2010)",
+  "Marianne Cardale de Schrimpff, Las salinas de Zipaquirá (1981)",
+  "Ana María Groot, Sal y poder en el altiplano de Bogotá (2008)",
+  "Sylvia Broadbent, 'A prehistoric field system in Chibcha territory, Colombia', Ñawpa Pacha 6 (1968)",
+]
+
+[[bonus]]
+text = "Stone Miners generate gold in addition to stone"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Advancing to the next Age costs -50% gold"
+precedent = "Stone Miners generate gold in addition to stone (Poles)"
+basis = "The Muisca were the 'salt people': they boiled brine from the springs of Zipaquirá, Nemocón and Tausa in ceramic vessels into salt cakes, their main good of exchange with neighbouring peoples for gold, cotton and other goods (Cardale de Schrimpff 1981; Groot 2008). Here stone stands for salt. The age-up discount it replaces had no identifiable historical link (rated unfounded)."
+
+[[bonus]]
+text = "Macana Warriors and Archery Range Units +1/2/3 melee armor in Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Champi Warriors and Archery Range Units +1/2/3 melee armor in Feudal/Castle/Imperial Age (Muisca)"
+basis = "Chroniclers describe long shields and several layers of quilted cotton mantles, which stopped even the arrows of the Panche; the Muisca were great weavers. Effect unchanged; the in-game text only renames the Champi Warriors as Macana Warriors."
+
+[[bonus]]
+text = "Monks regain faith +50% faster"
+kind = "other"
+level = 1
+change = "kept"
+precedent = "Monks regain faith +50% faster (Muisca)"
+basis = "The jeques (chyquy) trained for years in seclusion, fasted and used coca (hayo) and tobacco in ritual; sanctuaries such as the Temple of the Sun at Sugamuxi and the sacred lakes received offerings (Langebaek 2019)."
+
+[[bonus]]
+text = "Caravan, Guilds free"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Caravan, Guilds free (Muisca)"
+basis = "The Spaniards found the Muisca more given to trade than to war: periodic markets (Turmequé, Sorocotá) exchanged salt, cotton mantles, emeralds and gold with the Panche, Muzo, Guane and the peoples of the Llanos, and small cotton cloths served as money (Langebaek 2019)."
+
+[team_bonus]
+text = "Natural gold sources last +15% longer"
+level = 1
+change = "kept"
+precedent = "Natural gold sources last +15% longer (Muisca team bonus)"
+basis = "The Muisca highlands had little gold: most of it came by trade from the Magdalena lowlands. Muisca goldsmiths made it go further as tumbaga, a gold–copper alloy cast by the lost-wax method (Museo del Oro), which this bonus represents."
+contested = "Read as tumbaga, the bonus is an abstraction; the Muisca did not mine much gold (rated stretched)."
+
+[[unique_unit]]
+name = "Guecha Warrior"
+model = "Guecha Warrior"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The güechas were a privileged class of frontier warriors facing the Panche, adorned with gold or tumbaga ornaments that marked the enemies they had killed; they fought with darts, slings, clubs and long shields. Regenerating when a comrade falls evokes the mummies of famous warriors carried into battle (Simón; Piedrahita)."
+contested = "The ornaments-per-enemy custom and the mummies come from 17th-century chroniclers."
+
+[[unique_tech]]
+name = "Herbalism"
+age = "Castle"
+effect = "Archer-line and Macana Warriors move +15% faster"
+level = 1
+change = "kept"
+precedent = "Herbalism (Muisca)"
+basis = "Chewing coca (hayo) with lime increased endurance and was common practice; the speed bonus is an acceptable abstraction. Effect unchanged; the in-game text only renames the Champi Warriors as Macana Warriors."
+
+[[unique_tech]]
+name = "Muisca Slings"
+age = "Imperial"
+effect = "Slingers +1 range; train +50% faster"
+level = 1
+change = "changed"
+replaces = "Huaracas"
+precedent = "Huaracas (Muisca): identical effect, renamed"
+basis = "Muisca slingers are attested, but huaraca (warak'a) is the Quechua word for the sling, foreign to muysccubun. Renamed with the neutral name the analysis proposes; the muysccubun term is not known."
+
+[tree]
+add = ["Arson"]
+remove = [
+  "Siege Workshop", "Battering Ram", "Capped Ram", "Mangonel", "Onager", "Siege Onager",
+  "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
+  "Crossbowman", "Arbalester", "Thumb Ring",
+  "Plate Mail Armor",
+  "Galleon", "Carrack", "Catapult Galleon", "Heavy Demolition Ship",
+  "Galleon, Fast Fire Ship and Carrack", "Dry Dock",
+  "Block Printing",
+  "Keep", "Stone Wall", "Gate", "Masonry",
+  "Heavy Plow",
+  "Temple Guard", "Elite Temple Guard",
+]
+
+[tree.basis]
+"Arson" = "With the Temple Guard dropped, the Muisca need another way to destroy buildings (RULES 6.6): their own houses and the cacique enclosures were of wood, cane and thatch, so fire was the obvious means. Only the Goths, Romans and Muisca lacked Arson."
+"Siege Workshop" = "The Muisca built no siege engines; their defences were palisaded enclosures. Removing the workshop removes all its units; Petards, the Macana line and Arson replace them (owner's decision, brief section 6; RULES section 10)."
+"Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
+"Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
+"Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."
+"Onager" = "Removed with the Siege Workshop (see Mangonel)."
+"Siege Onager" = "Removed with the Siege Workshop (see Mangonel)."
+"Scorpion" = "Removed with the Siege Workshop: no bolt-throwers existed in the Americas."
+"Heavy Scorpion" = "Removed with the Siege Workshop (see Scorpion)."
+"Siege Tower" = "Removed with the Siege Workshop: a wheeled assault tower."
+"Trebuchet" = "Counterweight artillery never existed in the Americas."
+"Siege Engineers" = "No siege engines are left to improve."
+"Crossbowman" = "The crossbow was unknown in the Americas. Muisca missile weapons were darts, slings and, to a lesser degree, bows (associated mainly with the Panche); the Guecha Warrior, Slingers and Skirmishers cover the role. The Archer stays."
+"Arbalester" = "Removed with the Crossbowman (see there)."
+"Thumb Ring" = "No thumb rings or thumb draw are attested in the Americas (game-model theme)."
+"Plate Mail Armor" = "There was no plate armour; Muisca warriors wore layered cotton mantles and long shields, represented by the melee-armour bonus. The Imperial-Age iron tiers are removed throughout the region (the Muisca already lacked Blast Furnace and Ring Archer Armor)."
+"Galleon" = "An ocean navy is absurd for an inland plateau people; Muisca boats were reed rafts on the lakes."
+"Carrack" = "See Galleon."
+"Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
+"Heavy Demolition Ship" = "An explosive fireship of the 16th-century kind; removed with the ocean navy."
+"Galleon, Fast Fire Ship and Carrack" = "With the Galleon and Carrack removed (the Muisca never had the Fast Fire Ship), this upgrade has nothing left to upgrade."
+"Dry Dock" = "The Muisca had no maritime tradition; their remaining navy is a minimal abstraction for water maps."
+"Block Printing" = "There was no printing or writing. With no equivalent for the function the tech is removed (18 civs already lack it)."
+"Keep" = "The Muisca built in wood, cane and wattle-and-daub; there were no stone towers. Guard Towers stay as wooden frontier posts of the güechas."
+"Stone Wall" = "Muisca defences were palisades around the enclosures of the caciques; stone walls are removed, as for the Cumans and Goths, and Palisade Walls remain."
+"Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
+"Masonry" = "There was no stone masonry tradition (the Temple of the Sun at Sugamuxi was of wood); the Muisca already lacked Architecture, while the Aztecs, Byzantines and Tupi lack Masonry."
+"Temple Guard" = "Removed with the dropped unique unit (see [[dropped]]): no corps of temple guards is documented."
+"Elite Temple Guard" = "Removed with the Temple Guard."
+"Heavy Plow" = "There was no plough and no draft animal; fields were worked with wooden digging tools. With no equivalent for the function the tech is removed (the Khitans also lack it); Raised Fields keep the Muisca's own farming technique."
+
+[[rename]]
+from = "Champi Scout"
+to = "Macana Scout"
+level = 1
+basis = "Champi is the Quechua name of the Andean stone or bronze mace, foreign to the Muisca, whose clubs were of hard palm wood; the chroniclers call them macanas (a word of Taíno origin, see open questions)."
+
+[[rename]]
+from = "Champi Runner"
+to = "Macana Runner"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Champi Warrior"
+to = "Macana Warrior"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Elite Champi Warrior"
+to = "Elite Macana Warrior"
+level = 1
+basis = "Same rename as Champi Scout."
+
+[[rename]]
+from = "Horse Collar"
+to = "Raised Fields"
+level = 1
+basis = "There were no draft animals. Ridged fields (camellones) separated by drainage ditches covered the flood plains of the Sabana de Bogotá from the Herrera period to the Late Muisca period (Broadbent 1968; Rodríguez-Gallo 2018). Same rename as for the Maya and the Mapuche."
+
+[architecture]
+set = "South American"
+level = 1
+change = "kept"
+basis = "The South American set of the region's chiefdom civs fits the Muisca better than any other set; a set of wooden and thatched buildings (bohíos, cercados) would be N3."
+
+[[dropped]]
+item = "Settlements cost -33% and heal nearby units"
+kind = "bonus"
+reason = "No historical basis (rated unfounded); the Settlement itself stays as the regional abstraction of dispersed settlement."
+
+[[dropped]]
+item = "Temple Guard"
+kind = "unique_unit"
+reason = "No corps of 'temple guards' is documented: the sanctuaries of Sugamuxi and Guatavita had priests and servants, not a warrior unit, and its anti-cavalry role means nothing for a people that first saw horses in 1537 (rated unfounded). Its anti-building role passes to Arson and the Macana line; an N2 mummy-bearer is recorded in the ideas."
