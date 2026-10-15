@@ -2,7 +2,7 @@ civ = "Saxons"
 name = "Saxons"
 status = "draft"
 label = "Infantry and Defensive civilization"
-summary = "Anglo-Saxon England (c. 450–1066) refocused on the burh and the fyrd: fast-built earthwork walls and garrisoned burh-towns replace castle and tower arrows (Keep, Arrowslits and Hoardings leave the tree), Edgar’s Recoinage becomes the Town Center tech, the continental missions of Willibrord and Boniface become the team bonus, Clerical Recruitment moves to the Monastery, the Varangian Guard is renamed Housecarl, and post-1066 items (crossbow cavalry, Arbalester, Cavalier, Hussar, Bloodlines, Carrack, the Trebuchet) leave the tree without a substitute."
+summary = "Anglo-Saxon England (449–1066) refocused on the burh and the fyrd: fast-built earthwork walls and garrisoned burh-towns replace castle and tower arrows (Keep, Arrowslits and Hoardings leave the tree), the shield wall becomes a passive and Alfred’s divided levy (the Fyrd, Forced Levy renamed) takes its Castle slot, Edgar’s Recoinage is the Town Center tech, the continental missions of Willibrord and Boniface become the team bonus, Clerical Recruitment moves to the Monastery, the Varangian Guard is renamed Housecarl, and items later than 1066 (crossbow cavalry, Arbalester, Cavalier, Hussar, Bloodlines, Carrack, Block Printing, the Trebuchet) leave the tree."
 ideas = [
   "N3: A ‘Burh’ building available in Feudal Age: an earth-and-timber fortified town that gives population, serves as a drop-site, trains infantry and counts for the Foot Soldier discount, partly replacing the Castle (Burghal Hidage; Hill and Rumble, The Defence of Wessex, 1996).",
   "N2: Give the Housecarl the two-handed Dane axe as a separate weapon state with bonus damage against cavalry (Bayeux Tapestry; Wace’s account of English axes at Hastings).",
@@ -11,27 +11,30 @@ ideas = [
   "N3: Old English names for the generic lines (fyrd, thegn, scip) and a history text that ends in 1066, now that the Britons cover later medieval England.",
 ]
 contested = [
-  "The scale and nature of the Anglo-Saxon migration: elite takeover (Higham) or substantial migration (Härke), now reassessed with ancient DNA (Gretzinger et al., Nature, 2022, substantial migration in the east with strong regional variation).",
+  "The scale and nature of the Anglo-Saxon migration: elite takeover (Higham) or substantial migration (Härke), now reassessed with ancient DNA (Gretzinger et al., Nature, 2022, substantial migration in the east with strong regional variation). The window’s 449 is Bede’s conventional date for the coming of the Saxons; settlement began earlier.",
   "How strong the late Anglo-Saxon state was: James Campbell’s ‘maximum view’ against more cautious readings.",
   "How regular the recoinages after Edgar’s reform were: Michael Dolley’s six-year cycle has been questioned by later numismatists.",
   "Whether the Anglo-Saxons ever fought on horseback (Richard Glover against Richard Abels and Nicholas Hooper); this design keeps a mounted Knight without upgrades.",
   "The ‘select fyrd’ and ‘great fyrd’ model (C. Warren Hollister, 1962) against Richard Abels’ critique (1988).",
   "What housecarls were: a paid standing guard (L. M. Larson, 1904) or royal and noble retainers, many of them landholders (N. Hooper, 1985).",
-  "Whether the Burghal Hidage formula was applied literally: it fits Winchester and Wareham closely, but elsewhere only with special pleading (David Roffe).",
+  "How literally the Burghal Hidage formula was applied: it matches the measured defences closely at Winchester and Wareham and less well elsewhere, where the circuits are often uncertain (Hill 1969; Hill and Rumble 1996).",
   "Anglo-Saxon siege engines: none is attested. At the siege of Paris (885–886) the engines Abbo describes were built by the Danish besiegers and the Frankish defenders, and whether his ‘mangana’ were traction trebuchets is itself debated (Purton, A History of the Early Medieval Siege, 2009). This design follows the English evidence of blockade, assault and counter-fortification and gives the civ no trebuchet.",
   "The term ‘Anglo-Saxon’ itself: the International Society of Anglo-Saxonists renamed itself ISSEME in 2019.",
 ]
 open_questions = [
   "Name (not decided): keep ‘Saxons’, or ‘Anglo-Saxons’? ‘Saxons’ leaves out the Angles who gave England its name (Bede’s Northumbria, Offa’s Mercia) and collides with the continental Saxons of the Ottonian dynasty; the people called themselves Englisc or Angelcynn. If the Britons become ‘English’, ‘Anglo-Saxons’ keeps the two civs apart.",
-  "Architecture: the design uses the Northern European set (timber halls, clinker ships). Which set the Saxons use in the game now could not be confirmed from the repository data or the official pages (see the architecture basis). Accept Northern European, and check in game whether it is a change?",
-  "Town Center tech: Edgar’s Recoinage shares its effect with the Hindustanis’ Tanka (both rename Grand Trunk Road). Alternative: ‘Fyrd’, the Malay Forced Levy renamed (Militia-line gold cost is replaced by additional food cost; level 1), for Alfred’s division of the levy (893) and the five-hide rule; the Foot Soldier bonus would then rest on the burh garrisons alone. Which?",
-  "Power check: the tree loses fifteen items, mostly later than 1066 (Trebuchet, Arbalester, the mounted crossbow line, Cavalier, Hussar, Bloodlines, Carrack, Catapult Galleon, Keep, Arrowslits, Hoardings, Thumb Ring, Siphons) and gains Clinker Construction; the walls, garrison and coinage bonuses and the missions team bonus compensate only in part. Acceptable for an infantry civ that ends in 1066?",
+  "Architecture: the design uses the Northern European set (timber halls, clinker ships). Which set the Saxons use in the game now could not be confirmed from the repository data or the official pages, so the ‘change’ field is pending (see the architecture basis). Accept Northern European, and check in game whether it is a change?",
+  "Shield Wall: RULES 6.2 puts a long military tradition in a passive, so the shield wall is now a passive (from the Imperial Age, when the game’s tech came) and the Castle slot goes to a datable reform, Alfred’s divided levy (the Fyrd, the Malay Forced Levy renamed, level 1). The game’s own arrangement, Shield Wall as the Castle tech, could be kept for familiarity, with the Fyrd dropped. Keep the new arrangement?",
+  "Shared effects: Edgar’s Recoinage (Grand Trunk Road renamed) has the same effect as five other designs’ Town Center techs (the Hindustanis’ Tanka, the Khitans’ Chanyuan Treaty, the Malay Syahbandar, the Muisca Cotton Mantles and the Burgundians’ Vierlander Coinage); Clerical Recruitment’s effect is also the Bulgarians’ Council of Preslav; and the Fyrd’s is also the Malay Forced Levy and the Goths’ Liber Iudiciorum. Repeats are allowed (RULES 6.7): keep them and settle the distribution in the cross-civ pass?",
+  "Team bonus: ‘Monasteries work +20% faster’ is now the team bonus of seven designs (Bulgarians, Danes, Gaels, Hindustanis, Khitans, Malay, Saxons), while the Lithuanians, who have it in the game, dropped it. The Saxon and Gaelic cases are two branches of one Insular missionary movement. Keep, and settle the distribution in the cross-civ pass?",
+  "Food bonus: the feorm went to royal vills and estate centres, so the history favours ‘Mills and Town Centers provide +35 food when built’; balance favours the current targets (Mills, Lumber- and Mining Camps), since Town Centers are built rarely and the bonus would lose most of its value in a civ that already loses much of its tree. Which?",
+  "Power check: the tree loses sixteen items, mostly later than 1066 (Trebuchet, Arbalester, Mounted and Heavy Mounted Crossbowman, Cranequins, Cavalier, Hussar, Bloodlines, Carrack, Catapult Galleon, Keep, Arrowslits, Hoardings, Thumb Ring, Siphons, Block Printing), and gains Clinker Construction; the walls, garrison and coinage bonuses, the Fyrd and the missions team bonus compensate only in part, and the civ reaches the proposed cap of nine bonuses and techs (6 + 3). Without the Trebuchet it is the only civ outside the Americas with no long-range siege weapon (no Trebuchet, Traction Trebuchet or Bombard Cannon). The Traction Trebuchet could be given as a design substitute (RULES 6.11), not as history, since no Anglo-Saxon engine is attested. Accept as it is, or add the Traction Trebuchet?",
 ]
 
 [profile]
 entity = "The Anglo-Saxon kingdoms and the late Anglo-Saxon kingdom of the English"
 region = "Lowland Britain: England, with Lothian until the early 11th century"
-window = "c. 450–1066 (design core 871–1066, from Alfred to Harold II)"
+window = "449–1066 (from Bede’s conventional date for the coming of the Saxons to Hastings; design core 871–1066, from Alfred to Harold II)"
 sources = [
   "Bede, Historia ecclesiastica gentis Anglorum (731)",
   "Anglo-Saxon Chronicle",
@@ -42,12 +45,14 @@ sources = [
   "Domesday Book (1086)",
   "Wilhelm Levison, England and the Continent in the Eighth Century (1946)",
   "Michael Dolley and D. M. Metcalf, ‘The Reform of the English Coinage under Eadgar’ (1961)",
+  "David Hill, ‘The Burghal Hidage: the establishment of a text’, Medieval Archaeology 13 (1969)",
   "Richard Abels, Lordship and Military Obligation in Anglo-Saxon England (1988); Alfred the Great (1998)",
   "Ryan Lavelle, Alfred’s Wars (2010)",
   "David Hill and Alexander Rumble (eds.), The Defence of Wessex: The Burghal Hidage and Anglo-Saxon Fortifications (1996)",
   "Nicholas Brooks, Communities and Warfare 700–1400 (2000)",
   "N. Hooper, ‘The Housecarls in England in the Eleventh Century’, Anglo-Norman Studies 7 (1985)",
   "George Molyneaux, The Formation of the English Kingdom in the Tenth Century (2015)",
+  "H. M. Taylor and Joan Taylor, Anglo-Saxon Architecture (3 vols., 1965–78)",
 ]
 
 [[bonus]]
@@ -58,8 +63,8 @@ change = "changed"
 replaces = "Mills, Lumber- and Mining Camps provide +35 food and +10 stone when built"
 precedent = "Mills, Lumber- and Mining Camps provide +35 food and +10 stone when built (Saxons); Military production buildings and Docks provide +55 food when built (Wu)"
 basis = "Food render (feorm): estates owed the king fixed renders in kind, and Ine’s law 70.1 (c. 694) lists what ten hides owed: ten vats of honey, 300 loaves, ale, cattle or wethers, geese, hens, cheeses, butter, salmon and eels (Lavelle, ‘Ine 70.1 and Royal Provision in Anglo-Saxon Wessex’, 2013). Mills were dense: Domesday (1086) records at least 5,624, many older than the Conquest, like the mill excavated at Old Windsor. Woodland also yielded food, as pannage for swine (Domesday measures woods by the pigs they fed); the Mining Camp has no such link and stays for balance. The +10 stone is dropped: nothing links it to camps."
-relevance = "Food renders fed the itinerant kings and their households and were the economic base of Anglo-Saxon kingship."
-contested = "An abstraction: each new estate centre is assumed to bring in its first render. The feorm went to royal vills and estate centres, so the link is closest for Mills."
+relevance = "Food renders fed the itinerant kings and their households and were the economic base of early English kingship; a borderline pass, since royal food renders were common to early medieval kingship (the Frankish servitium regis, the Welsh gwestfa, the Irish cuid oíche) and the link to camps is weak."
+contested = "An abstraction: each new estate centre is assumed to bring in its first render. The feorm went to royal vills and estate centres, not to camps, so the link is closest for Mills (see open questions)."
 
 [[bonus]]
 text = "Town Centers +10 garrison capacity"
@@ -76,7 +81,7 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Foot Soldiers cost -5% per Town Center or Castle controlled (maximum -20%) (Saxons)"
-basis = "Service was tied to land and to the burhs: the Burghal Hidage fixes the men owed for each burh by its hides; in 893 Alfred divided the levy so that half was always at home and half on service, apart from the men who held the burhs (Anglo-Saxon Chronicle); and Domesday’s Berkshire custom required one man from every five hides, provisioned by those hides (Abels, Lordship and Military Obligation, 1988). More fortified centres meant a larger and cheaper levy."
+basis = "Service was tied to land and to the burhs: the Burghal Hidage fixes the men owed for each burh by the hides assigned to it, one man for each hide, and the burhs were the musters and bases of the levy in the Danish wars of 892–896 and 910–920 (Anglo-Saxon Chronicle; Abels, Lordship and Military Obligation, 1988). More fortified centres meant a larger and cheaper levy. Alfred’s division of the levy (893) is the basis of the Fyrd tech."
 relevance = "Land-based military service, organised around the burhs, raised the armies with which the West Saxon kings defeated the Danes."
 contested = "‘Castle’ is anachronistic before the Norman castles of the 1050s; in this civ it stands for a major fortified centre."
 
@@ -100,13 +105,23 @@ precedent = "Longships and Catapult Galleons +20% HP (Saxons)"
 basis = "In 896 Alfred had long ships built against the Danes, almost twice as long as theirs, some with 60 oars or more, ‘neither on the Frisian pattern nor on the Danish’; the Chronicle’s own word is langscipu (Anglo-Saxon Chronicle, 896). Edgar kept fleets, in 1008 Æthelred levied a ship from every 310 hides, and Harold II kept a fleet off the Isle of Wight through the summer of 1066. The Catapult Galleon part is dropped: there is no evidence of ship-borne catapults in North Sea warfare."
 relevance = "Sea power framed the civ from the North Sea crossing and the Sutton Hoo ship burial to the fleets of 896, 1008 and 1066; a borderline pass on weight, helped by the fame of Alfred’s ships."
 
+[[bonus]]
+text = "Infantry gain additional armor when massed starting in Imperial Age"
+kind = "military"
+level = 1
+change = "changed"
+replaces = "Shield Wall (Castle unique tech: Infantry gain additional armor when massed)"
+precedent = "Shield Wall (Infantry gain additional armor when massed) (Saxons), the same effect as a passive; age-gated like ‘Town Centers cost -50% wood starting in Castle Age’ (Britons)"
+basis = "The shield wall: the bordweall of The Battle of Brunanburh (937); the close shield formation is described at Maldon (991) and Hastings (1066), where the English line held through most of the day. It was common Germanic practice (and late Roman and Byzantine, the fulcum of the Strategikon), not something the English copied from the Vikings. A long military tradition rather than a datable reform, so a passive (RULES 6.2); it starts in the Imperial Age, when the game’s tech came, so that its power stays where it was."
+relevance = "The shield wall is how the English fought every battle of the period, Hastings included, and the civ’s best-known feature in the game."
+
 [team_bonus]
 text = "Monasteries work +20% faster"
 level = 1
 change = "new"
 replaces = "Repairers work +25% faster"
 precedent = "Monasteries work +20% faster (Lithuanians team bonus)"
-basis = "Anglo-Saxon missionaries converted and organised the Church of their continental neighbours, under Frankish protection: Willibrord, trained for twelve years at Rath Melsigi in Ireland, worked in Frisia from 690 and was consecrated archbishop of the Frisians, with his see at Utrecht, in 695; Boniface organised the Church in Hesse, Thuringia and Bavaria, reformed the Frankish Church in the councils of the 740s, founded Fulda (744) and called English monks and nuns such as Leoba to help him, before his death in Frisia (754); and Alcuin of York led Charlemagne’s palace school from 782 (Bede, HE V; Willibald, Life of Boniface; Levison 1946). Faster allied monasteries render the monks and nuns the English sent and trained. A team bonus because it benefited neighbours (RULES 6.2: religious influence); the repair bonus it replaces fails that test (see [[dropped]])."
+basis = "Anglo-Saxon missionaries converted and organised the Church of their continental neighbours, under Frankish protection: Willibrord, trained for twelve years at Rath Melsigi in Ireland, worked in Frisia from 690 and was consecrated archbishop of the Frisians, with his see at Utrecht, in 695; Boniface organised the Church in Hesse, Thuringia and Bavaria, reformed the Frankish Church in the councils of the 740s, founded Fulda (744) and called English monks and nuns such as Leoba to help him, before his death in Frisia (754); and Alcuin of York led Charlemagne’s palace school from 782 (Bede, HE V; Willibald, Life of Boniface; Levison 1946). Faster allied monasteries render the monks and nuns the English sent and trained. A team bonus because it benefited neighbours (RULES 6.2: religious influence); the repair bonus it replaces fails that test (see [[dropped]]). The Gaels’ design gives the same bonus to the Irish missions, from which the English mission partly grew."
 relevance = "The Anglo-Saxon missions converted much of Germany and reshaped the Frankish Church, the most lasting English influence on the continent before 1066."
 
 [[unique_unit]]
@@ -119,16 +134,17 @@ basis = "Old English heorðwerod, the lord’s household troop (The Battle of Ma
 relevance = "Lords’ retinues fought and died around their lord in every Anglo-Saxon battle; the heorðwerod of Maldon is the classic image of English heroic warfare."
 
 [[unique_tech]]
-name = "Shield Wall"
+name = "Fyrd"
 building = "Castle"
 kind = "military"
 age = "Imperial"
-effect = "Infantry gain additional armor when massed"
+effect = "Militia-line gold cost is replaced by additional food cost"
 level = 1
-change = "kept"
-precedent = "Shield Wall (Infantry gain additional armor when massed) (Saxons)"
-basis = "The bordweall of The Battle of Brunanburh (937); the close shield formation is described at Maldon (991) and Hastings (1066), where the English line held through most of the day. It was common Germanic practice (and late Roman and Byzantine, the fulcum of the Strategikon), not something the English copied from the Vikings. A long tradition more than a datable reform; kept as a tech, as the game has it (rated faithful by the analysis)."
-relevance = "The shield wall is how the English fought every battle of the period, Hastings included, and it is the civ’s best-known tech."
+change = "new"
+precedent = "Forced Levy (Militia-line gold cost is replaced by additional food cost) (Malay): an existing unique tech, shared and renamed with an identical effect (the Goths’ design also reuses it, as Liber Iudiciorum)"
+basis = "In 893 Alfred divided his levy so that half its men were always at home and half on service, apart from the men who held the burhs (Anglo-Saxon Chronicle 893). Service was owed by land: Domesday’s Berkshire custom (1086) sent one man from every five hides, who received four shillings from each hide for his food or pay for two months (Abels 1988). The effect renders a levy kept by the land that owed it rather than paid from the king’s purse. A datable military reform, so at the Castle (RULES 6.2); it takes the slot the shield wall, a long tradition, held in the game."
+relevance = "The divided levy kept Alfred’s army in the field through the Danish wars of 892–896, which ended with the Danish army breaking up; with the burhs it is the core of the Alfredian military reforms."
+contested = "How the levy was organised (the ‘select fyrd’ debate, see the civ-level contested list); the five-hide rule is recorded only in Domesday."
 
 [[unique_tech]]
 name = "Clerical Recruitment"
@@ -151,7 +167,7 @@ age = "Castle"
 effect = "All gold income +10% faster; Market trading fee reduced to 10%"
 level = 1
 change = "new"
-precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect (the Hindustanis’ design renames it Tanka)"
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect (five other designs reuse it; see open questions)"
 basis = "Æthelstan’s Grately code (c. 926–930) decreed one coinage throughout the king’s realm and minting only in a market town, and Edgar’s reform (c. 973) gave the kingdom a single silver penny of one type, struck in dozens of burh mints and periodically called in and reissued with new types; the system let the late Anglo-Saxon kings raise the great gelds of 991–1018 (Dolley and Metcalf 1961; Molyneaux 2015). Gold income renders the gelds and the profits of the mints, the lower trading fee a single trusted coin in the burh markets. A state reform, so at the Town Center (RULES 6.2)."
 relevance = "The silver penny and the geld made late Anglo-Saxon England one of the most centralised kingdoms of the West (see contested); Cnut conquered a kingdom whose taxes still worked."
 
@@ -173,11 +189,12 @@ remove = [
   "Hoardings",
   "Thumb Ring",
   "Siphons",
+  "Block Printing",
 ]
 
 [tree.basis]
 "Clinker Construction" = "The Sutton Hoo ship (c. 625) is the classic clinker-built hull; the Saxons were the only civ in the game without this tech."
-"Trebuchet" = "The counterweight trebuchet appears in the later 12th century, a century after the end of the civ, and no Anglo-Saxon siege engine of any kind is attested: English siege warfare was blockade, assault and counter-fortification (Alfred’s two forts on the Lea, 895; Edward’s burhs on both banks at Buckingham, 914; the storming of Tempsford and Derby, 917; Anglo-Saxon Chronicle). No substitute is given (RULES 6.11): the civ keeps the Battering, Capped and Siege Ram, the Mangonel and Onager, the Petard and the Housecarl, which is strong against buildings."
+"Trebuchet" = "The counterweight trebuchet appears only in the later 12th century, a century after the end of the civ. No Anglo-Saxon siege engine of any kind is attested either: English siege warfare was blockade, assault and counter-fortification (Alfred’s two forts on the Lea, 895; Edward’s burhs on both banks at Buckingham, 914; the storming of Tempsford and Derby, 917; Anglo-Saxon Chronicle). The rams, Mangonel, Onager and Scorpions stay only as the engine’s minimum abstraction of siege warfare (RULES 6.11, 6.14), not as evidence of Anglo-Saxon engines. No long-range substitute is given (see the power-check open question)."
 "Arbalester" = "The crossbow was practically unknown in Anglo-Saxon England; at Hastings the crossbowmen were on the Norman side (William of Poitiers). The Crossbowman tier is kept as the generic ranged upgrade."
 "Mounted Crossbowman" = "Anachronistic and foreign to an army that rode to battle and fought on foot (Maldon, 991; Hereford, 1055; Hastings, 1066)."
 "Heavy Mounted Crossbowman" = "Same reason as the Mounted Crossbowman."
@@ -191,7 +208,8 @@ remove = [
 "Arrowslits" = "Archery from towers belongs to the stone castles of the Normans and later; archery was marginal in Anglo-Saxon warfare, and the old tower-arrow bonus is dropped for the same reason."
 "Hoardings" = "The timber galleries of 12th–13th-century stone castles; the civ has no castles in that sense (Orderic Vitalis)."
 "Thumb Ring" = "The thumb draw belongs to the steppe and Asian archery traditions; Anglo-Saxon archery was marginal and European. The Britons, the archer civ, also lack the tech."
-"Siphons" = "Named after the Byzantine fire siphon, a state secret never to be given to another nation (De Administrando Imperio 13)."
+"Siphons" = "Named after the Byzantine fire siphon, the projector of Greek fire, a state secret never to be given to another nation (De Administrando Imperio 13); its game effect, an explosive charge for fire ships, has no Anglo-Saxon equivalent. The Fire Galley and Fire Ship stay as the engine’s convention for close-range incendiary warships."
+"Block Printing" = "European block printing dates only from c. 1400, centuries after the civ ends; Anglo-Saxon book culture was manuscript copying (the Lindisfarne Gospels, the scriptoria of the Benedictine reform). The Gaels’ design also leaves the tech out, since the Gaelic world printed nothing before 1567."
 
 [[rename]]
 from = "Varangian Guard"
@@ -207,8 +225,8 @@ basis = "Same as the Varangian Guard rename."
 
 [architecture]
 set = "Northern European"
-basis = "Anglo-Saxon building was overwhelmingly in timber (the halls of Yeavering and Cheddar) and its ships clinker-built (Sutton Hoo), closer to the North Sea world of Scandinavia than to the Gothic stone of the Western European set, which suits the Britons and Franks; it also tells the two English civs apart. The set the Saxons use in the game now could not be confirmed: the official Viking Sagas FAQ gives a new set to the Danes, Varangians and Vikings, while the pre-order page speaks of architecture shared by the Danes, Saxons and Varangians (a reviewer’s web check); the design uses Northern European either way."
-contested = "Late Anglo-Saxon England also built in stone (Brixworth, Escomb, Earls Barton), in a pre-Romanesque style that neither set shows."
+basis = "Anglo-Saxon building was overwhelmingly in timber (the halls of Yeavering and Cheddar) and its ships clinker-built (Sutton Hoo), closer to the North Sea world of Scandinavia than to the Gothic stone of the Western European set, which suits the Britons and Franks; it also tells the two English civs apart. The set the Saxons use in the game now could not be confirmed: the official Viking Sagas FAQ gives a new set to the Danes, Varangians and Vikings, while the pre-order page speaks of architecture shared by the Danes, Saxons and Varangians (a reviewer’s web check), and the repository data hold no architecture field. The ‘change’ field is therefore left out until the set is checked in game (open questions); the design uses Northern European either way."
+contested = "Anglo-Saxon England also built in stone, from the 7th century (Escomb, Brixworth) to the 10th–11th (the tower of Earls Barton), in a pre-Romanesque style that neither set shows (Taylor and Taylor 1965–78)."
 
 [[dropped]]
 item = "Repairers work +25% faster"

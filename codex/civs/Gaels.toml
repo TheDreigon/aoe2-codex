@@ -3,7 +3,7 @@ name = "Gaels"
 original_name = "Celts"
 status = "draft"
 label = "Infantry civilization"
-summary = "Celts reworked as the Gaels of Ireland and Scotland (563–1500): the invented siege identity (siege bonuses, Furor Celtica, Siege Onager, Siege Ram) gives way to a cattle-and-dairy economy and castle-taking infantry; the Kern (the Woad Raider renamed) is the unique unit and the Galloglass (the Varangian Guard renamed) trains at the Barracks; the Schiltron (an existing formation tech renamed) is the Castle tech, Peregrinatio moves to the Monastery and Buannacht, the billeting of hired soldiers, is the Town Center tech; Bombard Cannon, Illumination and Theocracy are added."
+summary = "Celts reworked as the Gaels of Ireland and Scotland (563–1500): the invented siege identity (siege bonuses, Furor Celtica, Siege Onager, Siege Ram) gives way to a cattle-and-dairy economy and castle-taking infantry; the Kern (the Woad Raider renamed) is the unique unit, while the Galloglass (the Varangian Guard renamed) trains at the Barracks and the Hussar becomes the Hobelar; the Schiltron (an existing formation tech renamed) is the Castle tech and Buannacht, the billeting of hired soldiers (Kshatriyas renamed), the Town Center tech; the Irish missions become the team bonus, and Bombard Cannon, Illumination and Theocracy are added."
 ideas = [
   "N2: Give the Kern a javelin thrown before melee (the Hearth Troop’s mechanism) and new art without woad body paint: kerns were javelin-armed light infantry (Gerald of Wales; English 16th-century descriptions).",
   "N2: A dedicated Galloglass unit (mail shirt, padded aketon, iron helmet, long-hafted sparth axe) instead of the renamed Varangian Guard, without its gold generation.",
@@ -16,14 +16,16 @@ contested = [
   "Whether ‘Celts’ is a useful category at all (Simon James, The Atlantic Celts, 1999; John Collis, The Celts, 2003); the reason for the narrower ‘Gaels’.",
   "How Gaelic the medieval kingdom of Scotland was: it was multilingual (Gaelic, Scots, the French of the elite, Norse in the north) and its 12th–14th-century aristocracy was largely of Anglo-Norman or Flemish origin (Bruce, Balliol, Comyn); but Bruce’s war also had a Gaelic side (Carrick, Argyll and the Isles at Bannockburn; Edward Bruce’s Irish campaign of 1315–18 with Domnall Ó Néill). Whether the civ includes the kingdom is the owner’s call (open questions).",
   "The migration of the Scotti from Ireland to Argyll (Ewan Campbell, ‘Were the Scots Irish?’, 2001) and the passage from Pictland to Alba (Alex Woolf, 2007; Dauvit Broun).",
+  "The conversion of the Picts: Bede credits Columba with converting the northern Picts, while modern work sees a gradual conversion, partly earlier and from several directions (James E. Fraser, From Caledonia to Pictland, 2009).",
   "Clontarf (1014) as Irish against Vikings or as an Irish civil war (Seán Duffy, 2013).",
-  "The origins of the hobelar: Irish (J. E. Morris, 1914; James Lydon, 1954) or more mixed (Robert Jones); many hobelars of the English records were colonists of the lordship of Ireland equipped in the Irish manner.",
+  "The origins of the hobelar: Irish (J. E. Morris, 1914; James Lydon, 1954) or more mixed (Robert Jones); many hobelars of the English records were colonists of the lordship of Ireland equipped in the Irish manner, or English.",
   "Where the Book of Kells and the Book of Durrow were made: Iona, Ireland, Northumbria or Pictland.",
 ]
 open_questions = [
-  "Scope: Gaelic Ireland and Gaelic Scotland only, or also the medieval kingdom of Scotland (from the Canmore kings through Balliol and Bruce to the Stewarts)? This draft includes the kingdom. Elements that depend on it: the Schiltron (Falkirk 1298, Bannockburn 1314); the Bombard Cannon (James II); the Knight and Cavalier kept for the Anglo-Norman-descended nobility of Scotland; part of the infantry-speed basis (Bruce’s raids of 1314–22); and part of the anti-building basis (the castles taken in 1313–14; it now also rests on Irish cases and would stand without Scotland). For inclusion: Bruce’s war had a Gaelic side (he was Earl of Carrick, still largely Gaelic-speaking c. 1300, and Barbour puts Angus Óg of Islay with the men of Carrick, Argyll and the Isles in the king’s own division at Bannockburn). Against: the kingdom’s elite and institutions were largely Anglo-Norman. If it is excluded, the Schiltron and the Bombard Cannon need Irish replacements.",
-  "Unique units: the Galloglass is now the Varangian Guard renamed and trained at the Barracks, a tree unit like the Saxons’ and Danes’ Housecarl, so the civ has one unique unit, the Kern. The model is fielded by six civs under three names: Varangian Guard (Byzantines, and the region 04 drafts of the Vikings and Varangians, now being redone as Norwegians and Swedes), Housecarl (Danes, Saxons) and Galloglass (Gaels). Alternatives: a true second unique unit on the infantry Teutonic Knight model (slow, heavily armoured, strong in melee), which fits the galloglass best and is free if the owner accepts the Germans’ mounted Teutonic Knight; or the Goths’ Huskarl, unused but ‘weak vs. Cavalry’, a poor fit. Note also that the Kern, the cheapest Gaelic soldier, is the Castle unit while the costly galloglass trains at the Barracks (a game convention). Keep the renamed tree unit?",
-  "Team bonus: three Gaelic traits benefited neighbours (RULES 6.2): the hobelar light horse (kept as the team bonus), the Irish missions (Peregrinatio, here a Monastery tech) and, if the kingdom of Scotland is in scope, the Auld Alliance with France (1295). The missions weigh more, but as the team bonus they would duplicate the Saxons’ mission-based team bonus, and the Saxons also keep a monk tech (Clerical Recruitment). Keep the hobelars as the team bonus?",
+  "Scope: Gaelic Ireland and Gaelic Scotland only, or also the medieval kingdom of Scotland (from the Canmore kings through Balliol and Bruce to the Stewarts)? This draft includes the kingdom. Elements that depend on it: the Schiltron (Falkirk 1298, Bannockburn 1314); the Bombard Cannon (James II); the Knight and Cavalier kept for the Anglo-Norman-descended nobility of Scotland; the siege engines kept in the tree (Trebuchet, Onager, Capped Ram, Siege Tower, Scorpions), since Scottish siege engineering existed, if limited and mostly unsuccessful, while Gaelic Ireland had none to speak of; the stone-castle items (Keep, Arrowslits, Hoardings), which in Gaelic terms would rest only on the West Highland castles and the later tower houses; the late warships (Carrack, Galleon, Cannon Galleon), which only the ships of James III and James IV could support (Andrew Wood’s Yellow Carvel in the 1480s–90s; the Great Michael of 1511 is after the window); part of the infantry-speed basis (Bruce’s raids of 1314–22); and part of the anti-building basis (the castles taken in 1313–14; it also rests on Irish cases and would stand without Scotland). For inclusion: Bruce’s war had a Gaelic side (he was Earl of Carrick, still largely Gaelic-speaking c. 1300, and Barbour puts Angus Óg of Islay with the men of Carrick, Argyll and the Isles in the king’s own division at Bannockburn). Against: the kingdom’s elite and institutions were largely Anglo-Norman. If it is excluded, the Schiltron and the Bombard Cannon need Irish replacements and the other items above should be reviewed; the Town Center tech (Buannacht) follows the Gaelic lordships either way.",
+  "Unique units: the Galloglass is the Varangian Guard renamed and trained at the Barracks, a tree unit like the Saxons’ and Danes’ Housecarl, so the civ has one unique unit, the Kern. The model is now fielded by four civs under three names: Varangian Guard (Byzantines), Housecarl (Danes, Saxons) and Galloglass (Gaels); the Norwegians and Swedes drop it. Alternatives: a true second unique unit on the infantry Teutonic Knight model (slow, heavily armoured, strong in melee), which fits the galloglass best and is free if the owner accepts the Germans’ mounted Teutonic Knight; or the Goths’ Huskarl, unused but ‘weak vs. Cavalry’, a poor fit. Note also that the Kern, the cheapest Gaelic soldier, is the Castle unit while the costly galloglass trains at the Barracks (a game convention). Keep the renamed tree unit?",
+  "Team bonus: the Irish missions now hold it (RULES 6.2, religious influence), with ‘Monasteries work +20% faster’, the same team bonus as the Saxons’ Anglo-Saxon missions and five other designs (Bulgarians, Danes, Hindustanis, Khitans, Malay). Alternatives: ‘Universities work +80% faster’ for the Irish scholars of the Carolingian schools (Dicuil, Dungal, Sedulius Scottus, John Scottus Eriugena), which would set the Gaels apart from the Saxons but repeat the team bonus of the Franks and five other designs; or, if the kingdom of Scotland stays in scope, the Auld Alliance with France (Treaty of Paris, 1295; the Scottish army in France, 1419–24, with Baugé, 1421, and Verneuil, 1424; the Scots guard of the French kings). The hobelars, the previous team bonus, served the English Crown more than the Gaels’ allies and are now the Hussar renamed Hobelar. Keep the missions?",
+  "Buannacht reuses Kshatriyas (Military Units cost -25% food; level 1), which renders most literally the food the subjects owed; the Gaels are the seventh design with that effect. The first draft’s new tech, ‘Kerns and Galloglasses cost -20%’ (level 2), was aimed at the hired soldiers alone. Keep level 1?",
 ]
 
 [profile]
@@ -32,15 +34,18 @@ region = "Ireland, Scotland and the Hebrides"
 window = "563–1500 (from Columba’s foundation of Iona to the end of the time frame; Gaelic Ireland lasted until the Tudor conquest of 1603)"
 sources = [
   "Adomnán, Life of Columba (c. 700)",
+  "Bede, Historia ecclesiastica gentis Anglorum (731)",
   "Annals of Ulster; Annals of Connacht; Annals of Inisfallen",
   "Gerald of Wales, Topographia Hibernica and Expugnatio Hibernica (1180s)",
   "John Barbour, The Brus (1375); Lanercost Chronicle",
-  "Fergus Kelly, Early Irish Farming (1997)",
+  "Fergus Kelly, A Guide to Early Irish Law (1988); Early Irish Farming (1997)",
   "T. M. Charles-Edwards, Early Christian Ireland (2000)",
   "Katharine Simms, From Kings to Warlords (1987)",
   "Kenneth Nicholls, Gaelic and Gaelicised Ireland in the Middle Ages (1972; 2nd ed. 2003)",
+  "James Lydon, ‘The hobelar: an Irish contribution to medieval warfare’, The Irish Sword 2 (1954)",
   "G. W. S. Barrow, Robert Bruce and the Community of the Realm of Scotland (1965; 4th ed. 2005)",
   "Seán Duffy (ed.), The World of the Galloglass: Kings, Warlords and Warriors in Ireland and Scotland, 1200–1600 (2007)",
+  "James E. Fraser, From Caledonia to Pictland: Scotland to 795 (2009)",
   "Alex Woolf, From Pictland to Alba 789–1070 (2007)",
 ]
 replaces = "Celts: an umbrella for the Celtic-speaking peoples of the British Isles (Irish, Scots, Welsh, implicitly Cornish), mixed with Iron Age imagery (woad, ‘furor’) and built around William Wallace’s Scotland"
@@ -52,7 +57,7 @@ level = 1
 change = "new"
 replaces = "Lumberjacks work +15% faster"
 precedent = "Can garrison livestock in Mills to passively produce food (Gurjaras)"
-basis = "Gaelic wealth was counted in cattle (the sét and cumal units of the law tracts), and cows were kept above all for milk: milk, butter and curds were staples of the diet (Kelly, Early Irish Farming, 1997). Livestock that yields food without being slaughtered is the dairy economy. The lumberjack bonus it replaces rested on the stereotype of Celts as forest people (rated ‘stretched’)."
+basis = "Gaelic value was reckoned in cattle: the units of the law tracts, the sét (about half a milch cow) and the cumal (literally a bondwoman, worth three milch cows), were expressed in cows, and cows were kept above all for milk: milk, butter and curds were staples of the diet (Kelly, A Guide to Early Irish Law, 1988; Early Irish Farming, 1997). Livestock that yields food without being slaughtered is the dairy economy. The lumberjack bonus it replaces rested on the stereotype of Celts as forest people (rated ‘stretched’)."
 relevance = "Milk, not meat, made cattle the measure of wealth, law and status in Gaelic society."
 
 [[bonus]]
@@ -63,7 +68,7 @@ change = "kept"
 replaces = "Livestock animals within Celt unit line of sight cannot be stolen"
 precedent = "Livestock animals within Celt unit line of sight cannot be stolen (Celts)"
 basis = "Cattle were the stake of Gaelic warfare: the cattle raid (creach) was the ordinary form of war in Ireland and the Highlands, and the great epic is the Táin Bó Cúailnge, ‘The Cattle Raid of Cooley’ (Kelly 1997; Simms 1987). Guarding one’s herds was a first duty. Only ‘Celt’ is changed to ‘Gael’ in the wording."
-relevance = "The cattle raid was the ordinary form of Gaelic war, and guarding the herds came first."
+relevance = "Herds were the capital of Gaelic lordship: lords advanced cattle to their clients (the fief, rath) and took renders (bés) in return, so a lord who could not shield his clients’ herds from the creach lost them; this bonus is the war over cattle, the dairy bonus the economy that made them worth raiding."
 
 [[bonus]]
 text = "Infantry moves +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age"
@@ -86,14 +91,14 @@ basis = "Gaels and Scots took strongholds by surprise, escalade, fire and blocka
 relevance = "Taking and razing castles without engines was how Gaelic lords rolled back the Anglo-Norman conquest and how Bruce won back Scotland."
 
 [team_bonus]
-text = "Scout Cavalry-line +2 line of sight"
+text = "Monasteries work +20% faster"
 level = 1
 change = "new"
 replaces = "Siege Workshops work +20% faster"
-precedent = "Scout Cavalry-line +2 line of sight (Mongols team bonus)"
-basis = "Irish light horsemen rode small horses without saddles or spurs (Gerald of Wales, Topographia Hibernica III). As ‘hobelars’ they first appear in English records among the troops raised in the lordship of Ireland for Edward I’s Scottish campaign of 1296 under John Wogan: light horsemen on the Gaelic model, valued as scouts and raiders and imitated in English armies (J. E. Morris, 1914; James Lydon, ‘The hobelar’, The Irish Sword, 1954). A team bonus because the type served and spread to neighbours (RULES 6.2: transferred technique); the Gaelic link is the type of horseman, not always the men."
-relevance = "Light horse for scouting and raiding was a constant of Gaelic war, and its adoption by English armies is its clearest benefit to neighbours; a modest pass for the highest slot (see open questions)."
-contested = "The Irish origin of the hobelar has been questioned (Robert Jones)."
+precedent = "Monasteries work +20% faster (Lithuanians team bonus); the Saxons’ design gives the same team bonus to the Anglo-Saxon missions"
+basis = "Irish monks converted and taught their neighbours in voluntary exile for God (peregrinatio pro Christo): Columba founded Iona (563), from which Aidan founded Lindisfarne (635) and completed the conversion of Northumbria that Paulinus’ Roman mission had begun with Edwin’s baptism (627); Columbanus founded Annegray, Luxeuil (c. 590) and Bobbio (614), and his companion Gall’s hermitage became the abbey of St Gall; and Irish scholars taught in the Carolingian world: Dicuil at the court of Louis the Pious, Dungal at Pavia (named master of its school in 825), Sedulius Scottus at Liège and John Scottus Eriugena at the court of Charles the Bald (Bede, HE II–III; Adomnán; Charles-Edwards 2000). Faster allied monasteries render the monks and houses the Irish founded and trained among their neighbours. A team bonus because it benefited neighbours (RULES 6.2: religious influence). The Anglo-Saxon mission, which the Saxons’ design renders with the same bonus, grew partly out of it (Willibrord trained at Rath Melsigi in Ireland)."
+relevance = "The Irish missions converted Northumbria after 635, shaped the Church of the Picts and founded monasteries from Iona to Bobbio: the Gaels’ greatest contribution to medieval Europe."
+contested = "How far Columba and Iona converted the Picts (see the civ-level contested list)."
 
 [[unique_unit]]
 name = "Kern"
@@ -102,8 +107,8 @@ building = "Castle"
 level = 1
 change = "changed"
 replaces = "Woad Raider"
-basis = "The kern, from Irish ceithern, a band of light foot (one soldier was a ceithernach), Englished as kern: the lightly armed foot soldiers who made up the bulk of Gaelic armies from the early Middle Ages to the 16th century, fast, unarmoured, raiding and skirmishing (Gerald of Wales; Simms 1987). The Woad Raider’s fast, lightly protected infantry fits them; only the name changes (see the renames). No medieval source describes Gaelic warriors painting themselves: the motif is classical (Caesar on the Britons, De Bello Gallico V.14; Claudian and Isidore of Seville, Etymologiae XIX.23.7, on the Picts) and modern (the film Braveheart)."
-relevance = "Kerns were the mass of every Gaelic army for a thousand years and, with the galloglass, the Gaelic soldier of English imagination (‘kerns and gallowglasses’, Macbeth I.2)."
+basis = "The kern, from Irish ceithern, a band of light foot (one soldier was a ceithernach), Englished as kern: the light foot of Gaelic armies, documented as a distinct type, often hired, from the 13th to the 16th century and rooted in the early war-band (Simms 1987; Nicholls 1972; eDIL s.v. ceithern), unarmoured, raiding and skirmishing with darts, spears and axes (Gerald of Wales). The Woad Raider’s fast, lightly protected infantry fits them; only the name changes (see the renames). No medieval source describes Gaelic warriors painting themselves: the motif is classical (Caesar on the Britons, De Bello Gallico V.14; Claudian and Isidore of Seville, Etymologiae XIX.23.7, on the Picts) and modern (the film Braveheart)."
+relevance = "Light foot were the bulk of Gaelic armies, documented as kern from the 13th to the 16th century, and with the galloglass the kern is the Gaelic soldier of English imagination (‘kerns and gallowglasses’, Macbeth I.2)."
 contested = "The kern’s typical weapon was the dart or javelin, which the model lacks (see the N2 idea); the art still shows woad until N2/N3."
 
 [[unique_tech]]
@@ -121,27 +126,15 @@ relevance = "The schiltron won Bannockburn, which secured Scottish independence,
 contested = "The schiltron belongs to the Scottish kingdom as a whole (Lowland and Gaelic), not to Ireland (see the scope question)."
 
 [[unique_tech]]
-name = "Peregrinatio"
-building = "Monastery"
-kind = "civil"
-age = "Castle"
-effect = "Monks move +20% faster; Monastery technologies cost -50%"
-level = 2
-change = "new"
-precedent = "Effect 1: Monks move +20% faster (Slavs); effect 2: Monastery technologies cost -50% (Burmese). No existing unique tech fits: the monastic techs of the game render conversion, healing or payment in food, none the wandering monk."
-basis = "Peregrinatio pro Christo, voluntary exile for God: Columba founded Iona (563), Aidan went from Iona to found Lindisfarne (635) and convert Northumbria, Columbanus founded Luxeuil (c. 590) and Bobbio (614), and Irish monks carried learning across Europe (Adomnán; Charles-Edwards 2000). Faster monks render the wanderers, cheaper monastery techs the many foundations and their schools. At the Monastery, where religion belongs (RULES 6.2). With Illumination and Theocracy added, the monastery tree is no longer the ironic gap of the old Celts; Atonement, Redemption and Block Printing stay out (European block printing dates only from c. 1400)."
-relevance = "The Irish missions converted northern Britain and founded monasteries from Iona to Bobbio: the Gaels’ greatest contribution to medieval Europe."
-
-[[unique_tech]]
 name = "Buannacht"
 building = "Town Center"
 kind = "civil"
-age = "Imperial"
-effect = "Kerns and Galloglasses cost -20%"
-level = 2
+age = "Castle"
+effect = "Military Units cost -25% food"
+level = 1
 change = "new"
-precedent = "Butalmapu (Team Castle Unique Units and Bolas Riders cost -15%) (Mapuche), a tech that cheapens named units; Camel Riders, Skirmishers and Spearman-line cost -25% (Byzantines) for the magnitude. Applied to the Kern and the Galloglass. No existing unique tech renders a Gaelic institution of lordship."
-basis = "Buannacht (anglicised ‘bonaght’): Gaelic lords kept their hired soldiers, galloglass above all and later bands of kern too, by billeting them on their subjects, who owed food and quarters; Anglo-Irish lords adopted the practice, which the Dublin government condemned as ‘coign and livery’ (Nicholls 1972; Simms 1987). The discount renders soldiers whose keep fell on the land rather than on the lord’s purse. A swap of gold for food would render the payment in kind more literally, but with the Varangian Guard model, which generates gold in combat, it would make the Galloglass a gold-free unit that earns gold. Gaelic Ireland had kings but no single state, so the Town Center tech stands for an institution of lordship, as RULES 6.3 allows for peoples without a state."
+precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, shared, moved to the Town Center and renamed with an identical effect; six other designs reuse it for systems of service paid in land or kind (the Burmese Ahmudan, the Byzantines’ Themata, the Ethiopians’ Gult, the Gurjaras’ Samantas, the Japanese Shugo-Jitō, the Jurchens’ Meng’an Mouke)"
+basis = "Buannacht (anglicised ‘bonaght’): Gaelic lords kept their hired soldiers, galloglass above all and later bands of kern too, by billeting them on their subjects, who owed them food and quarters; Anglo-Irish lords adopted the practice, which the Dublin government condemned as ‘coign and livery’ (Nicholls 1972; Simms 1987). Cheaper food renders soldiers fed by the land rather than paid from the lord’s purse; it leaves the gold cost alone, so the Galloglass (Varangian Guard model, which earns gold in combat) does not become a gold-free unit that earns gold. An exaction of lordship rather than a community institution (RULES 6.3): Gaelic Ireland was ruled through its lordships, and the Town Center tech follows them even if the kingdom of Scotland is in scope. An existing tech fits, so it replaces the first draft’s new tech (‘Kerns and Galloglasses cost -20%’, level 2)."
 relevance = "Buannacht paid for the galloglass and kerns who carried the Gaelic resurgence of the 14th and 15th centuries; Gaelic lordship as the English met it rested on it."
 contested = "The term and its rules are documented mostly in 15th–16th-century sources; how far back the system goes is inferred (Nicholls; Simms)."
 
@@ -153,10 +146,10 @@ remove = ["Siege Onager", "Siege Ram", "Paladin", "Mounted Crossbowman", "Heavy 
 "Varangian Guard" = "Added at the Barracks as the Galloglass (see the renames): the galloglass (gallóglaigh, ‘foreign warriors’) were heavy infantry from the Hebrides and the West Highlands, of mixed Norse-Gaelic descent, in mail and iron helmet with a long-hafted axe, the steady core of Gaelic armies until the 16th century (Simms 1987; Duffy 2007). The model is axe-armed shock infantry strong against cavalry. A renamed tree unit, like the Saxons’ and Danes’ Housecarl, not a unique unit."
 "Elite Varangian Guard" = "Same as the Varangian Guard (Elite Galloglass)."
 "Bombard Cannon" = "The one solid siege tradition of the civ: James II of Scotland used artillery against the Douglases (Threave, 1455), received Mons Meg (made at Mons in 1449 for Philip the Good of Burgundy) between 1454 and 1457 (the sources differ), and was killed at the siege of Roxburgh (3 August 1460) when one of his guns burst. Depends on including the Scottish kingdom (open questions)."
-"Illumination" = "The name evokes Insular manuscript art (the Book of Kells, c. 800, the Book of Durrow and the Cathach), the best-known Gaelic achievement of the Middle Ages; the effect (faster recovery of faith) is generic."
-"Theocracy" = "The great monastic federations (familiae) of Iona and Armagh, ruled by abbots who were often of royal kin; the effect is generic. Added with Illumination for a civ whose monasticism shaped its history."
+"Illumination" = "The name evokes Insular manuscript art (the Book of Kells, c. 800, the Book of Durrow and the Cathach), the best-known Gaelic achievement of the Middle Ages; the effect (faster recovery of faith) is generic. Atonement, Redemption and Block Printing stay out: the first two would add power without a Gaelic basis, and the Gaelic world printed nothing before John Carswell’s Gaelic Book of Common Order (1567)."
+"Theocracy" = "The great monastic federations (familiae) of Iona and Armagh, ruled by abbots who were often of royal kin; the effect is generic. Added with Illumination for a civ whose monasticism shaped its history (see the team bonus)."
 "Two-Man Saw" = "Substitute for the removed lumberjack bonus (RULES 6.11), so that the wood economy is not crippled; Ireland kept large oak woods until the 16th–17th-century plantations."
-"Siege Onager" = "No Gaelic or Scottish tradition of siege engineering; the elite siege upgrades rested on the invented ‘siege civilization’ identity."
+"Siege Onager" = "Scottish siege engineering was limited and mostly unsuccessful (the stone-thrower, belfry and sow that failed at Carlisle in 1315, Lanercost Chronicle; the Fleming John Crab’s engines in the defence of Berwick, 1319, Barbour; James I’s failed siege of Roxburgh with guns, 1436), and Gaelic Ireland had none to speak of; the elite siege upgrades rested on the invented ‘siege civilization’ identity. The lower siege units stay as the engine’s minimum abstraction and depend on the scope question."
 "Siege Ram" = "Same reason: castles were taken by surprise and escalade, then slighted (see the anti-building bonus); the Capped Ram is kept."
 "Paladin" = "Gaelic cavalry was light (Gerald of Wales; the hobelars). Heavy cavalry existed only among the Anglo-Norman-descended nobility of Scotland, which the Knight and Cavalier cover (see the scope question)."
 "Mounted Crossbowman" = "No mounted crossbowmen are recorded in Gaelic Ireland or Scotland, and the crossbow itself was marginal (Pictish sculpture shows crossbow hunters, as on the Drosten stone at St Vigeans)."
@@ -186,6 +179,12 @@ to = "Elite Galloglass"
 level = 1
 basis = "Same as the Varangian Guard rename."
 
+[[rename]]
+from = "Hussar"
+to = "Hobelar"
+level = 1
+basis = "The hobelar, the name English records give from the 1290s to light horsemen on the Irish model, riding small horses without saddle or spurs as Gerald of Wales describes the Irish (Topographia Hibernica III): they first appear among the troops raised in the lordship of Ireland under the justiciar John Wogan for Edward I’s Scottish campaign of 1296, valued as scouts and raiders, and were soon imitated in English armies (J. E. Morris, 1914; Lydon 1954). The Hussar is a 15th-century Hungarian and Serbian type, but its function, light horse for scouting and raiding, has a Gaelic equivalent, so the top tier is renamed (RULES 6.10) rather than removed as for the Saxons and Burgundians. The name comes from English records, as ‘kern’ does from Irish ceithern, and many hobelars were colonists of the lordship or English (see contested)."
+
 [architecture]
 set = "Western European"
 change = "kept"
@@ -194,4 +193,4 @@ basis = "Irish and Scottish stone churches, round towers, Romanesque (Cormac’s
 [[dropped]]
 item = "Stronghold"
 kind = "unique_tech"
-reason = "Rated ‘stretched’, and it fails the relevance test (RULES 6.9): holding castles was not how the Gaels fought; the best-known Scottish castle strategy was to slight castles, not to keep them, and the healing aura is pure mechanics. Its Castle slot goes to the Schiltron; the tower-house idea is kept as an N3 building."
+reason = "Rated ‘stretched’, and it fails the relevance test (RULES 6.9): castle-holding was neither distinctive nor decisive in Gaelic warfare, whose best-known castle strategy was capture and slighting, and the healing aura is pure mechanics. Gaelic lords did build and hold castles, the West Highland castles of c. 1200 and the 13th century (Castle Sween, Dunstaffnage) and the tower houses of the 15th (Blarney, 1446), which are left to the N3 Tower House idea. Its Castle slot goes to the Schiltron."

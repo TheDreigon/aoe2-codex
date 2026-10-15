@@ -2,10 +2,11 @@ civ = "Burgundians"
 name = "Burgundians"
 status = "draft"
 label = "Cavalry and Gunpowder civilization"
-summary = "Valois Burgundy (1363–1477), the richest state of the Low Countries: early economic upgrades, Castle-Age Cavaliers, gunpowder attack, the Coustillier and the Flemish Militia kept; the Bruges entrepôt becomes the team bonus in place of the relic bonus, the town shooting guilds (schutterijen) replace the stable discount, Burgundian Vineyards moves to the Town Center, the Order of the Golden Fleece replaces the history-inverting Flemish Revolution, and the tree gains Arbalester, Ring Archer Armor, Siege Engineers and Dry Dock while losing Hussar and Siphons."
+summary = "Valois Burgundy (1363–1477), the richest state of the Low Countries: early economic upgrades, Castle-Age Cavaliers, gunpowder attack, the Coustillier and the Flemish Militia kept; the Bruges entrepôt becomes the team bonus in place of the relic bonus, the archer-heavy ducal army replaces the stable discount, the common coinage of 1433–34 (Grand Trunk Road renamed) becomes the Town Center tech while Burgundian Vineyards moves to the Mill, the Order of the Golden Fleece replaces the history-inverting Flemish Revolution, and the tree gains Arbalester, Siege Engineers and Dry Dock while losing Hussar, Siphons and Incendiaries."
 ideas = [
   "N2: ‘Charles’s Ordinances’ (1471–73): Castles spawn a mixed lance (Coustillier, mounted archers, crossbowman, hand-gunner, pikeman) with the First Crusade’s spawning mechanism; spawning several unit types at once is not yet in the game.",
   "N2: Distinct art for the Flemish Militia’s goedendag and pike, and a pike variant for Charles the Bold’s attempt to field pikemen on the Swiss model (1476).",
+  "N2: Split the Archer and Crossbowman lines (RULES section 10): the towns had separate crossbow guilds (Saint George) and handbow guilds (Saint Sebastian), and the lance of 1471 set three mounted archers with bows beside one crossbowman.",
   "N3: The early-medieval Burgundians (the kingdom of Worms c. 413–436 and of Sapaudia and the Rhône, 443–534) and the kingdom of Arles (933–1032) are not represented by this design; at most a history-text section.",
 ]
 contested = [
@@ -15,11 +16,12 @@ contested = [
   "Philip the Good’s share of responsibility for handing Joan of Arc to the English (she was captured and sold by his vassal John of Luxembourg).",
 ]
 open_questions = [
-  "Imperial unique tech: the Order of the Golden Fleece (a new tech, level 2) replaces Flemish Revolution. Its armour half is the same effect as the Armenians’ Sparapet (Hauberk renamed). Alternatives: Hauberk shared and renamed ‘Order of the Golden Fleece’ (level 1, armour only), or ‘Great Bombards’ for the ducal artillery park (Bombard Cannons +1 range, after the Turks’ Artillery at a lower magnitude; Siege Weapons +20% attack vs. buildings, after Siege Engineers). Which?",
-  "Cavalier upgrade in Castle Age is kept although rated ‘stretched’ (the Burgundian standing companies of 1471 came 26 years after the French ones of 1445), as the mark of a lavishly equipped chivalric nobility. Keep it, or replace it?",
-  "Differentiation from the Franks: the mounted-crossbow line stays Frankish (with their Ordonnance Companies tech), so the Burgundians keep only the Mounted Crossbowman, without Heavy Mounted Crossbowman and Cranequins, and take the foot-crossbow and siege package instead (shooting guilds, Arbalester, Siege Engineers). Tree similarity with the Franks is 0.821 now and 0.852 with this design (0.866 in the first draft, which added both upgrades). Add them anyway for the mounted archers of the lances?",
+  "Town Center tech: the common coinage of 1433–34 (Vierlander Coinage, Grand Trunk Road renamed, level 1) now holds the state slot, and Burgundian Vineyards moves to the Mill, since the 1395 ordinance concerns farming and weighs less for the state than the ducal institutions. The coinage’s effect is shared with five other designs (the Saxons’ Edgar’s Recoinage, the Hindustanis’ Tanka, the Khitans’ Chanyuan Treaty, the Malay Syahbandar and the Muisca Cotton Mantles), and the civ now has three techs, two of them economic. Alternatives: a level-2 tech for another institution with an effect no one else uses (the Chambres des comptes of 1386 or the Parlement of Mechelen of 1473), or Vineyards back at the Town Center and no third tech. Which?",
+  "Imperial unique tech: the Order of the Golden Fleece (a new tech, level 2) replaces Flemish Revolution, with armour for the nobility the Order headed and resistance to conversion for its knights’ sworn loyalty to the duke. Its armour half is the effect of Hauberk (Sicilians), which the Armenians’ design shares as Sparapet. Alternatives: Hauberk shared and renamed ‘Order of the Golden Fleece’ (level 1, armour only, the half least specific to the Order), or ‘Great Bombards’ for the ducal artillery park (Bombard Cannons +1 range, after the Turks’ Artillery at a lower magnitude; Siege Weapons +20% attack vs. buildings, after Siege Engineers). Which?",
+  "Cavalier upgrade in Castle Age is kept as the mark of a lavishly equipped tournament nobility, although it is rated ‘stretched’ (the Burgundian standing companies of 1471 came 26 years after the French ones of 1445) and overlaps the Golden Fleece’s armour half. Keep it, or replace it?",
+  "Differentiation from the Franks and the Britons: the mounted-crossbow line stays Frankish (with their Ordonnance Companies tech), so the Burgundians keep only the Mounted Crossbowman, without Heavy Mounted Crossbowman and Cranequins; and Ring Archer Armor, which the last revision added, is left out, so that the archer discount does not come with the Britons’ full archery upgrades. Tree similarity with the Franks goes from 0.821 to 0.851 (0.866 in the first draft) and with the Britons from 0.800 to 0.850 (0.856 with Ring Archer Armor); the Franks’ file lists all region pairs. Add any of these back?",
   "English archers: Charles the Bold hired English archers after his alliance with Edward IV and his marriage to Margaret of York (1468); they served at Neuss and Morat (Vaughan 1973). A tech letting the civ train Longbowmen (analysis proposal) is not adopted, to keep the Longbowman distinct to the Britons. Agree?",
-  "Power check: the civ loses the stable discount, Flemish Revolution, the relic team bonus, Hussar and Siphons, and gains the shooting-guild discount, the Golden Fleece, the trade team bonus and four tree items (Arbalester, Ring Archer Armor, Siege Engineers, Dry Dock): a shift from cavalry towards crossbows and siege. Acceptable?",
+  "Power check: the civ loses the stable discount, Flemish Revolution, the relic team bonus, Hussar, Siphons and Incendiaries, and gains the archer discount, the common coinage (a third tech), the Golden Fleece, the trade team bonus and three tree items (Arbalester, Siege Engineers, Dry Dock): a shift from cavalry towards archers, siege and economy, with three economic elements (the early economic upgrades, the Vineyards and the coinage). Acceptable?",
   "Flemish Militia keeps its name although the Flemish towns fought the dukes more often than for them (Gavere, 1453). Keep it?",
 ]
 
@@ -32,11 +34,14 @@ sources = [
   "Richard Vaughan, Philip the Bold (1962); John the Fearless (1966); Philip the Good (1970); Charles the Bold (1973)",
   "Bertrand Schnerb, L’État bourguignon 1363–1477 (1999)",
   "Wim Blockmans and Walter Prevenier, The Promised Lands: The Low Countries under Burgundian Rule, 1369–1530 (1999)",
+  "Peter Spufford, Monetary Problems and Policies in the Burgundian Netherlands 1433–1496 (1970)",
   "Robert D. Smith and Kelly DeVries, The Artillery of the Dukes of Burgundy, 1363–1477 (2005)",
+  "Laura Crombie, Archery and Crossbow Guilds in Medieval Flanders, 1300–1500 (2016)",
   "Raymond de Roover, Money, Banking and Credit in Mediaeval Bruges (1948); The Rise and Decline of the Medici Bank, 1397–1494 (1963)",
   "James M. Murray, Bruges, Cradle of Capitalism, 1280–1390 (2005)",
   "D’Arcy J. D. Boulton, The Knights of the Crown: The Monarchical Orders of Knighthood in Later Medieval Europe (1987)",
   "Monique Sommé, Isabelle de Portugal, duchesse de Bourgogne (1998)",
+  "Roger Dion, Histoire de la vigne et du vin en France des origines au XIXe siècle (1959)",
 ]
 replaces = "Burgundians as a 411–1477 sweep (the Germanic kingdom, the kingdom of Arles, the Capetian duchy and the Valois state); the design represents only the Valois state"
 
@@ -56,8 +61,9 @@ level = 1
 change = "new"
 replaces = "Stable technologies cost -50%"
 precedent = "Foot Archers cost -10/20/30% in Feudal/Castle/Imperial Age (Mayans), narrowed to the Archer-line in Castle and Imperial Age"
-basis = "The towns of Flanders and Brabant had sworn shooting guilds (schutterijen): the crossbowmen of Saint George and the archers of Saint Sebastian, who trained, held shooting contests and supplied contingents to urban and ducal armies; Charles the Bold’s lances of 1471–73 counted crossbowmen and mounted archers (Vaughan 1973). Cheaper Archer-line units render this reservoir of trained urban marksmen. A long-standing urban institution, so a passive (RULES 6.2). The stable discount it replaces had no specific basis."
-relevance = "Shooting guilds were an institution of every Flemish and Brabantine town and a main source of the dukes’ foot; a borderline pass on weight, helped by their fame as the civic militias of the Low Countries."
+basis = "Burgundian armies were archer-heavy: the dukes drew archers from noble retinues, above all from Picardy, and from town levies; Charles the Bold’s ordinance lance of 1471 set three mounted archers beside each man-at-arms, with a crossbowman on foot; and in the 1470s he also hired English archers (Vaughan 1973). The towns’ sworn shooting guilds (schuttersgilden, in French serments), the crossbowmen of Saint George and the archers of Saint Sebastian, trained, held shooting contests and were a further reservoir of marksmen (Laura Crombie, Archery and Crossbow Guilds in Medieval Flanders, 1300–1500, 2016). A lasting feature of the dukes’ armies, so a passive (RULES 6.2). The stable discount it replaces had no specific basis."
+relevance = "Archers outnumbered the men-at-arms in the dukes’ armies from Philip the Good to Charles the Bold’s ordinance companies, and the shooting guilds were an institution of every Flemish and Brabantine town."
+contested = "The guilds were a small elite within the town contingents, more prominent in civic ritual, contests and urban revolts than in ducal campaigns (Crombie 2016); the archers of the lances were professional ordinance troops, not guildsmen."
 
 [[bonus]]
 text = "Cavalier upgrade available in Castle Age"
@@ -65,8 +71,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Cavalier upgrade available in Castle Age (Burgundians)"
-basis = "The dukes’ wealth paid for one of the best-equipped nobilities of Europe, steeped in tournament culture (the pas d’armes of Jacques de Lalaing) and bound to the duke by the Order of the Golden Fleece (1430)."
-relevance = "The Burgundian court was the most lavish centre of late chivalric culture, and its nobility rode in the best armour of the age."
+basis = "The dukes’ wealth paid for one of the best-equipped nobilities of Europe, steeped in tournament culture: Jacques de Lalaing’s Pas de la Fontaine des Pleurs (Chalon-sur-Saône, 1449–50) and the Pas de l’Arbre d’Or at the wedding of Charles the Bold and Margaret of York (Bruges, 1468) (Vaughan 1970, 1973)."
+relevance = "The Burgundian court was the most lavish centre of late chivalric culture and its nobility rode in the best armour of the age; a borderline pass, kept mainly for its fame as the civ’s established feature, and overlapping the Golden Fleece’s armour half (see open questions)."
 contested = "Rated ‘stretched’: the Burgundian standing companies (1471) came after the French ones (1445), so ‘early’ heavy cavalry has no institutional basis (see open questions)."
 
 [[bonus]]
@@ -85,9 +91,9 @@ level = 1
 change = "new"
 replaces = "Relics generate food in addition to gold"
 precedent = "Trade Units generate +25% gold (Spanish team bonus), at +15%"
-basis = "Under the dukes Bruges was the entrepôt of northern Europe: seat of one of the four great Kontore of the Hanse and home to Venetian, Genoese, Florentine, Castilian and Portuguese merchant nations, with the Ter Beurze square where Italian merchant-bankers dealt in bills of exchange (de Roover 1948; Murray 2005); the Medici branch under Tommaso Portinari lent heavily to Charles the Bold (de Roover 1963). Its trade profited the partners as much as Flanders, and the dukes defended it: Isabella of Portugal led the Anglo-Burgundian conferences at Gravelines (1439) that reopened trade between England and Flanders (Sommé 1998). Bruges remained the leading market under the dukes, while the Brabant fairs of Antwerp, which they favoured, were rising. A team bonus because the trade benefited neighbours and allies (RULES 6.2); the first draft had it as a passive bonus."
+basis = "Under the dukes Bruges was the entrepôt of northern Europe: seat of one of the four great Kontore of the Hanse and home to Venetian, Genoese, Florentine, Castilian and Portuguese merchant nations, with the Ter Beurze square where Italian merchant-bankers dealt in bills of exchange (de Roover 1948; Murray 2005); the Medici branch under Tommaso Portinari lent heavily to Charles the Bold (de Roover 1963). Its trade profited the partners as much as Flanders, and the dukes defended it: Isabella of Portugal, mediating at the Anglo-French peace conference at Gravelines (1439), obtained an Anglo-Flemish commercial truce that reopened trade between England and Flanders (Sommé 1998). Bruges remained the leading market under the dukes, while the Brabant fairs of Antwerp, which they favoured, were rising. A team bonus because the trade benefited neighbours and allies (RULES 6.2); the first draft had it as a passive bonus."
 relevance = "Low Countries trade made the dukes the richest princes of the West and tied Burgundy to England, the Hanse and the Italian and Iberian merchants."
-contested = "Bruges’ commercial peak is usually placed before the Valois period (Murray 2005), and its relations with the dukes were stormy (the revolt of 1436–38)."
+contested = "The dating of Bruges’ peak is debated (Murray’s 1280–1390 against the traditional 15th-century apogee); its decline came mostly after the window (the revolt against Maximilian in 1488, the move of the foreign merchants to Antwerp, the silting of the Zwin), and its relations with the dukes were stormy (the revolt of 1436–38)."
 
 [[unique_unit]]
 name = "Coustillier"
@@ -96,7 +102,7 @@ building = "Castle"
 level = 1
 change = "kept"
 basis = "The coustillier (coutilier), named after his coustille (long knife or short sword), was the armed attendant of the man-at-arms in each lance of Charles the Bold’s ordinances (1471–73); the post already existed in the French companies of 1445."
-relevance = "The coustillier belongs to the lance of Charles the Bold’s standing army, with which he tried to make Burgundy a kingdom; it is also the civ’s best-known unit."
+relevance = "The coustillier belongs to the lance of Charles the Bold’s standing army (1471–77), the instrument of his wars from Neuss to Nancy; it is also the civ’s best-known unit."
 contested = "He was a lighter auxiliary than the man-at-arms; the ‘powerful charged attack’ is a game invention."
 
 [[unique_unit]]
@@ -110,18 +116,31 @@ relevance = "The armed towns were the great political force of the Burgundian Lo
 contested = "They were more famous for fighting the dukes (Bruges 1436–38, Ghent 1449–53, crushed at Gavere) than for serving them."
 
 [[unique_tech]]
-name = "Burgundian Vineyards"
+name = "Vierlander Coinage"
 building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "All gold income +10% faster; Market trading fee reduced to 10%"
+level = 1
+change = "new"
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect (five other designs reuse it; see open questions)"
+basis = "Philip the Good’s monetary ordinance of 1433 gave Flanders, Brabant, Hainaut and Holland-Zeeland a common coinage from 1434, struck to one standard in the mints of the four lands, whose silver pieces were known as vierlanders, ‘four-lands’ coins (Spufford, Monetary Problems and Policies in the Burgundian Netherlands 1433–1496, 1970). With the Chambres des comptes of Dijon and Lille (1386), the first States General (1464) and the Parlement of Mechelen (1473), it was one of the institutions that bound the Burgundian Netherlands together (Blockmans and Prevenier 1999). Gold income renders the mint profits and the revenues of a richer, more integrated state, the lower trading fee one trusted coin across the markets of the Low Countries. A state reform, so at the Town Center (RULES 6.2)."
+relevance = "The common coinage was one of the first institutions shared by the Burgundian Netherlands, the core of the dukes’ state and of the later Low Countries."
+contested = "Whether the Valois lands formed a state (see the civ-level contested list); the common coinage covered the Low Countries, not the duchy and county of Burgundy."
+
+[[unique_tech]]
+name = "Burgundian Vineyards"
+building = "Mill"
 kind = "civil"
 age = "Castle"
 effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "changed"
 replaces = "Burgundian Vineyards (Castle unique tech, same effect)"
-precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians): moved to the Town Center, identical effect"
-basis = "Philip the Bold’s ordinance of 31 July 1395 banned the ‘disloyal’ Gamay grape in favour of Pinot Noir to protect the quality and name of Burgundy wine; Cistercian viticulture (Clos de Vougeot) had made it a prestige export, and the dukes used it as a diplomatic gift. At the Town Center because it rests on a ducal ordinance, a state act, as with the royal law on farming in the RULES example (Lei das Sesmarias)."
-relevance = "The 1395 ordinance founded the Pinot Noir identity of Burgundy wine, the duchy’s best-known product to this day."
-contested = "Most ducal revenue came from the Low Countries, not from wine; the effect is about farming, so the Mill would also be a natural building."
+precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians): moved to the Mill, identical effect"
+basis = "Philip the Bold’s ordinance of 31 July 1395 banned the ‘disloyal’ Gamay grape in favour of Pinot Noir to protect the quality and name of Burgundy wine (Dion 1959); Cistercian viticulture (Clos de Vougeot) had made it a prestige export, and the dukes used it as a diplomatic gift. At the Mill because the ordinance and the effect concern farming (RULES 6.2); the Town Center slot goes to the common coinage, a weightier act of the state."
+relevance = "The 1395 ordinance is the founding text later cited for the Pinot Noir identity of Burgundy wine, the duchy’s best-known product to this day."
+contested = "Most ducal revenue came from the Low Countries, not from wine, and the ordinance did not eliminate the Gamay, which stayed widely planted in Burgundy for centuries."
 
 [[unique_tech]]
 name = "Order of the Golden Fleece"
@@ -132,21 +151,21 @@ effect = "Knight-line and Coustilliers +1 melee/+2 pierce armor and more resista
 level = 2
 change = "new"
 replaces = "Flemish Revolution (All existing Villagers are transformed to Flemish Militia)"
-precedent = "Effect 1: Hauberk (Knight-line +1 melee/+2 pierce armor) (Sicilians), extended to the Coustillier; effect 2: units more resistant to conversion (First Crusade, Sicilians; Teutons team bonus). No existing tech joins the two: Hauberk alone lacks the Order’s religious side."
-basis = "Philip the Good founded the Order at Bruges on 10 January 1430, during the festivities for his marriage to Isabella of Portugal, daughter of John I; its knights (24 under the statutes of 1431, 30 from 1433) were bound to the duke as sovereign and had their conduct reviewed at each chapter (Vaughan, Philip the Good, 1970; Boulton 1987). Its declared purpose was the defence of the Catholic faith and the crusade, culminating in the Vow of the Pheasant at Lille (17 February 1454): that is what the conversion resistance renders. The extra armour stands for the nobility the Order headed, equipped in Milanese and Low Countries plate; Coustilliers benefit as part of the lance, not as members. Armour rather than HP keeps it distinct from the Franks’ mounted HP bonus. It replaces Flemish Revolution, which turned the duke’s own subjects into the militias that historically rebelled against him."
+precedent = "Effect 1: Hauberk (Knight-line +1 melee/+2 pierce armor) (Sicilians; the Armenians’ Sparapet), extended to the Coustillier; effect 2: units more resistant to conversion (First Crusade, Sicilians; Teutons team bonus). Level 2 because Hauberk alone renders only the generic plate, the half least specific to the Order (the Sicilians’ design drops Hauberk for that reason), while the Order’s documented function, the sworn loyalty of a scattered nobility, has no existing tech; no existing tech joins the two."
+basis = "Philip the Good founded the Order at Bruges on 10 January 1430, during the festivities for his marriage to Isabella of Portugal, daughter of John I. Its knights (24 under the statutes of 1431, 30 from 1433) swore loyalty to the duke as sovereign of the Order, could not belong to another order without his consent, had their conduct examined at each chapter and could be expelled for treason (Boulton 1987; Vaughan, Philip the Good, 1970): the Order bound the nobility of the scattered lands to the duke, and that sworn loyalty is what the resistance to conversion, the game’s defection, renders. Its statutes also invoked the defence of the faith, and its knights took crusading vows at the Feast of the Pheasant (Lille, 17 February 1454), never fulfilled. The extra armour stands for the nobility the Order headed, equipped in Milanese and Low Countries plate; Coustilliers benefit as part of the lance, not as members. Armour rather than HP keeps it distinct from the Franks’ mounted HP bonus. It replaces Flemish Revolution, which turned the duke’s own subjects into the militias that historically rebelled against him."
 relevance = "The Golden Fleece bound the nobility of the scattered Burgundian lands to the duke and was the emblem of his court; it outlived the state under the Habsburgs."
 
 [tree]
-add = ["Arbalester", "Ring Archer Armor", "Siege Engineers", "Dry Dock"]
-remove = ["Hussar", "Siphons"]
+add = ["Arbalester", "Siege Engineers", "Dry Dock"]
+remove = ["Hussar", "Siphons", "Incendiaries"]
 
 [tree.basis]
-"Arbalester" = "The towns of Flanders and Brabant had sworn crossbow guilds (the Saint George guilds of the schutterijen) that supplied contingents to urban and ducal armies, and Charles the Bold’s lances included crossbowmen; their absence was the most anti-historical gap of the tree."
-"Ring Archer Armor" = "Completes the archery upgrades for the guild crossbowmen and the mounted archers of the lances, who wore brigandines or padded jacks."
+"Arbalester" = "The towns of Flanders and Brabant had sworn crossbow guilds (the Saint George guilds among the schuttersgilden) that supplied contingents to urban and ducal armies, and Charles the Bold’s lances included crossbowmen; their absence was the most anti-historical gap of the tree."
 "Siege Engineers" = "The dukes besieged with great artillery: Dinant (August 1466) was breached after about a week’s bombardment, and in the Ghent war of 1452–53 the ducal guns took the castles of Schendelbeke, Poeke (where Jacques de Lalaing was killed by a cannon shot, July 1453) and Gavere; the eleven-month siege of Neuss (1474–75) failed despite the great artillery park (Vaughan 1970, 1973; Smith and DeVries 2005)."
 "Dry Dock" = "Philip the Good kept a fleet based at Sluis and sent crusading galleys to the Black Sea (Waleran de Wavrin, 1444–45)."
 "Hussar" = "Hussars appear in Hungary in the later 15th century and in western Europe later still, while the Burgundian window ends in 1477. Light Cavalry remains, so no substitute is needed; the Franks also lack the Hussar."
-"Siphons" = "Named after the Byzantine fire siphon, a state secret never to be given to another nation (De Administrando Imperio 13)."
+"Siphons" = "Named after the Byzantine fire siphon, the projector of Greek fire, a state secret never to be given to another nation (De Administrando Imperio 13); its game effect, an explosive charge for fire ships, has no medieval Western equivalent. The fire-ship line itself stays as the engine’s convention for close-range incendiary warships."
+"Incendiaries" = "Fire ships that explode when sunk are the gunpowder ‘hellburners’ that Federigo Giambelli sent against Parma’s bridge at the siege of Antwerp (1585), a century after the window; medieval fire ships burned rather than exploded. Removed with Siphons, for the same reason; the fire ships themselves stay."
 
 [architecture]
 set = "Western European"
