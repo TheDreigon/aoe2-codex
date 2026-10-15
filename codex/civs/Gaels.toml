@@ -1,0 +1,152 @@
+civ = "Celts"
+name = "Gaels"
+status = "draft"
+label = "Infantry civilization"
+summary = "Celts reworked as the Gaels of Ireland and Scotland (c. 560–1500): the invented siege identity (siege bonuses, Furor Celtica, Siege Onager, Siege Ram) is removed; a cattle-and-dairy economy, castle-taking raids, the Kern (the Woad Raider renamed), the Galloglass, Irish monastic missions and the Scottish schiltron take its place, with Bombard Cannon and Illumination added."
+ideas = [
+  "N2: Give the Kern a javelin thrown before melee (the Hearth Troop’s mechanism) and new art without woad body paint: kerns were javelin-armed light infantry (Gerald of Wales; English 16th-century descriptions).",
+  "N2: A dedicated Galloglass unit (mail shirt, padded aketon, iron helmet, long-hafted sparth axe) instead of the Varangian Guard model, without its gold generation.",
+  "N2: A cattle-raid (creach) mechanic: Infantry and Light Cavalry capture enemy livestock from a distance (Táin Bó Cúailnge; Kelly, Early Irish Farming, 1997).",
+  "N3: A ‘Tower House’ building in Castle Age, for the thousands of small fortified towers built in Ireland and Scotland in the 15th and 16th centuries.",
+  "N3: The West Highland galley (birlinn) as a regional warship for the Isles (Somerled, the Lords of the Isles).",
+  "N3: A Brythonic civ (Welsh, Cornish, Bretons) now that the Celts become Gaels: Welsh archery and mountain warfare (Gerald of Wales), Owain Glyndŵr, the Breton captains of the Hundred Years War. It could take the name ‘Britons’ if the Britons become ‘English’.",
+]
+contested = [
+  "Whether ‘Celts’ is a useful category at all (Simon James, The Atlantic Celts, 1999; John Collis, The Celts, 2003); the reason for the narrower ‘Gaels’.",
+  "Whether the late-medieval kingdom of Scotland belongs in a Gaelic civ: it was multilingual (Gaelic, Scots, the French of the elite, Norse in the north), its 12th–14th-century aristocracy was largely of Anglo-Norman or Flemish origin (Bruce, Balliol, Comyn), and the schiltron and James II’s guns come from it. This design includes it (see open questions).",
+  "The migration of the Scotti from Ireland to Argyll (Ewan Campbell, ‘Were the Scots Irish?’, 2001) and the passage from Pictland to Alba (Alex Woolf, 2007; Dauvit Broun).",
+  "Clontarf (1014) as Irish against Vikings or as an Irish civil war (Seán Duffy, 2013).",
+  "The origins of the hobelar: Irish (J. E. Morris, 1914; James Lydon, 1954) or more mixed (Robert Jones).",
+]
+open_questions = [
+  "Scope: Gaelic Ireland and Gaelic Scotland only, or also the Stewart kingdom of Scotland? This draft includes the kingdom (Bruce’s schiltrons, James II’s artillery); a strictly Gaelic civ would drop the Bombard Cannon and use a different Imperial unique tech.",
+  "Two unique units: the Kern (Castle, the renamed Woad Raider) and the Galloglass (Barracks, Varangian Guard model). The same model is renamed ‘Housecarl’ for the Saxons; historically both descend from the Norse axe tradition, but the owner may prefer a different model for the Galloglass (e.g. Huskarl or Teutonic Knight) or a single unique unit.",
+  "Peregrinatio and the Saxons’ Clerical Recruitment are both monk techs; both missions are historically central, and the effects differ (speed and cheaper techs here, conversion range and training speed there). Acceptable, or should one civ express its monasticism through the tree only?",
+  "Kept the Hussar name for the top light cavalry; a per-civ rename to ‘Hobelar’ was considered but the word is attested in English pay records rather than in Irish, and its etymology is debated.",
+]
+
+[profile]
+entity = "The Gaelic world: the Irish kingdoms, Dál Riata, the kingdom of Alba (later Scotland) and the Lordship of the Isles"
+region = "Ireland, Scotland and the Hebrides"
+window = "c. 560–1500 (from Columba’s Iona to the late 15th century)"
+sources = [
+  "Adomnán, Life of Columba (c. 700)",
+  "Annals of Ulster; Annals of Connacht",
+  "Gerald of Wales, Topographia Hibernica and Expugnatio Hibernica (1180s)",
+  "John Barbour, The Brus (1375); Lanercost Chronicle",
+  "Fergus Kelly, Early Irish Farming (1997)",
+  "T. M. Charles-Edwards, Early Christian Ireland (2000)",
+  "Katharine Simms, From Kings to Warlords (1987)",
+  "G. W. S. Barrow, Robert Bruce and the Community of the Realm of Scotland (1965; 4th ed. 2005)",
+  "Seán Duffy (ed.), The World of the Galloglass: Kings, Warlords and Warriors in Ireland and Scotland, 1200–1600 (2007)",
+  "Alex Woolf, From Pictland to Alba 789–1070 (2007)",
+]
+replaces = "Celts: an umbrella for the Celtic-speaking peoples of the British Isles (Irish, Scots, Welsh, implicitly Cornish), mixed with Iron Age imagery (woad, ‘furor’) and built around William Wallace’s Scotland"
+
+[[bonus]]
+text = "Can garrison livestock in Mills to passively produce food"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Lumberjacks work +15% faster"
+precedent = "Can garrison livestock in Mills to passively produce food (Gurjaras)"
+basis = "Gaelic wealth was counted in cattle (the sét and cumal units of the law tracts), and cows were kept above all for milk: milk, butter and curds were staples of the diet (Kelly, Early Irish Farming, 1997). Livestock that yields food without being slaughtered is the dairy economy. The lumberjack bonus it replaces rested on the stereotype of Celts as forest people (rated ‘stretched’)."
+
+[[bonus]]
+text = "Livestock animals within Gael unit line of sight cannot be stolen"
+kind = "economic"
+level = 1
+change = "kept"
+replaces = "Livestock animals within Celt unit line of sight cannot be stolen"
+precedent = "Livestock animals within Celt unit line of sight cannot be stolen (Celts)"
+basis = "Cattle were the stake of Gaelic warfare: the cattle raid (creach) was the ordinary form of war in Ireland and the Highlands, and the great epic is the Táin Bó Cúailnge, ‘The Cattle Raid of Cooley’ (Kelly 1997; Simms 1987). Guarding one’s herds was a first duty. Only ‘Celt’ is changed to ‘Gael’ in the wording."
+
+[[bonus]]
+text = "Infantry moves +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Infantry moves +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Celts)"
+basis = "Gaelic armies were mostly light, fast-moving foot: the kerns, with little or no armour, armed with darts, short spears and axes, moving through bog and wood (Gerald of Wales). Bruce’s deep raids into northern England (1314–22) were famously fast."
+contested = "The Scots on those raids moved mounted on small horses (Jean le Bel, 1327), and the schiltron spearmen and the galloglass were heavy infantry."
+
+[[bonus]]
+text = "Infantry +1/+2/+3 attack vs. buildings in Feudal/Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Siege Weapons attack +25% faster"
+precedent = "Infantry +1/+2/+3 attack vs. buildings in Feudal/Castle/Imperial Age (Goths)"
+basis = "Gaels and Scots took strongholds by surprise, escalade and fire, not by engines, and then slighted them: Bruce’s men took Perth and Linlithgow (1313), Roxburgh (February 1314, Douglas’s men crawling up under black cloaks, taken for cattle) and Edinburgh (March 1314, Randolph’s climb), and pulled the castles down (Barbour; Lanercost; Barrow). Their engines failed at Carlisle (1315). This replaces the siege-speed bonus, which had no medieval basis (RULES 6.6: the civ keeps a way to destroy buildings)."
+
+[team_bonus]
+text = "Scout Cavalry-line +2 line of sight"
+level = 1
+change = "new"
+replaces = "Siege Workshops work +20% faster"
+precedent = "Scout Cavalry-line +2 line of sight (Mongols)"
+basis = "Irish light horsemen rode small horses without saddles or spurs (Gerald of Wales). As ‘hobelars’ they first appear in English records with the Irish contingent John Wogan brought to Edward I’s Scottish campaign of 1296, and were valued as scouts and raiders and imitated in English armies (J. E. Morris, 1914; James Lydon, ‘The hobelar’, The Irish Sword, 1954). A team bonus because the type spread to allies."
+contested = "The Irish origin of the hobelar has been questioned (Robert Jones)."
+
+[[unique_unit]]
+name = "Kern"
+model = "Woad Raider"
+building = "Castle"
+level = 1
+change = "changed"
+replaces = "Woad Raider"
+basis = "The kern (Irish ceithern), the lightly armed foot soldier who made up the bulk of Gaelic armies from the early Middle Ages to the 16th century: fast, unarmoured, raiding and skirmishing (Gerald of Wales; Simms 1987). The Woad Raider’s fast, lightly protected infantry fits him; only the name changes (Elite Woad Raider becomes Elite Kern). Woad and body paint come from Caesar’s Britons of 55–54 BC (De Bello Gallico V.14) and from the film Braveheart, not from any medieval source."
+contested = "The kern’s typical weapon was the dart or javelin, which the model lacks (see the N2 idea); the art still shows woad until N2/N3."
+
+[[unique_unit]]
+name = "Galloglass"
+model = "Varangian Guard"
+building = "Barracks"
+level = 1
+change = "new"
+basis = "The galloglass (gallóglaigh, ‘foreign warriors’) were heavy infantry from the Hebrides and the West Highlands, of mixed Norse-Gaelic descent, in mail and iron helmet with a long-hafted axe. They first appear in 1259, when 160 warriors came with the daughter of Dubgall mac Ruaidrí at her marriage to Áed Ó Conchobair (Annals of Connacht), and they were the steady core of Gaelic armies until the 16th century (Simms 1987; Duffy 2007). The Varangian Guard model is axe-armed shock infantry strong against cavalry; Castle Age at the Barracks, Elite Galloglass in Imperial Age."
+contested = "The model’s gold generation is an abstraction of paid mercenary service (galloglass were hired and billeted under contract, buannacht); see the N2 idea."
+
+[[unique_tech]]
+name = "Peregrinatio"
+age = "Castle"
+effect = "Monks move +20% faster; Monastery technologies cost -50%"
+level = 1
+change = "new"
+precedent = "Monks move +20% faster (Slavs); Monastery technologies cost -50% (Burmese)"
+basis = "Peregrinatio pro Christo, voluntary exile for God: Columba founded Iona (563), Aidan went from Iona to Lindisfarne (635), Columbanus founded Luxeuil (c. 590) and Bobbio (614), and Irish monks carried learning across Europe (Adomnán; Charles-Edwards 2000). The old civ even lacked the monastery techs, the most ironic gap of its tree."
+
+[[unique_tech]]
+name = "Schiltron"
+age = "Imperial"
+effect = "Spearman-line +2 melee armor; deals +25% bonus damage"
+level = 1
+change = "new"
+replaces = "Furor Celtica"
+precedent = "Militia-line +5 melee armor (Bulgarians, Bagains); Spearman-line deals +25% bonus damage (Bohemians)"
+basis = "The schiltron, the dense Scottish formation of long spears: at Falkirk (1298) it threw back the English cavalry but was shot apart by archers, and at Bannockburn (1314) Bruce’s schiltrons advanced and broke Edward II’s horse (Barbour; Vita Edwardi Secundi; Barrow). Melee armour only, not pierce: Falkirk showed its weakness to arrows. It replaces Furor Celtica, a classical stereotype of Gaulish fury (Polybius; ‘furor teutonicus’ in Lucan) in faulty Latin, applied to siege engines."
+contested = "The schiltron belongs to the Scottish kingdom as a whole (Lowland and Gaelic), not to Ireland."
+
+[tree]
+add = ["Bombard Cannon", "Illumination", "Two-Man Saw"]
+remove = ["Siege Onager", "Siege Ram", "Paladin", "Mounted Crossbowman", "Heavy Mounted Crossbowman"]
+
+[tree.basis]
+"Bombard Cannon" = "The only solid siege tradition of the region: James II of Scotland used artillery against the Douglases (Threave, 1455), received Mons Meg (made at Mons in 1449 for Philip the Good of Burgundy) around 1457, and was killed at the siege of Roxburgh (3 August 1460) when one of his guns burst. Depends on including the Scottish kingdom (open questions)."
+"Illumination" = "The Book of Kells (c. 800), the Book of Durrow and the Cathach: Irish and Insular manuscript illumination is the best-known Gaelic achievement of the Middle Ages, and the tech is literally named for it."
+"Two-Man Saw" = "Substitute for the removed lumberjack bonus (RULES 6.6), so that the wood economy is not crippled; Ireland kept large oak woods until the 16th–17th-century plantations."
+"Siege Onager" = "No Gaelic or Scottish tradition of siege engineering; the elite siege upgrades rested on the invented ‘siege civilization’ identity."
+"Siege Ram" = "Same reason: castles were taken by surprise and escalade, then slighted (see the anti-building bonus); the Capped Ram is kept."
+"Paladin" = "Gaelic cavalry was light (Gerald of Wales; the hobelars). Heavy cavalry existed only among the Anglo-Norman-descended nobility of Scotland, which the Knight and Cavalier cover."
+"Mounted Crossbowman" = "The crossbow was foreign to Gaelic warfare, and there were no mounted crossbowmen in Ireland or Scotland."
+"Heavy Mounted Crossbowman" = "Same reason as the Mounted Crossbowman."
+
+[architecture]
+set = "Western European"
+change = "kept"
+basis = "Irish and Scottish stone churches, round towers, Romanesque (Cormac’s Chapel, Cashel, 1134) and Gothic abbeys, and the stone castles and tower houses of the later Middle Ages."
+
+[[dropped]]
+item = "Stronghold"
+kind = "unique_tech"
+reason = "Rated ‘stretched’: the best-known Scottish castle strategy was to slight castles, not to hold them, and the healing aura is pure mechanics. Its Castle Age slot goes to Peregrinatio; the tower-house idea is kept as an N3 building."

@@ -1,0 +1,136 @@
+civ = "Burgundians"
+name = "Burgundians"
+status = "draft"
+label = "Cavalry and Gunpowder civilization"
+summary = "Valois Burgundy (1363–1477), the richest state of the Low Countries: early economic upgrades, Castle-Age Cavaliers, gunpowder attack, Coustillier, Flemish Militia and the Vineyards kept; the unfounded stable discount replaced by the Bruges trade and the history-inverting Flemish Revolution by the Order of the Golden Fleece; crossbows (Arbalester, Heavy Mounted Crossbowman, Cranequins) and Siege Engineers added."
+ideas = [
+  "N2: ‘Charles’s Ordinances’ (1471–73): Castles spawn a mixed lance (Coustillier, mounted archers, crossbowman, hand-gunner, pikeman) with the First Crusade’s spawning mechanism; spawning several unit types at once is not yet in the game.",
+  "N2: Distinct art for the Flemish Militia’s goedendag and pike, and a pike variant for Charles the Bold’s attempt to field pikemen on the Swiss model (1476).",
+  "N3: The early-medieval Burgundians (the kingdom of Worms c. 413–436 and of Sapaudia and the Rhône, 443–534) and the kingdom of Arles (933–1032) are not represented by this design; at most a history-text section.",
+]
+contested = [
+  "Whether the Burgundian state was a viable ‘middle kingdom’ in the making (Vaughan, Schnerb) or an ephemeral dynastic union (Blockmans and Prevenier), and Huizinga’s ‘autumn of the Middle Ages’ reading of its court culture.",
+  "The exact make-up of the 1471–73 lance: whether the foot crossbowman, hand-gunner and pikeman were members of the lance or formed separate companies.",
+  "How far the dukes’ artillery amounted to a ‘military revolution’ (Smith and DeVries 2005); much of it was lost at Grandson (1476), though the popular figure of c. 400 guns is unconfirmed.",
+  "Philip the Good’s share of responsibility for handing Joan of Arc to the English (she was captured and sold by his vassal John of Luxembourg).",
+]
+open_questions = [
+  "Imperial unique tech: the Order of the Golden Fleece replaces Flemish Revolution here. Two N1-feasible alternatives exist: ‘Great Bombards’ (Bombard Cannons +1 range, precedent Turks’ Artillery; Siege Weapons +20% attack vs. buildings, precedent Siege Engineers) for the ducal artillery park, or ‘Schutterij’ for the crossbow guilds (Archer-line and Flemish Militia trainable at Town Centers, precedent Mapuche Settlements; Archer-line cost -X%). Which does the owner prefer?",
+  "Team bonus ‘Relics generate food in addition to gold’ is kept with a monastic-economy basis, but the analysis rates it ‘stretched’. Alternative: a trade team bonus named for the Anglo-Burgundian commercial conferences of Gravelines (1439) led by Isabella of Portugal (precedent: ‘Trade Units generate +25% gold’, Spanish); it would then overlap with the new Bruges bonus, which would need replacing.",
+  "Cavalier upgrade in Castle Age is kept (rated ‘stretched’: the Burgundian standing companies of 1471 came 26 years after the French ones of 1445). Keep it as the mark of a lavishly equipped chivalric nobility, or replace it?",
+  "Flemish Militia keeps its name although the Flemish towns fought the dukes more often than for them (Gavere, 1453). Keep?",
+]
+
+[profile]
+entity = "The Valois Burgundian state: the duchy and county of Burgundy with Flanders, Artois, Brabant, Hainaut, Holland, Zeeland, Luxembourg and other lordships"
+region = "Burgundy and the Low Countries"
+window = "1363–1477 (from the grant of the duchy to Philip the Bold to Charles the Bold’s death at Nancy)"
+sources = [
+  "Olivier de La Marche, Mémoires; Georges Chastellain, Chronique; Philippe de Commynes, Mémoires",
+  "Richard Vaughan, Philip the Bold (1962); John the Fearless (1966); Philip the Good (1970); Charles the Bold (1973)",
+  "Bertrand Schnerb, L’État bourguignon 1363–1477 (1999)",
+  "Wim Blockmans and Walter Prevenier, The Promised Lands: The Low Countries under Burgundian Rule, 1369–1530 (1999)",
+  "Robert D. Smith and Kelly DeVries, The Artillery of the Dukes of Burgundy, 1363–1477 (2005)",
+  "Raymond de Roover, The Rise and Decline of the Medici Bank, 1397–1494 (1963)",
+  "D’Arcy J. D. Boulton, The Knights of the Crown: The Monarchical Orders of Knighthood in Later Medieval Europe (1987)",
+  "Monique Sommé, Isabelle de Portugal, duchesse de Bourgogne (1998)",
+]
+replaces = "Burgundians as a 411–1477 sweep (the Germanic kingdom, the kingdom of Arles, the Capetian duchy and the Valois state); the design represents only the Valois state"
+
+[[bonus]]
+text = "Economic upgrades available one age earlier and cost -40% food"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Economic upgrades available one age earlier and cost -40% food (Burgundians)"
+basis = "The Low Countries were the most urbanised and commercial region north of the Alps (Bruges, Ghent, Ypres, Antwerp, Brussels), with the great Flemish cloth industry, and most ducal revenue came from them (Blockmans and Prevenier 1999)."
+
+[[bonus]]
+text = "Trade Units generate +15% gold"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Stable technologies cost -50%"
+precedent = "Trade Units generate +25% gold (Spanish)"
+basis = "Bruges was the entrepôt of northern Europe: seat of one of the four great Hanseatic Kontore, home to Venetian, Genoese and Florentine merchant houses (including the Medici branch run by Tommaso Portinari, which lent heavily to Charles the Bold), with the Ter Beurze square where bills of exchange were traded and, from c. 1400, the rates of Europe’s money markets quoted; Antwerp’s fairs rose after it (de Roover 1963; Blockmans and Prevenier 1999). The stable discount it replaces had no specific basis."
+
+[[bonus]]
+text = "Cavalier upgrade available in Castle Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Cavalier upgrade available in Castle Age (Burgundians)"
+basis = "The dukes’ wealth paid for one of the best-equipped nobilities of Europe, steeped in tournament culture (the pas d’armes of Jacques de Lalaing) and bound to the duke by the Order of the Golden Fleece (1430)."
+contested = "Rated ‘stretched’: the Burgundian standing companies (1471) came after the French ones (1445), so ‘early’ heavy cavalry has no institutional basis (see open questions)."
+
+[[bonus]]
+text = "Gunpowder Units +25% attack"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Gunpowder Units +25% attack (Burgundians)"
+basis = "The Valois dukes gathered one of the largest artillery parks in Europe, including great bombards such as Mons Meg (made at Mons in 1449 for Philip the Good), and put hand-gunners (couleuvriniers) in the lances of 1471 (Smith and DeVries 2005)."
+contested = "The other great Flemish bombard, Dulle Griet, was used by rebel Ghent against the duke (1452), and the ducal guns did not prevent the defeats of 1476–77."
+
+[team_bonus]
+text = "Relics generate food in addition to gold"
+level = 1
+change = "kept"
+precedent = "Relics generate food in addition to gold (Burgundians)"
+basis = "Burgundy was the heartland of reformed monasticism, Cluny (910) and Cîteaux (1098), whose granges and vineyards (Clos de Vougeot) made the monasteries great agrarian powers, and of pilgrim shrines such as Vézelay with its relics of Mary Magdalene; the dukes founded the Charterhouse of Champmol (1383) as their mausoleum. A team bonus because the Cluniac and Cistercian networks spanned Latin Europe."
+contested = "Rated ‘stretched’ by the analysis: the step from relics to food is weak (see open questions)."
+
+[[unique_unit]]
+name = "Coustillier"
+model = "Coustillier"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The coustillier (coutilier), named after his coustille (long knife or short sword), was the armed attendant of the man-at-arms in each lance of Charles the Bold’s ordinances (1471–73); the post already existed in the French companies of 1445."
+contested = "He was a lighter auxiliary than the man-at-arms; the ‘powerful charged attack’ is a game invention."
+
+[[unique_unit]]
+name = "Flemish Militia"
+model = "Flemish Militia"
+building = "Barracks"
+level = 1
+change = "kept"
+basis = "The urban militias of Flanders with goedendag and pike, which defeated the French knights at Courtrai (1302) before the Burgundian period; under the dukes they served at the siege of Calais (1436), and pikemen were part of the lances of 1471."
+contested = "They were more famous for fighting the dukes (Bruges 1436–38, Ghent 1449–53, crushed at Gavere) than for serving them."
+
+[[unique_tech]]
+name = "Burgundian Vineyards"
+age = "Castle"
+effect = "Farmers slowly generate gold in addition to food"
+level = 1
+change = "kept"
+precedent = "Burgundian Vineyards (Burgundians)"
+basis = "Philip the Bold’s ordinance of 1395 banned the Gamay grape in favour of Pinot Noir; Cistercian viticulture (Clos de Vougeot) made Burgundy wine a prestige export."
+contested = "Most ducal revenue came from the Low Countries, not from wine."
+
+[[unique_tech]]
+name = "Order of the Golden Fleece"
+age = "Imperial"
+effect = "Knight-line and Coustilliers +1 melee/+2 pierce armor and more resistant to conversion"
+level = 1
+change = "new"
+replaces = "Flemish Revolution"
+precedent = "Knight-line +1 melee/+2 pierce armor (Sicilians, Hauberk); units more resistant to conversion (Sicilians, First Crusade; Teutons team bonus)"
+basis = "Philip the Good founded the Order at Bruges on 10 January 1430, at his wedding to Isabella of Portugal, daughter of John I. Its 24 (from 1433, 30) knights were bound to the duke as sovereign, their conduct was reviewed at each chapter, and the Order tied together the nobility of his scattered lands (Vaughan, Philip the Good, 1970; Boulton 1987). Resistance to conversion stands for that sworn loyalty, the extra armour for the best-equipped nobility of the age, in Milanese and Flemish plate. Armour rather than HP keeps it distinct from the Franks’ mounted HP bonus. It replaces Flemish Revolution, which turned the duke’s own subjects into the militias that historically rebelled against him."
+
+[tree]
+add = ["Arbalester", "Ring Archer Armor", "Heavy Mounted Crossbowman", "Cranequins", "Siege Engineers", "Dry Dock"]
+remove = []
+
+[tree.basis]
+"Arbalester" = "The towns of Flanders and Brabant had sworn crossbow guilds (the Saint George guilds, schutterijen) that supplied contingents to urban and ducal armies, and the 1471 lance included a crossbowman; their absence was the most anti-historical gap of the tree."
+"Ring Archer Armor" = "Completes the archery upgrades for the crossbowmen and the mounted archers of the lances, among them contingents of English archers in Charles the Bold’s army."
+"Heavy Mounted Crossbowman" = "The ordinance of 1472 added a mounted crossbowman to each lance."
+"Cranequins" = "The rack-and-pinion cranequin is a 15th-century spanning device of the Low Countries and Germany, exactly the period and region of this civ."
+"Siege Engineers" = "The dukes were noted besiegers: Dinant (1466), Liège (1467–68) and the eleven-month siege of Neuss (July 1474–June 1475), with the great artillery park (Smith and DeVries 2005)."
+"Dry Dock" = "Philip the Good kept a fleet based at Sluis and sent crusading galleys to the Black Sea (Waleran de Wavrin, 1444–45)."
+
+[architecture]
+set = "Western European"
+change = "kept"
+basis = "Burgundian and Flemish Gothic: the Hôtel-Dieu at Beaune (1443), the belfry and cloth hall of Bruges, the town halls of Brussels and Leuven, and the ducal palace at Dijon."

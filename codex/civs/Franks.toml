@@ -1,0 +1,126 @@
+civ = "Franks"
+name = "Franks"
+status = "draft"
+label = "Cavalry civilization"
+summary = "The Frankish kingdoms and the Kingdom of France (481–1500), centred on knights and castles: heavy cavalry, mills, cheap castles, Throwing Axeman, Ordonnance Companies and Chivalry kept; the unfounded forager and line-of-sight bonuses replaced by free tower upgrades (the stone keep was born in the Loire valley) and the University of Paris; Keep, Arbalester, Bracer, Ring Archer Armor and Guilds added."
+ideas = [
+  "N3: Split into ‘Franks’ (481–987: Throwing Axeman, Carolingian elite cavalry, capitularies, infantry-based Merovingian armies) and ‘French’ (987–1500: knights and castles, crusades, Ordonnance Companies, francs-archers, the Bureau brothers’ artillery).",
+  "N2: A Carolingian elite cavalry unit (the scarae of the Royal Frankish Annals, equipped as the capitulary of Thionville, 805, demands) and an angon throw for the Throwing Axeman (Agathias).",
+  "N2: Francs-archers (1448): Archer-line trainable at Town Centers, one archer per parish in theory, exempt from the taille (Contamine 1972).",
+]
+contested = [
+  "Heinrich Brunner’s and Lynn White’s theses (Charles Martel’s cavalry, the stirrup and the origins of feudalism), now largely rejected (Bachrach, 1970; Fouracre, 2000): Frankish heavy cavalry grew gradually in the 8th–9th centuries.",
+  "The ‘feudal revolution’ or ‘castle revolution’ around the year 1000 (Duby, Bois, Bonnassie against Barthélemy; the Past & Present debate of 1994–97).",
+  "The date of the stone keep at Langeais: Fulk Nerra’s fortress of c. 994 or a late 11th-century rebuilding.",
+  "The date (732 or 733), aim and meaning of the battle of Poitiers; the Franks fought it on foot (Mozarabic Chronicle of 754).",
+  "The speed with which the heavy plough and three-field rotation spread.",
+]
+open_questions = [
+  "Name (not decided): ‘Franks’ fuses the Frankish kingdoms and medieval France. ‘French’ fits 987–1500 better; ‘Franks’ has a defence in the crusading period, when Byzantines and Muslims called all Latins Franks (Frangoi, Ifranj). Rename, keep, or split (N3 idea)?",
+  "Chivalry (Stables work +40% faster) is kept as an abstraction. An N1-feasible alternative is a ‘Bureau Brothers’ tech for the royal artillery that recovered Normandy (1449–50) and won Castillon (1453): Bombard Cannons move +25% faster (precedent: ‘Siege Workshop Units move +50% faster’, Mongols, Drill) and attack +20% faster (precedent: ‘Siege Weapons attack +25% faster’, Celts). Swap?",
+  "Team bonus: the University of Paris (Universities work +80% faster) replaces the unfounded line-of-sight bonus. The analysis’ alternative was an ‘Oriflamme’ conversion-resistance bonus for Knight-line and Monks. Which does the owner prefer?",
+  "Power check: the tree gains the full crossbow line (Arbalester, Bracer, Ring Archer Armor), the Keep and Guilds, while the early forager bonus is lost. Acceptable for a civ that already has Paladin and gunpowder?",
+]
+
+[profile]
+entity = "The Frankish kingdoms (Merovingian and Carolingian) and the Kingdom of France (Capetian and Valois)"
+region = "Gaul and France, with the Frankish heartlands between the Loire and the Rhine"
+window = "481–1500 (design core 10th–15th centuries)"
+sources = [
+  "Gregory of Tours, Ten Books of Histories",
+  "Einhard, Life of Charlemagne; Royal Frankish Annals",
+  "Carolingian capitularies (MGH)",
+  "Jean Froissart, Chroniques",
+  "Edward James, The Franks (1988)",
+  "Bernard S. Bachrach, Early Carolingian Warfare (2001)",
+  "Paul Fouracre, The Age of Charles Martel (2000)",
+  "Jean Dunbabin, France in the Making 843–1180 (1985; 2nd ed. 2000)",
+  "Philippe Contamine, Guerre, État et société à la fin du Moyen Âge (1972); La guerre au Moyen Âge (1980)",
+  "Jean Mesqui, Châteaux et enceintes de la France médiévale (1991–93)",
+]
+
+[[bonus]]
+text = "Guard Tower and Keep upgrades free"
+kind = "other"
+level = 1
+change = "new"
+replaces = "Foragers work +15% faster"
+precedent = "Archer armor and tower upgrades free (Bombard Tower requires Chemistry) (Koreans); Town Watch, Town Patrol free (Byzantines)"
+basis = "The stone keep (donjon) was born in the Loire valley: the hall at Doué-la-Fontaine turned into a tower c. 950 (Michel de Boüard’s excavations), Fulk Nerra’s Langeais (c. 994, date debated) and Loches (first third of the 11th century); Philip Augustus later spread the standard round tower (the Louvre, c. 1190–1202) (Mesqui 1991–93). The forager bonus it replaces had no identifiable historical link."
+
+[[bonus]]
+text = "Mill technologies free"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Mill technologies free (Franks)"
+basis = "Carolingian estate management is well documented (the bipartite manor; the Polyptych of Irminon of Saint-Germain-des-Prés, c. 823–829), as is the spread of the heavy plough and three-field rotation in northern France; later came the seigneurial mill (moulin banal) that tenants had to use."
+contested = "The pace at which the heavy plough and three-field rotation spread."
+
+[[bonus]]
+text = "Mounted Units +20% HP starting in Feudal Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Mounted Units +20% HP starting in Feudal Age (Franks)"
+basis = "Frankish and French heavy cavalry: the capitulary of Thionville (805) required a mail shirt (brunia) from every holder of twelve mansi; Anna Komnene described the irresistible first charge of the Frankish knights; the gendarmes of the 14th–15th centuries rode in plate, their horses barded."
+
+[[bonus]]
+text = "Castles cost -15/25% in Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Castles cost -15/25% in Castle/Imperial Age (Franks)"
+basis = "Castles multiplied in France from the late 10th century, when counts such as Fulk Nerra of Anjou ringed their lands with them; the Capetian kings built the Louvre, Dourdan and, under Charles V, the great donjon of Vincennes (1361–69) (Mesqui 1991–93)."
+contested = "How sudden and how ‘revolutionary’ the spread of castles around 1000 was (Duby against Barthélemy)."
+
+[team_bonus]
+text = "Universities work +80% faster"
+level = 1
+change = "new"
+replaces = "Knight-line +2 line of sight"
+precedent = "Universities work +80% faster (Malians)"
+basis = "The University of Paris, recognised by Philip Augustus’s privilege of 1200 and given its first statutes by the legate Robert de Courçon in 1215, drew masters and students from all of Latin Christendom; its arts faculty was organised in four ‘nations’, one of them the English (later German) nation. A team bonus because Paris trained the clerics and scholars of its allies too. The line-of-sight bonus it replaces had no identifiable basis."
+
+[[unique_unit]]
+name = "Throwing Axeman"
+model = "Throwing Axeman"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The francisca, the Frankish throwing axe: described by Procopius (Wars VI.25, the Frankish invasion of Italy in 539) and Gregory of Tours, its name explained by Isidore of Seville, and found in graves such as Childeric I’s at Tournai (481/482)."
+contested = "The francisca went out of use around the 7th–8th centuries, so the unit represents the Merovingian origins of the civ, not the France of the knights."
+
+[[unique_tech]]
+name = "Ordonnance Companies"
+age = "Castle"
+effect = "Mounted Crossbowmen cost -40% gold"
+level = 1
+change = "kept"
+precedent = "Ordonnance Companies (Franks)"
+basis = "Charles VII’s ordinance of 1445 created fifteen companies of 100 ‘lances’ (a man-at-arms, a coutilier, a page and two mounted archers, some with bows and some with crossbows, plus a valet), the first standing army of the West, paid from the now-permanent taille (Contamine 1972). The gold discount translates a force paid by a permanent tax."
+
+[[unique_tech]]
+name = "Chivalry"
+age = "Imperial"
+effect = "Stables work +40% faster"
+level = 1
+change = "kept"
+precedent = "Chivalry (Franks)"
+basis = "Chivalry as a code and an ideal is largely French: the romances of Chrétien de Troyes and Geoffroi de Charny’s Livre de chevalerie (c. 1350), written by the bearer of the Oriflamme killed at Poitiers in 1356. Faster stables are a generic translation (see open questions)."
+
+[tree]
+add = ["Keep", "Arbalester", "Bracer", "Ring Archer Armor", "Guilds"]
+remove = []
+
+[tree.basis]
+"Keep" = "The civ that gave Europe the stone keep was the only one of its region without the Keep (Doué-la-Fontaine, Langeais, Loches, the Louvre; see the tower bonus)."
+"Arbalester" = "France fielded crossbowmen in numbers: the Master of Crossbowmen (maître des arbalétriers) commanded the king’s foot and engineers from Louis IX’s reign until the 16th century, towns kept crossbow companies, and Genoese crossbowmen were hired in thousands in the 14th century. The idea that ‘the French don’t shoot’ is an Anglocentric stereotype born of Crécy (Contamine 1980)."
+"Bracer" = "Completes the archery upgrades of a civ with town crossbow companies and, from 1448, the francs-archers, parish archers exempt from the taille who formed the first permanent French infantry reserve."
+"Ring Archer Armor" = "Late medieval crossbowmen and archers wore brigandines or padded jacks and fought behind large pavises."
+"Guilds" = "Étienne Boileau’s Livre des métiers (c. 1268) recorded the statutes of about a hundred Paris crafts, and the Champagne fairs (Troyes, Provins, Lagny, Bar-sur-Aube) were the great market of 12th–13th-century Europe."
+
+[architecture]
+set = "Western European"
+change = "kept"
+basis = "Romanesque and Gothic were largely French creations (Cluny; Abbot Suger’s Saint-Denis, 1140s, the first Gothic choir; the cathedrals of the Île-de-France), together with the Loire keeps and the castles of the Capetian kings."
