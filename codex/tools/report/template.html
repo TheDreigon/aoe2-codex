@@ -1,4 +1,4 @@
-<title>AoE2 à Luz da História</title>
+<title>AoE2 in the Light of History</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -207,31 +207,31 @@ footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line
 
 <div class="wrap">
 <header class="mast">
-  <span class="eyebrow">Dossiê · %%N%% civilizações · dados do repositório aoe2techtree</span>
-  <h1>Age of Empires II <b>à luz da história</b></h1>
-  <p class="dek">Cada bónus, unidade única, tech única e texto de história das civilizações do AoE2: Definitive Edition, avaliado por historiadores regionais e verificado por um revisor cético. Serve de base para debates e exercícios de redesenho.</p>
-  <div class="stats"><span>Fidelidade média <strong>%%AVG%%/10</strong></span><span><strong>%%NEL%%</strong> elementos avaliados</span><span>Gerado em <strong>%%DATE%%</strong></span></div>
+  <span class="eyebrow">Casebook · %%N%% civilizations · data from the aoe2techtree repository</span>
+  <h1>Age of Empires II <b>in the light of history</b></h1>
+  <p class="dek">Every bonus, unique unit, unique tech and history text of the civilizations of AoE2: Definitive Edition, assessed by regional historians and checked by a skeptical reviewer. A basis for debate and for redesign exercises.</p>
+  <div class="stats"><span>Average fidelity <strong>%%AVG%%/10</strong></span><span><strong>%%NEL%%</strong> elements assessed</span><span>Generated on <strong>%%DATE%%</strong></span></div>
 </header>
 
-<nav class="jump" aria-label="Secções">
-  <a href="#sintese">Síntese</a>
-  <a href="#civs">Civilizações</a>
-  <a href="#temas">Temas transversais</a>
-  <a href="#metodo">Método</a>
+<nav class="jump" aria-label="Sections">
+  <a href="#synthesis">Synthesis</a>
+  <a href="#civs">Civilizations</a>
+  <a href="#themes">Cross-cutting themes</a>
+  <a href="#method">Method</a>
 </nav>
 
-<section id="sintese">
+<section id="synthesis">
   <div class="syn-grid">
     <article class="essay">%%SYNTHESIS%%</article>
     <aside class="rail">
       <div class="rail-block">
-        <h3>Fidelidade por civ</h3>
-        <p class="rail-note">Nota de 0 a 10 dada pelo historiador regional e recalibrada pelo revisor. É um juízo analítico, não uma medida.</p>
+        <h3>Fidelity by civ</h3>
+        <p class="rail-note">Score from 0 to 10 given by the regional historian and recalibrated by the reviewer. It is an analytical judgement, not a measurement.</p>
         <div class="ranking">%%RANKING%%</div>
       </div>
       <div class="rail-block">
-        <h3>Todos os elementos</h3>
-        <p class="rail-note">Como foram classificados os bónus, unidades, techs e rótulos das %%N%% civs.</p>
+        <h3>All elements</h3>
+        <p class="rail-note">How the bonuses, units, techs and labels of the %%N%% civs were rated.</p>
         %%OVERALL_DIST%%
       </div>
     </aside>
@@ -239,13 +239,13 @@ footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line
 </section>
 
 <section id="civs">
-  <h2>Civilizações</h2>
-  <p class="section-lede">Abre uma civ para ver a avaliação de cada elemento, os problemas da tech tree e do texto de história, e propostas concretas para a tornar mais fiel.</p>
+  <h2>Civilizations</h2>
+  <p class="section-lede">Open a civ to see the assessment of each element, the problems in its tech tree and history text, and concrete proposals to make it more faithful.</p>
   <div class="controls">
-    <input id="q" type="search" placeholder="Procurar civ…" aria-label="Procurar civilização">
-    <select id="region" aria-label="Filtrar por região"><option value="">Todas as regiões</option>%%REGION_OPTS%%</select>
-    <select id="sort" aria-label="Ordenar"><option value="az">A–Z</option><option value="desc">Mais fiéis primeiro</option><option value="asc">Menos fiéis primeiro</option></select>
-    <button id="toggle-all" type="button">Abrir todas</button>
+    <input id="q" type="search" placeholder="Search civ…" aria-label="Search civilization">
+    <select id="region" aria-label="Filter by region"><option value="">All regions</option>%%REGION_OPTS%%</select>
+    <select id="sort" aria-label="Sort"><option value="az">A–Z</option><option value="desc">Most faithful first</option><option value="asc">Least faithful first</option></select>
+    <button id="toggle-all" type="button">Open all</button>
     <span class="count" id="count"></span>
   </div>
   <div class="civ-list" id="civ-list">
@@ -253,22 +253,22 @@ footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line
   </div>
 </section>
 
-<section id="temas">
-  <h2>Temas transversais</h2>
-  <p class="section-lede">Problemas que não pertencem a uma só civ: o modelo do jogo, a distribuição da tech tree, os nomes das unidades e techs, e quem está (e não está) representado.</p>
+<section id="themes">
+  <h2>Cross-cutting themes</h2>
+  <p class="section-lede">Problems that do not belong to a single civ: the game model, how the tech tree is distributed, the names of units and techs, and who is (and is not) represented.</p>
   <div class="themes">%%THEMES%%</div>
-  <h3 style="margin-top:2rem;font-size:var(--step-1)">Notas por região</h3>
-  <p class="section-lede">Sobreposições e confusões entre civs da mesma região.</p>
+  <h3 style="margin-top:2rem;font-size:var(--step-1)">Notes by region</h3>
+  <p class="section-lede">Overlaps and confusions between civs of the same region.</p>
   %%CROSS%%
 </section>
 
-<section id="metodo">
-  <h2>Método e legenda</h2>
+<section id="method">
+  <h2>Method and legend</h2>
   <ul class="legend">%%LEGEND%%</ul>
   <footer>
-    <p>Fontes de dados: bónus, tech trees e descrições lidos de <code>data/data.json</code> e <code>data/locales/en/strings.json</code> do repositório aoe2techtree (commit 3bb43b1, “Add The Viking Sagas”). Textos de história do jogo obtidos da wiki Age of Empires (fandom), secção History de cada civ.</p>
-    <p>Processo: 11 historiadores regionais analisaram as civs em grupos; cada análise foi revista por um verificador cético que corrigiu factos, recalibrou notas e acrescentou omissões. Quatro análises temáticas passaram pelo mesmo processo. A síntese foi escrita a partir dos resultados verificados.</p>
-    <p>Limites: as notas de fidelidade são juízos, não medições. Os textos de história são parafraseados. Pontos em debate entre historiadores estão assinalados como tal em cada civ.</p>
+    <p>Data sources: bonuses, tech trees and descriptions read from <code>data/data.json</code> and <code>data/locales/en/strings.json</code> in the aoe2techtree repository (commit 3bb43b1, “Add The Viking Sagas”). The game’s history texts were taken from the Age of Empires wiki (fandom), History section of each civ.</p>
+    <p>Process: 11 regional historians analysed the civs in groups; each analysis was reviewed by a skeptical checker who corrected facts, recalibrated scores and added omissions. Four thematic analyses went through the same process. The synthesis was written from the verified results.</p>
+    <p>Limits: the fidelity scores are judgements, not measurements. The history texts are paraphrased. Points debated among historians are marked as such in each civ.</p>
   </footer>
 </section>
 </div>
@@ -291,14 +291,14 @@ footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line
       el.hidden = !show; if (show) n++;
       list.appendChild(el);
     });
-    count.textContent = n + ' de ' + items.length;
+    count.textContent = n + ' of ' + items.length;
   }
   [q, region, sort].forEach(function (el) { el.addEventListener('input', apply); });
   toggle.addEventListener('click', function () {
     var open = toggle.dataset.open !== '1';
     items.forEach(function (el) { if (!el.hidden) el.open = open; });
     toggle.dataset.open = open ? '1' : '0';
-    toggle.textContent = open ? 'Fechar todas' : 'Abrir todas';
+    toggle.textContent = open ? 'Close all' : 'Open all';
   });
   function openHash() {
     var id = location.hash.slice(1); if (!id) return;
