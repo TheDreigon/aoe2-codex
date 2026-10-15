@@ -1,8 +1,8 @@
 civ = "Muisca"
 name = "Muisca"
 status = "draft"
-label = "Skirmisher and Monk civilization"
-summary = "The Muisca chiefdoms of the Altiplano Cundiboyacense (800–1540): jeques, markets, cotton armour, coca and the güecha warriors stay; salt makes their wealth and their trade with neighbours (the new team bonus), gold offerings in sanctuaries and lakes and the tribute in cotton mantles (the Town Center tech) complete the economy, the unfounded age-up and Settlement bonuses, the Temple Guard and Huaracas are dropped, the Quechua and Taíno names go (Champi → Club Warrior), and siege engines, crossbows, Thumb Ring, stone fortifications, printing and the ocean navy give way to Arson and Raised Fields."
+label = "Archer and Monk civilization"
+summary = "The Muisca chiefdoms (800–1540): salt and gold offerings replace the age-up and Settlement bonuses and salt trade the gold team bonus, cloth tribute becomes the Town Center tech, the Temple Guard and Huaracas are dropped, the Champi line becomes the Club line, and siege engines and stone forts go."
 ideas = [
   "N2: A mummy-bearer support unit: warriors carried the mummies of famous ancestors into battle, strengthening nearby güechas (Simón; Piedrahita).",
   "N3: A palisaded cacique enclosure (cercado) replacing the Castle and the towers.",
@@ -26,14 +26,16 @@ open_questions = [
   "Club line: the Champi line is renamed Club Scout, Club Runner, Club Warrior and Elite Club Warrior, a neutral English name, because ‘champi’ is Quechua and ‘macana’, the chroniclers' word for the Muisca palm-wood club, is Taíno; no muysccubun term was found in the sources used. Accept, or prefer the chroniclers' Spanish loanword ‘macana’ (then the Taíno ‘cacique’ would be acceptable for the Tupi too)?",
   "One unique unit: with the Temple Guard dropped (no documented corps of temple guards), the Guecha Warrior is the only unique unit, and cavalry is met with the Pikeman and Monks, as for the current Aztecs, since the Muisca first saw horses in 1537 (a second-draft Spearman-line damage bonus was dropped under the relevance test). Leave it so until an N2 mummy-bearer exists, add an anti-cavalry bonus for play (for example ‘Spearman-line deals +25% bonus damage’, Bohemians), or give the Muisca another existing unit?",
   "Herbalism keeps its effect (Archer-line and Club Warriors move faster), though the chroniclers stress darts, slings, lances and clubs and link the bow mainly with the Panche. Retarget it to Skirmishers, Slingers and Club Warriors (a changed effect, so a level-2 tech)?",
-  "Label: the game's ‘Archer and Monk’ (rated stretched) becomes ‘Skirmisher and Monk’, for the darts of the güechas; no current label uses ‘Skirmisher’. Accept?",
-  "The Muisca keep a minimal navy (Galley, Fire and Hulk lines, Demolition Raft and Ship, Transport, Fishing Ship, without Imperial-Age tiers) for water maps although they lived on an inland plateau at c. 2,600 m. Accept, or cut further?",
+  "Label: the game's ‘Archer and Monk’ (rated stretched) is kept for now, since labels use only the game's categories, which count Archery Range skirmishers as Archer. ‘Skirmisher and Monk’, for the darts of the güechas, would need a category no game label uses (codex-wide question CQ19). Accept, or adopt ‘Skirmisher and Monk’ if labels may leave the game's categories?",
   "The Castle is kept for structural reasons (unique unit, unique tech, Imperial Age requirement), though the Muisca built in wood, cane and wattle-and-daub. Accept until an N3 replacement exists?",
   "Town Center tech: Cotton Mantles renders the cloth tribute paid to the caciques, the zipa and the zaque. If a datable moment of government is preferred, the candidate is the code of laws that 17th-century chroniclers attribute to the zipa Nemequene (c. 1490–1514; Piedrahita), whose historicity is contested. Keep Cotton Mantles, or replace it with a level-2 tech for Nemequene's laws?",
-  "Renames beyond the agreed list: Horse Collar → Raised Fields (identical effect, real equivalent; the Club line has its own question). Approve it? Wheelbarrow, Hand Cart, Heavy Plow (there was no plough: fields were worked with wooden digging tools), Crop Rotation, the Trade Cart (porters carried the salt), Treadmill Crane, Coinage, Banking, Caravan and Guilds (no merchant corporations are documented) keep their generic names, and Hoardings and Murder Holes stay as generic abstractions of fortification. Rename them, remove Heavy Plow (Crop Rotation, which requires it, would go too, leaving a single farm upgrade), or keep them as accepted abstractions?",
-  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision, brief section 6), the first civs in the game without them. The Muisca break buildings with the Club line, Arson (added) and Petards; they have no Sappers, and every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. The Petard is itself a 16th-century gunpowder charge (Cahors, 1580), and the Demolition Raft and Demolition Ship are explosive fireships of a kind first used at Antwerp in 1585: post-1500 elements held by most civs (RULES section 2), kept unrenamed as abstractions of assault parties with fire and of fireships, so as not to hide the anachronism (RULES 6.10). Accept the risk until an N2/N3 assault unit exists?",
+  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision, brief section 6), the first civs in the game without them. The Muisca break buildings with the Club line, Arson (added) and Petards; they have no Sappers, and every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. Accept the risk until an N2/N3 assault unit exists?",
   "Region-wide, metal arms and armour: the criterion is the name of a metal weapon or armour tier. The Imperial-Age tiers are removed (the Muisca lose Plate Mail Armor; they already lacked Blast Furnace and Ring Archer Armor), a playability line rather than a historical one. A lower tier is renamed only where a specific, documented equivalent exists (Obsidian Blades, Flint Points, Tin Bronze elsewhere in the region); the Muisca had no metal weapons (tumbaga was for ornaments and offerings), so Forging, Iron Casting, Scale Mail Armor and Chain Mail Armor stay as a flagged generic equipment level, and Chemistry stays for its +1 ranged attack. Remove or rename them too, at a cost to playability?",
-  "Region-wide, crossbows: the Crossbowman and Arbalester are removed from all six American civs, since the crossbow was unknown there; the Muisca keep the Archer, Skirmishers, Slingers and the Guecha Warrior. Accept, or keep the crossbow tiers as a flagged abstraction until the N2 bow line?",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule.",
+  "Codex-wide question CQ2 (see codex/civs/README.md): Generic post-1500 items.",
+  "Codex-wide question CQ3 (see codex/civs/README.md): Crossbows.",
+  "Codex-wide question CQ12 (see codex/civs/README.md): American power budget.",
+  "Codex-wide question CQ20 (see codex/civs/README.md): American renames beyond the agreed list.",
 ]
 
 [profile]
@@ -88,7 +90,7 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Caravan, Guilds free (Muisca)"
-basis = "The Spaniards found the Muisca more given to trade than to war: periodic markets (Turmequé, Sorocotá) exchanged salt, cotton mantles, emeralds and gold with the Panche, Muzo, Guane and the peoples of the Llanos, and Muisca goods travelled far beyond the Altiplano (Langebaek 2019). Guilds is a European corporate name with no Muisca equivalent, since no merchant corporations are documented; it stays as a generic abstraction (see open questions)."
+basis = "The Spaniards found the Muisca more given to trade than to war: periodic markets (Turmequé, Sorocotá) exchanged salt, cotton mantles, emeralds and gold with the Panche, Muzo, Guane and the peoples of the Llanos, and Muisca goods travelled far beyond the Altiplano (Langebaek 2019). Guilds is a European corporate name with no Muisca equivalent, since no merchant corporations are documented; it stays as a generic abstraction (codex-wide question CQ20)."
 relevance = "Markets and long-distance exchange of salt and cloth for gold, cotton and coca defined the Muisca economy."
 
 [[bonus]]
@@ -141,7 +143,7 @@ effect = "All gold income +10% faster; Market trading fee reduced to 10%"
 level = 1
 change = "new"
 precedent = "Grand Trunk Road (Hindustanis): identical effect, shared, moved to the Town Center and renamed"
-basis = "Muisca commoners paid tribute to their caciques, and the caciques to the zipa of Bacatá and the zaque of Hunza, largely in cotton mantles and gold (Langebaek 2019; Gamboa 2010). Gold income renders the tribute that flowed to the chiefs; the lower market fee renders the mantle as the measure of exchange. Tribute is a chiefly institution, so this is the Town Center tech of a people organised in chiefdoms (RULES 6.2 and 6.3). The effect is Grand Trunk Road, kept by the Hindustanis and shared in the Khitan, Malay and Saxon designs; four more designs use its gold half (RULES 6.7)."
+basis = "Muisca commoners paid tribute to their caciques, and the caciques to the zipa of Bacatá and the zaque of Hunza, largely in cotton mantles and gold (Langebaek 2019; Gamboa 2010). Gold income renders the tribute that flowed to the chiefs; the lower market fee renders the mantle as the measure of exchange. Tribute is a chiefly institution, so this is the Town Center tech of a people organised in chiefdoms (RULES 6.2 and 6.3). The effect is Grand Trunk Road, kept by the Hindustanis and shared in the Burgundian, Khitan, Malay and Saxon designs; four more designs use its gold half (RULES 6.7)."
 relevance = "Cloth tribute tied Muisca households to their chiefs and the chiefs to the zipa and the zaque: the mantle was the measure of Muisca wealth."
 contested = "Whether mantles were money proper is debated (see the civ-level note)."
 
@@ -152,8 +154,7 @@ remove = [
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
   "Crossbowman", "Arbalester", "Thumb Ring",
   "Plate Mail Armor",
-  "Galleon", "Carrack", "Catapult Galleon", "Heavy Demolition Ship",
-  "Galleon, Fast Fire Ship and Carrack", "Dry Dock",
+  "Galleon", "Carrack", "Catapult Galleon", "Galleon, Fast Fire Ship and Carrack",
   "Block Printing",
   "Keep", "Stone Wall", "Gate", "Masonry",
   "Temple Guard", "Elite Temple Guard",
@@ -161,7 +162,7 @@ remove = [
 
 [tree.basis]
 "Arson" = "With the Temple Guard dropped, the Muisca need another way to destroy buildings (RULES 6.11). Houses and cacique enclosures were of wood, cane and thatch, so fire is a plausible abstraction, though no chronicle passage on Muisca fire attacks was found. In the current game only the Goths, Romans and Muisca lack Arson."
-"Siege Workshop" = "The Muisca built no siege engines; their defences were palisaded enclosures. Removing the workshop removes all its units; the Club line (strong against buildings), Arson and Petards replace them (owner's decision, brief section 6; RULES 6.11 and section 10). The Petard is a 16th-century gunpowder charge, kept unrenamed as the abstraction of assault parties with fire so as not to hide the anachronism (see open questions)."
+"Siege Workshop" = "The Muisca built no siege engines; their defences were palisaded enclosures. Removing the workshop removes all its units; the Club line (strong against buildings), Arson and Petards replace them (owner's decision, brief section 6; RULES 6.11 and section 10). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (codex-wide question CQ2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."
@@ -175,15 +176,13 @@ remove = [
 "Crossbowman" = "The crossbow was unknown in the Americas. Muisca missile weapons were darts, slings and, to a lesser degree, bows (associated mainly with the Panche); the Guecha Warrior, Slingers and Skirmishers cover the role, and the Archer stays. In the current game the Bulgarians also lack crossbows."
 "Arbalester" = "Removed with the Crossbowman (see there)."
 "Thumb Ring" = "No thumb rings or thumb draw are attested in the Americas (game-model theme)."
-"Plate Mail Armor" = "There was no plate armour; Muisca warriors wore layered cotton mantles and long shields, represented by the melee-armour bonus. Removed with the Imperial-Age tiers of metal arms and armour, a playability line rather than a historical one (the Muisca already lacked Blast Furnace and Ring Archer Armor); Scale Mail and Chain Mail Armor stay as a generic equipment level (see open questions)."
-"Galleon" = "An ocean navy is absurd for an inland plateau people; Muisca boats were reed rafts on the lakes. The other American civs keep the Galley, Fire Ship, Demolition and Hulk lines with their tiers as a generic abstraction of canoe fleets; the Muisca keep only a minimal navy for water maps, without the Imperial-Age tiers."
+"Plate Mail Armor" = "There was no metal armour; Muisca warriors wore layered cotton mantles and long shields, represented by the melee-armour bonus. Removed with the Imperial-Age tiers of metal arms and armour, a playability line rather than a historical one (the Muisca already lacked Blast Furnace and Ring Archer Armor); Scale Mail and Chain Mail Armor stay as a generic equipment level (see open questions)."
+"Galleon" = "An ocean navy is absurd for an inland plateau people; Muisca boats were reed rafts on the lakes. Codex navy rule for peoples without a war fleet (codex-wide question CQ1): the basic navy only, with the Galley-line to War Galley, the Fire Galley and Fire Ship, the Hulk and War Hulk, the demolition ships and the generic Dock techs as an abstraction for water maps, and no Galleon, Carrack or siege warship; the demolition ships are generic post-1500 items kept as flagged abstractions (codex-wide question CQ2)."
 "Carrack" = "See Galleon."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
-"Heavy Demolition Ship" = "The top tier goes with the minimal navy (no Imperial-Age tiers, see Galleon); the Demolition Raft and Demolition Ship stay as a minimal abstraction for water maps, flagged as post-1500 with the Petard (see open questions)."
 "Galleon, Fast Fire Ship and Carrack" = "With the Galleon and Carrack removed (the Muisca never had the Fast Fire Ship), this upgrade has nothing left to upgrade."
-"Dry Dock" = "The Muisca had no maritime tradition; their remaining navy is a minimal abstraction for water maps."
 "Block Printing" = "There was no printing or writing. With no equivalent for the function the tech is removed (18 civs already lack it)."
-"Keep" = "Region-wide tower policy: the Keep, a stone tower, stays only where stone towers are documented (the Inca, the Maya). The Muisca built in wood, cane and wattle-and-daub and had no towers; Guard Towers stay as an abstraction of wooden frontier posts."
+"Keep" = "Region-wide tower policy: the Keep, a stone tower, stays only where stone towers are documented (the Inca). The Muisca built in wood, cane and wattle-and-daub and had no towers; Guard Towers stay as an abstraction of wooden frontier posts."
 "Stone Wall" = "Muisca defences were palisades around the enclosures of the caciques; stone walls are removed (in the current game the Cumans and Goths also lack them) and Palisade Walls remain."
 "Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
 "Masonry" = "There was no stone masonry tradition (the Temple of the Sun at Sugamuxi was of wood); the Muisca already lacked Architecture, and in the current game the Aztecs, Byzantines and Tupi lack Masonry too."
@@ -218,7 +217,7 @@ basis = "Same rename as Champi Scout."
 from = "Horse Collar"
 to = "Raised Fields"
 level = 1
-basis = "There were no draft animals. Ridged fields (camellones) separated by drainage ditches covered the flood plains of the Sabana de Bogotá from the Herrera period to the Late Muisca period (Broadbent 1968; Rodríguez-Gallo 2018). Same rename as for the Maya and the Mapuche. Heavy Plow and Crop Rotation keep their generic names as flagged abstractions (see open questions)."
+basis = "There were no draft animals. Ridged fields (camellones) separated by drainage ditches covered the flood plains of the Sabana de Bogotá from the Herrera period to the Late Muisca period (Broadbent 1968; Rodríguez-Gallo 2018). Same rename as for the Maya and the Mapuche. Heavy Plow and Crop Rotation keep their generic names as flagged abstractions (codex-wide question CQ20)."
 
 [architecture]
 set = "South American"
