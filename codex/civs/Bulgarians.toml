@@ -2,10 +2,9 @@ civ = "Bulgarians"
 name = "Bulgarians"
 status = "draft"
 label = "Cavalry and Siege civilization"
-summary = "The First (681–1018) and Second (1185–1396) Bulgarian Empires: Konnik, Krepost and Krum's siege discount are kept; the swordsman identity gives way to the Balkan passes, Byzantine tribute, armoured cavalry of the khanate's ranks (Bagains), the Council of Preslav as the Town Center tech, Kaloyan's Cuman allies (Cuman Alliance) and a Slavonic-Orthodox team bonus; the monastery tree is restored and the architecture becomes Mediterranean."
+summary = "The First (681–1018) and Second (1185–1396) Bulgarian Empires, the second with its Vlach and Cuman components: Konnik, Krepost and Krum's siege discount are kept; the swordsman identity gives way to the Balkan passes, steppe horse archery, Vlach-Bulgarian pastoralism, armoured cavalry of the khanate's ranks (Bagains), the Peace of 927 as the Town Center tech, the Council of Preslav at the Monastery, Kaloyan's Cuman allies (Cuman Alliance) and a Slavonic-Orthodox team bonus; the monastery tree is restored, a Catapult Galleon replaces the Cannon Galleon and the architecture becomes Mediterranean."
 ideas = [
   "N2: Pass ambush mechanic (Varbitsa 811, Tryavna 1190): military units standing next to forests are hidden from enemies beyond a few tiles.",
-  "N2: A Krum siege-train tech (Mesembria 812; the engines and the iron-bound wagons to carry them prepared against Constantinople in 814, Scriptor incertus): Siege Workshop units built faster, Battering Rams carry more Infantry.",
   "N2: Crossbowman for the Second Empire only (13th–14th-century Latin and Venetian contacts); N1 cannot limit an item to one phase of the civ.",
   "N2: Replace the Konnik's dismount mechanic (a game invention) with an armoured boyar cavalry mechanic based on the inventory inscriptions.",
   "N3: Earthworks (the Erkesia dyke in Thrace, Pliska's 23 km² outer enclosure) as a unique wall.",
@@ -15,8 +14,8 @@ ideas = [
 contested = [
   "Proto-Bulgar ethnogenesis: Oghur Turkic (majority view) or Iranian/Pamiri (popular in Bulgaria, minority in scholarship).",
   "The introduction of the stirrup into Europe: by the Avars (consensus) or by the Proto-Bulgars (minority national thesis).",
-  "Exact meaning of the titles bagain, boila and kana subigi (T. Slavova, 2009).",
-  "Origin of the Asen brothers: Bulgarian, Vlach or Cuman (Madgearu, The Asanids, 2016).",
+  "Exact meaning of the ranks bagain and bagatur (T. Slavova, 2009).",
+  "Origin of the Asen brothers (Bulgarian, Vlach or Cuman), and how far the revolt of 1185–1186 was a Vlach rather than a Bulgarian movement: Niketas Choniates calls the rebels Vlachs (Madgearu, The Asanids, 2016).",
   "Authorship of the Cyrillic alphabet (Clement of Ohrid, Naum or Constantine of Preslav), and which script Chernorizets Hrabar defended (most read it as Constantine-Cyril's Glagolitic).",
   "Whether Old Church Slavonic krěpostĭ already meant “fortress” or mainly “strength, firmness”; the sense “fortress” for krepost may be modern.",
   "The campaign against Constantine IV is usually dated 680 and the peace 680 or 681 (conversion of Theophanes' annus mundi); 681 is the conventional foundation date.",
@@ -24,19 +23,22 @@ contested = [
   "The “Council of Preslav” of 893 is a modern label: its decisions (Simeon's accession, the move to Preslav, Slavonic as the language of the church) are reconstructed from later and indirect sources.",
 ]
 open_questions = [
-  "“Militia-line upgrades free” and Bagains as Militia armour gave the Bulgarians a swordsman identity that no source supports; this draft drops it. Does the owner want to keep some infantry flavour for gameplay (e.g. Spearman-line and Skirmisher upgrades free, for the Slavic spear and javelin levies)?",
-  "Kipchak overlap: the Bulgarians get Kipchaks through Cuman Alliance (Cuman Mercenaries renamed, identical effect, so as not to copy the Cumans' tech name verbatim; the Lithuanians did the same with Lipka Tatars), and the Georgians in this region get the Kipchak unit. History supports both (allies of the Asen dynasty; settlers of David IV). Acceptable, or should the Bulgarians get an exclusive Imperial tech instead (e.g. the Krum siege train, an N2 idea)?",
-  "First-Empire horse archery, the best-documented Proto-Bulgar military trait, still has no bonus (Cuman Alliance carries the Second Empire's horse archers). N1 options: “Thumb Ring, Parthian Tactics free” (Tatars) or “Cavalry Archers cost -10/20% in Castle/Imperial Age” (Huns), either instead of the elevation bonus or as a fifth bonus.",
-  "The elevation bonus (Tatars' effect) replaces the analysis's forest-ambush proposal, which needs a new mechanic (N2, see the ideas). Accept a bonus that partly duplicates the game's generic elevation advantage?",
+  "“Militia-line upgrades free” and Bagains as Militia armour gave the Bulgarians a swordsman identity that no source supports; this draft drops it. Does the owner want to keep some infantry flavour for gameplay (e.g. Spearman-line and Skirmisher upgrades free, for the Slavic spear and javelin levies)? The civ is already at the proposed cap of 9 passives and unique techs, so something would have to make room.",
+  "Composition and power: 5 passive bonuses and 4 unique techs make 9, the proposed cap (RULES 6.1). Steppe horse archery, which no bonus expressed before, is now a passive (“Thumb Ring, Parthian Tactics free”, the Tatars' effect; its evidence is inferential, see its contested note). Keep it, use the Huns' stronger “Cavalry Archers cost -10/20% in Castle/Imperial Age” instead, or drop it (or Cuman Alliance) if the civ is too strong?",
+  "Economic slot: tribute now sits in the Town Center tech Peace of 927 (a datable treaty, RULES 6.2), and the economic passive is Vlach-Bulgarian pastoralism (“Shepherds work +25% faster”, the Britons' effect). Alternatives: “Livestock animals last +50% longer” (Tatars) for the herds; or restore the first draft's tribute passive (“Receive +100 gold when advancing to the next Age”) and give the Town Center another act of state, such as Krum's legislation (known only from the Suda). Which does the owner prefer?",
+  "Kipchak overlap: the Bulgarians get free Elite Kipchaks through Cuman Alliance (Cuman Mercenaries renamed, identical effect), the Cumans keep Cuman Mercenaries, and the model is also the Georgians' Kipchak, the Hindustanis' Ghulam and the Saracens' Mamluk. The Lithuanians' draft no longer copies Cuman Mercenaries: it replaced its copy with a new level-2 Lipka Tatars precisely to avoid a third identical tech and the stacking of free Kipchaks in team games, and Bulgarians and Cumans on one team may each give their allies 5 free Elite Kipchaks per Castle. Accept, or give the Bulgarians an exclusive Imperial tech instead (the Georgian pattern, the Kipchak as a shared Castle unit, is another way to show the Cumans)?",
+  "A level-1 alternative to Bagains: Krum's siege train (812–814) as the Castle Age tech, sharing and renaming Drill (Siege Workshop Units move +50% faster; Mongols), which fits the iron-bound wagons built to carry the engines in 814 (Scriptor incertus), or a tech that other drafts no longer use: Ironclad (Siege Weapons +4 melee armor; dropped by the Teutons), Furor Celtica (Siege Weapons +40% HP; dropped by the Gaels) or Torsion Engines (Siege Workshop Units' blast radius increased; dropped by the Ethiopians). It is a weightier datable moment than the rank of bagain; if adopted, the siege passive would rest on the later siege tradition (Samuel, Kaloyan), so that 812–814 does not fill two slots (RULES 6.3). Keep Bagains (the name is linguistically sound) or switch?",
+  "The elevation bonus (the Tatars' effect) replaces the analysis's forest-ambush proposal, which needs a new mechanic (N2, see the ideas). Accept a bonus that partly duplicates the game's generic elevation advantage?",
   "Architecture: changed to Mediterranean, which is historically closer to Pliska, Preslav and Tarnovo than the onion-domed, partly wooden Eastern European set. All four civs of this region now share it. Keep Eastern European instead for visual distinctness?",
-  "No siege warship: the Cannon Galleon is removed (Bulgaria had no war fleet; only the Dobruja despotate kept a few ships in the 1360s–1370s), so on water maps coastal buildings fall only to Demolition Ships and landed siege. Acceptable, or keep a non-gunpowder Catapult Galleon? Siphons also stays out: Krum captured siphons and liquid fire at Mesembria in 812 (Theophanes), but no source records Bulgarian use.",
-  "The Council of Preslav sits at the Town Center as an act of state (it changed the ruler, the capital and the language of church and state), although its effect is religious; it shares the effect of the Saxons' Clerical Recruitment. Block Printing stays under its generic name, like the neighbours. Agree?",
+  "Siege warship: a non-gunpowder Catapult Galleon replaces the Cannon Galleon (RULES 6.11), with the same policy and wording as for the Armenians and Georgians, although Bulgaria had no war fleet (only the Dobruja despotate kept a few ships in the 1360s–1370s); without it, coastal buildings would fall only to Demolition Ships and landed siege. Keep it, or leave the civ without a siege warship? Siphons stays out: Krum captured siphons and liquid fire at Mesembria in 812 (Theophanes), but no source records Bulgarian use.",
+  "Mule Cart (owner's question): not given; the Bulgarians keep the Lumber and Mining Camps, since no distinctive Bulgarian pack-animal economy is documented (pack mules and horses were universal in the Balkans, and the Vlach herders are covered by the pastoral bonus). Should the Bulgarians get it, alongside the camps or replacing them?",
+  "Team bonus: “Monasteries work +20% faster” (the Lithuanians' current team bonus) is now the team bonus of five drafts: Bulgarians, Danes, Hindustanis, Khitans and Saxons. RULES 6.7 allows it, and the Bulgarian basis (Slavonic books and clergy for Serbs and Rus') is among the strongest. Should the Bulgarians keep it while some of the others change?",
   "Rename the Konnik to “Bolyar” (the mounted aristocracy), as the analysis proposes? Not done here: it would clash with the Rus' Boyar, and konnik (“horseman”) is acceptable.",
   "Keep the name Krepost, given the doubt about its medieval meaning, or use grad (the usual medieval word for a fortified town)?",
 ]
 
 [profile]
-entity = "First Bulgarian Empire (khanate, tsardom from Simeon) and Second Bulgarian Empire (Asen and Shishman dynasties)"
+entity = "First Bulgarian Empire (khanate, tsardom from Simeon) and Second Bulgarian Empire (Asen and Shishman dynasties): Bulgars and Slavs, joined in the Second Empire by the Vlachs of the Haemus and by Cuman allies"
 region = "Lower Danube, Balkan Mountains, Thrace and Macedonia"
 window = "681–1018 and 1185–1396"
 sources = [
@@ -45,8 +47,8 @@ sources = [
   "The anonymous Chronicle of 811 (ed. I. Dujčev, Travaux et Mémoires 1, 1965)",
   "Proto-Bulgarian inscriptions (V. Beševliev, Die protobulgarischen Inschriften, 1963)",
   "Theophylact of Ohrid, Life of Clement",
-  "Leo the Deacon, History; John Skylitzes, Synopsis Historion; Niketas Choniates, History",
-  "Geoffroy de Villehardouin, The Conquest of Constantinople; Robert de Clari",
+  "Theophanes Continuatus; Leo the Deacon, History; John Skylitzes, Synopsis Historion; Kekaumenos, Strategikon (c. 1075–1078); Niketas Choniates, History",
+  "Geoffroy de Villehardouin, The Conquest of Constantinople; Robert de Clari; George Akropolites, History",
   "F. Curta, Southeastern Europe in the Middle Ages 500–1250 (2006)",
   "J. V. A. Fine, The Early Medieval Balkans (1983) and The Late Medieval Balkans (1987)",
   "P. Stephenson, Byzantium's Balkan Frontier (2000)",
@@ -62,8 +64,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Blacksmith and Siege Workshop technologies cost -50% food (Bulgarians)"
-basis = "Krum's siegecraft: an Arab engineer stationed at Adrianople, unpaid by Nikephoros I, deserted to the Bulgars and taught them to build engines, with which Krum took Mesembria (812) and captured siphons and Greek fire (Theophanes); the Scriptor incertus describes the engines prepared against Constantinople in 814. Later rulers kept taking Byzantine fortresses by siege, as Samuel did at Larissa (986) and Kaloyan at Varna (1201). For the Blacksmith: 9th-century inventory inscriptions list armour and helmets issued to named officials (Beševliev, 1963)."
-relevance = "Siege capacity turned the khanate from a raiding power into one that took and held Byzantine cities (Mesembria 812, Adrianople 813), and it recurs under Samuel and Kaloyan."
+basis = "Krum's siegecraft: an Arab engineer stationed at Adrianople, unpaid by Nikephoros I, deserted to the Bulgars and taught them to build engines, with which Krum took Mesembria (812) and captured siphons and Greek fire (Theophanes); the Scriptor incertus describes the engines prepared against Constantinople in 814. Later rulers kept taking Byzantine fortresses: Kaloyan took Varna with a siege tower that spanned its moat (1201; Niketas Choniates), and Samuel took Larissa after a blockade of several years (986; Skylitzes). For the Blacksmith: 9th-century inventory inscriptions list armour and helmets issued to named officials (Beševliev, 1963)."
+relevance = "Siege capacity turned the khanate from a raiding power into one that took Byzantine cities (Mesembria 812; Adrianople 813, whose people Krum deported beyond the Danube), and it recurs under Samuel and Kaloyan."
 
 [[bonus]]
 text = "Can build Krepost in Castle Age"
@@ -72,19 +74,19 @@ level = 1
 change = "kept"
 precedent = "Can build Krepost in Castle Age (Bulgarians)"
 basis = "A dense network of hill and river fortresses carried the Second Empire: Tsarevets at Tarnovo, Baba Vida at Vidin, Lovech and Ovech, and Asen's fortress near Asenovgrad, strengthened by Ivan Asen II (inscription of 1231). A smaller, cheaper fortress than a Castle is a good abstraction."
-relevance = "The Second Empire rose from and lived on its fortress towns, from the revolt of 1185 to the sieges of Tarnovo (1393) and Vidin (1396)."
+relevance = "The Second Empire rose from and lived on its fortress towns, from the revolt of 1185 to the fall of Tarnovo after a three-month siege (1393) and of Vidin (1396)."
 contested = "The name: krepost is the modern Bulgarian word for fortress; medieval texts prefer grad."
 
 [[bonus]]
-text = "Receive +100 gold when advancing to the next Age"
+text = "Shepherds work +25% faster"
 kind = "economic"
 level = 1
 change = "new"
 replaces = "Town Centers cost -50% stone"
-precedent = "Receive +100 gold and +100 food when advancing to the next Age (Ethiopians); Receive +200 wood when advancing to the next Age (Dravidians)"
-basis = "Byzantine payments repeatedly bought peace with Bulgaria: annual tribute to Asparuh after 680/681 (Theophanes), gifts and the title of kaisar for Tervel (705), garments and red skins worth 30 lb of gold under the treaty of 716, which Krum demanded to renew in 812, and annual payments under the peace of 927, whose cancellation in 965/966 brought war (Theophanes; Fine, 1983). A gold grant at each Age abstracts these recurring subsidies. The stone discount on Town Centers had only a weak link with Pliska and Preslav."
-relevance = "For three centuries (681–965) the First Empire's relations with Byzantium turned on tribute, which financed the khans and decided war and peace."
-contested = "The Second Empire received no comparable tribute."
+precedent = "Shepherds work +25% faster (Britons)"
+basis = "Transhumant herding was the economy of the Balkan highlands: the Vlachs kept their flocks and families in the high mountains from April to September and wintered in the lowlands (Kekaumenos, on the Vlachs of Thessaly in the 1060s), and the revolt that founded the Second Empire broke out in 1185–1186 among the Vlachs and Bulgarians of the Haemus, angered by the levies Isaac II raised for his wedding, which fell on their herds (Niketas Choniates; Madgearu, 2016). The Proto-Bulgars themselves came from the Pontic steppe as herders of horses and sheep. The stone discount on Town Centers had only a weak link with Pliska and Preslav."
+relevance = "The Second Empire began as a revolt of the Haemus herders, Vlachs and Bulgarians, and transhumant pastoralism was the base of the highland society that carried the Asen state; a structural trait of environment and economy."
+contested = "How far the revolt was a Vlach movement, and whether the levy fell mainly on livestock, depend on the reading of Choniates (see the civ-level note on the Asens)."
 
 [[bonus]]
 text = "Units deal +25% damage when fighting from higher elevation"
@@ -93,9 +95,19 @@ level = 1
 change = "new"
 replaces = "Militia-line upgrades free"
 precedent = "Units deal +25% damage when fighting from higher elevation (Tatars)"
-basis = "The Balkan range was Bulgaria's rampart and its passes the scene of its great victories. At Varbitsa (811) Krum closed the pass with palisades and fell on Nikephoros I's camp at dawn (Theophanes; Chronicle of 811); at the Gates of Trajan (986) Samuel's army attacked Basil II's retreating column in the pass (Leo the Deacon); at Tryavna (1190) the Asen brothers attacked Isaac II's army from the heights above the defile (Niketas Choniates). The swordsman bonus is dropped: Slavic infantry fought with spears, javelins and bows, and no source describes Bulgarian heavy swordsmen."
-relevance = "Holding the passes of the Haemus decided Bulgaria's survival against Byzantium three times in four centuries (811, 986, 1190); a structural trait of geography and warfare."
+basis = "The mountains were Bulgaria's rampart and their passes the scene of its great victories. At Varbitsa (811) Krum closed the pass with palisades and fell on Nikephoros I's camp at dawn (Theophanes; Chronicle of 811); at the Gates of Trajan, the pass on the road from Serdica (986), Samuel's army attacked Basil II's retreating column (Leo the Deacon, an eyewitness); at Tryavna (1190) the Asen brothers attacked Isaac II's army from the heights above the defile (Niketas Choniates). The swordsman bonus is dropped: Slavic infantry fought with spears, javelins and bows, and no source describes Bulgarian heavy swordsmen."
+relevance = "Holding the mountain passes (the Haemus at Varbitsa and Tryavna, Trajan's Gate on the Serdica road) decided Bulgaria's survival against Byzantium three times in four centuries (811, 986, 1190); a structural trait of geography and warfare."
 contested = "The bonus rewards fighting downhill, which fits Tryavna and the Gates of Trajan better than the palisade trap of Varbitsa."
+
+[[bonus]]
+text = "Thumb Ring, Parthian Tactics free"
+kind = "military"
+level = 1
+change = "new"
+precedent = "Thumb Ring, Parthian Tactics free (Tatars)"
+basis = "The Bulgars who crossed the Danube under Asparuh (680/681) came from the Pontic steppe, from Kubrat's Old Great Bulgaria, and their elite kept a Turkic military vocabulary (bagatur, tarkhan, boila); they belonged to the world of the steppe peoples whose cavalry the Strategikon (XI.2) describes as mounted archers practised in feigned flight. Under the Second Empire the same way of war returned with the Cuman allies (see Cuman Alliance). The civ already has the Cavalry Archer line, Thumb Ring and Parthian Tactics, which no bonus expressed."
+relevance = "Steppe mounted warfare is the heritage that the khanate's founders brought across the Danube and that the Cuman alliance renewed; a long military tradition that the analysis found missing from the design."
+contested = "Direct evidence of Proto-Bulgar horse archery in the Balkans is thin: the trait is inferred from the Bulgars' steppe origin, their Turkic military vocabulary and the Byzantine treatment of steppe peoples."
 
 [team_bonus]
 text = "Monasteries work +20% faster"
@@ -103,7 +115,7 @@ level = 1
 change = "new"
 replaces = "Blacksmiths work +80% faster"
 precedent = "Monasteries work +20% faster (Lithuanians team bonus)"
-basis = "Bulgaria was the workshop of Slavonic Orthodoxy for its neighbours: Boris I (baptised 864/865) received the disciples of Cyril and Methodius in 886, and the schools of Preslav and Ohrid trained clergy and produced the Slavonic books later used in Serbia and Rus'; in the 14th century the Tarnovo school of Patriarch Euthymius again shaped Serbian and Russian letters (Obolensky, 1971; Curta, 2006). Blacksmith speed had no specific Bulgarian basis."
+basis = "Bulgaria was the workshop of Slavonic Orthodoxy for its neighbours: the Slavonic books written and copied in the schools of Preslav and Ohrid passed to Serbia and Rus', and in the 14th century the Tarnovo school of Patriarch Euthymius shaped Serbian and Russian letters through its pupils, such as Cyprian, metropolitan of Kiev and all Rus', and Gregory Tsamblak (Obolensky, 1971; Curta, 2006). Blacksmith speed had no specific Bulgarian basis."
 relevance = "The Slavonic liturgy and letters that Bulgaria passed to Serbs and Rus' are its greatest legacy to its neighbours; a clear benefit to others, as RULES 6.2 asks."
 
 [[unique_unit]]
@@ -113,7 +125,7 @@ building = "Castle"
 level = 1
 change = "kept"
 basis = "The mounted aristocracy (boilas, later bolyars) was the elite core of Bulgarian armies from the khanate to the Second Empire; konnik is the ordinary Bulgarian word for horseman. Fighting on as infantry when unhorsed is a game mechanic, not a documented Bulgarian speciality."
-relevance = "The armoured horseman of the aristocracy was the decisive arm of Bulgarian armies in both empires."
+relevance = "The armoured mounted aristocracy (boilas, later bolyars) formed the elite core of Bulgarian armies in both empires and the ruling class of the state."
 
 [[unique_tech]]
 name = "Bagains"
@@ -125,21 +137,34 @@ level = 2
 change = "changed"
 replaces = "Bagains (Militia-line +5 melee armor), formerly the Imperial Age tech"
 precedent = "Silk Armor: Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor (Tatars); Hauberk: Knight-line +1 melee/+2 pierce armor (Sicilians). A new effect for an existing name, so level 2."
-basis = "Bagain was a 9th-century Proto-Bulgarian military rank with several grades (Slavova, 2009); inventory inscriptions of the same century list mail coats and helmets recorded against named officials (Beševliev, 1963). The armour therefore goes to the heavy cavalry, the arm of the khanate's elite, not to swordsmen. It moves to the Castle Age slot left by Stirrups, as the First Empire's tech; the dismounted Konnik keeps it because it is the same man, unhorsed."
-relevance = "The ranked, state-equipped mounted elite of the 9th-century khanate, attested by its own inscriptions, is what made Krum's and Omurtag's armies; a datable military institution at the Castle."
-contested = "That bagains served as armoured cavalry is inferred from the mounted character of the Proto-Bulgar elite; the inscriptions give only the rank."
+basis = "Bagain was a 9th-century Proto-Bulgarian military rank with several grades (Slavova, 2009); inventory inscriptions of the same century list mail coats and helmets issued to named officials from the khan's stores (Beševliev, 1963). The armour plausibly goes to the heavy cavalry, the arm of the khanate's elite, rather than to swordsmen. It moves to the Castle Age slot left by Stirrups, as the First Empire's tech; the dismounted Konnik keeps it because it is the same man, unhorsed."
+relevance = "The ranked mounted elite of the 9th-century khanate, partly equipped from the khan's stores (inventory inscriptions); a military institution of the First Empire, at the Castle."
+contested = "The inscriptions attest the ranks and the armour issued to named officials; that bagains served as armoured cavalry is inferred from the mounted character of the Proto-Bulgar elite."
+
+[[unique_tech]]
+name = "Peace of 927"
+building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "All gold income +10%"
+level = 2
+change = "new"
+precedent = "Grand Trunk Road: All gold income +10% faster; Market trading fee reduced to 10% (Hindustanis): the gold half only, as in the Avars' Byzantine Tribute, since the trading-fee half has no basis in the treaty"
+basis = "Byzantine payments repeatedly bought peace with Bulgaria: tribute to Asparuh after 680/681 (Theophanes), gifts and the title of kaisar for Tervel (705), garments and red skins worth 30 lb of gold under the treaty of 716, which Krum demanded to renew in 812 (Theophanes), and the annual tribute that Leo VI agreed to pay Simeon after Bulgarophygon (896; Fine, 1983). The peace of 927 crowned this policy: after Simeon's death Romanos I Lekapenos recognised Peter as basileus (tsar) of the Bulgarians and the head of the Bulgarian church as patriarch, gave him his granddaughter Maria, renamed Irene (“peace”), and resumed yearly payments (Theophanes Continuatus; Skylitzes). The gold-income effect abstracts these payments, although the sums were modest (the 30 lb of gold of 716 equal some 2,160 nomismata, against the 80,000–200,000 solidi a year paid to the Avars) and the Second Empire received no comparable tribute; the treaty is a datable act of state, so it sits at the Town Center (RULES 6.2)."
+relevance = "Tribute was a recurring aim of Bulgarian war and diplomacy (681, 705, 716, 796, 812, 896); the peace of 927 brought Byzantine recognition of the tsardom and its patriarchate and four decades of peace, and Nikephoros II's refusal to pay in 965/966 began the war that ended the eastern Bulgarian state (971; Leo the Deacon IV.5)."
+contested = "Whether Byzantium recognised the patriarchal title in 927 itself or only later, and whether the yearly payments after 927 were tribute or Tsaritsa Maria's allowance, are debated."
 
 [[unique_tech]]
 name = "Council of Preslav"
-building = "Town Center"
+building = "Monastery"
 kind = "civil"
 age = "Castle"
 effect = "Monks +1 conversion range; train +33% faster"
 level = 1
 change = "new"
-precedent = "Clerical Recruitment (Monks +1 conversion range; train +33% faster) (Saxons): an existing unique tech, shared, moved to the Town Center and renamed, identical effect"
-basis = "In 893 Boris I deposed his son Vladimir-Rasate, Simeon was enthroned, the capital moved from Pliska to Preslav and Slavonic replaced Greek as the language of the Bulgarian church, with clergy trained by Clement and Naum replacing the Greek clergy; Clement is said to have trained some 3,500 pupils (Theophylact of Ohrid, Life of Clement). The Preslav and Ohrid schools translated and copied Greek religious texts into Slavonic, and Chernorizets Hrabar's On the Letters defended Constantine-Cyril's Slavonic letters against those who held that only Hebrew, Greek and Latin were fit for scripture (Curta, 2006; Obolensky, 1971)."
-relevance = "The adoption of Slavonic as the language of church and state fused Bulgars and Slavs into one people and made Bulgaria the source of Slavia Orthodoxa; few acts weighed more on its identity."
+precedent = "Clerical Recruitment (Monks +1 conversion range; train +33% faster) (Saxons, who also move it to the Monastery): an existing unique tech, shared, moved to the Monastery and renamed, identical effect"
+basis = "In 893 a council of the realm deposed Boris I's son Vladimir-Rasate, enthroned Simeon, moved the capital from Pliska to Preslav and made Slavonic the language of the Bulgarian church, with clergy trained by Clement and Naum replacing the Greek clergy; Clement is said to have taught some 3,500 pupils in his district of Kutmichevitsa before 893 (Theophylact of Ohrid, Life of Clement). The Preslav and Ohrid schools translated and copied Greek religious texts into Slavonic, and Chernorizets Hrabar's On the Letters defended Constantine-Cyril's Slavonic letters against those who held that only Hebrew, Greek and Latin were fit for scripture (Curta, 2006; Obolensky, 1971). Its effect and its weight are religious, so it sits at the Monastery (RULES 6.2), as the Saxons' Clerical Recruitment does; Greek remained the language of state inscriptions and seals (the Narash boundary stone of 904, the seals of Simeon and Peter)."
+relevance = "The adoption of Slavonic as the language of the church and of letters helped fuse Bulgars and Slavs into one Christian people and made Bulgaria the source of Slavia Orthodoxa; few acts weighed more on its identity."
 contested = "See the civ-level note on the “Council of Preslav” as a modern label."
 
 [[unique_tech]]
@@ -151,11 +176,11 @@ effect = "All team members can train 5 free Elite Kipchaks per Castle"
 level = 1
 change = "new"
 precedent = "Cuman Mercenaries (All team members can train 5 free Elite Kipchaks per Castle) (Cumans): an existing unique tech, shared and renamed, identical effect"
-basis = "The Cumans were structural allies of the Asen dynasty, not hired soldiers: Peter and Asen brought Cuman troops from beyond the Danube in 1186 (Choniates); Cuman horse archers and a feigned retreat won Kaloyan's victory over the Latin Empire at Adrianople (14 April 1205), where Emperor Baldwin I was captured (Villehardouin; Robert de Clari); the Terter dynasty (1280–1323) was of Cuman origin (Vásáry, 2005; Madgearu, 2016). The Second Empire's tech, renamed because “alliance” fits the relationship better than “mercenaries”."
+basis = "The Cumans were allies of the Asen dynasty, bound to it by marriage and paid in plunder: Peter and Asen brought Cuman troops from beyond the Danube in 1186 (Choniates); Cuman horse archers and a feigned retreat won Kaloyan's victory over the Latin Empire at Adrianople (14 April 1205), where Emperor Baldwin I was captured, after which the Cumans went home with their booty (Villehardouin; Robert de Clari); Kaloyan's wife was a Cuman (Akropolites), and the Terter dynasty (1280–1323) was of Cuman origin (Vásáry, 2005; Madgearu, 2016). Renamed because “alliance” fits the relationship better than “mercenaries”. The team-wide reach is a game convention: the only Bulgarian parallels are the alliance with the Greek archontes of Thrace in 1205 and the joint Bulgarian–Nicaean siege of Constantinople (1235–1236)."
 relevance = "Without its Cuman allies the Asen revolt would hardly have survived Byzantine and Latin counter-attacks; the alliance shaped the Second Empire from 1186 to the Terters."
 
 [tree]
-add = ["Faith", "Atonement", "Sanctity", "Block Printing", "Fortified Wall"]
+add = ["Faith", "Atonement", "Sanctity", "Block Printing", "Fortified Wall", "Catapult Galleon"]
 remove = ["Cannon Galleon"]
 
 [tree.basis]
@@ -164,6 +189,7 @@ remove = ["Cannon Galleon"]
 "Sanctity" = "As for Faith: the cult of St John of Rila and the monastic centres of the Second Empire."
 "Block Printing" = "Kept under its generic name, like the neighbouring civs: the Preslav and Ohrid scriptoria multiplied Slavonic books, and the Council of Preslav tech carries the named moment."
 "Fortified Wall" = "Pliska's inner citadel had stone walls over 2 m thick and Preslav was walled in stone; the First Empire also built the Erkesia earthwork across Thrace."
+"Catapult Galleon" = "Substitute for the removed Cannon Galleon (RULES 6.11): a generic non-gunpowder siege warship, so that the civ can still attack coastal buildings from the water. Bulgaria had no war fleet, so it is a playability abstraction, like the rest of the civ's navy; the same policy as for the Armenians and Georgians (see the open question)."
 "Cannon Galleon" = "Bulgaria had neither a war navy nor gunpowder before its fall (Tarnovo 1393, Vidin 1396); only the Dobruja despotate kept a small Black Sea fleet in the 1360s–1370s."
 
 [architecture]
