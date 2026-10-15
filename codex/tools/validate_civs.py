@@ -44,11 +44,9 @@ TECH_BUILDINGS = {
 MILITARY_BUILDINGS = {'Castle', 'Barracks', 'Archery Range', 'Stable', 'Siege Workshop', 'Dock'}
 TECH_KINDS = {'military', 'civil'}
 AGES = ['Dark', 'Feudal', 'Castle', 'Imperial']
-# Regional units do not count as unique units (RULES 6.1).
-REGIONAL_UNITS = {
-    'Steppe Lancer', 'Elite Steppe Lancer', 'Genitour', 'Elite Genitour',
-    'Mounted Crossbowman', 'Heavy Mounted Crossbowman',
-}
+# Regional units do not count as unique units (RULES 6.1): the game's own regional units (node type
+# 'RegionalUnit' in data/trees/) plus the Genitour, which the owner made a regional unit.
+OWNER_REGIONAL_UNITS = {'Genitour', 'Elite Genitour'}
 CHANGES = {'kept', 'changed', 'new'}
 DROPPED_KINDS = {'bonus', 'team_bonus', 'unique_unit', 'unique_tech', 'unique_building', 'tree', 'other'}
 
@@ -70,6 +68,9 @@ def load_game():
     display = {civ: s.get(str(c['name_string_id'])) or civ for civ, c in d['civs'].items()}
     help_texts['__display__'] = display
     help_texts['__prereq__'], help_texts['__substitutes__'] = load_prerequisites(names, d['civs'])
+    help_texts['__regional__'] = OWNER_REGIONAL_UNITS | {
+        x['name'] for f in (ROOT / 'data' / 'trees').glob('*.json')
+        for x in json.loads(f.read_text(encoding='utf-8'))['units_techs'] if x['node_type'] == 'RegionalUnit'}
     all_names = defaultdict(set)
     for (k, _), n in names.items():
         all_names[n].add(k)
@@ -257,11 +258,12 @@ def validate(path, game):
             r.err('[team_bonus]: change must be one of kept, changed, new')
 
     uus = doc.get('unique_unit', [])
-    counted = [u for u in uus if u.get('model') not in REGIONAL_UNITS]
+    regional = help_texts['__regional__']
+    counted = [u for u in uus if u.get('model') not in regional]
     if not 1 <= len(counted) <= 2:
         r.err(f'{len(counted)} unique units (regional units not counted); RULES 6.1 asks for 1 or 2')
     for u in uus:
-        if u.get('model') in REGIONAL_UNITS:
+        if u.get('model') in regional:
             r.warn(f'[[unique_unit]] {u.get("name")}: {u["model"]} is a regional unit and does not count as a unique unit')
     for n, u in enumerate(uus, 1):
         w = f'[[unique_unit]] {u.get("name", n)}'
