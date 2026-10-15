@@ -2,7 +2,7 @@ civ = "Portuguese"
 name = "Portuguese"
 status = "draft"
 label = "Archer and Naval civilization"
-summary = "Portuguese rebuilt from the owner's agreed example and decisions so that the late-medieval kingdom stands beside the Avis expansion: the Besteiro do Conto (Genoese Crossbowman model) replaces the Organ Gun beside the Caravel; Aljubarrota (Castle), Lei das Sesmarias (Town Center), Ordem de Cristo (Monastery) and Volta do Mar (Dock) replace Arquebus and Circumnavigation; free crossbow upgrades and a fishing bonus replace the unfounded forager-wood and -20% gold bonuses; the team bonus now rests on the Portuguese-trained pilots and the charts that carried Atlantic navigation abroad; and the regional Ginete, Arrowslits and Hoardings join the tree."
+summary = "Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, and Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation."
 ideas = [
   "N2: Besteiro do Conto with stats of its own: a cheap food-and-wood crossbowman with high attack and slow reload, trainable at the Castle and the Town Center (analysis proposal), instead of the Genoese Crossbowman's.",
   "N2: Nau da Índia: the Carrack line keeps its boarding attack and gains a short-range secondary cannon attack, for the naus of the Carreira da Índia that combined artillery and boarding (Diu, 1509).",
@@ -22,9 +22,9 @@ open_questions = [
   "Aljubarrota's effect: armour for Infantry and Foot Archers (as drafted, for the prepared defensive position of Atoleiros and Aljubarrota), or the narrower anti-cavalry 'Spearman-line and Foot Archers receive -2 damage from Mounted Units' (precedent: Royal Heirs, Ethiopians), which fits Atoleiros best?",
   "The Besteiro do Conto unit and the free crossbow upgrades both rest on the crossbowmen, as your example and your decision imply. Keep both, or replace the passive with another trait?",
   "The Besteiro do Conto shares the Genoese Crossbowman model with the Italians, whose team bonus makes the Genoese Crossbowman available to allies: a Portuguese–Italian team would field the same unit under two names. Acceptable?",
-  "Ordem de Cristo's relic effect (your decision) keeps the Lithuanian maximum of +4 but applies it to units with far lower base attack. The Lithuanian bonus adds 25–40% to the Knight-line and Leitis (base attack 10–16); on Portuguese ships +4 adds 44–67% to the Galley line (6/7/9), 57–100% to the Caravel (4, Elite 7), 100% to the Hulk line (4) and 133–200% to the Fire Galley and Fire Ship (2–3, firing every 0.25 s), and it stacks with the ship-HP passive, Volta do Mar's faster ship production, the team's faster ships and the tech's own Dock discount, from the Castle Age. Keep it, or narrow it: Galley line and Caravels only, a maximum of +2, or +1 per two Relics?",
-  "Power and the Reconquest kingdom: 4 passive bonuses + 4 unique techs = 8. Without the -20% gold and forager-wood bonuses the land economy has no bonus before Lei das Sesmarias (Castle Age), and no element stands for the kingdom's first century (Santarém and Lisbon 1147, Alcácer do Sal 1217, the Algarve 1249); the castle network of D. Dinis is already in the tree (Arrowslits, Hoardings). A fifth passive (9, the cap) could answer both: the military orders (Templars, Hospitallers, Santiago, Avis) that held the Tagus and Alentejo frontier; the concelho cavalry of the forais (cavaleiros-vilãos); or the Mule Cart for the almocreves (see the next question), which as a unique building would count as this passive (RULES 6.1). Accept 8, or add one (which)?",
-  "Mule Cart (almocreves): not given in this draft. The almocreves and their pack mules carried timber, charcoal, ore and salt, and the forais taxed such loads at the portagem by the beast-load, but pack transport was common to the whole Mediterranean, RULES 6.1 counts a unique building as a passive bonus, and RULES section 10 lists this extension among the ideas for later levels. The Castilians' draft withholds it too; the Armenians and Georgians keep the version that replaces the camps, and the Ethiopians and Tatars get it alongside the camps as a counted passive. One policy for all civs?",
+  "Ordem de Cristo's relic effect (your decision) keeps the Lithuanian maximum of +4 but applies it to units with far lower base attack. The game's Lithuanian bonus (which the Lithuanians' design replaces) adds 25–40% to the Knight-line and Leitis (base attack 10–16); on Portuguese ships +4 adds 44–67% to the Galley line (6/7/9), 57–100% to the Caravel (4, Elite 7), 100% to the Hulk line (4) and 133–200% to the Fire Galley and Fire Ship (2–3, firing every 0.25 s), and it stacks with the ship-HP passive, Volta do Mar's faster ship production, the team's faster ships and the tech's own Dock discount, from the Castle Age. At +4 it also exceeds the highest attack bonus the game gives the Galley line (+2, the Romans' Ballistas), a case for codex-wide question CQ9 (magnitude ceiling). Keep it, or narrow it: Galley line and Caravels only, a maximum of +2, or +1 per two Relics?",
+  "Power and the Reconquest kingdom: 4 passive bonuses + 4 unique techs = 8. Without the -20% gold and forager-wood bonuses the land economy has no bonus before Lei das Sesmarias (Castle Age), and no element stands for the kingdom's first century (Santarém and Lisbon 1147, Alcácer do Sal 1217, the Algarve 1249); the castle network of D. Dinis is already in the tree (Arrowslits, Hoardings). A fifth passive (9, the cap) could answer both: the military orders (Templars, Hospitallers, Santiago, Avis) that held the Tagus and Alentejo frontier; the concelho cavalry of the forais (cavaleiros-vilãos); or the Mule Cart for the almocreves (codex-wide question CQ4), which as a unique building would count as this passive (RULES 6.1). Under codex-wide criteria the tree also loses Thumb Ring (no thumb draw is attested; its accuracy effect also leaves the Ginete line) and Siphons (no ship-borne liquid fire). Accept 8, or add one (which)?",
+  "Codex-wide question CQ4 (see codex/civs/README.md): Mule Cart.",
   "Shipwright (an N1 tree addition, not N2): the Portuguese lack it, which the tech tree audit calls ironic for a seafaring civ (the royal shipyard of Lisbon could be its basis). Add it, perhaps lowering the ship HP bonus, since it would stack with Volta do Mar's faster ship production?",
 ]
 
@@ -97,8 +97,8 @@ level = 1
 change = "new"
 replaces = "Technologies research +25% faster (owner's ruling: it fails RULES 6.2, and the 'school of Sagres' it alluded to is a myth)"
 precedent = "Ships move +10% faster (Berbers), halved for a team-wide effect"
-basis = "Portugal trained the seamen, pilots and chart-makers who carried Atlantic navigation abroad. Foreign captains sailed in Prince Henry's service (the Venetian Cadamosto and the Genoese Usodimare, 1455–1456), and Columbus sailed with the Portuguese in the 1470s–1480s, to Guinea by his own later notes, before taking what he had learned to Castile. Portuguese pilots and cosmographers then served Castile: Juan Díaz de Solís, who had sailed for Portugal, as its chief pilot (piloto mayor) from 1512, Magellan and Rui Faleiro from 1517, and the chart-makers Pedro and Jorge Reinel at Seville in 1519; and Portuguese charts leaked abroad, as the Cantino planisphere, smuggled to Ferrara in 1502, shows. Portugal also spread the solar tables of Abraham Zacuto, a Salamanca astronomer whose work it had translated into Latin (José Vizinho) and printed at Leiria in 1496 (Diffie and Winius, 1977; Phillips and Phillips, 1992). Faster allied ships stand for the men and methods that passed from Portugal to its neighbours."
-relevance = "Portuguese-trained captains, pilots and cosmographers, and the charts that leaked from Lisbon, carried Atlantic navigation to Castile and Italy; it is Portugal's main legacy to its neighbours, as RULES 6.2 requires."
+basis = "Portugal trained the seamen, pilots and chart-makers who carried Atlantic navigation abroad, and the transfer began well before 1500. Foreign captains learned the Guinea route in Prince Henry's service (the Venetian Cadamosto and the Genoese Usodimare, 1455–1456); Columbus sailed with the Portuguese in the 1470s–1480s, to Guinea by his own later notes, and took what he had learned to Castile, which sent him west in 1492; and Portugal spread the solar tables of Abraham Zacuto, a Salamanca astronomer whose work it had translated into Latin (José Vizinho) and printed at Leiria in 1496 (Diffie and Winius, 1977; Phillips and Phillips, 1992). An epilogue after 1500, inside the window, shows the same flow: the Cantino planisphere, a Portuguese chart smuggled to Ferrara in 1502; Juan Díaz de Solís, who had sailed for Portugal, as Castile's chief pilot (piloto mayor) from 1512; Magellan and Rui Faleiro in Castilian service from 1517; and the chart-makers Pedro and Jorge Reinel at Seville in 1519. Faster allied ships stand for the men and methods that passed from Portugal to its neighbours."
+relevance = "Before 1500, the foreign seamen who sailed in Portuguese service (Columbus among them) and the solar tables printed at Leiria carried Portugal's Atlantic navigation to Italy and Castile, and its pilots and charts kept it flowing after 1500: Portugal's main legacy to its neighbours, as RULES 6.2 requires."
 contested = "How far the Crown kept its knowledge secret (see the civ-level list)."
 
 [[unique_unit]]
@@ -156,7 +156,7 @@ age = "Castle"
 effect = "Dock technologies cost -25%; each garrisoned Relic provides +1 attack to Warships (maximum +4)"
 level = 2
 change = "new"
-precedent = "Effect 1: Dock and University technologies cost -25% (Italians), Dock part only. Effect 2: Each garrisoned Relic provides +1 attack to Knight-line and Leitis (maximum +4) (Lithuanians), with Warships as the target"
+precedent = "Effect 1: Dock and University technologies cost -25% (Italians), Dock part only. Effect 2: Each garrisoned Relic provides +1 attack to Knight-line and Leitis (maximum +4) (Lithuanians, whose design replaces it), with Warships as the target"
 basis = "At King Dinis' request, Pope John XXII founded the Order of Christ by the bull of 14 March 1319 and gave it the Portuguese property of the suppressed Templars, with its seat at Castro Marim and later Tomar. Prince Henry governed the order from 1420 and used its revenues for the Atlantic and African voyages; in 1456 the papacy gave it spiritual jurisdiction over the new lands, and its red cross was carried on the sails (Russell, 2000; Disney, 2009). The relic-driven attack is an abstraction, not a documented practice: it stands for the crusading frame the papacy gave the African enterprise and the order, the indulgences of Dum diversas (1452) and Romanus pontifex (1455) and the order's spiritual jurisdiction (1456). Owner's decision (its magnitude is put to the owner in the open questions)."
 relevance = "The Order of Christ financed the expansion and gave it its crusading frame; its cross on the sails is the emblem of the discoveries."
 
@@ -176,13 +176,15 @@ contested = "Whether Dias's swing into the open ocean was deliberate or storm-dr
 
 [tree]
 add = ["Arrowslits", "Hoardings", "Genitour", "Elite Genitour"]
-remove = []
+remove = ["Thumb Ring", "Siphons"]
 
 [tree.basis]
 "Arrowslits" = "Portugal kept a dense network of frontier castles, rebuilt under D. Dinis (1279–1325) and his successors with tall keeps, machicolations and loopholes (Monteiro, 1999). Owner's decision in the agreed example."
 "Hoardings" = "Same castle network: wooden and later stone galleries on the walls of the castles of D. Dinis and his successors (Monteiro, 1999). Owner's decision in the agreed example."
 "Genitour" = "Riding à gineta (short stirrups, light lance, javelins and leather adarga), taken from the Zenata and Granadan horsemen, was one of the two riding styles of Portuguese cavalry: King Duarte's Livro da Ensinança de Bem Cavalgar Toda Sela (c. 1434–1438) teaches both à brida and à gineta. Ginetes were central to the raiding war around the Moroccan strongholds (Ceuta from 1415, Alcácer Ceguer from 1458, Arzila and Tangier from 1471), which Zurara's chronicles of the Meneses (Ceuta and Alcácer Ceguer, to 1464) and Rui de Pina's chronicle of Afonso V narrate (Ricard, 1955). The ginete's main weapon was the short lance, with javelins secondary; the Genitour, a javelin horseman that cannot fight at close range, is the closest existing unit. A regional unit (owner's decision) that does not count as a unique unit (RULES 6.1), trained at the Archery Range from the Castle Age as for the Berbers' allies, and renamed Ginete."
 "Elite Genitour" = "The Elite upgrade of the Ginete (Archery Range), for the same light horsemen."
+"Thumb Ring" = "No thumb draw is attested: the civ's archers used the European draw and its missile troops the crossbow; the codex gives the tech only where a thumb draw is attested (see the Gurjaras, Tamils and Saxons)."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 
 [[rename]]
 from = "Genitour"
@@ -195,6 +197,12 @@ from = "Elite Genitour"
 to = "Elite Ginete"
 level = 1
 basis = "Same rename for the Elite upgrade."
+
+[[rename]]
+from = "Elite Genoese Crossbowman"
+to = "Elite Besteiro do Conto"
+level = 1
+basis = "Follows the unique unit (Genoese Crossbowman → Besteiro do Conto), for the Portuguese only; the Italians keep the Genoese Crossbowman."
 
 [architecture]
 set = "Mediterranean"
