@@ -10,7 +10,7 @@ ideas = [
   "N2: A dismountable Ethiopian horseman with lance and javelins, for the cavalry Amda Seyon raised in Gojjam and Damot.",
   "N2: A sword-armed unit for the swordsmen Amda Seyon raised (Taddesse Tamrat, 1972), with adapted stats on existing art (RULES section 5): the game's Shotel Warrior, under the shotel's name, if the weapon's medieval use is shown, otherwise for example the Scenario Editor's Eastern Swordsman, after a check in game; new art would be N3. In N1 the Shotel Warrior is out (see dropped).",
   "N3: A Chewa Spearman with its own model (a highland spearman with shield) instead of the Andean Kamayuk graphic (new art, RULES section 5).",
-  "N3: A pack-mule caravan model of its own for the Pack Mule, which takes the Scenario Editor's Donkey as its look in level 1 (see the rename); shared with the Portuguese idea of other pack animals.",
+  "N3: A pack-mule caravan model of its own for the Baql (the renamed Mule Cart), which takes the Scenario Editor's Donkey as its look in level 1 (see the rename); shared with the Portuguese idea of other pack animals.",
   "N3: An Adal (Harar) civ as the Ethiopians' rival, with the Ottoman-supported musketeers of 1542 and the cannon used from 1531.",
   "N3: Aksumite war elephants, if better evidence is found: Malalas describes the king on an elephant-drawn platform, but Cosmas says the Ethiopians tamed only a few elephants for the king.",
 ]
@@ -47,16 +47,17 @@ sources = [
   "Timothy Insoll, ‘Dahlak Kebir, Eritrea: From Aksumite to Ottoman’, Adumatu 3 (2001)",
   "Donald Crummey, Land and Society in the Christian Kingdom of Ethiopia (2000)",
   "Richard Pankhurst, An Introduction to the Economic History of Ethiopia (1961)",
+  "August Dillmann, Lexicon linguae aethiopicae (Leipzig, 1865)",
 ]
 
 [[bonus]]
-text = "Can build Pack Mules"
+text = "Can build Baql"
 kind = "economic"
 level = 1
 change = "new"
 replaces = "Receive +100 gold and +100 food when advancing to the next Age"
 precedent = "Start with a Mule Cart (Georgians); Mule Carts cost -25% (Armenians); Can build Caravanserai in Imperial Age (Persians)"
-basis = "Mules were the riding and pack animals of the highland nobility, clergy and travellers, and the Solomonic kings had no fixed capital: the royal camp moved through the provinces with its baggage, as Francisco Álvares saw in the 1520s (Taddesse Tamrat, 1972). A mobile drop site abstracts this mobile kingdom. Since highland transport was by pack mule and porter, with almost no wheeled vehicles (Pankhurst, 1961), the Mule Cart is renamed Pack Mule and takes the look of the Scenario Editor's Donkey (see the rename). The Age-up resources had no historical referent."
+basis = "Mules were the riding and pack animals of the highland nobility, clergy and travellers, and the Solomonic kings had no fixed capital: the royal camp moved through the provinces with its baggage, as Francisco Álvares saw in the 1520s (Taddesse Tamrat, 1972). A mobile drop site abstracts this mobile kingdom. Since highland transport was by pack mule and porter, with almost no wheeled vehicles (Pankhurst, 1961), the Mule Cart is renamed Baql, the Ge'ez word for the mule, and takes the look of the Scenario Editor's Donkey (see the rename). The Age-up resources had no historical referent."
 relevance = "The itinerant royal camp, moved by mules and porters, was how the Solomonic kings governed the highlands for more than three centuries."
 contested = "The prominence of mules is clearest in early modern accounts (Álvares and later Portuguese writers); medieval evidence is thinner."
 
@@ -150,7 +151,7 @@ remove = ["Bombard Cannon", "Siege Onager", "Trebuchet", "Cannon Galleon", "Came
 
 [tree.basis]
 "Hand Cannoneer" = "Late element, RULES section 2, and the civ's only one (the unit is Imperial Age only). The great firearms episode of Ethiopian history is the war of 1529–1543: Adal received Arab and Ottoman musketeers from Zabid (1542), Cristóvão da Gama landed with c. 400 Portuguese musketeers (1541; Castanhoso, 1564), and after Wayna Daga (1543) the Ethiopians took up the musket. Before 1541 the kingdom had only a handful of guns, so Ethiopian musketeers proper come after 1500, but the war of 1541–1543 gives the unit clear fame. The game's tree had it the other way round (Bombard Cannon without Hand Cannoneer)."
-"Mule Cart" = "Added and renamed Pack Mule, with the look of the Scenario Editor's Donkey (see the bonus and the rename): it stands beside the Lumber and Mining Camps instead of replacing them, as in the Tatars' design, where it is the Araba. The Ethiopians are one of the Mule Cart's four holders (RULES 6.16.7)."
+"Mule Cart" = "Added and renamed Baql, with the look of the Scenario Editor's Donkey (see the bonus and the rename): it stands beside the Lumber and Mining Camps instead of replacing them, as in the Tatars' design, where it is the Araba. The Ethiopians are one of the Mule Cart's four holders (RULES 6.16.7)."
 "Bombard Cannon" = "There were no Ethiopian siege guns before 1543: the highland kingdom took places by blockade and assault, and it was Adal that used a cannon (from 1531, according to Arab Faqih)."
 "Siege Onager" = "The top tier of the stone-thrower line is dropped (the tech tree audit rates it unfounded); the Mangonel and Onager stay as a generic abstraction of assault and blockade, since mountain warfare turned on ambas and blockades (RULES 6.16.5)."
 "Trebuchet" = "No torsion or traction artillery is attested in Ethiopia, where the highland kingdom took places by blockade and assault, so the counterweight engine never reached the civ and is removed (RULES 6.16.5); the Mangonel and Onager stay as the generic stone-thrower, and the Siege Ram as the late anti-building engine. The civ has no long-range anti-building weapon, as RULES 6.16.5 allows where none is attested."
@@ -170,10 +171,10 @@ basis = "Follows the unique unit (Kamayuk → Chewa Spearman) for the Ethiopians
 
 [[rename]]
 from = "Mule Cart"
-to = "Pack Mule"
+to = "Baql"
 model = "Donkey"
 level = 1
-basis = "Mules were the pack animals of the highlands, and transport there was by pack mule and porter, with almost no wheeled vehicles (Pankhurst, 1961; see the bonus), so a cart is foreign to the civ (RULES 6.16.15). The look is the Scenario Editor's Donkey (The Forgotten), existing game content (RULES section 5), which stands in for the mule it closely resembles and fits the highland pack train better than the Caucasian cart, as the Ox Wagon fits the Tatars' Araba. Only the look is used, so the unit keeps the Mule Cart's function, and the Donkey's art, loads and scale on a drop-site unit must be checked in game. It is a level-1 look change for an existing holder, not an extension of the Mule Cart (RULES 6.16.7). No Ge'ez or Amharic name for the pack animal is secure in the sources used here, so a plain English name is used, as the Malians' design does for the Canoe."
+basis = "Mules were the pack animals of the highlands, and transport there was by pack mule and porter, with almost no wheeled vehicles (Pankhurst, 1961; see the bonus), so a cart is foreign to the civ (RULES 6.16.15). The look is the Scenario Editor's Donkey (The Forgotten), existing game content (RULES section 5), which stands in for the mule it closely resembles and fits the highland pack train better than the Caucasian cart, as the Ox Wagon fits the Tatars' Araba. Only the look is used, so the unit keeps the Mule Cart's function, and the Donkey's art, loads and scale on a drop-site unit must be checked in game. It is a level-1 look change for an existing holder, not an extension of the Mule Cart (RULES 6.16.7). The name is the Ge'ez baql, ‘mule’ (Amharic baqlo), which Dillmann's lexicon records with citations from the Ge'ez Bible (Dillmann, 1865): the written language of the whole window names the pack animal itself, so it is the period term RULES 6.16.15 asks for, with ‘pack mule’ as its English gloss."
 
 [architecture]
 set = "African"
