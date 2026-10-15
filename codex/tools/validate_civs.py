@@ -6,11 +6,12 @@ Usage (from the repository root):
     python -I codex/tools/validate_civs.py --find NAME     list the civs that currently have an item
     python -I codex/tools/validate_civs.py --names         list every unit, tech and building name
 
-Checks the structure described in codex/civs/README.md and codex/RULES.md (v0.3, sections 6 and 8):
+Checks the structure described in codex/civs/README.md and codex/RULES.md (v0.4.1, sections 1, 6 and 8):
 composition (4-6 passive bonuses with at least one economic and one military; one team bonus; 2-4
 unique techs, one at the Castle and one at the Town Center, with valid buildings, kinds and ages;
 1-2 unique units, regional units not counting), required fields (including the one-line relevance
-statement of RULES 6.9 for every bonus, team bonus, unique unit and unique tech), the level constraints that can be
+statement of RULES 6.9 for every bonus, team bonus, unique unit and unique tech; original_name for renamed
+civs and a precise time window, RULES section 1), the level constraints that can be
 checked mechanically (item names exist in the game, architecture set exists, only unique techs may be
 level 2) and whether every original bonus, unique unit and unique tech is accounted for.
 Errors make the exit code 1; warnings do not.
@@ -66,6 +67,8 @@ def load_game():
     for civ, c in d['civs'].items():
         trees[civ] = {names[(k, i)]: k for k in ('Unit', 'Tech', 'Building') for i in c[k] if (k, i) in names}
     help_texts = {civ: s.get(str(c['help_string_id']), '') for civ, c in d['civs'].items()}
+    display = {civ: s.get(str(c['name_string_id'])) or civ for civ, c in d['civs'].items()}
+    help_texts['__display__'] = display
     all_names = defaultdict(set)
     for (k, _), n in names.items():
         all_names[n].add(k)
@@ -161,8 +164,17 @@ def validate(path, game):
         if not re.match(r'^N[23]\b', idea):
             r.err(f'idea must start with its level (N2 or N3): {idea[:60]!r}')
 
+    shown = help_texts['__display__'][civ]
+    if doc.get('name') and doc['name'] != shown:
+        if doc.get('original_name') != shown:
+            r.err(f'renamed civ: add original_name = "{shown}" at the top level (RULES section 1)')
+    elif doc.get('original_name'):
+        r.warn(f'original_name is only needed for renamed civs (the game already shows "{shown}")')
+
     prof = doc.get('profile', {})
     need(r, prof, ['entity', 'region', 'window', 'sources'], '[profile]')
+    if prof.get('window') and not re.search(r'\d{3,4}\s*[–-]\s*(c\.\s*)?\d{3,4}', prof['window']):
+        r.warn(f'[profile] window should give a precise year range such as "1066–1485" (RULES section 1): {prof["window"]!r}')
     if not isinstance(prof.get('sources', []), list):
         r.err('[profile] sources must be a list')
 
