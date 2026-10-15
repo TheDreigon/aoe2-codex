@@ -1,0 +1,168 @@
+civ = "Chinese"
+name = "Chinese"
+status = "draft"
+label = "Archer and Gunpowder civilization"
+summary = "One umbrella civ for China from the Sui to the early Ming (581–c. 1500), weighted to the Song and early Ming: the demographic and technical economy, Chu Ko Nu, Dragon Ship, Rocketry and the farm team bonus are kept; the Chinese finally get the hand cannon, bombard and gun-armed ships they invented, the traction trebuchet (pao) beside the counterweight Huihui Pao, and the Three Kingdoms' Tuntian; rotating crossbow volleys replace the unfounded fire-lancer speed bonus, and the Great Wall becomes a passive bonus."
+ideas = [
+  "N3: Split the Chinese into Tang (581–907: Turkic, Sogdian and Korean generals, frontier cavalry, the Directorate of Herds), Song (960–1279: crossbows, early gunpowder, standing navy, horse shortage) and Ming (1368–: firearms divisions, Zheng He's fleets), as RULES 4 proposes.",
+  "N2: A heavy crossbowman unique unit after Li Hong's “divine-arm bow” (shenbi gong, 1068): more range and attack, slower reload, stronger when ranks shoot together; the Chu Ko Nu would then become a cheap defensive unit (Wubei zhi, 1621).",
+  "N2: A paddle-wheel warship (chechuan), independent of the wind, for the Song river fleets that stopped the Jin crossing of the Yangtze at Caishi (1161).",
+  "N2: Shenjiying, the firearms division of the Yongle emperor: Hand Cannoneers fire faster in large groups (Mu Ying's successive lines of gunners against war elephants, 1388; Andrade 2016).",
+  "N2: Gate the counterweight Huihui Pao behind an Imperial tech so that it appears after the native traction pao, as it did in 1273.",
+  "N2: Mo dao infantry: Tang long two-handed blades used against cavalry (Li Siye at Xiangji, 757).",
+  "N3: The Grand Canal (Sui, 605–611) as a unique trade structure linking Markets and Docks.",
+  "N3: The examination system (keju) and state paper money (jiaozi, 1024) as distinct economic and administrative mechanics.",
+]
+contested = [
+  "The date of the invention of gunpowder (a Daoist alchemical warning attributed to the 9th century is hard to date; the first published formulas are in the Wujing Zongyao, 1044) and of the first true rockets (12th–13th century).",
+  "The scale of the Song “medieval economic revolution” (M. Elvin, R. Hartwell) against more moderate readings.",
+  "Whether the Yuan (1271–1368) counts as a Chinese dynasty or as part of the Mongol empire; this civ keeps only its weapons (hand cannon, counterweight trebuchet), not its rulers.",
+  "The continuous “Great Wall” as a modern construct: A. Waldron (1990) argues that the brick wall of the icon is largely 16th-century Ming and that the Tang and Song built no long walls.",
+  "Population figures (Tang census of 754; Song registers of c. 1100) are fiscal registrations, not head counts.",
+]
+open_questions = [
+  "Great Wall: moved from the unique techs to a passive bonus (+15/30% HP for walls and towers) so that Tuntian, which RULES 4 assigns to the Chinese, can take the Castle slot. Alternatives: keep Great Wall as the Castle tech and put Tuntian in the Imperial slot instead of Rocketry, or drop the walls bonus to limit the power gain.",
+  "Power budget: the Chinese gain Hand Cannoneer, Bombard Cannon, Cannon Galleon, Traction Trebuchet, Siege Engineers, Guilds, Tuntian and a free walls bonus, and lose only the fire-lancer speed bonus. If this is too much, which addition should be held back (Siege Engineers or the walls bonus are the least essential)?",
+  "Elite Cannon Galleon is not added (Ming fleets carried guns, but the Elite tier is a balance step). Add it?",
+  "Crop Rotation, renamed “Champa Rice” (the early-ripening rice that the Song court distributed in 1012), would fit the Song agricultural expansion but is not added because the Chinese economy is already strong. Add it?",
+  "Rename the Chu Ko Nu to the pinyin “Zhuge Nu”, for consistency with Lou Chuan and Tuntian? The Wade-Giles form is not wrong, only inconsistent.",
+  "Dragon Ship: keep the name, or rename it? “Dragon boats” (longzhou) were imperial barges and racing boats; no attested name for a flamethrower ship type has been found, so this draft keeps it.",
+  "Cavalry: the tree keeps the Song–Ming picture (no Hussar, no Heavy Cavalry Archer), which under-represents the Tang. Accept until the N3 split?",
+  "The counterweight Trebuchet is renamed Huihui Pao for the Chinese. Should the Mongols (Yuan) use the same name?",
+]
+
+[profile]
+entity = "China under the Sui, Tang, Song and early Ming dynasties, including the Five Dynasties and the Yuan interval"
+region = "China proper: the Yellow River and Yangtze basins and the south"
+window = "581–c. 1500"
+sources = [
+  "Zeng Gongliang et al., Wujing Zongyao (1044)",
+  "Du You, Tongdian (801)",
+  "Jiao Yu and Liu Ji (attrib.), Huolongjing (14th century)",
+  "Ming shi, Bing zhi and Shihuo zhi (1739)",
+  "J. Needham et al., Science and Civilisation in China, vol. 5 part 7, The Gunpowder Epic (1986), and part 6, Missiles and Sieges (1994)",
+  "T. Andrade, The Gunpowder Age: China, Military Innovation, and the Rise of the West in World History (2016)",
+  "D. Graff, Medieval Chinese Warfare, 300–900 (2002)",
+  "P. Lorge, War, Politics and Society in Early Modern China, 900–1795 (2005)",
+  "M. Elvin, The Pattern of the Chinese Past (1973)",
+  "A. Waldron, The Great Wall of China: From History to Myth (1990)",
+  "T. Brook, The Troubled Empire: China in the Yuan and Ming Dynasties (2010)",
+  "E. Dreyer, Zheng He: China and the Oceans in the Early Ming Dynasty (2007)",
+  "The Cambridge History of China, vols. 3, 5, 6, 7",
+]
+
+[[bonus]]
+text = "Start with +3 Villagers, but -50 wood and -200 food"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Start with +3 Villagers, but -50 wood and -200 food (Chinese); Start with +1 Villager, but -50 food (Mayans)"
+basis = "The largest registered population of the medieval world: the Tang census of 754 counted about 53 million people, and Song registers of c. 1100 imply more than 100 million (Cambridge History of China, vols. 3 and 5). A fair abstraction of demographic weight."
+
+[[bonus]]
+text = "Technologies cost -5/10/15% in Feudal/Castle/Imperial Age"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Technologies cost -5/10/15% in Feudal/Castle/Imperial Age (Chinese)"
+basis = "An abstraction of the state's technical and documentary apparatus: woodblock printing (the dated Diamond Sutra of 868), movable type (Bi Sheng, c. 1040, recorded by Shen Kuo), the magnetic compass at sea (Zhu Yu, 1119) and state arsenals such as the Directorate of Weapons (Junqi jian, 1073) (Needham)."
+contested = "It risks the stereotype of a timelessly “inventive China”; the link is legitimate as long as it stands for institutions (printing, arsenals, the examination-recruited bureaucracy of the Song) rather than for national genius."
+
+[[bonus]]
+text = "Town Centers +7 line of sight and provide +15 population space"
+kind = "other"
+level = 1
+change = "kept"
+precedent = "Town Centers +7 line of sight and provide +15 population space (Chinese)"
+basis = "Walled county and prefectural seats (xian, zhou) were the nodes of a dense administrative and fiscal grid, and frontier beacon towers (fenghuo) relayed warnings over long distances. An abstraction of administrative and demographic density; the line-of-sight link is weak but harmless."
+
+[[bonus]]
+text = "Archer-line attacks +15% faster starting in Castle Age"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Fire Lancers and Fire Ships move +5/10% faster in Castle/Imperial Age"
+precedent = "Foot Archers attack +18% faster (Ethiopians); Thumb Ring: Archery Units attack +15% faster (generic tech)"
+basis = "The heavy single-shot crossbow was China's main infantry missile weapon: the Wujing Zongyao (1044) calls it the strong weapon of China that the surrounding peoples fear, and the Tongdian (801) prescribes ranks that shoot, step back to span and step forward again so that the shooting never stops; the Song “divine-arm bow” (shenbi gong, 1068) added range and power (Needham and Yates 1994; Andrade 2016). Faster fire from the Castle Age stands for these rotating volleys, kept distinct from the repeating Chu Ko Nu. The speed bonus for fire lances and fire ships had no basis: the fire lance was a short-range, single-shot weapon of sieges and sorties (De'an, 1132)."
+contested = "How far rotating crossbow volleys were practised in the field, rather than prescribed in manuals, is debated; Andrade (2016) presents them as a forerunner of the musket countermarch."
+
+[[bonus]]
+text = "Walls, Watch Tower-line and Bombard Towers +15/30% HP in Castle/Imperial Age"
+kind = "military"
+level = 1
+change = "changed"
+replaces = "Great Wall (Castle Age unique tech): Walls, Watch Tower-line and Bombard Towers +30% HP"
+precedent = "Great Wall: Walls, Watch Tower-line and Bombard Towers +30% HP (Chinese); Buildings +10/20/30/40% HP in Dark/Feudal/Castle/Imperial Age (Byzantines)"
+basis = "Moved from the Great Wall tech. The Northern Qi (550s) and the Sui (585–608) raised long walls with mass levies, the Ming resumed wall-building after 1470 (Yu Zijun's Ordos wall, 1474), and Chinese cities were girded by massive rammed-earth walls that withstood sieges such as Xiangyang (1268–1273) (Waldron 1990). The scaling by age reflects that the brick wall of the modern icon belongs largely to the 16th century."
+contested = "Waldron (1990) argues that a single continuous Great Wall is a modern myth; the Tang and Song built no long walls, and the largest border works of the 12th century were Jin (jiehao)."
+
+[team_bonus]
+text = "Farms +10% food"
+level = 1
+change = "kept"
+precedent = "Farms +10% food (Chinese)"
+basis = "The Song agricultural expansion: in 1012 the court had early-ripening, drought-resistant Champa rice distributed in the lower Yangtze and Huai regions, double-cropping spread in the south, and agricultural treatises followed (Chen Fu, 1149; Wang Zhen, 1313) (Elvin 1973)."
+contested = "The magnitude of the Song “agricultural revolution” is debated (Elvin against revisionist readings)."
+
+[[unique_unit]]
+name = "Chu Ko Nu"
+model = "Chu Ko Nu"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The repeating crossbow (lian nu, zhuge nu) is attested from a 4th-century BC Chu tomb at Qinjiazui (Hubei) to the Wubei zhi (1621); tradition links it to Zhuge Liang, who improved it (Sanguozhi), hence the name. It was light and short-ranged, used above all to defend walls and houses, sometimes with poisoned bolts (Needham and Yates 1994)."
+contested = "The decisive Chinese crossbow was the heavy single-shot type (see the Archer-line bonus and the N2 idea); the name duplicates the out-of-scope Shu's Bolt Magazine, and its romanisation is Wade-Giles (pinyin: Zhuge nu)."
+
+[[unique_unit]]
+name = "Dragon Ship"
+model = "Dragon Ship"
+building = "Dock"
+level = 1
+change = "kept"
+basis = "Fire-throwing warships are real: the Wujing Zongyao (1044) describes the double-acting piston pump for “fierce fire oil” (menghuo you), and the Wuyue fleet used such oil against its rival in 919 (Needham). A faster, longer-reaching fire ship in place of the Fast Fire Ship is a fair abstraction of Song incendiary naval warfare, from Caishi (1161) to Lake Poyang (1363)."
+contested = "The name is misleading: “dragon boats” (longzhou) were imperial barges, such as Sui Yangdi's on the Grand Canal (605), or racing boats; the Song war types were the louchuan, mengchong, doujian, haihu and the paddle-wheel chechuan (see open questions)."
+
+[[unique_tech]]
+name = "Tuntian"
+age = "Castle"
+effect = "Soldiers passively produce food"
+level = 1
+change = "new"
+replaces = "Great Wall (Walls, Watch Tower-line and Bombard Towers +30% HP), whose effect becomes a passive bonus"
+precedent = "Tuntian: Soldiers passively produce food (Wei); same effect, moved from the out-of-scope Wei as RULES 4 decides"
+basis = "Military-agricultural colonies run through the whole period: begun by Cao Cao in 196, revived on the Tang frontiers, and made the backbone of the early Ming garrison system (weisuo), in which frontier soldiers farmed state land in a ratio of about seven farming to three on guard (eight to two in the interior), so that the Hongwu emperor could boast of feeding a million soldiers without costing the people a grain of rice (Ming shi, Shihuo zhi; Brook 2010)."
+contested = "The Ming military farms decayed during the 15th century through desertion and the seizure of land by officers; the system worked best in its first decades."
+
+[[unique_tech]]
+name = "Rocketry"
+age = "Imperial"
+effect = "Scorpions, Rocket Carts and Lou Chuans +25% attack; Lou Chuans fire rockets"
+level = 1
+change = "kept"
+precedent = "Rocketry: Scorpions, Rocket Carts and Lou Chuans +25% attack; Lou Chuans fire rockets (Chinese)"
+basis = "Gunpowder rockets are a Chinese invention: clearly described in the Huolongjing (14th century) and launched from multiple-rocket boxes and carts under the Ming (Wubei zhi, 1621). Bed crossbows (chuangzi nu), the Scorpions, were front-line Song weapons: a bolt from one killed the Liao commander Xiao Talin at Chanyuan in 1004. Tower ships (louchuan), documented from the Han to the Ming, carried the river fleets (Needham 1986, 1994)."
+contested = "When true rockets appeared is debated: the “fire arrows” (huojian) presented at court in 969 and 1000 were probably incendiary arrows. Tying rockets to bed crossbows mixes categories (an abstraction)."
+
+[tree]
+add = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Traction Trebuchet", "Siege Engineers", "Guilds"]
+remove = []
+
+[tree.basis]
+"Hand Cannoneer" = "China invented the metal-barrelled gun: the Heilongjiang hand gun (c. 1288) and the Xanadu gun dated 1298 are the oldest securely dated; under the Hongwu emperor the Ming shi allots ten firearms to every company of a hundred men, and the Yongle emperor (r. 1402–1424) created a firearms division, the Shenjiying (Andrade 2016). Its absence was the most serious error of the current tree."
+"Bombard Cannon" = "Early Ming foundries cast iron cannon, with surviving pieces dated 1377, mounted on city walls and passes and used in the wars that founded the dynasty (Needham 1986; Andrade 2016). It also removes the incoherence of a Bombard Tower without a Bombard Cannon."
+"Cannon Galleon" = "Firearms were used on shipboard at the battle of Lake Poyang (1363), and the early Ming fleets, Zheng He's (1405–1433) among them, carried guns (Andrade 2016; Dreyer 2007)."
+"Traction Trebuchet" = "The man-powered traction trebuchet (pao) was China's siege artillery from the Warring States until 1273; the Wujing Zongyao (1044) illustrates many variants, from the light single-pole “whirlwind” to the “crouching tiger” (Needham and Yates 1994). Moved from the out-of-scope Three Kingdoms (RULES 4); the counterweight Trebuchet stays for the Yuan–Ming part of the window (see the Huihui Pao rename)."
+"Siege Engineers" = "Song siegecraft was among the most advanced of its time (Wujing Zongyao; the six-year siege of Xiangyang, 1268–1273), and the Mongols took Chinese siege engineers such as Guo Kan west with Hülegü in the 1250s (Yuan shi)."
+"Guilds" = "Song cities were organised in merchant and craft guilds (hang), and the state issued the first government paper money (jiaozi, 1024); a lower market fee is a fair abstraction of the Song commercial economy (Elvin 1973). Its absence was incoherent."
+
+[[rename]]
+from = "Trebuchet"
+to = "Huihui Pao"
+level = 1
+basis = "The counterweight trebuchet reached China only in 1273, when the Muslim engineers Ismail and Ala al-Din, sent to Kublai by the Ilkhan Abaqa, built the engines that broke Fancheng and Xiangyang; Chinese sources call it the “Muslim trebuchet” (huihui pao) or “Xiangyang trebuchet” (Yuan shi; Needham and Yates 1994). Same unit and effect; the name keeps it distinct from the native traction pao and dates it to the Yuan–Ming part of the window."
+
+[architecture]
+set = "East Asian"
+level = 1
+change = "kept"
+basis = "The set's timber halls, bracketing and glazed roofs are modelled on Chinese architecture itself."

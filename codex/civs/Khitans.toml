@@ -1,0 +1,161 @@
+civ = "Khitans"
+name = "Khitans"
+status = "draft"
+label = "Cavalry and Cavalry Archer civilization"
+summary = "The Khitans and their Liao empire (907–1125) redesigned as the armoured horse-archer and pastoral power the sources describe: Pastures, early Heavy Cavalry Archers and Ordo Cavalry are kept; the Pishi imperial guard replaces the Liao Dao, the Tangut-derived Mounted Trebuchet leaves, foraging raids (da cao gu) replace Lamellar Armor, horse-breeding and Liao Buddhism replace the unfounded melee and infantry bonuses, and the tree gains Bloodlines, Block Printing, Architecture and traction artillery while losing the anachronistic rockets, fire lances, counterweight trebuchet and gun ships."
+ideas = [
+  "N3: The Ordo as a mobile court and fortification that packs and moves between seasonal camps (nabo), beside or instead of the Castle.",
+  "N2: Southern Chancellery: Farms beside Pastures, with the farming techs, for the Han and Bohai prefectures and captive farming towns of the dual administration.",
+  "N2: Chanyuan tribute: a passive income of gold after peace with a neighbour (from 1005 the Song paid 100,000 taels of silver and 200,000 bolts of silk a year, raised in 1042).",
+  "N2: A guard horseman who switches between bow and lance, closer to the Liao shi's armoured soldier than any existing unit.",
+  "N3: A Tangut (Western Xia, 1038–1227) civ that takes the Mounted Trebuchet, after the camel-borne trebuchet corps (poxi) of the Song shi.",
+  "N3: A Qara Khitai phase (1124/1132–1218) for the Western Liao of Central Asia (victory over the Seljuks at Qatwan, 1141).",
+  "N3: A “Steppe” architecture set shared with the steppe civs.",
+]
+contested = [
+  "The founding date of the Liao: 907 (Abaoji proclaimed khagan) or 916 (emperor); the dynastic name alternated between Liao and Great Khitan.",
+  "The nature of the Liao state: a “conquest dynasty” (Wittfogel and Feng, 1949), a sinicised dynasty, or a permeable frontier society (Standen, 2007).",
+  "Military use of gunpowder by the Liao is scarcely documented; the Song forbade the sale of saltpetre and sulphur to foreigners in the 11th century.",
+  "The size of the state herds and of the guard armies in the Liao shi, compiled under the Yuan two centuries later; the authenticity of the Qidan guozhi.",
+  "The two Khitan scripts (large, 920; small, c. 925) remain largely undeciphered (Kane, 2009), which limits what is known of Khitan terms such as pishi and ordo.",
+]
+open_questions = [
+  "Pastures replace Farms is kept. Should the Khitans also be able to build Farms for the agricultural Southern Region (an N2 tech, see ideas), or should Pastures stay exclusive?",
+  "The Pishi Guard uses the Wei Tiger Cavalry (an out-of-scope civ's unit, so no in-scope civ shares it). Alternatives: the Keshik (already shared by the Mongols and Tatars drafts) or the Hei Guang Cavalry as a Knight-line substitute at the Stable.",
+  "Camel Rider and Heavy Camel Rider are kept (rated plausible: Bactrian camels in Liao herds and tomb murals), while the Mongols and Tatars drafts remove them. Remove them here too for consistency? The Khitans have no Halberdier.",
+  "Navy: Carrack, Fast Fire Ship, their upgrade and Cannon Galleon are removed (the Khitans already had no Galleon), as for the Avars and Tatars drafts. Acceptable on water maps?",
+  "Label: “Cavalry and Cavalry Archer civilization” instead of “Infantry and Cavalry”. Agree?",
+  "Architecture: East Asian is kept (the Liao capitals and temples were built by Han craftsmen in Chinese style); Central Asian would stress the steppe side.",
+  "Da Cao Gu reuses the Danes' loot effect, which the Avars draft also uses as a bonus. Prefer a Mapuche-style effect (Mounted Units generate gold when defeating military units)?",
+]
+
+[profile]
+entity = "The Khitan people (Qidan) and their Liao empire (the Great Khitan State)"
+region = "The Xar Moron (Shira Muren) valley and the eastern Mongolian steppe, with Bohai Manchuria (from 926) and the Sixteen Prefectures of north China (936–938)"
+window = "907–1125"
+sources = [
+  "Toghto et al., Liao shi (1344), especially the Bingwei zhi and Shihuo zhi",
+  "Qidan guozhi (attributed to Ye Longli; authenticity debated)",
+  "Shen Kuo, Mengxi bitan (c. 1088)",
+  "Song shi (1345)",
+  "K. Wittfogel and Feng Chia-sheng, History of Chinese Society: Liao (907–1125) (1949)",
+  "D. Twitchett and K.-P. Tietze, “The Liao”, Cambridge History of China, vol. 6 (1994)",
+  "N. Standen, Unbounded Loyalty: Frontier Crossings in Liao China (2007)",
+  "N. Steinhardt, Liao Architecture (1997)",
+  "D. Kane, The Kitan Language and Script (2009)",
+  "M. Biran, The Empire of the Qara Khitai in Eurasian History (2005)",
+]
+
+[[bonus]]
+text = "Pastures replace Farms"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Pastures replace Farms (Khitans)"
+basis = "The Khitan economy was pastoral: horses, cattle, sheep and camels, with state herds (qunmu) that the Liao shi counts in the hundreds of thousands, and an imperial court that moved with the seasons between camps (nabo) (Wittfogel and Feng 1949). The Pasture is the game's most faithful pastoral mechanic."
+contested = "The empire also had an agricultural half, the Southern Region and the Sixteen Prefectures, and towns of Han and Bohai captives settled as farmers in the steppe; full replacement of Farms erases that dual economy (see ideas and open questions)."
+
+[[bonus]]
+text = "Bloodlines free"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Melee attack upgrade effects are doubled"
+precedent = "Thumb Ring, Parthian Tactics free (Tatars); Conscription free (Vietnamese); Bloodlines and Scout Cavalry-line upgrades cost -50% food (Poles)"
+basis = "The Khitans were among the great horse-breeders of the steppe: the state herds supplied the three horses with which each regular soldier rode to war (Liao shi, Bingwei zhi), while the Song, cut off from the northern pastures, suffered from chronic horse shortage. Bloodlines was missing from the tree; the doubling of melee attack upgrades had no identifiable basis."
+
+[[bonus]]
+text = "Scout Cavalry-line and Steppe Lancers train and upgrade +15% faster"
+kind = "military"
+level = 1
+change = "changed"
+replaces = "Skirmishers, Spearman-, and Scout Cavalry-line train and upgrade +15% faster"
+precedent = "Skirmishers, Spearman-, and Scout Cavalry-line train and upgrade +15% faster (Khitans), with the target changed to the mounted lines"
+basis = "Every Khitan tribe was a reserve of light horsemen, and Liao armies advanced behind far-ranging mounted scouts (Liao shi, Bingwei zhi; Wittfogel and Feng 1949). The faster training now applies to the light and lancer cavalry; foot skirmishers and spearmen came from the Han and Bohai militias and had no particular basis."
+
+[[bonus]]
+text = "Heavy Cavalry Archer upgrade available in Castle Age and costs -50%"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Heavy Cavalry Archer upgrade available in Castle Age and costs -50% (Khitans)"
+basis = "The Liao shi (Bingwei zhi) describes the regular soldier: three horses, a forager and a camp guard, nine pieces of iron armour, leather or iron barding for the horse, four bows and 400 arrows, long and short spears, a mace (guduo) and an axe. This is the definition of a heavy cavalry archer (Wittfogel and Feng 1949)."
+
+[team_bonus]
+text = "Monasteries work +20% faster"
+level = 1
+change = "new"
+replaces = "Infantry +2 attack vs. Ranged Soldiers"
+precedent = "Monasteries work +20% faster (Lithuanians team bonus)"
+basis = "The Liao court was a great patron of Buddhism: it printed its own Buddhist canon (c. 1031–1068; fragments found in 1974 inside the Yingxian wooden pagoda of 1056), built the Guanyin Pavilion of the Dule Temple (984), and the Liao shi says that Daozong fed 360,000 monks in a single year and ordained 3,000 in a day (Steinhardt 1997; Wittfogel and Feng 1949). The infantry bonus had no basis."
+contested = "The Liao shi's figures for Daozong belong to a moralising verdict on Buddhist excess written under the Yuan and are rhetorical."
+
+[[unique_unit]]
+name = "Pishi Guard"
+model = "Tiger Cavalry"
+building = "Castle"
+level = 1
+change = "new"
+replaces = "Liao Dao"
+basis = "The Pishi army (pishi jun) was the Liao imperial guard: Abaoji formed a bodyguard of picked tribal warriors, and Taizong enlarged it into the Pishi army, the core of the emperor's cavalry (Liao shi, Bingwei zhi; Wittfogel and Feng 1949); the Liao shi's glossary renders pishi as “vajra” (jingang, “diamond”). The model is the Tiger Cavalry of the out-of-scope Wei, Cao Cao's guard (hubao qi): an elite guard cavalry whose growth with victories abstracts veteran status. The Liao Dao (“Liao blade”) named no documented unit, and infantry was secondary in Liao armies."
+contested = "The guard's size and its relation to the ordo cavalry are uncertain; the Liao shi's figures are late and inflated."
+
+[[unique_tech]]
+name = "Da Cao Gu"
+age = "Castle"
+effect = "Loot 25% of the resource cost of each destroyed building"
+level = 1
+change = "new"
+replaces = "Lamellar Armor (Infantry and Skirmishers reflect 25% melee damage back to the attacker)"
+precedent = "Loot 25% of the resource cost of each destroyed building (Danes)"
+basis = "Liao armies on campaign were not issued grain or fodder: each regular soldier brought a forager, and “foraging riders” (da cao gu, “beating the grass and grain”) were sent out every day to plunder the enemy countryside (Liao shi, Bingwei zhi), as in the deep raids into Song Hebei before Chanyuan (1004). Lamellar armour was universal in Eurasia, and damage reflection for infantry and skirmishers inverted the Khitan reality; the armoured horseman is carried by the Heavy Cavalry Archer bonus and the Pishi Guard."
+contested = "Plunder was a supplement; after 1005 the Song payments mattered far more to Liao finances."
+
+[[unique_tech]]
+name = "Ordo Cavalry"
+age = "Imperial"
+effect = "Cavalry regenerates HP in combat"
+level = 1
+change = "kept"
+precedent = "Ordo Cavalry: Cavalry regenerates HP in combat (Khitans)"
+basis = "The ordo (wolüduo) was each emperor's own camp-household, with attached families, herds and guard cavalry that outlived him; the regular soldier's three horses, forager and camp guard kept him mounted and supplied (Liao shi; Wittfogel and Feng 1949). Regeneration in combat is an abstraction of remounts and camp support."
+contested = "The game's history text overstates the ordo's share of Liao armies: tribal armies, prefectural militias and vassal troops also fought."
+
+[tree]
+add = ["Bloodlines", "Block Printing", "Architecture", "Keep", "Traction Trebuchet", "Mangonel", "Onager"]
+remove = ["Trebuchet", "Rocket Cart", "Heavy Rocket Cart", "Fire Lancer", "Elite Fire Lancer", "Cannon Galleon", "Carrack", "Fast Fire Ship", "Galleon, Fast Fire Ship and Carrack"]
+
+[tree.basis]
+"Bloodlines" = "Missing despite the Liao state herds; now free (see bonuses)."
+"Block Printing" = "The Liao printed the Buddhist canon (c. 1031–1068; fragments found in the Yingxian pagoda in 1974), and Shen Kuo notes that Liao law punished with death the export of books to the Song (Mengxi bitan)."
+"Architecture" = "Liao timber architecture survives: the Guanyin Pavilion of the Dule Temple (984) and the Yingxian wooden pagoda (1056), about 67 m high, the tallest surviving premodern timber pagoda (Steinhardt 1997)."
+"Keep" = "The Liao had five walled capitals (Shangjing, Dongjing, Nanjing at Beijing, Zhongjing, Xijing) and many walled prefectural towns."
+"Traction Trebuchet" = "The man-powered traction trebuchet was the siege artillery of East Asia until 1273, used by the Liao with Han and Bohai craftsmen; it replaces the counterweight Trebuchet (RULES 6.6)."
+"Mangonel" = "Substitute for the removed Rocket Cart (RULES 6.6): the light traction engine, the medieval sense of “mangonel”, as for the Jurchens."
+"Onager" = "Upgrade of the Mangonel substitute, as for most civs."
+"Trebuchet" = "The counterweight trebuchet reached China in 1273, a century and a half after the fall of the Liao (1125)."
+"Rocket Cart" = "Multiple-rocket carts are Ming and Joseon (15th century); there is no evidence of Liao rockets."
+"Heavy Rocket Cart" = "Upgrade of the removed Rocket Cart."
+"Fire Lancer" = "The fire lance appears in a mid-10th-century Dunhuang painting, but its first recorded use in battle is Song (De'an, 1132), after the fall of the Liao, and no Liao gunpowder weapon is documented."
+"Elite Fire Lancer" = "Upgrade of the removed Fire Lancer."
+"Cannon Galleon" = "The Liao had neither a navy of note nor gunpowder artillery; the gun ship was doubly anachronistic (the civ already lacked the Galleon)."
+"Carrack" = "No sea-going fleet: the Khitans keep a basic river and coastal navy (Galley-line to War Galley, Fire Ship, War Hulk, demolition ships), as the Avars and Tatars drafts do."
+"Fast Fire Ship" = "As Carrack."
+"Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Fast Fire Ship and Carrack are removed."
+
+[[rename]]
+from = "Elite Tiger Cavalry"
+to = "Elite Pishi Guard"
+level = 1
+basis = "Follows the unique unit (Tiger Cavalry → Pishi Guard)."
+
+[architecture]
+set = "East Asian"
+level = 1
+change = "kept"
+basis = "The Liao capitals, temples and pagodas were built by Han craftsmen in a Chinese idiom (Dule Temple, Yingxian pagoda; Steinhardt 1997); felt tents and the moving court would suit an N3 Steppe set."
+
+[[dropped]]
+item = "Mounted Trebuchet"
+kind = "unique_unit"
+reason = "No Khitan record of mounted trebuchets. The documented parallel is Tangut: the Song shi (j. 486) describes some 200 Western Xia artillerists, called poxi, who mounted “whirlwind” trebuchets on camel saddles and threw fist-sized stones. The lingering fire is also unfounded. Left for a future Tangut civ (N3)."
