@@ -2,17 +2,18 @@ civ = "Jurchens"
 name = "Jurchens"
 status = "draft"
 label = "Cavalry and Gunpowder civilization"
-summary = "The Jurchens and their Jin dynasty (1114–1234), a forest people of Manchuria who conquered the Liao and north China: hunting, shock cavalry, the Iron Pagoda, siegecraft, fortifications, fire lances and the Kaifeng bombs are kept; the meng'an mouke household army replaces Fortified Bastions, Han conscript infantry replaces the gunpowder line-of-sight team bonus, and the anachronistic counterweight trebuchet, bombard and rocket carts give way to traction trebuchets and light pao, while horse archery gains Thumb Ring and Parthian Tactics."
+summary = "The Jurchens and their Jin dynasty (1114–1234), a forest people of Manchuria who conquered the Liao and north China: hunting, shock cavalry, siegecraft, the Iron Pagoda, the Bomb Thrower (the Grenadier renamed) and Thunderclap Bombs are kept; the meng'an mouke household army becomes the Town Center tech, Fortified Bastions is renamed after the jiehao border lines, the Jin siege and bomb know-how that passed to the Mongols becomes the team bonus, the unfounded friendly-fire and gunpowder line-of-sight bonuses go, and the anachronistic counterweight trebuchet, bombard and rocket carts give way to the traction trebuchet, while archery gains Thumb Ring and the infantry the Long Swordsman."
 ideas = [
   "N2: Light flanking cavalry (guaizi ma) supporting the Iron Pagoda, if the contested reading of the Song sources is accepted.",
-  "N2: Traction Trebuchets that throw iron bombs (zhentianlei), with blast damage against units and buildings, as at Qizhou (1221) and Kaifeng (1232).",
-  "N3: The jiehao, the Jin trench-and-rampart border lines across Inner Mongolia and Manchuria, as a unique cheap earthwork wall.",
+  "N2: Traction Trebuchets that throw iron bombs (zhentianlei), with blast damage against units and buildings, as at Qizhou (1221) and Kaifeng (1232); Thunderclap Bombs would then apply to them instead of to the Rocket Carts the Jurchens no longer have.",
+  "N3: The jiehao as a unique cheap earthwork wall of trench and rampart, beyond what the Jiehao tech can express.",
   "N2: Jingkang artisans: a tech that cheapens siege and gunpowder units after enemy production buildings are captured or destroyed, after the craftsmen, engines and books carried off from Kaifeng in 1127.",
   "N2: Gyrfalcons (haidongqing): a scouting and hunting tech; the Liao's falcon levies on the Jurchens were one cause of the revolt of 1114.",
   "N3: Meng'an mouke households: Houses that supply or train cavalry, for a social unit that was also a military unit.",
 ]
 contested = [
-  "The “chained horses” (guaizi ma linked in threes) of the Song accounts of 1140: doubted by the Qianlong emperor and rejected by Deng Guangming as a misreading; whether guaizi ma means flanking cavalry is itself debated.",
+  "The “chained horses” of the Song accounts of 1140 (guaizi ma or tie futu “linked in threes”): doubted by the Qianlong emperor and rejected by Deng Guangming as a misreading; whether guaizi ma means flanking cavalry is itself debated.",
+  "Whether the tie futu of Shunchang fought mounted or as heavy assault troops: the Song account has them advance step by step behind movable barriers.",
   "The scale of Yue Fei's victories in 1140, possibly inflated by later Song historiography.",
   "The “sinicisation” of the Jin (Ho Ping-ti against E. Rawski; J. Tao; Hok-lam Chan).",
   "Whether the Jin already used gunpowder weapons at Kaifeng in 1126–1127, and whether the “flying fire” of 1232 included true rockets.",
@@ -20,13 +21,11 @@ contested = [
   "The Steppe Lancer is kept for the Jin lancers and for the Khitan and Xi horsemen they enlisted, although the Jurchens themselves were a forest people, not a steppe one.",
 ]
 open_questions = [
-  "“Units receive -50% friendly fire damage” is dropped as unfounded, leaving four bonuses; Bomb Throwers and Thunderclap explosions now hurt friendly units at full strength. Accept, or keep it as a game convention for the bomb-throwing civ?",
-  "Fortified Bastions is replaced by Meng'an Mouke. Alternative: keep the regeneration tech renamed “Jiehao” (the Jin border works) and make Meng'an Mouke a fifth passive bonus.",
-  "Grenadier is renamed Bomb Thrower (plain English, like the game's Fire Lancer and Rocket Cart). Prefer a Chinese term such as “Zhentianlei Thrower”?",
-  "The Steppe Lancer is kept (Jin lancers and Khitan/Xi auxiliaries). Remove it to set the forest Jurchens further apart from the steppe civs?",
-  "Mangonel and Onager are read as light traction trebuchets (the medieval sense of “mangonel”). Rename them for the East Asian civs, e.g. “Whirlwind Trebuchet” after the Wujing Zongyao's xuanfeng pao, although the art shows a torsion engine?",
-  "Team bonus: Barracks work +20% faster (Han conscript infantry). Alternative: Stables work +20% faster, for the household cavalry levy.",
-  "The Jin navy was weak (destroyed at Tangdao and Caishi in 1161); the Lou Chuan and Galleon stay, but the Lou Chuan leaves Thunderclap Bombs. Remove the Lou Chuan as well?",
+  "Power check: the Jurchens lose the friendly-fire reduction (so Bomb Throwers and Thunderclap explosions now hurt friendly units at full strength), the Fire Lancer attack speed, the Rocket Cart, the Bombard Cannon and the counterweight Trebuchet, and gain Thumb Ring, the Long Swordsman, the Traction Trebuchet and Meng'an Mouke as a third tech. Held back: Parthian Tactics (with the +25% attack speed it would give Jurchen Cavalry Archers the full Mongol package) and the light pao (the Mangonel renamed Whirlwind Pao, as for the Khitans), since the Bomb Thrower already gives the civ a blast attack. Add either, or restore the friendly-fire reduction as a pure game convention?",
+  "Team bonus: “Siege Workshops work +20% faster”, for the Jin siege and bomb know-how that passed into Mongol service. The neighbour that benefited was the Jin's conqueror, by capture rather than alliance; acceptable under RULES 6.2 (transferred techniques)? No other trait that benefited neighbours fits an existing effect: the Alliance Conducted at Sea (1120–1123) ended in war within two years.",
+  "Meng'an Mouke reuses Kshatriyas (Military Units cost -25% food), which also becomes the Byzantines' Themata, the Ethiopians' Gult and the Gurjaras' Samantas. Keep the shared level-1 tech, or make a level-2 tech closer to a cavalry levy (Mounted Units train +25% faster and cost -15% food)?",
+  "Names: Grenadier → Bomb Thrower (plain English, like the game's Fire Lancer and Rocket Cart). Prefer a Chinese term such as “Zhentianlei Thrower”?",
+  "The Steppe Lancer is kept (see contested). Remove it to set the forest Jurchens further apart from the steppe civs?",
 ]
 
 [profile]
@@ -36,7 +35,7 @@ window = "1114–1234"
 sources = [
   "Toghto et al., Jin shi (1344)",
   "Xu Mengxin, Sanchao beimeng huibian (1194)",
-  "Song shi (1345)",
+  "Song shi (1345); Yuan shi (1370)",
   "Zhao Yurong, Xinsi Qi Qi lu (account of the siege of Qizhou, 1221)",
   "Yue Ke, Jin Tuo cuibian (13th century)",
   "Jing-shen Tao, The Jurchen in Twelfth-Century China (1976)",
@@ -53,7 +52,8 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Meat of hunted and livestock animals doesn't decay (Jurchens)"
-basis = "Chinese accounts of their ancestors, the Mohe, describe a forest people who hunted, fished and raised pigs, and the Jin shi says that in peacetime the Jurchen men farmed, fished and hunted; the great collective hunts of the Jin court doubled as military training (Tao 1976). An abstraction."
+basis = "Chinese accounts of their ancestors, the Mohe, describe a forest people who hunted, fished and raised pigs, and the Jin shi (Bing zhi) says that in peacetime the Jurchen men farmed, fished and hunted; the great collective hunts of the Jin court doubled as military training (Tao 1976). An abstraction."
+relevance = "Hunting, fishing and stock-raising were the forest economy of the Jurchens, and the great hunts trained their horsemen."
 contested = "The settled “civilised Jurchen” (shu Nüzhen) of the south were farmers; the bonus reflects the hunting and stock-raising north."
 
 [[bonus]]
@@ -64,6 +64,7 @@ change = "changed"
 replaces = "Mounted Units and Fire Lancers attack +25% faster starting in Feudal Age"
 precedent = "Mounted Units and Fire Lancers attack +25% faster starting in Feudal Age (Jurchens); Stirrups: Cavalry attacks +33% faster (Bulgarians)"
 basis = "The early Jin army was overwhelmingly cavalry and won its first wars by shock: Aguda routed much larger Liao forces at Ningjiang (1114) and Hubudagang (1115), and a saying attributed to the Liao held that once the Jurchen reached ten thousand men no one could withstand them (Tao 1976; Franke 1994). Fire Lancers leave the bonus: the fire lance was a single-shot weapon, so a faster attack has no basis."
+relevance = "Cavalry shock won the Jin an empire within thirteen years of Aguda's rising."
 
 [[bonus]]
 text = "Siege Engineers available in Castle Age"
@@ -71,7 +72,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Siege Engineers available in Castle Age (Jurchens)"
-basis = "The Jin mastered Liao and Song siegecraft within a decade: they took Liao capitals in 1120–1122, besieged Taiyuan (1125–1126) and Kaifeng (1126–1127) with trebuchet batteries, and after the fall of Kaifeng (the Jingkang incident, 1127) carried off its craftsmen, engines and books (Franke 1994)."
+basis = "The Jin mastered Liao and Song siegecraft within a decade: they took the Liao capitals in 1120–1122, besieged Taiyuan (1125–1126) and Kaifeng (1126–1127) with trebuchet batteries, and after the fall of Kaifeng (the Jingkang incident, 1127) carried off its craftsmen, engines and books (Franke 1994)."
+relevance = "Mastery of siegecraft let a forest people take the walled capitals of the Liao and the Song within thirteen years."
 
 [[bonus]]
 text = "Siege and Fortification upgrades cost -75% wood and research +100% faster"
@@ -79,15 +81,17 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Siege and Fortification upgrades cost -75% wood and research +100% faster (Jurchens)"
-basis = "The Jin dug and raised the longest border works of the 12th century, the trench-and-rampart lines (jiehao) across Inner Mongolia and Manchuria against the Tatars and Mongols (mainly in the second half of the century), and held Kaifeng against the Mongols for months in 1232–1233 (Franke 1994)."
+basis = "An engineering tradition built on what the Jin captured: Liao and Song engineers and craftsmen served them from the 1120s, and at the end the Jin held Kaifeng for months against the Mongols (1232–1233), answering the Mongol batteries with their own trebuchets, bombs and fire lances (Jin shi; Franke 1994). The border works of the jiehao are the subject of the Jiehao tech."
+relevance = "Engineering, offensive and defensive, carried the Jin from the conquest of north China to their last stand against the Mongols."
 
 [team_bonus]
-text = "Barracks work +20% faster"
+text = "Siege Workshops work +20% faster"
 level = 1
 change = "new"
 replaces = "Gunpowder Units +2 line of sight"
-precedent = "Barracks work +20% faster (Goths team bonus)"
-basis = "After the conquest of the north the Jin relied on drafted infantry, the qianjun (“signed-up troops”), levied from Han, Bohai and Khitan households to fight beside the Jurchen cavalry; Wanyan Liang's mass levies for the invasion of 1161 provoked revolts, the Khitan rising among them (Tao 1976; Franke 1994). The line-of-sight bonus for gunpowder units had no identifiable basis."
+precedent = "Siege Workshops work +20% faster (Celts team bonus)"
+basis = "Jin siege and gunpowder know-how passed to the Mongols. From 1211 many Jin commanders went over to Chinggis Khan with their troops; when Kaifeng fell in 1233, Yelü Chucai, a Khitan who had served the Jin, talked Ögedei out of a massacre by pointing out that the city held the realm's skilled craftsmen (Yuan shi, biography of Yelü Chucai); and bombs of the Jin and Song kind reappear in the Mongol invasions of Japan (1274, 1281), shown bursting in the Mōko shūrai ekotoba and recovered from the Takashima wreck (Andrade 2016). A team bonus because the techniques benefited a neighbour (RULES 6.2: transferred techniques), even though that neighbour was the Jin's conqueror. The line-of-sight bonus it replaces had no identifiable basis; the Han conscript levy proposed in the first draft benefited only the Jin and now underlies the Long Swordsman."
+relevance = "Jin engineers and bombs, taken over by the Mongols, shaped the sieges of the next half-century from the Song frontier to Japan, and siegecraft and bombs are central to the Jin's own identity."
 
 [[unique_unit]]
 name = "Iron Pagoda"
@@ -95,53 +99,70 @@ model = "Iron Pagoda"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "Song accounts of the battles of Shunchang and Yancheng (1140) describe the guard of Wuzhu (Wanyan Zongbi) as heavily armoured cavalry in double armour, called the “iron pagoda” (tie futu) (Song shi; Yue Ke, Jin Tuo cuibian). Jin heavy cavalry is well attested; the name is Song, not Jurchen."
-contested = "The chained-horses story attached to it is doubtful (see the contested list); the melee-blocking mechanic is a game abstraction of double armour."
+basis = "Song accounts of Shunchang (1140) call the guard of Wuzhu (Wanyan Zongbi) the “iron pagoda” (tie futu): 3,000 men all in heavy armour, with iron helmets and neck guards, advancing in files of three linked by thongs; at Yancheng the Song sources speak instead of guaizi ma (Song shi, biographies of Liu Qi and Yue Fei; Yue Ke, Jin Tuo cuibian). Jin heavy cavalry is well attested; the name is Song, not Jurchen, and the unit abstracts that cavalry."
+relevance = "Armoured cavalry won the Jin their empire, and the Iron Pagoda is the name under which it is remembered."
+contested = "The chained-horses story attached to it is doubtful, and whether the tie futu fought mounted is debated (see the contested list); the melee-blocking mechanic is a game abstraction of heavy armour."
 
 [[unique_unit]]
 name = "Bomb Thrower"
 model = "Grenadier"
+building = "Archery Range"
 level = 1
 change = "changed"
 replaces = "Grenadier"
-basis = "The Jin used gunpowder bombs in their last wars: iron-cased bombs at the siege of Qizhou (1221, described by Zhao Yurong) and the “heaven-shaking thunder” (zhentianlei) at Kaifeng in 1232, lowered on iron chains onto Mongol sappers or thrown by trebuchets, whose blast the Jin shi says pierced iron armour (Andrade 2016). “Grenadier” is a 17th-century European word; the plain English name follows the game's own Fire Lancer and Rocket Cart."
+basis = "The Jin used gunpowder bombs in their last wars: iron-cased bombs at the siege of Qizhou (1221, described by Zhao Yurong) and the “heaven-shaking thunder” (zhentianlei) at Kaifeng in 1232, lowered on iron chains onto Mongol sappers or launched by trebuchets, whose blast the Jin shi says pierced iron armour (Andrade 2016). “Grenadier” is a 17th-century European word; the plain English name follows the game's own Fire Lancer and Rocket Cart."
+relevance = "The Jin's iron-cased bombs are among the earliest explosive shells in history and marked their last stand against the Mongols."
 contested = "How many bombs were thrown by hand rather than by trebuchet or dropped from walls is unclear; the hand-thrower is an abstraction."
 
 [[unique_tech]]
 name = "Meng'an Mouke"
+building = "Town Center"
+kind = "civil"
 age = "Castle"
-effect = "Mounted Units cost -15% food and train +25% faster"
+effect = "Military Units cost -25% food"
 level = 1
 change = "new"
+precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, shared, moved to the Town Center and renamed, identical effect (also the Byzantines' Themata and the Ethiopians' Gult)"
+basis = "In 1114 Aguda organised his people into mouke of 300 households and meng'an of ten mouke, units that were at once social, fiscal and military. The Jin shi (44, Bing zhi) says that in the early years every able-bodied man was a soldier, farming, fishing and hunting in peace, and that when troops were levied the households supplied the weapons and provisions of foot and horse themselves; after the conquest the households were settled across north China on allotted land as military colonies (Tao 1976). Cheaper food for all military units renders troops fed by their own households, as for the Byzantine themes. At the Town Center because the meng'an mouke was the Jurchens' state and social order, not only an army (RULES 6.2)."
+relevance = "The meng'an mouke was the Jurchen social and military order itself, from Aguda's rising to the settlement of north China, and its decline weakened the Jin against the Mongols."
+
+[[unique_tech]]
+name = "Jiehao"
+building = "Castle"
+kind = "military"
+age = "Castle"
+effect = "Fortifications and Town Centers regenerate 500 HP per minute"
+level = 1
+change = "changed"
 replaces = "Fortified Bastions (Fortifications and Town Centers regenerate 500 HP per minute)"
-precedent = "Kshatriyas: Military Units cost -25% food (Gurjaras); Mounted Archers train +25% faster (Magyars team bonus); Camel and Elephant Units train +25% faster (Gurjaras team bonus)"
-basis = "In 1114 Aguda organised his people into mouke of 300 households and meng'an of ten mouke, units that were at once social, fiscal and military. The Jin shi (Bing zhi) says that every able-bodied man was a soldier, farming, fishing and hunting in peace, and that when troops were levied the households supplied the weapons and provisions of foot and horse themselves; the households were later settled across north China as military colonies (Tao 1976). Cheaper, faster-raised horsemen stand for this self-provisioned household levy. Fortified Bastions had no specific episode behind it and a name from 16th-century European fortification; Jin fortification is carried by the passive bonus."
+precedent = "Fortified Bastions: Fortifications and Town Centers regenerate 500 HP per minute (Jurchens); same effect, renamed"
+basis = "The Jin dug and raised the longest border works of their time, the jiehao (“boundary trenches”): lines of ditch and rampart with forts across Inner Mongolia and Manchuria, built mainly in the second half of the 12th century against the Tatars and Mongols and kept up by frontier garrisons (Jin shi; Franke 1994). Regeneration abstracts that constant upkeep. “Bastion” named the angled bastion of 16th-century Italian fortification; the other proposed name, mamian (projecting wall towers), is a single architectural feature (RULES 6.9)."
+relevance = "The jiehao were the Jin's main line against the steppe until the Mongols crossed it in 1211, opening the way to the fall of the dynasty."
 
 [[unique_tech]]
 name = "Thunderclap Bombs"
+building = "Castle"
+kind = "military"
 age = "Imperial"
-effect = "Bomb Throwers and Mangonel-line detonate when defeated; projectiles produce additional explosions"
+effect = "Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions"
 level = 1
-change = "changed"
-replaces = "Thunderclap Bombs (Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions)"
-precedent = "Thunderclap Bombs: Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions (Jurchens); the same effect moved from the Rocket Cart to the comparable Mangonel-line (both Siege Workshop blast weapons)"
-basis = "The iron bombs of Qizhou (1221) and the zhentianlei of Kaifeng (1232), whose roar, says the Jin shi, was heard a hundred li away and whose blast pierced iron armour; many were thrown by traction trebuchets (Needham 1986; Andrade 2016). The effect moves from the anachronistic Rocket Carts to the Mangonel-line, which here stands for the light traction pao that threw them. The Lou Chuans leave the list: the Jin fleets were destroyed at Tangdao and Caishi (1161) by Song fire arrows and bombs, not the reverse."
+change = "kept"
+precedent = "Thunderclap Bombs: Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions (Jurchens)"
+basis = "At Qizhou (1221) the Jin besiegers threw iron-cased bombs (Zhao Yurong, Xinsi Qi Qi lu), and at Kaifeng in 1232 the defenders used the zhentianlei, an iron pot of gunpowder launched by trebuchet or lowered on chains, whose roar the Jin shi says was heard a hundred li away and whose blast pierced iron armour; with the flying fire lances, these were the only two weapons the northern troops feared (Jin shi, biography of Chizhan Hexi; Needham 1986; Andrade 2016). The tech is kept word for word (level 1): its Rocket Cart clause does nothing for the Jurchens, who lose the Rocket Cart, and the Lou Chuan clause stands for the Jin fleets of 1161, which met Song fire arrows and bombs at Tangdao and Caishi."
+relevance = "The Jin's bombs and fire lances, the weapons of their last stand at Kaifeng, give them their place in the history of gunpowder."
 contested = "“Thunderclap” (pili) properly names the older Song soft-cased bomb; the Jin iron bomb was the zhentianlei (“heaven-shaking thunder”)."
 
 [tree]
-add = ["Traction Trebuchet", "Mangonel", "Onager", "Thumb Ring", "Parthian Tactics", "Long Swordsman"]
+add = ["Traction Trebuchet", "Thumb Ring", "Long Swordsman"]
 remove = ["Trebuchet", "Bombard Cannon", "Rocket Cart", "Heavy Rocket Cart"]
 
 [tree.basis]
-"Traction Trebuchet" = "The Jin used man-powered traction trebuchets in mass at Kaifeng (1126–1127) and in its defence in 1232, where they threw iron bombs; it replaces the counterweight Trebuchet as heavy siege artillery (RULES 6.6), as for the out-of-scope Three Kingdoms."
-"Mangonel" = "Substitute for the Rocket Cart (RULES 6.6): in many medieval sources “mangonel” meant the traction trebuchet, and the light, quick-turning “whirlwind” pao of the Wujing Zongyao (1044) was the Chinese anti-personnel engine, which by the Jin period also threw gunpowder bombs."
-"Onager" = "Upgrade of the Mangonel substitute, as for most civs."
-"Thumb Ring" = "Jurchen warriors were horse archers as well as lancers, as the game's own history text says; the Manchu thumb ring (banzhi), heir to Jurchen archery, is one of the emblems of East Asian thumb-draw archery."
-"Parthian Tactics" = "Jurchen horsemen were armoured and fought with both bow and lance (Tao 1976); the civ had Heavy Cavalry Archers without the mounted-archer armour and tactics tech."
-"Long Swordsman" = "After the conquest the Jin army relied heavily on drafted Han infantry (qianjun) and on Khitan and Bohai contingents; an all-cavalry army is true only of c. 1114–1130."
+"Traction Trebuchet" = "The Jin used man-powered traction trebuchets in mass at Taiyuan and Kaifeng (1125–1127) and in the defence of Kaifeng in 1232, where they threw iron bombs; it replaces the counterweight Trebuchet as heavy siege artillery (RULES 6.11), as for the out-of-scope Three Kingdoms."
+"Thumb Ring" = "Song reports collected by Xu Mengxin describe early Jin units whose front ranks, in heavy armour, fought with lances and clubs while the rear ranks, lightly armoured, shot bows (Sanchao beimeng huibian), and the Jin shi's annals of Aguda have him shoot at a flock of birds and hit three times running before an astonished Liao envoy (Tao 1976). The Jurchens shared the thumb-draw archery of northeast Asia; the Manchu thumb ring (banzhi) is only a later echo. Parthian Tactics is not added: the Jin's mounted archers were the lightly armoured ranks (see open questions)."
+"Long Swordsman" = "After the conquest the Jin army relied heavily on drafted Han infantry, the qianjun (“signed-up troops”), and on Khitan and Bohai contingents; Wanyan Liang's mass levies for the invasion of 1161 provoked revolts, the Khitan rising among them (Tao 1976; Franke 1994). An all-cavalry army is true only of c. 1114–1130."
 "Trebuchet" = "The counterweight trebuchet reached China in 1273, four decades after the fall of the Jin (1234)."
 "Bombard Cannon" = "The oldest securely dated metal-barrelled guns are Yuan (c. 1288–1298); a possibly earlier Tangut bronze piece from Wuwei is of disputed date. The Jin fought with fire lances and bombs, not cannon."
-"Rocket Cart" = "Multiple-rocket carts are Ming (and the Korean hwacha, 1409/1451); whether the Jin “flying fire” of 1232 was a true rocket is disputed."
+"Rocket Cart" = "Multiple-rocket carts are Ming (and the Korean hwacha, 1409/1451); whether the Jin “flying fire” of 1232 was a true rocket is disputed. The Bomb Thrower stays as the civ's blast weapon, so no Mangonel-line substitute is added (the Khitans, who have no other, get the light pao)."
 "Heavy Rocket Cart" = "Upgrade of the removed Rocket Cart."
 
 [[rename]]
@@ -159,4 +180,4 @@ basis = "The Jin built their capitals on Chinese models: Shangjing (near Acheng)
 [[dropped]]
 item = "Units receive -50% friendly fire damage"
 kind = "bonus"
-reason = "Unfounded: a balance device for the explosive units, with no historical basis; not replaced, so the civ keeps four bonuses (see open questions)."
+reason = "Unfounded: a balance device for the explosive units, with no historical basis (RULES 6.8), so it cannot pass the relevance test either; not replaced, and the civ keeps four bonuses. Its effect on play (explosions now hurt friendly units at full strength) is part of the power question."
