@@ -2,14 +2,14 @@ civ = "Tupi"
 name = "Tupi"
 status = "draft"
 label = "Archer and Infantry civilization"
-summary = "The coastal Tupi (1000–1567): manioc farming, war-canoe fleets and allied flotillas replace the unfounded bonuses, Morubixaba and collective work (Motyrõ) become the techs, the Blackwood Archers reach the Archery Range in the Imperial Age, and slingers, Guard Towers, Keeps, stone walls and siege engines go."
+summary = "The coastal Tupi (1000–1567): manioc farming, war-canoe fleets and allied flotillas replace the unfounded bonuses, Morubixaba and collective work (Motyrõ) become the techs, the Blackwood Archers reach the Archery Range in the Imperial Age, and slingers, Keeps, stone walls and siege engines go."
 ideas = [
   "N3: An igara war-canoe line (bark or dugout canoes carrying a war party and firing arrows) replacing the Galley-line.",
   "N2: Capture and renaming: warriors who kill or capture enemies gain lasting bonuses, as the executioner of a captive took new names and prestige (Fernandes 1952; Carneiro da Cunha & Viveiros de Castro 1985); capture warfare, the central Tupinambá institution, needs a mechanic that N1 does not have (the Morubixaba tech carries it in N1).",
   "N2: Fire arrows: Foot Archers deal fire damage over time to buildings, after the burning arrows of cotton soaked in wax that Staden saw the Caeté shoot at the houses of Igarassu in 1548 (left out of N1 by the relevance test as one arrow type).",
   "N2: The moquém: hunted meat and fish that keep, smoked on the wooden grill whose French name, boucan, gave ‘buccaneer’ (left out of N1 so as not to stack a second strong economic bonus).",
   "N2: A bow line split from the Crossbowman (RULES section 10); the Blackwood Archers at the Archery Range in the Imperial Age are the N1 stop-gap.",
-  "N3: A caiçara (palisaded village) replacing the Castle and Watch Tower.",
+  "N3: A caiçara (palisaded village) replacing the Castle and the towers.",
   "N3: Re-theme the Monk as the pajé and the wandering karaí prophets.",
   "N3: A victory condition other than Wonders and Relics for stateless societies (game-model theme).",
   "N3: Feather work (the Tupinambá feather cloaks) and cauim feasts as cultural content for the history text and site.",
@@ -25,7 +25,7 @@ contested = [
 open_questions = [
   "Rename the civ ‘Tupinambá’ or ‘Coastal Tupi’? ‘Tupi’ names a language family and works as an umbrella term; for the peoples described here (Tupinambá, Tupiniquim, Temiminó, Potiguara, Caeté) ‘Tupinambá’ or ‘Coastal Tupi’ would be more exact (analysis). The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
   "Crossbow substitute: the Crossbowman and Arbalester are removed and the Blackwood Archers become trainable at the Archery Range in the Imperial Age (Italian Condottiero precedent), since in the Castle Age a half-population unit from every Archery Range would be very strong. The availability bonus is a RULES 6.11 substitution rather than a separate trait, and it is also the Tupi's fourth passive, so they reach the RULES 6.1 minimum only through it; with a level-2 Archery Range tech instead, a fourth passive would be needed (for example the pajé healers, ‘Monks heal +100% faster’, as for the Mapuche machi). Accept, or prefer Castle Age availability or a level-2 Archery Range tech?",
-  "The Castle and Watch Tower are kept for structural reasons although the Tupi built only palisades. Accept until an N3 caiçara exists?",
+  "The Castle is kept for structural reasons, and the Watch Tower and Guard Tower as generic tiers, although the Tupi built only palisades. Accept until an N3 caiçara exists?",
   "Naval overlap: the Sicilians' design has both the warships discount (the game's Viking bonus, which the Norwegians' design keeps) and the Transport Ships team bonus, so the Tupi share both naval elements with the Sicilians. Accept (RULES 6.7), or vary one of them?",
   "Town Center tech: Motyrõ (collective work, a community institution, RULES 6.3) is kept with a building effect. The better-attested alternative is the council of elders and principal men that decided war, village moves and the fate of captives (Léry 1578; Thevet 1557; Fernandes 1949), for which no existing effect is an obvious fit. Keep Motyrõ, or prefer a level-2 council tech?",
   "Region-wide, siege: the Siege Workshop with all its units and the Trebuchet are removed from all six American civs (owner's decision), the first civs in the game without them. The Tupi break buildings with the Tacape line, Arson, Sappers and Petards, but every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. Accept the risk until an N2/N3 assault unit exists?",
@@ -35,6 +35,7 @@ open_questions = [
   "Codex-wide question CQ12 (see codex/civs/README.md): American power budget.",
   "Codex-wide question CQ15 (see codex/civs/README.md): Team bonuses without an outside beneficiary.",
   "Codex-wide question CQ20 (see codex/civs/README.md): American renames beyond the agreed list.",
+  "Codex-wide question CQ21 (see codex/civs/README.md): Windows past 1500 (here 1567, because the written record the design rests on dates almost entirely from 1550–1570, with no late element).",
 ]
 
 [profile]
@@ -157,7 +158,7 @@ remove = [
   "Plate Mail Armor", "Ring Archer Armor",
   "Halberdier", "Slinger",
   "Galleon", "Catapult Galleon",
-  "Keep", "Guard Tower", "Stone Wall", "Gate",
+  "Keep", "Stone Wall", "Gate",
 ]
 
 [tree.basis]
@@ -179,8 +180,7 @@ remove = [
 "Slinger" = "The sling is not a characteristic Tupinambá weapon in the 16th-century sources, and the Andean slinger belongs to the Inca world (analysis: wrong)."
 "Galleon" = "Ocean-going sailing warships were unknown; the Tupi navy was a fleet of canoes. Codex navy rule for canoe and raft fleets (codex-wide question CQ1): the high-seas sailing ships (the Galleon; the Tupi never had the Carrack) are removed and the siege ship goes with the siege engines, while the Galley, Fire Ship, Demolition and Hulk lines stay with their tiers as a generic abstraction of canoe fleets for water maps; the demolition ships are generic post-1500 items kept as flagged abstractions (codex-wide question CQ2)."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
-"Keep" = "Region-wide tower policy: the Keep, a stone tower, stays only where stone towers are documented (the Inca). The Tupi built no towers; their defences were palisades and stakes (Staden's woodcuts)."
-"Guard Tower" = "See Keep. The Watch Tower stays as a minimal abstraction of a defended village; in the current game the Huns, Goths, Cumans and Mapuche also stop at the Watch Tower (the Goths' design adds the Guard Tower)."
+"Keep" = "Region-wide tower policy: only the Keep, a stone tower, needs documented stone towers, so it stays only where they are documented (the Inca); the Guard Tower stays as a generic tier wherever the Watch Tower stays. The Tupi built no towers: their defences were palisades and stakes (Staden's woodcuts), and their Watch Tower and Guard Tower are abstractions of a defended village."
 "Stone Wall" = "There was no stone building; palisades, sometimes double, were the Tupi fortification. Stone walls are removed (in the current game the Cumans and Goths also lack them; the Goths' design adds them) and Palisade Walls remain."
 "Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
 

@@ -11,6 +11,7 @@ ideas = [
   "N3: Balsa sailing rafts (the raft with cotton sails intercepted by Bartolomé Ruiz off Ecuador c. 1526) replacing the Galley-line and Trade Cog.",
   "N3: Captured huacas: enemy cult objects taken to Cusco as hostages, instead of conversion.",
   "N2: Incendiary sling stones as a burning (damage-over-time) effect on buildings, after Manco Inca's siege of Cusco (1536); a post-1500 element, so only possible in the Imperial Age (RULES section 2). Boleadoras (liwi) slowing cavalry, as in Manco Inca's rebellion.",
+  "N2: A bow line split from the Crossbowman (RULES section 10), so the bowmen levied from the Antisuyu can improve without crossbows, while the sling stays the main missile weapon.",
 ]
 contested = [
   "Chronology of the expansion: 1438 (Rowe, after Cabello Valboa) or earlier radiocarbon dates (Ogburn 2012; Marsh et al. 2017).",
@@ -36,6 +37,7 @@ open_questions = [
   "Codex-wide question CQ4 (see codex/civs/README.md): Mule Cart.",
   "Codex-wide question CQ12 (see codex/civs/README.md): American power budget.",
   "Codex-wide question CQ20 (see codex/civs/README.md): American renames beyond the agreed list.",
+  "Codex-wide question CQ21 (see codex/civs/README.md): Windows past 1500 (here 1533, to Atahualpa's execution, with no late element).",
 ]
 
 [profile]

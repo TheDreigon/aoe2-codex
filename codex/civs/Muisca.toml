@@ -10,6 +10,7 @@ ideas = [
   "N3: Salt cakes, cotton mantles and emeralds (Somondoco, Chivor) as distinct trade goods in a reworked Market.",
   "N3: Re-theme the Monastery as the sanctuaries of Sugamuxi and Guatavita with their jeques (chyquy), and Relics as the gold offerings (tunjos) of the sanctuaries and sacred lakes (the N1 offerings bonus is the stand-in).",
   "N2: Güecha darts: Guecha Warriors and Skirmishers +1 range, +1 attack (analysis proposal), for the hand-thrown darts that the chroniclers give as the güechas' common weapon (Simón; Piedrahita). Whether the Muisca also used the spear-thrower (tiradera) is unverified (the Epítome's list of arms; Simón); if it is confirmed, sharing the existing Aztec Atlatl would be the alternative.",
+  "N2: A bow line split from the Crossbowman (RULES section 10), so the Archer can improve without crossbows, although the bow was a secondary Muisca weapon beside darts and slings.",
   "N3: Assault mechanics (firing the palisaded enclosures, assault parties instead of the Petard) as the American alternative to siege engines (RULES section 10).",
 ]
 contested = [
@@ -36,6 +37,7 @@ open_questions = [
   "Codex-wide question CQ3 (see codex/civs/README.md): Crossbows.",
   "Codex-wide question CQ12 (see codex/civs/README.md): American power budget.",
   "Codex-wide question CQ20 (see codex/civs/README.md): American renames beyond the agreed list.",
+  "Codex-wide question CQ21 (see codex/civs/README.md): Windows past 1500 (here 1540, to the end of the Spanish conquest, with no late element).",
 ]
 
 [profile]
@@ -182,7 +184,7 @@ remove = [
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
 "Galleon, Fast Fire Ship and Carrack" = "With the Galleon and Carrack removed (the Muisca never had the Fast Fire Ship), this upgrade has nothing left to upgrade."
 "Block Printing" = "There was no printing or writing. With no equivalent for the function the tech is removed (18 of the game's 56 civs already lack it)."
-"Keep" = "Region-wide tower policy: the Keep, a stone tower, stays only where stone towers are documented (the Inca). The Muisca built in wood, cane and wattle-and-daub and had no towers; Guard Towers stay as an abstraction of wooden frontier posts."
+"Keep" = "Region-wide tower policy: only the Keep, a stone tower, needs documented stone towers, so it stays only where they are documented (the Inca); the Guard Tower stays as a generic tier wherever the Watch Tower stays. The Muisca built in wood, cane and wattle-and-daub and had no towers, so their Guard Towers are an abstraction of wooden frontier posts."
 "Stone Wall" = "Muisca defences were palisades around the enclosures of the caciques; stone walls are removed (in the current game the Cumans and Goths also lack them; the Goths' design adds them) and Palisade Walls remain."
 "Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
 "Masonry" = "There was no stone masonry tradition (the Temple of the Sun at Sugamuxi was of wood); the Muisca already lacked Architecture, and in the current game the Aztecs, Byzantines and Tupi lack Masonry too (the Aztecs' design adds it)."

@@ -12,6 +12,7 @@ ideas = [
   "N3: Re-theme the Monk as the machi, and add the kuel ceremonial mounds of Purén–Lumaco as a monument.",
   "N3: Parliaments with the Crown (the koyagtun of Quilín, 1641) as a diplomatic mechanic.",
   "N2: The Arauco War content that the late-element rule leaves out (Lautaro's relieving squadrons at Tucapel, 1553; the futalmapu alliances; mounted raiding for cattle and horses), as an alternative late element if the owner prefers it to the Kona.",
+  "N2: A bow line split from the Crossbowman (RULES section 10), so the Mapuche Archer can improve without crossbows.",
   "N3: Assault mechanics (firing palisades and thatch, scaling parties instead of the Petard) as the American alternative to siege engines (RULES section 10); the Mapuche took Spanish forts by assault and fire from Tucapel (1553) on.",
 ]
 contested = [
@@ -130,6 +131,7 @@ contested = "The pre-Hispanic length of the lance and its tactics are not docume
 name = "Kona"
 model = "Kona"
 building = "Castle"
+age = "Imperial"
 level = 1
 change = "changed"
 basis = "Kona were the young warriors in the service of a lonko. As riders they belong to the decades after c. 1560, when the Mapuche, having captured and then bred horses, fielded the cavalry that destroyed the Spaniards at Curalaba (1598). Late element (RULES section 2): it originated after 1500, so it is available at the Castle only from the Imperial Age (age-gated availability, as in the game's Italian team bonus ‘Condottiero available at the Barracks in Imperial Age’), and it is the civ's only civ-specific post-1500 element; generic post-1500 items held by most civs, such as the Petard and the demolition ships, stay as flagged abstractions and do not count as a late element (codex-wide question CQ2)."
