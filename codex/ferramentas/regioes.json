@@ -1,0 +1,11 @@
+{"01_britain_france": ["Britons","Celts","Saxons","Franks","Burgundians"],
+ "02_iberia_italy_rome": ["Spanish","Portuguese","Italians","Sicilians","Romans"],
+ "03_central_europe": ["Teutons","Bohemians","Poles","Lithuanians","Magyars"],
+ "04_norse_slavs_goths": ["Vikings","Danes","Varangians","Slavs","Goths"],
+ "05_byzantium_balkans_caucasus": ["Byzantines","Bulgarians","Armenians","Georgians"],
+ "06_steppe": ["Huns","Mongols","Tatars","Cumans"],
+ "07_islamic_world_africa": ["Saracens","Persians","Turks","Berbers","Malians","Ethiopians"],
+ "08_indian_subcontinent": ["Hindustanis","Gurjaras","Bengalis","Dravidians"],
+ "09_china": ["Chinese","Shu","Wei","Wu","Jurchens","Khitans"],
+ "10_east_southeast_asia": ["Japanese","Koreans","Vietnamese","Khmer","Burmese","Malay"],
+ "11_americas": ["Aztecs","Mayans","Incas","Muisca","Mapuche","Tupi"]}

@@ -1,11 +1,14 @@
-# aoe2techtree
-The Age of Empires II Tech Tree in your web browser.
+# aoe2-codex
+A historical rework of the Age of Empires II civilizations and tech tree, shown in your web browser.
 
-Hosted on [aoe2techtree.net](https://aoe2techtree.net)
+This is a fan project built on top of [aoe2techtree](https://github.com/SiegeEngineers/aoe2techtree)
+(the code behind [aoe2techtree.net](https://aoe2techtree.net)). The original game data is kept as it is;
+the reworked civilizations, the design rules and our own history texts live in [`codex/`](codex/).
+The design documents are currently written in Portuguese.
 
 Age of Empires II © Microsoft Corporation.
-**aoe2techtree** was created under Microsoft's "[Game Content Usage Rules](https://www.xbox.com/en-us/developers/rules)" using assets from Age of Empires II,
-and it is not endorsed by or affiliated with Microsoft.
+**aoe2-codex** and **aoe2techtree** were created under Microsoft's "[Game Content Usage Rules](https://www.xbox.com/en-us/developers/rules)" using assets from Age of Empires II,
+and they are not endorsed by or affiliated with Microsoft. This is a non-commercial fan project.
 
 ## Development
 
@@ -22,6 +25,10 @@ open [localhost:8000](http://localhost:8000) in any browser:
  - [svgjs](https://svgjs.dev/)
 
 ## Authors
+
+[TheDreigon](https://github.com/TheDreigon) - aoe2-codex (historical rework)
+
+### aoe2techtree
 
 [HSZemi](https://github.com/hszemi) - Original Author
 

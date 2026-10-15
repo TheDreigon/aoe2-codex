@@ -2,3 +2,6 @@
 bin
 .directory
 /scripts/venv
+
+# aoe2-codex: ficheiros de trabalho locais (inclui textos de história da Microsoft)
+/codex/.local/

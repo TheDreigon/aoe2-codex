@@ -3,6 +3,9 @@ let data = {};
 let parentConnections;
 let focusedNodeId = null;
 
+// Site root derived from this script's URL (js/main.js), so image paths work under a GitHub Pages sub-path too.
+const SITE_ROOT = new URL('..', document.currentScript.src).href;
+
 const PADDING = 20;
 const PADDING_BETWEEN_COLUMNS = 10;
 const TOP_PADDING = 20;
@@ -109,7 +112,7 @@ function loadCiv() {
     civ(selectedCiv, tree);
     if (selectedCiv in data.civs) {
         document.getElementById('civtext').innerHTML = data.strings[data.civs[selectedCiv].help_string_id];
-        document.getElementById('civlogo').src = `/img/Civs/${selectedCiv.toLowerCase()}.png`;
+        document.getElementById('civlogo').src = `${SITE_ROOT}img/Civs/${selectedCiv.toLowerCase()}.png`;
         window.location.hash = selectedCiv;
     } else {
         document.getElementById('civtext').innerHTML = '';
@@ -435,7 +438,7 @@ function createXRefBadges() {
 
         let xRefImage = document.createElement('img');
 
-        xRefImage.src = `/img/Civs/${civ.toLowerCase()}.png`;
+        xRefImage.src = `${SITE_ROOT}img/Civs/${civ.toLowerCase()}.png`;
         xRefImage.title = data.strings[data.civs[civ].name_string_id];
         xRefImage.id = `xRef__badge__${civ}`;
         xRefImage.classList.add('xRef__badge')
@@ -568,7 +571,7 @@ function create_building_index(treeData) {
         ++count;
         let img = document.createElement('img');
         img.id = 'building_index_' + building.id + '_img';
-        img.src = '/img/Building/' + building.picture_index + '.png';
+        img.src = SITE_ROOT + 'img/Building/' + building.picture_index + '.png';
         img.style.height = '24px';
         img.style.width = '24px';
         let td = document.createElement('td');
@@ -863,7 +866,7 @@ function civ(civName) {
         let age_names = getAgeNames(data.civs[civName].era);
         for (let i = 0; i < image_urls.length; i++) {
             let age_image_group = draw.group().click(hideHelp);
-            let age_image = age_image_group.image('/img/Ages/' + image_urls[i])
+            let age_image = age_image_group.image(SITE_ROOT + 'img/Ages/' + image_urls[i])
                 .size(icon_width, icon_height)
                 .x(margin_left)
                 .y(row_height * i + vertical_spacing);
@@ -925,7 +928,7 @@ function drawItem(itemToDraw, element_height, tree_height, draw) {
     const image_placeholder = item.rect(element_height * 0.6, element_height * 0.6)
         .attr({fill: '#000000', opacity: 0.5, id: itemToDraw.id + '_imgph'})
         .move(itemToDraw.x + element_height * 0.2, itemToDraw.y);
-    const prefix = '/img/';
+    const prefix = SITE_ROOT + 'img/';
     const imgPrefix = prefix + itemToDraw.use_type + '/';
     const image = item.image(imgPrefix + itemToDraw.picture_index + '.png')
         .size(element_height * 0.6, element_height * 0.6)

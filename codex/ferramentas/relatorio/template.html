@@ -1,0 +1,317 @@
+<title>AoE2 à Luz da História</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a historian's casebook. Reading column for the synthesis with a ranking rail beside it;
+   below, one ledger row per civ that opens into its dossier; then the cross-cutting themes. */
+:root {
+  --bg: #eceef2;
+  --surface: #ffffff;
+  --ink: #1a2130;
+  --muted: #5b6578;
+  --line: #d4d9e1;
+  --accent: #2c4f8e;
+  --accent-soft: #dfe7f5;
+  --r-faithful: #2b7a4b;
+  --r-plausible: #2f76a3;
+  --r-abstraction: #6b7280;
+  --r-stretched: #a86d12;
+  --r-anachronistic: #7646a6;
+  --r-wrong: #b0261d;
+  --r-unfounded: #7a5534;
+  --font-display: "Alegreya SC", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: "Alegreya Sans", "Segoe UI", Candara, "Trebuchet MS", sans-serif;
+  --font-data: "IBM Plex Mono", Consolas, "Courier New", monospace;
+  --step--1: 0.875rem;
+  --step-0: 1.0625rem;
+  --step-1: 1.25rem;
+  --step-2: 1.6rem;
+  --step-3: 2.3rem;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10141a; --surface: #171d26; --ink: #e2e6ed; --muted: #98a2b4; --line: #2a3240;
+    --accent: #93b2ee; --accent-soft: #1e2a40;
+    --r-faithful: #6cc690; --r-plausible: #74b4dd; --r-abstraction: #a3acba; --r-stretched: #e0ac55;
+    --r-anachronistic: #b994e2; --r-wrong: #f08880; --r-unfounded: #cfa47c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10141a; --surface: #171d26; --ink: #e2e6ed; --muted: #98a2b4; --line: #2a3240;
+  --accent: #93b2ee; --accent-soft: #1e2a40;
+  --r-faithful: #6cc690; --r-plausible: #74b4dd; --r-abstraction: #a3acba; --r-stretched: #e0ac55;
+  --r-anachronistic: #b994e2; --r-wrong: #f08880; --r-unfounded: #cfa47c;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: var(--step-0); line-height: 1.55; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: max(16px, 3vw); padding-block: 0 4rem; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; text-wrap: balance; line-height: 1.15; margin: 0; }
+h4 { font-family: var(--font-body); font-weight: 700; font-size: var(--step--1); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 1.6rem 0 .5rem; }
+p { margin: 0 0 .75rem; }
+
+/* masthead */
+header.mast { padding-block: 2.6rem 1.6rem; border-bottom: 1px solid var(--line); display: grid; gap: .9rem; }
+.eyebrow { font-family: var(--font-data); font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-size: clamp(2rem, 5vw, var(--step-3)); font-weight: 500; letter-spacing: .01em; }
+h1 b { font-weight: 700; color: var(--accent); }
+.dek { max-width: 64ch; color: var(--muted); font-size: var(--step-1); line-height: 1.45; margin: 0; }
+.stats { display: flex; flex-wrap: wrap; gap: .4rem 1.6rem; font-family: var(--font-data); font-size: .85rem; color: var(--muted); }
+.stats strong { color: var(--ink); font-weight: 500; }
+
+nav.jump { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); display: flex; gap: 1.4rem; overflow-x: auto; padding-block: .6rem; }
+nav.jump a { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; text-decoration: none; color: var(--ink); white-space: nowrap; }
+nav.jump a:hover { color: var(--accent); }
+
+section { padding-top: 2.4rem; scroll-margin-top: 3.2rem; }
+section > h2 { font-size: var(--step-2); margin-bottom: 1rem; }
+.section-lede { color: var(--muted); max-width: 70ch; }
+
+/* synthesis */
+.syn-grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 2.5rem; align-items: start; }
+@media (max-width: 900px) { .syn-grid { grid-template-columns: minmax(0, 1fr); } }
+.essay { max-width: 68ch; min-width: 0; }
+.essay h2 { font-size: var(--step-2); margin: 2rem 0 .7rem; }
+.essay h2:first-child { margin-top: 0; }
+.essay h3 { font-size: var(--step-1); margin: 1.5rem 0 .5rem; }
+.essay ul, .essay ol { padding-left: 1.3rem; margin: 0 0 1rem; display: grid; gap: .35rem; }
+.essay blockquote { margin: 0 0 1rem; padding-left: 1rem; border-left: 3px solid var(--line); color: var(--muted); }
+.essay hr { border: 0; border-top: 1px solid var(--line); margin: 1.5rem 0; }
+.essay code { font-family: var(--font-data); font-size: .85em; }
+.essay li > ul, .essay li > ol { margin: .35rem 0 0; }
+.essay .tbl-wrap { margin: 0 0 1.2rem; }
+table.md { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 480px; }
+table.md th { text-align: left; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); padding: .3rem .5rem; }
+table.md td { border-bottom: 1px solid var(--line); padding: .45rem .5rem; vertical-align: top; }
+table.md td:nth-child(2) { font-family: var(--font-data); font-variant-numeric: tabular-nums; text-align: center; }
+table.md td:first-child { font-weight: 700; white-space: nowrap; }
+aside.rail { position: sticky; top: 3.6rem; display: grid; gap: 1.6rem; min-width: 0; }
+@media (max-width: 900px) { aside.rail { position: static; } }
+.rail-block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem; }
+.rail-block h3 { font-size: 1.1rem; margin-bottom: .2rem; }
+.rail-note { font-size: var(--step--1); color: var(--muted); margin-bottom: .7rem; }
+.ranking { display: grid; gap: 2px; max-height: 60vh; overflow-y: auto; padding-right: 4px; }
+@media (max-width: 900px) { .ranking { max-height: none; } }
+.rk { display: grid; grid-template-columns: 7.2rem 1fr 1.4rem; gap: .5rem; align-items: center; text-decoration: none; color: var(--ink); font-size: .92rem; padding: 1px 2px; border-radius: 3px; }
+.rk:hover { background: var(--accent-soft); }
+.rk-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rk-bar { height: 7px; background: var(--line); border-radius: 4px; overflow: hidden; }
+.rk-bar span { display: block; height: 100%; border-radius: 4px; }
+.rk-n { font-family: var(--font-data); font-size: .8rem; text-align: right; font-variant-numeric: tabular-nums; }
+.lo { background: var(--r-wrong); } .mid { background: var(--r-stretched); } .hi { background: var(--r-faithful); }
+.od-row { display: grid; grid-template-columns: 6.6rem 1fr 2.2rem; gap: .5rem; align-items: center; margin-bottom: 4px; }
+.od-bar { height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
+.od-bar span { display: block; height: 100%; }
+.od-n { font-family: var(--font-data); font-size: .8rem; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* rating chips */
+.chip { display: inline-block; font-size: .74rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: .1rem .45rem; border-radius: 3px; border: 1px solid currentColor; white-space: nowrap; }
+.chip.r-faithful { color: var(--r-faithful); } .chip.r-plausible { color: var(--r-plausible); } .chip.r-abstraction { color: var(--r-abstraction); }
+.chip.r-stretched { color: var(--r-stretched); } .chip.r-anachronistic { color: var(--r-anachronistic); } .chip.r-wrong { color: var(--r-wrong); } .chip.r-unfounded { color: var(--r-unfounded); }
+span.r-faithful:not(.chip), .dist-seg.r-faithful { background: var(--r-faithful); }
+span.r-plausible:not(.chip), .dist-seg.r-plausible { background: var(--r-plausible); }
+span.r-abstraction:not(.chip), .dist-seg.r-abstraction { background: var(--r-abstraction); }
+span.r-stretched:not(.chip), .dist-seg.r-stretched { background: var(--r-stretched); }
+span.r-anachronistic:not(.chip), .dist-seg.r-anachronistic { background: var(--r-anachronistic); }
+span.r-wrong:not(.chip), .dist-seg.r-wrong { background: var(--r-wrong); }
+span.r-unfounded:not(.chip), .dist-seg.r-unfounded { background: var(--r-unfounded); }
+.legend { list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem; font-size: .92rem; }
+.legend .chip { margin-right: .4rem; min-width: 6.4rem; text-align: center; }
+
+/* civ controls */
+.controls { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin: 0 0 1rem; }
+.controls input, .controls select, .controls button { font: inherit; font-size: .95rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: .4rem .6rem; }
+.controls input { flex: 1 1 14rem; min-width: 0; }
+.controls button { cursor: pointer; }
+.controls button:hover { border-color: var(--accent); }
+.count { font-family: var(--font-data); font-size: .8rem; color: var(--muted); }
+
+/* civ ledger rows */
+.civ-list { display: grid; gap: 6px; }
+details.civ { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+details.civ[open] { border-color: var(--accent); }
+details.civ > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto minmax(80px, 160px) auto; gap: .9rem; align-items: center; padding: .55rem .9rem; }
+details.civ > summary::-webkit-details-marker { display: none; }
+.emblem { width: 44px; height: 44px; object-fit: contain; }
+.civ-title { display: grid; min-width: 0; }
+.civ-name { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; line-height: 1.1; }
+.civ-region { font-size: .82rem; color: var(--muted); }
+.civ-score { display: flex; align-items: center; gap: .5rem; }
+.score-num { font-family: var(--font-data); font-size: .95rem; color: var(--bg); width: 1.9rem; height: 1.9rem; border-radius: 50%; display: grid; place-items: center; font-variant-numeric: tabular-nums; }
+.meter { display: inline-flex; gap: 2px; }
+.meter i { width: 6px; height: 14px; background: var(--line); border-radius: 1px; }
+.meter.lo i.on { background: var(--r-wrong); } .meter.mid i.on { background: var(--r-stretched); } .meter.hi i.on { background: var(--r-faithful); }
+.dist { display: flex; height: 8px; border-radius: 4px; overflow: hidden; gap: 1px; }
+.dist-seg { display: block; height: 100%; }
+.flags { font-family: var(--font-data); font-size: .75rem; color: var(--muted); white-space: nowrap; }
+@media (max-width: 720px) {
+  details.civ > summary { grid-template-columns: 40px minmax(0, 1fr) auto; }
+  .emblem { width: 40px; height: 40px; }
+  .meter { display: none; }
+  .dist { grid-column: 2 / 4; }
+  .flags { display: none; }
+}
+.civ-body { padding: .2rem 1.2rem 1.4rem; border-top: 1px solid var(--line); }
+.civ-body > p, .civ-head-body p { max-width: 80ch; }
+.civ-head-body { padding-top: 1rem; }
+.represents .period { color: var(--muted); }
+.verdict { font-size: var(--step-1); line-height: 1.45; }
+.meta-line { font-size: var(--step--1); color: var(--muted); }
+.tbl-wrap { overflow-x: auto; }
+table.elements { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 560px; }
+table.elements th { text-align: left; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); padding: .3rem .5rem; }
+table.elements td { border-bottom: 1px solid var(--line); padding: .55rem .5rem; vertical-align: top; }
+td.el-name { width: 28%; font-weight: 500; }
+td.el-name .kind { display: block; font-weight: 400; font-size: .78rem; color: var(--muted); }
+td.expl { color: var(--ink); }
+ul.plain { padding-left: 1.2rem; margin: 0; display: grid; gap: .35rem; max-width: 80ch; }
+.hist { display: grid; gap: .6rem; }
+.hist-item, .finding { border-left: 3px solid var(--line); padding: .1rem 0 .1rem .9rem; max-width: 80ch; }
+.hist-item.sev-major, .finding.sev-major { border-left-color: var(--r-wrong); }
+.hist-item.sev-moderate, .finding.sev-moderate { border-left-color: var(--r-stretched); }
+.hist-item p, .finding p { margin-bottom: .3rem; }
+.claim, .f-title { font-weight: 700; }
+.sev { font-family: var(--font-data); font-weight: 500; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-right: .5rem; }
+.props { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: .8rem; }
+.prop { background: var(--accent-soft); border-radius: var(--radius); padding: .8rem .9rem; min-width: 0; }
+.prop p { margin-bottom: .4rem; }
+.prop-title { font-weight: 700; }
+.ptype { display: block; font-family: var(--font-data); font-weight: 500; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.basis { font-size: .9rem; color: var(--muted); }
+.sources { font-size: .9rem; color: var(--muted); max-width: 90ch; }
+
+/* themes */
+.themes { display: grid; gap: 8px; }
+details.theme { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+details.theme > summary { cursor: pointer; padding: 1rem 1.1rem; display: grid; gap: .3rem; list-style: none; }
+details.theme > summary::-webkit-details-marker { display: none; }
+.theme-title { font-family: var(--font-display); font-weight: 700; font-size: var(--step-1); }
+.theme-sum { color: var(--muted); max-width: 85ch; }
+.theme-body { padding: 0 1.2rem 1.4rem; border-top: 1px solid var(--line); display: grid; gap: .7rem; }
+.examples { font-size: .88rem; color: var(--muted); }
+.two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 1.5rem; }
+.two-col ol, .two-col ul { padding-left: 1.2rem; display: grid; gap: .4rem; margin: 0; }
+details.cross { border-top: 1px solid var(--line); padding: .5rem 0; }
+details.cross summary { cursor: pointer; font-weight: 700; }
+details.cross p { margin-top: .5rem; max-width: 85ch; }
+
+footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; display: grid; gap: .5rem; max-width: 90ch; }
+</style>
+
+<div class="wrap">
+<header class="mast">
+  <span class="eyebrow">Dossiê · %%N%% civilizações · dados do repositório aoe2techtree</span>
+  <h1>Age of Empires II <b>à luz da história</b></h1>
+  <p class="dek">Cada bónus, unidade única, tech única e texto de história das civilizações do AoE2: Definitive Edition, avaliado por historiadores regionais e verificado por um revisor cético. Serve de base para debates e exercícios de redesenho.</p>
+  <div class="stats"><span>Fidelidade média <strong>%%AVG%%/10</strong></span><span><strong>%%NEL%%</strong> elementos avaliados</span><span>Gerado em <strong>%%DATE%%</strong></span></div>
+</header>
+
+<nav class="jump" aria-label="Secções">
+  <a href="#sintese">Síntese</a>
+  <a href="#civs">Civilizações</a>
+  <a href="#temas">Temas transversais</a>
+  <a href="#metodo">Método</a>
+</nav>
+
+<section id="sintese">
+  <div class="syn-grid">
+    <article class="essay">%%SYNTHESIS%%</article>
+    <aside class="rail">
+      <div class="rail-block">
+        <h3>Fidelidade por civ</h3>
+        <p class="rail-note">Nota de 0 a 10 dada pelo historiador regional e recalibrada pelo revisor. É um juízo analítico, não uma medida.</p>
+        <div class="ranking">%%RANKING%%</div>
+      </div>
+      <div class="rail-block">
+        <h3>Todos os elementos</h3>
+        <p class="rail-note">Como foram classificados os bónus, unidades, techs e rótulos das %%N%% civs.</p>
+        %%OVERALL_DIST%%
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section id="civs">
+  <h2>Civilizações</h2>
+  <p class="section-lede">Abre uma civ para ver a avaliação de cada elemento, os problemas da tech tree e do texto de história, e propostas concretas para a tornar mais fiel.</p>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Procurar civ…" aria-label="Procurar civilização">
+    <select id="region" aria-label="Filtrar por região"><option value="">Todas as regiões</option>%%REGION_OPTS%%</select>
+    <select id="sort" aria-label="Ordenar"><option value="az">A–Z</option><option value="desc">Mais fiéis primeiro</option><option value="asc">Menos fiéis primeiro</option></select>
+    <button id="toggle-all" type="button">Abrir todas</button>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="civ-list" id="civ-list">
+%%CIVS%%
+  </div>
+</section>
+
+<section id="temas">
+  <h2>Temas transversais</h2>
+  <p class="section-lede">Problemas que não pertencem a uma só civ: o modelo do jogo, a distribuição da tech tree, os nomes das unidades e techs, e quem está (e não está) representado.</p>
+  <div class="themes">%%THEMES%%</div>
+  <h3 style="margin-top:2rem;font-size:var(--step-1)">Notas por região</h3>
+  <p class="section-lede">Sobreposições e confusões entre civs da mesma região.</p>
+  %%CROSS%%
+</section>
+
+<section id="metodo">
+  <h2>Método e legenda</h2>
+  <ul class="legend">%%LEGEND%%</ul>
+  <footer>
+    <p>Fontes de dados: bónus, tech trees e descrições lidos de <code>data/data.json</code> e <code>data/locales/en/strings.json</code> do repositório aoe2techtree (commit 3bb43b1, “Add The Viking Sagas”). Textos de história do jogo obtidos da wiki Age of Empires (fandom), secção History de cada civ.</p>
+    <p>Processo: 11 historiadores regionais analisaram as civs em grupos; cada análise foi revista por um verificador cético que corrigiu factos, recalibrou notas e acrescentou omissões. Quatro análises temáticas passaram pelo mesmo processo. A síntese foi escrita a partir dos resultados verificados.</p>
+    <p>Limites: as notas de fidelidade são juízos, não medições. Os textos de história são parafraseados. Pontos em debate entre historiadores estão assinalados como tal em cada civ.</p>
+  </footer>
+</section>
+</div>
+
+<script>
+(function () {
+  var list = document.getElementById('civ-list');
+  var items = Array.prototype.slice.call(list.querySelectorAll('details.civ'));
+  var q = document.getElementById('q'), region = document.getElementById('region'), sort = document.getElementById('sort');
+  var count = document.getElementById('count'), toggle = document.getElementById('toggle-all');
+  function apply() {
+    var term = q.value.trim().toLowerCase(), reg = region.value, n = 0;
+    var sorted = items.slice().sort(function (a, b) {
+      if (sort.value === 'desc') return b.dataset.score - a.dataset.score || a.dataset.name.localeCompare(b.dataset.name);
+      if (sort.value === 'asc') return a.dataset.score - b.dataset.score || a.dataset.name.localeCompare(b.dataset.name);
+      return a.dataset.name.localeCompare(b.dataset.name);
+    });
+    sorted.forEach(function (el) {
+      var show = (!term || el.dataset.name.indexOf(term) !== -1) && (!reg || el.dataset.region === reg);
+      el.hidden = !show; if (show) n++;
+      list.appendChild(el);
+    });
+    count.textContent = n + ' de ' + items.length;
+  }
+  [q, region, sort].forEach(function (el) { el.addEventListener('input', apply); });
+  toggle.addEventListener('click', function () {
+    var open = toggle.dataset.open !== '1';
+    items.forEach(function (el) { if (!el.hidden) el.open = open; });
+    toggle.dataset.open = open ? '1' : '0';
+    toggle.textContent = open ? 'Fechar todas' : 'Abrir todas';
+  });
+  function openHash() {
+    var id = location.hash.slice(1); if (!id) return;
+    var el = document.getElementById(id);
+    if (el && el.tagName === 'DETAILS') { el.hidden = false; el.open = true; }
+  }
+  document.querySelectorAll('a[href^="#civ-"]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      var el = document.getElementById(a.getAttribute('href').slice(1));
+      if (el) { q.value = ''; region.value = ''; apply(); el.open = true; }
+    });
+  });
+  window.addEventListener('hashchange', openHash);
+  apply(); openHash();
+})();
+</script>
