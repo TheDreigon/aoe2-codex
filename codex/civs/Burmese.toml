@@ -2,7 +2,7 @@ civ = "Burmese"
 name = "Burmese"
 status = "draft"
 label = "Elephant and Monk civilization"
-summary = "The Irrawaddy kingdoms from Pagan to the First Toungoo Empire (1044–1599): the elephant-armour and Monastery bonuses and the relic team bonus (now read as the two-way relic and ordination network with Sri Lanka) stay; the Manipuri Arambai and Manipur Cavalry and the redundant Howdah give way to the armoured, tower-bearing war elephants of the Yuan shi (Elephant Archer, trained at the Castle), the crown-service system (Ahmudan, the Town Center tech) and the Portuguese gunners of the Toungoo kings (Bayingyi, the civ’s one late element); Kyaukse irrigation and the Irrawaddy river fleets replace the infantry attack and Lumber Camp bonuses, and the tree gains the Hand Cannoneer and the archer armours while losing the mounted archers and the counterweight Trebuchet."
+summary = "The Irrawaddy kingdoms from Pagan to the First Toungoo Empire (1044–1599): the War Elephant replaces the Arambai, Ahmudan and Bayingyi (the one late element) the Howdah and Manipur Cavalry, Kyaukse rice and river fleets the infantry and Lumber Camp bonuses, and monks for Sri Lanka the relic team bonus."
 ideas = [
   "N3: A white elephant (hsinbyu) royal unit with an aura, for Bayinnaung, ‘Lord of many white elephants’, and the White Elephant War with Ayutthaya (1563–64).",
   "N3: A Mon civ (Hanthawaddy, 1287–1539), a Meitei (Manipur) civ that would take back the Arambai and Manipur Cavalry, and an Arakan (Mrauk-U) civ.",
@@ -13,7 +13,7 @@ contested = [
   "The causes of the Toungoo collapse in 1599: over-extension and depopulation by levies, or climate.",
   "Aung-Thwin’s thesis that religious donations drained Pagan’s tax base.",
   "Marco Polo was not at Ngasaunggyan: he dates the battle 1272 (the Yuan shi gives 1277), and his towers with twelve to sixteen men echo the old ‘elephant and castle’ topos (1 Maccabees puts 32 men in each tower) and are physically implausible.",
-  "Whether the men on Burmese war elephants shot bows or threw spears: the Yuan shi describes short spears carried in bamboo tubes, which the riders took ‘to strike with’ (取以擊刺), thrown or thrust. No cited source shows elephant-borne archers, so the Elephant Archer is a missile abstraction; the armoured, tower-bearing elephant of the Yuan shi is at least as close to the War Elephant (see open questions).",
+  "Whether the men on Burmese war elephants shot bows or threw spears: the Yuan shi describes short spears carried in bamboo tubes, which the riders took ‘to strike with’ (取以擊刺), thrown or thrust, and no cited source shows elephant-borne archers. The design follows the Yuan shi: its unique unit is the War Elephant, the game’s heavy close-combat elephant, not the missile-armed Elephant Archer.",
   "Crown service is a structural trait promoted to the Town Center tech because no in-window state reform was found to fill the slot (RULES 6.3: where the basis is weak, say so). Its mature form, with Thalun’s revenue inquest of 1638, is Restored Toungoo (Lieberman 1984); inside the window it rests on Pagan’s crown bondsmen (kyundaw; Aung-Thwin 1985) and on the First Toungoo levies, and ‘ahmudan’ is the later name of the system.",
   "The bayingyi communities proper were settled by Anaukpetlun after 1613, outside the window; the name is extended here to the 16th-century mercenaries.",
   "Bows were in regular use in Burmese armies. Crossbows are known in the region above all among its hill peoples, and their regular use by the Bamar royal armies is not shown, so the Arbalester stays out under the project’s crossbow criterion and the Crossbowman remains the generic bow tier.",
@@ -21,12 +21,15 @@ contested = [
 ]
 open_questions = [
   "Name: ‘Burmese’ is a European exonym (Bamar, Myanmar), and the civ merges Bamar, Pyu and Mon. Rename?",
-  "Unique unit: in the current game the Elephant Archer is a regional Archery Range unit of the Bengalis, Dravidians and Gurjaras (its help text has no ‘unique’), like the Steppe Lancer, though RULES 6.1 does not list it among the regional units. This design trains it at the Castle as the Burmese unique unit, with the Elite upgrade researched at the Castle. Does it count? If not, the alternative is to give it through the tree (Archery Range, Elite there, as for the Indian civs) and to share the Persian War Elephant, renamed, as the unique unit. On the research side, the armoured, tower-bearing, short-spear elephant of the Yuan shi (1277) is at least as close to the War Elephant as to the Elephant Archer, and no source shows elephant-borne archers.",
+  "Codex-wide question CQ8 (see codex/civs/README.md): Regional units (here the Elephant Archer, regional in the game, gives way to the War Elephant, shared with the Persians).",
   "Bayingyi names the Luso-descended gunner communities settled after 1613 (see contested). Keep it, or use a neutral name such as ‘Feringhi’ (the Indo-Persian name for the Portuguese) or ‘Portuguese Gunners’ (not Burmese, but not anachronistic for the 1540s)?",
   "Label: ‘Elephant and Monk civilization’ instead of ‘Infantry and Cavalry civilization’, since the infantry attack bonus and the Manipuri horse leave. Accept?",
-  "Archers: the first revision’s Arbalester is withdrawn (crossbows are not shown in the Bamar royal armies, and the project’s criterion gives the Arbalester only where they are attested), while Leather and Ring Archer Armor are added for the bow arm and the Elephant Archer. Accept the armours, or keep the archers as weak as in the game, as a counterweight to the new Hand Cannoneer and Elephant Archer?",
-  "Ahmudan: crown service fills the Town Center slot as a structural trait (see contested), and it shares the Kshatriyas effect (Military Units cost -25% food) with six other drafts’ Town Center techs (the Byzantine Themata, Ethiopian Gult, Gaelic Buannacht, Gurjara Samantas, Japanese Shugo-Jitō and Jurchen Meng’an Mouke). Keep the shared level-1 tech, or give it a different effect as a new tech (level 2)? And keep the name ahmudan, the system’s later name, or use the in-window kyundaw (crown bondsmen), which in modern Burmese is also the polite word for ‘I’?",
-  "Team bonus: relic visibility is kept, read as the two-way network in which Pagan restored Sri Lanka’s ordination and relics came to Burma. If you prefer an effect that shows what Pagan gave, the alternative is ‘Monasteries work +20% faster’ (monks supplied for an ally’s sangha), already the team bonus of seven drafts, the Malay among them. Keep the relics?",
+  "Archers: the first revision’s Arbalester is withdrawn (crossbows are not shown in the Bamar royal armies, and the project’s criterion gives the Arbalester only where they are attested), while Leather and Ring Archer Armor are added for the bow arm. Accept the armours, or keep the archers as weak as in the game, as a counterweight to the new Hand Cannoneer?",
+  "Ahmudan: crown service fills the Town Center slot as a structural trait (see contested). Keep the name ahmudan, the system’s later name, or use the in-window kyundaw (crown bondsmen), which in modern Burmese is also the polite word for ‘I’?",
+  "Team bonus: ‘Monasteries work +20% faster’ (the monks and scriptures Pagan sent to restore Sri Lanka’s ordination) replaces the game’s relic visibility, which renders rather what Burma received, since relics mostly travelled to Burma. Keep the relics instead? The relevance line would then have to say that the effect renders what Burma received.",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here Ahmudan, one of seven Town Center techs with the Kshatriyas effect, and the team bonus ‘Monasteries work +20% faster’, now held by eight designs).",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (here the Cannon Galleons go and no substitute siege warship is given).",
+  "Codex-wide question CQ21 (see codex/civs/README.md): Windows past 1500 (here 1599, the end of the First Toungoo Empire, which carries Bayingyi, the civ’s one late element).",
 ]
 
 [profile]
@@ -87,23 +90,24 @@ relevance = "Pagan’s thousands of temples and the merit-making gifts to the sa
 contested = "Aung-Thwin argues that these donations eventually drained the crown’s resources; the thesis is debated."
 
 [team_bonus]
-text = "Relics visible on the map at the start of the game"
+text = "Monasteries work +20% faster"
 level = 1
-change = "kept"
-precedent = "Relics visible on the map at the start of the game (Burmese team bonus)"
-basis = "Burma belonged to a Theravāda network in which relics, monks and texts moved both ways, and its neighbour gained from it. After expelling the Cholas, Vijayabāhu I of Sri Lanka could not find enough monks for a valid ordination, so he asked Anuruddha (Anawrahta), king of Rāmañña, for monks and scriptures, and Pagan sent them (Cūḷavaṃsa, ch. 60; c. 1070s); the Burmese chronicles say a replica of the Tooth relic came back in return, and the Sinhalese ordination later returned to Pagan with Chapaṭa (1180s). Relics were what the Burmese kings sought most: Bayinnaung tried in 1560–61 to ransom from the Portuguese at Goa the Tooth they had taken at Jaffna, and received another ‘tooth’ from Kotte in 1576. A team bonus because the exchange restored a neighbour’s sangha (RULES 6.2: religious influence). The effect, allies who know where the relics lie, renders the network as a whole, in which relics mostly travelled to Burma while ordination and texts went to Sri Lanka (see open questions)."
-relevance = "Pagan’s exchanges with Sri Lanka restored the Sinhalese ordination and made Burma a centre of the Theravāda world; the network benefited both sides."
+change = "new"
+replaces = "Relics visible on the map at the start of the game"
+precedent = "Monasteries work +20% faster (Lithuanians team bonus, which their design gives up); also the team bonus of the Bulgarian, Danish, Gaelic, Hindustani, Khitan, Malay and Saxon designs (codex-wide question CQ11)"
+basis = "Burma belonged to a Theravāda network in which relics, monks and texts moved both ways, and Pagan restored a neighbour’s sangha. After expelling the Cholas, Vijayabāhu I of Sri Lanka could not find enough monks for a valid ordination, so he asked Anuruddha (Anawrahta), king of Rāmañña, for monks and scriptures, and Pagan sent them (Cūḷavaṃsa, ch. 60; c. 1070s); the Burmese chronicles say a replica of the Tooth relic came back in return, and the Sinhalese ordination later returned to Pagan with Chapaṭa (1180s). Relics were what the Burmese kings sought most: Bayinnaung tried in 1560–61 to ransom from the Portuguese at Goa the Tooth they had taken at Jaffna, and received another ‘tooth’ from Kotte in 1576. A team bonus because Pagan’s monks restored a neighbour’s sangha (RULES 6.2: religious influence): faster Monasteries render the monks and scriptures that went to Sri Lanka. The game’s team bonus it replaces, relics visible on the map, renders rather what Burma received, since relics mostly travelled to Burma (see open questions)."
+relevance = "Pagan’s monks restored the Sinhalese ordination, and the exchanges with Sri Lanka made Burma a centre of the Theravāda world; the network benefited both sides."
 
 [[unique_unit]]
-name = "Elephant Archer"
-model = "Elephant Archer"
+name = "War Elephant"
+model = "War Elephant"
 building = "Castle"
 level = 1
 change = "new"
 replaces = "Arambai"
-basis = "The Yuan shi describes the army of Mian at Ngasaunggyan (1277): cavalry in front, then elephants that wore armour and carried war towers, with large bamboo tubes on both sides holding dozens of short spears that the riders took to strike with (juan 210). Marco Polo, who was not there, gives each elephant a wooden tower with twelve to sixteen fighting men (see contested). The Elephant Archer of the Indian civs, a missile-armed elephant, is the existing model, a missile abstraction of the spear-armed riders; the Burmese train it at the Castle and research the Elite upgrade there (see open questions). The Arambai it replaces is the javelin of the Meitei horsemen of Manipur, whose cavalry served Burmese kings mainly from the 1750s."
+basis = "The Yuan shi describes the army of Mian at Ngasaunggyan (1277): cavalry in front, then elephants that wore armour and carried war towers, with large bamboo tubes on both sides holding dozens of short spears that the riders took to strike with (juan 210). Marco Polo, who was not there, gives each elephant a wooden tower with twelve to sixteen fighting men (see contested). The Persians’ War Elephant, the game’s heavy close-combat elephant with a howdah, is the existing model nearest to this description: it is shared with the Persians, trained at the Castle with its Elite upgrade there, and keeps its game name, since no specific Burmese term for it has been verified. The Elephant Archer of the previous version is a regional unit in the game, which does not count as a unique unit (RULES 6.1), and no source shows elephant-borne archers. The Arambai it replaces is the javelin of the Meitei horsemen of Manipur, whose cavalry served Burmese kings mainly from the 1750s."
 relevance = "Armoured, tower-bearing war elephants were the striking arm with which the Burmese army met the Yuan in 1277 and with which Burmese kings fought their Mon and Tai rivals."
-contested = "No source shows elephant-borne archers: the riders fought with short spears, thrown or thrust (see contested)."
+contested = "Marco Polo’s crowded towers echo an old topos; the Yuan shi’s short spears, thrown or thrust, suit a close-combat elephant better than a missile one (see contested)."
 
 [[unique_tech]]
 name = "Ahmudan"
@@ -113,7 +117,7 @@ age = "Castle"
 effect = "Military Units cost -25% food"
 level = 1
 change = "new"
-precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, shared and renamed with an identical effect; six other drafts share it for systems of service paid in land or kind (the Byzantine Themata, Ethiopian Gult, Gaelic Buannacht, Gurjara Samantas, Japanese Shugo-Jitō and Jurchen Meng’an Mouke; see open questions)"
+precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, shared and renamed with an identical effect; six other drafts share it for systems of service paid in land or kind (the Byzantine Themata, Ethiopian Gult, Gaelic Buannacht, Gurjara Samantas, Japanese Shugo-Jitō and Jurchen Meng'an Mouke; codex-wide question CQ11)"
 basis = "Burmese kings raised their armies from crown servicemen bound to hereditary units (infantry, cavalry, elephant and boat groups, and later gunners), who held land in return for service and farmed it between campaigns: Pagan’s crown bondsmen (kyundaw) appear in its inscriptions (Aung-Thwin 1985), and the Toungoo kings extended the system and the levies of their vassals (Lieberman 1984). Cheaper food for soldiers renders an army that fed itself from its service lands. At the Town Center because the system was the state’s organisation of manpower (RULES 6.2). A structural trait promoted to fill the slot: no in-window state reform was found, and the system’s mature, datable form (Thalun’s revenue inquest of 1638) lies after the window (RULES 6.3; see contested)."
 relevance = "Crown service organised Burma’s army and royal labour from Pagan to the 19th century; it is the backbone of Burmese state power."
 contested = "The mature ahmudan system is Restored Toungoo, and the name is later than the window (see contested)."
@@ -134,16 +138,19 @@ contested = "The name is post-1613 (see contested and open questions)."
 
 [tree]
 add = ["Hand Cannoneer", "Leather Archer Armor", "Ring Archer Armor"]
-remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Trebuchet"]
+remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Trebuchet", "Cannon Galleon", "Elite Cannon Galleon", "Block Printing"]
 
 [tree.basis]
 "Hand Cannoneer" = "Ava used firearms of Ming origin, hand guns among them, in the 15th century, inside the window (Sun Laichen 2003), and Toungoo armies used them on a large scale with Portuguese musketeers (Martaban, 1541). The civ had Bombard Cannon but no hand-held gun, against its own game history text."
-"Leather Archer Armor" = "Bows were in regular use in Burmese armies, and the weak archer armour was a balance choice without historical reason; it also serves the Elephant Archer. The Arbalester stays out (see contested)."
+"Leather Archer Armor" = "Bows were in regular use in Burmese armies, and the weak archer armour was a balance choice without historical reason. The Arbalester stays out (see contested)."
 "Ring Archer Armor" = "As for the Leather Archer Armor."
 "Cavalry Archer" = "Little evidence of Burmese mounted archers; the Manipuri horsemen who later served the kings threw javelins (arambai)."
 "Heavy Cavalry Archer" = "As for the Cavalry Archer."
 "Parthian Tactics" = "As for the Cavalry Archer."
 "Trebuchet" = "No stone-throwing engine is attested in Burmese sieges, which were won by blockade, assault and, from the 15th–16th centuries, guns; the counterweight trebuchet reached China only in 1273, and there is no evidence that it reached Burma, although Yuan armies fought there in 1277–87 and 1300–01. The Bombard Cannon (Ava’s Ming-type guns and the Toungoo artillery) and the rams keep the civ able to destroy buildings (RULES 6.11)."
+"Cannon Galleon" = "No gun-armed war boats are documented for Pagan or Ava, whose river fleets were oared war boats (see the Transport Ships bonus); a case resting on the Toungoo river fleets of the 16th century, with their Portuguese gunners, would make a second late element beside Bayingyi (RULES section 2)."
+"Elite Cannon Galleon" = "As for the Cannon Galleon."
+"Block Printing" = "No printing in the window: Burmese texts were copied on palm leaf and in folded paper books (parabaik), and printing reached Burma only in the 19th century."
 
 [architecture]
 set = "Southeast Asian"
@@ -153,4 +160,4 @@ basis = "The brick temples and stupas of Pagan fit the set."
 [[dropped]]
 item = "Howdah"
 kind = "unique_tech"
-reason = "Its effect (Battle Elephants +1 melee/+1 pierce armor) only repeated the civ bonus, and the first draft’s replacement (Elephant Archers fire an additional projectile) would have been a new, level-2 tech. Neither passes as a unique tech: the war tower on the elephant is an equipment feature, not a datable moment (RULES 6.2, 6.3), and it is already carried by the Elephant Archer itself (relevance test, RULES 6.9). The name is also Indo-Persian (from Arabic hawdaj)."
+reason = "Its effect (Battle Elephants +1 melee/+1 pierce armor) only repeated the civ bonus, and the first draft’s replacement (Elephant Archers fire an additional projectile) would have been a new, level-2 tech. Neither passes as a unique tech: the war tower on the elephant is an equipment feature, not a datable moment (RULES 6.2, 6.3), and the War Elephant, the unique unit, already carries it (relevance test, RULES 6.9). The name is also Indo-Persian (from Arabic hawdaj)."

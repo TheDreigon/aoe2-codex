@@ -2,7 +2,7 @@ civ = "Vietnamese"
 name = "Vietnamese"
 status = "draft"
 label = "Archer and Naval civilization"
-summary = "Đại Việt from Ngô Quyền to the Lê (938–1527): the Rattan Archer, the archer HP bonus, free Conscription (renamed Ngụ Binh Ư Nông) and the war elephants (Tượng Binh, Chatras renamed, at the Castle) stay; the Red River dikes and the river fleets of Bạch Đằng replace the unfounded economic and scouting bonuses, the Confucian examination state (Văn Miếu, a new Town Center tech) replaces Paper Money, the gun-making that the Ming, by its own account, took from Đại Việt replaces the Imperial Skirmisher and its team bonus, the Hand Cannoneer and the Traction Trebuchet enter the tree while the counterweight Trebuchet and the mounted archers leave, and the architecture becomes East Asian."
+summary = "Đại Việt from Ngô Quyền to the Lê (938–1527): Red River dikes and the Bạch Đằng river fleets replace the unfounded economic and scouting bonuses, the examination state (Văn Miếu) Paper Money, guns passed to the Ming the Imperial Skirmisher, Chatras becomes Tượng Binh, and the architecture East Asian."
 ideas = [
   "N2: Bạch Đằng stakes: obstacles in shallow water that damage and hold enemy ships, for the river victories of 938 and 1288 (stakes have been excavated in the estuary).",
   "N2: A crossbow Rattan Archer (nỏ thủ) when the Archer and Crossbowman lines are split (owner’s list, RULES 10); the multi-shot ‘magic crossbow’ of Cao Lỗ remains legend.",
@@ -13,6 +13,7 @@ ideas = [
 contested = [
   "The historicity of the Hùng kings and Văn Lang: the Đông Sơn culture versus traditions elaborated in the 14th–15th centuries (Kelley 2005).",
   "Where Vietnamese firearms came from and which way the technique flowed: the Ming shi, compiled under the Qing (1739), credits the Ming’s ‘divine-engine’ guns to the conquest of Jiaozhi, while Sun Laichen (2003, 2006) argues that the main flow ran from China to Đại Việt. Either way, what reached the Ming came by conquest and capture, not as a gift.",
+  "Guns on the water: in 1390, in a naval battle on the river at Hải Triều, Trần Khát Chân’s men killed the Cham king Chế Bồng Nga with a volley of guns aimed at his war boat (Đại Việt sử ký toàn thư; Sun Laichen 2003), the first recorded Vietnamese use of guns. The Cannon Galleon line stays on this ground (gun-armed warships inside the window, the codex criterion), as an abstraction: these were light guns, not the heavy ship artillery of the game’s unit.",
   "The nationalist narrative of continuous resistance to China, criticised by Keith W. Taylor for erasing regional diversity and periods of integration.",
   "Stakes at Bạch Đằng in 981 (tradition only), and whether the excavated stakes belong to 938 or to 1288.",
   "Ngụ binh ư nông (寓兵於農, ‘lodge the army in agriculture’) is a classical Chinese maxim that later Vietnamese historiography uses for the Lý–Lê system, not a recorded Lý–Trần name.",
@@ -27,6 +28,7 @@ open_questions = [
   "Tượng Binh: the elephants are a long-standing arm, which RULES 6.2 would make a passive. They stay a Castle tech because +100 HP is too strong for a free passive and no datable Lý–Trần military moment has a fitting existing effect. Alternative: a modest elephant passive (for example the Malay ‘Battle Elephants cost -25/35% in Castle/Imperial Age’) and a new Castle tech (level 2) for a datable moment such as Trần Hưng Đạo’s proclamation to his officers (Hịch tướng sĩ, 1284). Keep Tượng Binh?",
   "The Rattan Archer, the civ’s only unique unit, is also the model of the Bengali design’s Paik (renamed, with its Elite tier) until the Paik gets its own art (N3). Accept that the Vietnamese unique unit is shared?",
   "Team bonus: the guns reached the Ming by conquest and capture (see contested). If you prefer a benefit that Đại Việt gave willingly, a well-evidenced alternative is the 15th-century export of Vietnamese ceramics to island Southeast Asia (the Cù Lao Chàm wreck off Hội An; Vietnamese tiles at Trowulan and in the Demak mosque; Roxanna M. Brown, The Ming Gap and Shipwreck Ceramics in Southeast Asia, 2009), with a trade effect. Keep the gun bonus?",
+  "Codex-wide question CQ7 (see codex/civs/README.md): Siege engines that never reached a civ (here the Traction Trebuchet rests on an inference from Đại Việt’s Chinese-style military tradition, not on an attested Vietnamese engine; see contested).",
 ]
 
 [profile]
@@ -65,7 +67,7 @@ basis = "Missile infantry was the core of Việt armies. Their characteristic we
 relevance = "Missile troops and shielded light infantry were the mass of the armies that held off the Song and the Yuan and expelled the Ming."
 
 [[bonus]]
-text = "Ngụ Binh Ư Nông (Conscription) free"
+text = "Ngụ Binh Ư Nông free"
 kind = "military"
 level = 1
 change = "kept"
@@ -161,4 +163,4 @@ reason = "No Vietnamese troop type matching an ‘imperial’ javelin skirmisher
 [[dropped]]
 item = "Paper Money"
 kind = "unique_tech"
-reason = "Relevance test (RULES 6.9). Hồ Quý Ly’s paper notes of 1396 (Thông bảo hội sao), modelled on the Ming paper currency (Da Ming baochao, from 1375), were a coercive and unpopular measure that disappeared with the Hồ in 1407 (Whitmore 1985): erasing them would change neither Đại Việt’s course nor its identity, and most of their fame comes from the game. The earlier revision passed them only by letting them stand for Hồ Quý Ly’s whole reform programme, which neither the name nor the effect (lumberjacks generate gold) represents. The Town Center slot goes to the examination state (Văn Miếu); keeping Paper Money as an optional Market tech is put to the owner (see open questions)."
+reason = "Relevance test (RULES 6.9). Hồ Quý Ly’s paper notes of 1396 (Thông bảo hội sao), modelled on the Ming paper currency (Da Ming baochao, from 1375), were a coercive and unpopular measure that disappeared with the Hồ in 1407 (Whitmore 1985): erasing them would change neither Đại Việt’s course nor its identity, and most of their fame comes from the game. The earlier revision passed them only by letting them stand for Hồ Quý Ly’s whole reform programme, which neither the name nor the effect (lumberjacks generate gold) represents. The Town Center slot goes to the examination state (Văn Miếu); keeping Paper Money as an optional Market tech is put to the owner (see open questions). Its effect lives on as the Rus' Poliud'e (Olga's tribute reform, Town Center, Imperial Age)."

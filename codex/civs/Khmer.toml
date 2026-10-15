@@ -2,12 +2,12 @@ civ = "Khmer"
 name = "Khmer"
 status = "draft"
 label = "Elephant and Siege civilization"
-summary = "The Angkorian empire (802–1431): the Ballista Elephant, Double Crossbows (now read as the double-bow engine adopted under Jayavarman VII) and the elephant speed bonus stay, and Jayavarman VII’s hospitals (Ārogyaśālā, the Bimaristan effect) replace Tusk Swords as the Town Center tech; rice farming, temple-building, lance-and-shield levies and the royal roads with their rest houses (Dharmaśālā, from the Caravanserai) replace the unfounded age-up, drop-off and house-garrison mechanics; Khmer writing and court culture passed to the Tai and Lao replace the Scorpion team bonus; and the tree follows Zhou Daguan and the reliefs, with no Trebuchet or Mangonel line, no Knight line or mounted archers and no gunpowder."
+summary = "The Angkorian empire (802–1431): Jayavarman VII’s hospitals (Arogyashala) replace Tusk Swords, rice, temples, spear levies and rest houses (Dharmashala) the unfounded mechanics, Khmer script passed to the Tai the Scorpion team bonus, and the tree follows Zhou Daguan: no stone-throwers, Knights or guns."
 ideas = [
   "N3: A baray (reservoir) building that waters nearby Farms, if the agricultural role of the barays is upheld (Fletcher, Evans).",
   "N2: Tonle Sap fleet: a naval tech for the river battles against the Cham shown on the Bayon and Banteay Chhmar (c. 1177–81).",
   "N2: Double Crossbows reworked as one heavier bolt (more attack and range) rather than an extra projectile, closer to the double-bow engines of the reliefs.",
-  "N2: Hospitals as a regeneration aura around Monasteries and Town Centers (the analysis’ Ārogyaśālā proposal), instead of the Bimaristan effect used here.",
+  "N2: Hospitals as a regeneration aura around Monasteries and Town Centers (the analysis’ Arogyashala proposal), instead of the Bimaristan effect used here.",
   "N3: Champa and Siam (Sukhothai, Ayutthaya) as civs, Angkor’s main rivals.",
 ]
 contested = [
@@ -22,12 +22,13 @@ contested = [
   "The Petard and the Demolition Raft and Ship stay as generic pieces of the game skeleton (held by 56 and 50 of the 56 civs), read as sappers and fire-boats with incendiary charges rather than gunpowder (tech-tree audit), so the ‘no gunpowder’ tree is qualified, not contradicted.",
 ]
 open_questions = [
-  "Siege: the tree now follows Zhou Daguan and the reliefs (no Trebuchet, no Mangonel line), leaving the Siege Ram, the Battle Elephants, the Scorpions and the Ballista Elephant; with no Bombard Cannon either, the Khmer have no long-range weapon against buildings. Accept, or keep the Trebuchet and the Mangonel line as an explicit game abstraction?",
-  "Dharmaśālā: the Caravanserai (shared with Persians, Hindustanis and Turks) is renamed for the Khmer. Keep the modern label Dharmaśālā, or use the inscription’s word, Vahnigṛha (‘house with fire’)?",
-  "Power budget: five bonuses (three economic) replace three strong economic mechanics, including the unique ‘no buildings required’ rule, and the civ also loses Tusk Swords, the Hand Cannoneer, the cannon ships, the mounted archers, the Knight and Cavalier and the stone-throwers. Accept, or strengthen it? Options: ‘Farm upgrades provide +X% additional food’ (Sicilians, at a lower magnitude) in place of Farms +10%, which would also set the Khmer apart from the Persian, Tamil and Aztec designs that use Farms +10%; or the Knight and Cavalier back as a game abstraction kept against Zhou Daguan.",
+  "Codex-wide question CQ7 (see codex/civs/README.md): Siege engines that never reached a civ (here no Trebuchet and, on Zhou Daguan’s word, no Mangonel line).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (here the Siege Ram, the Battle Elephants, the Scorpions and the Ballista Elephant remain).",
+  "Dharmashala: the Caravanserai (shared with the Persians, Hindustanis and Turks) is renamed for the Khmer. Keep the modern label Dharmashala, or use the inscription’s word, Vahnigriha (vahnigṛha, ‘house with fire’)?",
+  "Power budget: five bonuses (three economic) replace three strong economic mechanics, including the unique ‘no buildings required’ rule, and the civ also loses Tusk Swords, the Hand Cannoneer, the cannon ships, the mounted archers, the Knight and Cavalier and the stone-throwers. Accept, or strengthen it? Options: ‘Farm upgrades provide +X% additional food’ (Sicilians, at a lower magnitude) in place of Farms +10%, which would also set the Khmer apart from the Persian, Tamil and Aztec designs that use Farms +10%; or the Knight and Cavalier back as a game abstraction kept against Zhou Daguan. (See also codex-wide question CQ14, power floor.)",
   "Label: ‘Elephant and Siege civilization’ instead of ‘Siege and Elephant civilization’, to put the better-founded half first (see contested). Accept?",
-  "Team bonus: ‘Universities work +80% faster’ is now the team bonus of six drafts (Chinese, Franks, Khmer, Malians, Persians, Poles) and part of the Georgians’ Gelati Academy, and identical team bonuses presumably stack in team games. Keep it for the Khmer, or choose another effect for the passing of script and court culture?",
-  "Double Crossbows is kept as the engine adopted under Jayavarman VII; with the Ballista Elephant and Ārogyaśālā, three of the nine slots come from his reign. Alternative: give the Castle a datable moment of another reign, such as the oath of allegiance that the officials of Suryavarman I swore to him in 1011, inscribed on a gopura of the Royal Palace at Angkor, as a new tech (level 2), and move the extra-projectile effect to the N2 idea. Keep Double Crossbows?",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here the team bonus ‘Universities work +80% faster’, held by six designs and part of the Georgians’ Gelati Academy).",
+  "Double Crossbows is kept as the engine adopted under Jayavarman VII; with the Ballista Elephant and Arogyashala, three of the nine slots come from his reign. Alternative: give the Castle a datable moment of another reign, such as the oath of allegiance that the officials of Suryavarman I swore to him in 1011, inscribed on a gopura of the Royal Palace at Angkor, as a new tech (level 2), and move the extra-projectile effect to the N2 idea. Keep Double Crossbows?",
 ]
 
 [profile]
@@ -91,7 +92,7 @@ basis = "The mass of Khmer armies was infantry with lance and shield and little 
 relevance = "Levies of lance-and-shield infantry were the bulk of every Angkorian army."
 
 [[bonus]]
-text = "Can build Dharmaśālā (Caravanserai) in Imperial Age"
+text = "Can build Dharmashala in Imperial Age"
 kind = "economic"
 level = 1
 change = "new"
@@ -104,8 +105,8 @@ text = "Universities work +80% faster"
 level = 1
 change = "new"
 replaces = "Scorpions +1 range"
-precedent = "Universities work +80% faster (Malians team bonus); also the team bonus of the Chinese, Franks, Persians and Poles drafts and part of the Georgians’ Gelati Academy (see open questions)"
-basis = "Angkor schooled the Tai and Lao kingdoms that succeeded it. The script of Sukhothai derives from Old Khmer writing, and Khmer stayed a language of learning and of court vocabulary at Ayutthaya, whose royal rituals, Brahmin court priests and royal language came largely through Khmer Lopburi (Cœdès 1964; Baker and Phongpaichit 2017); the transfer to Ayutthaya came partly through conquest (the taking of Angkor, 1431). The Lao chronicles say that Fa Ngum, raised at the Angkor court, founded Lan Xang (1353) with a Khmer army, and add that Theravāda monks and the Phra Bang image were later sent from Angkor at the request of his Khmer queen; the image reached Luang Prabang only in the early 16th century (Stuart-Fox 1998). A team bonus because Khmer writing and learning passed to neighbours (RULES 6.2: transferred techniques, religious influence). The Scorpion range bonus it replaces was a generic abstraction with no benefit to allies; the Scorpions keep their place through Double Crossbows."
+precedent = "Universities work +80% faster (Malians team bonus); also the team bonus of the Chinese, Franks, Persians and Poles drafts and part of the Georgians’ Gelati Academy (codex-wide question CQ11)"
+basis = "Angkor schooled the Tai and Lao kingdoms that succeeded it. The script of Sukhothai derives from Old Khmer writing, and Khmer stayed a language of learning and of court vocabulary at Ayutthaya, whose royal rituals, Brahmin court priests and royal language came largely through Khmer Lopburi (Cœdès 1964; Baker and Phongpaichit 2017); the transfer to Ayutthaya came partly through conquest (the taking of Angkor, 1431). The Lao chronicles say that Fa Ngum, raised at the Angkor court, founded Lan Xang (1353) with a Khmer army, and add that Theravāda monks and the Phra Bang image were later sent from Angkor at the request of his Khmer queen; the image reached Luang Prabang only in the early 16th century (Stuart-Fox 1998). A team bonus because Khmer writing and learning passed to neighbours (RULES 6.2: transferred techniques, religious influence). The Scorpion range bonus it replaces was a generic abstraction with no benefit to allies; the Scorpions keep their place through Double Crossbows. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)."
 relevance = "Angkor’s script, court ritual and kingship shaped Sukhothai, Ayutthaya and Lan Xang."
 contested = "The Fa Ngum story mixes history and legend, and the authenticity of the Ram Khamhaeng inscription (dated 1292), which credits that king with the Thai script, is debated."
 
@@ -120,7 +121,7 @@ relevance = "Mounting the engine on the war elephant was the Khmer’s own combi
 contested = "Their origin: Chinese multiple-bow bed crossbows (plausible, not documented) or Cham contingents serving Jayavarman VII."
 
 [[unique_tech]]
-name = "Ārogyaśālā"
+name = "Arogyashala"
 building = "Town Center"
 kind = "civil"
 age = "Castle"
@@ -128,7 +129,7 @@ effect = "Monks passively heal multiple nearby units"
 level = 1
 change = "new"
 replaces = "Tusk Swords (Battle Elephants +3 attack)"
-precedent = "Bimaristan (Monks passively heal multiple nearby units) (Saracens): an existing unique tech, shared and renamed with an identical effect; the Saracens keep it at the Monastery"
+precedent = "Bimaristan (Monks passively heal multiple nearby units) (Saracens): an existing unique tech, shared and renamed with an identical effect; the Saracens keep it at the Town Center"
 basis = "By royal edict Jayavarman VII founded hospitals (ārogyaśālā) across the empire: the Ta Prohm stela (1186) counts 102 of them, supplied from the royal stores, and the hospital edict inscribed in their chapels, as at Say Fong near Vientiane, says that the king suffered from his subjects’ illnesses more than from his own. At the Town Center because the hospitals were a state foundation (RULES 6.2), each with a Buddhist chapel. Tusk Swords, which it replaces, has no support in the Angkorian reliefs: blades on tusks are attested mainly in India and later."
 relevance = "Jayavarman VII’s hospitals are the most famous institution of his Buddhist kingship and reached the far provinces of the empire."
 contested = "The hospitals had their own carers and physicians; tying them to Monks is an abstraction, as for the Saracen Bimaristan."
@@ -148,10 +149,10 @@ contested = "The second bow gave power to a single large bolt, which is what the
 
 [tree]
 add = ["Caravanserai"]
-remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Knight", "Cavalier", "Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon", "Trebuchet", "Mangonel", "Onager"]
+remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Knight", "Cavalier", "Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon", "Trebuchet", "Mangonel", "Onager", "Siphons"]
 
 [tree.basis]
-"Caravanserai" = "Given by the Dharmaśālā bonus: the rest houses of the royal roads (Preah Khan stela, 1191)."
+"Caravanserai" = "Given by the Dharmashala bonus: the rest houses of the royal roads (Preah Khan stela, 1191)."
 "Cavalry Archer" = "No evidence of Khmer mounted archers; cavalry was marginal (small horses and riders with lances in the reliefs). The only mention of mounted archery in the Khmer–Cham wars is on the Cham side: in 1171 a man from Fujian advised the Cham king to adopt it against the Khmer elephants, and Champa bought horses (Song shi, ch. 489)."
 "Heavy Cavalry Archer" = "As for the Cavalry Archer."
 "Parthian Tactics" = "As for the Cavalry Archer."
@@ -160,13 +161,14 @@ remove = ["Cavalry Archer", "Heavy Cavalry Archer", "Parthian Tactics", "Knight"
 "Hand Cannoneer" = "There is no evidence of firearms at Angkor, or in the Siamese attacks on it, before 1431, although Ming-derived guns spread in Đại Việt and the northern mainland from c. 1390 (Sun Laichen 2003); Cambodian firearms belong to the post-Angkorian kingdom of Longvek (16th century), with adventurers such as Diogo Veloso and Blas Ruiz in the 1590s."
 "Cannon Galleon" = "No gunpowder in the Angkorian period; the Khmer fleet fought with oared boats on the Tonle Sap and the rivers (Bayon reliefs)."
 "Elite Cannon Galleon" = "As for the Cannon Galleon."
-"Trebuchet" = "Zhou Daguan says the Khmer had no stone-throwers (paoshi), and none has been identified in the reliefs, which show the double-bow engines in detail (see contested); the counterweight trebuchet reached China only in 1273. The Siege Ram and the Battle Elephants keep the civ able to destroy buildings (RULES 6.11)."
+"Trebuchet" = "Zhou Daguan says the Khmer had no stone-throwers (paoshi), and none has been identified in the reliefs, which show the double-bow engines in detail (see contested); the counterweight trebuchet reached China only in 1273. The Siege Ram and the Battle Elephants keep the civ able to destroy buildings (RULES 6.11). With no Bombard Cannon either, the Khmer are one of four civs outside the Americas with no long-range siege weapon (no Trebuchet, Traction Trebuchet or Bombard Cannon), with the Goths, Malay and Saxons, all of which rely on the Siege Ram as the RULES 6.11 substitute (codex-wide question CQ13)."
 "Mangonel" = "As for the Trebuchet: Zhou Daguan denies stone-throwers of any kind, so no traction engine replaces them; the Scorpions and the Ballista Elephant remain against massed troops."
 "Onager" = "As for the Mangonel."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 
 [[rename]]
 from = "Caravanserai"
-to = "Dharmaśālā"
+to = "Dharmashala"
 level = 1
 basis = "The rest houses that Jayavarman VII set along the royal roads. The Preah Khan stela calls them vahnigṛha (‘houses with fire’), and dharmaśālā is the modern scholarly label for the rest-house reading (see contested). Same building and effect; the function, a staged network that served travellers, has this historical equivalent (RULES 6.10)."
 
