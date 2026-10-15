@@ -6,10 +6,11 @@ Usage (from the repository root):
     python -I codex/tools/validate_civs.py --find NAME     list the civs that currently have an item
     python -I codex/tools/validate_civs.py --names         list every unit, tech and building name
 
-Checks the structure described in codex/civs/README.md and codex/RULES.md (v0.2, sections 6 and 8):
+Checks the structure described in codex/civs/README.md and codex/RULES.md (v0.3, sections 6 and 8):
 composition (4-6 passive bonuses with at least one economic and one military; one team bonus; 2-4
 unique techs, one at the Castle and one at the Town Center, with valid buildings, kinds and ages;
-1-2 unique units, regional units not counting), required fields, the level constraints that can be
+1-2 unique units, regional units not counting), required fields (including the one-line relevance
+statement of RULES 6.9 for every bonus, team bonus, unique unit and unique tech), the level constraints that can be
 checked mechanically (item names exist in the game, architecture set exists, only unique techs may be
 level 2) and whether every original bonus, unique unit and unique tech is accounted for.
 Errors make the exit code 1; warnings do not.
@@ -175,7 +176,7 @@ def validate(path, game):
         r.err('no military bonus (RULES 6.1)')
     for n, b in enumerate(bonuses, 1):
         w = f'[[bonus]] #{n}'
-        need(r, b, ['text', 'kind', 'change', 'precedent', 'basis'], w)
+        need(r, b, ['text', 'kind', 'change', 'precedent', 'basis', 'relevance'], w)
         check_level(r, b, w)
         if b.get('kind') not in KINDS:
             r.err(f'{w}: kind must be one of {sorted(KINDS)}')
@@ -186,7 +187,7 @@ def validate(path, game):
     if not isinstance(tb, dict):
         r.err('exactly one [team_bonus] table is required')
     else:
-        need(r, tb, ['text', 'change', 'precedent', 'basis'], '[team_bonus]')
+        need(r, tb, ['text', 'change', 'precedent', 'basis', 'relevance'], '[team_bonus]')
         check_level(r, tb, '[team_bonus]')
         if tb.get('change') not in CHANGES:
             r.err('[team_bonus]: change must be one of kept, changed, new')
@@ -200,7 +201,7 @@ def validate(path, game):
             r.warn(f'[[unique_unit]] {u.get("name")}: {u["model"]} is a regional unit and does not count as a unique unit')
     for n, u in enumerate(uus, 1):
         w = f'[[unique_unit]] {u.get("name", n)}'
-        need(r, u, ['name', 'model', 'change', 'basis'], w)
+        need(r, u, ['name', 'model', 'change', 'basis', 'relevance'], w)
         check_level(r, u, w)
         if u.get('change') not in CHANGES:
             r.err(f'{w}: change must be one of kept, changed, new')
@@ -222,7 +223,7 @@ def validate(path, game):
         r.err('more than two unique techs at the Castle')
     for n, t in enumerate(uts, 1):
         w = f'[[unique_tech]] {t.get("name", n)}'
-        need(r, t, ['name', 'building', 'kind', 'age', 'effect', 'change', 'precedent', 'basis'], w)
+        need(r, t, ['name', 'building', 'kind', 'age', 'effect', 'change', 'precedent', 'basis', 'relevance'], w)
         check_level(r, t, w, allowed=(1, 2))
         if t.get('change') not in CHANGES:
             r.err(f'{w}: change must be one of kept, changed, new')
@@ -254,14 +255,14 @@ def validate(path, game):
         elif item in have:
             r.warn(f'[tree] add: "{item}" is already in the {civ} tree')
         if item not in basis:
-            r.err(f'[tree.basis]: no basis for added "{item}" (RULES 6.4)')
+            r.err(f'[tree.basis]: no basis for added "{item}" (RULES 6.8)')
     for item in tree.get('remove', []):
         if item not in all_names:
             r.err(f'[tree] remove: "{item}" is not an existing unit, tech or building name')
         elif item not in have:
             r.warn(f'[tree] remove: "{item}" is not in the {civ} tree')
         if item not in basis:
-            r.err(f'[tree.basis]: no basis for removed "{item}" (RULES 6.4)')
+            r.err(f'[tree.basis]: no basis for removed "{item}" (RULES 6.8)')
     for item in basis:
         if item not in tree.get('add', []) and item not in tree.get('remove', []):
             r.warn(f'[tree.basis]: "{item}" is neither added nor removed')
