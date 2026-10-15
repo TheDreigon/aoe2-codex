@@ -2,7 +2,7 @@ civ = "Sicilians"
 name = "Sicilians"
 status = "draft"
 label = "Infantry and Cavalry civilization"
-summary = "Sicilians kept as the Italo-Normans and the Kingdom of Sicily (1030–1266) with what made the kingdom distinctive: the unfounded -40% bonus-damage bonus becomes the Norman cavalry charge, a fleet bonus is added for George of Antioch's navy, First Crusade (whose mechanic inverted history) becomes the Magna Expeditio levy at the Town Center with the same effect, Hauberk gives way to Lucera (the kingdom's Muslim archers, with Thumb Ring), the team bonus now rests on the crusaders and allies the kingdom carried, Architecture, Treadmill Crane, Theocracy and Fortified Wall are added, and the gunpowder Cannon Galleon leaves."
+summary = "Sicilians kept as the Italo-Normans and the Kingdom of Sicily (1030–1266) with what made the kingdom distinctive: the unfounded -40% bonus-damage bonus becomes the Norman cavalry charge, a fleet bonus is added for George of Antioch's navy, First Crusade (whose name inverted history) becomes the Magna Expeditio levy at the Castle, the Arabic-Greek royal dīwān takes the Town Center, Hauberk gives way to Lucera (the kingdom's Muslim archers, with Thumb Ring), the team bonus now rests on the crusaders and allies the kingdom carried, Architecture, Treadmill Crane, Theocracy and Fortified Wall are added, and the Cannon Galleon, Cranequins and Heavy Mounted Crossbowman, all later than the window, leave."
 ideas = [
   "N2: The archers of Lucera as a unique unit of their own (Muslim foot archers with composite bows), instead of a tech for the Archer-line.",
   "N3: A Normans civ of its own (Normandy, England, Italy) or a variant system, since the Normans are now split between the Franks and the Sicilians.",
@@ -15,11 +15,12 @@ contested = [
   "Bohemond's motives in the First Crusade: ambition for Byzantine lands (Malaterra, Anna Komnene) or piety (Gesta Francorum). Bohemond and Tancred (Antioch, 1098) belong to the history text: they were Italo-Normans of Apulia, but the county of Sicily stayed out of the crusade.",
 ]
 open_questions = [
-  "Name: keep 'Sicilians' (the Regnum Siciliae, which covers the Hauteville and Hohenstaufen kingdom and its Greek and Muslim subjects, as the design now does with Lucera, the fleet, Thumb Ring and Frederick II's castles), or rename to 'Italo-Normans'? The rename would end the window in 1194 and re-base the archer tech on the Muslim troops of Roger I and Roger II (e.g. at Capua, 1098, per Malaterra) instead of Lucera. Recommended: keep 'Sicilians'.",
-  "Town Center tech: First Crusade becomes the Magna Expeditio (same effect, level 1), because its mechanic inverted the kingdom's history. Alternative: keep 'First Crusade' at the Castle for its fame (Bohemond, Antioch) and add a new level-2 Town Center tech, the royal dīwān (Johns, 2002) or the Assizes of Ariano (conventionally 1140), which would bring the civ to 6 passive bonuses + 3 unique techs = 9, at the proposed cap. Which?",
-  "Optional third tech (level 2): the Arabic-Greek royal dīwān (from the 1140s; e.g. 'Market technologies cost -50%') or al-Idrisi's Tabula Rogeriana (1154; e.g. Circumnavigation's map reveal), for the trilingual administration and learning that set the kingdom apart; 6 + 3 = 9, at the cap. Add one?",
-  "The Norman charge is a passive here (a long military tradition, RULES 6.2), from the first Knight in the Castle Age, while the Goths (Thiufa) and the Georgians (Didgori) get the same charge from a Castle tech, and Comitatenses, its precedent, is an Imperial Age tech. One policy across civs?",
+  "Name: keep 'Sicilians' (the Regnum Siciliae, which covers the Hauteville and Hohenstaufen kingdom and its Greek and Muslim subjects, as the design now does with the dīwān, Lucera, the fleet, Thumb Ring and Frederick II's castles), or rename to 'Italo-Normans'? The rename would end the window in 1194 and re-base the archer tech on the Muslim troops of Roger I and Roger II (e.g. at Capua, 1098, per Malaterra) instead of Lucera. Recommended: keep 'Sicilians'.",
+  "Tech structure (second review): Magna Expeditio, a royal levy of feudal service, now sits at the Castle with First Crusade's building and age (level 1), and the Town Center takes the Arabic-Greek royal dīwān (new, level 2, 'Town Centers work +10% faster', the effect of the Georgians' Chqondideli). History favours this arrangement under RULES 6.2 (military or royal at the Castle, state or government at the Town Center), and the dīwān was the analysis's main missing feature. The civ is now at 6 passive bonuses + 3 unique techs = 9, the proposed cap. Alternatives: the previous draft (Magna Expeditio at the Town Center and no dīwān, 6 + 2 = 8); the name 'First Crusade' kept for its fame; another effect for the dīwān ('All gold income +10%', already in ten drafts; 'Villagers gather, build, and repair +5% faster', the Tamils'); or the Assizes of Ariano (conventionally 1140) or al-Idrisi's Tabula Rogeriana (1154) instead of the dīwān. Which?",
+  "The Norman charge is a passive here (a long military tradition, RULES 6.2), from the first Knight in the Castle Age, while the Goths get the same charge from a Castle tech (Thiufa, Comitatenses renamed, in the Castle Age), the Georgians' draft has dropped its Didgori charge, and Comitatenses itself, the precedent, is an Imperial Age tech. One policy across civs?",
   "Donjon in the Dark Age: keep it (the civ's game identity), or make it 'Can build Donjon in Feudal Age' (an N1 change, the 'Can build X in Y Age' form), since the first Norman strongholds in Italy were earth-and-timber or reused works and the stone keeps (Adrano, Paternò) came later?",
+  "Castle-building fills three passives (the stone start, the Donjon and faster fortifications) plus the added Fortified Wall. If you want a slot for another trait, such as Palermo's silk and tiraz workshops (silk workers brought from Thebes in 1147), the +100 stone, the thinnest of the three, is the one to replace. Keep it?",
+  "Shared parts (RULES 6.7): the team bonus is the game's Sicilian one, and the Tupi draft now copies it, so the two would presumably stack in a mixed team; the Warships discount is also used by the Norwegians' and Tupi drafts. As the original holder, the Sicilians have the better claim to the team bonus. Should the Tupi keep their copy?",
 ]
 
 [profile]
@@ -34,13 +35,15 @@ sources = [
   "Fulcher of Chartres, Historia Hierosolymitana",
   "Hugo Falcandus, Liber de Regno Sicilie",
   "Ibn Jubayr, Rihla",
+  "Roger of Howden, Gesta Regis Ricardi; Chronica",
   "Evelyn Jamison (ed.), Catalogus Baronum (1972); Errico Cuozzo, Catalogus Baronum: Commentario (1984)",
   "Graham A. Loud, The Age of Robert Guiscard: Southern Italy and the Norman Conquest (2000)",
   "Hubert Houben, Roger II of Sicily: A Ruler between East and West (2002)",
+  "Hiroshi Takayama, The Administration of the Norman Kingdom of Sicily (1993)",
   "Jeremy Johns, Arabic Administration in Norman Sicily: The Royal Dīwān (2002)",
   "Charles D. Stanton, Norman Naval Operations in the Mediterranean (2011)",
-  "David Abulafia, The Two Italies (1977); 'The Norman Kingdom of Africa', Anglo-Norman Studies 7 (1985)",
-  "Kenneth M. Setton (ed.), A History of the Crusades, vol. II",
+  "David Abulafia, The Two Italies (1977); 'The Norman Kingdom of Africa', Anglo-Norman Studies 7 (1985); Frederick II: A Medieval Emperor (1988)",
+  "R. L. Wolff and H. W. Hazard (eds.), A History of the Crusades, vol. II: The Later Crusades, 1189–1311 (K. M. Setton, gen. ed., 1962)",
   "Alex Metcalfe, The Muslims of Medieval Italy (2009)",
   "Julie Taylor, Muslims in Medieval Italy: The Colony at Lucera (2003)",
 ]
@@ -52,7 +55,7 @@ level = 1
 change = "kept"
 precedent = "Start with +100 stone (Sicilians)"
 basis = "An abstraction of the Norman castle-building programme that held newly conquered land (Melfi, Adrano, Paternò, Caccamo) (Loud, 2000)."
-relevance = "The Normans held southern Italy and Sicily through castles; castle-building is the core of the civ's identity."
+relevance = "The Normans secured each conquered district with a castle from the start, and stone in hand from the first minutes abstracts that priority; the thinnest of the civ's three castle traits (see the open question)."
 
 [[bonus]]
 text = "Farm upgrades provide +125% additional food"
@@ -60,7 +63,7 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Farm upgrades provide +125% additional food (Sicilians)"
-basis = "Sicily stayed a great grain exporter under the Normans and the Hohenstaufen, to northern Italy and Ifriqiya (Abulafia, 1977), and earlier centuries had brought irrigation works such as Palermo's qanats (built between the Islamic and Norman periods; their exact dating is debated: Todaro, Barbera, Castrorao Barba and Bazan, 2020), citrus, sugar cane, cotton and the mulberry (Metcalfe, 2009)."
+basis = "Sicily stayed a great grain exporter under the Normans and the Hohenstaufen, to northern Italy and Ifriqiya (Abulafia, 1977), and earlier centuries had brought irrigation works such as Palermo's qanats (whose dating, Islamic or Norman, is debated), citrus, sugar cane, cotton and the mulberry (Metcalfe, 2009)."
 relevance = "Grain was the kingdom's wealth and its main export; Sicilian agriculture paid for the Norman monarchy."
 contested = "The scale of the 'Arab agricultural revolution' (Watson) is debated."
 
@@ -81,7 +84,7 @@ level = 1
 change = "kept"
 precedent = "Fortifications built +50% faster; Town Centers built +100% faster (Sicilians)"
 basis = "A good abstraction of conquest by castles: the Normans threw up earth-and-timber strongholds quickly and consolidated their conquests around new centres (Loud, 2000)."
-relevance = "Rapid fortification is how a few hundred Norman knights took and held southern Italy; a structural trait of the conquest."
+relevance = "Fast fortification let a few thousand Norman horsemen at most, helped by local troops, take and hold southern Italy and, over thirty years (1061–1091), Sicily; a structural trait of the conquest."
 
 [[bonus]]
 text = "Knight-line receives a charge attack"
@@ -108,8 +111,8 @@ text = "Transport Ships +5 line of sight and cost -50%"
 level = 1
 change = "kept"
 precedent = "Transport Ships +5 line of sight and cost -50% (Sicilians team bonus)"
-basis = "The kingdom's ports and ships carried its allies. Crusaders crossed from the Norman ports of Apulia (Hugh of Vermandois from Bari in 1096; Robert of Normandy and Stephen of Blois from Brindisi in 1097, Fulcher of Chartres); Louis VII came home from the Second Crusade on Sicilian ships in 1149, landing in Calabria after a Byzantine attack off the Peloponnese; Messina hosted Richard I and Philip II over the winter of 1190–1191 before they sailed for Acre; and William II's fleets served the Latin East, in the expedition against Alexandria planned with Amalric of Jerusalem (1174) and with some 60 galleys under Margaritus of Brindisi, who helped to relieve Tripoli and defend Tyre (1187–1188) (Houben, 2002; Stanton, 2011; Setton, vol. II). The Norman crossings to Sicily (1061) and Epirus (1081) show the same capacity at home."
-relevance = "Southern Italy was the crusaders' bridge to the East and the Norman fleet a mainstay of the Latin states; a benefit to allies, as RULES 6.2 requires."
+basis = "The kingdom's ports and ships carried its allies. Crusaders crossed from the Norman ports of Apulia (Hugh of Vermandois from Bari in 1096; Robert of Normandy and Stephen of Blois from Brindisi in 1097, Fulcher of Chartres), and Louis VII came home from the Second Crusade on Sicilian ships in 1149, landing in Calabria after a Byzantine attack off the Peloponnese. Richard I and Philip II wintered at Messina in 1190–1191: after Richard had stormed the city (October 1190) and imposed a treaty on King Tancred, Richard and Tancred were reconciled at Catania (March 1191), where Tancred gave him horse-transports and galleys for the voyage east (Roger of Howden). William II's fleets also served the Latin East, in the expedition against Alexandria planned with Amalric of Jerusalem (1174) and with some 60 galleys under Margaritus of Brindisi, who helped to relieve Tripoli and defend Tyre (1187–1188) (Houben, 2002; Stanton, 2011; Wolff and Hazard, 1962). The Norman crossings to Sicily (1061) and Epirus (1081) show the same capacity at home."
+relevance = "Southern Italy was a recurrent crossing point for crusaders and the Norman fleet an occasional naval ally of the Latin East; a benefit to allies, as RULES 6.2 requires."
 contested = "Dates and fleet sizes for Margaritus's campaigns vary between sources."
 
 [[unique_unit]]
@@ -124,17 +127,30 @@ contested = "'Serjeant' is a term common to the Anglo-Norman and French world, n
 
 [[unique_tech]]
 name = "Magna Expeditio"
-building = "Town Center"
-kind = "civil"
+building = "Castle"
+kind = "military"
 age = "Castle"
 effect = "Up to 5 Town Centers spawn 5 Serjeants each; units more resistant to conversion"
 level = 1
 change = "changed"
 replaces = "First Crusade"
-precedent = "First Crusade (Sicilians): identical effect, moved from the Castle to the Town Center and renamed"
-basis = "Roger II's government recorded the service that each fief of the mainland provinces owed to the general levy, the 'great expedition' (Quaternus magne expeditionis, c. 1150–1151, revised under William II in 1167–1168, preserved in the 14th-century compilation known as the Catalogus Baronum): for every fief, the knights and serjeants (servientes) it had to send (Jamison, 1972; Cuozzo, 1984). Town Centers that raise Serjeants stand for this levy of the kingdom's lordships; resistance to conversion, for the barons' sworn fealty and the crown's control of the Church through the apostolic legation of 1098 (Houben, 2002). The effect is First Crusade's, whose name inverted history: Count Roger I's Sicily stayed out of the crusade, and when Bohemond's men took the cross at the siege of Amalfi (1096) Roger saw his army melt away and went home (Malaterra)."
-relevance = "Royal control of feudal military service, written down for the whole mainland, made the kingdom one of the most centralised monarchies of 12th-century Europe; it passes on weight rather than fame, and it removes a mechanic that contradicted the history text (RULES 6.12)."
-contested = "The register's purpose and dating (a muster for the defence of the realm c. 1150, revised in 1167–1168) are reconstructions by Jamison and Cuozzo."
+precedent = "First Crusade (Sicilians): identical effect, building and age, renamed"
+basis = "Roger II's government recorded the service that each fief of the mainland provinces of Apulia and Capua owed to the general levy, the 'great expedition' (Quaternus magne expeditionis, c. 1150–1151, revised under William II in 1167–1168, preserved in the 14th-century compilation known as the Catalogus Baronum): for every fief, the knights and serjeants (servientes) it had to send (Jamison, 1972; Cuozzo, 1984). Town Centers that raise Serjeants stand for this levy of the kingdom's lordships; resistance to conversion, for the crown's control of the Church through the apostolic legation that Urban II granted Roger I in 1098 (Houben, 2002). The effect is First Crusade's, whose name inverted history: Count Roger I's Sicily stayed out of the crusade, and when Bohemond's men took the cross at the siege of Amalfi (1096) Roger saw his army melt away and went home (Malaterra)."
+relevance = "Royal control of feudal military service, recorded fief by fief for the mainland provinces, marked one of the most centralised monarchies of 12th-century Europe; it passes on weight rather than fame, and the rename removes a mechanic that contradicted the history text (RULES 6.12)."
+contested = "The register's purpose and dating (a muster for the defence of the realm c. 1150, revised in 1167–1168) are reconstructions by Jamison and Cuozzo; it covers Apulia and Capua (with the Abruzzi), not Calabria or Sicily, and the baronial revolts (1132–1139, 1155–1156, 1160–1161) show the limits of royal control."
+
+[[unique_tech]]
+name = "Dīwān"
+building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "Town Centers work +10% faster"
+level = 2
+change = "new"
+precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians): the work-rate effect only, Town Centers only, at its Feudal Age value (+10%), as in the Georgians' draft (Chqondideli). A new tech (level 2): no existing unique tech renders a royal administration"
+basis = "Roger II's kingdom was governed through a royal dīwān on Fatimid lines, staffed by Arabic- and Greek-writing officials: from the 1140s its offices kept Arabic registers of the villeins attached to each estate (jarāʾid) and of estate boundaries, confirmed grants and collected the king's revenues, and the royal administration issued documents in Arabic, Greek and Latin (Johns, 2002; Takayama, 1993). Ibn Jubayr (1184–1185) still found Muslim officials and pages in William II's palace. A Town Center that works faster abstracts a government that knew its lands and men; no other Latin kingdom had an Arabic-language administration."
+relevance = "The Arabic-Greek royal dīwān, at the heart of a trilingual administration, is the most distinctive institution of the Norman kingdom, without parallel in Latin Europe, and the instrument of its kings' wealth; the analysis names it as the main missing feature."
+contested = "How much the dīwān owed to Fatimid models rather than to the Kalbid and Byzantine practice already on the island is debated (Johns, 2002; Metcalfe, 2009)."
 
 [[unique_tech]]
 name = "Lucera"
@@ -146,21 +162,23 @@ level = 2
 change = "new"
 replaces = "Hauberk (Knight-line +1 melee/+2 pierce armor): dropped for relevance (RULES 6.9), since the long mail shirt was standard for all Western cavalry, a detail with no Sicilian specificity"
 precedent = "Atlatl (Aztecs): Skirmishers +1 attack, +1 range; Recurve Bow (Magyars): Mounted Archers +1 attack, +1 range"
-basis = "Muslim troops served the Hauteville from the conquest onwards (Malaterra; Metcalfe, 2009). After the long revolt of the Muslims of western Sicily (1220s–1240s), Frederick II deported them in large numbers to Lucera in Apulia, from c. 1224; the colony's lightly armed archers were a loyal royal corps at Cortenuova (1237) and Benevento (1266) until Lucera was destroyed in 1300 (Taylor, 2003)."
+basis = "Muslim troops served the Hauteville from the conquest onwards (Malaterra; Metcalfe, 2009). During the long revolt of the Muslims of western Sicily (from 1189–1190 to c. 1246), Frederick II deported them in large numbers to Lucera in Apulia, from c. 1224; the colony's lightly armed archers were a loyal royal corps at Cortenuova (1237) and Benevento (1266) until Lucera was destroyed in 1300 (Taylor, 2003)."
 relevance = "The Muslim archers of Lucera were the most distinctive troops of Frederick II and Manfred, and the colony embodies the kingdom's Muslim population and its fate."
-contested = "Numbers are uncertain (c. 15,000–25,000 deported; 5,000–10,000 archers at Cortenuova), and recent work (Al-Masāq, 2016) doubts that most Sicilian Muslims went to Lucera; the colony belongs to the Hohenstaufen period, at the end of the window."
+contested = "Numbers are uncertain, for the deportations as for the archers at Cortenuova, and how many Sicilian Muslims went to Lucera is debated (Metcalfe, 2009; Taylor, 2003); the colony belongs to the Hohenstaufen period, at the end of the window."
 
 [tree]
 add = ["Thumb Ring", "Architecture", "Treadmill Crane", "Theocracy", "Fortified Wall"]
-remove = ["Cannon Galleon"]
+remove = ["Cannon Galleon", "Cranequins", "Heavy Mounted Crossbowman"]
 
 [tree.basis]
 "Thumb Ring" = "Muslim archers served the Hauteville and formed the royal corps of Lucera under the Hohenstaufen; they probably used the composite bow and thumb draw of the wider Islamic tradition, an inference, since no source specific to Sicily or Lucera describes their draw (compare the Mamluk manual in Latham and Paterson, Saracen Archery, 1970). It supports the Lucera tech."
-"Architecture" = "The kingdom was a great builder: Cefalù cathedral (from 1131), the Palatine Chapel (consecrated 1140), La Zisa and Monreale (from 1174), which the civ's own history text praises; the lack of building techs contradicted it."
-"Treadmill Crane" = "The treadwheel crane is first attested c. 1225 and first illustrated c. 1240 (Andrea Matthies, 'Medieval Treadwheels', Technology and Culture 33, 1992), so it fits Frederick II's castle building rather than the 12th-century churches: Castello Maniace at Syracuse (c. 1232–1240), Castello Ursino at Catania (1239–1250) and Castel del Monte (c. 1240)."
+"Architecture" = "The kingdom was a great builder: Cefalù cathedral (from 1131), the Palatine Chapel (consecrated 1140), La Zisa (begun c. 1164–1165) and Monreale (from 1174), which the civ's own history text praises; the lack of building techs contradicted it."
+"Treadmill Crane" = "The treadwheel crane is first attested in medieval Europe c. 1225 (France) and first illustrated c. 1240 (A. L. Matthies, 'Medieval Treadwheels', Technology and Culture 33, 1992). No source documents it at Frederick II's building sites, but it fits their date rather than the 12th-century churches: Castello Maniace at Syracuse (c. 1232–1240), Castello Ursino at Catania (1239–1250) and Castel del Monte (c. 1240)."
 "Theocracy" = "In 1098 Urban II granted Roger I the apostolic legation, the root of the 'Monarchia Sicula' through which the kings controlled the island's church, and the Martorana mosaic shows Roger II crowned by Christ (Houben, 2002). The name fits; the effect is the generic one."
 "Fortified Wall" = "The towns of the kingdom were walled (Palermo, Bari, Salerno), and Frederick II's castles enclose their courtyards with stone curtain walls and corner towers (Castello Maniace, Castello Ursino). The Donjon replaces only the tower line, so the stone walls of a civ of castle-builders should reach the generic top tier."
 "Cannon Galleon" = "No gunpowder in the window: the earliest European records of cannon date from 1326, sixty years after Benevento (1266), and the civ already lacks Bombard Cannon and Hand Cannoneer. Under RULES 6.11 the anti-ship and anti-building roles at sea stay with the Galley line, the Fire Ship line and the Heavy Demolition Ship, and on land with the Trebuchet."
+"Cranequins" = "The cranequin, a rack-and-pinion winder for heavy crossbows, belongs to the late 14th and 15th centuries, after the window (1266) (names theme of the analysis); RULES 6.10 forbids renaming it to hide the anachronism, and no 13th-century equivalent is attested in the kingdom. The civ does not need it to play (RULES 6.11)."
+"Heavy Mounted Crossbowman" = "The Imperial tier stands for the mounted crossbowmen of the 14th–15th centuries. The tech tree audit justified mounted crossbowmen for the Sicilians by the Angevin and Aragonese kingdom, after the window (1266), and no source checked here documents them in the Hohenstaufen kingdom; since the kingdom used crossbowmen widely (Frederick II's balistarii), the basic Mounted Crossbowman stays as the regional unit (RULES 6.1). Nothing the civ needs to play is lost (RULES 6.11)."
 
 [architecture]
 set = "Mediterranean"

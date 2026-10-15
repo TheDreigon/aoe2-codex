@@ -2,7 +2,7 @@ civ = "Italians"
 name = "Italians"
 status = "draft"
 label = "Archer and Naval civilization"
-summary = "Italians (1000–1494, from the rise of the maritime republics to the French invasion) keep the Genoese Crossbowman and their maritime, university and gunpowder bonuses; the invented anti-gunpowder Condottiero gives way to the Condotta at the Castle (the Franks' Chivalry renamed), Silk Road becomes the Commenda at the Market, the commune gets the Town Center tech (Comune, the Malians' Tigui renamed), a banking bonus replaces the fishing one, the Genoese Crossbowman becomes the team's mercenary, the Hussar is renamed Stradiot, and Halberdier and Siege Engineers join the tree."
+summary = "Italians (1000–1494, from the rise of the maritime republics to the French invasion) keep the Genoese Crossbowman and their maritime, university and gunpowder bonuses; the invented anti-gunpowder Condottiero gives way to the Condotta at the Castle (faster training for the lances of the condotte), Silk Road becomes the Commenda at the Market, the commune gets the Town Center tech (Comune, Tigui's effect renamed), a banking bonus replaces the fishing one, the Genoese Crossbowman becomes the team's mercenary, the Hussar is renamed Stradiot, and Halberdier and Siege Engineers join the tree."
 ideas = [
   "N2: A heavy-cavalry unit of its own for the lance of the condotte (a man-at-arms in Milanese plate, paid almost only in gold and trainable by allies), instead of borrowing a model; the analysis proposes it for the Condottiero.",
   "N2: Carroccio: a slow, non-combat wagon giving armour to nearby infantry with the Centurion's aura mechanism, for the Milanese carroccio at Legnano (1176) and Cortenuova (1237).",
@@ -16,14 +16,14 @@ contested = [
   "Why the Genoese failed at Crécy: missing pavises, wet strings or the French order of battle.",
 ]
 open_questions = [
-  "Town Center tech: 'Comune' shares the Malians' Tigui (Town Centers fire arrows without garrison, level 1) for the commune as a sworn association of armed citizens. Alternatives: a fiscal institution as a level-2 tech, the funded public debt (Venice's Monte, 1262; Florence's Monte, 1345), the Florentine Catasto (1427) or Genoa's Casa di San Giorgio (1407), with 'All gold income +10%' (Grand Trunk Road, Hindustanis), at the price of an even stronger economy; or the Podestà; or Commenda moved to the Town Center (level 1). Which?",
-  "Heavy cavalry and power: the Condotta now shares the Franks' Chivalry (Stables work +40% faster, level 1) instead of the first draft's '+50% Knight-line training and Paladin upgrade'. The Paladin and the Siege Ram stay out as counterweights to the stronger economy (Market technologies free), the new Halberdier, Siege Engineers and Town Center tech, although lances in Milanese plate and the communal sieges of the 12th–13th centuries (Crema, 1159–1160) could justify them; in the Imperial Age (the 15th century for this civ) Italian siegecraft relied on bombards, which the civ has. Add either? A heavy-cavalry unit on the Burgundian Coustillier model ('Lancia', N1) is possible, but historically the coustillier was the lightly armed attendant of the man-at-arms, named after his short blade, so the model would invert the lance; the Condotta keeps the condottieri as a tech.",
-  "Team bonus: the Genoese Crossbowman for the team (as drafted) or the naval alternative, Docks of the team work faster, for the Genoese admirals and galleys that served Portugal (Manuel Pessanha, 1317), Castile (Egidio Boccanegra, 1341) and France (Zierikzee, 1304; Sluys, 1340)? With the Portuguese Besteiro do Conto on the same model, a Portuguese–Italian team fields the Genoese Crossbowman twice under two names.",
-  "Mule Cart: not given. Mule trains over the Alpine passes (the Gotthard, opened c. 1230; the Brenner; the Mont Cenis) carried Italian goods to the Champagne fairs and Germany, but the carriers were mostly Alpine communities and the civ's identity is maritime. Give it alongside the camps, as for the Castilians and Portuguese?",
-  "Thumb Ring: the thumb draw is a steppe and Asian archery technique, out of place for a crossbow civ (names theme). Keep it (as most civs do), remove it, or rename it for a crossbow spanning device (cranequin, goat's-foot lever) if the function is accepted as equivalent? The same question applies to the Castilians and Portuguese, who also have it.",
+  "Town Center tech: 'Comune' reuses Tigui (Town Centers fire arrows without garrison, level 1) for the commune that defended itself with its own sworn citizens. The Malians' draft drops Tigui, but the Germans' draft also reuses it, as Burgenordnung for Henry I's burgs, so two neighbouring civs share the same Town Center tech. History favours the commune here: it is the defining Italian institution, while the Germans' file already offers the Golden Bull (1356) as a stronger state moment for theirs, so if only one civ keeps the effect, the Italians have the better claim. Alternatives for the Italians: a fiscal institution as a level-2 tech, the funded public debt (Venice's Monte, 1262; Florence's Monte, 1345), the Florentine Catasto (1427) or Genoa's Casa di San Giorgio (1407), with 'All gold income +10%' (already in ten drafts), at the price of an even stronger economy; the Podestà; or Commenda moved to the Town Center (level 1). Keep Comune and settle the duplicate on the German side, or switch?",
+  "Heavy cavalry and power: the Condotta now gives the Knight-line +50% training speed (level 2, from Comitatenses), a targeted expression of the lances, instead of the Franks' Chivalry (all Stables +40%), which also sped the Stradiots, Light Cavalry and Mounted Crossbowmen. The Paladin and the Siege Ram stay out as counterweights to the stronger economy (Market technologies free), the new Halberdier, Siege Engineers and Town Center tech, although lances in Milanese plate and the communal sieges of the 12th–13th centuries (Crema, 1159–1160) could justify them; in the Imperial Age (the 15th century for this civ) Italian siegecraft relied on bombards, which the civ has. Other options: a Knight-line passive (for example Knight-line armour for Milanese plate) in place of the gunpowder passive, the weakest military passive; or a unit on the Burgundian Coustillier model ('Lancia', N1), though the coustillier was the lightly armed attendant of the man-at-arms, so the model would invert the lance. Add the Paladin or the Siege Ram, or change the heavy-cavalry expression?",
+  "Team bonus: the Genoese Crossbowman for the team (without the Elite upgrade, as drafted) or the naval alternative, Docks of the team work faster, for the Genoese admirals and galleys that served Portugal (Manuel Pessanha, 1317), Castile (Egidio Boccanegra, 1341) and France (Zierikzee, 1304; Sluys, 1340)? With the Portuguese Besteiro do Conto on the same model, a Portuguese–Italian team fields the Genoese Crossbowman twice under two names.",
+  "Mule Cart: not given. Mule trains over the Alpine passes (the Gotthard, opened c. 1230; the Brenner; the Mont Cenis) carried Italian goods to the Champagne fairs and Germany, but the carriers were mostly Alpine communities and the civ's identity is maritime; the Castilians' and Portuguese drafts withhold it too. Give it (as a counted passive, RULES 6.1)?",
+  "Thumb Ring: the thumb draw is a steppe and Asian archery technique, out of place for a crossbow civ (names theme). Keep it (as most civs do), remove it, or rename it for a crossbow spanning device such as the goat's-foot lever, if the function is accepted as equivalent ('cranequin' is ruled out, since a generic Cranequins tech already exists)? A separate N1 option: add that existing Cranequins (Mounted Crossbowmen +1 range; +2 attack vs. Infantry), a device of the late 14th and 15th centuries inside this civ's window, for the Italian mounted crossbowmen (balestrieri a cavallo). The Thumb Ring question applies to the Castilians and Portuguese too.",
   "Label: back to the game's 'Archer and Naval civilization', shared with the Portuguese; the first draft's 'Archer and Trade' is not a category the game uses. Change it?",
-  "Optional fourth tech, N1 at level 2: Arsenale at the Dock (Galley-line and Fire Ships train faster, Docks cheaper; the Arsenal of Venice) or the trace italienne at the Castle (Castles and towers stronger against siege; Francesco di Giorgio Martini, the Sangallo, 1480s–1490s). Either would bring the civ to 5 passive bonuses + 4 unique techs = 9, at the proposed cap, and the Arsenal already supports the Dock-technology bonus.",
-  "Light-cavalry names: the Hussar is renamed Stradiot here, while the Castilians keep the generic Hussar. One policy for regional names across civs (see the Castilians)?",
+  "Optional fourth tech (level 2): history favours the Arsenale at the Dock (Galley-line and Fire Ships train faster, Docks cheaper), a datable institution well inside the window (the Arsenale Nuovo, c. 1303–1325; Dante describes the Arsenal in Inferno XXI), for the galley fleets of Venice and Genoa (Meloria 1284, Curzola 1298, Chioggia 1378–1381), whose naval primacy now has only half of a tech-cost discount. The trace italienne at the Castle (Castles and towers stronger against siege) is a late element: the angled bastion reached its mature, widespread form mostly after 1494. Either would bring the civ to 5 passive bonuses + 4 unique techs = 9, at the proposed cap; with the Arsenale as a tech, the Dock half of the passive would be re-based on the wider maritime tradition, so that one institution is not split in two (RULES 6.3). Add the Arsenale?",
+  "Light-cavalry names: the Hussar is renamed Stradiot here (as the Turks' draft renames it Akıncı and the Gaels' Hobelar), while the Castilians keep the generic Hussar. One policy for regional names across civs (see the Castilians)?",
 ]
 
 [profile]
@@ -38,11 +38,13 @@ sources = [
   "Philip Jones, The Italian City-State: From Commune to Signoria (1997)",
   "Chris Wickham, Sleepwalking into a New World: The Emergence of Italian City Communes in the Twelfth Century (2015)",
   "Michael Mallett, Mercenaries and Their Masters: Warfare in Renaissance Italy (1974)",
+  "M. E. Mallett and J. R. Hale, The Military Organization of a Renaissance State: Venice c. 1400 to 1617 (1984)",
   "William Caferro, John Hawkwood: An English Mercenary in Fourteenth-Century Italy (2006)",
   "Raymond de Roover, The Rise and Decline of the Medici Bank, 1397–1494 (1963)",
   "Abraham L. Udovitch, 'At the Origins of the Western Commenda: Islam, Israel, Byzantium?', Speculum 37 (1962)",
   "John H. Pryor, 'The Origins of the Commenda Contract', Speculum 52 (1977)",
   "Andrew Ayton and Philip Preston, The Battle of Crécy, 1346 (2005)",
+  "Jonathan Sumption, The Hundred Years War I: Trial by Battle (1990)",
   "N. C. J. Pappas, 'Stradioti: Balkan Mercenaries in Fifteenth and Sixteenth Century Italy'",
 ]
 replaces = "A pan-Italian civ stretched into the Italian Wars (1494–1559), with an anti-gunpowder Condottiero"
@@ -63,8 +65,8 @@ level = 1
 change = "changed"
 replaces = "Foot Archers and Condottieri +1 melee/+1 pierce armor"
 precedent = "Foot Archers and Condottieri +1 melee/+1 pierce armor (Italians), without the Condottieri"
-basis = "The pavise, the crossbowman's large shield (its name probably from Pavia), carried by pavesari who covered the crossbowmen, and the armour industry of Milan (the Missaglia workshops in the 15th century) (Mallett, 1974). The Condottieri leave the target with the unit."
-relevance = "The crossbowman behind his pavise was the standard Italian missile soldier and Milanese armour the best in Europe; together they define Italian foot troops."
+basis = "The pavise, the crossbowman's large shield (its name probably from Pavia), carried by pavesari who covered the crossbowmen of the communal militias and of Genoa's forces and fleets (Mallett, 1974). The Condottieri leave the target with the unit, and Milanese armour now belongs to the heavy cavalry (see the Condotta)."
+relevance = "The crossbowman behind his pavise was the standard Italian missile soldier from the 13th to the 15th century, in the communal militias, in Genoa's forces and fleets and in mercenary service; the bonus rests on that crossbow tradition, with the pavise as its emblem."
 contested = "At Crécy (1346) the Genoese reportedly fought without their pavises, left with the baggage."
 
 [[bonus]]
@@ -83,8 +85,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Gunpowder Units cost -20% (Italians)"
-basis = "A Florentine document of 11 February 1326 is, with Walter de Milemete's English manuscript of the same year, one of the two earliest European records of metal cannon; Brescia and Milan were great arms centres, and Italian founders were among the best."
-relevance = "The Italian cities adopted firearms among the first in Europe and made them in great numbers; a real trait of moderate weight, kept from the game."
+basis = "A Florentine document of 11 February 1326 is, with Walter de Milemete's English manuscript of the same year, one of the two earliest European records of metal cannon; the Venetians used bombards in the war of Chioggia (1379–1380); Brescia and Milan were great arms centres and Italian founders were among the best; and by the later 15th century the armies of Milan and Venice included large companies of handgunners (schioppettieri) (Mallett, 1974; Mallett and Hale, 1984), the troops the discount mostly affects in play."
+relevance = "Adoption from 1326 and the handgunner companies of 15th-century Milan and Venice made firearms a lasting part of Italian warfare; a real trait of moderate weight, and the weakest military passive if a slot is wanted for the heavy cavalry (see the open question)."
 contested = "In the 15th century Burgundy, France and Germany were at least as advanced in artillery; Charles VIII's guns impressed the Italians in 1494."
 
 [[bonus]]
@@ -98,13 +100,13 @@ basis = "Italy's commercial revolution: the bill of exchange; double-entry book-
 relevance = "Banking and commercial techniques are the most influential Italian innovation of the period: Italian banks financed popes and kings across Europe."
 
 [team_bonus]
-text = "Genoese Crossbowman available at the Archery Range in Imperial Age"
+text = "Genoese Crossbowman (without the Elite upgrade) available at the Archery Range in Imperial Age"
 level = 1
 change = "changed"
 replaces = "Condottiero available at the Barracks in Imperial Age"
-precedent = "Condottiero available at the Barracks in Imperial Age (Italians team bonus); Genitour available at the Archery Range starting in Castle Age (Berbers team bonus)"
-basis = "Genoese crossbowmen were the most sought-after mercenary marksmen of Europe: several thousand formed the French vanguard at Crécy (1346) under Ottone Doria and Carlo Grimaldi (Ayton and Preston, 2005; Sumption, Trial by Battle, 1990), others served Castile, Byzantium and the Italian states, and Giovanni Giustiniani Longo brought some 700 well-armed men from Genoa and Chios to the defence of Constantinople in 1453 (Epstein, 1996). Hiring them benefited Genoa's employers, as RULES 6.2 requires; the Condottiero it replaces had no basis as a unit type. The Portuguese Besteiro do Conto uses the same model (see the open question)."
-relevance = "Genoese crossbowmen were Italy's most famous military export; their service abroad is a benefit to allies by definition."
+precedent = "Condottiero available at the Barracks in Imperial Age (Italians team bonus); Genitour available at the Archery Range starting in Castle Age (Berbers team bonus). Without the Elite upgrade, like the Condottiero, which has no Elite tier, to stay within the magnitude of these precedents"
+basis = "Genoese crossbowmen were the most sought-after mercenary marksmen of Latin Europe. Several thousand formed the French vanguard at Crécy (1346) under Ottone Doria and Carlo Grimaldi (Ayton and Preston, 2005; Sumption, 1990), proof that they were in demand rather than of their success that day. Genoese war galleys, whose crews included crossbowmen, served the French crown (Zierikzee, 1304; Sluys, 1340) and Castile under Egidio Boccanegra (the siege of Algeciras, 1342–1344), and Genoese soldiers served Byzantium and the Italian states; Giovanni Giustiniani Longo's 700 well-armed men from Genoa and Chios at the defence of Constantinople (1453) are an example of Genoese military service in general, not of crossbowmen as such (Epstein, 1996). Hiring them benefited Genoa's employers, as RULES 6.2 requires; the Condottiero it replaces had no basis as a unit type. The Portuguese Besteiro do Conto uses the same model (see the open question)."
+relevance = "Genoese crossbowmen were Italy's most famous military export, hired by France, Castile, Byzantium and the Italian states; their service abroad is a benefit to allies by definition."
 contested = "Their numbers at Crécy vary widely in the sources (c. 2,000–6,000)."
 
 [[unique_unit]]
@@ -113,8 +115,8 @@ model = "Genoese Crossbowman"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "Genoese crossbowmen served France (Crécy, 1346), Castile, Byzantium and the Italian states, and formed the core of Genoa's own forces (Epstein, 1996). Behind their pavises they stood up well to cavalry, so 'strong vs. cavalry' is an abstraction. The model is shared with the Portuguese Besteiro do Conto."
-relevance = "The Genoese crossbowman is the best-known Italian soldier of the Middle Ages."
+basis = "Genoese crossbowmen formed the core of Genoa's own forces and fleets and served France (Crécy, 1346), Castile, Byzantium and the Italian states (Epstein, 1996). Behind their pavises they stood up well to cavalry, so 'strong vs. cavalry' is an abstraction. The model is shared with the Portuguese Besteiro do Conto."
+relevance = "The core of Genoa's forces and fleets and the most sought-after mercenary marksmen of Latin Europe and Byzantium, the Genoese crossbowman is also the best-known Italian soldier of the Middle Ages."
 
 [[unique_tech]]
 name = "Commenda"
@@ -128,7 +130,7 @@ replaces = "Silk Road"
 precedent = "Silk Road (Italians): identical effect, moved from the Castle to the Market (trade, RULES 6.2) and renamed"
 basis = "The commenda (colleganza in Venice), in which a sedentary investor financed a travelling merchant's voyage for a share of the profit, appears in series in the cartulary of the Genoese notary Giovanni Scriba (1154–1164) and financed Italian long-distance trade from Caffa and Tana to Alexandria and Acre (Lopez, 1971; Epstein, 1996). 'Silk Road' is a term coined by Richthofen in 1877, and Italian trade with Asia went mostly through the Levant and the Black Sea."
 relevance = "The commenda was the contract that financed the maritime trade of the Italian republics and spread commercial partnership across the Mediterranean; a defining institution of the commercial revolution."
-contested = "Its origins are debated: Islamic qirad and Byzantine or Jewish antecedents (Udovitch, 1962) against an Italian development (Pryor, 1977); the contract was used across the Latin Mediterranean (Marseille, Barcelona), but the Italian notarial records are the earliest and densest."
+contested = "Its origins are debated: the Roman and Byzantine sea loan, the Jewish isqa and the Islamic qirad have all been proposed (Udovitch, 1962; Pryor, 1977); the contract was used across the Latin Mediterranean (Marseille, Barcelona), but the Italian notarial records are the earliest and densest."
 
 [[unique_tech]]
 name = "Comune"
@@ -138,8 +140,8 @@ age = "Castle"
 effect = "Town Centers fire arrows without garrison"
 level = 1
 change = "new"
-precedent = "Tigui (Malians): identical effect, shared and renamed (an existing unique tech, RULES 6.5)"
-basis = "From the late 11th century the cities of the Regnum Italiae became communes: sworn associations of citizens led by elected consuls (attested from the 1080s–1130s at Pisa, Genoa, Milan and elsewhere) and, from the late 12th century, by a foreign podestà, which governed, taxed, legislated and defended themselves. Citizens owed watch on the walls and service in the militia, and the communes of the Lombard League defeated Frederick Barbarossa at Legnano (1176) (Wickham, 2015; Jones, 1997). A Town Center that defends itself without sheltering villagers abstracts the city held by its own sworn citizens."
+precedent = "Tigui (Malians in the game; the Malians' draft drops it): identical effect and age, moved to the Town Center, shared and renamed (an existing unique tech, RULES 6.5); the Germans' draft also reuses it, as Burgenordnung (see the open question)"
+basis = "From the late 11th century the cities of the Regnum Italiae became communes: sworn associations of citizens led by elected consuls (attested from the 1080s–1130s at Pisa, Genoa, Milan and elsewhere) and, from the late 12th century, by a foreign podestà, which governed, taxed, legislated and defended themselves. Citizens owed watch on the walls and service in the militia; the communes of the Lombard League defeated Frederick Barbarossa at Legnano (1176), and at the Peace of Constance (25 June 1183) he recognised their consuls and regalian rights, including the right to fortify their cities and to keep their league (Wickham, 2015; Jones, 1997). A Town Center that defends itself without sheltering villagers abstracts the city held by its own sworn citizens."
 relevance = "The commune is the defining institution of medieval northern and central Italy: without it there are no city-states."
 contested = "How the communes arose, by rupture or by continuity with earlier urban institutions (Wickham, 2015)."
 
@@ -148,13 +150,14 @@ name = "Condotta"
 building = "Castle"
 kind = "military"
 age = "Imperial"
-effect = "Stables work +40% faster"
-level = 1
+effect = "Knight-line trains +50% faster"
+level = 2
 change = "new"
 replaces = "Pirotechnia"
-precedent = "Chivalry (Franks): identical effect, shared and renamed (an existing unique tech, RULES 6.5)"
-basis = "Italian states hired their armies by contract (condotta): companies of lances (a man-at-arms with a squire and a page) under captains such as John Hawkwood, Francesco Sforza and Bartolomeo Colleoni, whom Venice made captain-general for life in 1455; by the 15th century Venice and Milan kept many companies on long contracts, quasi-permanent forces in the best plate of Europe that could take the field as soon as a campaign was decided (Mallett, 1974; Caferro, 2006). Faster Stables abstract that readiness. Pirotechnia, which it replaces, is Biringuccio's treatise of 1540 on metallurgy and cannon-founding, outside the window and unrelated to hand cannoneers."
-relevance = "The condotta organised Italian warfare for two centuries, and the condottieri are among the most famous figures of Renaissance Italy."
+precedent = "Comitatenses (Romans, an out-of-scope civ whose techs remain in the game): Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack; the Knight-line training part only"
+basis = "Italian states hired their heavy cavalry by contract (condotta): companies of lances, each a man-at-arms with a mounted squire and a page, under captains such as John Hawkwood, Francesco Sforza and Bartolomeo Colleoni, whom Venice made captain-general in 1455, a post he held until his death in 1475. In the 15th century Venice and Milan kept many companies on long contracts, quasi-permanent forces that could take the field as soon as a campaign was decided (Mallett, 1974; Mallett and Hale, 1984; for the 14th-century companies, Caferro, 2006). Their men-at-arms wore Milanese plate from workshops such as the Missaglia's, which with the South German centres made the best armour of 15th-century Europe. Faster Knight-line training abstracts the readiness of these contracted lances. Pirotechnia, which it replaces, is Biringuccio's treatise of 1540 on metallurgy and cannon-founding, outside the window and unrelated to hand cannoneers."
+relevance = "The lances of the condotte were the core of Italian armies in the 14th and 15th centuries, and the condottieri are among the most famous figures of Renaissance Italy; the tech is the civ's targeted expression of its heavy cavalry."
+contested = "Readiness belongs to the 15th-century standing companies: the 14th-century companies were slow to take the field until paid, and their effectiveness and loyalty are debated (see the civ-level list)."
 
 [tree]
 add = ["Halberdier", "Siege Engineers"]

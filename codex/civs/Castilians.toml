@@ -3,7 +3,7 @@ name = "Castilians"
 original_name = "Spanish"
 status = "draft"
 label = "Cavalry and Monk civilization"
-summary = "Spanish renamed Castilians (owner's decision) and brought back from the monarchy of 1480–1550 to the medieval Crown of Castile (1037–1504): the Conquistador and the Missionary give way to the knight of the military orders (Freire, on the Monaspa model) and the Órdenes Militares tech, Supremacy becomes the Santa Hermandad at the Town Center, Inquisition gives way to the Bula de Cruzada at the Monastery, the Mesta, cheaper castles, a free Relic for Santiago and the repoblación replace the unfounded and anachronistic bonuses, and Crossbowman, Arbalester, Siege Engineers, the regional Jinete and the Mule Cart join the tree; the first draft's Aragonese elements are reserved for a future Aragonese civ."
+summary = "Spanish renamed Castilians (owner's decision) and brought back from the monarchy of 1480–1550 to the medieval Crown of Castile (1037–1504): the Conquistador and the Missionary give way to the knight of the military orders (Freire, on the Monaspa model) and the Órdenes Militares tech, Supremacy becomes the Santa Hermandad at the Town Center, Inquisition gives way to the Bula de Cruzada at the Monastery, the Mesta, cheaper castles, a free Relic for Santiago and the repoblación replace the unfounded and anachronistic bonuses, and Crossbowman, Arbalester, Siege Engineers and the regional Jinete join the tree; the Aragonese elements of the first draft are reserved for a future Aragonese civ."
 ideas = [
   "N3: The Aragonese, a separate civ for the Crown of Aragon (1137–1516), as RULES section 4 decides. The Almogàvers, Roger de Lauria's galleys with their Catalan crossbowmen (Malta 1283, the Bay of Naples 1284) and the Llibre del Consolat de Mar (printed 1484) are reserved for it (Muntaner; Desclot; Mott, 2003). The first draft of this file built the Almogàver on the Saxon Hearth Troop (javelin, then melee), which would need an anti-cavalry bonus for the almogàvers' record against knights (Halmyros, 1311).",
   "N2: A Jinete of its own (light horseman with lance and javelins, able to fight at close range), shared by Castilians, Portuguese, Berbers and later Aragonese, instead of the Genitour, which cannot attack at close range.",
@@ -16,18 +16,24 @@ contested = [
   "'Convivencia': Américo Castro against Sánchez-Albornoz; Menocal (2002) against Fernández-Morera (2016); Soifer (2009).",
   "The weight of artillery in the fall of Granada (Cook, 1993) against the Nasrid civil war and economic exhaustion.",
   "Iberian priority in the use of gunpowder (Huéscar 1324, Algeciras 1342–1344), on the Nasrid and Marinid side.",
+  "The 'Toledo School of Translators' (see the team-bonus question) is a 19th-century label for a loose, largely individual activity; many translators were foreigners working with Mozarab and Jewish intermediaries (Charles Burnett, 'The Coherence of the Arabic-Latin Translation Program in Toledo in the Twelfth Century', Science in Context 14, 2001).",
 ]
 open_questions = [
-  "Castle tech: Órdenes Militares strengthens the order knights, so the military orders fill two high slots (the unit and the tech); the orders' foundation (1158–1176) is still a distinct datable moment, and many civs pair a unit with a tech for it. Alternative distinct moment: the royal artillery train of the war of Granada under Francisco Ramírez de Madrid (1480s), as a level-2 Imperial tech such as 'Bombard Cannons move +25% faster' (precedent: Drill, 'Siege Workshop Units move +50% faster', Mongols). Which do you prefer?",
+  "Castle tech: Órdenes Militares strengthens the Freires, so the military orders fill two high slots (the unit and the tech). The second review holds that history favours a distinct datable moment for the tech (RULES 6.3 and 6.9). Options: (a) keep Órdenes Militares (Castle Age; it fits your 'Cavalry and Monk' label); (b) a Castle Age tech for the cuantía laws, which obliged men of a set wealth to keep horse and arms (caballeros de cuantía, 14th–15th centuries), for example a Knight-line discount (another gold or resource saving, see the power question); (c) an Imperial tech for the royal artillery train of the war of Granada under Francisco Ramírez de Madrid, whose guns reached Cambil and Alhabar in 1485 along a road cut through the sierra (Pulgar), e.g. 'Bombard Cannons move +25% faster' (precedent: Drill, 'Siege Workshop Units move +50% faster', Mongols); all three techs would then fall in 1476–1492, and the Granada guns would fill two slots (this tech and the gunpowder passive); (d) an Imperial tech for the Guardas Reales (1493), Castile's first standing royal force; (e) if the orders keep the tech, a separate moment for it: the crown's assumption of their masterships (Calatrava 1487–1489, Santiago 1493, Alcántara 1494). Recommended if you want a distinct moment: (b), which keeps a Castle Age cavalry tech within the label; (c) is the weightiest but would make the civ's techs all late. Which?",
   "Name of the order knight (Monaspa model): 'Freire', the orders' own word for a professed brother, or 'Caballero de Calatrava' / 'Caballero de Santiago'?",
-  "Builders (on your list) is dropped for relevance (RULES 6.9): the repoblación it was meant to carry is central, but building speed expresses it weakly. The repoblación gets 'Town Centers cost -50% wood starting in Castle Age' instead (the Britons' bonus, there for planted boroughs). Keep this, restore the builders, or use the slot for the Castilian galleys of the first draft ('Galley-line +1 attack': Seville's royal shipyard, 1252; the Boccanegra admirals; La Rochelle, 1372; the raids on the English coast in the 1370s–1380s)? Composition is 6 passive bonuses + 3 unique techs = 9, at the proposed cap.",
-  "Mesta: 'Shepherding also generates gold' (wool sold abroad) replaces the first draft's 'Shepherds work +25% faster' (Britons), which four other drafts use (Berbers, Britons, Gurjaras, Norse); with the Norse 'Fishing also generates gold' and the Varangians' 'Hunting also generates gold' it completes the split of the current Varangian bonus. Agree?",
-  "Mule Cart (arrieros): given alongside the Lumber Camp and Mining Camp, as for the Portuguese (and the Ethiopians and Tatars in other regions); the Armenians and Georgians keep the replacing version, and the Byzantines, Italians and the civs of Britain and France get none. One policy for all civs?",
-  "Light-cavalry names: the regional Genitour is the Castilian 'Jinete', the Portuguese 'Ginete', the Berber 'Genitour' and the Lithuanian 'Sulica Rider' (the same unit everywhere). The Castilians keep the generic Hussar, while the Italians rename theirs 'Stradiot'. One policy for regional names across civs?",
+  "Builders (on your list) is dropped for relevance (RULES 6.9): the repoblación it was meant to carry is central, but building speed expresses it weakly. The repoblación gets 'Town Centers cost -50% wood starting in Castle Age' instead (the Britons' bonus, there for planted boroughs). Keep this, restore the builders, or use the slot for the Castilian galleys of the first draft ('Galley-line +1 attack': Seville's royal shipyard, 1252; the Boccanegra admirals; La Rochelle, 1372; the raids on the English coast in the 1370s–1380s)? Composition is 6 passive bonuses + 3 unique techs = 9, at the proposed cap (the Mule Cart is not given: as a unique building it would count as a seventh passive, RULES 6.1).",
+  "Mesta: 'Shepherding also generates gold' (wool sold abroad) replaces the first draft's 'Shepherds work +25% faster' (Britons), which the Berbers', Britons', Bulgarians' and Norwegians' drafts use (and the Inca's within a combined bonus). With the Norwegians' and Tamils' 'Fishing Ships generate gold in addition to food' and the Swedes' 'Hunting also generates gold', it completes the split of the game's Varangian bonus. The same wool also underlies the team bonus, seen from the buyers' side. Keep both, or separate them: the passive for the transhumance with a shepherding effect, the team bonus for the export trade, or a team bonus on another benefit to allies (see the next question)?",
+  "Team bonus: the game's 'Trade Units generate +25% gold' is kept for the wool trade, but it is now also the Mongols' team bonus (identical, so the two would stack in a Castilian–Mongol team; as the game's original holder the Castilians have the better claim), and its wool repeats the Mesta passive. Alternatives that benefited neighbours: (a) Alfonsine science and the Toledo translations (Archbishop Raymond, 1125–1152; Gerard of Cremona's Almagest, 1175; Michael Scot, c. 1217; the Alfonsine Tables of c. 1272, used across Europe and printed in 1483), e.g. 'Technologies research +25% faster', which is the Saracens' team bonus and whose basis already counts the Toledo translations among the channels of Arabic science, or a University effect ('Universities work +80% faster' is already the team bonus of six drafts); a University tech for the Alfonsine Tables is another route, but at 6 + 3 = 9 a passive would have to go; (b) the Castilian galleys that served France under the alliance of Toledo (1368): La Rochelle (1372), the raids on the English coast in the 1370s–1380s and Pero Niño's Channel campaign (1405), with a naval team effect. Keep the wool trade, or switch?",
+  "Bula de Cruzada: Imperial Age, for Sixtus IV's bull of 1482, since your decision ties it to the war of Granada. Crusade privileges for the Spanish wars began much earlier (indulgences from the 12th century; the tercias reales granted for the conquest of Seville, 1247), so a Castle Age tech is also defensible. Imperial or Castle Age?",
+  "Mule Cart (arrieros): not given in this draft. Muleteers drove pack-mule trains (recuas) with wool, timber, charcoal and ore (the Cabaña Real de Carreteros of 1497 organised the ox-cart carriers, a separate trade), but pack transport was common to the whole Mediterranean, RULES 6.1 counts a unique building as a passive (the civ is already at 6 + 3 = 9), and RULES section 10 lists this extension among the ideas for later levels. The Portuguese draft withholds it too; the Armenians and Georgians keep the version that replaces the camps, and the Ethiopians and Tatars get it alongside the camps as a counted passive bonus. One policy for all civs?",
+  "Light-cavalry names: the regional Genitour is the Castilian 'Jinete', the Portuguese 'Ginete', the Berber 'Genitour' and the Lithuanian 'Sulica Rider' (the same unit everywhere). The Castilians keep the generic Hussar, while the Italians (Stradiot), Turks (Akıncı) and Gaels (Hobelar) rename theirs. One policy for regional names across civs?",
+  "Window: the civ starts in 1037, when Ferdinand I joined León to Castile; the county of Castile (Fernán González, from the 930s) and the kingdom of León (from c. 910) appear only as background in the bases (the charter of 800, the Duero repoblación, Compostela). Start the window earlier (910 or the 930s)?",
+  "Power: compared with the game's Spanish, the civ gains a sixth passive, a third unique tech, the Crossbowman, Arbalester, Siege Engineers and the Jinete line, and keeps the Paladin, Hussar, Heavy Mounted Crossbowman, Hand Cannoneer, Bombard Cannon, Siege Ram and the faster gunpowder fire; it loses the builders, +20 gold per technology, the Cannon Galleon accuracy and its two unique units. Gold comes or is saved through Blacksmith upgrades without gold, the Bula (-15% gold for military units), shepherding gold and a free Relic. The Mule Cart is withheld partly for this reason. Further counterweights if needed: a lower Bula discount (-10%), or no Heavy Mounted Crossbowman. Accept as is?",
+  "Santa Hermandad: the tech keeps your name and effect, but the example in RULES 6.3, which presents it as the formalisation of the municipal militias, is historically loose: the Hermandad of 1476 was a crown-controlled police and fiscal-military league of the towns that grew out of the medieval brotherhoods (hermandades), while the fuero militias were an older, separate institution whose town contingents served beside it in the war of Granada. The basis now says so; you may want to reword the RULES example.",
 ]
 
 [profile]
-entity = "The Crown of Castile: the kingdoms of León and Castile (united 1037–1157 and permanently from 1230) and their conquests, from Ferdinand I, who joined León to Castile after Tamarón (1037), to the death of Isabella I (1504)"
+entity = "The Crown of Castile: the kingdoms of León and Castile (united 1037–1065, again from 1072 to 1157, and permanently from 1230) and their conquests, from Ferdinand I, who joined León to Castile after Tamarón (1037), to the death of Isabella I (1504)"
 region = "Central, northern and southern Iberian Peninsula: Old and New Castile, León, Galicia, Asturias, the Basque coast, Extremadura, Andalusia and Murcia"
 window = "1037–1504"
 sources = [
@@ -36,6 +42,7 @@ sources = [
   "Joseph F. O'Callaghan, Reconquest and Crusade in Medieval Spain (2003)",
   "Joseph F. O'Callaghan, The Spanish Military Order of Calatrava and its Affiliates (1975)",
   "Derek W. Lomax, La Orden de Santiago, 1170–1275 (1965)",
+  "Bernard F. Reilly, The Kingdom of León-Castilla under King Alfonso VI, 1065–1109 (1988)",
   "James F. Powers, A Society Organized for War: The Iberian Municipal Militias in the Central Middle Ages, 1000–1284 (1988)",
   "Angus MacKay, Spain in the Middle Ages: From Frontier to Empire, 1000–1500 (1977)",
   "Julius Klein, The Mesta: A Study in Spanish Economic History, 1273–1836 (1920)",
@@ -63,12 +70,12 @@ contested = "When merino sheep reached Castile (perhaps with the Marinids, late 
 
 [[bonus]]
 text = "Blacksmith upgrades cost no gold"
-kind = "economic"
+kind = "military"
 level = 1
 change = "kept"
 precedent = "Blacksmith upgrades cost no gold (Spanish)"
-basis = "Iron from the ferrerías of Biscay and Gipuzkoa was exported in bulk to England and Flanders (Childs, 1978), and Toledo was famous for its sword blades by the 15th century: abundant, cheap metalwork is a real Castilian trait."
-relevance = "Basque iron was one of the kingdom's main exports and Toledo steel one of its best-known products; a lasting economic trait."
+basis = "Iron from the ferrerías of Biscay and Gipuzkoa was exported in bulk to England and Flanders (Childs, 1978), and Toledo was famous for its sword blades by the 15th century: abundant, cheap metalwork is a real Castilian trait. Classed as military, like the free unit upgrades of other drafts, since it cheapens arms and armour."
+relevance = "Basque iron was one of the kingdom's main exports and Toledo steel one of its best-known products; a lasting economic trait expressed through the army's equipment."
 
 [[bonus]]
 text = "Gunpowder Units attack +18% faster"
@@ -76,7 +83,7 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Gunpowder Units attack +18% faster (Spanish)"
-basis = "Castile won the war of Granada (1482–1492) largely through artillery sieges (Ronda 1485, Málaga 1487, Baza 1489) carried out by the royal artillery train under Francisco Ramírez de Madrid, with handgunners (espingarderos) in the field (Cook, 1993; Pulgar). Just after the window's turn of the century, Gonzalo Fernández de Córdoba's arquebusiers, entrenched behind a ditch, broke the French at Cerignola (1503) (Taylor, 1921). The faster rate of fire is a game abstraction of Castile's late, heavy investment in gunpowder, not a documented rate."
+basis = "Castile won the war of Granada (1482–1492) largely through artillery sieges (Ronda 1485, Loja 1486, Málaga 1487) carried out by the royal artillery train under Francisco Ramírez de Madrid, with handgunners (espingarderos) in the field (Cook, 1993; Pulgar). At the end of the window, in Ferdinand's war for Naples, fought largely with Castilian troops for a claim of the Crown of Aragon, Gonzalo Fernández de Córdoba's arquebusiers, entrenched behind a ditch, broke the French at Cerignola (1503) (Taylor, 1921). The faster rate of fire is a game abstraction of Castile's late, heavy investment in gunpowder, not a documented rate."
 relevance = "The guns that reduced the Nasrid fortresses ended the Reconquista, and Castilian infantry with firearms carried the kingdom into the Italian Wars."
 contested = "The trait belongs to the last decades of the window; in the 15th century Italy, Burgundy, Bohemia and Germany led in handguns, and the weight of artillery in the fall of Granada is debated (see the civ-level list)."
 
@@ -86,8 +93,9 @@ kind = "military"
 level = 1
 change = "new"
 precedent = "Castles cost -15/25% in Castle/Imperial Age (Franks)"
-basis = "Castile took its name from its castles: 'Castella' first appears in a charter of 800 for the fortified frontier district east of León, and the kingdom advanced behind successive lines of castles on the Duero, the Tagus and, from the 13th century, the frontier of Granada, held by the crown, the military orders, the nobles and the towns (MacKay, 1977; O'Callaghan, 2003). Owner's decision."
+basis = "Castile took its name from its castles. 'Castella' first appears in a charter dated 800, known from a 12th-century cartulary copy, for a frontier district on the eastern edge of the Asturian kingdom, the Bardulia 'now called Castella' of the Chronicle of Alfonso III (background before the window). The kingdom then advanced behind successive lines of castles on the Duero, the Tagus and, from the 13th century, the frontier of Granada, held by the crown, the military orders, the nobles and the towns (MacKay, 1977; O'Callaghan, 2003). Owner's decision."
 relevance = "The castle frontier gave Castile its name and the form of its expansion."
+contested = "The authenticity of the charter of 800 (Taranco, Valle de Mena), preserved only in the Becerro Galicano of San Millán de la Cogolla, is debated."
 
 [[bonus]]
 text = "First Monastery receives a free Relic"
@@ -95,7 +103,7 @@ kind = "other"
 level = 1
 change = "new"
 precedent = "First Fortified Church receives a free Relic (Armenians)"
-basis = "The tomb of the apostle James, found at Compostela in the first half of the 9th century under Alfonso II of Asturias, made Santiago the patron of the Christian kingdoms (the battle cry '¡Santiago!') and the goal of the greatest pilgrimage road of Latin Europe after Rome; the Romanesque cathedral was begun in 1075 and Diego Gelmírez won the archbishopric in 1120 (Fletcher, 1984). Owner's decision: the civ's religious angle."
+basis = "The tomb of the apostle James, found at Compostela in the first half of the 9th century under Alfonso II of Asturias (background before the window), made Santiago the patron of the Christian kingdoms (the battle cry '¡Santiago!') and the goal of the greatest pilgrimage road of Latin Europe after Rome; the Romanesque cathedral was begun in 1075 and Diego Gelmírez won the archbishopric in 1120 (Fletcher, 1984). Owner's decision: the civ's religious angle."
 relevance = "Santiago was the patron of the Reconquista and of the Crown, and Compostela made the kingdom a centre of Latin Christendom; the cult is part of Castilian identity."
 contested = "The authenticity of the relics and the date of the discovery; the 'Voto de Santiago' and the apostle's appearance at Clavijo are 12th-century inventions."
 
@@ -106,7 +114,7 @@ level = 1
 change = "new"
 replaces = "Builders work +30% faster (dropped for relevance, RULES 6.9: the repoblación behind it is central, but building speed expresses it weakly and nothing made Castilian builders faster than others; 'cheaper castles' now carries the castle tradition)"
 precedent = "Town Centers cost -50% wood starting in Castle Age (Britons)"
-basis = "The Christian kingdoms held their conquests by resettling them (repoblación): kings, lords and the military orders granted charters (cartas pueblas) and fueros with privileges to draw settlers to new or refounded towns, from the Duero valley (9th–10th centuries) to Extremadura and La Mancha (11th–13th) and Andalusia, shared out among settlers in the repartimientos after the conquest of Seville (1248) (MacKay, 1977; O'Callaghan, 2003). Cheaper Town Centers from the Castle Age stand for this planned settlement."
+basis = "The Christian kingdoms held their conquests by resettling them (repoblación): kings, lords and the military orders granted charters (cartas pueblas) and fueros with privileges to draw settlers to new or refounded towns, from the Duero valley (9th–10th centuries, background before the window) to Extremadura and La Mancha (11th–13th) and Andalusia, shared out among settlers in the repartimientos after the conquest of Seville (1248) (MacKay, 1977; O'Callaghan, 2003). Cheaper Town Centers from the Castle Age stand for this planned settlement."
 relevance = "Repoblación, settling the frontier with chartered towns, is how Castile turned conquests into a kingdom; without it the expansion could not have been held."
 contested = "How empty the Duero valley was before the repoblación: Sánchez-Albornoz's depopulated 'strategic desert' (1966) against later historians and archaeologists."
 
@@ -115,7 +123,7 @@ text = "Trade Units generate +25% gold"
 level = 1
 change = "kept"
 precedent = "Trade Units generate +25% gold (Spanish team bonus)"
-basis = "Castilian wool fed the cloth industries of Flanders and, through Genoese and Florentine buyers, of Italy; the merchants of Burgos kept their own 'nation' at Bruges in the 15th century and founded their Consulado at Burgos in 1494, and the fairs of Medina del Campo drew foreign merchants (Childs, 1978; Phillips and Phillips, 1997). Castile's partners profited from this trade as much as Castile, as RULES 6.2 requires."
+basis = "Castilian wool fed the cloth industries of Flanders and, through Genoese and Florentine buyers, of Italy; the merchants of Burgos kept their own 'nation' at Bruges in the 15th century, the Crown created their Consulado at Burgos in 1494, and the fairs of Medina del Campo drew foreign merchants (Childs, 1978; Phillips and Phillips, 1997). Castile's trading partners also profited from this trade, as RULES 6.2 requires. The same effect is now the Mongols' team bonus, and the wool is also behind the Mesta passive (see the open questions)."
 relevance = "The wool trade tied Castile's economy to Flanders and Italy and fed their cloth industries; a benefit to neighbours, not only to Castile."
 
 [[unique_unit]]
@@ -134,12 +142,12 @@ name = "Órdenes Militares"
 building = "Castle"
 kind = "military"
 age = "Castle"
-effect = "Freires +20 HP and more resistant to conversion"
+effect = "Freires +20 HP and are more resistant to conversion"
 level = 2
 change = "new"
 precedent = "Extra HP for one unit: Holcans (Eagle Warriors +40 HP, Mayans) and Sipahi (Mounted Archers +20 HP, Turks); conversion resistance for a narrowed target: Elephant Units receive -25% bonus damage and are more resistant to conversion (Bengalis, conversion part) and First Crusade (units more resistant to conversion, Sicilians)"
-basis = "The orders bound their knights by vows under the rule of Cîteaux (Calatrava, Alcántara) or their own (Santiago), held general chapters and visitations, and drew on the rents of their encomiendas to keep knights and castles permanently on the frontier (O'Callaghan, 1975 and 2003; Lomax, 1965). Extra HP abstracts a better-equipped, permanently maintained knight; resistance to conversion, the religious vow."
-relevance = "The foundation of the orders (1158–1176) is a distinct datable institution of the Castilian frontier; the tech gives them their rule and resources, the unit their place in battle."
+basis = "The orders bound their knights by profession and rule: Calatrava and Alcántara followed the Cistercian rule, while Santiago had a rule of Augustinian inspiration under which its knights could marry. They held general chapters and visitations, and drew on the rents of their encomiendas to keep knights and castles permanently on the frontier (O'Callaghan, 1975 and 2003; Lomax, 1965). Extra HP abstracts a better-equipped, permanently maintained knight; resistance to conversion, the religious profession, strictest in the Cistercian orders."
+relevance = "The orders, founded 1158–1176 and endowed with much of New Castile and Extremadura, kept a professed force permanently on the frontier for three centuries; the tech gives them their rule and resources, the unit their place in battle (that both rest on the orders is put to the owner)."
 
 [[unique_tech]]
 name = "Santa Hermandad"
@@ -151,8 +159,9 @@ level = 1
 change = "changed"
 replaces = "Supremacy"
 precedent = "Supremacy (Spanish): identical effect, moved from the Castle to the Town Center and renamed (owner's decision; RULES 6.3)"
-basis = "At the Cortes of Madrigal (1476) Isabella and Ferdinand set up the Santa Hermandad, a brotherhood of the towns of Castile, paid for by their contributions, whose armed squads (cuadrilleros) policed roads and countryside and which raised men and money for the war of Granada (Lunenfeld, 1970). It formalised the old concejo militias of the frontier fueros (the Latin fuero of Sepúlveda, 1076; the Fuero de Cuenca, late 12th century), which obliged householders to serve when the concejo was summoned and made caballeros villanos of commoners who could keep a horse (Powers, 1988; The Code of Cuenca, tr. Powers, 2000). Armed townsmen fit the effect on Villagers; 'Supremacy' named nothing historical."
-relevance = "Town militias defended and settled the frontier for four centuries; their formalisation in 1476 gave the Catholic Monarchs order at home and soldiers for Granada."
+basis = "At the Cortes of Madrigal (1476) Isabella and Ferdinand set up the Santa Hermandad, a crown-controlled league of the towns of Castile, paid for by their contributions, with its own judges (alcaldes de hermandad) and paid squads (cuadrilleros) that policed roads and countryside; it raised men and money for the war of Granada, and its general organisation was wound up in 1498 (Lunenfeld, 1970). It grew out of the town brotherhoods (hermandades) that had policed roads and defended town rights since the 13th century (the Hermandad Vieja of Toledo, Talavera and Ciudad Real; the general hermandades of 1282–1315 and of the 1460s), and drew on the towns' long armed tradition under the frontier fueros (the Latin fuero of Sepúlveda, 1076; the Fuero de Cuenca, late 12th century), which obliged householders to serve and made caballeros villanos of commoners who kept a horse (Powers, 1988; The Code of Cuenca, tr. Powers, 2000). Armed townsmen fit the effect on Villagers; 'Supremacy' named nothing historical."
+relevance = "The crown's brotherhood of the towns (1476) gave the Catholic Monarchs order at home and men and money for Granada, resting on four centuries of armed town communities."
+contested = "How far the Hermandad continued the towns' militia tradition: it was a police and fiscal-military league of the towns, not the fuero militia itself, and the two coexisted, the towns' own contingents serving in the war of Granada beside the Hermandad's men (see the open question on RULES 6.3)."
 
 [[unique_tech]]
 name = "Bula de Cruzada"
@@ -168,16 +177,15 @@ basis = "Crusade privileges framed and paid for the Reconquista: popes granted c
 relevance = "The crusade bull financed the last war of the Reconquista and joined Castile's religious identity to its wars."
 
 [tree]
-add = ["Crossbowman", "Arbalester", "Siege Engineers", "Genitour", "Elite Genitour", "Mule Cart"]
+add = ["Crossbowman", "Arbalester", "Siege Engineers", "Genitour", "Elite Genitour"]
 remove = []
 
 [tree.basis]
 "Crossbowman" = "The crossbow was a central weapon of Christian Iberia: the frontier fueros gave privileges to the crossbowmen (ballesteros) of the concejo militias (Powers, 1988), and the Crown kept enrolled royal crossbowmen (ballesteros de nómina) in the 15th century, who served in the war of Granada; just after the window, Cortés still had 32 crossbowmen against 13 handgunners (1519, Bernal Díaz). Only the Spanish and the Bulgarians lack it today, though the Spanish already have mounted crossbowmen. Owner's decision."
 "Arbalester" = "Same basis as the Crossbowman: the foot crossbowman stayed central in Castilian armies and fleets until the end of the 15th century."
-"Siege Engineers" = "The war of Granada was a war of sieges (Ronda 1485, Málaga 1487, Baza 1489) with a large royal artillery train under Francisco Ramírez de Madrid (Cook, 1993); just after it, Pedro Navarro, serving Gonzalo Fernández de Córdoba, used gunpowder mines decisively at the Castel Nuovo of Naples (1503), building on Italian experiments of the 1490s. Owner's decision; its absence contradicted the civ's history."
+"Siege Engineers" = "The war of Granada was a war of sieges (Ronda 1485, Loja 1486, Málaga 1487) with a large royal artillery train under Francisco Ramírez de Madrid (Cook, 1993). At the end of the window, in Ferdinand's war for Naples, Pedro Navarro, serving Gonzalo Fernández de Córdoba, used gunpowder mines decisively at the Castel Nuovo of Naples (1503), building on Italian experiments of 1487–1495 and on his own mine at Cephalonia (1500). Owner's decision; its absence contradicted the civ's history."
 "Genitour" = "The jinete, the light horseman riding a la jineta (short stirrups, light lance, javelins and leather adarga), was the typical cavalry of the Granada frontier and a large part of the Catholic Monarchs' horse in the war of Granada (Ladero Quesada, 1967); 'genet' and 'genitour' passed into English and French. The style and the word came from the Zenata horsemen of Granada and North Africa (zenete > jinete). The jinete's main weapon was the lance, with javelins secondary; the Genitour, a javelin horseman that cannot fight at close range, is the closest existing unit. A regional unit (owner's decision) that does not count as a unique unit (RULES 6.1), trained at the Archery Range from the Castle Age as for the Berbers' allies, and renamed Jinete."
 "Elite Genitour" = "The Elite upgrade of the Jinete (Archery Range), for the same light horsemen."
-"Mule Cart" = "Castile's inland transport ran on pack mules and carts: muleteers (arrieros) drove mule trains (recuas) carrying wool from the shearing and washing places to Burgos and the Cantabrian ports, and timber, charcoal and iron ore to towns and forges, and the Crown organised the carters in the Cabaña Real de Carreteros (1497) (Phillips and Phillips, 1997). Mules were so widely used that a pragmática of 1499 ordered people to ride horses instead. A mobile dropsite for wood, stone, gold and hunted food abstracts these carriers. Given alongside the Lumber Camp and Mining Camp, not replacing them (see the open question)."
 
 [[rename]]
 from = "Genitour"
@@ -200,7 +208,7 @@ basis = "Castilian Romanesque, Gothic and Mudéjar building sits well in the Med
 [[dropped]]
 item = "Cannon Galleons fire more accurately at moving targets"
 kind = "bonus"
-reason = "Anachronistic: the galleon is a 16th-century ship, and Spanish naval gunnery was not noted for accuracy (the Armada of 1588: Martin and Parker, 1988). The medieval Castilian galley fleet was considered for the slot but left out for the six-bonus cap (see the open question on builders)."
+reason = "No basis for accurate Castilian naval gunnery: Castile's medieval fleets were galley squadrons (La Rochelle, 1372), and the Armada of 1588, after the window, fired more slowly than the English (Martin and Parker, 1988). The generic Cannon Galleon line stays in the tree as an abstraction of the armed naos and carracks of the late 15th century. The medieval Castilian galley fleet was considered for the slot but left out for the six-bonus cap (see the open question on builders)."
 
 [[dropped]]
 item = "Conquistador"
@@ -210,4 +218,4 @@ reason = "Outside the window and of the wrong type: the conquistadors belong to 
 [[dropped]]
 item = "Missionary"
 kind = "unique_unit"
-reason = "The missionaries of the Americas were mendicant friars on foot: the Franciscan Rule of 1223 forbade riding except in necessity or illness, and the first Twelve walked from Veracruz to Mexico in 1524; mounted missionaries appear only on the northern frontier of New Spain in the late 17th century (Kino). Owner's decision; the military orders now give the civ its religious cavalry (Freire)."
+reason = "The missionaries of the Americas were mendicant friars on foot: the Franciscan Rule of 1223 forbade riding except in necessity or illness, and the first Twelve walked from Veracruz to Mexico in 1524; mounted missionaries were the exception before the mission frontier of the late 17th century (Kino). Owner's decision; the military orders now give the civ its religious cavalry (Freire)."
