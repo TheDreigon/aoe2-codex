@@ -3,5 +3,6 @@ bin
 .directory
 /scripts/venv
 
-# aoe2-codex: ficheiros de trabalho locais (inclui textos de história da Microsoft)
+# aoe2-codex: local working files (includes Microsoft's history texts)
 /codex/.local/
+__pycache__/
