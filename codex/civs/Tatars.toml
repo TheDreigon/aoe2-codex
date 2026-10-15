@@ -2,36 +2,38 @@ civ = "Tatars"
 name = "Tatars"
 status = "draft"
 label = "Cavalry Archer civilization"
-summary = "Tatars refocused on the Golden Horde (Ulus of Jochi, 1242–1502) and separated from Timur, who devastated it: herds, seasonal camps, free Thumb Ring and Parthian Tactics and the Keshik (now shared with the Mongols) are kept; the wagon camps (araba), the yarlyk system that made the khans overlords of Rus' (Castle), the tamga trade tax (Town Center), the Mamluk alliance (team bonus), Islam and brick-built towns enter; the Timurid Flaming Camel and Timurid Siegecraft, Silk Armor, the unfounded elevation bonus, camels, guns and the ocean-going fleet leave."
+summary = "Tatars refocused on the Golden Horde (Ulus of Jochi, 1242–1502) and separated from Timur, who devastated it: herds, free Thumb Ring and Parthian Tactics and the Keshik (now shared with the Mongols) are kept; the Qipchaq horse-archer levy, the wagon camps (araba), the yarlyk system that made the khans overlords of Rus' (Town Center), the beglerbegs who led the Horde's armies (Castle), the tamga trade tax (Market), the Mamluk alliance (team bonus), Islam and the towns enter; the Timurid Flaming Camel and Timurid Siegecraft, Silk Armor, the elevation and Town Center sheep bonuses, camels, guns, the Fortified Wall and the ocean-going fleet leave."
 ideas = [
   "N3: A separate Timurid civ (1370–1507), or a Timurid phase of the Persians, with the Flaming Camel, Timurid Siegecraft and the elephants Timur took from Delhi and used at Ankara (1402).",
-  "N2: Ulan (oğlan) light lancer, after the title of the Chinggisid princes, which gave the Polish ułan and the European uhlan.",
-  "N2: Quyaq (Mongolian quyaγ, ‘armour’, the source of Russian kuyak): a lamellar-armour tech for the Horde's heavy cavalry, should a slot open for it.",
-  "N2: A Monastery tech for Özbeg's adoption of Islam as the state religion (1313), once an effect fits a state conversion better than the generic Monastery techs.",
+  "N2: Ulan light lancer, after oğlan, the title of the Horde's Chinggisid princes, a word that through the Lipka Tatars gave the Polish ułan and the European uhlan.",
+  "N2: A Monastery tech for Özbeg's adoption of Islam as the state religion (1313), once an effect fits a state conversion better than the generic Monastery techs (see open questions).",
   "N3: The ordu as a moving city: Town Centers that pack and move, as Ibn Battuta saw Özbeg's camp, which he likened to a city on the move with mosques and bazaars.",
   "N3: A “Steppe” architecture set shared with the Avars, Mongols and Cumans.",
 ]
 contested = [
   "“Golden Horde” (Zolotaya Orda) is a 16th-century Russian name (the Kazan History, 1560s); contemporaries spoke of the Ulus of Jochi, the Ulugh Ulus or the Desht-i Qipchaq, and “Tatar” is an exonym that moved from an eastern Mongolian confederation (destroyed in 1202) to the Mongols and then to the Turkic-speaking peoples of the Horde.",
   "That the Jochid khans kept a kheshig guard like the Yuan and the Ilkhans is likely but not directly documented.",
-  "Gunpowder: in 1376 the defenders of Bolghar on the Volga, then under the Horde, let loose “thunder” from the walls against the Russians (Rus' chronicles); whether these were guns is disputed, the first reliable mention of firearms in Rus' is Moscow's defence against Tokhtamysh in 1382 (Andrade 2016), and the firearms of Kazan and Crimea belong to successor khanates. This design therefore removes the Hand Cannoneer and the Bombard Tower.",
+  "Gunpowder: in 1376 the defenders of Bolghar on the Volga, then under the Horde, let loose “thunder” from the walls against the Russians (Rus' chronicles); whether these were guns is disputed. The first reliable mention of firearms in Rus' is Moscow's defence against Tokhtamysh in 1382, when the townsmen fired tyufyaki and pushki from the walls (the chronicle tale of Tokhtamysh's invasion; A. N. Kirpichnikov, Voennoe delo na Rusi v XIII–XV vv., 1976). The firearms of Kazan and Crimea belong to successor khanates, and none are securely recorded for the Great Horde itself (at the Ugra in 1480 the guns were Muscovy's). This design therefore removes the Hand Cannoneer and the Bombard Tower.",
   "How heavy the Rus' tribute was and how far Muscovite institutions grew out of the Horde's (C. Halperin, 1985; D. Ostrowski, 1998) are debated; the khans' patents to the Russian Church survive only in later Russian translations.",
   "The relative weight of the Black Death (U. Schamiloglu) and of Timur's campaigns of 1391 and 1395 in the Horde's decline.",
   "The identification of Sarai Batu, Sarai Berke and Sarai al-Jadid, and which khan moved the capital.",
   "The presence of Genoese infantry in Mamai's army at Kulikovo (1380).",
+  "The Flaming Camel stratagem at Delhi (1398) is reported in Timurid and later narratives whose earliest attestation is uncertain: the Persians' design traces it to Nizam al-Din Shami's Zafarnama (1404), the analysis to the later Malfuzat-i Timuri, and the Timurid chroniclers stress ditches, tethered buffaloes and caltrops.",
 ]
 open_questions = [
   "Displayed name: “Tatars” is the name contemporaries used in Rus', Latin and Mamluk sources, the game's name and the name the Horde's Turkic-speaking heirs came to bear; “Golden Horde” is the most familiar but a Muscovite coinage of the 1560s; “Jochids” or “Ulus of Jochi” is the contemporary dynastic term; “The Horde” is M. Favereau's choice (2021), which avoids the anachronistic “Golden”. The representation theme lists “Tatars → Golden Horde” for debate. This draft keeps “Tatars”, which avoids an anachronism as the project's naming decisions do (RULES section 4) while the site shows the entity; rename?",
-  "Keshik: shared with the Mongols (this draft) or Mongol-only, with the Tatars getting another unit? The Kipchak would be the obvious alternative (al-Umari says the Mongols of the Horde mixed with the Qipchaqs and became like them), but it would be its sixth holder (Cumans; Georgians; the Hindustanis' Ghulam and the Saracens' Mamluk on its model; Bulgarians through Cuman Alliance), so it is not recommended.",
-  "Mule Cart as the Araba: alongside the Lumber and Mining Camps (this draft, as the Portuguese, Castilian and Ethiopian drafts do) or replacing them (as for the Armenians and Georgians)? Should the Mongols (Rubruck's carts) and the Cumans (the vezhi of the Rus' chronicles) share it? The owner may want one Mule Cart policy for all civs.",
-  "Regional navy rule (same question in the Avars, Cumans and Tatars files): peoples without a seagoing war fleet keep the Galley-line to War Galley, the Fire Ship, the Hulk-line (the game's generic melee warship) and demolition ships, and lose the Galleon tier and every siege warship, as several other regions' designs now do (e.g. the Khitans, the Malians and the American civs). On water maps coastal buildings then fall only to galleys, demolition ships and landed siege. Keep the rule?",
-  "Hussar (a 15th-century Hungarian word) is kept as the game-wide name for the top light cavalry. Rename it per civ for the Tatars and Cumans as “Qazaq” (a Turkic word first recorded in the Codex Cumanicus, compiled in the Horde's lands; later ‘free man, freebooter’, the light raiding horseman of the late steppe, and the source of “Cossack”)?",
-  "Slots: the Yarlyk sits at the Castle as a royal act (the khan's patent) and the Tamga at the Town Center as a state tax. If the owner reads the yarlyk as government, it could move to the Town Center and the Tamga to the Market, but the Castle would then need a military tech (e.g. the Quyaq idea, a weak detail). The Yarlyk also shares Burgundian Vineyards with four other designs (Burgundians, Aztecs, Berbers, Persians), all for tribute or land tax. Accept?",
+  "Unique unit: the Keshik, shared with the Mongols, stands for the armoured elite of the khans' and begs' households; its name is that of the Chinggisid guard, which is likely but not directly documented for the Jochids. The Kipchak is better grounded for the Horde's army as a whole (al-Umari: the Mongols of the Horde mixed with the Qipchaqs and became like them; its hosts were Qipchaq horse archers), and the only case against it is sharing, a design matter: the Tatars would be the model's sixth holder (Cumans; Georgians; the Saracens' Mamluk and the Hindustanis' Ghulam on its model; the Bulgarians through Cuman Alliance). Keep the Keshik, rename it for the Tatars, or switch to the Kipchak?",
+  "Power budget against the current civ: gains are the Araba beside the camps, the Yarlyk (Burgundian Vineyards), the Tamga (+25% trade gold), cheaper Cavalry Archers (the Qipchaq levy), the Beglerbeg (Mounted Units -20% population space), Faith, Sanctity and Architecture; losses are the elevation and Town Center sheep bonuses, the Flaming Camel, Silk Armor, Timurid Siegecraft, the Hand Cannoneer, the Bombard Tower, the camels, the Fortified Wall, the Galleon tier and the Cannon Galleons. The economy has four elements (Livestock, Araba, Yarlyk, Tamga) and the army three new ones. Trim options: let the Araba replace the Lumber and Mining Camps (the Armenian and Georgian pattern), drop the levy passive and restore the sheep, or give the Castle Silk Armor back as “Quyaq” (level 1) instead of the Beglerbeg. Accept this balance?",
+  "Mule Cart as the Araba: alongside the Lumber and Mining Camps (this draft, as the Portuguese, Castilian and Ethiopian drafts do) or replacing them, as the game does for the Armenians and Georgians? Replacing them would also trim the economy (see the power budget). The Mongols' and Cumans' files leave the Mule Cart out and ask the same question; the owner may want one Mule Cart policy for all civs.",
+  "Islam: Özbeg's adoption of Islam as the state religion (1313) shaped the identity of the Horde's heirs (the Volga, Crimean and Siberian Tatars), but it is carried only by the tree (Faith, Sanctity) and an N2 idea: no existing effect expresses a state conversion better than the generic Monastery techs, and a fourth unique tech would bring the civ to 4 + 4 = 8 slots and add power to a design already rebalanced. Add one anyway, as a level-2 Monastery tech with an existing religious effect?",
+  "Trade: the Tamga's “Trade Units generate +25% gold” is also the Mongols' and the Castilians' team bonus, and the separate effects stack: a Tatar and a Mongol player on one team would have +50% trade gold (+75% with a Castilian ally). Accept the stacking, or give the Tamga another existing effect (same question in the Mongols' file)?",
+  "Regional navy rule (same question in the Avars, Cumans and Tatars files): peoples without a seagoing war fleet keep the Galley-line to War Galley, the Fire Ship, the Hulk-line (the game's generic melee warship) and demolition ships, and lose the Galleon tier and every siege warship. The Khitans' design applies the same rule; the Maya, Inca and Mapuche designs drop the Galleon, the Carrack and the Catapult Galleon but keep the Fast Fire Ship, and the Malians drop only the Cannon Galleon. On water maps coastal buildings then fall only to galleys, demolition ships and landed siege. Keep the rule, and make it one rule for all such civs?",
+  "Hussar (a 15th-century Hungarian word) is kept as the game-wide name for the top light cavalry. Rename it per civ for the Tatars and Cumans as “Qazaq” (a Turkic word first recorded in the Codex Cumanicus, compiled in the Horde's lands, whose exact sense there is uncertain; later ‘free man, freebooter’, the light raiding horseman of the late steppe, and the source of “Cossack”)?",
 ]
 
 [profile]
 entity = "Ulus of Jochi (the “Golden Horde”), to the fall of the Great Horde"
-region = "Pontic-Caspian steppe (Desht-i Qipchaq), the Volga, Crimea and northern Khwarezm; overlord of the Rus' principalities"
+region = "Pontic-Caspian steppe (Desht-i Qipchaq), the Volga, Crimea and northern Khwarezm, with the left wing (Orda's ulus) reaching the Irtysh and the Syr Darya; overlord of the Rus' principalities"
 window = "1242–1502"
 sources = [
   "William of Rubruck, Itinerarium (1253–1255; trans. P. Jackson, 1990)",
@@ -41,6 +43,7 @@ sources = [
   "Rus' chronicles (Laurentian, Novgorod First, Rogozh, Nikon); the khans' patents (yarlyks) to the Russian metropolitans",
   "C. J. Halperin, Russia and the Golden Horde (1985)",
   "D. Ostrowski, Muscovy and the Mongols (1998)",
+  "U. Schamiloglu, “The Qaraçi Beys of the Later Golden Horde: Notes on the Organization of the Mongol World Empire”, Archivum Eurasiae Medii Aevi 4 (1984)",
   "R. Amitai-Preiss, Mongols and Mamluks: The Mamluk-Ilkhanid War, 1260–1281 (1995)",
   "G. A. Fedorov-Davydov, The Culture of the Golden Horde Cities (1984)",
   "I. Vásáry, Cumans and Tatars (2005)",
@@ -58,14 +61,14 @@ basis = "Rubruck (1253) and Ibn Battuta (1332–1333) describe immense herds of 
 relevance = "Pastoral nomadism was the economic base and the way of life of the Horde's ruling people throughout its history."
 
 [[bonus]]
-text = "New Town Centers spawn 2 Sheep starting in Castle Age"
-kind = "economic"
+text = "Cavalry Archers cost -10/20% in Castle/Imperial Age"
+kind = "military"
 level = 1
-change = "kept"
-precedent = "New Town Centers spawn 2 Sheep starting in Castle Age (Tatars)"
-basis = "The camps moved with their flocks between pastures: Rubruck (1253) saw Batu's camp move up the Volga in the first half of the year and turn back in August, and Ibn Battuta travelled with Özbeg's moving camp (1332–1333). A new camp was first of all a new pasture. An abstraction."
-relevance = "Seasonal migration with the herds structured the life of the Horde's nomads; this kept game abstraction expresses it at each new camp."
-contested = "The link between new Town Centers and sheep is a game convention; the analysis rates it an abstraction."
+change = "new"
+replaces = "New Town Centers spawn 2 Sheep starting in Castle Age"
+precedent = "Cavalry Archers cost -10/20% in Castle/Imperial Age (Huns; also in the Avars', Rus' and Hindustanis' designs)"
+basis = "The Horde's armies were levies of the Qipchaq nomads under a Mongol elite: al-Umari (c. 1340) says that the Mongols who took the Desht-i Qipchaq mixed and intermarried with the Qipchaqs, their subjects, until they became like them, as if of one race, and from Nogai's campaigns in the 1280s to Tokhtamysh's and Edigu's every Horde host was a mass of Qipchaq horse archers. The nomads served with their own horses and bows, as Carpini describes for the Mongol armies of the 1240s, so the khan's archers cost him little. A structural trait, so a passive bonus (RULES 6.2). It replaces the Town Center sheep bonus, a game abstraction of seasonal migration that added nothing to the herds and wagon camps the other passives already express (RULES 6.9)."
+relevance = "The levy of the Qipchaq steppe gave the Horde its armies for two and a half centuries, from Batu's conquests to the Vorskla."
 
 [[bonus]]
 text = "Thumb Ring, Parthian Tactics free"
@@ -77,14 +80,14 @@ basis = "The thumb draw and shooting backwards in feigned flight were the Horde'
 relevance = "Horse archery and the feigned retreat won the Horde its battles, from the conquest of Rus' to the Vorskla."
 
 [[bonus]]
-text = "Can build Arabas (mobile dropsites) in addition to Lumber Camps and Mining Camps"
+text = "Can build Arabas"
 kind = "economic"
 level = 1
 change = "new"
 precedent = "Mule Cart: unique mobile dropsite (Armenians, Georgians); Start with a Mule Cart (Georgians); the form of “Can build Caravanserai in Imperial Age” (Hindustanis, Persians)"
-basis = "Crossing the Jochid steppe in 1253, Rubruck saw felt houses carried whole on carts, one drawn by 22 oxen, and rich households with a hundred or two hundred carts; Ibn Battuta (1332–1333) travelled in the horse-drawn wagons the people of the Qipchaq steppe called ʿaraba, and likened Özbeg's camp to a city on the move, with mosques and bazaars (Rihla, trans. Gibb, vol. 2, 1962; quoted in R. E. Dunn, The Adventures of Ibn Battuta, 1986, p. 167). The Mule Cart, renamed, is the game's existing mobile camp."
-relevance = "The wagon camp (ordu) was the setting of the Horde's life and of the khan's court, and gave the Horde its European name."
-contested = "Wagon dwellings were shared by all Pontic nomads (Rubruck's “Tartars” in general; the Polovtsian vezhi of the Rus' chronicles), so the Araba is not unique to the Horde."
+basis = "Rubruck, describing the Tartars he travelled among from the Crimea onwards (1253), saw felt houses carried whole on carts, one drawn by 22 oxen, and rich households with a hundred or two hundred carts; Ibn Battuta (1332–1333) travelled in the horse-drawn wagons the people of the Qipchaq steppe called ʿaraba, and likened Özbeg's camp to a city on the move, with mosques and bazaars (Rihla, trans. Gibb, vol. 2, 1962; R. E. Dunn, The Adventures of Ibn Battuta, 1986, p. 167). The Mule Cart, renamed, is the game's existing mobile camp; it stands beside the Lumber and Mining Camps (see the tree basis and open questions)."
+relevance = "The khan's moving camp (ordu, the origin of the word horde), carried on wagons (araba), was the setting of the Horde's life and court."
+contested = "Wagon dwellings were shared by all Pontic nomads (the Polovtsian vezhi of the Rus' chronicles; Rubruck's description covers the Tartars in general), so the Araba is not unique to the Horde."
 
 [team_bonus]
 text = "Mounted Archers train +25% faster"
@@ -102,49 +105,63 @@ model = "Keshik"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "Armoured lancers fought beside the horse archers in the Horde's armies, as in all Mongol armies, men and horses protected by lamellar of hardened leather or iron (Carpini, 1247). The name is that of the Chinggisid guard (kheshig), which the Yuan and the Ilkhans kept; a Jochid guard is likely but not directly documented, so it is only the origin of the name. Now shared with the Mongols, where the institution began; the gold earned in combat stands for booty."
-relevance = "Heavy cavalry was the second arm of every Horde army beside the horse archers, and the striking force of its khans."
-contested = "A Jochid kheshig is plausible but not directly documented (see the civ-level contested list)."
+basis = "The armoured horsemen of the khans' and begs' households fought beside the Qipchaq horse archers. Carpini, who crossed Batu's lands in 1246–1247, describes the lancers and the lamellar armour of hardened leather or iron that protected the richer warriors and their horses, a description that covers the Horde's founding army; the khans kept a Mongol military elite of princes (oghlans) and begs over the Qipchaq levies for two centuries (Vásáry 2005). The name is that of the Chinggisid guard (kheshig), documented for the Yuan and the Ilkhans; a Jochid guard is likely but not directly documented, so the name stands for the institution's model rather than a recorded Jochid corps. Shared with the Mongols; the gold earned in combat stands for booty."
+relevance = "The armoured Mongol elite of the khans' and begs' households led the Horde's Qipchaq levies in every campaign, from Batu's to Edigu's, and took the lion's share of the booty."
+contested = "A Jochid kheshig is plausible but not directly documented (civ-level contested list); the Kipchak alternative is an open question."
 
 [[unique_tech]]
 name = "Yarlyk"
-building = "Castle"
+building = "Town Center"
 kind = "civil"
 age = "Castle"
 effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
-precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians): an existing unique tech, shared and renamed with an identical effect and age; the Aztecs', Berbers' and Persians' drafts share it for tribute and land taxes"
-basis = "The khan's patent (yarlyk) made and unmade the princes of Rus': Yaroslav Vsevolodovich received the seniority from Batu in 1243 and Alexander Nevsky the throne of Vladimir in 1252, while princes who displeased the khan were put to death at his camp (Mikhail of Chernigov 1246, Mikhail of Tver 1318). In return the khans took the tribute (vykhod): the censuses of 1257–1259 registered the population for tribute and levy (Laurentian and Novgorod chronicles); Muslim tax-farmers collected it until the risings of 1262 and baskaks oversaw it into the early 14th century, after which the grand princes delivered it themselves, which made the fortune of Moscow (Halperin 1985; Ostrowski 1998). The khans' patents to the Church, known from Russian translations from Mengu-Temür's of 1267 onwards, list a plough tax among the levies they spared: gold from farmers abstracts tribute raised from a farming population. The khan's own act, so the Castle (RULES 6.2: royal)."
+precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians): an existing unique tech, moved, shared and renamed with an identical effect and age; the Aztecs (Calpixqueh), Berbers (Taksir) and Persians (Kharaj) share it at the Town Center for tribute and land taxes, and the Bengalis' design uses it as a passive"
+basis = "The khan's patent (yarlyk) made and unmade the princes of Rus': Yaroslav Vsevolodovich received the seniority from Batu in 1243 and Alexander Nevsky the throne of Vladimir in 1252, while princes who displeased the khan were put to death at his camp (Mikhail of Chernigov 1246, Mikhail of Tver 1318). In return the khans took the tribute (vykhod): the censuses of 1257–1259 registered the population for tribute and levy (Laurentian and Novgorod chronicles); Muslim tax-farmers collected it until the risings of 1262 and baskaks oversaw it into the early 14th century, after which the grand princes delivered it themselves, which made the fortune of Moscow (Halperin 1985; Ostrowski 1998). The khans' patents to the Church, known from Russian translations from Mengu-Temür's of 1267 onwards, list a plough tax among the levies they spared: gold from farmers abstracts tribute raised from a farming population. Government and taxation of the subject principalities, so the Town Center (RULES 6.2), where the project's other tribute and land-tax techs also sit."
 relevance = "The yarlyk system made the khans overlords of Rus' for over two centuries and decided the rise of Moscow."
 contested = "See the civ-level contested list on the weight of the tribute and the transmission of the patents."
 
 [[unique_tech]]
 name = "Tamga"
-building = "Town Center"
+building = "Market"
 kind = "civil"
 age = "Imperial"
 effect = "Trade Units generate +25% gold"
 level = 2
 change = "new"
 precedent = "Trade Units generate +25% gold (Spanish team bonus): a new tech with an existing effect, so level 2. No existing tech is a tax on trade: Silk Road (Trade Units cost -50%) would contradict a tax, and it is the Italians' Commenda."
-basis = "The tamga was the Mongol tax on commerce. In the Horde it was levied at Sarai and on the trade of the ports the khans let the Italians hold (Caffa from the 1260s, Tana from 1332), and the khans' patents to the Church, from Mengu-Temür's of 1267 onwards, name it among the levies the clergy were spared. Pegolotti (c. 1340) judged the road from Tana to Cathay safe by day and by night, even its worst stretch, Tana to Sarai, for a company of about sixty men (trans. Yule, Cathay and the Way Thither, vol. III, 1914); the Russian word for customs, tamozhnya, comes from tamga (Favereau 2021). A state tax, so the Town Center (RULES 6.2); Imperial Age for the trade boom of the 14th century."
-relevance = "Taxing the northern Silk Road and the Italian Black Sea trade made Sarai an emporium and paid for the khans' state."
+basis = "The tamga was the Mongol tax on commerce. In the Horde it was levied at Sarai and on the trade of the ports where the khans let the Italians hold colonies and quarters (Caffa, traditionally from the 1260s; Tana from 1332), and the khans' patents to the Church, from Mengu-Temür's of 1267 onwards, name it among the levies the clergy were spared. Pegolotti (c. 1340), relaying merchants' reports, called the road from Tana to Cathay safe by day and by night, and even its worst stretch, Tana to Sarai, safe for a company of about sixty men (trans. Yule, Cathay and the Way Thither, vol. III, 1914); the Russian word for customs, tamozhnya, comes from tamga (Favereau 2021). A tax on trade, so the Market (RULES 6.2), and an institution distinct from the Rus' tribute, so a third tech (RULES 6.3); Imperial Age for the trade boom of the 14th century."
+relevance = "Taxing the trade of Sarai and of the Italian Black Sea ports was one of the main revenues of the khans' state."
+
+[[unique_tech]]
+name = "Beglerbeg"
+building = "Castle"
+kind = "military"
+age = "Imperial"
+effect = "Mounted Units take -20% population space"
+level = 1
+change = "new"
+precedent = "Aznauri Cavalry (Mounted Units take -20% population space) (Georgians): an existing unique tech, shared and renamed with an identical effect, building and age; the Georgians' design turns it into a passive and the Rus' design shares it as Pomest'e"
+basis = "In the 14th century the Horde's army and government were led by four great begs, the first of whom, the beglerbeg (‘bey of beys’, Arabic amir al-umara), commanded the host (Schamiloglu 1984). After Berdibeg's death (1359) beglerbegs ruled through khans of their own choosing: Mamai, whom the Rus' chronicles call a temnik, sent Begich to the Vozha (1378) and led the Horde at Kulikovo (1380), and Edigu, with Temür Qutlugh, won the Vorskla (1399) and besieged Moscow (1408) (Vásáry 2005; Favereau 2021). Lower population space abstracts the begs' mounted tümens, whose riders came with their own remounts and provisions; the effect is the Georgians' noble-cavalry tech. A datable office of command, so the Castle (RULES 6.2); Imperial Age for the 14th century."
+relevance = "The beglerbegs commanded the Horde's armies and, from Mamai to Edigu, ruled the Horde itself in its last great century."
+contested = "When the office took its classic form (under Özbeg or only in the later 14th century) and how far the four-beg system goes back to the Mongol empire are debated; the population effect abstracts the begs' hosts, not the office itself."
 
 [tree]
 add = ["Mule Cart", "Faith", "Sanctity", "Architecture"]
-remove = ["Camel Rider", "Heavy Camel Rider", "Hand Cannoneer", "Bombard Tower", "Galleon", "Fast Fire Ship", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Cannon Galleon", "Elite Cannon Galleon"]
+remove = ["Camel Rider", "Heavy Camel Rider", "Hand Cannoneer", "Bombard Tower", "Fortified Wall", "Galleon", "Fast Fire Ship", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Cannon Galleon", "Elite Cannon Galleon"]
 
 [tree.basis]
-"Mule Cart" = "Added and renamed Araba (see the bonus): the Horde's wagon camps. It stands beside the Lumber and Mining Camps instead of replacing them."
+"Mule Cart" = "Added and renamed Araba (see the bonus): the Horde's wagon camps. It stands beside the Lumber and Mining Camps instead of replacing them (see open questions)."
 "Faith" = "Islam became the Horde's state religion under Özbeg (from 1313), after Berke's personal conversion before his reign (1257–1266); the khans also protected the Orthodox Church, with a bishopric at Sarai from 1261."
 "Sanctity" = "As Faith: the mosques, madrasas and Sufi lodges of Sarai, Bolghar and Solkhat, where Özbeg's mosque was built in 1314."
-"Architecture" = "The Horde built cities: Sarai and Sarai al-Jadid on the lower Volga, with brick palaces and mosques faced with glazed tiles, a revived Bolghar, and Azak, Hajji Tarkhan and Solkhat (G. A. Fedorov-Davydov, The Culture of the Golden Horde Cities, 1984); with the Timurid builders gone, Architecture stands for this urban building. The Keep is not added, since the Horde defended its realm with field armies rather than fortresses."
+"Architecture" = "The Horde built and rebuilt cities: Sarai and Sarai al-Jadid on the lower Volga, a revived Bolghar, Azak, Hajji Tarkhan and Solkhat, with palaces and mosques of fired brick and glazed tile at Sarai and Urgench and of cut stone at Bolghar and Solkhat (G. A. Fedorov-Davydov, The Culture of the Golden Horde Cities, 1984); Architecture stands for this urban building."
+"Fortified Wall" = "The Horde defended its realm with field armies rather than fortresses, and most of its towns were unwalled until the troubles of the later 14th century, when some received ramparts (Fedorov-Davydov 1984). The Stone Wall and the Guard Tower stand for those late defences; the top tiers, the Fortified Wall and the Keep (which the Tatars already lack), are left out."
 "Camel Rider" = "Camels carried baggage and caravan goods in the Horde and Khwarezm; there is no record of camel cavalry."
 "Heavy Camel Rider" = "As Camel Rider."
-"Hand Cannoneer" = "No firearms are recorded in the Horde's own armies: the “thunder” of Bolghar (1376) is a disputed reading, the first reliable mention of firearms in Rus' is Moscow's defence against Tokhtamysh in 1382, by the Russians (Andrade 2016), and the guns of Kazan and Crimea belong to successor khanates outside the entity (RULES 6.12)."
+"Hand Cannoneer" = "No firearms are securely recorded in the Horde's own armies: the “thunder” of Bolghar (1376) is a disputed reading, the first reliable firearms in Rus' were Moscow's, against Tokhtamysh in 1382, and the guns of Kazan and Crimea belong to successor khanates outside the entity (RULES 6.12), while none are securely recorded for the Great Horde (at the Ugra in 1480 the guns were Muscovy's)."
 "Bombard Tower" = "As Hand Cannoneer: no gun towers are recorded in the Horde's towns."
-"Galleon" = "The Horde had no war fleet: the Black Sea and Azov ports were held by Genoese and Venetians, and its wars were fought on land and across rivers. The Tatars keep a basic river and coastal navy: Galley-line to War Galley, Fire Ship, the Hulk-line as the game's generic melee warship, and demolition ships."
+"Galleon" = "The Horde had no war fleet: the khans let Genoese and Venetians hold colonies and quarters in their ports (Caffa, Tana) and kept their own customs officials there, and its wars were fought on land and across rivers. The Tatars keep a basic river and coastal navy: Galley-line to War Galley, Fire Ship, the Hulk-line as the game's generic melee warship, and demolition ships."
 "Fast Fire Ship" = "As Galleon."
 "Carrack" = "As Galleon: no ocean-going ships."
 "Galleon, Fast Fire Ship and Carrack" = "Nothing left to upgrade once the three ships are removed."
@@ -161,7 +178,7 @@ basis = "Ibn Battuta's word (ʿaraba) for the horse-drawn wagons of the Qipchaq 
 set = "Central Asian"
 level = 1
 change = "kept"
-basis = "The Horde's towns (Sarai, Bolghar, Solkhat and Urgench in Khwarezm) were built in fired brick with glazed tilework in the Khwarezmian and Iranian tradition, which the Central Asian set approximates; a Steppe set would fit the wagon camps (N3)."
+basis = "The Horde's towns used fired brick and glazed tile at Sarai and Urgench, in the Khwarezmian and Iranian tradition, and cut stone at Bolghar and Solkhat (Fedorov-Davydov 1984); the Central Asian set approximates the brick-and-tile towns, and a Steppe set would fit the wagon camps (N3)."
 
 [[dropped]]
 item = "Units deal +25% damage when fighting from higher elevation"
@@ -171,14 +188,14 @@ reason = "Unfounded: the advantage of high ground is universal, and steppe warfa
 [[dropped]]
 item = "Flaming Camel"
 kind = "unique_unit"
-reason = "A Timurid unit: Timur's stratagem against the elephants of Delhi (17 December 1398), known mainly from the Malfuzat-i Timuri, a later pseudo-memoir of doubtful authenticity (trans. in Elliot and Dowson, History of India, vol. 3, 1871); the Timurid chronicles stress ditches, tethered buffaloes and caltrops. Timur devastated the Horde in 1391 and 1395, so it has no place here; it is left for a Timurid civ or a Timurid phase of the Persians."
+reason = "A Timurid unit: Timur's stratagem against the elephants of the Delhi sultanate (17 December 1398), reported in Timurid and later narratives whose earliest attestation is uncertain (civ-level contested list; the Malfuzat-i Timuri, a later pseudo-memoir of doubtful authenticity, is translated in Elliot and Dowson, History of India, vol. 3, 1871); the Timurid chroniclers stress ditches, tethered buffaloes and caltrops. Timur devastated the Horde in 1391 and 1395, so it has no place here; it is left for a Timurid civ or a Timurid phase of the Persians."
 
 [[dropped]]
 item = "Silk Armor"
 kind = "unique_tech"
-reason = "Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor. Dropped for relevance (RULES 6.9): one armour type, common to every steppe army and described for the Mongol armies of the 1240s rather than for the Horde (Carpini), is a detail beside the Horde's weightier institutions, and its name rests on a modern myth (silk shirts that helped draw out arrows), first found in M. Prawdin, Tschingis-Chan: der Sturm aus Asien (1934). Its Castle slot goes to the Yarlyk; a Quyaq armour tech stays an N2 idea."
+reason = "Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor. Dropped for relevance (RULES 6.9): one armour type, common to every steppe army (Carpini describes it for the Mongol armies of the 1240s, Batu's included), is a detail beside the Horde's weightier institutions, and the armoured elite is already the Keshik's; its name rests on a modern myth (silk shirts that helped draw out arrows), first found in M. Prawdin, Tschingis-Chan: der Sturm aus Asien (1934). The power-budget question offers it back as “Quyaq” (Mongolian quyaγ, ‘armour’, the source of Russian kuyak)."
 
 [[dropped]]
 item = "Timurid Siegecraft"
 kind = "unique_tech"
-reason = "Trebuchets +2 range. Timur's siegecraft (Urgench 1388, Baghdad 1401, Smyrna 1402) belonged to the Horde's enemy and devastator. Left for region 07 or a future Timurid civ (the Persians' draft declines it, and the Mongols' open question offers it as Huihui Pao); its slot goes to the Tamga."
+reason = "Trebuchets +2 range. Timur's siegecraft (Urgench 1388, Baghdad 1401, Smyrna 1402) belonged to the Horde's enemy and devastator. Left for region 07 or a future Timurid civ (the Persians' draft declines it, and the Mongols' open question offers it as Huihui Pao); its Imperial Castle slot goes to the Beglerbeg."

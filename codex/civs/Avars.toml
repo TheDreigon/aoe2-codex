@@ -2,28 +2,32 @@ civ = "Huns"
 name = "Avars"
 original_name = "Huns"
 status = "draft"
-label = "Cavalry Archer and Siege civilization"
-summary = "Huns redesigned as the Avar Khaganate (567–796), the people Frankish sources still called “Huns”: houseless camps, cheap horse archers, the Tarkan and Marauders are kept; the trebuchet bonus becomes a cost bonus for the traction trebuchet the Avars brought to Thessalonica and Constantinople; Byzantine tribute becomes the Town Center tech and Fredegar's Slav levies (befulci) a passive; the team bonus now rests on the Avar cavalry kit, stirrups included, that the Romans adopted; Atheism, the Nomadic-map horse, the Dromon and the Galleon leave."
+label = "Cavalry civilization"
+summary = "Huns redesigned as the Avar Khaganate (567–796), the people Frankish sources still called “Huns”: houseless camps, cheap horse archers, the Tarkan, Marauders and the owner's trebuchet-accuracy bonus, now on the traction trebuchet the Avars brought to Thessalonica and Constantinople, are kept; Byzantine tribute becomes the Town Center tech and the Slav levies a passive; the team bonus rests on the Avar cavalry kit the Romans adopted; Atheism, the Nomadic-map horse, the Dromon and the Galleon leave."
 ideas = [
   "N3: A “Steppe” architecture set shared with the Mongols, Tatars and Cumans (RULES 6.15); Eastern European is only a stopgap.",
   "N2: An Avar lancer-archer unique unit that switches between bow and lance, as the Strategikon (XI.2) describes Avar horsemen (lance on the shoulder, bow in the hand); mechanic as the Bengali Ratha.",
   "N3: The Ring (hring): the khagan's fortified residence and treasury, captured by the Franks in 795–796, as a unique fortification that stores gold (Royal Frankish Annals; Einhard, Life of Charlemagne 13).",
   "N2: Slavic dugout boats (monoxyla) as a river fleet replacing the Galley-line, as at Constantinople in 626.",
   "N2: Ransom of captives as gold from enemy Villagers taken by mounted units: Avar raids carried off Roman captives by the thousand, and the khagans offered them back for ransom.",
-  "N3: Regional names for the generic ladder (Hussar, Halberdier, Petard) for a 6th–8th-century people.",
+  "N3: A late-antiquity chronological ceiling for the Avars, as the Goths' design proposes: the Petard (a 16th-century gunpowder charge), the Halberdier and the Hussar have no equivalent in a 6th–8th-century army, and RULES 6.10 asks to replace or remove such items rather than rename them; no Avar names are documented that would allow an N1 rename instead.",
 ]
 contested = [
   "Avar origins: Theophylact (VII.7–8) calls the European Avars “Pseudo-Avars” who usurped a prestigious name; their link with the Rouran khaganate is debated, but ancient DNA shows that the early Avar elite arrived recently from north-east Asia (G. A. Gnecchi-Ruscone et al., Cell, 2022).",
-  "Whether the Avars brought the traction trebuchet from the steppe (ultimately from China) or learned it from the Byzantines; the Thessalonica siege is dated 586 or 597 (S. McCotter, Byzantines, Avars and the Introduction of the Trebuchet, 2003; G. T. Dennis, “Byzantine Heavy Artillery: The Helepolis”, GRBS 39, 1998).",
-  "The Avars are usually credited with bringing the stirrup to Europe (first European mention in the Strategikon, c. 600), but the dating of the earliest Avar-age stirrups is debated (F. Curta, in The Other Europe in the Middle Ages, 2008), and so is the military weight of the stirrup itself (the Lynn White thesis).",
-  "Avar ranks (khagan, iugurrus, tudun, tarkhan) are known from a handful of words in Byzantine and Frankish texts and from modern lists; the tudun is attested in the Royal Frankish Annals (795–796, 811), the Avar tarkhan only thinly, and their functions are unclear (Pohl 2018).",
-  "The meaning of Fredegar's befulci, and how literary his picture of the Slavs' exploitation is; Samo's revolt is dated to Chlothar II's 40th year (623/624), and its success is often linked to the Avar failure of 626.",
-  "Tribute figures and dates differ between sources (the rise to 100,000 solidi in 584 or 585; the 120,000 of c. 598–600; the 200,000 of 623/624).",
+  "Whether the Avars brought the traction trebuchet from the steppe (ultimately from China) or learned it from the Byzantines; the first Avar-Slav siege of Thessalonica is dated 586 or 597 (S. McCotter, Byzantines, Avars and the Introduction of the Trebuchet, 2003; G. T. Dennis, “Byzantine Heavy Artillery: The Helepolis”, GRBS 39, 1998).",
+  "Theophylact (II.16) says that a captured Roman soldier, Busas, taught the Avars to build a siege engine (helepolis), with which they took Appiaria in 587, the first time they used siege machinery; what the device was (ram, tower or stone-thrower), the story's reliability and its conflict with a 586 date for the Thessalonica siege are debated (Dennis 1998), so the design does not rest on it.",
+  "Archbishop John contrasts the inaccurate rope-pulled engines of the Avars with the Roman torsion artillery (Miracles of St Demetrius I, as read by McCotter 2003), and the sources stress the number of the engines and the size of their stones rather than their aim: the accuracy effect of the trebuchet bonus follows the owner's decision, not the sources (see open questions).",
+  "The Avars are usually credited with bringing the stirrup to Europe (first European mention in the Strategikon, c. 600, which does not call the stirrups Avar), but the dating of the earliest Avar-age stirrups is debated (F. Curta, in The Other Europe in the Middle Ages, 2008), and so is the military weight of the stirrup itself (the Lynn White thesis).",
+  "Avar ranks (khagan, iugurrus, tudun, tarkhan) are known from a handful of words in Byzantine and Frankish texts; the tudun is attested in the Royal Frankish Annals (795–796, 811), and the functions of most ranks are unclear (Pohl 2018). Whether the title tarkhan is Turkic or East Iranian in origin is disputed.",
+  "The meaning of Fredegar's befulci: Fredegar explains it by the Slavs' place in front of the Avars in battle, while A. Mayer derived it from a Slavic byvolci, ‘buffalo drivers’ of the supply train, which Fredegar misunderstood, and others suggest an Avar word (Kusternig); Fredegar's picture of the Slavs' exploitation is one-sided. How large a share of the khaganate's people were Slavs, and how far archaeology can tell them apart from Avars, Gepids and Romanised provincials, is also debated. Samo's revolt is dated to Chlothar II's 40th year (623/624), and its success is often linked to the Avar failure of 626.",
+  "Tribute figures and dates differ between sources (the rise to 100,000 solidi in 584 or 585; the 120,000 of c. 598–600; the 200,000 of 623/624), and so do readings of what followed 626: a numismatic study finds payments resumed on a smaller scale in the 680s (A. Zapolska, Notae Numismaticae, 2017).",
 ]
 open_questions = [
-  "Trebuchet bonus (owner's decision kept, effect changed): the bonus stays on the Avars' traction trebuchet, but as “Traction Trebuchets cost -25%”, because the only eyewitness, Bishop John (Miracles of St Demetrius), is read as contrasting the inaccurate Avar engines with Roman torsion artillery (McCotter 2003), while the sources stress the number of engines. Keep the cost effect, or restore the accuracy effect as a declared game convention?",
-  "Architecture until the N3 Steppe set: Eastern European for the Avars (the Slavic-style villages in which most of the khaganate lived), while the Cumans and Tatars keep Central Asian and the Mongols East Asian. Alternative: Central Asian for all three western steppe civs. Which?",
-  "Regional navy rule (same question in the Avars, Cumans and Tatars files): peoples without a seagoing war fleet keep the Galley-line to War Galley, the Fire Ship, the Hulk-line (the game's generic melee warship) and demolition ships, and lose the Galleon tier and every siege warship, as several other regions' designs now do (e.g. the Khitans, the Malians and the American civs). On water maps coastal buildings then fall only to galleys, demolition ships and landed siege. Keep the rule?",
+  "Trebuchet bonus (your decision, RULES section 4): this draft applies your version, “Traction Trebuchets fire more accurately at units and small targets”, moved from the counterweight Trebuchet, which the Avars could not have had, to the traction engine they used. The eyewitness of the Thessalonica siege, Archbishop John, is read as contrasting the inaccurate Avar engines with Roman torsion artillery (McCotter 2003), and the sources stress the number of the engines, which “Traction Trebuchets cost -25%” (the Wei bonus) would express better. Keep the accuracy effect as a game convention, or switch to the cost effect?",
+  "Castle slot and RULES 6.2: the khaganate's one clearly datable military moment is an adopted technique, the siege engines first used at Appiaria (587), which RULES 6.2 would put in a Castle tech, while raiding, a long tradition, would be a passive. This draft keeps your trebuchet bonus as a passive and Marauders as the Castle tech, a structural trait in a tech slot. Alternative: a Castle Age Castle tech “Petroboloi” carrying the trebuchet effect (the accuracy effect as a new level-2 tech, or Wu's unused Sitting Tiger, ‘Traction Trebuchets fire additional projectiles’, at level 1, which the Chinese design also considers taking), with Marauders' effect becoming a passive, “Tarkans can be trained at Stables” (cf. the Italians' Condottiero team bonus). Swap?",
+  "Tribute tech: the Bulgarians' design gives its Town Center the same new tech (the gold half of Grand Trunk Road, Castle Age) as “Peace of 927”, for payments from the same Empire, although the Avars received far larger sums (80,000–200,000 solidi a year). Keep one level-2 tech under two names, or give one of the two civs another existing effect? And keep the name “Byzantine Tribute”, which matches the project's Byzantines, or use “Roman Tribute”, the payers' own name?",
+  "Architecture until the N3 Steppe set: Eastern European for the Avars (the Slavic-style villages in which much of the khaganate lived), while the Cumans and Tatars keep Central Asian and the Mongols East Asian. Alternative: Central Asian for all three western steppe civs. Which?",
+  "Regional navy rule (same question in the Avars, Cumans and Tatars files): peoples without a seagoing war fleet keep the Galley-line to War Galley, the Fire Ship, the Hulk-line (the game's generic melee warship) and demolition ships, and lose the Galleon tier and every siege warship. The Khitans' design applies the same rule; the Maya, Inca and Mapuche designs drop the Galleon, the Carrack and the Catapult Galleon but keep the Fast Fire Ship, and the Malians drop only the Cannon Galleon. On water maps coastal buildings then fall only to galleys, demolition ships and landed siege. Keep the rule, and make it one rule for all such civs?",
 ]
 
 [profile]
@@ -34,8 +38,8 @@ sources = [
   "Menander Protector, History (fragments; ed. and trans. R. C. Blockley, 1985)",
   "Theophylact Simocatta, History (trans. M. and M. Whitby, 1986)",
   "Maurice, Strategikon (c. 600; trans. G. T. Dennis, 1984)",
-  "Miracles of St Demetrius, Book I (siege of Thessalonica)",
-  "Chronicon Paschale (trans. M. and M. Whitby, 1989), on the siege of Constantinople in 626",
+  "Miracles of St Demetrius, Books I–II (the sieges of Thessalonica)",
+  "Chronicon Paschale (trans. M. and M. Whitby, 1989) and Theodore Synkellos' homily, on the siege of Constantinople in 626",
   "Fredegar, Chronicle IV.48",
   "Gregory of Tours, Histories IV; Paul the Deacon, History of the Lombards IV",
   "Royal Frankish Annals; Einhard, Life of Charlemagne",
@@ -51,7 +55,7 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Do not need houses, but start with -100 wood (Huns)"
-basis = "The Avar elite lived in felt tents and wagons: the Strategikon (I.2) recommends Avar-type tents for Roman cavalry squads, for their practicality and good appearance (Dennis glosses them as round and roomy), and the khagan's seat, which the Franks called the Ring (hring), was a fortified enclosure rather than a town (Royal Frankish Annals 795–796; Pohl 2018)."
+basis = "The Avar elite lived in felt tents and wagons: the Strategikon (I.2) recommends Avar-type tents for Roman cavalry squads, for their practicality and good appearance (G. T. Dennis glosses them as round and roomy), and the khagan's seat, which the Franks called the Ring (hring), was a fortified enclosure rather than a town (Royal Frankish Annals 795–796; Pohl 2018)."
 relevance = "For two centuries the khaganate was ruled by a mounted, tent-dwelling steppe aristocracy, the trait that set it apart from its Roman, Frankish and Lombard neighbours."
 contested = "Middle and Late Avar cemeteries and villages show a growing settled population, much of it Slavic or mixed; the bonus reflects the nomadic ruling elite."
 
@@ -65,15 +69,15 @@ basis = "Horse archery was the core of Avar warfare: the Strategikon (XI.2) says
 relevance = "The mounted archer was the Avar army; Maurice wrote his chapter on the Avars to teach Roman cavalry how to meet it."
 
 [[bonus]]
-text = "Traction Trebuchets cost -25%"
+text = "Traction Trebuchets fire more accurately at units and small targets"
 kind = "military"
 level = 1
 change = "changed"
 replaces = "Trebuchets fire more accurately at units and small targets"
-precedent = "Traction Trebuchets and Lou Chuans cost -25% (Wei)"
-basis = "The Avars brought siege engines in numbers: a captured soldier, Busas, taught them to build one in 587, and with it they took Appiaria (Theophylact II.16); Bishop John describes the many rope-pulled stone-throwers (petroboloi) of the Avar-Slav siege of Thessalonica (586 or 597; Miracles of St Demetrius I), the first clear description of the traction trebuchet in the Mediterranean world; before Constantinople in 626 the khagan brought stone-throwers, siege towers and covered rams, built and worked largely by Slav subjects (Chronicon Paschale; Howard-Johnston 2021). A cheaper engine reflects their number and the mass labour behind them. The bonus now applies to the traction engine the Avars used, not to the late-12th-century counterweight Trebuchet."
-relevance = "Engines in numbers set the khaganate apart from earlier steppe raiders and let it threaten Thessalonica and Constantinople; the owner kept the trebuchet bonus for the Avars."
-contested = "The accuracy effect of the game's bonus is dropped: McCotter (2003) reads Bishop John as contrasting the inaccurate Avar engines with the Roman torsion artillery, and the account stresses their number and the size of their stones (see the open question)."
+precedent = "Trebuchets fire more accurately at units and small targets (Huns), moved to the Traction Trebuchet that replaces the Trebuchet (RULES 6.11); the game applies accuracy effects to several unit types (Warwolf, Britons; Pirotechnia, Italians; Arquebus, Portuguese; Cannon Galleons, Spanish)"
+basis = "The owner's trebuchet bonus (RULES section 4), moved to the engine the Avars actually used: the counterweight Trebuchet is a late-12th-century weapon, four centuries after the khaganate. The Avars set traction artillery against the Empire's cities in numbers: Archbishop John describes the many rope-pulled stone-throwers (petroboloi) of the Avar-Slav siege of Thessalonica (586 or 597; Miracles of St Demetrius I), the first clear description of the traction trebuchet in the Mediterranean world; the khagan besieged Thessalonica again for 33 days with engines (c. 617/618; Miracles II); and before Constantinople in 626 he set up stone-throwers, hide-covered siege towers and armoured shelters, with a mass of Slav foot and dugouts (Chronicon Paschale; Theodore Synkellos). Better aim against units is a game convention for that siege capacity, not a reading of the sources."
+relevance = "Traction artillery brought in numbers made the khaganate the first steppe power known to set such engines against the Empire's cities, Thessalonica and Constantinople."
+contested = "Archbishop John contrasts the inaccurate Avar engines with the Roman torsion artillery (McCotter 2003); the cost effect “Traction Trebuchets cost -25%” (Wei) is offered as the alternative (open questions). Theophylact's story of Busas is not used (civ-level contested list)."
 
 [[bonus]]
 text = "Spearman-line and Skirmishers +1/+2 pierce armor in Castle/Imperial Age"
@@ -81,18 +85,18 @@ kind = "military"
 level = 1
 change = "new"
 precedent = "Tower Shields: Spearman-line and Skirmishers +2 pierce armor (Lithuanians); Barracks Units +1/+2/+3 pierce armor in Feudal/Castle/Imperial Age (Malians)"
-basis = "The Slav subjects were the khaganate's foot. Fredegar (IV.48) says the Wends had long been befulci of the “Huns”: in battle the Slavs fought in front while the Avars stood ready by their camp, taking the booty if the Slavs won and coming to their aid if they gave way; the Strategikon (XI.4) arms the Slavs with two short javelins each, some also with shields, and with bows; Slav levies also manned the boats at Constantinople in 626 (Chronicon Paschale). Extra pierce armour for the spear and javelin lines stands for a shielded front line that took the enemy's missiles. A standing social relationship rather than a datable reform, so a passive bonus (RULES 6.2)."
-relevance = "Most of the khaganate's people were Slavs; their levies fought its battles and manned its boats, and their revolts (Samo, 623/624) shrank it."
-contested = "The meaning of befulci is disputed, and Fredegar's picture of the Slavs' exploitation is partly literary (Pohl 2018)."
+basis = "The Slav subjects were the khaganate's foot. Fredegar (IV.48) says the Wends had long been befulci of the “Huns”: in battle the Slavs fought in front while the Avars waited by their camp, taking the booty if the Slavs won and coming to their aid if they gave way; the Strategikon (XI.4) arms the Slavs with two short javelins each, some also with strong but heavy shields, and with bows; Slav levies also manned the dugouts at Constantinople in 626 (Chronicon Paschale). Slav levies armed with javelins, some with shields, thus screened and supported the Avar host; the pierce armour stands for those shields. A standing social relationship rather than a datable reform, so a passive bonus (RULES 6.2)."
+relevance = "A large share of the khaganate's people were Slavs; their levies fought in its battles and manned its boats, and their revolt under Samo (623/624) shrank it."
+contested = "The meaning of befulci and the share of Slavs in the khaganate are debated (civ-level contested list); Fredegar's picture is one-sided (Pohl 2018)."
 
 [team_bonus]
 text = "Stables work +20% faster"
 level = 1
 change = "kept"
 precedent = "Stables work +20% faster (Huns)"
-basis = "Roman cavalry was remodelled on the Avars: the Strategikon (I.2, c. 600) prescribes for the horses breast and neck coverings “such as the Avars use”, tunics cut on the Avar pattern and Avar-type tents, and the same chapter gives the first European mention of iron stirrups, which spread from the Avars to their neighbours. RULES 6.2: a transferred technique. The first draft's basis (the Avars' own herds and horse burials) benefited only the Avars."
-relevance = "The Avar horse-and-rider kit, above all the stirrup, is the khaganate's most lasting legacy to the cavalry of its neighbours."
-contested = "The dating of the earliest Avar-age stirrups (Curta 2008); whether the Strategikon also calls the lance with a mid-shaft thong Avar-type could not be checked."
+basis = "Roman cavalry was partly re-equipped on the Avar model: the Strategikon (I.2, c. 600) prescribes cavalry lances of the Avar type, with leather thongs in the middle of the shaft and with pennons, breast and neck coverings for the horses “such as the Avars use”, tunics cut on the Avar pattern and Avar-type tents, and the same chapter, without naming the Avars, gives the first European mention of iron stirrups, which archaeology links to them. RULES 6.2: a transferred technique. The first draft's basis (the Avars' own herds and horse burials) benefited only the Avars."
+relevance = "The Avar horse-and-rider kit, probably including the stirrup, is the khaganate's most lasting legacy to the cavalry of its neighbours."
+contested = "The dating of the earliest Avar-age stirrups (Curta 2008) and the military weight of the stirrup; the Strategikon does not call the stirrups Avar."
 
 [[unique_unit]]
 name = "Tarkan"
@@ -100,9 +104,9 @@ model = "Tarkan"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The armoured Avar elite: riders in mail with lance and bow, the horses of the leaders covered in front with iron or felt (Strategikon XI.2), who led the raids and sacks of Balkan and Italian towns. Tarkhan, a Turkic title of the Göktürks, Khazars and Bulgars, appears among Avar ranks in modern lists (Pohl 2018; É. Garam, Hungarian National Museum guide, 2005), although its primary attestation for the Avars is thin; it fits the Avars far better than Attila's Huns, in whose world it is not attested."
-relevance = "The armoured mounted elite, lancers and archers at once, was the striking arm of the khaganate and the model the Romans copied."
-contested = "How the Avar tarkhan ranked is unknown, and the anti-building role is an abstraction: most Avar conquests fell to blockade, engines and Slavic foot (Sirmium, 579/580–582) rather than to cavalry."
+basis = "The armoured Avar nobility: the Strategikon (XI.2) says that the Avars wear mail and that the horses of their illustrious men are covered in front with iron or felt; these leaders headed the raids and sacks of Balkan and Italian towns. Tarkhan, a title of the Göktürks, Khazars and Bulgars (of disputed Turkic or East Iranian origin), is counted among the Avar titles known from the written sources (Pohl 2018); its function among the Avars is unknown, but it fits them far better than Attila's Huns, in whose world it is not attested."
+relevance = "The armoured mounted nobility, lancers and archers at once, was the striking arm of the khaganate and the model the Romans copied."
+contested = "The function of the Avar tarkhan is unknown, and the anti-building role is an abstraction: most Avar conquests fell to blockade, engines and Slavic foot (Sirmium, 579/580–582) rather than to cavalry."
 
 [[unique_tech]]
 name = "Marauders"
@@ -113,9 +117,8 @@ effect = "Tarkans can be trained at Stables"
 level = 1
 change = "kept"
 precedent = "Marauders: Tarkans can be trained at Stables (Huns)"
-basis = "Large-scale raiding was the khaganate's lever on its neighbours: after taking Sirmium (582) the khagan sacked Singidunum, Viminacium and Anchialus (583–584), Avar hosts struck Moesia and Thrace almost every year of the 580s–590s, invaded Friuli in 610, taking Cividale (Paul the Deacon IV.37), and ravaged Thrace again around 619–623; the raids used both the armoured elite and the general host. Training the elite horse at ordinary Stables stands for that scale."
-relevance = "Raids were how the khaganate forced the Empire to pay and raise its tribute (574–623) and how it took captives for ransom."
-contested = "The clashes with the Franks in Thuringia (562 and 566; Gregory of Tours IV) came before the Avars settled in Pannonia (567–568) and are not used here."
+basis = "Large-scale raiding was the khaganate's lever on its neighbours: after taking Sirmium (582) the khagan sacked Singidunum, Viminacium and Anchialus (583–584); Avar hosts repeatedly struck Moesia and Thrace (583–587, 592–599), invaded Friuli c. 610, taking Cividale (Paul the Deacon IV.37), and ravaged Thrace again around 619–623, with both the armoured elite and the general host. Training the elite horse at ordinary Stables stands for that scale. Raiding was a long tradition, a structural trait that RULES 6.2 would make a passive; it keeps the Castle slot because the khaganate's one clearly datable military moment, the adoption of siege engines (587), is held by the trebuchet bonus that the owner kept as a passive (see open questions)."
+relevance = "Raids forced the Empire to pay and raise its tribute (574–623) and brought in the captives the khagans ransomed."
 
 [[unique_tech]]
 name = "Byzantine Tribute"
@@ -125,8 +128,8 @@ age = "Castle"
 effect = "All gold income +10% faster"
 level = 2
 change = "new"
-precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis), first effect only. A new tech (level 2): the market-fee half has no Avar basis, so the existing tech does not fit as it stands."
-basis = "Byzantine gold was the khaganate's main revenue. After defeating the future Tiberius II the Avars obtained 80,000 solidi a year (574; Menander); Sirmium surrendered in 582 after a three-year blockade, and the treaty restored the 80,000-solidi tribute with its arrears (Menander); it rose to 100,000 in 584/585, to 120,000 around 598–600 and to 200,000 by 623/624. The gold shows in the Byzantine solidi of Early Avar graves, and when payments stopped after 626 the khaganate entered a crisis (Pohl 2018). Each treaty was a state act of the khagan, so the tech sits at the Town Center (RULES 6.2)."
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis), first effect only: a new tech (level 2), since the market-fee half has no Avar basis. The Bulgarians' design uses the same new tech as Peace of 927 (see open questions)."
+basis = "Byzantine gold was the khaganate's main revenue. After defeating the future Tiberius II the Avars obtained 80,000 solidi a year (574, attested by 578; Menander); Sirmium surrendered in 582 after a three-year blockade, and the treaty restored the 80,000-solidi tribute with its arrears (Menander); it rose to 100,000 in 584/585, to 120,000 around 598–600 and to 200,000 by 623/624 (Howard-Johnston 2021). The gold shows in the Byzantine solidi of Early Avar graves, and when payments stopped after 626 the khaganate entered a crisis (Pohl 2018); a numismatic study finds them resumed on a smaller scale in the 680s (Zapolska 2017). Tribute was a structural economic base, formalised by the treaty of 574 and renewed by later treaties, so it is promoted to the Town Center tech under RULES 6.3."
 relevance = "Tribute paid for the khagan's power and his followers' loyalty; its end after 626 marks the turning point of Avar history."
 contested = "Tribute figures and dates vary between sources (see the civ-level contested list); ransoms and plunder added to it."
 
@@ -135,9 +138,9 @@ add = ["Traction Trebuchet", "Steppe Lancer", "Elite Steppe Lancer"]
 remove = ["Trebuchet", "Dromon", "Galleon", "Galleon, Fast Fire Ship and Carrack"]
 
 [tree.basis]
-"Traction Trebuchet" = "The rope-pulled engine of the Avar sieges of Thessalonica (586 or 597) and Constantinople (626); it replaces the counterweight Trebuchet as the Avars' heavy siege weapon (RULES 6.11), as it does for the out-of-scope Three Kingdoms. Trained at the Siege Workshop in the Imperial Age."
-"Steppe Lancer" = "The Strategikon (XI.2) describes Avar riders carrying the lance on the shoulder and the bow in the hand; the regional lancer unit (RULES 6.1) stands for the lance half of that pairing."
-"Elite Steppe Lancer" = "Upgrade of the Steppe Lancer: armoured lancers on horses protected in front formed the Avar elite (Strategikon XI.2)."
+"Traction Trebuchet" = "The rope-pulled engine of the Avar sieges of Thessalonica (586 or 597; c. 617/618) and Constantinople (626); it replaces the counterweight Trebuchet as the Avars' heavy siege weapon (RULES 6.11), as it does for the out-of-scope Three Kingdoms, and carries the trebuchet bonus. Trained at the Siege Workshop in the Imperial Age."
+"Steppe Lancer" = "The Strategikon (XI.2) describes most Avar riders as doubly armed, the lance slung on the shoulder and the bow in the hand; the regional lancer unit (RULES 6.1) stands for the lance-armed riders of the host."
+"Elite Steppe Lancer" = "Upgrade of the Steppe Lancer: the warriors of the host wore mail (Strategikon XI.2); the leaders on armoured horses belong to the Tarkan."
 "Trebuchet" = "The counterweight trebuchet appears only in the late 12th century, four centuries after the khaganate; replaced by the Traction Trebuchet."
 "Dromon" = "A Byzantine warship. The Avars had no seagoing war fleet: river boats, Slavic dugouts and Lombard-built ships (Paul the Deacon IV.20: King Agilulf sent shipwrights to the khagan, who then took an island in Thrace) justify only a basic navy, and the Slav boats were destroyed by the Byzantine fleet in the Golden Horn in 626 (Chronicon Paschale)."
 "Galleon" = "No seagoing war fleet (see Dromon; Paul the Deacon IV.20). The Avars keep a basic river and coastal navy: Galley-line to War Galley, Fire Ship, the Hulk-line as the game's generic melee warship, and demolition ships."
@@ -148,7 +151,7 @@ set = "Eastern European"
 level = 1
 change = "changed"
 replaces = "Central European"
-basis = "A stopgap until an N3 Steppe set exists (RULES 6.15): most people of the khaganate lived in villages of sunken huts much like those of their Slavic neighbours, and no Avar stone towns are known (Pohl 2018). The Central European set had no Avar or Hunnic basis."
+basis = "A stopgap until an N3 Steppe set exists (RULES 6.15): much of the khaganate's population lived in villages of sunken huts much like those of their Slavic neighbours, and no Avar stone towns are known (Pohl 2018). The Central European set had no Avar or Hunnic basis."
 
 [[dropped]]
 item = "On Nomadic maps, the first Town Center spawns a scouting Horse"
