@@ -3,12 +3,12 @@ name = "Avars"
 original_name = "Huns"
 status = "draft"
 label = "Cavalry civilization"
-summary = "Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, and Atheism and the Dromon leave."
+summary = "Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism and the Dromon leave."
 ideas = [
   "N3: A “Steppe” architecture set shared with the Mongols, Tatars and Cumans (RULES 6.15); Eastern European is only a stopgap.",
   "N2: An Avar lancer-archer unique unit that switches between bow and lance, as the Strategikon (XI.2) describes Avar horsemen (lance on the shoulder, bow in the hand); mechanic as the game's Bengali Ratha.",
   "N3: The Ring (hring): the khagan's fortified residence and treasury, captured by the Franks in 795–796, as a unique fortification that stores gold (Royal Frankish Annals; Einhard, Life of Charlemagne 13).",
-  "N2: Slavic dugout boats (monoxyla) as a river fleet replacing the Galley-line, as at Constantinople in 626.",
+  "N2: Give the Canoe (the Galley line on the Scenario Editor's Canoe model) stats of its own, light and fast dugouts carrying Slav levies, for the monoxyla of the Golden Horn in 626; N1 gives it only the canoe's look.",
   "N2: Ransom of captives as gold from enemy Villagers taken by mounted units: Avar raids carried off Roman captives by the thousand, and the khagans offered them back for ransom.",
   "N3: A late-antiquity chronological ceiling for the Avars, as the Goths' design proposes: the Petard (a 16th-century gunpowder charge), the Halberdier and the Hussar have no equivalent in a 6th–8th-century army, and RULES 6.10 asks to replace or remove such items rather than rename them; no Avar names are documented that would allow an N1 rename instead. In N1 the Petard stays as a flagged generic abstraction of the game's skeleton (RULES 6.16.2).",
 ]
@@ -19,7 +19,7 @@ contested = [
   "Archbishop John contrasts the inaccurate rope-pulled engines of the Avars with the Roman torsion artillery (Miracles of St Demetrius I, as read by McCotter 2003), and the sources stress the number of the engines and the size of their stones rather than their aim. Decision: the trebuchet bonus therefore lowers the cost of the Avar engines instead of raising their accuracy, as the game's Hun bonus did (RULES section 4).",
   "The Avars are usually credited with bringing the stirrup to Europe (first European mention in the Strategikon, c. 600, which does not call the stirrups Avar), but the dating of the earliest Avar-age stirrups is debated (F. Curta, in The Other Europe in the Middle Ages, 2008), and so is the military weight of the stirrup itself (the Lynn White thesis).",
   "Avar ranks (khagan, iugurrus, tudun, tarkhan) are known from a handful of words in Byzantine and Frankish texts; the tudun is attested in the Royal Frankish Annals (795–796, 811), and the functions of most ranks are unclear (Pohl 2018). Whether the title tarkhan is Turkic or East Iranian in origin is disputed.",
-  "The meaning of Fredegar's befulci: Fredegar explains it by the Slavs' place in front of the Avars in battle, while Theodor Mayer (MIÖG, Ergänzungsband 11, 1929) derived it from a Slavic byvolci, ‘buffalo drivers’ of the supply train, which Fredegar misunderstood, and others suggest an Avar word (Kusternig); Fredegar's picture of the Slavs' exploitation is one-sided. How large a share of the khaganate's people were Slavs, and how far archaeology can tell them apart from Avars, Gepids and Romanised provincials, is also debated. Samo's revolt is dated to Chlothar II's 40th year (623/624), and its success is often linked to the Avar failure of 626.",
+  "The meaning of Fredegar's befulci: Fredegar explains it by the Slavs' place in front of the Avars in battle, while Theodor Mayer (the reference recorded for his paper, MIÖG Ergänzungsband 11, 1929, is not confirmed at first hand) derived it from a Slavic byvolci, ‘buffalo drivers’ of the supply train, which Fredegar misunderstood, and others suggest an Avar word (Kusternig); Fredegar's picture of the Slavs' exploitation is one-sided. How large a share of the khaganate's people were Slavs, and how far archaeology can tell them apart from Avars, Gepids and Romanised provincials, is also debated. Samo's revolt is dated to Chlothar II's 40th year (623/624), and its success is often linked to the Avar failure of 626.",
   "Tribute figures and dates differ between sources (the rise to 100,000 solidi in 584 or 585; the 120,000 of c. 598–600; the 200,000 of 623/624), and so do readings of what followed 626: a numismatic study finds payments resumed on a smaller scale in the 680s (A. Zapolska, Notae Numismaticae, 2017).",
 ]
 open_questions = []
@@ -137,8 +137,22 @@ remove = ["Trebuchet", "Dromon", "Galleon", "Galleon, Fast Fire Ship and Carrack
 "Elite Steppe Lancer" = "Upgrade of the Steppe Lancer: the warriors of the host wore mail (Strategikon XI.2); the leaders on armoured horses belong to the Tarkan."
 "Trebuchet" = "The counterweight trebuchet appears only in the late 12th century, four centuries after the khaganate; replaced by the Traction Trebuchet."
 "Dromon" = "A Byzantine warship, the type of the imperial fleet that destroyed the khagan's dugouts in the Golden Horn in 626 (Chronicon Paschale); the Avars never had one, and their navy is the boat tier (see Galleon)."
-"Galleon" = "Navy tier (RULES 6.16.1): the boat tier. It rests on the Slav dugouts (monoxyla) of the khagan's assault on the Golden Horn in 626, manned by the khaganate's Slav levies (Chronicon Paschale; see the Slav-levy passive), and on the khaganate's river boats; the ships that Lombard shipwrights, sent by King Agilulf, built for the khagan, who then took an island in Thrace (Paul the Deacon IV.20), are a single episode and do not make a fleet of ships. The boat tier keeps the generic Galley, Fire Ship, Demolition and Hulk lines as the game gives the Huns, as an abstraction for water maps, and removes the high-seas sailing warships: the Galleon here, the Huns already lacking the Carrack and the Fast Fire Ship."
+"Galleon" = "Navy tier (RULES 6.16.1): the boat tier. It rests on the Slav dugouts (monoxyla) of the khagan's assault on the Golden Horn in 626, manned by the khaganate's Slav levies (Chronicon Paschale; see the Slav-levy passive), and on the khaganate's river boats; the ships that Lombard shipwrights, sent by King Agilulf, built for the khagan, who then took an island in Thrace (Paul the Deacon IV.20), are a single episode and do not make a fleet of ships. The boat tier keeps the generic Galley line, on the canoe model of the Slav dugouts (see the renames), and the Fire Ship, Demolition and Hulk lines as the game gives the Huns, as an abstraction for water maps, and removes the high-seas sailing warships: the Galleon here, the Huns already lacking the Carrack and the Fast Fire Ship."
 "Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon is removed (the Huns already lacked the Fast Fire Ship and the Carrack)."
+
+[[rename]]
+from = "Galley"
+to = "Canoe"
+model = "Canoe"
+level = 1
+basis = "The boat tier rests on dugouts (see the Galleon): before Constantinople in 626 the khagan launched Slav dugouts (monoxyla, ‘single-trunk’ boats), manned by the Slav levies, on the Golden Horn, where the imperial fleet destroyed them (Chronicon Paschale; Theodore Synkellos). The Scenario Editor Canoe (RULES section 5; codex/tools/scenario-units.md), a light boat that shoots arrows like the Galley, gives the Galley the look of a dugout, which fits the boat tier far better than a Mediterranean galley, the type of the fleet that sank the monoxyla; the Galley keeps its stats, and the Canoe's look (its crew included), scale, attack and role must be checked in game. Same rename as in the Aztec, Malian, Mapuche, Maya and Tupi designs. The sources' word, monoxylon, is the Byzantines' Greek, and no Slav or Avar word for the boats is recorded in the window, so the generic English name of those renames goes with the look."
+
+[[rename]]
+from = "War Galley"
+to = "War Canoe"
+model = "Canoe"
+level = 1
+basis = "Upgrade tier of the renamed Galley, with the same Canoe look (see Galley)."
 
 [architecture]
 set = "Eastern European"
