@@ -1,0 +1,139 @@
+civ = "Varangians"
+name = "Varangians"
+status = "draft"
+label = "Infantry and Trade civilization"
+summary = "Varangians refocused on the East Norse (Svear and Gotlanders) as traders, mercenaries and guardsmen on the eastern routes and in Constantinople (c. 750–1204), leaving the Rus' state to the Rus' civ: the Varangian Guard becomes the civ's unique unit and its mercenary team bonus, fur and river-route trade drive the economy, and the cavalry identity the sources contradict (Jarl, Vendel Legacy, Bloodlines, Cavalier, Hussar, mounted crossbows) leaves together with the fire ships and Gothikon."
+ideas = [
+  "N2: Gost', an armed merchant trained at the Market that carries gold like a Trade Cart but fights back (Ibn Fadlan: every Rus' carried an axe, a sword and a knife; the treaties of 911 and 944 made Rus' merchants enter Constantinople unarmed, in groups of fifty).",
+  "N2: Pólútasvarf: gold when an enemy Castle or Wonder falls with Varangian Guards nearby (the guardsmen's right to plunder the palace at an emperor's death, Haralds saga harðráða).",
+  "N3: Portage: Longships and Transport Ships can be hauled over short land stretches, as the Rus' convoys were around the Dnieper rapids (De Administrando Imperio 9).",
+  "N3: A castle unique unit of their own (for example the Gost' above), since the Guard is trained at the Barracks.",
+]
+contested = [
+  "The Normanist controversy over the Scandinavian role in the origins of the Rus' and the Kievan state; the current consensus is a Scandinavian elite that became Slavic by the 11th century (Franklin and Shepard 1996), but the debate remains politically charged.",
+  "Etymology of væringi (‘men of the pledge’ is accepted; vár + gengi or vár + -ingi is debated).",
+  "Whether the Guard was founded in 988 with Vladimir's warriors or formalised gradually in the 11th century, with Rus' already serving Byzantium in 911 and 949.",
+  "The scale of the English influx into the Guard after 1066; the mass-exodus stories are partly legendary.",
+]
+open_questions = [
+  "Name: ‘Varangian’, like ‘viking’, names a role (Scandinavians in eastern service), not a people. Rename the civ ‘Swedes’ (Svear) and extend the window to the Swedish kingdom (Birka, Sigtuna, Birger Jarl, the frälse cavalry of the Alsnö ordinance c. 1280, Kalmar)? The Jarl and Vendel Legacy could then return as 13th-century Swedish cavalry.",
+  "The Varangian Guard is listed as the unique unit although Byzantines, Saxons (as Housecarl), Danes (as Housecarl), Gaels (as Galloglass) and Norse also field the model, on the precedent of the Winged Hussar shared by Poles and Lithuanians. Accept, or keep looking for a castle unique unit (N2)?",
+  "The Knight is kept (horse burials at Vendel and Valsgärde show that eastern Swedish elites rode); the rest of the cavalry branch leaves. Remove the Knight too?",
+  "Fishing gold moves to the Norse (stockfish) and the shepherding part is dropped, leaving hunting; the early economy is weaker than before. Accept?",
+  "Architecture: the current set is not in the repository data; the official Viking Sagas FAQ gives Danes, Varangians and Vikings a new shared set, assumed here to be Northern European.",
+]
+
+[profile]
+entity = "The Varangians: East Norse (Svear and Gotlanders) traders and warriors of the eastern routes and the Byzantine Varangian Guard"
+region = "Eastern Sweden and Gotland, the Baltic, the Volkhov–Dnieper and Volga routes, and Constantinople"
+window = "c. 750–1204"
+sources = [
+  "Annales Bertiniani (s.a. 839)",
+  "Constantine VII, De Administrando Imperio (chs. 2 and 9)",
+  "Ibn Khordadbeh, Book of Roads and Kingdoms; Ibn Fadlan, Risala (922)",
+  "Leo the Deacon, History (trans. Talbot and Sullivan, 2005)",
+  "Anna Komnene, Alexiad",
+  "Povest' vremennykh let (Primary Chronicle)",
+  "Snorri Sturluson, Heimskringla (Haralds saga harðráða); Eymundar þáttr",
+  "Sigfús Blöndal, The Varangians of Byzantium (trans. B. Benedikz, 1978)",
+  "Simon Franklin and Jonathan Shepard, The Emergence of Rus 750–1200 (1996)",
+  "Sverrir Jakobsson, The Varangian Legend (2020)",
+]
+replaces = "Varangians as a cavalry civ mixing Vendel-period Sweden, the Rus' and the Byzantine Guard"
+
+[[bonus]]
+text = "Hunting also generates gold"
+kind = "economic"
+level = 1
+change = "changed"
+replaces = "Shepherding, fishing, and hunting also generate gold"
+precedent = "Shepherding, fishing, and hunting also generate gold (Varangians): the hunting part only"
+basis = "Furs (beaver, marten, black fox, squirrel) were exchanged for Islamic silver (Ibn Khordadbeh, c. 870; Ibn Fadlan, 922); the dirham hoards of Gotland, such as Spillings (c. 870, some 14,000 coins), show the scale. Shepherding is dropped because the Rus' bought cattle, horses and sheep from the Pechenegs (De Administrando Imperio 2); fishing goes to the Norse."
+
+[[bonus]]
+text = "Caravan effects +50%"
+kind = "economic"
+level = 1
+change = "changed"
+replaces = "Bloodlines and Caravan effects +50%"
+precedent = "Bloodlines and Caravan effects +50% (Varangians): the Caravan part only"
+basis = "The Varangians existed in the East because of the routes ‘from the Varangians to the Greeks’ (Dnieper) and down the Volga to the Bulgars, Khazars and the Caliphate (Primary Chronicle; De Administrando Imperio 9). Bloodlines is dropped: the Rus' had to buy horses (DAI 2) and fought badly on horseback (Leo the Deacon)."
+
+[[bonus]]
+text = "Varangian Guards attack +25% faster and generate +50% gold"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Varangian Guards attack +25% faster and generate +50% gold (Varangians)"
+basis = "The Guard was famously rich: Haralds saga harðráða describes the guardsmen's right to plunder the palace at an emperor's death (pólútasvarf), which Harald used three times before sending his fortune to Yaroslav in Novgorod. Anna Komnene calls them the ‘axe-bearing barbarians’."
+contested = "The faster attack is an abstraction of their ferocity without a specific source."
+
+[[bonus]]
+text = "Longships attack +15% faster"
+kind = "military"
+level = 1
+change = "changed"
+replaces = "Longships and Catapult Galleons attack +15% faster"
+precedent = "Longships and Catapult Galleons attack +15% faster (Varangians): Longships only"
+basis = "Rus' raids on Constantinople (860, 941, 1043) and the Caspian (c. 913, Barda'a 943/944) relied on light, fast boats and surprise. Catapult Galleons are dropped: no ship-borne artillery is known in these fleets, which Greek fire destroyed in 941."
+
+[team_bonus]
+text = "Varangian Guard available at the Barracks starting in Castle Age"
+level = 1
+change = "new"
+replaces = "Knight-line +1 attack vs. Infantry"
+precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus); Condottiero available at the Barracks in Imperial Age (Italians team bonus)"
+basis = "The Varangians were above all hired swords: Vladimir took Kiev with Varangian mercenaries (980) and sent some 6,000 to Basil II (988), Yaroslav hired them for his wars (1015–1019; Eymundar þáttr), and Byzantium kept them as its Guard. Allies gain the Guard, as their employers did. The replaced team bonus strengthened a cavalry identity the Varangians never had."
+
+[[unique_unit]]
+name = "Varangian Guard"
+model = "Varangian Guard"
+building = "Barracks"
+level = 1
+change = "new"
+replaces = "Jarl"
+basis = "The Byzantine Varangian Guard, conventionally from Vladimir's 6,000 warriors (988), recruited Scandinavians (some thirty Swedish runestones name Greece; Harald Hardrada served 1034–1043) and later Englishmen. They were axe-armed heavy infantry who fought on foot, dismounting at Dyrrhachium in 1081 (Alexiad IV.6). The Jarl is dropped: jarl is an aristocratic title, not a troop type, and Leo the Deacon shows the Rus' fighting on foot and failing on horseback at Dorostolon (971)."
+
+[[unique_tech]]
+name = "Austrvegr"
+age = "Castle"
+effect = "Trade Units cost -50%; Longships and Transport Ships move +10% faster"
+level = 1
+change = "new"
+precedent = "Trade Units cost -50% (Silk Road, Italians); Ships move +10% faster (Berbers) and Varangian Guards and Longships move +10% faster (Danes), narrowed to Longships and Transport Ships"
+basis = "Austrvegr, ‘the eastern way’ of the sagas and runestones: each year the Rus' bought dugout boats (monoxyla) from the Slavs, gathered at Kiev and sailed in convoy to Constantinople, hauling the boats around the Dnieper rapids (De Administrando Imperio 9); the treaties of 911 and 944 regulated their merchants in the city (Primary Chronicle)."
+
+[[unique_tech]]
+name = "Væringjar"
+age = "Imperial"
+effect = "Varangian Guards +30 HP and more resistant to conversion"
+level = 1
+change = "new"
+replaces = "Gothikon"
+precedent = "Infantry (except Spearman-line) +30 HP (Fereters, Armenians), narrowed to Varangian Guards; units more resistant to conversion (First Crusade, Sicilians)"
+basis = "Væringjar, ‘men of the pledge’: Anna Komnene says they held loyalty to the emperor as a family tradition passed from father to son (Alexiad II.9), and they were the best-equipped infantry of the empire. Gothikon is replaced because it was a Christmas court performance by the circus factions dressed as ‘Goths’ (De Ceremoniis I.83), unrelated to the Varangians, and axe-throwing has no source."
+
+[tree]
+add = []
+remove = ["Cavalier", "Hussar", "Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins", "Fast Fire Ship", "Siphons", "Incendiaries", "Catapult Galleon"]
+
+[tree.basis]
+"Cavalier" = "The Rus' and Varangians of the 9th–11th centuries fought on foot (Leo the Deacon, Books VIII–IX); a Cavalier would only fit a later Swedish kingdom outside this civ's window."
+"Hussar" = "Hungarian-Serbian light cavalry of the 15th century."
+"Mounted Crossbowman" = "Western continental troop type of the 13th–15th centuries; eastern archery followed the steppe composite bow."
+"Heavy Mounted Crossbowman" = "As for the Mounted Crossbowman, and later still (15th century)."
+"Cranequins" = "The cranequin is a 15th-century Western crossbow-spanning device."
+"Fast Fire Ship" = "The Rus' had no incendiary ships: they were the victims of Greek fire in 941 and 1043."
+"Siphons" = "The fire siphon was a Byzantine state secret never to be given to other nations (De Administrando Imperio 13)."
+"Incendiaries" = "No incendiary or exploding ships are known in Rus' or Varangian fleets."
+"Catapult Galleon" = "No ship-borne artillery is known in Rus' or Varangian fleets; the Longship (strong vs buildings) keeps the anti-building naval role."
+
+[architecture]
+set = "Northern European"
+change = "kept"
+basis = "The Viking Sagas set (timber halls, clinker ships) fits the Swedish homeland (Birka, Sigtuna, Uppsala) and the Scandinavian traders' settlements; the towns of the Rus' state belong to the Rus' civ and its Eastern European set."
+
+[[dropped]]
+item = "Vendel Legacy"
+kind = "unique_tech"
+reason = "The horsemen on the Vendel and Valsgärde helmet plates (from c. 550) belong to a pre-Viking aristocratic iconography and contradict the infantry identity of the Varangians. The effect (Knight-line deals trample damage) is reused by the Rus' as Druzhina."

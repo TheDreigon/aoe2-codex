@@ -1,0 +1,154 @@
+civ = "Danes"
+name = "Danes"
+status = "draft"
+label = "Infantry and Defensive civilization"
+summary = "The kingdom of Denmark from Godfred and the Danevirke to the Kalmar Union (c. 800–1523): the herring and Danegeld economy, the Jomsviking and Hamask stay; Trelleborg ring forts (the Krepost renamed) and a Danevirke tech turn the weak siege identity into the fortification-building state, the Varangian Guard becomes the royal Housecarl, Valdemarian knights and crossbowmen enter, and Northmen's Fury, Siege Onager and Catapult Galleon leave."
+ideas = [
+  "N2: Danegeld: infantry generate gold while attacking enemy buildings (the Keshik and Varangian Guard gold mechanic applied to a new target), instead of the generic loot bonus.",
+  "N2: Housecarl gold generation tied to the heregeld that paid the royal household troops in England until 1051, rather than to fighting.",
+  "N3: A true Trelleborg building (circular rampart, four gates, standardised longhouses) instead of the renamed Krepost.",
+  "N3: The Øresund toll (from c. 1429): Docks earn gold from passing Trade Cogs.",
+  "N3: Valdemarian crusades (Rügen and Arkona 1168, Estonia 1219): a crusading-fleet tech for Warships and Monks led by warrior bishops such as Absalon.",
+]
+contested = [
+  "Who built the Trelleborg-type fortresses (Harald Bluetooth or Sweyn Forkbeard) and why: barracks for the conquest of England, royal control of the provinces, or defence against other Vikings.",
+  "Chronology of the Danevirke: written sources credit Godfred (808), but dendrochronology dates phases from 737 and earlier works may go back to c. 500 or before.",
+  "Historicity of the Jomsvikings as an organised brotherhood and the identification of Jomsborg with Wolin.",
+  "Reliability of Sven Aggesen's Lex Castrensis, written in the late 12th century: it may describe the household troops of his own day rather than Cnut's.",
+]
+open_questions = [
+  "The Varangian Guard is renamed Housecarl, as for the Saxons (the same model for the same Anglo-Danish institution), instead of taking the Goths' Huskarl unit, which would give one institution two different models. Accept? The Goths' Huskarl and Anarchy are then left unused.",
+  "Valdemarian Denmark gains Cavalier and Arbalester. Kalmar-era Denmark also used guns (the royal ship Gribshunden, sunk 1495); Hand Cannoneer, Bombard Cannon and Carrack are not added, to keep the Danes a Viking and Valdemarian civ. Add them?",
+  "Hamask is kept although the berserk theme also appears in the Norse Berserk; Saxo's Gesta Danorum and the Lejre court of Hrólfs saga kraka give Danish material. Drop it for sharper contrast with the Norse?",
+  "Window end: 1523 (end of the Kalmar Union) or 1412 (death of Margaret I)?",
+  "Architecture: the current set is not in the repository data; the official Viking Sagas FAQ gives Danes, Varangians and Vikings a new shared set, assumed here to be Northern European.",
+]
+
+[profile]
+entity = "Kingdom of Denmark (the Danes)"
+region = "Jutland, the Danish islands, Scania and Halland, with the Danelaw and the North Sea empire of Cnut"
+window = "c. 800–1523"
+sources = [
+  "Royal Frankish Annals",
+  "Anglo-Saxon Chronicle",
+  "Adam of Bremen, Gesta Hammaburgensis ecclesiae pontificum (c. 1075)",
+  "Saxo Grammaticus, Gesta Danorum; Sven Aggesen, Lex Castrensis",
+  "Knýtlinga saga; Jómsvíkinga saga",
+  "Jelling runestones (DR 41, DR 42)",
+  "Else Roesdahl, Viking Age Denmark (1982)",
+  "Timothy Bolton, Cnut the Great (2017)",
+  "Kurt Villads Jensen, Crusading at the Edge of Europe (2017)",
+]
+replaces = "Danes of the Viking Age only (to 1042), with an invented siege identity"
+
+[[bonus]]
+text = "Fishing Ships and Villagers drop off +5% food"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Fishing Ships and Villagers drop off +5% food (Danes)"
+basis = "The herring of the Øresund and the great Scania market at Skanör and Falsterbo (12th–16th centuries), taxed by the Danish crown and frequented by Hanseatic merchants, were the backbone of the medieval Danish economy; Saxo's preface praises the Sound's abundance of fish. The Villager part is a generic abstraction."
+
+[[bonus]]
+text = "Loot 25% of the resource cost of each destroyed building"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Loot 25% of the resource cost of each destroyed building (Danes)"
+basis = "Plunder and the Danegeld: Paris paid 7,000 pounds of silver in 845, and the Anglo-Saxon Chronicle records tributes rising from 10,000 pounds (991) to 48,000 (1012)."
+
+[[bonus]]
+text = "Can build Trelleborg in Castle Age"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Barracks and Siege Workshop upgrades cost -66% gold"
+precedent = "Can build Krepost in Castle Age (Bulgarians)"
+basis = "The Trelleborg-type ring fortresses (Trelleborg, Fyrkat, Aggersborg, Nonnebakken, Borgring) were built to one geometric plan with standardised longhouses for a garrison; Trelleborg's timber was felled in 980/981 (dendrochronology), under Harald Bluetooth. The Krepost, a small castle that trains unique units and houses troops, is the closest existing building. The replaced bonus had no historical correlate."
+contested = "Builder and purpose of the forts are debated (see the civ-level notes)."
+
+[[bonus]]
+text = "Housecarls and Longships move +10% faster"
+kind = "military"
+level = 1
+change = "changed"
+replaces = "Varangian Guards and Longships move +10% faster"
+precedent = "Varangian Guards and Longships move +10% faster (Danes)"
+basis = "Same effect, following the rename of the Varangian Guard to Housecarl. Danish armies moved as mounted infantry (the Great Army ‘was horsed’ in East Anglia, Anglo-Saxon Chronicle 866) and in fast warships such as Skuldelev 2, built in Dublin c. 1042."
+
+[team_bonus]
+text = "Monasteries work +20% faster"
+level = 1
+change = "new"
+replaces = "Siege Weapons +2 line of sight"
+precedent = "Monasteries work +20% faster (Lithuanians team bonus)"
+basis = "Denmark was the first Scandinavian kingdom to convert (Harald Bluetooth's Jelling stone, c. 965, says he ‘made the Danes Christian’), and Lund became the archbishopric for all Scandinavia in 1103/04, until Norway (1152/53) and Sweden (1164) received their own. The replaced team bonus had no historical basis."
+
+[[unique_unit]]
+name = "Jomsviking"
+model = "Jomsviking"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The Jomsvikings of Jómsvíkinga saga (c. 1200), a warrior brotherhood at Jomsborg, usually identified with Wolin (Adam of Bremen's Iumne), where Harald Bluetooth died in exile; their defeat at Hjǫrungavágr (c. 986) is attested in near-contemporary skaldic verse. The torches render the burning of settlements and ships."
+contested = "The organised ‘order’ is largely literary, and the unit's strength against cavalry is a game invention."
+
+[[unique_tech]]
+name = "Hamask"
+age = "Castle"
+effect = "Infantry deal more damage as they lose HP"
+level = 1
+change = "kept"
+precedent = "Infantry deal more damage as they lose HP (Hamask, Danes)"
+basis = "Old Norse hamask, ‘to go into a frenzy’, the berserk rage. Saxo's Gesta Danorum is full of berserkir, and Hrólfs saga kraka places frenzied champions at the legendary Danish court of Lejre."
+contested = "The sources are late and literary; the theme overlaps with the Norse Berserk."
+
+[[unique_tech]]
+name = "Danevirke"
+age = "Imperial"
+effect = "Fortifications regenerate 500 HP per minute"
+level = 1
+change = "new"
+precedent = "Fortifications and Town Centers regenerate 500 HP per minute (Fortified Bastions, Jurchens): fortifications only"
+basis = "The Danevirke, the rampart across the neck of Jutland, was rebuilt and extended for five centuries: phases dated from 737 by dendrochronology, Godfred's work of 808 (Royal Frankish Annals) and the brick wall of Valdemar the Great in the 12th century. Regeneration renders this continuous royal upkeep."
+
+[tree]
+add = ["Krepost", "Cavalier", "Arbalester", "Fortified Wall", "Architecture"]
+remove = ["Siege Onager", "Catapult Galleon"]
+
+[tree.basis]
+"Krepost" = "Built as the Trelleborg ring fort (see the bonus and the rename)."
+"Cavalier" = "Valdemarian Denmark fought with armoured knights (Lyndanisse 1219, Bornhöved 1227), and the leding was largely converted into mounted service by the landed lords (herremænd) in the 12th–13th centuries."
+"Arbalester" = "The Danes already have Mounted and Heavy Mounted Crossbowmen and Cranequins; crossbowmen on foot were common in 13th–15th-century Danish castles and fleets, so lacking the Arbalester was incoherent."
+"Fortified Wall" = "The Danevirke and Valdemar's brick wall make the Danes one of the great wall-building peoples of the North."
+"Architecture" = "Stone and brick building of the medieval kingdom: Lund Cathedral (consecrated 1145), Valdemar's brick wall and churches, the royal castle of Vordingborg."
+"Siege Onager" = "No Danish tradition of heavy stone-throwing artillery is known; the siege of Paris (885–886) used rams, mantlets and fire ships and failed to take the city."
+"Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role."
+
+[[rename]]
+from = "Krepost"
+to = "Trelleborg"
+level = 1
+basis = "The Danish royal ring fortresses of c. 980, named after the excavated fort at Trelleborg near Slagelse; the function (a small fortress that houses and trains troops) is the same."
+
+[[rename]]
+from = "Varangian Guard"
+to = "Housecarl"
+level = 1
+basis = "The húskarlar, household troops of the Danish kings, from Cnut's guard in England (1016–1035, paid by the heregeld) to the law of the retainers that Sven Aggesen attributes to Cnut (Lex Castrensis, late 12th century). The axe-armed heavy infantry model is the same one the Saxons rename Housecarl."
+
+[[rename]]
+from = "Elite Varangian Guard"
+to = "Elite Housecarl"
+level = 1
+basis = "Same as the Varangian Guard rename."
+
+[architecture]
+set = "Northern European"
+change = "kept"
+basis = "The Viking Sagas set (timber halls, clinker ships) fits Viking Age Denmark."
+
+[[dropped]]
+item = "Northmen's Fury"
+kind = "unique_tech"
+reason = "Its name rests on the apocryphal prayer ‘A furore Normannorum libera nos’, not attested in that form, and no Norse tradition of throwing artillery is known; the Danes' engineering excelled in fortification, now represented by the Danevirke tech."
