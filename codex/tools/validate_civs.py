@@ -14,7 +14,13 @@ statement of RULES 6.9 for every bonus, team bonus, unique unit and unique tech;
 civs and a precise time window, RULES section 1), the level constraints that can be
 checked mechanically (item names exist in the game, architecture set exists, only unique techs may be
 level 2) and whether every original bonus, unique unit and unique tech is accounted for.
-Errors make the exit code 1; warnings do not.
+Errors make the exit code 1; warnings do not. With several files, it also lists the unit models and the
+effects (bonuses, team bonuses, unique techs) that more than one design uses, so that the holder lists in
+the precedents can be checked.
+
+Level convention (RULES 6.5): a level-1 unique tech is an existing tech identical in play. Its effect text
+names the civ's own (possibly renamed) units and leaves out targets the civ does not have; its precedent
+quotes the game's text. Any narrowed, widened, retargeted or combined effect makes a new, level-2 tech.
 """
 import json
 import re
@@ -414,13 +420,25 @@ def main(argv):
         for name, n in uts.items():
             if n > 1:
                 print(f'warning: unique tech "{name}" appears in {n} civs')
-        uus = defaultdict(list)
+        models = defaultdict(list)
         for d in docs.values():
             for u in d.get('unique_unit', []):
-                uus[u.get('name')].append(d.get('name'))
-        for name, holders in uus.items():
+                models[u.get('model')].append(f'{d.get("name")} ({u.get("name")})')
+        for model, holders in sorted(models.items()):
             if len(holders) > 1:
-                print(f'note: unique unit "{name}" is shared by ' + ', '.join(holders))
+                print(f'note: unit model "{model}" is used by ' + ', '.join(holders))
+        effects = defaultdict(list)
+        for d in docs.values():
+            for kind, items in (('bonus', d.get('bonus', [])), ('team bonus', [d.get('team_bonus', {})]),
+                                ('unique tech', d.get('unique_tech', []))):
+                for x in items:
+                    text = x.get('effect') or x.get('text') or ''
+                    key = re.sub(r'[“”]', '"', text.lower()).replace('’', "'").strip().rstrip('.')
+                    if key:
+                        effects[key].append(f'{d.get("name")} ({kind}' + (f' {x["name"]})' if x.get('name') else ')'))
+        for key, holders in sorted(effects.items()):
+            if len(holders) > 1:
+                print(f'note: effect "{key}" is held by ' + ', '.join(holders))
         print(f'{len(files)} file(s), {failed} with errors')
     return 1 if failed else 0
 
