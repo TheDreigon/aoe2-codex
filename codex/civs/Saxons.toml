@@ -27,7 +27,7 @@ open_questions = [
   "Food bonus: the feorm went to royal vills and estate centres, so the history favours ‘Mills and Town Centers provide +35 food when built’; balance favours the current targets (Mills, Lumber- and Mining Camps), since Town Centers are built rarely and the bonus would lose most of its value in a civ that already loses much of its tree. Which?",
   "Codex-wide question CQ5 (see codex/civs/README.md): Architecture (here the game’s Western European set becomes Northern European).",
   "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here Edgar's Recoinage, Clerical Recruitment, the Fyrd and the team bonus ‘Monasteries work +20% faster’).",
-  "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (without the Trebuchet the Saxons are one of four civs outside the Americas with no long-range siege weapon, with the Goths, Khmer and Malay, all of which rely on the Siege Ram as the RULES 6.11 substitute).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (without the Trebuchet the Saxons have no long-range siege weapon and rely on the Siege Ram as the RULES 6.11 substitute; the Armenians, Ethiopians, Goths, Khmer, Malay and Malians are in the same position).",
   "Codex-wide question CQ14 (see codex/civs/README.md): Power floor (the tree loses fifteen items, mostly later than 1066).",
 ]
 
@@ -156,7 +156,7 @@ level = 1
 change = "changed"
 replaces = "Clerical Recruitment (Castle unique tech, same effect)"
 precedent = "Clerical Recruitment (Monks +1 conversion range; train +33% faster) (Saxons): moved to the Monastery, identical effect; the Bulgarians’ Council of Preslav and the Rus' Baptism of Rus' share it"
-basis = "Re-based on the Church at home, now that the continental missions are the team bonus: the conversion of the Danish settlers (Guthrum baptised in 878 with Alfred as his sponsor; Oda, son of a Danish settler, archbishop of Canterbury 941–958) and the 10th-century Benedictine reform of Dunstan, Æthelwold and Oswald, which refounded dozens of monasteries and was codified in the Regularis Concordia (c. 973). Conversion range renders the conversion of the Danelaw, faster training the refounded houses. At the Monastery, where religion belongs (RULES 6.2)."
+basis = "Based on the Church at home, since the continental missions are the team bonus: the conversion of the Danish settlers (Guthrum baptised in 878 with Alfred as his sponsor; Oda, son of a Danish settler, archbishop of Canterbury 941–958) and the 10th-century Benedictine reform of Dunstan, Æthelwold and Oswald, which refounded dozens of monasteries and was codified in the Regularis Concordia (c. 973). Conversion range renders the conversion of the Danelaw, faster training the refounded houses. At the Monastery, where religion belongs (RULES 6.2)."
 relevance = "The conversion of the Danelaw and the monastic reform made the late Anglo-Saxon Church and gave Edgar and Æthelred the bishops who governed with them."
 
 [[unique_tech]]
@@ -167,7 +167,7 @@ age = "Castle"
 effect = "All gold income +10% faster; Market trading fee reduced to 10%"
 level = 1
 change = "new"
-precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect; five other designs reuse it, the Hindustanis’ Tanka, the Burgundians’ Vierlander Coinage, the Khitans’ Chanyuan Treaty, the Malay Syahbandar and the Muisca Cotton Mantles (codex-wide question CQ11)"
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect; five other designs hold it: the Hindustanis’ Tanka, the Burgundians’ Vierlander Coinage, the Khitans’ Chanyuan Treaty, the Malay Syahbandar and the Muisca Cotton Mantles (codex-wide question CQ11)"
 basis = "Æthelstan’s Grately code (c. 926–930) decreed one coinage throughout the king’s realm and minting only in a market town, and Edgar’s reform (c. 973) gave the kingdom a single silver penny of one type, struck in dozens of burh mints and periodically called in and reissued with new types; the system let the late Anglo-Saxon kings raise the great gelds of 991–1018 (Dolley and Metcalf 1961; Molyneaux 2015). Gold income renders the gelds and the profits of the mints, the lower trading fee a single trusted coin in the burh markets. A state reform, so at the Town Center (RULES 6.2)."
 relevance = "The silver penny and the geld made late Anglo-Saxon England one of the most centralised kingdoms of the West (see contested); Cnut conquered a kingdom whose taxes still worked."
 
@@ -193,7 +193,7 @@ remove = [
 
 [tree.basis]
 "Clinker Construction" = "The Sutton Hoo ship (c. 625) is the classic clinker-built hull; the Saxons were the only civ in the game without this tech."
-"Trebuchet" = "The counterweight trebuchet appears only in the later 12th century, a century after the end of the civ. No Anglo-Saxon siege engine of any kind is attested either: English siege warfare was blockade, assault and counter-fortification (Alfred’s two forts on the Lea, 895; Edward’s burhs on both banks at Buckingham, 914; the storming of Tempsford and Derby, 917; Anglo-Saxon Chronicle). The rams, Mangonel, Onager and Scorpions stay only as the engine’s minimum abstraction of siege warfare (RULES 6.11, 6.14), not as evidence of Anglo-Saxon engines. No long-range substitute is given: like the Goths, Khmer and Malay, the civ relies on the Siege Ram, which it keeps; the Traction Trebuchet could be added as a design substitute, not as history, if the owner wants one (codex-wide question CQ13)."
+"Trebuchet" = "The counterweight trebuchet appears only in the later 12th century, a century after the end of the civ. No Anglo-Saxon siege engine of any kind is attested either: English siege warfare was blockade, assault and counter-fortification (Alfred’s two forts on the Lea, 895; Edward’s burhs on both banks at Buckingham, 914; the storming of Tempsford and Derby, 917; Anglo-Saxon Chronicle). The rams, Mangonel, Onager and Scorpions stay only as the engine’s minimum abstraction of siege warfare (RULES 6.11, 6.14), not as evidence of Anglo-Saxon engines. No long-range substitute is given: like the Armenians, Ethiopians, Goths, Khmer, Malay and Malians, the civ relies on the Siege Ram, which it keeps; the Traction Trebuchet could be added as a design substitute, not as history, if the owner wants one (codex-wide question CQ13)."
 "Arbalester" = "The crossbow was practically unknown in Anglo-Saxon England; at Hastings the crossbowmen were on the Norman side (William of Poitiers). The Crossbowman tier is kept as the generic ranged upgrade."
 "Mounted Crossbowman" = "Anachronistic and foreign to an army that rode to battle and fought on foot (Maldon, 991; Hereford, 1055; Hastings, 1066)."
 "Heavy Mounted Crossbowman" = "Same reason as the Mounted Crossbowman."
