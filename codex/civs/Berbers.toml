@@ -9,7 +9,7 @@ ideas = [
   "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on a Maghrebi Monastery graphic) for the ribat and the murabitun of Ibn Yasin's movement, from which the Almoravids took their name (the Ifriqiyan ribats of Monastir, 796, and Sousse, 821, were Abbasid and Aghlabid works in a Berber land).",
   "N2: Tabiya: cheaper and faster walls and towers of rammed earth (the Almoravid walls of Marrakesh, 1126–1127; the Almohad walls of Rabat and Seville). The N1 precedents (‘Walls cost -50%’, Mayan team bonus; Detinets, Slavs) were not used because a building technique weighs less than the traits already in the design, and rammed earth was as much Andalusi as Berber (see open questions).",
   "N2: Huffaz: the corps of young men Abd al-Mu'min had trained in Almohad doctrine and in riding, archery, swimming and rowing to staff his state and army (Bennison, 2016), as a technology once a second Almohad moment has a slot.",
-  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today represented only in its Almoravid and Almohad periods, by the Berbers.",
+  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today represented only in its conquest and Umayyad province (711–750), by the Saracens, and in its Almoravid and Almohad periods, by the Berbers.",
 ]
 contested = [
   "‘Berber’ as a category shaped by medieval Arab genealogists and historians (Ramzi Rouighi, Inventing the Berbers, 2019).",
@@ -25,9 +25,9 @@ contested = [
 ]
 open_questions = [
   "Name: show the endonym (‘Berbers (Imazighen)’) or rename to ‘Maghrebis’? Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
-  "Unique unit: with the Genitour now a regional unit (owner's decision), the Berbers need a counted unique unit. This revision shares the Inca Kamayuk (infantry with long reach, strong against cavalry and infantry) as the ‘Murabit’ for the Almoravid spear ranks. Alternatives: restore the Camel Archer (no camel archers are attested), or share the Saxon Hearth Troop (javelin then melee) for the javelin ranks. Which do you prefer?",
+  "Unique unit: with the Genitour now a regional unit (owner's decision), the Berbers need a counted unique unit. The design shares the Inca Kamayuk (infantry with long reach, strong against cavalry and infantry) as the ‘Murabit’ for the Almoravid spear ranks. Alternatives: restore the Camel Archer (no camel archers are attested), or share the Saxon Hearth Troop (javelin then melee) for the javelin ranks. Which do you prefer?",
   "Kasbah is dropped: the qasaba was common to the whole Islamic West and much of the word's fame comes from later places, so it fails the relevance test against the Almohad state reform (see dropped). Restore it as an exception carried by fame, for example at the Castle in place of the Black Guard?",
-  "Taksir shares Burgundian Vineyards with the Burgundians (at the Mill), with the Persians' Kharaj, which stands for the same land tax, and with the Aztecs' Calpixqueh and the Tatars' Yarlyk, and the Bengalis have it as a passive: six designs (the reuse itself is codex-wide question CQ11, see codex/civs/README.md). Keep the shared tech, or prefer a new tech (level 2) with another fiscal effect, such as ‘All gold income +10%’ (the first half of Grand Trunk Road)?",
+  "Taksir shares Burgundian Vineyards with the Burgundians (at the Mill), with the Persians' Kharaj, which stands for the same land tax, and with the Aztecs' Calpixqueh and the Tatars' Yarlyk, and the Bengalis have it as a passive: six designs (the reuse itself is codex-wide question CQ11, see codex/civs/README.md). Keep the shared tech, or prefer a new tech (level 2) with another fiscal effect, such as ‘All gold income +10% faster’ (the first half of Grand Trunk Road)?",
   "Codex-wide question CQ6 (see codex/civs/README.md): religious vocabulary (here ‘Ribat’ for the Monastery, after the murabitun).",
   "Power (the Berbers are among the kits of codex-wide question CQ14, see codex/civs/README.md): without the villager-speed bonus and the Maghrebi Camels, with the trade and shepherd bonuses mattering mostly early or in team games, and now without the Hand Cannoneer and the Cannon Galleons, the Berbers are weaker in 1v1 than the current civ. If parity is wanted: a stronger pastoral bonus (‘Livestock animals last +50% longer’, Tatars), ‘Coinage and Banking free’ (analysis alternative), or a fifth bonus for tabiya walls (‘Walls cost -50%’, Mayan team bonus)?",
   "Shipwright is renamed for the Saracens (Dar al-Sina'a) and the Turks (Tersane); the Berbers keep the generic name, though the Almohad and Hafsid arsenals could justify Dar al-Sina'a here too. Rename it? (One rule for such renames is codex-wide question CQ17, see codex/civs/README.md.)",
@@ -96,7 +96,7 @@ text = "Genitour available at the Archery Range starting in Castle Age"
 level = 1
 change = "kept"
 precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus)"
-basis = "Riding à la gineta, with short stirrups, javelins and leather shield (adarga), passed from Zenata and Granadan horsemen to Castile and Portugal, and Zenata volunteers (ghuzat) served Nasrid Granada: one of the best-founded team bonuses in the game. Jinete/ginete comes from Zanati, ‘Zenata’. The Genitour stays in the Berber tree, but as a regional unit (owner's decision, shared with the Portuguese and Castilians), so it no longer counts as a Berber unique unit (see dropped)."
+basis = "Riding à la gineta, with short stirrups, javelins and leather shield (adarga), passed from Zenata and Granadan horsemen to Castile and Portugal, and Zenata volunteers (ghuzat) served Nasrid Granada: one of the best-founded team bonuses in the game. Jinete/ginete comes from Zanati, ‘Zenata’. The Genitour stays in the Berber tree, but as a regional unit (owner's decision, shared with the Portuguese and Castilians; the Lithuanians' design also adds it, pending codex-wide question CQ23), so it no longer counts as a Berber unique unit (see dropped)."
 relevance = "The jineta style was the Berbers' best-known military gift to their neighbours: the word and the cavalry of the Reconquista frontier come from the Zenata."
 contested = "The ginete also charged with the lance; the Genitour has no close-range attack."
 
@@ -120,7 +120,7 @@ effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
 precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill; the Persians share it as Kharaj, the Aztecs as Calpixqueh and the Tatars as Yarlyk, and the Bengalis have it as a passive): an existing unique tech, shared and renamed with an identical effect and age (Castle)"
-basis = "In 1159–1160 Abd al-Mu'min had the Maghreb surveyed (taksir) from Barqa to the Sus, deducted a third for mountains, rivers and wasteland, and assessed the rest for the land tax (kharaj), payable in grain and coin (Ibn Abi Zar, Rawd al-qirtas, year 555 AH); it gave the Almohad caliphate its fiscal base (Bennison, 2016). Farmers whose fields yield coin to the treasury translate the assessment, as for the Persians' Kharaj, the same land tax. It takes Kasbah's Town Center slot (see dropped)."
+basis = "In 1159–1160 Abd al-Mu'min had the Maghreb surveyed (taksir) from Barqa to the Sus, deducted a third for mountains, rivers and wasteland, and assessed the rest for the land tax (kharaj), payable in grain and coin (Ibn Abi Zar, Rawd al-qirtas, year 555 AH); it gave the Almohad caliphate its fiscal base (Bennison, 2016). Farmers whose fields yield coin to the treasury translate the assessment, as for the Persians' Kharaj, the same land tax. It takes Kasbah's slot (see dropped)."
 relevance = "The Almohads were the only Berber dynasty to unite the whole Maghreb and al-Andalus under one government, and the survey gave that state its revenue; it is the Almohad state's defining reform."
 
 [[unique_tech]]
@@ -164,9 +164,9 @@ basis = "The Berbers have used the Middle Eastern set since The African Kingdoms
 [[dropped]]
 item = "Kasbah (Team Castles work +25% faster)"
 kind = "unique_tech"
-reason = "Relevance test (RULES 6.9): the qasaba, a town's fortified government quarter, was common to the whole Islamic West rather than a Berber institution (Umayyad Mérida, 835; Almería, 955), much of the word's fame comes from later places (Ottoman Algiers, the earthen kasbahs of southern Morocco), and its effect only abstracts it. Moved to the Town Center in the previous draft, it fails against a weightier datable state reform, the Almohad survey (Taksir), which takes its slot. The owner may restore it as an exception carried by fame (see open questions)."
+reason = "Relevance test (RULES 6.9): the qasaba, a town's fortified government quarter, was common to the whole Islamic West rather than a Berber institution (Umayyad Mérida, 835; Almería, 955), much of the word's fame comes from later places (Ottoman Algiers, the earthen kasbahs of southern Morocco), and its effect only abstracts it. Even as a Town Center tech it would fail against a weightier datable state reform, the Almohad survey (Taksir), which takes its slot. The owner may restore it as an exception carried by fame (see open questions)."
 
 [[dropped]]
 item = "Genitour (Mounted Skirmisher)"
 kind = "unique_unit"
-reason = "Owner's decision: the Genitour/Jinete is a regional unit (Berbers, Portuguese, Castilians) and no longer counts as a Berber unique unit. It stays in the Berber tree at the Archery Range and in the team bonus; the Murabit is the counted unique unit."
+reason = "Owner's decision: the Genitour/Jinete is a regional unit (Berbers, Portuguese, Castilians; the Lithuanians' design also adds it, pending codex-wide question CQ23) and no longer counts as a Berber unique unit. It stays in the Berber tree at the Archery Range and in the team bonus; the Murabit is the counted unique unit."

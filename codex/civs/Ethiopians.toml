@@ -29,10 +29,10 @@ open_questions = [
   "Codex-wide question CQ4 (see codex/civs/README.md): Mule Cart (here beside the Lumber and Mining Camps, as in the Tatars' design).",
   "Hand Cannoneer: added as the civ's one late element (RULES section 2, Imperial Age only) for the war of 1541–1543; before 1541 the kingdom had only a handful of guns, and Ethiopians took up the musket after Wayna Daga (1543). Keep it, or remove it?",
   "Codex-wide question CQ7 (see codex/civs/README.md): siege engines that never reached a civ (here the Trebuchet leaves; the Mangonel and Onager stay as the generic stone-thrower).",
-  "Codex-wide question CQ13 (see codex/civs/README.md): long-range siege (without the Trebuchet and the Bombard Cannon the civ relies on the Siege Ram, like the Goths, Khmer, Malay and Saxons).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): long-range siege (without the Trebuchet and the Bombard Cannon the civ relies on the Siege Ram, like the Armenians, Goths, Khmer, Malay, Malians and Saxons).",
   "Codex-wide question CQ3 (see codex/civs/README.md): crossbows (the Arbalester leaves this archer civ, a power loss that codex-wide question CQ14, power floor, also covers).",
   "Codex-wide question CQ11 (see codex/civs/README.md): reuse and stacking (here the higher-elevation bonus, shared with the Georgians and the Gurjaras, and Gult, the Kshatriyas effect that seven designs use).",
-  "Team bonus: Aksum's Red Sea trade and alliance with Byzantium replaces ‘Monasteries +20%’ (which fails RULES 6.2 and became a passive), so it rests on the Aksumite part of the window only. Accept? Its text, ‘Trade Units generate +10% gold’, is also the team bonus of the Armenians, Maya, Rus' and Tamils: five holders (codex-wide question CQ11).",
+  "Team bonus: Aksum's Red Sea trade and alliance with Byzantium, so it rests on the Aksumite part of the window only; a monastic team bonus (‘Monasteries work +20% faster’) is not used because the monasteries' benefit stayed within the kingdom (RULES 6.2), and they are a passive instead. Accept? Its text, ‘Trade Units generate +10% gold’, is also the team bonus of the Armenians, Maya, Rus' and Tamils: five holders (codex-wide question CQ11).",
   "Grant the Shotel Warrior an exception carried by fame (RULES 6.9) in place of the spearmen?",
   "Codex-wide question CQ19 (see codex/civs/README.md): labels (here ‘Archer and Infantry’ for ‘Archer’).",
 ]
@@ -101,7 +101,7 @@ kind = "other"
 level = 1
 change = "new"
 precedent = "Monastery technologies cost -50% (Burmese)"
-basis = "Monasteries were the schools and scriptoria of the kingdom: Debre Damo (traditionally founded in the 6th century), Debre Asbo (later Debre Libanos), founded by Takla Haymanot c. 1284, and the houses of the Ewostatewos movement carried the faith and Ge'ez learning across the highlands, and monks evangelised the newly conquered south under Amda Seyon and Zara Yaqob (Taddesse Tamrat, 1972). Moved here from the first draft's team bonus, which failed RULES 6.2."
+basis = "Monasteries were the schools and scriptoria of the kingdom: Debre Damo (traditionally founded in the 6th century), Debre Asbo (later Debre Libanos), founded by Takla Haymanot c. 1284, and the houses of the Ewostatewos movement carried the faith and Ge'ez learning across the highlands, and monks evangelised the newly conquered south under Amda Seyon and Zara Yaqob (Taddesse Tamrat, 1972). It is a passive, not the team bonus, because its benefit stayed within the kingdom (RULES 6.2)."
 relevance = "The Church and its monasteries are the core of Ethiopian identity, from the Kebra Nagast to the rock churches of Lalibela."
 
 [team_bonus]
@@ -110,7 +110,7 @@ level = 1
 change = "new"
 replaces = "Outposts +3 line of sight and cost no stone"
 precedent = "Trade Units generate +25% gold (Spanish team bonus), here at a lower magnitude"
-basis = "Late Aksum was Rome's partner on the Red Sea. Cosmas Indicopleustes traded through Adulis at the beginning of Justin I's reign (c. 518–525; he wrote c. 550), when the king was preparing his expedition against the Himyarites; Kaleb crossed to Himyar (c. 525) against the persecutor of the Christians of Najran, with Byzantine encouragement according to the Martyrium Arethae (see contested); and Justinian asked the Aksumites to buy Indian silk for the Romans so as to bypass Persia (Procopius, Wars I.20). Aksum's gold coinage served that trade (Munro-Hay, 1991). The Outposts bonus had only a tenuous link with amba lookouts. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)."
+basis = "Late Aksum was Rome's partner on the Red Sea. Cosmas Indicopleustes traded through Adulis at the beginning of Justin I's reign (c. 518–525; he wrote c. 550), when the king was preparing his expedition against the Himyarites; Kaleb crossed to Himyar (c. 525) against the persecutor of the Christians of Najran, with Byzantine encouragement according to the Martyrium Arethae (see contested); and Justinian asked the Aksumites to buy Indian silk for the Romans so as to bypass Persia (Procopius, Wars I.20). Aksum's gold coinage served that trade (Munro-Hay, 1991). The Outposts bonus had only a tenuous link with amba lookouts. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner, codex-wide question CQ11)."
 relevance = "The Red Sea trade made Aksum a great power, and it was shared with its Byzantine ally; it benefits allies, as RULES 6.2 requires."
 contested = "Procopius says the silk scheme failed because Persian merchants controlled the Indian ports; the bonus rests on the Aksumite part of the window."
 
@@ -157,7 +157,7 @@ add = ["Hand Cannoneer", "Mule Cart"]
 remove = ["Bombard Cannon", "Siege Onager", "Trebuchet", "Cannon Galleon", "Camel Rider", "Heavy Camel Rider", "Cavalry Archer", "Heavy Cavalry Archer", "Arbalester", "Thumb Ring"]
 
 [tree.basis]
-"Hand Cannoneer" = "Late element, RULES section 2, and the civ's only one (the unit is Imperial Age only). The great firearms episode of Ethiopian history is the war of 1529–1543: Adal received Arab and Ottoman musketeers from Zabid (1542), Cristóvão da Gama landed with c. 400 Portuguese musketeers (1541; Castanhoso, 1564), and after Wayna Daga (1543) the Ethiopians took up the musket. Before 1541 the kingdom had only a handful of guns, so Ethiopian musketeers proper come after 1500, but the war of 1541–1543 gives the unit clear fame. The tree had it the other way round (Bombard Cannon without Hand Cannoneer)."
+"Hand Cannoneer" = "Late element, RULES section 2, and the civ's only one (the unit is Imperial Age only). The great firearms episode of Ethiopian history is the war of 1529–1543: Adal received Arab and Ottoman musketeers from Zabid (1542), Cristóvão da Gama landed with c. 400 Portuguese musketeers (1541; Castanhoso, 1564), and after Wayna Daga (1543) the Ethiopians took up the musket. Before 1541 the kingdom had only a handful of guns, so Ethiopian musketeers proper come after 1500, but the war of 1541–1543 gives the unit clear fame. The game's tree had it the other way round (Bombard Cannon without Hand Cannoneer)."
 "Mule Cart" = "See the Mule Cart bonus: it stands beside the Lumber and Mining Camps instead of replacing them, as in the Tatars' design, where it is the Araba; the cart model stands in for pack mules (codex-wide question CQ4)."
 "Bombard Cannon" = "There were no Ethiopian siege guns before 1543: the highland kingdom took places by blockade and assault, and it was Adal that used a cannon (from 1531, according to Arab Faqih)."
 "Siege Onager" = "The top tier of the stone-thrower line is dropped (the tech tree audit rates it unfounded); the Mangonel and Onager stay as a generic abstraction of assault and blockade, since mountain warfare turned on ambas and blockades (codex-wide question CQ7)."
@@ -168,7 +168,7 @@ remove = ["Bombard Cannon", "Siege Onager", "Trebuchet", "Cannon Galleon", "Came
 "Cavalry Archer" = "No horse archery is attested in the Christian army, whose horsemen fought with spears (tech tree audit)."
 "Heavy Cavalry Archer" = "As Cavalry Archer."
 "Arbalester" = "No crossbow is attested in Ethiopia, so under the project's criterion the crossbow tier goes; the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split, and the archers rest on the +18% fire rate, Bracer and Chewa (RULES 6.11). The tech tree audit rates the Ethiopian Arbalester unfounded."
-"Thumb Ring" = "No thumb draw or thumb rings are attested for Ethiopian archery; the thumb draw belongs to the steppe and Asian traditions (names theme), and the Malay and American designs drop the tech on the same ground."
+"Thumb Ring" = "No thumb draw or thumb rings are attested for Ethiopian archery; the thumb draw belongs to the steppe and Asian traditions (names theme), and other designs drop the tech on the same ground (among them the Malians, Malay, Maya, Inca and Muisca)."
 
 [[rename]]
 from = "Elite Kamayuk"

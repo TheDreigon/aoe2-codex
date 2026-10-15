@@ -24,9 +24,9 @@ contested = [
 ]
 open_questions = [
   "Name: ‘Mandinka’ or ‘Mali Empire’ instead of ‘Malians’ (the name the modern republic took in 1960)? Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
-  "Unique unit: the Tontajon uses the Tupi Blackwood Archers (cheap self-bow archers trained in pairs at half population, ‘strong in high numbers’), which fits the mass of Mande archers with simple bows; the first draft used the Armenian Composite Bowman, whose armour-ignoring composite bow is the opposite of the Mande self bow. Keep the Tontajon, or prefer the Composite Bowman? The Genitour, for the Sahelian javelin cavalry (Law, 1980), could only come beside it as a regional unit, which is codex-wide question CQ23 (see codex/civs/README.md).",
+  "Unique unit: the Tontajon uses the Tupi Blackwood Archers (cheap self-bow archers trained in pairs at half population, ‘strong in high numbers’), which fits the mass of Mande archers with simple bows. Alternative: the Armenian Composite Bowman, although its armour-ignoring composite bow is the opposite of the Mande self bow. Keep the Tontajon? The Genitour, for the Sahelian javelin cavalry (Law, 1980), could only come beside it as a regional unit, which is codex-wide question CQ23 (see codex/civs/README.md).",
   "Codex-wide question CQ7 (see codex/civs/README.md): siege engines that never reached a civ (here the Trebuchet leaves; the Mangonel and Onager stay as the generic stone-thrower).",
-  "Codex-wide question CQ13 (see codex/civs/README.md): long-range siege (without the Trebuchet and the Bombard Cannon the civ relies on the Siege Ram, like the Goths, Khmer, Malay and Saxons).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): long-range siege (without the Trebuchet and the Bombard Cannon the civ relies on the Siege Ram, like the Armenians, Ethiopians, Goths, Khmer, Malay and Saxons).",
   "Camel Rider and Heavy Camel Rider are removed, since no camel troops are attested in Mali's armies, and the Halberdier replaces them as the anti-cavalry unit (RULES 6.11). Restore them as an abstraction of the Saharan peoples inside or beside the empire?",
   "The Barracks pierce-armour bonus is kept for the civ's infantry identity, but it is an admitted abstraction. Replace it with an archer bonus (e.g. ‘Foot Archers cost -10/20/30% in Feudal/Castle/Imperial Age’, Mayans)?",
   "Town Center tech: Farba (new, level 2) for the mansa's governors. Alternatives: a tech for Mansa Musa's pilgrimage (1324), or Tigui restored as a gameplay survivor without a historical referent?",
@@ -67,7 +67,7 @@ level = 1
 change = "kept"
 precedent = "Villagers drop off +10% more gold (Malians)"
 basis = "Mali controlled the goldfields of Bambuk and Bure; according to al-Umari, Mansa Musa's passage through Cairo on pilgrimage (1324) depressed the value of gold there for years."
-relevance = "Gold was the base of Mali's power and fame, from the trans-Saharan trade to the Catalan Atlas (1375); unlike the flagged weak gold-mining bonuses, this one carries the civ's identity."
+relevance = "Gold was the base of Mali's power and fame, from the trans-Saharan trade to the Catalan Atlas (1375); unlike gold-mining bonuses with weak historical weight, this one carries the civ's identity."
 
 [[bonus]]
 text = "Barracks Units +1/+2/+3 pierce armor in Feudal/Castle/Imperial Age"
@@ -85,7 +85,7 @@ kind = "economic"
 level = 1
 change = "new"
 precedent = "Trade Units generate +10% food in addition to gold (Bengalis team bonus)"
-basis = "Mali's wealth rested on the Saharan exchange that carried its gold north and brought salt south. Ibn Battuta (1352) crossed from Taghaza, where the houses were built of salt and slabs of it were cut to be carried to the Sudan and used there as money, as gold and silver are elsewhere, to Walata, where the mansa's governor received the caravan; on his return he describes the copper of Takedda sold into the Sudan (Levtzion and Hopkins, 1981). Salt, the Sahel's scarce necessity, has no resource of its own in the game, so food stands for it. It replaces the previous draft's hunters' bonus, which turned the donso brotherhoods into a food-gathering rate (see the N2 idea)."
+basis = "Mali's wealth rested on the Saharan exchange that carried its gold north and brought salt south. Ibn Battuta (1352) crossed from Taghaza, where the houses were built of salt and slabs of it were cut to be carried to the Sudan and used there as money, as gold and silver are elsewhere, to Walata, where the mansa's governor received the caravan; on his return he describes the copper of Takedda sold into the Sudan (Levtzion and Hopkins, 1981). Salt, the Sahel's scarce necessity, has no resource of its own in the game, so food stands for it. A hunters' bonus for the donso brotherhoods is not used because it would turn them into a food-gathering rate (see the N2 idea)."
 relevance = "The salt-for-gold trade made Mali rich and tied it to the Islamic world, from Walata and Timbuktu to Cairo; without it there is no empire of Mansa Musa."
 
 [[bonus]]
@@ -93,7 +93,7 @@ text = "Foot Archers deal poison damage starting in Imperial Age"
 kind = "military"
 level = 1
 change = "new"
-precedent = "Curare (Foot Archers and Fortifications deal poison damage) (Tupi): the effect of an existing Imperial Age unique tech, narrowed to Foot Archers and reused as an age-gated passive, worded as in ‘Town Centers cost -50% wood starting in Castle Age’ (Britons); the Tupi draft drops Curare"
+precedent = "Curare (Foot Archers and Fortifications deal poison damage) (Tupi): the effect of an existing Imperial Age unique tech, narrowed to Foot Archers and reused as an age-gated passive, worded as in ‘Town Centers cost -50% wood starting in Castle Age’ (Britons); the Tupi design drops Curare"
 basis = "Mande and Senegambian archers poisoned their arrows. Cadamosto's caravels were attacked on the Gambia by canoes of archers shooting poisoned arrows (1455), and on his next voyage (1456) he describes the lords of the Gambia as subjects of the ‘emperor of Melli’; earlier, Zurara's Chronicle of Guinea tells how Nuno Tristão and most of his crew died of poisoned arrows on a river south of Cape Verde (1446; the river is disputed). The Portuguese raids on this coast mostly failed and gave way to trade. A long-standing technique with no moment of adoption is structural, so it is a passive rather than a unique tech (RULES 6.2, 6.3); Curare's fortification half is left out, since nothing documents poisoned arrows shot from Malian walls."
 relevance = "Poison made up for the weak bows of the Mande archers and checked the Portuguese raids on Mali's western provinces; it is the best-documented technique of the Mande archers there."
 contested = "The coastal peoples who killed Nuno Tristão are not named in the sources; the evidence comes from the western fringe of the empire."
@@ -127,7 +127,7 @@ effect = "Foot Soldiers cost -5% per Town Center or Castle controlled (maximum -
 level = 2
 change = "new"
 precedent = "A new tech copying one existing effect type: ‘Foot Soldiers cost -5% per Town Center or Castle controlled (maximum -20%)’ (Saxons, civ bonus)"
-basis = "The mansas ruled subject towns and provinces through governors called farba, a word Ibn Battuta glosses as ‘deputy’: at Walata in 1352 the farba Husayn received the merchants of his caravan, speaking to them only through an interpreter (Levtzion and Hopkins, 1981). Through such governors and the local chiefs the provinces supplied the levies of an army that al-Umari's informants put at about 100,000 men (Levtzion, 1973); foot soldiers that grow cheaper with every town held translate this. Tigui, the original Town Center tech, had no documented referent (see dropped), and no existing tech expresses provincial governors, so this is a new tech (level 2)."
+basis = "The mansas ruled subject towns and provinces through governors called farba, a word Ibn Battuta glosses as ‘deputy’: at Walata in 1352 the farba Husayn received the merchants of his caravan, speaking to them only through an interpreter (Levtzion and Hopkins, 1981). Through such governors and the local chiefs the provinces supplied the levies of an army that al-Umari's informants put at about 100,000 men (Levtzion, 1973); foot soldiers that grow cheaper with every town held translate this. Tigui (Town Centers fire arrows without garrison) had no documented referent (see dropped), and no existing tech expresses provincial governors, so this is a new tech (level 2)."
 relevance = "Governors in the subject towns let the mansas hold an empire from the Atlantic to Gao with few officials; they are one of the few institutions of Mali's government that the Arabic sources describe."
 contested = "How the farba were appointed and how far their authority reached beyond the trading towns is unclear."
 
@@ -162,7 +162,7 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", 
 "Camel Rider" = "No camel troops are attested in Mali's armies: al-Umari counts only horse and foot, the Massufa of Walata and Taghaza were caravaneers and guides, and the Tuareg were rivals who took Timbuktu from Mali in 1433 (analysis; tech tree audit). The Ethiopian design removes its camels on the same kind of evidence. The Halberdier replaces it as the anti-cavalry unit (RULES 6.11)."
 "Heavy Camel Rider" = "As Camel Rider."
 "Arbalester" = "No crossbow is attested in the Sahel, so under the project's criterion the crossbow tier goes; the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split, and the Tontajon fills the elite archer role. The tech tree audit rates the Malian Arbalester unfounded."
-"Thumb Ring" = "No thumb draw or thumb rings are attested for Sahelian archery; the thumb draw belongs to the steppe and Asian traditions (names theme), and the Malay and American designs drop the tech on the same ground."
+"Thumb Ring" = "No thumb draw or thumb rings are attested for Sahelian archery; the thumb draw belongs to the steppe and Asian traditions (names theme), and other designs drop the tech on the same ground (among them the Ethiopians, Malay, Maya, Inca and Muisca)."
 "Carrack" = "Canoe navy: no high-castled sailing warships, as for the American civs."
 "Keep" = "Sudano-Sahelian building was in earth, and medieval Malian town walls are thinly attested (see contested); the Guard Tower stays as the abstraction of defended posts, as for the Muisca."
 "Block Printing" = "No printing in the window: the scholarship of Timbuktu and the Sahel lived in manuscripts copied by hand."
@@ -181,4 +181,4 @@ basis = "Sudano-Sahelian earth building (Djinguereber, Djenné, Walata) is what 
 [[dropped]]
 item = "Tigui (Town Centers fire arrows without garrison)"
 kind = "unique_tech"
-reason = "Relevance test (RULES 6.9): the effect has no documented Malian referent (analysis: stretched), the walled-town reading leans on 19th-century tata, and the previous draft's re-basing on village and canton chiefs (dugutigi, kafutigi) expressed rule through chiefs only loosely. The mansa's governors (Farba), one of the few documented institutions of Mali's government, take the Town Center slot. The effect stays in the game with the Italians' Comune and the Germans' Burgenordnung; the owner may restore Tigui as a gameplay survivor (see open questions)."
+reason = "Relevance test (RULES 6.9): the effect has no documented Malian referent (analysis: stretched), the walled-town reading leans on 19th-century tata, and a reading as village and canton chiefs (dugutigi, kafutigi) would express rule through chiefs only loosely. The mansa's governors (Farba), one of the few documented institutions of Mali's government, take the Town Center slot. The effect stays in the game with the Italians' Comune and the Germans' Burgenordnung; the owner may restore Tigui as a gameplay survivor (see open questions)."

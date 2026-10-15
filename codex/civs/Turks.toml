@@ -23,11 +23,11 @@ contested = [
 ]
 open_questions = [
   "Name: rename to ‘Ottomans’, as the analysis proposes? The design is Ottoman and the Seljuks are thin (the Caravanserai now gives them an element). Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
-  "Team bonus: the previous draft re-based ‘Gunpowder Units train +25% faster’ on Ottoman guns and gunners for neighbours, but every case falls after 1500 (guns, powder and timber sent for the Mamluk Red Sea fleet in 1510–1511 and Selman Reis's defence of Jeddah in 1517, Brummett, 1994, and Casale, 2010; Babur's ‘custom of Rum’ at Panipat, 1526), and a team bonus cannot meet the late-element rule (Imperial Age only, RULES section 2). This draft uses Turkish horsemen serving neighbours instead (‘Mounted Archers train +25% faster’, also the Magyars' team bonus). Keep that, or restore the gunpowder team bonus as an owner's exception to RULES section 2?",
+  "Team bonus: Turkish horsemen serving neighbours (‘Mounted Archers train +25% faster’, also the team bonus of the Magyars and the Tatars) replace ‘Gunpowder Units train +25% faster’. Ottoman guns and gunners did reach neighbours, but every case falls after 1500 (guns, powder and timber sent for the Mamluk Red Sea fleet in 1510–1511 and Selman Reis's defence of Jeddah in 1517, Brummett, 1994, and Casale, 2010; Babur's ‘custom of Rum’ at Panipat, 1526), and a team bonus cannot meet the late-element rule (Imperial Age only, RULES section 2). Keep the horsemen? Alternative: restore the gunpowder team bonus on that basis, as an owner's exception to RULES section 2.",
   "Tabur: share the Bohemian Hussite Wagon (as a second unique unit or through a technology) for the Ottoman wagon forts of Chaldiran (1514) and Mohács (1526), which followed Hungarian and Hussite models? N1-feasible, not done because the Ottoman use falls after 1500 and would be a late element.",
   "Navy: no Fast Fire Ship and no naval bonus, though the fleet acted inside the window: Negroponte (1470), the Otranto landing (1480), Zonchio (1499, where Kemal Reis's gun-carrying göke fought) and Modon (1500); its peak (Rhodes 1522, Preveza 1538, Djerba 1560) comes later. Add Fast Fire Ship or a naval bonus with an existing precedent?",
   "Codex-wide question CQ9 (see codex/civs/README.md): magnitude ceiling (Siege Engineers stays out, since with Artillery it would give range-15 Bombard Cannons; Sappers, already in the tree, carries the Ottoman miners, the lağımcı).",
-  "Sipahi is moved to the Town Center and renamed ‘Timar’, after the institution rather than the soldiers. Keep the old name ‘Sipahi’ instead? (The Saracens share the same tech as Iqta', the institution from which the timar grew.)",
+  "Sipahi is moved to the Town Center and renamed ‘Timar’, after the institution rather than the soldiers. Keep the old name ‘Sipahi’ instead? (The Saracens share the same tech as Iqta', after the institution from which the timar grew, and the Hindustanis as Dagh.)",
   "Foot archery and skirmishers: the Turks remain the only civ without the Elite Skirmisher, a balance choice with no historical reason (the Ottoman azaps were light foot, many of them archers), and they get no Arbalester, since no Turkish crossbow use is securely attested in the sources used here (the N2 Ok Meydanı idea carries the bow). Add the Elite Skirmisher, or keep it out as the counterweight to the gunpowder bonuses?",
   "Power: with the gold-mining bonus dropped, the Turks' only economic passive is the Imperial Age Caravanserai, so they have no economic bonus before the Imperial Age. Add an early economic passive with an existing precedent, for example ‘Shepherds work +25% faster’ (Britons) for the Turkmen and yörük herders of Anatolia, or accept the change?",
 ]
@@ -119,7 +119,7 @@ effect = "Mounted Archers +20 HP"
 level = 1
 change = "changed"
 replaces = "Sipahi (Mounted Archers +20 HP)"
-precedent = "Sipahi (Mounted Archers +20 HP) (Turks): an existing unique tech, moved from the Castle to the Town Center and renamed with an identical effect; the Saracens share it as Iqta'"
+precedent = "Sipahi (Mounted Archers +20 HP) (Turks): an existing unique tech, moved from the Castle to the Town Center and renamed with an identical effect; the Saracens share it at the Town Center as Iqta' and the Hindustanis at the Castle as Dagh"
 basis = "The timar assigned the revenue of a district, recorded in the state's survey registers (tahrir defterleri, from the 1430s), to a provincial cavalryman (sipahi) who served with bow, lance and mace and brought armed retainers in proportion to his income (İnalcık, 1973). The Town Center fits the institution, a land-revenue system run by the central government; sturdier mounted archers translate the equipped timariot cavalry. Renamed after the institution, which grew out of the Seljuk iqta'."
 relevance = "The timar system raised the bulk of the Ottoman army and organised the conquered provinces; it is the backbone of the classical Ottoman state."
 
@@ -141,7 +141,7 @@ remove = ["Siphons", "Incendiaries"]
 
 [tree.basis]
 "Herbal Medicine" = "Seljuk-era Anatolian rulers and the Ottomans founded great hospitals (darüşşifa): Gevher Nesibe in Kayseri (Kaykhusraw I, 1205–1206), the Mengujekid hospital of Turan Malik at Divriği (1228–1229) and the hospital of Bayezid II's complex at Edirne (1488). The absence was ironic."
-"Caravanserai" = "Granted by the Caravanserai bonus (the Seljuk sultan hans and the Ottoman hans; see there) and added so that the tree shows the building, as in the Khmer and Hindustani designs."
+"Caravanserai" = "Granted by the Caravanserai bonus (the Seljuk sultan hans and the Ottoman hans; see there) and added so that the tree shows the building, as in the Khmer design (the Persians and Hindustanis have it in the game)."
 "Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 "Incendiaries" = "Requires Siphons, which this design removes."
 
@@ -165,4 +165,4 @@ basis = "Seljuk and early Ottoman stone building (Konya, Bursa, Edirne) fits the
 [[dropped]]
 item = "Gold miners work +25% faster"
 kind = "bonus"
-reason = "Relevance test (RULES 6.9; brief 5.5 flags gold-mining bonuses with weak historical weight): the analysis rates it stretched, the metal was the silver of Novo Brdo (taken 1455), Srebrenica and Kratovo, and mining was a modest share of Ottoman revenue beside land taxes and customs; erasing it would not change the course or identity of the civ. Replaced by the Seljuk and Ottoman hans (Caravanserai)."
+reason = "Relevance test (RULES 6.9), as a gold-mining bonus with weak historical weight: the analysis rates it stretched, the metal was the silver of Novo Brdo (taken 1455), Srebrenica and Kratovo, and mining was a modest share of Ottoman revenue beside land taxes and customs; erasing it would not change the course or identity of the civ. Replaced by the Seljuk and Ottoman hans (Caravanserai)."
