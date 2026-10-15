@@ -12,6 +12,8 @@ ideas = [
   "N3: A separate Seljuk civ (1037–1308), leaving the Turks as the Ottomans; in this design the Great Seljuk state in Iran belongs to the Persians.",
 ]
 contested = [
+  "Name: ‘Turks’ or ‘Ottomans’. The design is mostly Ottoman, but it also carries the Seljuks of Rum, and English scholarship speaks of both as Turks (the Seljuk and the Ottoman Turks), so the civ keeps the game's name (RULES section 4 and 6.16.15); a separate Seljuk civ is an N3 idea.",
+  "Origin of the iqta' and of the Ottoman timar (shared with the Arabs' design): Köprülü (1931) derived the Ottoman timar from the Seljuk and Ilkhanid iqta', against theories of Byzantine origin; Ostrogorsky (Pour l'histoire de la féodalité byzantine, 1954) saw it as the continuation of the Byzantine pronoia that the Ottomans found in the Balkans; İnalcık (‘Ottoman Methods of Conquest’, 1954; 1973) showed that Christian pronoia holders were taken into the timar registers of the conquered Balkans while tracing the institution to the iqta'. Bartusis (Land and Privilege in Byzantium, 2012) doubts that the pronoia was ever a standard military fief, which weakens a direct Byzantine derivation. The codex follows the iqta' lineage, with Balkan continuity as a contributing factor.",
   "The ‘gazi thesis’ of Ottoman origins: Wittek (1938) against Lindner (1983), Kafadar (1995) and Lowry (2003).",
   "When the Janissaries adopted firearms (1440s or 1460s).",
   "Figures for the siege of 1453 (guns and Janissaries) in Kritovoulos, Barbaro and Doukas; modern estimates put the corps well below 15,000.",
@@ -21,16 +23,7 @@ contested = [
   "Who the Turcopoles were: sons of Turkish fathers, baptised Turks, or local light horsemen recruited and equipped in the Turkish manner.",
   "How far camels served Seljuk and Ottoman armies as mounts in battle rather than as baggage animals (Ottoman campaigns moved with thousands of camels): the regional analysis sees them as mainly logistic, the tech-tree audit rates the Camel Rider plausible for the Turks. The Camel Rider and Heavy Camel Rider stay as a regional abstraction.",
 ]
-open_questions = [
-  "Name: rename to ‘Ottomans’, as the analysis proposes? The design is Ottoman and the Seljuks are thin (the Caravanserai now gives them an element). Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
-  "Team bonus: Turkish horsemen serving neighbours (‘Mounted Archers train +25% faster’, also the team bonus of the Magyars and the Tatars) replace ‘Gunpowder Units train +25% faster’. Ottoman guns and gunners did reach neighbours, but every case falls after 1500 (guns, powder and timber sent for the Mamluk Red Sea fleet in 1510–1511 and Selman Reis's defence of Jeddah in 1517, Brummett, 1994, and Casale, 2010; Babur's ‘custom of Rum’ at Panipat, 1526), and a team bonus cannot meet the late-element rule (Imperial Age only, RULES section 2). Keep the horsemen? Alternative: restore the gunpowder team bonus on that basis, as an owner's exception to RULES section 2.",
-  "Tabur: share the Bohemian Hussite Wagon (as a second unique unit or through a technology) for the Ottoman wagon forts of Chaldiran (1514) and Mohács (1526), which followed Hungarian and Hussite models? N1-feasible, not done because the Ottoman use falls after 1500 and would be a late element.",
-  "Navy: no Fast Fire Ship and no naval bonus, though the fleet acted inside the window: Negroponte (1470), the Otranto landing (1480), Zonchio (1499, where Kemal Reis's gun-carrying göke fought) and Modon (1500); its peak (Rhodes 1522, Preveza 1538, Djerba 1560) comes later. Add Fast Fire Ship or a naval bonus with an existing precedent?",
-  "Codex-wide question CQ9 (see codex/civs/README.md): magnitude ceiling (Siege Engineers stays out, since with Artillery it would give range-15 Bombard Cannons; Sappers, already in the tree, carries the Ottoman miners, the lağımcı).",
-  "Sipahi is moved to the Town Center and renamed ‘Timar’, after the institution rather than the soldiers. Keep the old name ‘Sipahi’ instead? (The Saracens share the same tech as Iqta', after the institution from which the timar grew, and the Hindustanis as Dagh.)",
-  "Foot archery and skirmishers: the Turks remain the only civ without the Elite Skirmisher, a balance choice with no historical reason (the Ottoman azaps were light foot, many of them archers), and they get no Arbalester, since no Turkish crossbow use is securely attested in the sources used here (the N2 Ok Meydanı idea carries the bow). Add the Elite Skirmisher, or keep it out as the counterweight to the gunpowder bonuses?",
-  "Power: with the gold-mining bonus dropped, the Turks' only economic passive is the Imperial Age Caravanserai, so they have no economic bonus before the Imperial Age. Add an early economic passive with an existing precedent, for example ‘Shepherds work +25% faster’ (Britons) for the Turkmen and yörük herders of Anatolia, or accept the change?",
-]
+open_questions = []
 
 [profile]
 entity = "The Turkish sultanates of Anatolia and the Balkans: the Seljuks of Rum and, above all, the Ottoman Empire (the Great Seljuk state in Iran is carried by the Persians)"
@@ -53,6 +46,8 @@ sources = [
   "Colin Imber, The Ottoman Empire, 1300–1650 (2002)",
   "Gábor Ágoston, Guns for the Sultan (2005)",
   "Steven Runciman, The Fall of Constantinople 1453 (1965)",
+  "Palmira Brummett, Ottoman Seapower and Levantine Diplomacy in the Age of Discovery (1994)",
+  "Giancarlo Casale, The Ottoman Age of Exploration (2010)",
 ]
 
 [[bonus]]
@@ -80,7 +75,7 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Chemistry free; Gunpowder technologies costs -50% (Turks)"
-basis = "State production of powder and guns: founders such as Orban, who cast Mehmed II's great bombards in 1452–1453, and after 1453 the imperial cannon foundry (Tophane-i Amire) in Istanbul, with state control of saltpetre (Ágoston, 2005). The in-game text reads “Chemistry free; Gunpowder technologies costs -50%”; only the grammar is corrected here."
+basis = "State production of powder and guns: founders such as Orban, who cast Mehmed II's great bombards in 1452–1453, and after 1453 the imperial cannon foundry (Tophane-i Amire) in Istanbul, with state control of saltpetre (Ágoston, 2005). The in-game text reads “Chemistry free; Gunpowder technologies costs -50%”; only the grammar is corrected here. As in the game, the Elite Skirmisher stays out as the counterweight to the gunpowder bonuses: a balance choice, not a historical claim, since the Ottoman azaps were light foot, many of them archers. The Arbalester stays out too, as no Turkish crossbow use is securely attested in the sources used here (RULES 6.16.3); the N2 Ok Meydanı idea carries the bow."
 relevance = "Mastery of gunpowder weapons took Constantinople (1453) and won Chaldiran (1514) and Mohács (1526); it is the defining Ottoman military trait."
 
 [[bonus]]
@@ -98,7 +93,7 @@ level = 1
 change = "new"
 replaces = "Gunpowder Units train +25% faster"
 precedent = "Mounted Archers train +25% faster (Magyars team bonus; the Tatars' design uses it too)"
-basis = "Turkish horsemen served neighbours as mercenaries and allies throughout the window. Byzantine commanders and emperors hired Turkish horse archers from the 1070s (Anna Komnene, Alexiad), and the Byzantines, then the crusader states and the military orders, raised Turcopoles, light horse archers of Turkish origin or fighting in the Turkish manner, whom the Hospitallers placed under a Turcopolier. In the Byzantine civil war of 1341–1347 Umur of Aydin and Orhan's Ottomans fought for John VI Kantakouzenos, who married his daughter Theodora to Orhan (1346); Ottoman help again in 1352 brought the Ottomans into Europe (Tzympe 1352, Gallipoli 1354) (Kantakouzenos, Histories; Nicol, 1993). The original bonus was a general abstraction of Ottoman logistics, and its transfer to allies is attested only after 1500 (see open questions)."
+basis = "Turkish horsemen served neighbours as mercenaries and allies throughout the window. Byzantine commanders and emperors hired Turkish horse archers from the 1070s (Anna Komnene, Alexiad), and the Byzantines, then the crusader states and the military orders, raised Turcopoles, light horse archers of Turkish origin or fighting in the Turkish manner, whom the Hospitallers placed under a Turcopolier. In the Byzantine civil war of 1341–1347 Umur of Aydin and Orhan's Ottomans fought for John VI Kantakouzenos, who married his daughter Theodora to Orhan (1346); Ottoman help again in 1352 brought the Ottomans into Europe (Tzympe 1352, Gallipoli 1354) (Kantakouzenos, Histories; Nicol, 1993). The original bonus was a general abstraction of Ottoman logistics. Ottoman guns and gunners did reach neighbours, but every case falls after 1500 (guns, powder and timber for the Mamluk Red Sea fleet in 1510–1511 and Selman Reis's defence of Jeddah in 1517, Brummett, 1994, and Casale, 2010; Babur's ‘custom of Rum’ at Panipat, 1526), and a team bonus cannot meet the late-element rule (Imperial Age only, RULES section 2), so the horsemen carry the team bonus. Identical team-wide effects count once per team (RULES 6.16.12)."
 relevance = "Turkish horse archers in the service of neighbours, from the Turcopoles to Kantakouzenos' Turkish allies, shaped Byzantine and crusader warfare and opened Europe to the Ottomans; it is a benefit to allies, as RULES 6.2 requires."
 
 [[unique_unit]]
@@ -107,7 +102,7 @@ model = "Janissary"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The yeniçeri (‘new troops’) were formed under Murad I (c. 1363–1380) from the sultan's fifth of war captives (pençik) and later from the devşirme levy of Christian boys; they began as archers and took up firearms from the mid-15th century. The unit represents the Janissary of c. 1450–1600 well."
+basis = "The yeniçeri (‘new troops’) were formed under Murad I (c. 1363–1380) from the sultan's fifth of war captives (pençik) and later from the devşirme levy of Christian boys; they began as archers and took up firearms from the mid-15th century. The unit represents the Janissary of c. 1450–1600 well; the Scenario Editor's Royal Janissary, a stronger variant, adds nothing the game's unit lacks. The wagon fort (tabur) behind which the Janissaries fought at Chaldiran (1514) and Mohács (1526), on Hungarian and Hussite models, is not added through the Bohemians' Hussite Wagon: every Ottoman use falls after 1500."
 relevance = "The Janissaries were the core of the Ottoman army and, through the devşirme, of the Ottoman state; they are also the troops most associated with the Turks."
 
 [[unique_tech]]
@@ -119,8 +114,8 @@ effect = "Mounted Archers +20 HP"
 level = 1
 change = "changed"
 replaces = "Sipahi (Mounted Archers +20 HP)"
-precedent = "Sipahi (Mounted Archers +20 HP) (Turks): an existing unique tech, moved from the Castle to the Town Center and renamed with an identical effect; the Saracens share it at the Town Center as Iqta' and the Hindustanis at the Castle as Dagh"
-basis = "The timar assigned the revenue of a district, recorded in the state's survey registers (tahrir defterleri, from the 1430s), to a provincial cavalryman (sipahi) who served with bow, lance and mace and brought armed retainers in proportion to his income (İnalcık, 1973). The Town Center fits the institution, a land-revenue system run by the central government; sturdier mounted archers translate the equipped timariot cavalry. Renamed after the institution, which grew out of the Seljuk iqta'."
+precedent = "Sipahi (Mounted Archers +20 HP) (Turks): an existing unique tech, moved from the Castle to the Town Center and renamed with an identical effect; the Hindustanis share it at the Castle as Dagh"
+basis = "The timar assigned the revenue of a district, recorded in the state's survey registers (tahrir defterleri, from the 1430s), to a provincial cavalryman (sipahi) who served with bow, lance and mace and brought armed retainers in proportion to his income (İnalcık, 1973). The Town Center fits the institution, a land-revenue system run by the central government; sturdier mounted archers translate the equipped timariot cavalry. The tech is named after the institution rather than after the soldiers (Sipahi), and the codex reads it as grown out of the Seljuk and Ilkhanid iqta' (see contested on its origin)."
 relevance = "The timar system raised the bulk of the Ottoman army and organised the conquered provinces; it is the backbone of the classical Ottoman state."
 
 [[unique_tech]]
@@ -132,7 +127,7 @@ effect = "Bombard Towers, Bombard Cannons, Cannon Galleons +2 range"
 level = 1
 change = "kept"
 precedent = "Artillery (Bombard Towers, Bombard Cannons, Cannon Galleons +2 range) (Turks)"
-basis = "Ottoman superiority in siege artillery is well documented: Orban's great bombard at Constantinople (1453), Munir Ali's Dardanelles Gun (1464), the sieges of Rhodes (1480, 1522) and Belgrade (1521)."
+basis = "Ottoman superiority in siege artillery is well documented: Orban's great bombard at Constantinople (1453), Munir Ali's Dardanelles Gun (1464), the sieges of Rhodes (1480, 1522) and Belgrade (1521). Siege Engineers stays out of the tree, as in the game: with Artillery it would give Bombard Cannons a range of 15, beyond the highest value the game gives the class (RULES 6.16.11); Sappers, already in the tree, carries the Ottoman miners (lağımcı)."
 relevance = "Siege artillery opened Constantinople, Belgrade and Rhodes to the Ottomans; without it their 15th–16th-century expansion fails."
 
 [tree]
@@ -155,14 +150,14 @@ basis = "The akıncı (‘raider’) were the Ottoman light horsemen who raided 
 from = "Shipwright"
 to = "Tersane"
 level = 1
-basis = "The Ottoman state arsenals (tersane), at Gallipoli from c. 1390 and on the Golden Horn after 1453, enlarged by Selim I from 1515; the word itself comes, through Italian darsena, from the Arabic dār al-ṣināʿa, which the Saracens' renamed Shipwright uses. Same function (a state shipyard), identical effect."
+basis = "The Ottoman state arsenals (tersane), at Gallipoli from c. 1390 and on the Golden Horn after 1453, enlarged by Selim I from 1515; the word itself comes, through Italian darsena, from the Arabic dār al-ṣināʿa, which the Arabs' renamed Shipwright uses. Same function (a state shipyard), identical effect. The navy is a fleet of ships (RULES 6.16.1): the galleys of Gallipoli and the Golden Horn and the gun-carrying göke of Kemal Reis at Zonchio (1499) keep the game's generic tiers and the Cannon Galleon. The game's lack of the Fast Fire Ship stands and no naval bonus is added: the fleet fought inside the window (Negroponte 1470, the Otranto landing 1480, Zonchio 1499, Modon 1500), but its peak (Rhodes 1522, Preveza 1538, Djerba 1560) comes after it."
 
 [architecture]
 set = "Middle Eastern"
 change = "kept"
-basis = "Seljuk and early Ottoman stone building (Konya, Bursa, Edirne) fits the Middle Eastern set; a Rumi-Ottoman set would be N3."
+basis = "Seljuk and early Ottoman stone building (Konya, Bursa, Edirne) fits the Middle Eastern set; a Rumi-Ottoman set would be N3. Treadmill Crane stays in the tree under the region's one reading of the tech (see the Arabs' design): no treadwheel crane is attested at Seljuk or Ottoman building sites before 1526 in the sources used here, so it is kept as a generic abstraction of faster building, resting on the Seljuk sultan hans and on Ottoman külliyes such as Mehmed II's Fatih complex in Istanbul (1463–1470)."
 
 [[dropped]]
 item = "Gold miners work +25% faster"
 kind = "bonus"
-reason = "Relevance test (RULES 6.9), as a gold-mining bonus with weak historical weight: the analysis rates it stretched, the metal was the silver of Novo Brdo (taken 1455), Srebrenica and Kratovo, and mining was a modest share of Ottoman revenue beside land taxes and customs; erasing it would not change the course or identity of the civ. Replaced by the Seljuk and Ottoman hans (Caravanserai)."
+reason = "Relevance test (RULES 6.9), as a gold-mining bonus with weak historical weight: the analysis rates it stretched, the metal was the silver of Novo Brdo (taken 1455), Srebrenica and Kratovo, and mining was a modest share of Ottoman revenue beside land taxes and customs; erasing it would not change the course or identity of the civ. Replaced by the Seljuk and Ottoman hans (Caravanserai). No early economic passive (such as ‘Shepherds work +25% faster’ for the Turkmen and yörük herders) is added to make up for it: there is no blanket compensation (RULES 6.16.13), so the Turks' economic bonus comes only in the Imperial Age."

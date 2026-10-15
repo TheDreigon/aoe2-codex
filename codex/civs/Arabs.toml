@@ -3,14 +3,16 @@ name = "Arabs"
 original_name = "Saracens"
 status = "draft"
 label = "Cavalry Archer and Naval civilization"
-summary = "Saracens as the Arab caliphates and Ayyubid–Mamluk Egypt and Syria (632–1517): a horse-archer Mamluk replaces the camel Mameluke, Iqta' land grants and Arabic science passed to neighbours are new, Bimaristan moves to the Town Center, and the Hand Cannoneer and Cannon Galleons leave."
+summary = "Saracens renamed Arabs for the Arab caliphates and Ayyubid–Mamluk Egypt and Syria (632–1517): a horse-archer Mamluk replaces the camel Mameluke, Abd al-Malik's coinage and diwan reform (Dinar) becomes the Town Center tech, Bimaristan moves to the Monastery, Arabic science passed to neighbours is the team bonus, and the Hand Cannoneer and Cannon Galleons leave."
 ideas = [
   "N2: Give the Mamluk its own model: an armoured horse archer who can switch to the lance (the Ratha's mode switch), costlier than the light Kipchak it borrows now. The same model would serve the Hindustanis' Ghulam, since ghulam and mamluk name one institution (Turkish military slaves).",
   "N2: A Naffat unit (naphtha thrower) with a short-range blast attack strong against buildings and siege engines, built from the existing grenade and fire mechanics, for the naffatun of Abbasid, Ayyubid and Mamluk armies (Acre, 1190: Baha al-Din ibn Shaddad).",
   "N2: Barid: the state post with relay stations and carrier pigeons (Umayyads and Abbasids; revived by Baybars in the 1260s) as a line-of-sight technology.",
-  "N3: Split the civ into Arabs (the caliphates, 632 to c. 1050, naval and commercial) and Mamluks (Egypt and Syria, 1250–1517, cavalry and siege), as Age of Empires IV separates the Abbasids and the Ayyubids.",
+  "N3: Split the civ into Arabs (the caliphates, 632 to c. 1050, naval and commercial) and Mamluks (Egypt and Syria, 1250–1517, cavalry and siege), as Age of Empires IV separates the Abbasids and the Ayyubids. Whether the Mamluk Sultanate belongs with the Arabs at all is contested (see contested): its ruling elite was Turkic and Circassian, its state Arabic-speaking.",
 ]
 contested = [
+  "Arabs and Mamluks: the Mamluk ruling elite was Turkic (Kipchak, from 1382 mostly Circassian) and contemporaries called its state the ‘state of the Turks’ (dawlat al-Atrak), while its administration, scholarship and subjects were Arabic-speaking. The design keeps the caliphates and the Ayyubid–Mamluk sultanates in one civ under the name Arabs (RULES section 4), with a Turkic Mamluk unit; the split is an N3 idea.",
+  "Origin of the iqta' and of the Ottoman timar (shared with the Turks' design): Köprülü (1931) derived the Ottoman timar from the Seljuk and Ilkhanid iqta', against theories of Byzantine origin; Ostrogorsky (Pour l'histoire de la féodalité byzantine, 1954) saw it as the continuation of the Byzantine pronoia that the Ottomans found in the Balkans; İnalcık (‘Ottoman Methods of Conquest’, 1954; 1973) showed that Christian pronoia holders were taken into the timar registers of the conquered Balkans while tracing the institution to the iqta'. Bartusis (Land and Privilege in Byzantium, 2012) doubts that the pronoia was ever a standard military fief, which weakens a direct Byzantine derivation. The codex follows the iqta' lineage, with Balkan continuity as a contributing factor.",
   "Origin of the counterweight trebuchet: Byzantine (Chevedden: in use by c. 1165) or Islamic (Murda al-Tarsusi's treatise for Saladin, c. 1187).",
   "Ayalon's thesis (1956) that the Mamluk cavalry elite despised hand firearms, and that this weighed in the defeats of Marj Dabiq (1516) and Raydaniyya (1517), has been nuanced by later studies; the Mamluks did field guns and arquebusiers at Raydaniyya.",
   "Watson's ‘Arab agricultural revolution’ (1974, 1983) against Decker (2009): Crop Rotation stays out of the tree.",
@@ -19,17 +21,7 @@ contested = [
   "The House of Wisdom (Bayt al-Hikma) of al-Ma'mun: a scientific academy or mainly a palace library (Dimitri Gutas, Greek Thought, Arabic Culture, 1998).",
   "Block Printing stays in the tree for the printed amulets (tarsh), paper strips with Qur'anic verses and prayers made in Egypt from about the 10th to the 14th century (Richard W. Bulliet, ‘Medieval Arabic Ṭarsh’, Journal of the American Oriental Society 107, 1987; Karl R. Schaefer, Enigmatic Charms, 2006). No block survives, so whether they were cut in wood or engraved in tin is inferred from the prints and from poems; books were not printed.",
 ]
-open_questions = [
-  "Name: keep ‘Saracens’ (a Greco-Latin exonym that medieval Christians applied to all Muslims) or rename to ‘Arabs’, as the analysis and the names theme recommend? Not decided, so the current name is kept. Note that ‘Arabs’ would sit awkwardly with a Turkic (Kipchak, later Circassian) ‘Mamluk’ unique unit, the analysis' own argument for splitting Arabs and Mamluks (see the N3 idea). The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
-  "Unique unit: the camel-riding Mameluke (rated wrong: Mamluks rode horses and fought as horse archers and lancers; the thrown scimitar is a game invention) is replaced by the Cuman Kipchak renamed ‘Mamluk’, since the Bahri mamluks were largely Kipchaks; it loses the anti-cavalry role, which the camels keep. The Kipchak model thus serves four civs (the Cumans' Kipchak, the Georgians' Kipchak, the Hindustanis' Ghulam and these Mamluks), besides the free Elite Kipchaks of the Cumans' Cuman Mercenaries and the Bulgarians' Cuman Alliance. Accept the four-way share, restore the Mameluke unchanged until an N2 remodel, or use the Persian Savar renamed (heavy cavalry strong against ranged units, but without a bow)? Also: the spelling ‘Mamluk’ (modern scholarship) or ‘Mameluke’ (the game)?",
-  "Codex-wide question CQ19 (see codex/civs/README.md): labels (here ‘Cavalry Archer and Naval’ for ‘Camel and Naval’).",
-  "Heavy Cavalry Archer upgrade: -50% (the Khitan magnitude), to keep the power budget. Alternative: free (magnitude precedents ‘Militia-line upgrades free’, Bulgarians, and the Turks' free Scout Cavalry-line upgrades). Keep -50%?",
-  "Naval package: the Transport Ships bonus is dropped, and the Fast Fire Ship, which the game's Saracens lack, is not added, to keep the power budget, not for lack of history: Arab landings and island conquests (Cyprus 649, Crete c. 827, Sicily 827–902, the Balearics 902/903) were major enterprises, and Muslim fleets had a named fire ship, the ḥarrāqa, which carried naphtha throwers. Restore the bonus or add the Fast Fire Ship? If one of them comes in, the Fast Fire Ship as the ḥarrāqa has the more specific referent; the Tamils' and Burmese designs already use the identical Transport Ships bonus.",
-  "Codex-wide question CQ1 (see codex/civs/README.md): navy rule (without the Cannon Galleon this naval civ has no siege warship).",
-  "Iqta' shares the Turks' Sipahi (their Timar), because the Ottoman timar grew out of the Seljuk iqta': the Saracens and the Turks hold the same Town Center tech, and the Hindustanis hold it at the Castle as Dagh (reuse in general is codex-wide question CQ11, see codex/civs/README.md). Keep the shared tech? Alternative: a new tech (level 2) such as ‘Knight-line and Cavalry Archers cost -25% gold’, which also covers the armoured lancers the iqta' paid.",
-  "Priorities: the mamluk horse archer now fills three slots (the Mamluk, the Heavy Cavalry Archer bonus and Iqta'), while the early caliphate (632 to c. 1050) has only passives and the team bonus. Should one slot carry an early caliphal moment instead, for example Abd al-Malik's Arabic coinage and chancery reform (696–700) as a Town Center tech?",
-  "Codex-wide question CQ6 (see codex/civs/README.md): religious vocabulary (for the Muslim civs, e.g. Sufi and Khanqah).",
-]
+open_questions = []
 
 [profile]
 entity = "The Arab caliphates and the Arabic-speaking Islamic states of the Near East: Rashidun, Umayyad, Abbasid and Fatimid caliphates, the Ayyubids and the Mamluk Sultanate of Egypt and Syria"
@@ -43,12 +35,15 @@ sources = [
   "al-Maqrizi, Kitab al-suluk; al-Khitat",
   "Hugh Kennedy, The Great Arab Conquests (2007); The Prophet and the Age of the Caliphates (3rd ed., 2016)",
   "Fred M. Donner, The Early Islamic Conquests (1981)",
+  "Chase F. Robinson, ʿAbd al-Malik (2005)",
+  "Jere L. Bacharach, ‘Signs of Sovereignty: The Shahāda, Qur'anic Verses, and the Coinage of ʿAbd al-Malik’, Muqarnas 27 (2010)",
   "David Ayalon, Gunpowder and Firearms in the Mamluk Kingdom (1956); The Mamluk Military Society (1979)",
   "Reuven Amitai-Preiss, Mongols and Mamluks: The Mamluk-Ilkhanid War, 1260–1281 (1995)",
   "Christophe Picard, La mer des califes (2015)",
   "Michael W. Dols, ‘The Origins of the Islamic Hospital: Myth and Reality’, Bulletin of the History of Medicine 61 (1987)",
   "J. D. Latham and W. F. Paterson, Saracen Archery (1970; Taybugha's manual, c. 1368)",
   "Dimitri Gutas, Greek Thought, Arabic Culture (1998)",
+  "David C. Lindberg, Theories of Vision from al-Kindi to Kepler (1976)",
   "Claude Cahen, ‘L'évolution de l'iqta' du IXe au XIIIe siècle’, Annales 8 (1953)",
   "Halil İnalcık, The Ottoman Empire: The Classical Age 1300–1600 (1973)",
 ]
@@ -86,8 +81,8 @@ text = "Heavy Cavalry Archer upgrade costs -50%"
 kind = "military"
 level = 1
 change = "new"
-precedent = "Heavy Cavalry Archer upgrade available in Castle Age and costs -50% (Khitans)"
-basis = "From the Turkish ghilman of Samarra (830s) to the Mamluks, the core of these armies was the armoured horse archer, trained also with lance and sword in the furusiyya of the barracks schools (tibaq) and the training grounds (maydan) of Cairo; manuals such as Taybugha's on archery (c. 1368; Latham and Paterson, 1970) codify the training. These troops beat the Mongols at Ain Jalut (1260) and Homs (1281) (Ayalon; Amitai-Preiss, 1995). The tree already had Cavalry Archer, Heavy Cavalry Archer, Thumb Ring and Parthian Tactics, but no bonus expressed the civ's best-documented military trait."
+precedent = "Heavy Cavalry Archer upgrade available in Castle Age and costs -50% (Khitans), the cost half only"
+basis = "From the Turkish ghilman of Samarra (830s) to the Mamluks, the core of these armies was the armoured horse archer, trained also with lance and sword in the furusiyya of the barracks schools (tibaq) and the training grounds (maydan) of Cairo; manuals such as Taybugha's on archery (c. 1368; Latham and Paterson, 1970) codify the training. These troops were paid through the iqta', which assigned the revenue of a district to an amir or soldier in return for service: introduced on a large scale by the Buyids (946), it paid the cavalry of Saladin and of the Mamluks, whose cadastral surveys (al-Rawk al-Husami, 1298; al-Rawk al-Nasiri, 1313–1325) redistributed the land of Egypt among the sultan, the amirs and their mamluks (Cahen, 1953; al-Maqrizi). They beat the Mongols at Ain Jalut (1260) and Homs (1281) (Ayalon; Amitai-Preiss, 1995). The tree already had Cavalry Archer, Heavy Cavalry Archer, Thumb Ring and Parthian Tactics, but no bonus expressed the civ's best-documented military trait. The iqta' itself has no slot of its own: the Town Center carries the earlier caliphal reform (Dinar), and the Sipahi effect stays with the Turks' Timar and the Hindustanis' Dagh (on the iqta' and the timar, see contested). The discount stays at the Khitans' -50% rather than a free upgrade, to keep the power budget."
 relevance = "The trained horse archer was the military base of the Abbasid ghilman and of the Mamluk state, which stopped the Mongols; erase it and the Mamluk era makes no sense."
 
 [team_bonus]
@@ -96,7 +91,7 @@ level = 1
 change = "new"
 replaces = "Foot Archers and Skirmishers +2 attack vs. buildings"
 precedent = "Technologies research +25% faster (Portuguese team bonus, which the Portuguese design replaces; the Vietnamese design uses the same effect for its Văn Miếu tech)"
-basis = "Arabic was the language through which Greek, Persian and Indian science, and Islamic advances in mathematics, astronomy and medicine, reached the neighbours: the translation movement patronised by the Abbasid caliphs (al-Ma'mun, 813–833; Gutas, 1998), paper made in Baghdad from c. 794 and in al-Andalus by the 12th century, and the Latin translations of Arabic works at Toledo and in Sicily (Gerard of Cremona, d. 1187, translated al-Khwarizmi and Avicenna's Canon). Neighbours researched faster with what the Arabic world passed on. The original team bonus (rated unfounded) had no referent."
+basis = "Arabic was the language through which Greek, Persian and Indian science, and Islamic advances in mathematics, astronomy, optics and medicine, reached the neighbours: the translation movement patronised by the Abbasid caliphs (al-Ma'mun, 813–833; Gutas, 1998), paper made in Baghdad from c. 794 and in al-Andalus by the 12th century, and the Latin translations of Arabic works in southern Italy and Spain. Constantine the African (d. before 1099) translated at Monte Cassino the Viaticum of Ibn al-Jazzar, a physician of Kairouan under the Fatimids; Robert of Chester (1145) and Gerard of Cremona (d. 1187) translated the algebra that al-Khwarizmi had written in Abbasid Baghdad for al-Ma'mun; and Ibn al-Haytham's Optics, written in Fatimid Cairo in the early 11th century, became the Latin De aspectibus (late 12th or early 13th century), the basis of the optics of Roger Bacon and Witelo (Lindberg, 1976). Neighbours researched faster with what the Arabic world passed on. The original team bonus (rated unfounded) had no referent."
 relevance = "Transmitting science and techniques to Europe and Asia is one of the defining legacies of the Arabic-speaking world, and it benefited neighbours, as RULES 6.2 requires."
 
 [[unique_unit]]
@@ -106,9 +101,9 @@ building = "Castle"
 level = 1
 change = "new"
 replaces = "Mameluke"
-basis = "Mamluks were slave soldiers bought young and trained as the elite of the Ayyubid and Mamluk armies; al-Salih Ayyub's Bahriyya (1240s) and the early Mamluk sultans' troops were mostly Kipchak Turks from the steppe (from 1382 mostly Circassians). They stopped the Mongols at Ain Jalut (1260) and Homs (1281) and took Acre (1291), fighting above all as horse archers trained to shoot rapidly in volleys (Ayalon; Amitai-Preiss, 1995; Latham and Paterson, 1970). The Cuman Kipchak, a horse archer who looses several arrows at once, is the same people and the nearest existing unit; the game's camel-riding Mameluke with a thrown scimitar had the depiction wrong (analysis: ‘wrong’)."
+basis = "Mamluks were slave soldiers bought young and trained as the elite of the Ayyubid and Mamluk armies; al-Salih Ayyub's Bahriyya (1240s) and the early Mamluk sultans' troops were mostly Kipchak Turks from the steppe (from 1382 mostly Circassians). They stopped the Mongols at Ain Jalut (1260) and Homs (1281) and took Acre (1291), fighting above all as horse archers trained to shoot rapidly in volleys (Ayalon; Amitai-Preiss, 1995; Latham and Paterson, 1970). The Cuman Kipchak, a horse archer who looses several arrows at once, is the same people and the nearest existing unit; the game's camel-riding Mameluke with a thrown scimitar had the depiction wrong (analysis: ‘wrong’). The unit takes the spelling of modern scholarship, ‘Mamluk’, not the game's ‘Mameluke’."
 relevance = "The mamluk institution produced the soldiers who ruled Egypt and Syria for 267 years, defeated the Mongols and ended the Crusader states."
-contested = "The Kipchak is a light, cheap horse archer, while the royal mamluks were armoured and costly (see the N2 idea; Iqta' partly makes up for it). The Kipchak model is also the Cumans' and the Georgians' Kipchak and the Hindustanis' Ghulam: sharing it with the Cumans is deliberate (the Bahri mamluks and the Cumans were both Kipchaks), and the Ghulam is the same institution in Delhi."
+contested = "The Kipchak is a light, cheap horse archer, while the royal mamluks were armoured and costly (see the N2 idea). The Kipchak model is also the Cumans' and the Georgians' Kipchak and the Hindustanis' Ghulam: sharing it with the Cumans is deliberate (the Bahri mamluks and the Cumans were both Kipchaks), and the Ghulam is the same institution in Delhi; the share is accepted until an N2 model exists (RULES 6.16.12). The alternatives fit worse: the restored Mameluke keeps the camel and the thrown scimitar, and the Persian Savar has no bow. Of the Scenario Editor units, the Khan, a mounted archer, was considered and not used: its stats are those of a campaign hero (160 HP, 12 attack; codex/tools/scenario-units-stats.md), not of a trainable soldier."
 
 [[unique_tech]]
 name = "Counterweights"
@@ -124,53 +119,55 @@ relevance = "Massed engines, together with mines, let the Mamluks take the last 
 contested = "A Byzantine origin is argued by Chevedden; extending the effect to the Mangonel-line is a game liberty. Other strongholds fell mainly to mining (Margat, 1285), which Sappers and Siege Engineers carry."
 
 [[unique_tech]]
-name = "Bimaristan"
+name = "Dinar"
 building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "All gold income +10% faster"
+level = 2
+change = "new"
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis), the gold half only, at the game's age (Castle): a new tech (level 2). The trading-fee half is left out because the civ's Market bonus already lowers the fee to 5%. The same half is the Town Center tech of the Avars' (Byzantine Tribute), Bulgarians' (Peace of 927) and Danes' (Øresundstold) designs and a passive bonus of the Byzantines' design."
+basis = "Abd al-Malik (685–705) gave the caliphate its own money and its own language of government. In 696/697 (AH 77) his mint struck the first purely epigraphic gold dinars, with the profession of faith in place of the Byzantine and caliphal images and a lighter weight standard (the mithqal of about 4.25 g), followed by reformed silver dirhams (AH 78–79); in the same years the registers of the treasury (diwan) were turned into Arabic, in Iraq from Persian on al-Hajjaj's orders (697) and in Syria from Greek under Sulayman ibn Sa'd (700) (al-Baladhuri; Robinson, 2005; Bacharach, 2010). Arab coin and Arab clerks replaced the Byzantine and Sasanian systems the conquerors had inherited, and the dinar became the gold coin of the Islamic world. Gold income that comes in faster translates a state that collected and paid in its own coin. The tech gives the early caliphate (632 to c. 1050), otherwise carried by passives and the team bonus, a datable moment of its own."
+relevance = "The reform made Arabic the language of government and the dinar the money of the Islamic world: the moment the conquest state became an Arab-Islamic empire with institutions of its own."
+contested = "The effect abstracts a reform whose aims were as much ideological (the profession of faith in place of images, a claim of sovereignty against Byzantium) as fiscal, and the provinces followed at different paces: Egypt's diwan was turned into Arabic only in 706, under al-Walid I."
+
+[[unique_tech]]
+name = "Bimaristan"
+building = "Monastery"
 kind = "civil"
 age = "Castle"
 effect = "Monks passively heal multiple nearby units"
 level = 1
 change = "changed"
-precedent = "Bimaristan (Monks passively heal multiple nearby units) (Saracens): an existing unique tech, moved from the Castle to the Town Center; the Khmer design shares the effect as Arogyashala, also at the Town Center"
-basis = "The bimaristan (Persian bimar ‘sick’ + stan ‘place’) was the great Islamic hospital: Dols (1987) places the first in Baghdad in the early 9th century, where al-Razi later practised; Nur al-Din's in Damascus (1154) and Qalawun's al-Mansuri in Cairo (1284–1285), part of a pious foundation with a madrasa and the sultan's mausoleum, followed with specialised wards and medical teaching. They were royal foundations, so the tech sits at the Town Center (RULES 6.2), like the Khmer Arogyashala."
+precedent = "Bimaristan (Monks passively heal multiple nearby units) (Saracens): an existing unique tech, moved from the Castle to the Monastery with an identical effect and age; the Khmer design shares the effect as Arogyashala, at the Town Center"
+basis = "The bimaristan (Persian bimar ‘sick’ + stan ‘place’) was the great Islamic hospital: Dols (1987) places the first in Baghdad in the early 9th century, where al-Razi later practised; Nur al-Din's in Damascus (1154) and Qalawun's al-Mansuri in Cairo (1284–1285) followed with specialised wards and medical teaching. They were pious foundations endowed as waqf and often joined to a mosque or madrasa: the al-Mansuri hospital stood in one complex with Qalawun's madrasa and mausoleum. As a charitable religious foundation whose effect works through Monks, the tech sits at the Monastery (RULES 6.2)."
 relevance = "The endowed hospital with medical teaching is a signature institution of Islamic civilisation, the setting of al-Razi's and Ibn al-Nafis's medicine."
-contested = "Bimaristans were staffed by physicians and funded by waqf endowments, not run by clergy; tying them to Monks is an abstraction."
-
-[[unique_tech]]
-name = "Iqta'"
-building = "Town Center"
-kind = "civil"
-age = "Castle"
-effect = "Mounted Archers +20 HP"
-level = 1
-change = "new"
-precedent = "Sipahi (Mounted Archers +20 HP) (Turks, who keep it at the Town Center as Timar; the Hindustanis share it at the Castle as Dagh): an existing unique tech, shared and renamed with an identical effect and age"
-basis = "The iqta' assigned the revenue of a district to a soldier or officer in return for service: introduced on a large scale by the Buyids (946), it paid the cavalry of Saladin and of the Mamluks, whose cadastral surveys (al-Rawk al-Husami, 1298; al-Rawk al-Nasiri, 1313–1325) redistributed the land of Egypt among the sultan, the amirs and their mamluks (Cahen, 1953; al-Maqrizi). The revenue kept the mamluk horse archers mounted, armoured and equipped; sturdier mounted archers, the Mamluk among them, translate it. The Ottoman timar grew out of the Seljuk iqta' (İnalcık, 1973), so the tech shares the Turks' Sipahi, which they keep as Timar (level 1). Szlachta Privileges (Knight-line costs -60% gold) is not used because it leaves out the horse archers the iqta' paid."
-relevance = "The iqta' financed the cavalry armies of the Ayyubid and Mamluk states and shaped their politics; without it their military order could not have been paid."
+contested = "Bimaristans were staffed by physicians and funded by waqf endowments, not run by clergy; tying them to Monks is an abstraction. The Monk and the Monastery keep the game's generic names (RULES 6.16.9), although ‘Monk’ fits a Muslim civ worst."
 
 [tree]
-add = ["Cavalier", "Shipwright", "Architecture"]
+add = ["Cavalier", "Shipwright", "Architecture", "Treadmill Crane"]
 remove = ["Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon"]
 
 [tree.basis]
 "Cavalier" = "Heavy mail-clad cavalry with lance and sword, sometimes on armoured horses (tijfaf), was the core of Ayyubid and Mamluk armies and an important arm of the Fatimids, whose armies also relied on Kutama Berber cavalry, black infantry ('abid) and Turkish and Armenian contingents (Yaacov Lev, State and Society in Fatimid Egypt, 1991). Stopping at the Knight contradicted the civ's best-documented military identity. The Paladin stays out."
 "Shipwright" = "Renamed Dar al-Sina'a (see the rename): the state arsenals of Tunis (c. 698), Alexandria and Rawda island at Fustat built the caliphal fleets. Its absence was ironic in a naval civ."
-"Architecture" = "Monumental building from the Dome of the Rock (691/692) and the Great Mosque of Damascus (705–715) to Samarra (836–892), al-Azhar (970–972) and Mamluk Cairo (Sultan Hasan, 1356–1363), and military works such as Saladin's Citadel of Cairo (from 1176). Treadmill Crane, which the analysis pairs with Architecture, stays out: treadwheel cranes are documented for Roman and later European building sites, not for Islamic ones."
-"Hand Cannoneer" = "The Mamluks used cannon in sieges from the 1360s (the Bombard Cannon stays), but their cavalry elite refused hand firearms: a corps of black slaves armed with arquebuses under al-Nasir Muhammad ibn Qaytbay was attacked by the royal mamluks and broken up (1498), and the arquebusier corps raised under al-Ghawri (c. 1510) stayed small, low-status and outside the mamluk elite (Ayalon, 1956). Tumanbay still had guns and arquebusiers at Raydaniyya (1517), so the removal models the elite's refusal, not a lack of handguns (see contested). It also sets the Saracens apart from the Turks."
-"Cannon Galleon" = "Gun-armed Mamluk warships are attested only for the Red Sea fleets of the sultanate's last years (from 1505: Chaul 1508, Diu 1509). It is a post-1500 element whose fame is that of the Portuguese victory at Diu, while the Mamluks are known for their reluctance to adopt firearms (Ayalon 1956), so it fails the clear-fame test of RULES section 2, as the Bengalis' guns do."
+"Architecture" = "Monumental building from the Dome of the Rock (691/692) and the Great Mosque of Damascus (705–715) to Samarra (836–892), al-Azhar (970–972) and Mamluk Cairo (Sultan Hasan, 1356–1363), and military works such as Saladin's Citadel of Cairo (from 1176)."
+"Treadmill Crane" = "One reading for the region (the Arabs, Persians, Turks, Berbers and Malians): no treadwheel crane is attested at medieval Islamic building sites in the sources used here (the device is Roman, and in medieval Europe it is attested again from c. 1225; A. L. Matthies, ‘Medieval Treadwheels’, Technology and Culture 33, 1992), so the tech is kept as a generic abstraction of faster building, as in the Hindustani, Tamil and Bengali designs, wherever large building programmes in stone or brick are a documented trait of the civ. Here it rests on the caliphal and sultanic building listed under Architecture, from Umayyad Jerusalem and Damascus and Abbasid Samarra, a new capital raised within a few decades, to Mamluk Cairo."
+"Hand Cannoneer" = "The Mamluks used cannon in sieges from the 1360s (the Bombard Cannon stays), but their cavalry elite refused hand firearms: a corps of black slaves armed with arquebuses under al-Nasir Muhammad ibn Qaytbay was attacked by the royal mamluks and broken up (1498), and the arquebusier corps raised under al-Ghawri (c. 1510) stayed small, low-status and outside the mamluk elite (Ayalon, 1956). Tumanbay still had guns and arquebusiers at Raydaniyya (1517), so the removal models the elite's refusal, not a lack of handguns (see contested). It also sets the Arabs apart from the Turks."
+"Cannon Galleon" = "The navy is a fleet of ships (RULES 6.16.1): the planked war galleys (shini, shalandi) and fire ships (harraqa) built in the caliphal arsenals keep every generic tier, the Galleon as a flagged abstraction (RULES 6.16.2). The Cannon Galleon needs gun-armed warships inside the window, and gun-armed Mamluk warships are attested only for the Red Sea fleets of the sultanate's last years (from 1505: Chaul 1508, Diu 1509). It would be a post-1500 element whose fame is that of the Portuguese victory at Diu, while the Mamluks are known for their reluctance to adopt firearms (Ayalon 1956), so it fails the clear-fame test of RULES section 2. Without it the civ has no siege warship, as the navy rule allows."
 "Elite Cannon Galleon" = "As Cannon Galleon."
 
 [[rename]]
 from = "Shipwright"
 to = "Dar al-Sina'a"
 level = 1
-basis = "Dār al-ṣināʿa, ‘house of manufacture’, the state naval arsenal (Tunis, Alexandria, Rawda); through Venetian it gave European languages the word ‘arsenal’. The function (a state shipyard that builds ships faster and cheaper) is a real equivalent; the effect is identical."
+basis = "Dār al-ṣināʿa, ‘house of manufacture’, the state naval arsenal (Tunis, Alexandria, Rawda); through Venetian it gave European languages the word ‘arsenal’. The function (a state shipyard that builds ships faster and cheaper) is a real equivalent inside the window, the name is the period term, and the effect is identical (RULES 6.16.15)."
 
 [[rename]]
 from = "Elite Kipchak"
 to = "Elite Mamluk"
 level = 1
-basis = "Follows the unique unit (Kipchak → Mamluk) for the Saracens only."
+basis = "Follows the unique unit (Kipchak → Mamluk) for the Arabs only."
 
 [architecture]
 set = "Middle Eastern"
@@ -180,4 +177,4 @@ basis = "Arab-Islamic building of Syria, Iraq and Egypt (domes, courtyards, mina
 [[dropped]]
 item = "Transport Ships +100% HP, +20 carry capacity"
 kind = "bonus"
-reason = "Power budget, not relevance: dropped to offset the new Heavy Cavalry Archer bonus, the Cavalier and Iqta' (for the same reason the Fast Fire Ship, which the game's Saracens lack, is not added). The trait itself is weighty (Arab landings and island conquests: Cyprus 649, Crete c. 827, Sicily 827–902, Bari 847–871, the Balearics 902/903, Fraxinetum c. 890–972), so its return is an open question; the Tamils' and Burmese designs use the identical bonus."
+reason = "Power budget, not relevance: dropped to offset the new Heavy Cavalry Archer bonus, the Cavalier and the Dinar; for the same reason the Fast Fire Ship (which would render the harraqa), absent from the game's Saracens, is not added. The trait itself is weighty (Arab landings and island conquests: Cyprus 649, Crete c. 827, Sicily 827–902, Bari 847–871, the Balearics 902/903, Fraxinetum c. 890–972), but the level-1 review settles that neither the bonus nor the Fast Fire Ship comes back; the Tamils' and Burmese designs use the identical bonus."

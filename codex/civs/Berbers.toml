@@ -2,17 +2,16 @@ civ = "Berbers"
 name = "Berbers"
 status = "draft"
 label = "Cavalry and Naval civilization"
-summary = "Berbers as the Amazigh of the Maghreb, centred on the Almoravids and Almohads (683–1554): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave."
+summary = "Berbers as the Amazigh of the Maghreb, centred on the Almoravids and Almohads (683–1554): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, rammed-earth (tabiya) walls a passive, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave."
 ideas = [
   "N2: A Murabit with its own model (Almoravid infantry with long spear, veil and lamt shield) instead of the Andean Kamayuk graphic.",
   "N2: Tabl: the Almoravid war drums of Zallaqa (1086) as an aura that slows nearby enemies or hastens friendly infantry.",
-  "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on a Maghrebi Monastery graphic) for the ribat and the murabitun of Ibn Yasin's movement, from which the Almoravids took their name (the Ifriqiyan ribats of Monastir, 796, and Sousse, 821, were Abbasid and Aghlabid works in a Berber land).",
-  "N2: Tabiya: cheaper and faster walls and towers of rammed earth (the Almoravid walls of Marrakesh, 1126–1127; the Almohad walls of Rabat and Seville). The N1 precedents (‘Walls cost -50%’, Mayan team bonus; Detinets, Slavs) were not used because a building technique weighs less than the traits already in the design, and rammed earth was as much Andalusi as Berber (see open questions).",
+  "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on a Maghrebi Monastery graphic) for the ribat and the murabitun of Ibn Yasin's movement, from which the Almoravids took their name (the Ifriqiyan ribats of Monastir, 796, and Sousse, 821, were Abbasid and Aghlabid works in a Berber land). In N1 the Monastery keeps its generic name (RULES 6.16.9).",
   "N2: Huffaz: the corps of young men Abd al-Mu'min had trained in Almohad doctrine and in riding, archery, swimming and rowing to staff his state and army (Bennison, 2016), as a technology once a second Almohad moment has a slot.",
-  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today represented only in its conquest and Umayyad province (711–750), by the Saracens, and in its Almoravid and Almohad periods, by the Berbers.",
+  "N3: An al-Andalus civ (Umayyad Córdoba, the taifas, Nasrid Granada), today represented only in its conquest and Umayyad province (711–750), by the Arabs, and in its Almoravid and Almohad periods, by the Berbers.",
 ]
 contested = [
-  "‘Berber’ as a category shaped by medieval Arab genealogists and historians (Ramzi Rouighi, Inventing the Berbers, 2019).",
+  "‘Berber’ as a category shaped by medieval Arab genealogists and historians (Ramzi Rouighi, Inventing the Berbers, 2019). The civ keeps the game's name, the usual one in English scholarship (Brett and Fentress, The Berbers, 1996), with the endonym Imazighen in its entity (RULES section 4 and 6.16.15); ‘Maghrebis’ would also cover the Arabic-speaking towns.",
   "The date of Kusaila's victory over Uqba ibn Nafi at Tahudha, near Biskra, which opens the window: 683 in most accounts, 682 in some.",
   "The Almoravid conquest of Ghana in 1076 (Conrad and Fisher, ‘The Conquest that Never Was’, 1982–1983).",
   "The impact of the Hilalian invasions of the 11th century (Ibn Khaldun against Poncet and Brett).",
@@ -23,20 +22,12 @@ contested = [
   "The narratives of Zallaqa/Sagrajas (1086) are 14th-century and literary (Rawd al-qirtas, al-Hulal al-mawshiyya): the decisive role they give Yusuf's black guard, and its numbers, cannot be checked against contemporary accounts.",
   "Abd al-Mu'min's survey of 1159–1160 is reported by Ibn Abi Zar (14th century); how fully it was carried out is unknown.",
 ]
-open_questions = [
-  "Name: show the endonym (‘Berbers (Imazighen)’) or rename to ‘Maghrebis’? Not decided, so the current name is kept. The renames are decided together in codex-wide question CQ16 (see codex/civs/README.md).",
-  "Unique unit: with the Genitour now a regional unit (owner's decision), the Berbers need a counted unique unit. The design shares the Inca Kamayuk (infantry with long reach, strong against cavalry and infantry) as the ‘Murabit’ for the Almoravid spear ranks. Alternatives: restore the Camel Archer (no camel archers are attested), or share the Saxon Hearth Troop (javelin then melee) for the javelin ranks. Which do you prefer?",
-  "Kasbah is dropped: the qasaba was common to the whole Islamic West and much of the word's fame comes from later places, so it fails the relevance test against the Almohad state reform (see dropped). Restore it as an exception carried by fame, for example at the Castle in place of the Black Guard?",
-  "Taksir shares Burgundian Vineyards with the Burgundians (at the Mill), with the Persians' Kharaj, which stands for the same land tax, and with the Aztecs' Calpixqueh and the Tatars' Yarlyk, and the Bengalis have it as a passive: six designs (the reuse itself is codex-wide question CQ11, see codex/civs/README.md). Keep the shared tech, or prefer a new tech (level 2) with another fiscal effect, such as ‘All gold income +10% faster’ (the first half of Grand Trunk Road)?",
-  "Codex-wide question CQ6 (see codex/civs/README.md): religious vocabulary (here ‘Ribat’ for the Monastery, after the murabitun).",
-  "Power (the Berbers are among the kits of codex-wide question CQ14, see codex/civs/README.md): without the villager-speed bonus and the Maghrebi Camels, with the trade and shepherd bonuses mattering mostly early or in team games, and now without the Hand Cannoneer and the Cannon Galleons, the Berbers are weaker in 1v1 than the current civ. If parity is wanted: a stronger pastoral bonus (‘Livestock animals last +50% longer’, Tatars), ‘Coinage and Banking free’ (analysis alternative), or a fifth bonus for tabiya walls (‘Walls cost -50%’, Mayan team bonus)?",
-  "Shipwright is renamed for the Saracens (Dar al-Sina'a) and the Turks (Tersane); the Berbers keep the generic name, though the Almohad and Hafsid arsenals could justify Dar al-Sina'a here too. Rename it? (One rule for such renames is codex-wide question CQ17, see codex/civs/README.md.)",
-]
+open_questions = []
 
 [profile]
 entity = "The Amazigh (Berber) peoples of the Maghreb and the states they founded: Zirids, Almoravids, Almohads, Marinids, Zayyanids, Hafsids and Wattasids"
 region = "The Maghreb and the western Sahara, with al-Andalus under Almoravid and Almohad rule"
-window = "683–1554 (from Kusaila's victory over Uqba ibn Nafi at Tahudha to the fall of the Wattasids; core 1040–1269: Almoravids and Almohads)"
+window = "683–1554 (from Kusaila's victory over Uqba ibn Nafi at Tahudha to the fall of the Wattasids, a terminal event soon after 1500 as RULES 6.16.17 allows; core 1040–1269: Almoravids and Almohads; nothing in the design originates after 1500)"
 sources = [
   "al-Bakri, Kitab al-masalik wa'l-mamalik (1068), in N. Levtzion and J. F. P. Hopkins, Corpus of Early Arabic Sources for West African History (1981)",
   "Ibn Khaldun, Kitab al-'ibar (Histoire des Berbères, trans. de Slane)",
@@ -45,6 +36,7 @@ sources = [
   "Ibn Idhari, al-Bayan al-mughrib",
   "al-Idrisi, Nuzhat al-mushtaq",
   "Crónica de Alfonso XI (siege of Algeciras, 1342–1344)",
+  "Pliny the Elder, Natural History XXXV (earth walls packed in frames in Africa and Spain)",
   "Ambrosio Huici Miranda, Las grandes batallas de la Reconquista durante las invasiones africanas (1956)",
   "Michael Brett and Elizabeth Fentress, The Berbers (1996)",
   "Ronald A. Messier, The Almoravids and the Meanings of Jihad (2010)",
@@ -88,15 +80,25 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Ships move +10% faster (Berbers)"
-basis = "Light Maghrebi galleys: the Almoravid and Almohad fleets, built in Maghrebi and Andalusi arsenals and often led by Andalusi admirals such as the Banu Maymun of Almería, were respected enough for Saladin to ask for Almohad help in 1189–1190; the Marinid fleet destroyed the Castilian fleet of Alfonso Jofre Tenorio off Gibraltar (April 1340) before the Salado campaign (O'Callaghan, 2011), and Hafsid corsairs of Bougie and Mahdia provoked the Franco-Genoese crusade against Mahdia (1390). The great corsair age of Salé, Algiers and Tunis came later, under the Moriscos and the Ottomans."
+basis = "Light Maghrebi galleys: the Almoravid and Almohad fleets, built in Maghrebi and Andalusi arsenals and often led by Andalusi admirals such as the Banu Maymun of Almería, were respected enough for Saladin to ask for Almohad help in 1189–1190; the Marinid fleet destroyed the Castilian fleet of Alfonso Jofre Tenorio off Gibraltar (April 1340) before the Salado campaign (O'Callaghan, 2011), and Hafsid corsairs of Bougie and Mahdia provoked the Franco-Genoese crusade against Mahdia (1390). The great corsair age of Salé, Algiers and Tunis came later, under the Moriscos and the Ottomans. The navy is a fleet of ships (RULES 6.16.1). The Shipwright keeps its generic name: the arsenal term dar al-sina'a already names the Arabs' Shipwright, and the Maghrebi fleets were often built and led by Andalusis."
 relevance = "Every Almoravid, Almohad and Marinid intervention in al-Andalus depended on crossing and holding the Strait, so Maghrebi sea power shaped their history."
+
+[[bonus]]
+text = "Walls cost -50%"
+kind = "military"
+level = 1
+change = "new"
+precedent = "Walls cost -50% (Mayans team bonus), as a passive bonus, as in the Maya design"
+basis = "Berber dynasties walled their capitals and frontier towns in tabiya, rammed earth mixed with lime and gravel and packed into wooden formwork, which raised long circuits quickly and cheaply: Ali ibn Yusuf walled Marrakesh in 1126–1127, the Almohads built the walls of Rabat with the Bab er-Rouah and refortified al-Andalus (the walls of Seville; the Alcazaba of Badajoz with its albarrana towers, 1169), and the Marinids raised the siege-city of al-Mansura before Tlemcen (1299–1307) (Bennison, 2016). Cheaper walls translate a technique that let these states enclose whole cities. It is a passive, not the team bonus, because the walls protected only their builders (RULES 6.2), and it is the one historically grounded extra that the codex's power-floor convention names for the Berbers (RULES 6.16.13)."
+relevance = "Rapidly raised rammed-earth circuits let the Almoravids, Almohads and Marinids hold the Maghreb and al-Andalus from fortified capitals and frontier towns; they are the visible military architecture of these dynasties."
+contested = "Rammed earth was not a Berber invention: Pliny already describes earth walls packed in frames in Africa and Spain (Natural History XXXV.169), and al-Andalus built in tabiya as much as the Maghreb, so the bonus rests on the scale at which the Berber dynasties used it rather than on an invention."
 
 [team_bonus]
 text = "Genitour available at the Archery Range starting in Castle Age"
 level = 1
 change = "kept"
 precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus)"
-basis = "Riding à la gineta, with short stirrups, javelins and leather shield (adarga), passed from Zenata and Granadan horsemen to Castile and Portugal, and Zenata volunteers (ghuzat) served Nasrid Granada: one of the best-founded team bonuses in the game. Jinete/ginete comes from Zanati, ‘Zenata’. The Genitour stays in the Berber tree, but as a regional unit (owner's decision, shared with the Portuguese and Castilians; its extension to the Lithuanians, as the Sulica Rider, is only offered in codex-wide question CQ23), so it no longer counts as a Berber unique unit (see dropped)."
+basis = "Riding à la gineta, with short stirrups, javelins and leather shield (adarga), passed from Zenata and Granadan horsemen to Castile and Portugal, and Zenata volunteers (ghuzat) served Nasrid Granada: one of the best-founded team bonuses in the game. Jinete/ginete comes from Zanati, ‘Zenata’. The Genitour stays in the Berber tree, but as a regional unit shared with the Castilians, Portuguese and Lithuanians (owner's decision, RULES 6.16.10), so it no longer counts as a Berber unique unit (see dropped)."
 relevance = "The jineta style was the Berbers' best-known military gift to their neighbours: the word and the cavalry of the Reconquista frontier come from the Zenata."
 contested = "The ginete also charged with the lance; the Genitour has no close-range attack."
 
@@ -109,7 +111,7 @@ change = "new"
 replaces = "Camel Archer"
 basis = "al-Bakri (1068) describes the early Almoravids fighting on foot in close ranks, the front rank with long spears and the ranks behind with javelins; in a separate passage he records the prized lamt shields of antelope hide made at Nul Lamta and sought in the Maghreb and al-Andalus, the shield this infantry carried. The Inca Kamayuk, a spearman with long reach strong against cavalry, is the nearest existing unit; the Mapuche Colihue Lancer and the Ethiopians' Chewa Spearman use it too. Named after the al-murabitun, ‘the people of the ribat’, who gave the Almoravids their name. It replaces the Camel Archer: no camel-mounted archer is attested as a Maghrebi troop type (camels served the Saharan Sanhaja and the army's baggage, and combat relied on spears, javelins and swords)."
 relevance = "The Almoravid spear infantry built the empire that united the western Maghreb and al-Andalus; it is the defining military trait of the civ's core dynasty."
-contested = "The Kamayuk model is Andean (see the N2 idea), and ‘murabit’ named members of the movement, not a troop type. Which antelope gave the lamt hide (oryx or addax), and how widely lamt shields were used beyond the Almoravid elite, is uncertain."
+contested = "The Kamayuk model is Andean (see the N2 idea), and ‘murabit’ named members of the movement, not a troop type. Which antelope gave the lamt hide (oryx or addax), and how widely lamt shields were used beyond the Almoravid elite, is uncertain. The Kamayuk fits better than the alternatives: a restored Camel Archer has no attested referent, the Saxons' Hearth Troop (javelin, then melee) renders only the rear ranks, and the Scenario Editor's Heavy Pikeman, a Pikeman with 20 more HP and a European look, lacks the reach that renders the long spears."
 
 [[unique_tech]]
 name = "Taksir"
@@ -119,8 +121,8 @@ age = "Castle"
 effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
-precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill; the Persians share it as Kharaj, the Aztecs as Calpixqueh and the Tatars as Yarlyk, and the Bengalis have it as a passive): an existing unique tech, shared and renamed with an identical effect and age (Castle)"
-basis = "In 1159–1160 Abd al-Mu'min had the Maghreb surveyed (taksir) from Barqa to the Sus, deducted a third for mountains, rivers and wasteland, and assessed the rest for the land tax (kharaj), payable in grain and coin (Ibn Abi Zar, Rawd al-qirtas, year 555 AH); it gave the Almohad caliphate its fiscal base (Bennison, 2016). Farmers whose fields yield coin to the treasury translate the assessment, as for the Persians' Kharaj, the same land tax. It takes Kasbah's slot (see dropped)."
+precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill; the Persians share it as Kharaj, the Aztecs as Calpixqueh and the Tatars as Yarlyk, and the Bengalis have it as a passive): an existing unique tech, shared and renamed with an identical effect and age (Castle). Reuse is accepted in level 1, each copy resting on its own history (RULES 6.16.12)."
+basis = "In 1159–1160 Abd al-Mu'min had the Maghreb surveyed (taksir) from Barqa to the Sus, deducted a third for mountains, rivers and wasteland, and assessed the rest for the land tax (kharaj), payable in grain and coin (Ibn Abi Zar, Rawd al-qirtas, year 555 AH); it gave the Almohad caliphate its fiscal base (Bennison, 2016). Farmers whose fields yield coin to the treasury translate the assessment, as for the Persians' Kharaj, the same land tax. It takes Kasbah's slot (see dropped). The shared tech is kept rather than a new fiscal tech (level 2) with ‘All gold income +10% faster’, the gold half of Grand Trunk Road, which the Arabs' design now uses for Abd al-Malik's coinage."
 relevance = "The Almohads were the only Berber dynasty to unite the whole Maghreb and al-Andalus under one government, and the survey gave that state its revenue; it is the Almohad state's defining reform."
 
 [[unique_tech]]
@@ -143,8 +145,8 @@ remove = ["Hand Cannoneer", "Cannon Galleon", "Elite Cannon Galleon", "Siphons"]
 
 [tree.basis]
 "Halberdier" = "The Almoravid infantry fought as a phalanx with long spears in the front rank (al-Bakri, 1068); stopping at the Pikeman contradicted their best-documented tactic."
-"Keep" = "Fortification by Berber dynasties: the Almoravid walls of Marrakesh, raised in rammed earth (tabiya) by Ali ibn Yusuf in 1126–1127; the Almohad walls and gates of Rabat (Bab er-Rouah) and the Kasbah of the Udayas (c. 1150–1197); the Almohad rebuilding of the Alcazaba of Badajoz (1169) with its albarrana towers; the Torre del Oro in Seville (1220–1221); and the Marinid siege-city of al-Mansura outside Tlemcen (1299–1307)."
-"Architecture" = "Almohad monuments such as the Kutubiyya in Marrakesh, the Hassan Tower in Rabat and the Giralda in Seville; the analysis notes the absence contradicted the civ's own history text."
+"Keep" = "Fortification by Berber dynasties (see the tabiya bonus): the Almoravid walls of Marrakesh, raised in rammed earth (tabiya) by Ali ibn Yusuf in 1126–1127; the Almohad walls and gates of Rabat (Bab er-Rouah) and the Kasbah of the Udayas (c. 1150–1197); the Almohad rebuilding of the Alcazaba of Badajoz (1169) with its albarrana towers; the Torre del Oro in Seville (1220–1221); and the Marinid siege-city of al-Mansura outside Tlemcen (1299–1307)."
+"Architecture" = "Almohad monuments such as the Kutubiyya in Marrakesh, the Hassan Tower in Rabat and the Giralda in Seville; the analysis notes the absence contradicted the civ's own history text. Treadmill Crane stays in the tree under the region's one reading of the tech (see the Arabs' design): no treadwheel crane is attested at Maghrebi building sites in the sources used here, so it is kept as a generic abstraction of faster building, resting on these Almoravid and Almohad programmes."
 "Hand Cannoneer" = "No Maghrebi hand firearms are documented before the early 16th century, when Moroccan and Hafsid troops met the Portuguese enclaves with them (the earliest dates are contested), and the famous Moroccan arquebusiers of Alcácer Quibir (1578) and Tondibi (1591) were Saadian, after the window and outside the civ's dynasties: the unit would be a late element without clear Berber fame (RULES section 2). The Bombard Cannon stays on secure in-window evidence: the Marinid defenders of Algeciras fired iron balls with ‘truenos’ against Alfonso XI (1342–1344; Crónica de Alfonso XI)."
 "Cannon Galleon" = "No Maghrebi gun-armed sailing fleet is documented inside the window; the gun-carrying corsair fleets of Algiers and Tunis came with the Barbarossa brothers and the Ottomans after 1516. Galleys, Galleons and fire ships keep the navy (RULES 6.11)."
 "Elite Cannon Galleon" = "As Cannon Galleon."
@@ -164,9 +166,9 @@ basis = "The Berbers have used the Middle Eastern set since The African Kingdoms
 [[dropped]]
 item = "Kasbah (Team Castles work +25% faster)"
 kind = "unique_tech"
-reason = "Relevance test (RULES 6.9): the qasaba, a town's fortified government quarter, was common to the whole Islamic West rather than a Berber institution (Umayyad Mérida, 835; Almería, 955), much of the word's fame comes from later places (Ottoman Algiers, the earthen kasbahs of southern Morocco), and its effect only abstracts it. Even as a Town Center tech it would fail against a weightier datable state reform, the Almohad survey (Taksir), which takes its slot. The owner may restore it as an exception carried by fame (see open questions)."
+reason = "Relevance test (RULES 6.9): the qasaba, a town's fortified government quarter, was common to the whole Islamic West rather than a Berber institution (Umayyad Mérida, 835; Almería, 955), much of the word's fame comes from later places (Ottoman Algiers, the earthen kasbahs of southern Morocco), and its effect only abstracts it. Even as a Town Center tech it would fail against a weightier datable state reform, the Almohad survey (Taksir), which takes its slot. Fame alone does not justify a slot (RULES 6.9), so it is not restored as an exception, at the Castle or elsewhere."
 
 [[dropped]]
 item = "Genitour (Mounted Skirmisher)"
 kind = "unique_unit"
-reason = "Owner's decision: the Genitour/Jinete is a regional unit (Berbers, Portuguese, Castilians; its extension to the Lithuanians, as the Sulica Rider, is only offered in codex-wide question CQ23) and no longer counts as a Berber unique unit. It stays in the Berber tree at the Archery Range and in the team bonus; the Murabit is the counted unique unit."
+reason = "Owner's decision: the Genitour/Jinete is a regional unit, shared with the Castilians, Portuguese and Lithuanians (RULES 6.16.10), and no longer counts as a Berber unique unit. It stays in the Berber tree at the Archery Range and in the team bonus; the Murabit is the counted unique unit."
