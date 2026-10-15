@@ -5,7 +5,7 @@ label = "Cavalry and Siege civilization"
 summary = "The First and Second Bulgarian Empires (681–1018, 1185–1396): Konnik, Krepost and the siege discount stay; the swordsmen go, and mountain passes, steppe archery, Vlach herding and armoured cavalry come in, with the Peace of 927, the Council of Preslav and Cuman allies as techs and a Slavonic team bonus."
 ideas = [
   "N2: Pass ambush mechanic (Varbitsa 811, Tryavna 1190): military units standing next to forests are hidden from enemies beyond a few tiles.",
-  "N2: Crossbowman for the Second Empire only (13th–14th-century Latin and Venetian contacts); N1 cannot limit an item to one phase of the civ.",
+  "N2: When the Archer and Crossbowman lines are split (RULES section 10), keep the bow line for the steppe and Slavic archery of both empires and give the crossbow line only if Bulgarian use can be shown for the Second Empire (13th–14th-century Latin and Venetian contacts); until then the Crossbowman is the generic Castle Age bow tier.",
   "N2: Replace the Konnik's dismount mechanic (a game invention) with an armoured boyar cavalry mechanic based on the inventory inscriptions.",
   "N3: Earthworks (the Erkesia dyke in Thrace, Pliska's 23 km² outer enclosure) as a unique wall.",
   "N3: A Balkan-Byzantine architecture set shared with the Byzantines: medieval Bulgarian churches (the Round Church of Preslav, Boyana, the churches of Tarnovo and Nesebar) were Byzantine-type brick and stone.",
@@ -36,7 +36,7 @@ open_questions = [
   "Rename the Konnik to “Bolyar” (the mounted aristocracy), as the analysis proposes? Not done here: it would clash with the Boyar of the Rus' and the Lithuanians, and konnik (“horseman”) is acceptable.",
   "Rename the Krepost Grad (RULES 6.10)? Medieval Bulgarian called a fortress grad, and krepost in that sense is later usage (see the contested list); the game's name is kept for now.",
   "Codex-wide question CQ19 (see codex/civs/README.md): Labels (the game's “Infantry and Cavalry civilization” becomes “Cavalry and Siege civilization”, since the swordsman bonuses go and Krum's siegecraft stays).",
-  "Codex-wide question CQ3 (see codex/civs/README.md): Crossbows (the Bulgarians lack both crossbow tiers in the game and this design does not add them, so they are the only design outside the Americas without the Crossbowman; under the default rule it could be added as the generic Castle Age bow tier, see the N2 idea).",
+  "Codex-wide question CQ3 (see codex/civs/README.md): Crossbows (the Bulgarians lack both crossbow tiers in the game; the Crossbowman is added as the generic Castle Age bow tier, and the Arbalester stays out, since crossbow use by Bulgarian troops is not established; see the N2 idea).",
 ]
 
 [profile]
@@ -182,10 +182,11 @@ basis = "The Cumans were allies of the Asen dynasty, bound to it by marriage and
 relevance = "Without its Cuman allies the Asen revolt would hardly have survived Byzantine and Latin counter-attacks; the alliance shaped the Second Empire from 1186 to the Terters."
 
 [tree]
-add = ["Faith", "Atonement", "Sanctity", "Fortified Wall"]
+add = ["Crossbowman", "Faith", "Atonement", "Sanctity", "Fortified Wall"]
 remove = ["Cannon Galleon", "Galleon", "Carrack", "Galleon, Fast Fire Ship and Carrack"]
 
 [tree.basis]
+"Crossbowman" = "Added as the generic Castle Age bow upgrade that every civ whose world knew the crossbow keeps until the N2 bow/crossbow split (codex-wide question CQ3): it stands for the Archer's Castle Age tier, not for Bulgarian crossbowmen. The Arbalester, which needs crossbow evidence in the window, stays out, since crossbow use by Bulgarian troops is not established (see the N2 idea)."
 "Faith" = "Christianisation under Boris I (864/865), a patriarchate (927, restored 1235) and great monasteries such as Rila (10th century): the monastery tree should not be cut down for the civ whose history centres on its Christian and literary culture (Heresy stays, for the Bogomils)."
 "Atonement" = "As for Faith: a full monastic tradition, from Preslav and Ohrid to the Tarnovo school of Patriarch Euthymius (14th century)."
 "Sanctity" = "As for Faith: the cult of St John of Rila and the monastic centres of the Second Empire."
