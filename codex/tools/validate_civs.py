@@ -69,10 +69,62 @@ def load_game():
     help_texts = {civ: s.get(str(c['help_string_id']), '') for civ, c in d['civs'].items()}
     display = {civ: s.get(str(c['name_string_id'])) or civ for civ, c in d['civs'].items()}
     help_texts['__display__'] = display
+    help_texts['__prereq__'], help_texts['__substitutes__'] = load_prerequisites(names, d['civs'])
     all_names = defaultdict(set)
     for (k, _), n in names.items():
         all_names[n].add(k)
     return trees, help_texts, all_names
+
+
+UNIT_LINKS = {'Unit', 'UnitUpgrade', 'RegionalUnit', 'UniqueUnit'}
+
+
+def load_prerequisites(names, civs):
+    """Item name -> names it depends on (upgrade chain, research chain or the building that makes it),
+    taken from the tree layouts in data/trees/ (a dependency counts if most civs that have the item show it).
+    Also returns, per civ, the buildings that stand in for a standard one (Mule Cart for the Mining Camp,
+    Fortified Church for the Monastery, ...), found where the civ's own tree hosts an item elsewhere."""
+    seen, deps = Counter(), defaultdict(Counter)
+    hosts = defaultdict(dict)  # civ -> item -> host building
+    for civ in civs:
+        f = ROOT / 'data' / 'trees' / f'{civ.upper()}.json'
+        if not f.exists():
+            continue
+        tree = json.loads(f.read_text(encoding='utf-8'))
+        for x in tree['units_techs'] + tree['buildings']:
+            kind, lt, lid = x['use_type'], x['link_node_type'], x['link_id']
+            me = names.get((kind, x['node_id']))
+            if not me:
+                continue
+            seen[me] += 1
+            found = set()
+            if lid is not None:
+                if kind in ('Unit', 'Tech') and lt in UNIT_LINKS:
+                    found.add(names.get(('Unit', lid)))
+                elif kind in ('Unit', 'Tech') and lt == 'Research':
+                    found.add(names.get(('Tech', lid)))
+                elif kind == 'Building' and lt in ('BuildingTech', 'BuildingNonTech'):
+                    found.add(names.get(('Building', lid)))
+                elif kind == 'Building' and lt == 'Unit':
+                    found.add(names.get(('Unit', lid)))
+            if kind in ('Unit', 'Tech') and x.get('building_id') is not None:
+                host = names.get(('Building', x['building_id']))
+                found.add(host)
+                hosts[civ][me] = host
+            for n in found - {None, me}:
+                deps[me][n] += 1
+    prereq = {me: {n for n, k in c.items() if k * 2 > seen[me]} for me, c in deps.items()}
+    usual = {}
+    for civ_hosts in hosts.values():
+        for item, host in civ_hosts.items():
+            usual.setdefault(item, Counter())[host] += 1
+    substitutes = defaultdict(lambda: defaultdict(set))  # civ -> standard building -> stand-ins
+    for civ, civ_hosts in hosts.items():
+        for item, host in civ_hosts.items():
+            main = usual[item].most_common(1)[0][0]
+            if host and main and host != main:
+                substitutes[civ][main].add(host)
+    return prereq, substitutes
 
 
 def original_elements(help_text):
@@ -278,6 +330,20 @@ def validate(path, game):
     for item in basis:
         if item not in tree.get('add', []) and item not in tree.get('remove', []):
             r.warn(f'[tree.basis]: "{item}" is neither added nor removed')
+    # Tree dependencies: nothing kept or added may depend on something removed or missing.
+    prereq = help_texts['__prereq__']
+    stand_ins = help_texts['__substitutes__'].get(civ, {})
+    removed = set(tree.get('remove', []))
+    added = set(tree.get('add', []))
+    final = (set(have) - removed) | added
+    for item in sorted(final):
+        for need_item in sorted(prereq.get(item, ())):
+            if need_item in final or stand_ins.get(need_item, set()) & final:
+                continue
+            if need_item in removed:
+                r.warn(f'[tree]: "{item}" stays in the tree but needs "{need_item}", which this design removes')
+            elif item in added:
+                r.warn(f'[tree]: added "{item}" needs "{need_item}", which is not in the tree')
 
     for n, rn in enumerate(doc.get('rename', []), 1):
         w = f'[[rename]] {rn.get("from", n)}'
