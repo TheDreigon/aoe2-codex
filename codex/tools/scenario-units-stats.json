@@ -1,0 +1,1927 @@
+{
+ "Alfred the Alpaca": [
+  {
+   "id": 934,
+   "internal_name": "ALFRED",
+   "class": 12,
+   "hp": 120,
+   "attack": 120,
+   "range": 0.0,
+   "melee_armour": 20,
+   "pierce_armour": 20,
+   "reload_time": 2.0,
+   "speed": 1.0,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 512
+   },
+   "train_time": 21,
+   "attacks": [
+    {
+     "class": 13,
+     "amount": 100
+    },
+    {
+     "class": 4,
+     "amount": 120
+    },
+    {
+     "class": 21,
+     "amount": 100
+    },
+    {
+     "class": 20,
+     "amount": 0
+    },
+    {
+     "class": 31,
+     "amount": 0
+    }
+   ]
+  },
+  {
+   "id": 1300,
+   "internal_name": "ALFRED",
+   "class": 12,
+   "hp": 120,
+   "attack": 120,
+   "range": 0.0,
+   "melee_armour": 20,
+   "pierce_armour": 20,
+   "reload_time": 2.0,
+   "speed": 1.0,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 512
+   },
+   "train_time": 21,
+   "attacks": [
+    {
+     "class": 13,
+     "amount": 100
+    },
+    {
+     "class": 4,
+     "amount": 120
+    },
+    {
+     "class": 21,
+     "amount": 100
+    },
+    {
+     "class": 38,
+     "amount": 0
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 20,
+     "amount": 0
+    },
+    {
+     "class": 31,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Alpaca": [
+  {
+   "id": 2614,
+   "internal_name": "ALPACA",
+   "class": 61,
+   "hp": 35,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.0,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "Amazon Archer": [
+  {
+   "id": 850,
+   "internal_name": "Amazon Archer",
+   "class": 0,
+   "hp": 45,
+   "attack": 5,
+   "range": 4.0,
+   "melee_armour": 0,
+   "pierce_armour": 1,
+   "reload_time": 1.9,
+   "speed": 1.1,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Wood": 50,
+    "Gold": 50
+   },
+   "train_time": 16,
+   "attacks": [
+    {
+     "class": 27,
+     "amount": 2
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 1,
+     "amount": 1
+    },
+    {
+     "class": 3,
+     "amount": 5
+    },
+    {
+     "class": 17,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Amazon Warrior": [
+  {
+   "id": 825,
+   "internal_name": "Amazon Warrior",
+   "class": 6,
+   "hp": 45,
+   "attack": 8,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 1.1,
+   "line_of_sight": 3.0,
+   "cost": {
+    "Food": 60,
+    "Gold": 30
+   },
+   "train_time": 20,
+   "attacks": [
+    {
+     "class": 29,
+     "amount": 2
+    },
+    {
+     "class": 21,
+     "amount": 2
+    },
+    {
+     "class": 4,
+     "amount": 8
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Bactrian Camel": [
+  {
+   "id": 1237,
+   "internal_name": "DROME",
+   "class": 61,
+   "hp": 50,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.2,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "Bandit": [
+  {
+   "id": 299,
+   "internal_name": "INFIL",
+   "class": 6,
+   "hp": 75,
+   "attack": 10,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 1.0,
+   "speed": 0.95,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 300
+   },
+   "train_time": 30,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 10
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Boarding Galley": [],
+ "Camel": [
+  {
+   "id": 897,
+   "internal_name": "CAMEL",
+   "class": 61,
+   "hp": 50,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.2,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "Canoe": [
+  {
+   "id": 778,
+   "internal_name": "Canoe",
+   "class": 22,
+   "hp": 70,
+   "attack": 7,
+   "range": 5.0,
+   "melee_armour": 0,
+   "pierce_armour": 6,
+   "reload_time": 3.0,
+   "speed": 1.5,
+   "line_of_sight": 8.0,
+   "cost": {
+    "Wood": 60,
+    "Gold": 20
+   },
+   "train_time": 25,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 7
+    },
+    {
+     "class": 16,
+     "amount": 9
+    },
+    {
+     "class": 3,
+     "amount": 7
+    },
+    {
+     "class": 17,
+     "amount": 4
+    }
+   ]
+  }
+ ],
+ "Cart": [
+  {
+   "id": 1338,
+   "internal_name": "CARTF",
+   "class": 59,
+   "hp": 70,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.0,
+   "line_of_sight": 7.0,
+   "cost": {
+    "Wood": 100,
+    "Gold": 50
+   },
+   "train_time": 51,
+   "attacks": []
+  }
+ ],
+ "Cobra Car": [
+  {
+   "id": 748,
+   "internal_name": "COBRA",
+   "class": 13,
+   "hp": 500,
+   "attack": 10,
+   "range": 10.0,
+   "melee_armour": 10,
+   "pierce_armour": 10,
+   "reload_time": 0.25,
+   "speed": 4.5,
+   "line_of_sight": 12.0,
+   "cost": {},
+   "train_time": 46,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 10
+    },
+    {
+     "class": 4,
+     "amount": 10
+    }
+   ]
+  }
+ ],
+ "Crusader Knight": [
+  {
+   "id": 1723,
+   "internal_name": "CRUSADERKNIGHT",
+   "class": 12,
+   "hp": 100,
+   "attack": 18,
+   "range": 0.0,
+   "melee_armour": 4,
+   "pierce_armour": 4,
+   "reload_time": 2.0,
+   "speed": 1.2,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 80,
+    "Gold": 50
+   },
+   "train_time": 30,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 18
+    },
+    {
+     "class": 15,
+     "amount": 0
+    },
+    {
+     "class": 11,
+     "amount": 0
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 38,
+     "amount": 0
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 20,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Dire Wolf": [
+  {
+   "id": 89,
+   "internal_name": "DWOLF",
+   "class": 10,
+   "hp": 50,
+   "attack": 4,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 0.7,
+   "line_of_sight": 12.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 4
+    },
+    {
+     "class": 14,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Donkey": [
+  {
+   "id": 846,
+   "internal_name": "TDONK",
+   "class": 19,
+   "hp": 70,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 0.88,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 100,
+    "Gold": 50
+   },
+   "train_time": 51,
+   "attacks": []
+  }
+ ],
+ "Dragon Ship": [
+  {
+   "id": 938,
+   "internal_name": "DRAGS",
+   "class": 22,
+   "hp": 150,
+   "attack": 4,
+   "range": 2.5,
+   "melee_armour": 2,
+   "pierce_armour": 8,
+   "reload_time": 0.25,
+   "speed": 1.65,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Wood": 180,
+    "Gold": 180
+   },
+   "train_time": 50,
+   "attacks": [
+    {
+     "class": 3,
+     "amount": 4
+    },
+    {
+     "class": 16,
+     "amount": 4
+    },
+    {
+     "class": 2,
+     "amount": 4
+    },
+    {
+     "class": 11,
+     "amount": 4
+    },
+    {
+     "class": 21,
+     "amount": 4
+    },
+    {
+     "class": 13,
+     "amount": 4
+    }
+   ]
+  },
+  {
+   "id": 1302,
+   "internal_name": "DRAGS",
+   "class": 22,
+   "hp": 135,
+   "attack": 5,
+   "range": 3.0,
+   "melee_armour": 3,
+   "pierce_armour": 7,
+   "reload_time": 0.25,
+   "speed": 1.56,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Wood": 75,
+    "Gold": 45
+   },
+   "train_time": 27,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 3
+    },
+    {
+     "class": 16,
+     "amount": 0
+    },
+    {
+     "class": 2,
+     "amount": 0
+    },
+    {
+     "class": 4,
+     "amount": 5
+    },
+    {
+     "class": 60,
+     "amount": 1
+    }
+   ]
+  }
+ ],
+ "Dummy Target": [
+  {
+   "id": 1956,
+   "internal_name": "DUMMY",
+   "class": 38,
+   "hp": 200,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 0.0,
+   "line_of_sight": 1.0,
+   "cost": {},
+   "train_time": 0,
+   "attacks": []
+  }
+ ],
+ "Eastern Swordsman": [
+  {
+   "id": 894,
+   "internal_name": "THSWD",
+   "class": 6,
+   "hp": 60,
+   "attack": 9,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 1,
+   "reload_time": 2.0,
+   "speed": 0.9,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 60,
+    "Gold": 20
+   },
+   "train_time": 21,
+   "attacks": [
+    {
+     "class": 29,
+     "amount": 6
+    },
+    {
+     "class": 4,
+     "amount": 9
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Flamethrower": [
+  {
+   "id": 188,
+   "internal_name": "MPCAV",
+   "class": 13,
+   "hp": 160,
+   "attack": 4,
+   "range": 5.0,
+   "melee_armour": 2,
+   "pierce_armour": 2,
+   "reload_time": 0.25,
+   "speed": 0.6,
+   "line_of_sight": 7.0,
+   "cost": {
+    "Wood": 130,
+    "Gold": 50
+   },
+   "train_time": 31,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 4
+    },
+    {
+     "class": 4,
+     "amount": 4
+    },
+    {
+     "class": 13,
+     "amount": 10
+    }
+   ]
+  }
+ ],
+ "Furious the Monkey Boy": [
+  {
+   "id": 860,
+   "internal_name": "mkyby",
+   "class": 10,
+   "hp": 9,
+   "attack": 99,
+   "range": 0.0,
+   "melee_armour": 99,
+   "pierce_armour": 99,
+   "reload_time": 0.9,
+   "speed": 0.99,
+   "line_of_sight": 12.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": [
+    {
+     "class": 21,
+     "amount": 999
+    },
+    {
+     "class": 4,
+     "amount": 99
+    }
+   ]
+  }
+ ],
+ "Heavy Crossbowman": [
+  {
+   "id": 493,
+   "internal_name": "AHXBW",
+   "class": 0,
+   "hp": 50,
+   "attack": 10,
+   "range": 6.0,
+   "melee_armour": 1,
+   "pierce_armour": 4,
+   "reload_time": 4.2,
+   "speed": 0.9,
+   "line_of_sight": 8.0,
+   "cost": {
+    "Wood": 45,
+    "Gold": 45
+   },
+   "train_time": 19,
+   "attacks": [
+    {
+     "class": 3,
+     "amount": 10
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 27,
+     "amount": 6
+    }
+   ]
+  }
+ ],
+ "Heavy Pikeman": [
+  {
+   "id": 892,
+   "internal_name": "FLPKM",
+   "class": 6,
+   "hp": 75,
+   "attack": 4,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 3.0,
+   "speed": 1.0,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 35,
+    "Wood": 25
+   },
+   "train_time": 22,
+   "attacks": [
+    {
+     "class": 29,
+     "amount": 1
+    },
+    {
+     "class": 21,
+     "amount": 1
+    },
+    {
+     "class": 5,
+     "amount": 25
+    },
+    {
+     "class": 4,
+     "amount": 4
+    },
+    {
+     "class": 8,
+     "amount": 24
+    },
+    {
+     "class": 16,
+     "amount": 16
+    },
+    {
+     "class": 30,
+     "amount": 18
+    },
+    {
+     "class": 35,
+     "amount": 7
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Heavy Swordsman": [
+  {
+   "id": 76,
+   "internal_name": "HVSWD",
+   "class": 6,
+   "hp": 75,
+   "attack": 7,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 0.95,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 65,
+    "Gold": 25
+   },
+   "train_time": 35,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 7
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Horse": [],
+ "Imperial Centurion": [
+  {
+   "id": 275,
+   "internal_name": "CENTU",
+   "class": 12,
+   "hp": 150,
+   "attack": 12,
+   "range": 0.0,
+   "melee_armour": 2,
+   "pierce_armour": 1,
+   "reload_time": 1.7,
+   "speed": 1.35,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 70,
+    "Gold": 75
+   },
+   "train_time": 20,
+   "attacks": [
+    {
+     "class": 1,
+     "amount": 12
+    },
+    {
+     "class": 4,
+     "amount": 12
+    },
+    {
+     "class": 15,
+     "amount": 0
+    },
+    {
+     "class": 11,
+     "amount": 0
+    },
+    {
+     "class": 38,
+     "amount": 0
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 20,
+     "amount": 0
+    },
+    {
+     "class": 31,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Imperial Legionary": [
+  {
+   "id": 1,
+   "internal_name": "LEGION",
+   "class": 6,
+   "hp": 75,
+   "attack": 12,
+   "range": 0.0,
+   "melee_armour": 2,
+   "pierce_armour": 2,
+   "reload_time": 2.0,
+   "speed": 0.9,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 60,
+    "Gold": 30
+   },
+   "train_time": 20,
+   "attacks": [
+    {
+     "class": 29,
+     "amount": 2
+    },
+    {
+     "class": 21,
+     "amount": 2
+    },
+    {
+     "class": 1,
+     "amount": 0
+    },
+    {
+     "class": 4,
+     "amount": 12
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Iron Boar": [
+  {
+   "id": 810,
+   "internal_name": "HEROBOAR",
+   "class": 10,
+   "hp": 350,
+   "attack": 12,
+   "range": 0.0,
+   "melee_armour": 3,
+   "pierce_armour": 3,
+   "reload_time": 2.0,
+   "speed": 0.8,
+   "line_of_sight": 4.0,
+   "cost": {},
+   "train_time": 0,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 12
+    }
+   ]
+  }
+ ],
+ "Iroquois Warrior": [
+  {
+   "id": 1374,
+   "internal_name": "IRWAR",
+   "class": 6,
+   "hp": 65,
+   "attack": 8,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 1,
+   "reload_time": 2.0,
+   "speed": 1.2,
+   "line_of_sight": 3.0,
+   "cost": {
+    "Food": 65,
+    "Gold": 25
+   },
+   "train_time": 10,
+   "attacks": [
+    {
+     "class": 29,
+     "amount": 2
+    },
+    {
+     "class": 21,
+     "amount": 2
+    },
+    {
+     "class": 4,
+     "amount": 8
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Junk": [
+  {
+   "id": 15,
+   "internal_name": "JUNKX",
+   "class": 2,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.21,
+   "line_of_sight": 7.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "Khan": [
+  {
+   "id": 1275,
+   "internal_name": "HKHAN",
+   "class": 36,
+   "hp": 160,
+   "attack": 12,
+   "range": 4.0,
+   "melee_armour": 2,
+   "pierce_armour": 2,
+   "reload_time": 2.1,
+   "speed": 1.45,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Wood": 55,
+    "Gold": 65
+   },
+   "train_time": 26,
+   "attacks": [
+    {
+     "class": 27,
+     "amount": 1
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 3,
+     "amount": 12
+    },
+    {
+     "class": 17,
+     "amount": 0
+    },
+    {
+     "class": 20,
+     "amount": 5
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 15,
+     "amount": 0
+    },
+    {
+     "class": 38,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Merchant": [
+  {
+   "id": 1572,
+   "internal_name": "MERCHANT",
+   "class": 59,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.0,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "Mounted Samurai": [
+  {
+   "id": 1568,
+   "internal_name": "MSAMUR",
+   "class": 12,
+   "hp": 130,
+   "attack": 14,
+   "range": 0.0,
+   "melee_armour": 3,
+   "pierce_armour": 5,
+   "reload_time": 1.75,
+   "speed": 1.35,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 60,
+    "Gold": 70
+   },
+   "train_time": 30,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 14
+    },
+    {
+     "class": 11,
+     "amount": 0
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    },
+    {
+     "class": 19,
+     "amount": 12
+    },
+    {
+     "class": 38,
+     "amount": 0
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 20,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Ninja": [
+  {
+   "id": 1145,
+   "internal_name": "NINJA",
+   "class": 6,
+   "hp": 50,
+   "attack": 9,
+   "range": 0.0,
+   "melee_armour": 1,
+   "pierce_armour": 1,
+   "reload_time": 1.8,
+   "speed": 1.1,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 60,
+    "Gold": 30
+   },
+   "train_time": 9,
+   "attacks": [
+    {
+     "class": 29,
+     "amount": 2
+    },
+    {
+     "class": 21,
+     "amount": 2
+    },
+    {
+     "class": 4,
+     "amount": 9
+    },
+    {
+     "class": 36,
+     "amount": 9
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Norse Warrior": [
+  {
+   "id": 361,
+   "internal_name": "THSWD",
+   "class": 6,
+   "hp": 60,
+   "attack": 9,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 1,
+   "reload_time": 2.0,
+   "speed": 0.9,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 60,
+    "Gold": 20
+   },
+   "train_time": 21,
+   "attacks": [
+    {
+     "class": 29,
+     "amount": 6
+    },
+    {
+     "class": 4,
+     "amount": 9
+    },
+    {
+     "class": 8,
+     "amount": 0
+    },
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 30,
+     "amount": 0
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Outlaw": [
+  {
+   "id": 158,
+   "internal_name": "OUTLW",
+   "class": 10,
+   "hp": 15,
+   "attack": 4,
+   "range": 4.0,
+   "melee_armour": null,
+   "pierce_armour": null,
+   "reload_time": 1.8,
+   "speed": 0.74,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": [
+    {
+     "class": 3,
+     "amount": 4
+    }
+   ]
+  }
+ ],
+ "Ox Cart": [
+  {
+   "id": 1271,
+   "internal_name": "OXCART",
+   "class": 59,
+   "hp": 70,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.0,
+   "line_of_sight": 7.0,
+   "cost": {
+    "Wood": 100,
+    "Gold": 50
+   },
+   "train_time": 51,
+   "attacks": []
+  }
+ ],
+ "Ox Wagon": [
+  {
+   "id": 1273,
+   "internal_name": "OXWAGON",
+   "class": 59,
+   "hp": 140,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.0,
+   "line_of_sight": 7.0,
+   "cost": {
+    "Wood": 100,
+    "Gold": 50
+   },
+   "train_time": 51,
+   "attacks": []
+  }
+ ],
+ "Pagan Priest": [
+  {
+   "id": 1940,
+   "internal_name": "PGPRIEST",
+   "class": 18,
+   "hp": 30,
+   "attack": 0,
+   "range": 9.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 1.6,
+   "speed": 0.7,
+   "line_of_sight": 11.0,
+   "cost": {
+    "Gold": 100
+   },
+   "train_time": 51,
+   "attacks": []
+  }
+ ],
+ "Priest": [
+  {
+   "id": 1023,
+   "internal_name": "PRIEST",
+   "class": 18,
+   "hp": 30,
+   "attack": 0,
+   "range": 9.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 1.6,
+   "speed": 0.7,
+   "line_of_sight": 11.0,
+   "cost": {
+    "Gold": 100
+   },
+   "train_time": 51,
+   "attacks": []
+  }
+ ],
+ "Qizilbash Warrior": [
+  {
+   "id": 1817,
+   "internal_name": "QIZILBASH",
+   "class": 12,
+   "hp": 100,
+   "attack": 8,
+   "range": 0.0,
+   "melee_armour": 1,
+   "pierce_armour": 1,
+   "reload_time": 2.0,
+   "speed": 1.45,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 45,
+    "Gold": 60
+   },
+   "train_time": 20,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 8
+    },
+    {
+     "class": 15,
+     "amount": 2
+    },
+    {
+     "class": 38,
+     "amount": 0
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 20,
+     "amount": 0
+    },
+    {
+     "class": 31,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Queen": [
+  {
+   "id": 923,
+   "internal_name": "QUEEN",
+   "class": 59,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.2,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  },
+  {
+   "id": 1292,
+   "internal_name": "QUEEN",
+   "class": 59,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 0.0,
+   "speed": 1.2,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "Rabid Wolf": [
+  {
+   "id": 202,
+   "internal_name": "WOLF2",
+   "class": 10,
+   "hp": 20,
+   "attack": 3,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 0.7,
+   "line_of_sight": 12.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 3
+    }
+   ]
+  }
+ ],
+ "Relic Cart": [
+  {
+   "id": 159,
+   "internal_name": "ARTCT",
+   "class": 1,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": null,
+   "pierce_armour": null,
+   "reload_time": 0.0,
+   "speed": 0.66,
+   "line_of_sight": 1.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  },
+  {
+   "id": 944,
+   "internal_name": "ARTCT",
+   "class": 1,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": null,
+   "pierce_armour": null,
+   "reload_time": 0.0,
+   "speed": 0.66,
+   "line_of_sight": 1.0,
+   "cost": {
+    "Gold": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  },
+  {
+   "id": 1304,
+   "internal_name": "ARTCT",
+   "class": 1,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": null,
+   "pierce_armour": null,
+   "reload_time": 0.0,
+   "speed": 0.66,
+   "line_of_sight": 1.0,
+   "cost": {
+    "Gold": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "Repairer": [
+  {
+   "id": 156,
+   "internal_name": "VMREP",
+   "class": 4,
+   "hp": 25,
+   "attack": 3,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 0.8,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 25,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 3
+    },
+    {
+     "class": 4,
+     "amount": 3
+    },
+    {
+     "class": 13,
+     "amount": 6
+    },
+    {
+     "class": 17,
+     "amount": 0
+    }
+   ]
+  },
+  {
+   "id": 222,
+   "internal_name": "VFREP",
+   "class": 4,
+   "hp": 25,
+   "attack": 3,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 0.8,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 25,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 3
+    },
+    {
+     "class": 4,
+     "amount": 3
+    },
+    {
+     "class": 13,
+     "amount": 6
+    },
+    {
+     "class": 17,
+     "amount": 0
+    }
+   ]
+  },
+  {
+   "id": 2714,
+   "internal_name": "VMREPAIRER",
+   "class": 61,
+   "hp": 25,
+   "attack": 3,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 0.8,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 25,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 3
+    },
+    {
+     "class": 4,
+     "amount": 3
+    },
+    {
+     "class": 13,
+     "amount": 6
+    },
+    {
+     "class": 17,
+     "amount": 0
+    }
+   ]
+  },
+  {
+   "id": 2715,
+   "internal_name": "VFREPAIRER",
+   "class": 61,
+   "hp": 25,
+   "attack": 3,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 2.0,
+   "speed": 0.8,
+   "line_of_sight": 4.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 25,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 3
+    },
+    {
+     "class": 4,
+     "amount": 3
+    },
+    {
+     "class": 13,
+     "amount": 6
+    },
+    {
+     "class": 17,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Royal Janissary": [
+  {
+   "id": 52,
+   "internal_name": "RJANI",
+   "class": 44,
+   "hp": 55,
+   "attack": 22,
+   "range": 8.0,
+   "melee_armour": 2,
+   "pierce_armour": 0,
+   "reload_time": 3.45,
+   "speed": 0.96,
+   "line_of_sight": 10.0,
+   "cost": {
+    "Food": 60,
+    "Gold": 55
+   },
+   "train_time": 21,
+   "attacks": [
+    {
+     "class": 11,
+     "amount": 0
+    },
+    {
+     "class": 3,
+     "amount": 22
+    },
+    {
+     "class": 17,
+     "amount": 3
+    }
+   ]
+  }
+ ],
+ "Sharkatzor": [
+  {
+   "id": 1222,
+   "internal_name": "SHARKATZOR",
+   "class": 13,
+   "hp": 600,
+   "attack": 33,
+   "range": 10.0,
+   "melee_armour": 1,
+   "pierce_armour": 0,
+   "reload_time": 2.1,
+   "speed": 2.0,
+   "line_of_sight": 11.0,
+   "cost": {
+    "Wood": 55,
+    "Gold": 65
+   },
+   "train_time": 26,
+   "attacks": [
+    {
+     "class": 21,
+     "amount": 0
+    },
+    {
+     "class": 3,
+     "amount": 33
+    },
+    {
+     "class": 17,
+     "amount": 0
+    },
+    {
+     "class": 20,
+     "amount": 5
+    }
+   ]
+  }
+ ],
+ "Sogdian Cataphract": [
+  {
+   "id": 932,
+   "internal_name": "SOGDIAN",
+   "class": 12,
+   "hp": 110,
+   "attack": 12,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 5,
+   "reload_time": 2.0,
+   "speed": 1.45,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 75,
+    "Gold": 50
+   },
+   "train_time": 28,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 12
+    },
+    {
+     "class": 15,
+     "amount": 6
+    },
+    {
+     "class": 38,
+     "amount": 0
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 20,
+     "amount": 0
+    },
+    {
+     "class": 31,
+     "amount": 0
+    }
+   ]
+  },
+  {
+   "id": 1299,
+   "internal_name": "SOGDIAN",
+   "class": 12,
+   "hp": 110,
+   "attack": 12,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 5,
+   "reload_time": 2.0,
+   "speed": 1.45,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 75,
+    "Gold": 50
+   },
+   "train_time": 28,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 12
+    },
+    {
+     "class": 15,
+     "amount": 6
+    },
+    {
+     "class": 38,
+     "amount": 0
+    },
+    {
+     "class": 39,
+     "amount": -3
+    },
+    {
+     "class": 20,
+     "amount": 0
+    },
+    {
+     "class": 31,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Spy": [],
+ "Treasure Chest": [
+  {
+   "id": 2289,
+   "internal_name": "Treasure Chest",
+   "class": 14,
+   "hp": 1,
+   "attack": null,
+   "range": null,
+   "melee_armour": null,
+   "pierce_armour": null,
+   "reload_time": null,
+   "speed": null,
+   "line_of_sight": 0.0,
+   "cost": {},
+   "train_time": null,
+   "attacks": []
+  },
+  {
+   "id": 2635,
+   "internal_name": "ARTCT",
+   "class": 1,
+   "hp": 75,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": null,
+   "pierce_armour": null,
+   "reload_time": 0.0,
+   "speed": 0.66,
+   "line_of_sight": 1.0,
+   "cost": {
+    "Gold": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ],
+ "War Dog": [
+  {
+   "id": 2612,
+   "internal_name": "WARDOG",
+   "class": 28,
+   "hp": 50,
+   "attack": 9,
+   "range": 0.0,
+   "melee_armour": 0,
+   "pierce_armour": 0,
+   "reload_time": 1.7,
+   "speed": 1.06,
+   "line_of_sight": 5.0,
+   "cost": {
+    "Food": 60
+   },
+   "train_time": 8,
+   "attacks": [
+    {
+     "class": 4,
+     "amount": 9
+    }
+   ]
+  }
+ ],
+ "War Penguin": [
+  {
+   "id": 639,
+   "internal_name": "PENGUI",
+   "class": 6,
+   "hp": 64,
+   "attack": 16,
+   "range": 0.0,
+   "melee_armour": 4,
+   "pierce_armour": 4,
+   "reload_time": 2.0,
+   "speed": 0.9,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 512,
+    "Gold": 20
+   },
+   "train_time": 21,
+   "attacks": [
+    {
+     "class": 13,
+     "amount": 8
+    },
+    {
+     "class": 4,
+     "amount": 16
+    },
+    {
+     "class": 21,
+     "amount": 8
+    },
+    {
+     "class": 15,
+     "amount": 0
+    }
+   ]
+  }
+ ],
+ "Wheeled Ship": [
+  {
+   "id": 2730,
+   "internal_name": "Wheeled Ship",
+   "class": 59,
+   "hp": 100,
+   "attack": 0,
+   "range": 0.0,
+   "melee_armour": 1,
+   "pierce_armour": 1,
+   "reload_time": 0.0,
+   "speed": 1.0,
+   "line_of_sight": 6.0,
+   "cost": {
+    "Food": 50
+   },
+   "train_time": 30,
+   "attacks": []
+  }
+ ]
+}
