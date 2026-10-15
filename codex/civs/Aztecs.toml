@@ -28,7 +28,7 @@ open_questions = []
 [profile]
 entity = "The Mexica (Tenochca) of Tenochtitlan and the Triple Alliance (Excan Tlahtoloyan: Tenochtitlan, Texcoco and Tlacopan)"
 region = "Basin of Mexico and central Mesoamerica"
-window = "1325–1521 (from the traditional foundation of Tenochtitlan to its fall; the Triple Alliance from 1428)"
+window = "1325–1521 (from the traditional foundation of Tenochtitlan to its fall, a terminal event soon after 1500 as RULES 6.16.17 allows; core 1428–1500, the Triple Alliance from Itzcoatl's victory over Azcapotzalco to the reign of Ahuitzotl; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Codex Mendoza (c. 1541); ed. Frances F. Berdan & Patricia Rieff Anawalt (1992)",
   "Bernardino de Sahagún, Florentine Codex (c. 1577)",
@@ -232,14 +232,14 @@ basis = "There were no coins: cacao beans served as small change and standard co
 from = "Treadmill Crane"
 to = "Coatequitl"
 level = 1
-basis = "There were no cranes or treadwheels: temples, causeways and dikes were raised by the coatequitl, the rotational labour draft for public works that each calpolli owed to its city and ruler (Hassig 1985; Smith 2012). Same effect as Treadmill Crane (Villagers construct buildings +20% faster): organised labour is the Mexica equivalent of faster building, as the tumpline is of the Wheelbarrow. A rename beyond the agreed list, applied under RULES 6.16.6. The Maya keep Treadmill Crane under its generic name as a flagged abstraction, since the term is Nahuatl (see the Maya design)."
+basis = "There were no cranes or treadwheels: temples, causeways and dikes were raised by the coatequitl, the rotational labour draft for public works that each calpolli owed to its city and ruler (Hassig 1985; Smith 2012). Same effect as Treadmill Crane (Villagers construct buildings +20% faster): organised labour is the Mexica equivalent of faster building, as the tumpline is of the Wheelbarrow. A rename beyond the agreed list, applied under RULES 6.16.6. The Inca design renames it Mit'a, after the Andean rotating labour service; the Maya keep Treadmill Crane under its generic name as a flagged abstraction, since the term is Nahuatl (see the Maya design)."
 
 [[rename]]
 from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "The Mexica fought on the lake in dugout canoes (acalli): thousands of them defended Tenochtitlan in 1521, and Cortés had thirteen brigantines built to break them (Cortés, third letter; Bernal Díaz). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. Same rename for the Maya, Mapuche and Tupi; the acalli war-canoe line proper is an N3 idea."
+basis = "The Mexica fought on the lake in dugout canoes (acalli): thousands of them defended Tenochtitlan in 1521, and Cortés had thirteen brigantines built to break them (Cortés, third letter; Bernal Díaz). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. Same rename for the Maya, Mapuche and Tupi, and outside the Americas in the Malians' and Avars' designs; the acalli war-canoe line proper is an N3 idea."
 
 [[rename]]
 from = "War Galley"

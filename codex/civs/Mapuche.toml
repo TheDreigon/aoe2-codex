@@ -136,7 +136,7 @@ effect = "Weichafe and Slingers attack +25% faster"
 level = 1
 change = "new"
 replaces = "Malon"
-precedent = "Caciques (Tupi: Champi Warriors and Slingers attack +25% faster): an existing unique tech, shared and renamed with an identical effect, since the Champi Warriors are the Mapuche Weichafe"
+precedent = "Caciques (Tupi: Champi Warriors and Slingers attack +25% faster): an existing Castle Age unique tech, which the Tupi design replaces with Morubixaba, passed to the Mapuche and renamed with an identical effect and age, since the Champi Warriors are the Mapuche Weichafe"
 basis = "In war the Mapuche chose a war leader, the toqui, named after the polished stone axe (toki) that was his insignia, who led the warriors of the allied lof for the length of a campaign; Lautaro and Caupolicán held the office (Rosales; Bengoa 2003). Clubs and slings were among the weapons of the weichafe. The effect abstracts the toqui's command of the raiding levies of clubmen and slingers; the Colihue Lancers are left out because the tech keeps the existing Caciques effect unchanged, which keeps it at level 1, and the lancers have their own unit role. Malon is dropped: the word belongs mostly to the later mounted raids of the pampas, and its effect (pass-through damage) had no link to it (rated stretched)."
 relevance = "The elected war leader was the Mapuche's only authority above the lof and the institution through which they waged every great war."
 contested = "The toqui is documented from post-1541 sources; its pre-Hispanic form is inferred from the stone axes and from the chroniclers' accounts."
@@ -240,7 +240,7 @@ from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Mapuche boats on the coast, the rivers and the lakes were dugout canoes (wampu), with the sewn-plank dalca further south (see the Galleon note). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. The rename renders the vessel type the Mapuche had, not a documented war fleet: they are in the basic navy (see Galleon). Same rename as for the Aztecs, Maya and Tupi."
+basis = "Mapuche boats on the coast, the rivers and the lakes were dugout canoes (wampu), with the sewn-plank dalca further south (see the Galleon note). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. The rename renders the vessel type the Mapuche had, not a documented war fleet: they are in the basic navy (see Galleon). Same rename as for the Aztecs, Maya and Tupi, and outside the Americas in the Malians' and Avars' designs."
 
 [[rename]]
 from = "War Galley"
@@ -258,7 +258,7 @@ basis = "The South American set fits best among the existing ones; a set of ruka
 [[dropped]]
 item = "Mounted Units generate +3 gold when defeating military units"
 kind = "bonus"
-reason = "Raiding for cattle, horses and iron belongs to the decades after contact: a late element (RULES section 2), and the civ's one allowed late element is the Kona itself. The horse-capture idea is kept for N2."
+reason = "Raiding for cattle, horses and iron belongs to the decades after contact: a late element (RULES section 2), and the civ's one allowed late element is the Kona itself. The horse-capture idea is kept for N2. Its effect now serves the Cumans' design as a passive bonus, for captives and ransom."
 
 [[dropped]]
 item = "Bolas Rider"

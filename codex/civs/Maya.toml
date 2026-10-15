@@ -28,7 +28,7 @@ open_questions = []
 [profile]
 entity = "The Maya kingdoms and city-states: the Classic lowland kingdoms (Tikal, Calakmul, Caracol, Copán, Palenque and others) and the Postclassic polities of Yucatán and the highlands (Chichén Itzá, Mayapán, the Yucatec provinces, the K'iche' and Kaqchikel kingdoms)"
 region = "Yucatán Peninsula, Petén, Chiapas, Tabasco, Belize, Guatemala, western Honduras and El Salvador"
-window = "500–1524 (the Classic kingdoms and the Postclassic, to the Spanish conquest of the K'iche')"
+window = "500–1524 (the Classic kingdoms and the Postclassic, to the Spanish conquest of the K'iche', 1524, a terminal event soon after 1500 as RULES 6.16.17 allows; core 500–1500; nothing in the design originates after 1500, the generic skeleton items of RULES 6.16.2 aside)"
 sources = [
   "Diego de Landa, Relación de las cosas de Yucatán (c. 1566)",
   "Bernal Díaz del Castillo, Historia verdadera (on Champotón, 1517, and Tabasco, 1518)",
@@ -264,7 +264,7 @@ from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Maya fleets were dugout canoes: off Guanaja in 1502 Columbus's men met a trading canoe ‘as long as a galley’ with some 25 paddlers (Ferdinand Columbus), the Chontal of Tabasco and Acalan carried the coastal trade in canoes (Scholes & Roys 1948), and in 1518 armed warriors in canoes met Grijalva's ships off Tabasco (Bernal Díaz, who says he sailed with him). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. Same rename as for the Aztecs, Mapuche and Tupi."
+basis = "Maya fleets were dugout canoes: off Guanaja in 1502 Columbus's men met a trading canoe ‘as long as a galley’ with some 25 paddlers (Ferdinand Columbus), the Chontal of Tabasco and Acalan carried the coastal trade in canoes (Scholes & Roys 1948), and in 1518 armed warriors in canoes met Grijalva's ships off Tabasco (Bernal Díaz, who says he sailed with him). The Scenario Editor Canoe, a small warship introduced in The Forgotten (RULES section 5), gives the Galley the look of a dugout war canoe; the Galley keeps its stats, and the Canoe's look, scale, attack and role must be checked in game. Same rename as for the Aztecs, Mapuche and Tupi, and outside the Americas in the Malians' and Avars' designs."
 
 [[rename]]
 from = "War Galley"
