@@ -3,7 +3,7 @@ name = "Swedes"
 original_name = "Varangians"
 status = "draft"
 label = "Cavalry and Naval civilization"
-summary = "Varangians renamed Swedes (500–1500): fur-hunting gold, the Jarl and Vendel Legacy stay, the Varangian Guard stays Byzantine, so its bonus and Gothikon leave, Alsnö Stadga becomes the Town Center tech, Swedish iron and copper carry the team bonus, and an armed peasantry gets a new passive."
+summary = "Varangians renamed Swedes (500–1500): fur-hunting gold and the Jarl stay, the Varangian Guard stays Byzantine, so its bonus and Gothikon leave, Vendel Legacy gives way to Engelbrekt's Rising, Alsnö Stadga becomes the Town Center tech, Swedish iron and copper carry the team bonus, an armed peasantry gets a new passive, and hand guns and printing enter."
 ideas = [
   "N2: An armed trading fellowship (félag, named on runestones) as a Market unit that carries gold like a Trade Cart but fights back, for the merchant-warriors of Birka and Gotland.",
   "N2: Kopparberget, a Mining Camp tech for the Falun copper mine (share letter of 1288; Magnus Eriksson's charter of 1347), if the team bonus ever goes to another trait.",
@@ -16,15 +16,11 @@ contested = [
   "Whether Jordanes' Suehans (Getica 21) are the Svear, as is usually assumed.",
   "Why the Salme dead were abroad: isotope analysis links them to central Sweden (Price et al., Antiquity 90, 2016), but whether they fell on a raid or on an elite or diplomatic voyage is debated.",
   "Whether the Alsnö statute (1279 or 1280) created the secular nobility or regulated a practice already in place.",
-  "The free, armed Swedish peasant is also a theme of 19th-century national history (Geijer); the peasantry's political weight in the 15th century is real, its idealisation debated.",
+  "The free, armed Swedish peasant is also a theme of 19th-century national history (Geijer), and Engelbrekt became a national hero in the same tradition; the peasantry's political weight in the 15th century is real, its idealisation debated. The risings were not peasant affairs alone: nobles and the council soon joined Engelbrekt, and the Stures were magnates who used the peasant levies in their own struggle for the regency.",
   "Jarl: in medieval Sweden a single office of state (Birger Jarl was its last great holder), not a troop type; the Rígsþula, which makes Jarl the ancestor of the nobles, is a West Norse poem of uncertain date (10th–13th century) preserved in Iceland, a literary type rather than Swedish evidence.",
+  "Christian I's wound at Brunkeberg (1471): the accounts agree that a shot struck him in the face and broke several of his teeth, but differ on the weapon (a hand-held hook gun in the Swedish tradition, a cannon ball in others).",
 ]
-open_questions = [
-  "Unit name: the Jarl keeps its name for its fame and because the Rígsþula makes Jarl the ancestor of the warrior nobility; in medieval Sweden, though, jarl was one office of state (Birger Jarl). Rename it after the mounted frälse (for example ‘Frälseman’)?",
-  "Vendel Legacy is kept for the mounted elite of the formative age of the Svear kingship, but it names a period, not a reform, and its trample is inferred from display art. The alternative is a datable military moment at the Castle, for example an Imperial Age tech for the peasant armies of Engelbrekt and the Stures (1434–1471), with the armed-villager passive re-based on the weapon laws (folkvapen) alone and the Vendel horses left to Bloodlines. Keep Vendel Legacy?",
-  "Power budget: the Swedes lose the Varangian Guard and its bonus, Gothikon, the shepherd and fishing gold, the Hussar, the mounted crossbow line, Siphons, Incendiaries and the Catapult Galleon, and gain Champion, Arbalester, Keep, Gold Shaft Mining, Sanctity, Alsnö Stadga and the armed-villager passive; the late economy rests on trade and on the gold the statute saves on knights. The tree has no gunpowder: guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania) and stood in the castles of the Union wars, so a late gunpowder item would not contradict the history, but no specific Swedish case could be checked, while the Danes' guns rest on specific cases of 1495–1520 (Gribshunden, Hemmingstedt, Bogesund). Acceptable as it is, or add the Bombard Cannon (or the Hand Cannoneer) in the Imperial Age?",
-  "Architecture: as for the Danes, the Northern European set renders the timber halls of the Viking age, while the late kingdom built in brick Gothic (Uppsala Cathedral, consecrated 1435). Keep the set, reassign Central European (N1), or wait for an N3 set?",
-]
+open_questions = []
 
 [profile]
 entity = "The Swedes (Svear and Götar): the Svear kingship of Uppland, the eastern ventures of the Viking Age and the medieval kingdom of Sweden"
@@ -38,8 +34,8 @@ sources = [
   "The runestones of Uppland and Södermanland (the Greece and Ingvar stones)",
   "Ibn Khordadbeh, Book of Roads and Kingdoms; Ibn Fadlan, Risala (922)",
   "Rígsþula (a West Norse poem)",
-  "Upplandslagen (1296); Magnus Eriksson's Landslag (c. 1350)",
-  "Erikskrönikan (c. 1320s–1330s)",
+  "The Swedish provincial laws (Upplandslagen, 1296; Södermannalagen; Hälsingelagen); Magnus Eriksson's Landslag (c. 1350)",
+  "Erikskrönikan (c. 1320s–1330s); Engelbrektskrönikan (1430s, later part of the Karlskrönikan)",
   "T. D. Price et al., ‘Isotopic provenancing of the Salme ship burials in Pre-Viking Age Estonia’, Antiquity 90 (2016)",
   "Simon Franklin and Jonathan Shepard, The Emergence of Rus 750–1200 (1996)",
   "Knut Helle (ed.), The Cambridge History of Scandinavia, vol. 1 (2003)",
@@ -53,8 +49,8 @@ kind = "economic"
 level = 1
 change = "changed"
 replaces = "Shepherding, fishing, and hunting also generate gold"
-precedent = "Shepherding, fishing, and hunting also generate gold (Varangians): the hunting part only"
-basis = "Jordanes (Getica 21, 551) already knew the Suehans as the people who sent dark furs to the Romans through many other peoples. In the Viking Age furs from the northern forests, hunted or taken from Finnic and Sami neighbours, bought the Islamic silver of the eastern trade (Ibn Khordadbeh; Ibn Fadlan), whose dirhams fill the hoards of the Mälaren region and Gotland (Spillings, c. 870s, some 14,000 coins). Slaves, the other staple of that trade, are not represented. Shepherding passes to the Castilians (the Mesta) and fishing to the Norwegians (stockfish) and the Tamils (pearl fishing)."
+precedent = "Shepherding, fishing, and hunting also generate gold (Varangians): the hunting part only (RULES section 5)"
+basis = "Jordanes (Getica 21, 551) already knew the Suehans as the people who sent dark furs to the Romans through many other peoples. In the Viking Age furs from the northern forests, hunted or taken from Finnic and Sami neighbours, bought the Islamic silver of the eastern trade (Ibn Khordadbeh; Ibn Fadlan), whose dirhams fill the hoards of the Mälaren region and Gotland (Spillings, c. 870s, some 14,000 coins). Slaves, the other staple of that trade, are not represented. Shepherding passes to the Castilians (the Mesta) and fishing to the Norwegians (stockfish) and the Tamils (pearl fishing); hunting is shared with the Rus', whose fur trade grew out of the same eastern routes (RULES 6.7)."
 relevance = "Furs were the Svear's export from Jordanes' day to the Hanse, and the silver they bought made Viking-age Uppland rich, and Gotland through its own trade."
 contested = "The bonus abstracts furs bought or taken as tribute from forest peoples as much as furs hunted by Swedes."
 
@@ -64,7 +60,7 @@ kind = "other"
 level = 1
 change = "kept"
 precedent = "Bloodlines and Caravan effects +50% (Varangians)"
-basis = "Horses: Jordanes says the Suehans ‘like the Thuringians, use excellent horses’ (Getica 21), and the boat graves of Vendel and Valsgärde (c. 550–800) hold horses and riding gear. Routes: Birka on Lake Mälaren (c. 750–975) and the Scandinavian stations of the east (Grobiņa in Courland, Staraya Ladoga) linked Sweden to the Volga and Dnieper trade; in 839 the Rhos who reached the Frankish court from Constantinople turned out to be ‘of the people of the Swedes’ (Annales Bertiniani)."
+basis = "Horses: Jordanes says the Suehans ‘like the Thuringians, use excellent horses’ (Getica 21), and the boat graves of Vendel and Valsgärde (c. 550–800) hold the horses, riding gear and helmets of a mounted elite, the warrior aristocracy of the formative age of the Svear kingship. Routes: Birka on Lake Mälaren (c. 750–975) and the Scandinavian stations of the east (Grobiņa in Courland, Staraya Ladoga) linked Sweden to the Volga and Dnieper trade; in 839 the Rhos who reached the Frankish court from Constantinople turned out to be ‘of the people of the Swedes’ (Annales Bertiniani)."
 relevance = "A horse-owning aristocracy and the eastern trade routes are the two foundations of early Swedish wealth and power."
 
 [[bonus]]
@@ -74,7 +70,7 @@ level = 1
 change = "changed"
 replaces = "Longships and Catapult Galleons attack +15% faster"
 precedent = "Longships and Catapult Galleons attack +15% faster (Varangians): Longships only"
-basis = "The ship burials of Salme on Saaremaa (c. 750) hold over forty men who died abroad, perhaps on a raid, whom isotope analysis links to central Sweden (Price et al. 2016); some 26 runestones remember the men lost with Ingvar's fleet in the east (c. 1041); and the coast of Uppland was organised in ship districts for the levy (the Roden, later Roslagen; Upplandslagen, 1296). Tacitus' Suiones ‘strong in fleets’ (Germania 44, c. 98) are background, four centuries before the window. Catapult Galleons are dropped: no ship-borne catapults are known in Scandinavian fleets."
+basis = "The ship burials of Salme on Saaremaa (c. 750) hold over forty men who died abroad, perhaps on a raid, whom isotope analysis links to central Sweden (Price et al. 2016); some 26 runestones remember the men lost with Ingvar's fleet in the east (c. 1041); and the coast of Uppland was organised in ship districts for the levy (the Roden, later Roslagen; Upplandslagen, 1296). Tacitus' Suiones ‘strong in fleets’ (Germania 44, c. 98) are background, four centuries before the window. Navy tier (RULES 6.16.1): a fleet of ships, the clinker-built warships of Salme, the ledung and the later royal fleet, which keeps every generic tier, the Galleon as a flagged abstraction (RULES 6.16.2). Catapult Galleons are dropped: no ship-borne catapults are known in Scandinavian fleets."
 relevance = "The Svear's expansion to the east, from Grobiņa and Salme to Ingvar's expedition, was carried by oared warships."
 
 [[bonus]]
@@ -83,8 +79,8 @@ kind = "other"
 level = 1
 change = "new"
 precedent = "Villagers affected by Infantry Blacksmith upgrades starting in Castle Age (Incas)"
-basis = "Sweden's peasants stayed free and armed: medieval Swedish law obliged free men to keep their own weapons (folkvapen) for the levy, and the miners and peasants of Bergslagen and Dalarna, led by the mine owner Engelbrekt Engelbrektsson, rose against Erik of Pomerania and took royal castles in 1434–1436; under Sten Sture they defeated Christian I at Brunkeberg (1471). Villagers who share the infantry's armour render a peasantry that went to war."
-relevance = "The armed peasantry decided Sweden's struggle with the Kalmar kings, from Engelbrekt's rising (1434) to Brunkeberg (1471), and gave the peasants a political weight rare in medieval Europe; it is a defining trait of medieval Sweden."
+basis = "Sweden's peasants stayed free and armed. The provincial laws tied the right and duty to bear the ‘people's weapons’ (folkvapn) to free status: Hälsingelagen required every man of age to bear arms to own them, and Södermannalagen had each ship district (hamna) arm the man it sent to the levy fleet. Villagers who share the infantry's armour render a peasantry that kept its own weapons and could go to war; the risings in which it did so are rendered by Engelbrekt's Rising."
+relevance = "An armed, free peasantry with a voice of its own set medieval Sweden apart from most of Europe and made the peasant armies of the 15th century possible; it is a defining trait of medieval Sweden."
 contested = "The image of the free, armed peasant also owes much to 19th-century national history (see the civ-level notes)."
 
 [team_bonus]
@@ -102,46 +98,49 @@ model = "Jarl"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The mounted aristocracy of the medieval kingdom: the knights and squires of the Erikskrönikan (c. 1320s–1330s), the frälse who served the crown on horseback. The name follows the Rígsþula, a West Norse poem, whose Jarl, ancestor of the nobles, learns to ride, bend the bow and throw the spear; and jarl was the title of the realm's first officer, held by Birger Jarl (1248–1266), who founded Stockholm (first named in 1252). The reach of its attack renders the lance."
+basis = "The mounted aristocracy of the medieval kingdom: the knights and squires of the Erikskrönikan (c. 1320s–1330s), the frälse who served the crown on horseback under the Alsnö statute. The name follows the Rígsþula, a West Norse poem, whose Jarl, ancestor of the nobles, learns to ride, bend the bow and throw the spear; and jarl was the title of the realm's first officer, held by Birger Jarl (1248–1266), who founded Stockholm (first named in 1252). The reach of its attack renders the lance."
 relevance = "Mounted aristocrats led Swedish war and politics from the Vendel chieftains to the frälse nobility, and Birger Jarl is one of the best-known figures of medieval Sweden."
-contested = "Jarl was an office rather than a troop type or a class (see the civ-level notes)."
-
-[[unique_tech]]
-name = "Vendel Legacy"
-building = "Castle"
-kind = "military"
-age = "Castle"
-effect = "Knight-line deals trample damage"
-level = 1
-change = "kept"
-precedent = "Vendel Legacy (Knight-line deals trample damage) (Varangians)"
-basis = "The helmets from the boat graves of Vendel and Valsgärde in Uppland (from c. 550), which gave the Vendel period its name, carry plates with riders armed with lances, some riding down a fallen foe, a motif taken from Roman cavalry tombstones and also seen at Sutton Hoo. The trample renders the charge of the mounted elite as its own art shows it; it is an inference from display art."
-relevance = "Passes on weight: the mounted elite buried with horses, helmets and weapons in the boat graves of Vendel and Valsgärde (c. 550–800) is the warrior aristocracy of the formative age of the Svear kingship centred on Old Uppsala; the tech names that age rather than a reform (see open questions)."
-contested = "The iconography is aristocratic display, not proof of shock tactics."
+contested = "Jarl was an office rather than a troop type or a class (see the civ-level notes). The game's name is kept for its fame and for the Rígsþula's Jarl; a name after the mounted frälse (for example ‘Frälseman’) would be more literal but is a modern coinage."
 
 [[unique_tech]]
 name = "Alsnö Stadga"
 building = "Town Center"
 kind = "civil"
-age = "Imperial"
+age = "Castle"
 effect = "Knight-line costs -60% gold"
 level = 1
 change = "new"
-precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles): shared and renamed, identical effect, in the Imperial Age (a Castle Age tech in the game) so that it follows Vendel Legacy in time. The Poles' design also moves Szlachta Privileges to the Town Center, so the two civs share effect and building on purpose (RULES 6.7), and the Lithuanians' Horodło (Boyars cost -40% gold) is a third rendering of privileges for mounted service."
-basis = "At Alsnö (1279 or 1280) King Magnus Ladulås exempted from taxes everyone who served the crown with a war horse (rusttjänst), creating the secular frälse, the Swedish nobility, and forbade the great men's forced hospitality (gästning) on the peasants, the protection traditionally linked to his byname Ladulås, ‘barn-lock’. Cheaper knights render mounted service paid for by tax exemption, as with the Polish privileges. A royal statute on taxation and estates, so at the Town Center (RULES 6.2)."
+precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles): shared and renamed, identical effect and age (Castle Age, as in the game). The Poles' design also moves Szlachta Privileges to the Town Center, so the two civs share effect and building on purpose (RULES 6.7), and the Lithuanians' Horodło (Boyars cost -40% gold) is a third rendering of privileges for mounted service."
+basis = "At Alsnö (1279 or 1280) King Magnus Ladulås exempted from taxes everyone who served the crown with a war horse (rusttjänst), creating the secular frälse, the Swedish nobility, and forbade the great men's forced hospitality (gästning) on the peasants, the protection traditionally linked to his byname Ladulås, ‘barn-lock’. Cheaper knights render mounted service paid for by tax exemption, as with the Polish privileges. A royal statute on taxation and estates, so at the Town Center (RULES 6.2); the earlier of the civ's two datable moments, so the Castle Age tech."
 relevance = "The statute made the Swedish nobility a tax-exempt mounted estate, the frame of Swedish society for the rest of the Middle Ages."
 contested = "Its date, and whether it created the nobility or regulated an existing practice (see the civ-level notes)."
 
+[[unique_tech]]
+name = "Engelbrekt's Rising"
+building = "Castle"
+kind = "military"
+age = "Imperial"
+effect = "Barracks work +100% faster"
+level = 1
+change = "new"
+replaces = "Vendel Legacy (Knight-line deals trample damage)"
+precedent = "Perfusion (Barracks work +100% faster) (Goths): an existing unique tech, shared and renamed with an identical effect, at the Castle in the Imperial Age as in the game; the Goths' design drops Perfusion"
+basis = "The peasant armies of the 15th century decided Sweden's struggle with the Kalmar kings. In the summer of 1434 the mine owner Engelbrekt Engelbrektsson led the miners and peasants of Bergslagen and Dalarna against Erik of Pomerania's bailiffs; within a few months the rising had spread across Svealand and Götaland and taken most of the royal castles, and in January 1435 an assembly at Arboga made Engelbrekt captain of the realm (rikshövitsman), before his murder in 1436 (Engelbrektskrönikan). A generation later the regent Sten Sture the Elder called out the peasant levies again and, with the burghers of Stockholm and the horsemen of his noble allies, routed Christian I's army at Brunkeberg outside Stockholm (10 October 1471), a victory commemorated by the St George group in Stockholm's great church, commonly attributed to Bernt Notke (1489). Barracks that work twice as fast render levies of armed peasants called out within weeks. A military moment, so at the Castle (RULES 6.2); the later of the civ's two datable moments, so the Imperial Age tech."
+relevance = "The risings of 1434–1471 broke the Kalmar kings' hold on Sweden, gave the peasantry a political voice, and made Engelbrekt and Brunkeberg the founding memories of the Swedish state."
+contested = "How far the risings were the peasants' own and how national they were is debated (see the civ-level notes)."
+
 [tree]
-add = ["Champion", "Arbalester", "Keep", "Gold Shaft Mining", "Sanctity"]
+add = ["Champion", "Arbalester", "Keep", "Gold Shaft Mining", "Sanctity", "Hand Cannoneer", "Block Printing"]
 remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbowman", "Heavy Mounted Crossbowman", "Cranequins", "Incendiaries", "Siphons", "Catapult Galleon"]
 
 [tree.basis]
 "Champion" = "Substitute for the removed Varangian Guard as heavy infantry (RULES 6.11); the top swordsman tier is a generic abstraction."
-"Arbalester" = "The crossbow was the common missile weapon of 14th–15th-century Scandinavian warfare, in castle garrisons and in the armies of the Union wars; lacking the top tier was incoherent for a civ whose window runs to 1500."
+"Arbalester" = "The crossbow was the common missile weapon of 14th–15th-century Scandinavian warfare, in castle garrisons and in the armies of the Union wars; lacking the top tier was incoherent for a civ whose window runs to 1500 (RULES 6.16.3)."
 "Keep" = "Stone castles of the medieval kingdom: Stockholm (from the 1250s), Kalmar, Stegeborg and Nyköpingshus, scene of the Nyköping Banquet (1317); Engelbrekt's men took the royal castles in 1434–1436."
 "Gold Shaft Mining" = "Sweden's medieval mines: the copper of Falun (Stora Kopparberg, first recorded in 1288) and the iron of Bergslagen, whose miners rose with Engelbrekt in 1434."
 "Sanctity" = "The cults of St Erik (king, d. 1160) at Uppsala and of St Birgitta (d. 1373, canonised 1391), whose order was founded at Vadstena (consecrated 1384)."
+"Hand Cannoneer" = "Hook guns (hakebössor) were in Swedish use in the Sture period: they are recorded on the Swedish side at Brunkeberg (1471), where, in the Swedish tradition, a shot struck Christian I in the face and broke several of his teeth (see contested). Under RULES 6.16.19(d) the tree follows the represented period, and the struggle with the Union kings to 1500 is part of it, so the Imperial Age unit stands for the handguns of the Sture armies. Further gun items (Bombard Cannon, Bombard Tower, Cannon Galleon) are left out, since no specific Swedish case inside the window could be confirmed, while the Danes' guns rest on cases of 1495–1520 and the Norwegians, whose window ends in 1469, have none."
+"Block Printing" = "Johann Snell printed the first book in Sweden at Stockholm, the Dialogus creaturarum (dated 20 December 1483), in the Greyfriars' house, and then the Missale Upsalense for the archbishop of Uppsala (1484). The same printing-date test keeps Block Printing for the Danes, for whom Snell had printed at Odense in 1482, and removes it from the Norwegians (to 1469) and the Rus' (to 1505)."
 "Varangian Guard" = "The Varangian Guard stays with the Byzantines (RULES section 4): it was an institution of the Byzantine state, though some thirty runestones, most of them in Uppland, name Swedes who went to or died in ‘Greece’. The Champion takes over its heavy infantry role."
 "Elite Varangian Guard" = "Same as the Varangian Guard."
 "Hussar" = "Hungarian and Serbian light cavalry of the 15th century, a type medieval Sweden never fielded; Light Cavalry stays as its top light cavalry."
@@ -155,7 +154,7 @@ remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbo
 [architecture]
 set = "Northern European"
 change = "kept"
-basis = "The set the Viking Sagas expansion gave the Danes, Varangians and Vikings according to its official FAQ (not recorded in the repository data): its timber halls and clinker ships fit Uppland, Birka and Sigtuna; the brick Gothic of the later kingdom fits it less well (see open questions)."
+basis = "The set the Viking Sagas expansion gave the Danes, Varangians and Vikings according to its official FAQ (not recorded in the repository data): its timber halls and clinker ships fit Uppland, Birka and Sigtuna. The brick Gothic of the later kingdom (Uppsala Cathedral, consecrated 1435) fits it less well; the set is kept because it fits the larger part of the window, and the late Nordic kingdoms await an N3 set (RULES 6.16.8)."
 
 [[dropped]]
 item = "Varangian Guards attack +25% faster and generate +50% gold"
@@ -166,3 +165,8 @@ reason = "The Varangian Guard stays with the Byzantines (RULES section 4), so th
 item = "Gothikon (Varangian Guards throw axes periodically)"
 kind = "unique_tech"
 reason = "The Gothikon was a Christmas court performance by members of the circus factions dressed as ‘Goths’ (De Ceremoniis I.83), unrelated to the Varangians, and axe-throwing has no source; it also applied to the Varangian Guard, which stays Byzantine."
+
+[[dropped]]
+item = "Vendel Legacy (Knight-line deals trample damage)"
+kind = "unique_tech"
+reason = "It named a period, not a reform: the riders riding down a fallen foe on the helmet plates of Vendel and Valsgärde (from c. 550) are display art on a motif taken from Roman cavalry tombstones, not evidence of shock tactics. The Castle slot goes to a datable military moment, Engelbrekt's Rising (1434–1471), the Vendel horses stay in the Bloodlines bonus, and the trample goes to the Rus' Druzhina, the mounted retinue it renders better (the owner's decision)."
