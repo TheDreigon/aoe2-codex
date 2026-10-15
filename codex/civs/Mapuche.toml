@@ -25,10 +25,10 @@ contested = [
 ]
 open_questions = [
   "Late elements (scope): RULES section 2 allows one post-1500 element per civ, in the Imperial Age only. Almost everything that defined the game's Mapuche (cavalry, the Bolas Rider, Butalmapu, raiding gold, Lautaro's knowledge of the Spanish forts) dates from after 1541, so this design recentres the civ on its pre-Hispanic traits and keeps the cavalry only as the Kona from the Imperial Age. Keep this recentring, choose another late element (for example Lautaro's tactics at Tucapel, 1553), or exempt the Mapuche from the rule?",
-  "Label: the game's ‘Cavalry and Counter-Units’ becomes ‘Infantry and Counter-Units’, since horses arrived only after 1541 and the cavalry is now an Imperial-Age late element. Accept?",
-  "The main unique unit, the Colihue Lancer, uses the Inca Kamayuk model (also shared by the Berbers' Murabit in their design). Accept, or prefer another existing unit until N3 units exist?",
+  "Label (codex-wide question CQ19): the game's ‘Cavalry and Counter-Units’ becomes ‘Infantry and Counter-Units’, since horses arrived only after 1541 and the cavalry is now an Imperial-Age late element. Accept?",
+  "The main unique unit, the Colihue Lancer, uses the Inca Kamayuk model (also shared by the Berbers' Murabit and the Ethiopians' Chewa Spearman in their designs). Accept, or prefer another existing unit until N3 units exist?",
   "The Castle is kept for structural reasons (unique units, unique tech, Imperial Age requirement), though the Mapuche built earthwork and timber pucarás, not stone castles. Accept until an N3 pucará exists?",
-  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision, brief section 6), the first civs in the game without them. Buildings fall to the Weichafe line, Arson, Sappers and Petards, but every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. Accept the risk until an N2/N3 assault unit exists?",
+  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision), the first civs in the game without them. Buildings fall to the Weichafe line, Arson, Sappers and Petards, but every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. Accept the risk until an N2/N3 assault unit exists?",
   "Region-wide, metal arms and armour: the criterion is the name of a metal weapon or armour tier. The Imperial-Age tiers (Blast Furnace, Plate Mail Armor, Ring Archer Armor) are removed, a playability line rather than a historical one (the Lithuanians already lack Blast Furnace and Plate Mail Armor). A lower tier is renamed only where a specific, documented equivalent exists (Obsidian Blades, Flint Points, Tin Bronze elsewhere in the region); the Mapuche had no iron before contact, so Forging, Iron Casting, Scale Mail Armor and Chain Mail Armor stay as a flagged generic equipment level, and Chemistry stays for its +1 ranged attack. Remove or rename them too (one armour tier could take the name of the hide cuirasses attested from 1550), at a cost to playability?",
   "Codex-wide question CQ2 (see codex/civs/README.md): Generic post-1500 items.",
   "Codex-wide question CQ3 (see codex/civs/README.md): Crossbows.",
@@ -122,7 +122,7 @@ model = "Kamayuk"
 building = "Castle"
 level = 1
 change = "new"
-basis = "The long lance of colihue cane was the main Mapuche weapon when the Spaniards arrived: the early chroniclers describe lances of great length and squadrons of pikemen from the first battles (Vivar, 1558; Góngora Marmolejo, 1575). The weapon is older than the contact, so it originated inside the time frame (RULES section 2); only its use in dense squares against horses dates from the 1550s. The Inca Kamayuk, a spearman with long reach, is the nearest existing unit (shared with the Inca and with the Berbers' design)."
+basis = "The long lance of colihue cane was the main Mapuche weapon when the Spaniards arrived: the early chroniclers describe lances of great length and squadrons of pikemen from the first battles (Vivar, 1558; Góngora Marmolejo, 1575). The weapon is older than the contact, so it originated inside the time frame (RULES section 2); only its use in dense squares against horses dates from the 1550s. The Inca Kamayuk, a spearman with long reach, is the nearest existing unit (shared with the Inca and with the Berbers' and Ethiopians' designs)."
 relevance = "The lance was the Mapuche weapon par excellence, and lance squadrons were the backbone of their armies."
 contested = "The pre-Hispanic length of the lance and its tactics are not documented; the counter-cavalry role of the model is a game abstraction."
 
@@ -132,7 +132,7 @@ model = "Kona"
 building = "Castle"
 level = 1
 change = "changed"
-basis = "Kona were the young warriors in the service of a lonko. As riders they belong to the decades after c. 1560, when the Mapuche, having captured and then bred horses, fielded the cavalry that destroyed the Spaniards at Curalaba (1598). Late element (RULES section 2): it originated after 1500, so it is available at the Castle only from the Imperial Age (age-gated availability, as in the Italians' team bonus ‘Condottiero available at the Barracks in Imperial Age’), and it is the civ's only civ-specific post-1500 element; generic post-1500 items held by most civs, such as the Petard and the demolition ships, stay as flagged abstractions and do not count as a late element (codex-wide question CQ2)."
+basis = "Kona were the young warriors in the service of a lonko. As riders they belong to the decades after c. 1560, when the Mapuche, having captured and then bred horses, fielded the cavalry that destroyed the Spaniards at Curalaba (1598). Late element (RULES section 2): it originated after 1500, so it is available at the Castle only from the Imperial Age (age-gated availability, as in the game's Italian team bonus ‘Condottiero available at the Barracks in Imperial Age’), and it is the civ's only civ-specific post-1500 element; generic post-1500 items held by most civs, such as the Petard and the demolition ships, stay as flagged abstractions and do not count as a late element (codex-wide question CQ2)."
 relevance = "The horse changed the course of Mapuche history: mounted war won Curalaba and held the Biobío frontier for three centuries, and the Mapuche horseman is the best-known image of their resistance (clear fame)."
 contested = "Kona meant a young warrior or dependant rather than a formal elite."
 
@@ -177,7 +177,7 @@ remove = [
 ]
 
 [tree.basis]
-"Siege Workshop" = "The Mapuche built no siege engines; they took Spanish forts by assault, blockade and fire (Tucapel, 1553; the sieges of La Imperial, Villarrica and Osorno after 1599) and captured some Spanish guns (Villagra's artillery at Marihueñu, 1554) without making them a weapon of their own. Removing the workshop removes all its units; the Weichafe line (strong against buildings), Arson, Sappers and Petards replace them (owner's decision, brief section 6; RULES 6.11 and section 10). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (codex-wide question CQ2)."
+"Siege Workshop" = "The Mapuche built no siege engines; they took Spanish forts by assault, blockade and fire (Tucapel, 1553; the sieges of La Imperial, Villarrica and Osorno after 1599) and captured some Spanish guns (Villagra's artillery at Marihueñu, 1554) without making them a weapon of their own. Removing the workshop removes all its units; the Weichafe line (strong against buildings), Arson, Sappers and Petards replace them (owner's decision; RULES 6.11 and section 10). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (codex-wide question CQ2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."
@@ -198,8 +198,8 @@ remove = [
 "Siphons" = "Removed for its Byzantine name and concept (the siphon that projected Greek fire), which has no American equivalent; the Mapuche were the only American civ with it. The Fire Ship line stays as a generic abstraction for water maps."
 "Bombard Tower" = "Gunpowder towers have no Mapuche basis: arquebuses captured from the Spaniards appear at Quiapo (1558) in an unsuccessful defence, and artillery use is uncertain (tech-tree audit: stretched)."
 "Architecture" = "The Mapuche built in wood, cane and thatch (the ruka) and raised earthwork forts, not stone buildings."
-"Masonry" = "See Architecture; in the current game the Aztecs, Byzantines and Tupi also lack Masonry."
-"Stone Wall" = "Mapuche defences were earthworks, ditches and palisades; stone walls are removed (in the current game the Cumans and Goths also lack them) and Palisade Walls remain."
+"Masonry" = "See Architecture; in the current game the Aztecs, Byzantines and Tupi also lack Masonry (the Aztecs' design adds it)."
+"Stone Wall" = "Mapuche defences were earthworks, ditches and palisades; stone walls are removed (in the current game the Cumans and Goths also lack them; the Goths' design adds them) and Palisade Walls remain."
 "Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
 "Bolas Rider" = "Removed with the dropped unique unit (see [[dropped]])."
 "Elite Bolas Rider" = "Removed with the Bolas Rider."
