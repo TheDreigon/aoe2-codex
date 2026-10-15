@@ -1,0 +1,143 @@
+civ = "Bohemians"
+name = "Bohemians"
+status = "draft"
+label = "Gunpowder and Monk civilization"
+summary = "Bohemians keep their well-founded Hussite core, but the Houfnice becomes the short-range anti-personnel gun it actually was (Organ Gun profile), Wagenburg Tactics adds chained, armoured wagons, Bloodlines brings back the knightly Přemyslid and Luxembourg kingdom, and the architecture moves to the Central European set."
+ideas = [
+  "N2: A Houfnice of its own: a Castle Age Siege Workshop piece with short to medium range, a scattershot blast and bonus damage against infantry and cavalry, with no bonus against buildings.",
+  "N2: Pavéza (pavise): Arbalesters and Hand Cannoneers gain pierce armour while standing still, more next to a Hussite Wagon. The great Bohemian pavise was used and copied across Central Europe.",
+  "N2: Cepník (flailman): cheap peasant infantry from the Barracks with a bonus against cavalry, the typical Hussite weapon used from the wagons to unhorse knights.",
+  "N2: ‘Ktož jsú boží bojovníci’: an aura around Hussite Wagons or Monks that lowers enemy attack, after the Hussite war hymn and the tradition of the crusaders’ flight at Domažlice (1431).",
+  "N3: Proper art for the Houfnice (a short, wide-bored gun on a wheeled carriage) instead of the Organ Gun’s multi-barrelled model.",
+]
+contested = [
+  "The location and extent of Great Moravia: the consensus places it in southern Moravia, against the ‘Sirmium’ hypothesis (Boba, Eggers, Bowlus).",
+  "When Moravia was joined to Bohemia: in the 950s or only in 1019/1029.",
+  "The nature of Hussitism: a religious ‘first Reformation’ (Šmahel, Fudge, Kaminsky), a social revolution (Macek and Marxist historiography) or a Czech national movement (Palacký).",
+  "Whether the word ‘pistol’ comes from Czech píšťala or from the town of Pistoia.",
+  "The original meaning of houfnice: a sling or stone-thrower, or from the start a gun.",
+  "The authorship of the Military Ordinance of 1423 (Žižka as author or co-author) and how far the hymn and the fear of the wagons explain the crusaders’ flight at Domažlice (1431).",
+]
+open_questions = [
+  "Houfnice: this draft rebuilds it on the Organ Gun (Portuguese) so that it fights massed troops at short range, as the historical houfnice did, instead of being a long-range super-bombard. The Portuguese draft replaces the Organ Gun with the Ginete, so without this the model would be unused. Accept this, or keep the current Houfnice for now and leave the fix to N2?",
+  "Plate Barding Armor: the knightly Bohemia of Ottokar II and John the Blind also argues for it; only Bloodlines is added here, to keep the Hussite profile. Add Plate Barding Armor too?",
+  "Rename Wagenburg Tactics to the Czech ‘Vozová hradba’? Wagenburg is the German term used by the Hussites’ enemies and by modern scholarship.",
+  "Label: ‘Monk’ is ambivalent for a largely iconoclastic movement (the Taborites sacked many monasteries in 1419–21), although priests such as Prokop the Great led armies. Keep ‘Gunpowder and Monk’ or change to ‘Gunpowder and Infantry’?",
+]
+
+[profile]
+entity = "Kingdom of Bohemia and the Lands of the Bohemian Crown (Moravia, Silesia, Lusatia), from the Přemyslids to the Luxembourgs, the Hussite revolution and the Jagiellonians"
+region = "Bohemian basin and Moravia"
+window = "c. 870–1526 (focus: the Hussite era, 1419–1471)"
+sources = [
+  "Cosmas of Prague, Chronica Boemorum (c. 1120)",
+  "Laurence of Březová, Hussite Chronicle (1420s)",
+  "Military Ordinance of Jan Žižka (1423)",
+  "Aeneas Silvius Piccolomini, Historia Bohemica (1458)",
+  "Frederick G. Heymann, John Žižka and the Hussite Revolution (1955)",
+  "Jan Durdík, Husitské vojenství (1953)",
+  "Howard Kaminsky, A History of the Hussite Revolution (1967)",
+  "František Šmahel, Hussitská revoluce (1993)",
+  "Thomas A. Fudge, The Crusade against Heretics in Bohemia (2002)",
+  "Lisa Wolverton, Hastening toward Prague (2001)",
+]
+
+[[bonus]]
+text = "Mining Camp technologies free"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Mining Camp technologies free (Bohemians)"
+basis = "Jihlava (from c. 1240) and above all Kutná Hora (from the late 13th century) were among the richest silver mines in Europe; they paid for Ottokar II’s power and for the Prague groschen of Wenceslas II’s reform (1300). There was also gold at Jílové and Kašperské Hory."
+
+[[bonus]]
+text = "Blacksmiths and Universities cost -100 wood"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Blacksmiths and Universities cost -100 wood (Bohemians)"
+basis = "Charles IV founded the University of Prague in 1348, the first in Central Europe; Jan Hus was its rector in 1409–10. The Blacksmith half is more generic (Bohemian metalworking and armourers)."
+
+[[bonus]]
+text = "Spearman-line deals +25% bonus damage"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Spearman-line deals +25% bonus damage (Bohemians)"
+basis = "Hussite foot soldiers used long-bladed spears (sudlice), halberds, hooks and iron-shod flails from the wagons to pull down and kill horsemen. The flail was the emblematic weapon, so the Spearman-line is an approximation."
+
+[[bonus]]
+text = "Fervor and Sanctity affect Villagers"
+kind = "other"
+level = 1
+change = "kept"
+precedent = "Fervor and Sanctity affect Villagers (Bohemians)"
+basis = "Hussite piety was lay piety: Utraquism gave the chalice, until then reserved to the clergy, to every communicant (from 1414), and the Taborites organised whole communities of peasant ‘warriors of God’. Monastery upgrades applying to Villagers mirror that extension of clerical privilege to the laity."
+
+[[bonus]]
+text = "Chemistry and Hand Cannoneer available in Castle Age"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Chemistry and Hand Cannoneer available in Castle Age (Bohemians)"
+basis = "The Hussites were among the first to use hand firearms (píšťala) in large numbers, from 1420 (Sudoměř) and at Kutná Hora (1421–22), ahead of most of Europe."
+
+[team_bonus]
+text = "Markets work +80% faster"
+level = 1
+change = "kept"
+precedent = "Markets work +80% faster (Bohemians team bonus)"
+basis = "Prague was a major trading place (the Týn court or Ungelt, where foreign merchants paid their dues), and the Prague groschen circulated across Central Europe as a regional currency. A generic but not arbitrary link."
+
+[[unique_unit]]
+name = "Hussite Wagon"
+model = "Hussite Wagon"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The Hussite wagon fort (vozová hradba): reinforced wagons with boards, chained together, crewed by crossbowmen, handgunners and flailmen, behind which the infantry was safe from missiles and cavalry. Žižka’s Military Ordinance (1423) is mainly a code of discipline and march; the crews are known from later sources and reconstructions (Durdík 1953). Shared with the Magyars through their Black Army tech."
+contested = "The real wagon fort worked as a closed, static formation, not as single vehicles."
+
+[[unique_unit]]
+name = "Houfnice"
+model = "Organ Gun"
+building = "Siege Workshop"
+level = 1
+change = "changed"
+replaces = "Houfnice (upgrade of the Bombard Cannon: long-range anti-building gun that cannot attack at close range)"
+basis = "The houfnice was a short-barrelled gun that fired stones or scattershot at close range into massed infantry and charging cavalry (houf, ‘crowd’); through German Haubitze it gave English ‘howitzer’. A 1441 Hungarian letter lists houfnice and the smaller tarasnice among the guns carried on wagons. The game made it a super-bombard with long range and a minimum range, the opposite of its role; the Organ Gun profile (a gunpowder piece firing volleys at groups of units at short to medium range) is the closest existing match, trained here at the Siege Workshop like the old Houfnice. The Bombard Cannon stays as the siege gun."
+contested = "The Organ Gun model is multi-barrelled while the houfnice had one short barrel (N3: own art)."
+
+[[unique_tech]]
+name = "Wagenburg Tactics"
+age = "Castle"
+effect = "Gunpowder Units move +10% faster; Hussite Wagons +4 melee armor"
+level = 1
+change = "changed"
+replaces = "Wagenburg Tactics (Gunpowder Units move +10% faster)"
+precedent = "Wagenburg Tactics (Gunpowder Units move +10% faster) (Bohemians); Ironclad (Siege Weapons +4 melee armor) (Teutons)"
+basis = "Hussite field armies marched in parallel columns of wagons that could close into a fort quickly (the march rules of the 1423 Ordinance) and ranged far on their raids (the ‘spanilé jízdy’ of 1427–33 reached the Baltic). Once closed, the chained, boarded wagons held off cavalry and storming infantry, as at Ústí nad Labem (1426). The old effect kept only the march; the added armour gives the static fort."
+
+[[unique_tech]]
+name = "Hussite Reforms"
+age = "Imperial"
+effect = "Monks and Monastery technologies gold cost is replaced by food cost"
+level = 1
+change = "kept"
+precedent = "Hussite Reforms (Monks and Monastery technologies gold cost is replaced by food cost) (Bohemians)"
+basis = "The Four Articles of Prague (1420) demanded apostolic poverty for the clergy and the secularisation of Church property. A clergy that costs no gold is a neat translation."
+
+[tree]
+add = ["Bloodlines", "Treadmill Crane"]
+remove = ["Elite Cannon Galleon"]
+
+[tree.basis]
+"Bloodlines" = "Before the Hussites, Bohemia fielded first-rate heavy cavalry: Ottokar II won at Kressenbrunn (1260) with his armoured horse, and John the Blind died charging at Crécy (1346). The horse-breeding upgrade (held by 37 civs) restores part of that kingdom without changing the Hussite profile."
+"Treadmill Crane" = "Charles IV was a great builder: Karlštejn (from 1348), the New Town of Prague, the Charles Bridge (from 1357) and St Vitus’ cathedral under Peter Parler."
+"Elite Cannon Galleon" = "Bohemia was landlocked; the top gunpowder warship (which many maritime civs lack) has no basis. The basic Cannon Galleon stays as a generic abstraction for water maps."
+
+[architecture]
+set = "Central European"
+change = "changed"
+replaces = "Eastern European"
+basis = "Bohemia was a kingdom and electorate of the Empire, and Prague was the imperial residence under Charles IV; its Gothic was the Gothic of Peter Parler (from Swabia), and its mining and royal towns were largely founded under German law, with German-speaking burghers. Its building traditions belong with the German lands rather than with the Rus’ or the Balkans."

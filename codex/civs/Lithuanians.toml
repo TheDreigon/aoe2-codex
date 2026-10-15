@@ -1,0 +1,139 @@
+civ = "Lithuanians"
+name = "Lithuanians"
+status = "draft"
+label = "Cavalry and Skirmisher civilization"
+summary = "Lithuanians recentred on the pagan Grand Duchy and its expansion (c. 1236–1500): the relic and monastery bonuses of a ‘Monk civilization’ and the 17th-century Winged Hussar give way to javelin light cavalry (Sulica Rider), raiding, resistance to conversion, salted game, timber forts and Vytautas’ Lipka Tatars, while Hill Forts and the Leitis stay."
+ideas = [
+  "N2: Krikštas (the conversion of 1387): before the tech the civ uses pagan priests without the Christian Monastery techs; after it, the Monastery techs unlock. Needs new mechanics.",
+  "N2: A javelin cavalry unit of its own that can also fight hand to hand and dismount, instead of borrowing the Genitour (which cannot attack at close range).",
+  "N2: Ruthenian boyars: after Algirdas the Orthodox Ruthenian nobility supplied much of the Grand Duchy’s heavy cavalry; the Boyar could be shared through a tech.",
+  "N3: A pagan priest unit (vaidila) and sacred-grove or sacred-fire buildings; the Baltic religion (Perkūnas, the sacred fire of Vilnius) has no representation.",
+  "N3: Own art for the Sulica Rider (Lithuanian light horseman with shield and javelins) instead of the Berber Genitour model.",
+]
+contested = [
+  "Who commanded at Saule (1236): Vykintas and the Samogitians or Mindaugas.",
+  "Whether Mindaugas apostatised c. 1261.",
+  "The Lithuanian withdrawal at Grunwald (1410): a feigned retreat (supported, among others, by a document identified by Sven Ekdahl) or a real flight (Długosz).",
+  "The depth of the conversion of 1387 (Rowell, Baronas) and the pace of the Polonisation of the nobility.",
+  "The etymology of Lietuva from the leičiai (Dubonis, Karaliūnas) or from the river name Lietava.",
+  "Whether a pavise-type shield developed on the Baltic–Rus’–Polish frontier before the Bohemian pavise.",
+]
+open_questions = [
+  "Label: ‘Cavalry and Monk’ is dropped because the core of the civ is the last pagan state of Europe (baptism 1387, Samogitia 1413–17). Is ‘Cavalry and Skirmisher’ acceptable?",
+  "Sulica Rider: shares the Berber Genitour (also proposed as the Portuguese Ginete). Train it at the Archery Range, as here, or at the Castle as a classic unique unit?",
+  "The conversion-resistance bonus (moved from the Teutons’ team bonus) reads the last pagans’ long refusal of baptism as resistance to enemy Monks: an abstraction that some may find too playful. Keep it?",
+  "Leitis: kept, but the leičiai are known from 1407 as grand-ducal servitors with guard, military and horse-breeding duties; nothing proves they were elite heavy cavalry, and ignoring armour is invented. Keep, rename, or rebuild on another model?",
+  "Tower Shields is replaced by Lipka Tatars (Cuman Mercenaries renamed, identical effect). The freed pavise theme could go to the Bohemians in N2 (Pavéza). Agree?",
+]
+
+[profile]
+entity = "Grand Duchy of Lithuania (pagan until 1387, Samogitia until 1413–17)"
+region = "Baltic lands of the Neris and the Neman, expanding over the Ruthenian lands of the upper Dnieper"
+window = "c. 1236–1500 (peak 1316–1430, from Gediminas to Vytautas)"
+sources = [
+  "Peter of Dusburg, Chronicon terrae Prussiae (1326)",
+  "Livonian Rhymed Chronicle (late 13th century)",
+  "Galician-Volhynian Chronicle (Hypatian Codex)",
+  "Letters of Gediminas (1323)",
+  "Wigand of Marburg, Chronica nova Prutenica (late 14th century)",
+  "Jan Długosz, Annales seu cronicae incliti Regni Poloniae (15th century)",
+  "S. C. Rowell, Lithuania Ascending: A Pagan Empire within East-Central Europe, 1295–1345 (1994)",
+  "Zigmantas Kiaupa, Jūratė Kiaupienė and Albinas Kuncevičius, The History of Lithuania Before 1795 (2000)",
+  "Artūras Dubonis, Lietuvos didžiojo kunigaikščio leičiai (1998)",
+  "Darius Baronas and S. C. Rowell, The Conversion of Lithuania (2015)",
+  "Eric Christiansen, The Northern Crusades (2nd ed. 1997)",
+]
+
+[[bonus]]
+text = "Meat of hunted and livestock animals doesn't decay"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Each Town Center provides +100 food"
+precedent = "Meat of hunted and livestock animals doesn't decay (Jurchens)"
+basis = "A forest economy in which hunting fed armies: in December 1409 Jogaila and Vytautas spent eight days hunting in the Białowieża forest to provision the coming campaign, and the game was salted and sent in barrels down the Narew and the Vistula (Długosz). The +100 food per Town Center it replaces had no identifiable historical basis."
+contested = "The barrels and the route are known from Długosz and later chroniclers, not from accounts of the time."
+
+[[bonus]]
+text = "Spearman-line and Skirmisher-line move +10% faster"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Spearman-line and Skirmisher-line move +10% faster (Lithuanians)"
+basis = "War in the forests and marshes of the wilderness (Wildnis) between Prussia and Lithuania: Lithuanian warriors rode small horses and often dismounted to fight in woods where heavy knights were at a disadvantage (Šmidtas, Lietuvos istorijos studijos, 2019)."
+
+[[bonus]]
+text = "Loot 25% of the resource cost of each destroyed building"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Each garrisoned Relic provides +1 attack to Knight-line and Leitis (maximum +4)"
+precedent = "Loot 25% of the resource cost of each destroyed building (Danes)"
+basis = "Raiding was an economy: Lithuanian raids into Prussia, Livonia, Masovia and the Rus’ brought back captives, cattle and plunder and left burned villages behind, as the Order’s chroniclers describe (Peter of Dusburg, Wigand of Marburg); the Order’s own ‘Reisen’ into Lithuania were the mirror image. The relic bonus it replaces inverted the history of a state whose rulers stayed pagan until 1387."
+
+[[bonus]]
+text = "Units more resistant to conversion"
+kind = "other"
+level = 1
+change = "new"
+precedent = "Units more resistant to conversion (Teutons team bonus)"
+basis = "Lithuania was the last pagan state of Europe: Mindaugas’ baptism (1251) did not last, Gediminas invited friars in his letters of 1323 but was never baptised, and the dynasty withstood more than a century of crusade and mission until Jogaila’s baptism (1386) and the conversion of 1387; Samogitia followed only in 1413–17 (Rowell 1994; Baronas and Rowell 2015). In game terms, the enemy’s Monks find these warriors hard to win over."
+contested = "An abstraction: the game’s conversion is a change of allegiance, while the real resistance was the political refusal of baptism by a pagan elite."
+
+[team_bonus]
+text = "Palisade Walls +33% HP"
+level = 1
+change = "new"
+replaces = "Monasteries work +20% faster"
+precedent = "Palisade Walls +33% HP (Cumans team bonus)"
+basis = "The Lithuanian defence rested on timber-and-earth forts on hills (piliakalniai, hundreds of which survive) and along the Neman: Pilėnai (1336) held out against the Order until its defenders burned it themselves. Monasteries mattered only after 1387, or in the Orthodox Ruthenian lands, so the replaced team bonus did not fit the core of the civ."
+
+[[unique_unit]]
+name = "Leitis"
+model = "Leitis"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "The leičiai existed: first named in 1407, they were servitors of the grand duke settled on his estates, with guard, military and horse-breeding duties (Dubonis 1998). One of the most learned details of the original design."
+contested = "There is no evidence that they were elite heavy cavalry, and the armour-ignoring attack is invented."
+
+[[unique_unit]]
+name = "Sulica Rider"
+model = "Genitour"
+building = "Archery Range"
+level = 1
+change = "new"
+replaces = "Winged Hussar (Cavalry)"
+basis = "The core of Lithuanian armies were light horsemen with shield, spear and javelins (sulica in Polish and Ruthenian sources), who raided fast and fought on horseback or on foot (Šmidtas 2019; Peter of Dusburg). The Genitour, a javelin-throwing light horseman, is the closest existing unit. It replaces the Winged Hussar, a heavy lancer of the late 16th and 17th centuries (Kircholm, 1605, under the Lithuanian hetman Chodkiewicz) that the game used as a light raider."
+contested = "The Genitour cannot attack at close range, whereas Lithuanian riders also fought hand to hand (see ideas)."
+
+[[unique_tech]]
+name = "Hill Forts"
+age = "Castle"
+effect = "Town Centers +3 range"
+level = 1
+change = "kept"
+precedent = "Hill Forts (Town Centers +3 range) (Lithuanians)"
+basis = "Lithuania has hundreds of hill forts (piliakalniai), such as Kernavė, Gediminas’ Hill in Vilnius and Merkinė, and the wooden castles on hills were central to the defence against the Orders. The mechanic is abstract, the theme exact."
+
+[[unique_tech]]
+name = "Lipka Tatars"
+age = "Imperial"
+effect = "All team members can train 5 free Elite Kipchaks per Castle"
+level = 1
+change = "new"
+replaces = "Tower Shields (Spearman-line and Skirmishers +2 pierce armor)"
+precedent = "Cuman Mercenaries (All team members can train 5 free Elite Kipchaks per Castle) (Cumans): an existing unique tech, shared and renamed with an identical effect"
+basis = "After his campaigns against the Golden Horde (1397–98) Vytautas settled Tatar captives and the followers of the exiled khan Tokhtamysh around Vilnius and Trakai, the origin of the Lipka Tatars, and a Tatar contingent under Jalal ad-Din fought on the Polish-Lithuanian side at Grunwald (1410). The Golden Horde Tatars were largely Kipchak-speaking horse archers, so the Kipchak is a good fit; ‘all team members’ reflects the allied army at Grunwald. Tower Shields is dropped: the pavise is above all Bohemian and Italian, and Lithuanian infantry was secondary."
+
+[tree]
+add = []
+remove = ["Elite Cannon Galleon"]
+
+[tree.basis]
+"Elite Cannon Galleon" = "The Grand Duchy had almost no sea coast (only the strip at Palanga, secured in 1422) and no naval tradition; the top gunpowder warship has no basis. The basic Cannon Galleon stays as a generic abstraction for water maps."
+
+[architecture]
+set = "Eastern European"
+change = "kept"
+basis = "After the mid-14th century most of the Grand Duchy’s people were Orthodox Ruthenians, Vilnius had Orthodox churches beside the Catholic ones, and building was largely in timber; the Eastern European set fits better than a Latin one."

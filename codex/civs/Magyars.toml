@@ -1,0 +1,135 @@
+civ = "Magyars"
+name = "Magyars"
+status = "draft"
+label = "Cavalry civilization"
+summary = "Magyars now cover both the horsemen of the Conquest and the late-medieval kingdom (895–1526): the Huszar costs no gold natively, Kremnica gold replaces the wolf bonus, the post-1241 castle-building replaces free melee upgrades, a two-effect Black Army tech (pavise armour for infantry and gunners, Hussite Wagons) replaces Corvinian Army, Recurve Bow moves to the Castle Age, and the tree gains Hand Cannoneer, Bombard Cannon, Keep and Fortified Wall."
+ideas = [
+  "N2: Végvár (border fortress): Castles and towers cost less stone, gain HP and heal garrisoned units, for the 15th-century belt of frontier fortresses from Belgrade to Jajce.",
+  "N2: Székely frontier guards: cheap Cavalry Archers from towers and Castles with extra line of sight, after the Székelys and Pechenegs who guarded the borders and formed the archer vanguard of Árpád-age armies (e.g. on the Fischa, 1146, in Otto of Freising).",
+  "N2: Militia Portalis as its own tech (the noble levy of one archer per twenty peasant plots, 1397), if the native gold-free Huszar is later moved back into a tech.",
+  "N2: A feigned-retreat mechanic for mounted archers, the signature tactic of the Conquest-era raids described in Leo VI’s Tactica.",
+]
+contested = [
+  "Hungarian ethnogenesis: the Finno-Ugric linguistic origin is agreed, but the homeland, the chronology and the mixing with Turkic groups are debated (genetic studies of 2018–2020 show the Conquest-era elite had mixed ancestry).",
+  "The location and chronology of Magna Hungaria, Levedia and Etelköz.",
+  "The etymology of huszár (Serbian gusar/husar, from Latin cursarius, or Hungarian húsz, ‘twenty’) and the date of the first mention (1403 or 1432).",
+  "The phrase ‘De sagittis Hungarorum libera nos, Domine’ is not attested; the real formula of the Modena hymn is different.",
+  "How far the Mongol invasion of 1241–42 caused the wave of stone castles (Fügedi and his critics).",
+  "The real share of gunners in Matthias’ army, the scale of wagon-fort tactics in Hungary, and the name ‘Black Army’, attested only after 1490.",
+  "The origin of John Hunyadi (Vlach according to most sources, or Hungarian).",
+]
+open_questions = [
+  "Hussar redundancy: the Magyars keep both the generic Hussar (the word itself is Hungarian huszár) and the Magyar Huszar unique unit. Keep both, or remove the generic Hussar so that the Huszar is the Magyars’ only hussar?",
+  "Recurve Bow moves from the Imperial to the Castle Age (identical effect) so that the Black Army can take the Imperial slot; chronologically the Conquest era comes first, but Castle Age mounted archers gain +1 range earlier. Accept?",
+  "Black Army: this draft follows the owner’s outline (pavise armour for infantry and gunners plus access to the Hussite Wagon). The core of Matthias’ army was cavalry and recent work argues that wagon forts played only a secondary, defensive role in Hungary, so an alternative second effect would favour the heavy cavalry instead of the wagon. The ‘c. 3,000 carts at Šabac (1476)’ in the brief could not be verified in this environment. Which version?",
+  "Bombard Cannon is added besides the Hand Cannoneer the owner asked for, for Matthias’ siege train (Jajce 1463, Šabac 1476, Vienna 1485). Accept?",
+  "Melee attack upgrades free is dropped (weakly linked to the Conquest-era sabre) and replaced by faster fortification building. Combined with the native gold-free Huszar, is the power budget acceptable?",
+  "Architecture: the Magyars keep the Eastern European set. The Latin kingdom of Esztergom, Székesfehérvár and Buda built in Romanesque and Gothic styles close to its western neighbours; the Central European set would fit the kingdom better, less so the Conquest era. Change it?",
+]
+
+[profile]
+entity = "The Hungarians: the Conquest-era tribal confederation (895–970) and the Kingdom of Hungary of the Árpáds, Angevins, Sigismund, the Hunyadis and Matthias Corvinus"
+region = "Carpathian Basin"
+window = "895–1526"
+sources = [
+  "Leo VI, Tactica (c. 900)",
+  "Constantine VII Porphyrogenitus, De Administrando Imperio (c. 950)",
+  "Liudprand of Cremona, Antapodosis (c. 960)",
+  "Anonymus, Gesta Hungarorum (c. 1200)",
+  "Master Roger, Carmen miserabile (1244)",
+  "Antonio Bonfini, Rerum Ungaricarum decades (1490s)",
+  "Erik Fügedi, Castle and Society in Medieval Hungary (1986)",
+  "András Róna-Tas, Hungarians and Europe in the Early Middle Ages (1999)",
+  "Pál Engel, The Realm of St Stephen (2001)",
+  "Nora Berend, At the Gate of Christendom (2001)",
+  "Charles R. Bowlus, The Battle of Lechfeld and Its Aftermath (2006)",
+]
+
+[[bonus]]
+text = "Magyar Huszar gold cost is replaced by additional food cost"
+kind = "military"
+level = 1
+change = "new"
+replaces = "Corvinian Army (unique tech): Magyar Huszar gold cost is replaced by additional food cost"
+precedent = "Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost) (Magyars); Forced Levy (Militia-line gold cost is replaced by additional food cost) (Malay)"
+basis = "Owner’s decision: the 15th-century hussars were cheap, irregular light horsemen, many of Serbian (Rascian) origin, serving on the southern frontier. They were raised in numbers partly through the noble levy (militia portalis), which from 1397 obliged landowners to equip one archer for every twenty peasant plots, a system Matthias kept (Engel 2001). The old Corvinian Army tech only removed a gold cost the game itself had added, so the cheap Huszar is now native."
+contested = "Hungarian historiography links Matthias’ portal levies specifically to hussars through a decree usually dated c. 1481; the first mention of hussars (1403 or 1432) is debated."
+
+[[bonus]]
+text = "Scout Cavalry-line costs -15%"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Scout Cavalry-line costs -15% (Magyars)"
+basis = "Abundant horses on the Pannonian plain and a numerous, cheap light cavalry from the Conquest to the hussars of the 15th century."
+
+[[bonus]]
+text = "Gold Miners work +20% faster"
+kind = "economic"
+level = 1
+change = "new"
+replaces = "Villagers defeat wolves with one strike"
+precedent = "Gold miners work +25% faster (Turks); Stone miners work +20% faster (Koreans)"
+basis = "Hungary was Europe’s largest gold producer in the 14th century: Charles I made the mines of Kremnica (Körmöcbánya) and the other mining towns a royal concern, struck the Hungarian gold florin from 1325–26 and set up the Kremnica mint (Engel 2001). The wolf bonus it replaces was pure game flavour with no historical basis."
+
+[[bonus]]
+text = "Fortifications built +50% faster"
+kind = "other"
+level = 1
+change = "new"
+replaces = "Melee attack upgrades free"
+precedent = "Fortifications built +50% faster; Town Centers built +100% faster (Sicilians)"
+basis = "After the Mongol invasion of 1241–42 Béla IV pressed nobles, prelates and towns to build stone castles, and dozens rose within a generation (Fügedi 1986); in the 15th century the kingdom held a belt of frontier fortresses against the Ottomans (Belgrade, held in 1456; Jajce, taken in 1463; Šabac, taken in 1476). The free melee upgrades it replaces rested only on a weak link to the Conquest-era sabre."
+contested = "How far 1241 caused the castle-building wave is debated."
+
+[team_bonus]
+text = "Mounted Archers train +25% faster"
+level = 1
+change = "kept"
+precedent = "Mounted Archers train +25% faster (Magyars team bonus)"
+basis = "The mounted-archery tradition of the Conquest-era Magyars and of the kingdom’s Székely, Pecheneg and Cuman auxiliaries, who often served alongside allied armies."
+
+[[unique_unit]]
+name = "Magyar Huszar"
+model = "Magyar Huszar"
+building = "Castle"
+level = 1
+change = "kept"
+basis = "Hussars appear in documents from southern Hungary in the first half of the 15th century: light cavalry, probably of Serbian origin, organised on a large scale under Matthias Corvinus, whose name the generic Hussar of the game also takes."
+contested = "A 15th-century troop as a Castle Age unit is early, and ‘Strong vs. Siege Weapons’ has no particular basis."
+
+[[unique_tech]]
+name = "Recurve Bow"
+age = "Castle"
+effect = "Mounted Archers +1 attack, +1 range"
+level = 1
+change = "changed"
+replaces = "Recurve Bow (Imperial Age unique tech, same effect)"
+precedent = "Recurve Bow (Mounted Archers +1 attack, +1 range) (Magyars)"
+basis = "Reflex composite bows with bone stiffeners are found in 10th-century Conquest-period graves, and Leo VI’s Tactica (c. 900) describes the Hungarians fighting as mounted archers; their raids reached Saxony, Italy and Spain until Lechfeld (955) and Byzantium until Arcadiopolis (970). Same effect, moved to the Castle Age because the Conquest era precedes the kingdom and frees the Imperial slot for the Black Army."
+
+[[unique_tech]]
+name = "Black Army"
+age = "Imperial"
+effect = "Infantry and Gunpowder Units +2 pierce armor; Hussite Wagons can be built at Castles"
+level = 1
+change = "new"
+replaces = "Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost)"
+precedent = "Tower Shields (Spearman-line and Skirmishers +2 pierce armor) (Lithuanians); Gunpowder Units +1 melee/+1 pierce armor (Hindustanis); Marauders (Tarkans can be trained at Stables) (Huns); Condottiero available at the Barracks in Imperial Age (Italians team bonus)"
+basis = "Matthias Corvinus’ standing mercenary army (c. 1462–1490) combined heavy and light cavalry with heavy infantry carrying great pavises, behind which handgunners (traditionally a quarter of the infantry) and crossbowmen shot, resting their guns on the pavises. Many of its men were Czech, Moravian, Silesian, Polish and German, among them the Hussite-trained brotherhoods of Jan Jiskra, who submitted in 1462; survivors of Kostoľany (1467) also entered royal pay. Hungarian armies had used wagon forts since Hunyadi (Varna 1444, Kosovo 1448), mostly as defensive field camps, and a letter of 1441 already lists guns carried on such wagons. Effect 1 gives the pavise, effect 2 the wagon; the Hussite Wagon stays Bohemian as well."
+contested = "The name ‘Black Army’ is attested only after Matthias’ death (1490); the share of gunners is a much-repeated estimate; recent scholarship holds that Hungary adopted the Hussite wagons but not the full Hussite tactical system."
+
+[tree]
+add = ["Hand Cannoneer", "Bombard Cannon", "Keep", "Fortified Wall"]
+remove = []
+
+[tree.basis]
+"Hand Cannoneer" = "Owner’s decision. Matthias’ army had one of the highest shares of handgunners in Europe, Czech mercenaries had brought Hussite firearms to Hungary since the 1440s, and Hunyadi’s wagons carried guns; a kingdom without hand firearms was the most serious gap in the regional trees."
+"Bombard Cannon" = "Matthias kept a large artillery train and won by siege at Jajce (1463), Šabac (1476), Vienna (1485) and Wiener Neustadt (1487); the Magyars had no gunpowder siege weapon at all."
+"Keep" = "After 1241 stone castles multiplied across the kingdom, and in the 15th century it maintained a line of frontier fortresses; the Keep (held by 37 civs) was missing from one of the most castle-rich kingdoms of the frontier."
+"Fortified Wall" = "Same basis: the castle and town walls of the post-1241 kingdom and the great frontier fortresses such as Belgrade (Nándorfehérvár), which withstood Mehmed II in 1456."
+
+[architecture]
+set = "Eastern European"
+change = "kept"
+basis = "Kept for now; the set suits the Conquest era and the eastern borderlands, while the Latin kingdom might fit the Central European set better (see open questions)."

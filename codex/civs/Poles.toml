@@ -1,0 +1,132 @@
+civ = "Poles"
+name = "Poles"
+status = "draft"
+label = "Cavalry civilization"
+summary = "Poles moved back into the medieval kingdom (966–1500): the 17th-century Winged Hussar and the Obuch give way to the Kopijnik, the armoured lancer of the knightly banners, Lechitic Legacy to the noble levy (Pospolite Ruszenie), villager regeneration to Casimir the Great’s fortification programme, and the tree gains Plate Barding Armor, Hand Cannoneer and the c. 1500 Hussar."
+ideas = [
+  "N2: Chorągiew (banner): a tech giving the Knight-line extra armour when several knights fight together, to make the banner explicit for generic knights as well as for the Kopijnik.",
+  "N2: Tabor: Town Centers or Castles deploy a temporary wagon laager that protects units from missiles, after the Polish use of Czech mercenaries with wagons and guns in the Thirteen Years’ War (Świecino, 1462) and the later Polish tabor against the Tatars.",
+  "N2: If the time frame is ever extended to c. 1600, the Winged Hussar returns as what it was: an expensive Imperial Age heavy lancer with a strong first charge (kopia), not a Light Cavalry replacement.",
+  "N3: Own art for the Kopijnik (Polish knight with lance and banner) instead of the Georgian Monaspa model.",
+]
+contested = [
+  "Whether the Slavs of the Polish lands were newcomers in the 6th century (Godłowski) or autochthonous (Kostrzewski and the Poznań school).",
+  "Whether the Polanie existed as a tribe before Mieszko I (Urbańczyk).",
+  "The impact of the Black Death on Poland (lower mortality is supported by pollen data, Izdebski et al. 2022; Guzowski) and Casimir III’s supposed quarantine, for which there is no contemporary evidence.",
+  "The causes and chronology of the ‘second serfdom’ behind the folwark economy (Małowist, Topolski and later critics).",
+  "Jadwiga’s personal role in the Union of Krewo (1385) and the meaning of her coronation as ‘rex’.",
+]
+open_questions = [
+  "Kopijnik: the Polish unique unit is rebuilt on the Georgian Monaspa (heavy cavalry that grows stronger next to other heavy cavalry), the closest existing match for knights fighting in banners. Accept sharing the Monaspa, or prefer keeping the Obuch as the unique unit for now?",
+  "The Obuch is dropped: the obuch or nadziak was a nobleman’s war hammer, often used on horseback and mostly in the 16th–17th centuries, never an infantry troop type. Keep it anyway as a second unique unit (e.g. dismounted knights with war hammers)?",
+  "The generic Hussar is added because Polish pay registers record hussar banners of Rascian (Serbian) light horse from c. 1500–1503, at the very end of the time frame. Accept, or leave the Poles with Light Cavalry as their top light cavalry?",
+  "Architecture: the Poles keep the Eastern European set. Kraków, Gniezno and the brick Gothic of the towns and castles were Latin and close to the German lands; the Central European set would fit better, at the cost of visual distinctness from the Teutons and Bohemians. Change it?",
+  "Pospolite Ruszenie copies the First Crusade spawn effect with the Kopijnik and a smaller number (3 per Town Center instead of 5). Accept the magnitude?",
+]
+
+[profile]
+entity = "Kingdom of Poland under the Piasts and the Jagiellonians (Crown of the Kingdom of Poland)"
+region = "Vistula and Oder basins: Greater and Lesser Poland, Masovia, Kuyavia and, after 1466, Royal Prussia"
+window = "966–1500 (focus: the reunited kingdom, 1320–1500)"
+sources = [
+  "Gallus Anonymus, Gesta principum Polonorum (c. 1115)",
+  "Vincent Kadłubek, Chronica Polonorum (c. 1200)",
+  "Jan Długosz, Annales seu cronicae incliti Regni Poloniae (15th century)",
+  "Paul W. Knoll, The Rise of the Polish Monarchy (1972)",
+  "Norman Davies, God’s Playground (1981)",
+  "Sven Ekdahl, Die Schlacht bei Tannenberg 1410 (1982)",
+  "Andrzej Nadolski, Grunwald 1410 (1990)",
+  "Przemysław Urbańczyk, Mieszko Pierwszy Tajemniczy (2012)",
+]
+
+[[bonus]]
+text = "Folwark replaces Mill"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Folwark replaces Mill (Poles)"
+basis = "The folwark (from German Vorwerk) was the lord’s demesne farm worked with peasant labour services, attested from the 13th–14th centuries and spreading in the 15th with grain exports through Gdańsk (statute of Piotrków 1496; statute of Toruń 1520 fixed a minimum of one day of labour service a week). Collecting part of the food of the nearby farms translates it well."
+contested = "The dominant folwark economy is mainly a post-1450 reality, at the end of the time frame."
+
+[[bonus]]
+text = "Stone Miners generate gold in addition to stone"
+kind = "economic"
+level = 1
+change = "kept"
+precedent = "Stone Miners generate gold in addition to stone (Poles)"
+basis = "A good abstraction of the rock-salt mines of Wieliczka and Bochnia (the żupy krakowskie), a royal monopoly regulated by Casimir III’s ordinance of 1368; salt is traditionally estimated to have brought in about a third of the crown’s revenue in his reign. The silver and lead of Olkusz add to it."
+
+[[bonus]]
+text = "Bloodlines and Scout Cavalry-line upgrades cost -50% food"
+kind = "military"
+level = 1
+change = "kept"
+precedent = "Bloodlines and Scout Cavalry-line upgrades cost -50% food (Poles)"
+basis = "Horse breeding and the weight of light cavalry in the wars against Lithuanians, Tatars and the Order; registers of the royal court banner at the end of the 15th century already list light horsemen equipped ‘in the Rascian or Tatar manner’ beside the armoured lancers."
+
+[[bonus]]
+text = "Fortifications cost -15% stone"
+kind = "other"
+level = 1
+change = "new"
+replaces = "Villagers regenerate 10/15/20 HP in Feudal/Castle/Imperial Age"
+precedent = "Buildings cost -15% stone (Incas)"
+basis = "Casimir III the Great (1333–1370) built or fortified dozens of royal castles and town walls; Długosz’s tradition says he ‘found Poland made of wood and left it made of brick’ (Knoll 1972). The villager regeneration it replaces had no direct historical basis: it stretched the hypothesis of a lower Black Death mortality in Poland."
+
+[team_bonus]
+text = "Universities work +80% faster"
+level = 1
+change = "new"
+replaces = "Scout Cavalry-line +1 attack vs. Ranged Soldiers"
+precedent = "Universities work +80% faster (Malians team bonus)"
+basis = "Casimir III founded the University of Kraków in 1364 and it was refounded in 1400 with Queen Jadwiga’s bequest; by the late 15th century it was a leading centre of astronomy and mathematics (Copernicus studied there in 1491–95) and drew many students from Silesia, Hungary and the German lands. The replaced team bonus had only a vague link to light cavalry fighting Tatar horse archers."
+
+[[unique_unit]]
+name = "Kopijnik"
+model = "Monaspa"
+building = "Castle"
+level = 1
+change = "new"
+replaces = "Obuch (Infantry)"
+basis = "Late-medieval Polish cavalry fought in banners (chorągwie) made up of ‘lances’ (kopie): an armoured knight with his retainers. The kopijnik was the fully armoured lancer of the lance; registers of the royal court banner at the end of the 15th century distinguish him from the lighter ‘shooters’ and light horse, and Jan Ostroróg wrote that a kopijnik should have full armour. At Grunwald (1410) Długosz lists about fifty Polish banners. The Monaspa profile (heavy cavalry that grows stronger next to other heavy cavalry) translates banner fighting."
+contested = "The Obuch it replaces was a nobleman’s war hammer (16th–17th centuries above all), not an infantry type."
+
+[[unique_tech]]
+name = "Szlachta Privileges"
+age = "Castle"
+effect = "Knight-line costs -60% gold"
+level = 1
+change = "kept"
+precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles)"
+basis = "The privileges of Košice (1374), Nieszawa (1454) and Nihil novi (1505) traded tax exemptions and political power for military service: in the levy, nobles served on horseback at their own expense. Cheaper knights are a reasonable translation."
+
+[[unique_tech]]
+name = "Pospolite Ruszenie"
+age = "Imperial"
+effect = "Up to 5 Town Centers spawn 3 Kopijniks each"
+level = 1
+change = "new"
+replaces = "Lechitic Legacy (Scout Cavalry-line deals trample damage)"
+precedent = "First Crusade (Up to 5 Town Centers spawn 5 Serjeants each; units more resistant to conversion) (Sicilians)"
+basis = "The pospolite ruszenie was the general levy of the landed nobility, who had to turn out mounted and at their own cost when the king summoned them, the counterpart of their privileges; it was mustered for Grunwald (1410) and for the Thirteen Years’ War, where the levy’s defeat at Chojnice (1454) led to the statutes of Nieszawa. Lechitic Legacy is dropped: Kadłubek already called the Poles ‘Lechitae’, but nothing links that name to trampling light cavalry."
+
+[tree]
+add = ["Plate Barding Armor", "Hand Cannoneer", "Hussar", "Architecture", "Two-Man Saw"]
+remove = []
+
+[tree.basis]
+"Plate Barding Armor" = "Western-style armoured knights (Zawisza the Black of Garbów) formed the core of the Polish army at Grunwald. For a cavalry civilization, lacking the last cavalry armour upgrade (held by 36 civs) was the most significant gap in the tree, while the Lithuanians had it."
+"Hand Cannoneer" = "Firearms are recorded in Poland from the 1380s; under Władysław Jagiełło the army adopted Hussite-style infantry, and in the Thirteen Years’ War Poland hired Czech mercenaries with handguns and wagons (Świecino, 1462). The Poles already had the Bombard Cannon."
+"Hussar" = "Hussar banners of Rascian (Serbian) light horse appear in Polish pay from c. 1500–1503; they stay light cavalry until the reign of Stephen Báthory (1576–86). Added to replace the light cavalry upgrade the Winged Hussar used to provide."
+"Architecture" = "Casimir III’s building programme and the brick Gothic of Kraków, Toruń and Gdańsk, the last two under the Polish crown from 1454 (confirmed in 1466)."
+"Two-Man Saw" = "The Vistula carried timber, pitch, potash and wainscot from the Polish and Lithuanian forests to Gdańsk for export to the West; lacking the last wood-cutting upgrade was ironic."
+
+[architecture]
+set = "Eastern European"
+change = "kept"
+basis = "Kept for now as the shared set of the Poles and their eastern neighbours; see the open question on the Central European set."
+
+[[dropped]]
+item = "Winged Hussar"
+kind = "unique_unit"
+reason = "Anachronistic and of the wrong type. The winged hussars are a cavalry of the late 16th and 17th centuries (Kircholm 1605, Kłuszyn 1610, Vienna 1683), and they were heavy shock lancers, while the game uses them as a light scouting and raiding upgrade of the Light Cavalry. The early Polish hussars of c. 1500 are represented by the generic Hussar added to the tree."
