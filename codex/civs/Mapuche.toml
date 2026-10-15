@@ -2,20 +2,21 @@ civ = "Mapuche"
 name = "Mapuche"
 status = "draft"
 label = "Infantry and Counter-Units civilization"
-summary = "The Mapuche (Reche) of south-central Chile (1100–1598), recentred on their pre-Hispanic world as the late-element rule requires (RULES section 2): foraging, lof levies, tough infantry and raised fields stay; colihue lancers (on the Kamayuk model) become the main unique unit, the war leader (Toqui, the Caciques tech renamed) and the assemblies (Koyagtun) the unique techs, dispersed homesteads, machi healers and allied rewe replace the anecdotal and unfounded bonuses, and the cavalry of the Arauco War survives only as the Kona in the Imperial Age, the civ's one late element; the Bolas Rider, Malon, Butalmapu and raiding gold are dropped, and siege engines, crossbows, the Imperial iron tiers, the Halberdier, gunpowder towers, stone building and the ocean navy are removed."
+summary = "The Mapuche (Reche) of south-central Chile (1100–1598), recentred on their pre-Hispanic world as the late-element rule requires (RULES section 2): foraging, lof levies, tough infantry and raised fields stay; colihue lancers (on the Kamayuk model) become the main unique unit, the war leader (Toqui, the Caciques tech renamed) and the assemblies (Koyagtun) the unique techs, dispersed homesteads, machi healers and alliances of neighbouring peoples replace the anecdotal and unfounded bonuses, and the cavalry of the Arauco War survives only as the Kona in the Imperial Age, the civ's one civ-specific late element; the Bolas Rider, Malon, Butalmapu and raiding gold are dropped, and siege engines, crossbows, the Imperial iron tiers, the Halberdier, gunpowder towers, stone building, Siphons and the European sailing ships are removed."
 ideas = [
   "N3: Infantry unique units of their own (a colihue pikeman, a bola and lasso thrower on foot) instead of the shared Kamayuk model.",
   "N3: A pucará (earth-and-timber fort) replacing the Castle until the Imperial Age and training the Colihue Lancer and the Spearman-line (analysis proposal).",
   "N2: Pucarás with staked pits that slow enemy cavalry (Peteroa 1556, Quiapo 1558).",
   "N2: Horse capture: each enemy mounted unit killed lowers the cost of the next Kona (the first Mapuche horses were captured from the Spaniards).",
-  "N3: Herds of hueque (the chilihueque camelid), used for wool, in ritual and as bride wealth, as livestock or a pack animal.",
+  "N3: Herds of hueque (the chilihueque camelid), used for wool, in ritual and as bride wealth, as livestock or a pack animal; their pack use is uncertain, which is why the Mule Cart is not given (see open questions).",
   "N3: Re-theme the Monk as the machi, and add the kuel ceremonial mounds of Purén–Lumaco as a monument.",
   "N3: Parliaments with the Crown (the koyagtun of Quilín, 1641) as a diplomatic mechanic.",
   "N2: The Arauco War content that the late-element rule leaves out (Lautaro's relieving squadrons at Tucapel, 1553; the futalmapu alliances; mounted raiding for cattle and horses), as an alternative late element if the owner prefers it to the Kona.",
+  "N3: Assault mechanics (firing palisades and thatch, scaling parties instead of the Petard) as the American alternative to siege engines (RULES section 10); the Mapuche took Spanish forts by assault and fire from Tucapel (1553) on.",
 ]
 contested = [
   "Ethnogenesis and ethnonym: a shift from ‘reche’ to ‘mapuche’ under colonial pressure (Boccara) or long continuity (Bengoa, Dillehay); whether the El Vergel complex (c. 1100–1450) leads continuously to the Reche of the 16th century is part of the same debate.",
-  "The real extent of Inca rule south of the Maipo and the historicity, date and outcome of the battle of the Maule (known mainly from Garcilaso; Osvaldo Silva dates it much later and doubts it was decisive).",
+  "The real extent of Inca rule south of the Maipo and the historicity, date and outcome of the battle of the Maule, known mainly from Garcilaso, who names the Purumaucas (Promaucaes), Antalli, Pincu and Cauqui as the Inca's opponents; Silva (1983) doubts that it halted the Inca advance.",
   "Pre-Hispanic Mapuche warfare and institutions (the toqui, the assemblies, the ayllarewe, the long lance) are known almost only from sources written after 1541; their pre-Hispanic form is inferred.",
   "Whether bolas were used in Chile in the 16th century at all (Latcham 1929; Rex González 1953, who held that the Araucanians, later constant bola users on the pampas, did not know them in Chile at the conquest); the mounted bola belongs to the pampas and their later araucanisation.",
   "The periodisation of the Arauco War: open war c. 1550–1656, then a frontier of trade and parliaments until the occupation of Araucanía (1861–1883).",
@@ -27,9 +28,10 @@ open_questions = [
   "Label: the game's ‘Cavalry and Counter-Units’ becomes ‘Infantry and Counter-Units’, since horses arrived only after 1541 and the cavalry is now an Imperial-Age late element. Accept?",
   "The main unique unit, the Colihue Lancer, uses the Inca Kamayuk model (also shared by the Berbers' Murabit in their design). Accept, or prefer another existing unit until N3 units exist?",
   "The Castle is kept for structural reasons (unique units, unique tech, Imperial Age requirement), though the Mapuche built earthwork and timber pucarás, not stone castles. Accept until an N3 pucará exists?",
-  "Generic names: Wheelbarrow, Hand Cart, Crop Rotation, Trade Cart, Treadmill Crane, Coinage and Banking keep their generic names. Rename or keep them as accepted abstractions?",
-  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision, brief section 6), the first civs in the game without them. Buildings fall to the Weichafe line, Arson, Sappers and Petards, but every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. The Petard is itself a 16th-century gunpowder charge (Cahors, 1580), a post-1500 element held by all 56 civs (RULES section 2); it is kept unrenamed as the abstraction of assault parties with fire, so as not to hide the anachronism (RULES 6.10). Accept the risk until an N2/N3 assault unit exists?",
-  "Region-wide, iron: only the Imperial-Age iron tiers (Blast Furnace, Plate Mail Armor, Ring Archer Armor) are removed, a playability line rather than a historical one (the Lithuanians already lack Blast Furnace and Plate Mail Armor). Forging, Iron Casting, Scale Mail Armor and Chain Mail Armor stay as a generic equipment level, although the Mapuche had no iron before contact, and Chemistry stays for its +1 ranged attack. Remove or rename them too, at a cost to playability?",
+  "Mule Cart (brief section 6): not given. The Mapuche already deposit at Settlements, which replace the Mill, Lumber Camp and Mining Camp, and whether the hueque (the chilihueque camelid) served as a pack animal is uncertain (see ideas). Agree, or give the Mule Cart beside the Settlements?",
+  "Renames beyond the agreed list: Horse Collar → Raised Fields, the Champi line → Weichafe and Kamayuk → Colihue Lancer (identical effects; a real equivalent or a Mapudungun name). Approve them? Wheelbarrow, Hand Cart, Heavy Plow (no plough before contact; ploughing with hueque is reported only from 1615), Crop Rotation, the Trade Cart, Treadmill Crane, Coinage, Banking, Clinker Construction and Carvel Hull (named European hull techniques; the Mapuche had dugouts) keep their generic names, and Hoardings, Murder Holes and Arrowslits stay as generic abstractions of fortification. Rename them, remove Heavy Plow (Crop Rotation, which requires it, would go too, leaving a single farm upgrade), or keep them as accepted abstractions?",
+  "Region-wide, siege: the Siege Workshop with all its units, the Trebuchet and Siege Engineers are removed from all six American civs (owner's decision, brief section 6), the first civs in the game without them. Buildings fall to the Weichafe line, Arson, Sappers and Petards, but every Castle must be taken by units standing in its arrow fire, so castle-breaking will be slow. The Petard is itself a 16th-century gunpowder charge (Cahors, 1580), and the Demolition Raft and Demolition Ship are explosive fireships of a kind first used at Antwerp in 1585: post-1500 elements held by most civs (RULES section 2), kept unrenamed as abstractions of assault parties with fire and of fireships, so as not to hide the anachronism (RULES 6.10). Accept the risk until an N2/N3 assault unit exists?",
+  "Region-wide, metal arms and armour: the criterion is the name of a metal weapon or armour tier. The Imperial-Age tiers (Blast Furnace, Plate Mail Armor, Ring Archer Armor) are removed, a playability line rather than a historical one (the Lithuanians already lack Blast Furnace and Plate Mail Armor). A lower tier is renamed only where a specific, documented equivalent exists (Obsidian Blades, Flint Points, Tin Bronze elsewhere in the region); the Mapuche had no iron before contact, so Forging, Iron Casting, Scale Mail Armor and Chain Mail Armor stay as a flagged generic equipment level, and Chemistry stays for its +1 ranged attack. Remove or rename them too (one armour tier could take the name of the hide cuirasses attested from 1550), at a cost to playability?",
   "Region-wide, crossbows: the Crossbowman is removed from all six American civs (the Mapuche never had the Arbalester), since the crossbow was unknown there; Archers, Slingers and Skirmishers cover the role. Accept, or keep the crossbow tiers as a flagged abstraction until the N2 bow line?",
 ]
 
@@ -45,6 +47,7 @@ sources = [
   "Inca Garcilaso de la Vega, Comentarios Reales (1609)",
   "Diego de Rosales, Historia general del Reino de Chile (c. 1674)",
   "Francisco Núñez de Pineda y Bascuñán, Cautiverio feliz (1673)",
+  "Osvaldo Silva Galdames, ‘¿Detuvo la batalla del Maule la expansión inca hacia el sur de Chile?’, Cuadernos de Historia 3 (1983)",
   "José Bengoa, Historia del pueblo mapuche (1985); Historia de los antiguos mapuches del sur (2003)",
   "Guillaume Boccara, Guerre et ethnogenèse mapuche dans le Chili colonial (1998)",
   "Tom D. Dillehay, Monuments, Empires, and Resistance (2007)",
@@ -58,8 +61,8 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Foragers drop off +25% food (Mapuche)"
-basis = "Gathering was a large part of a mixed economy: araucaria pine nuts (piñones), above all among the Pehuenche, wild fruits and shellfish on the coast, alongside the cultivation of potato, maize, quinoa, beans and madi."
-relevance = "Gathering, above all the araucaria nuts of the Pehuenche and the shellfish of the coast, was a pillar of the pre-Hispanic Mapuche economy beside horticulture."
+basis = "Gathering was a large part of a mixed economy: araucaria pine nuts (piñones) from the forests of the Nahuelbuta range and the Andes, wild fruits, and shellfish on the coast, alongside the cultivation of potato, maize, quinoa, beans and madi (Bengoa 2003; Dillehay 2007)."
+relevance = "Gathering, of araucaria nuts in the forests and of shellfish on the coast, was a pillar of the pre-Hispanic Mapuche economy beside horticulture."
 
 [[bonus]]
 text = "Settlements can train Spearman-line and Skirmishers"
@@ -68,7 +71,7 @@ level = 1
 change = "kept"
 precedent = "Settlements can train Spearman-line and Skirmishers (Mapuche)"
 basis = "Mobilisation was decentralised: each lof or rewe sent its own warriors (weichafe) under its lonko, with no standing army or barracks (Bengoa; Boccara)."
-relevance = "Each lof raised and led its own warriors: the absence of a standing army or a centre was the core of Mapuche military organisation."
+relevance = "Every lof raised its own warriors under its lonko: the community was the unit of Mapuche mobilisation."
 
 [[bonus]]
 text = "Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age"
@@ -78,6 +81,7 @@ change = "kept"
 precedent = "Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age (Mapuche)"
 basis = "The chroniclers and Ercilla stress the endurance of Mapuche warriors, who also fought in cuirasses and helmets of hardened hide (Vivar; Góngora Marmolejo)."
 relevance = "Endurance and hide armour are the traits every chronicler of Mapuche warfare stresses."
+contested = "Hide armour is attested from 1550 (Vivar) and in Góngora Marmolejo (1575); whether it predates contact is not known, so endurance carries the pre-Hispanic side of the bonus."
 
 [[bonus]]
 text = "Settlements cost -33%"
@@ -87,7 +91,7 @@ change = "new"
 replaces = "Enemy Castles are revealed on the map"
 precedent = "Settlements cost -33% and heal nearby units (Muisca), the cost half"
 basis = "The Mapuche lived in dispersed homesteads of kin groups (lof) under their lonko, without towns, capitals or permanent rulers, so there was no centre whose capture could end a war, and they could not be conquered by ‘decapitation’ as the Inca and Aztec states were (Bengoa 2003; Boccara 1998). Cheap, dispersed Settlements render this landscape. The bonus it replaces rested on one man's knowledge (Lautaro had served Valdivia as a groom) and on events after 1541 (Curalaba, 1598): an anecdote (RULES 6.9) and a late element (RULES section 2)."
-relevance = "Decentralisation is the main reason the Mapuche were never conquered by the Inca and resisted the Spanish conquest."
+relevance = "Dispersed homesteads left no centre to conquer; decentralisation is a leading explanation of the Mapuche's resistance to the Inca and to the Spanish conquest (Silva 1983; Bengoa 2003)."
 
 [[bonus]]
 text = "Monks heal +100% faster"
@@ -95,7 +99,7 @@ kind = "other"
 level = 1
 change = "new"
 precedent = "Monks heal +100% faster (Byzantines team bonus)"
-basis = "The machi, shamans who were often women, healed the sick with plants and with the machitun ceremony and officiated at rites around the rewe, the carved ceremonial post of the community; colonial writers describe them (Rosales; Núñez de Pineda, 1673), and the institution lives on (Bacigalupo 2007). Healing monks render the machi as healers."
+basis = "The machi, men and women, healed the sick with plants and with the machitun ceremony and officiated at the rewe, the machi's carved, stepped altar-post; colonial writers describe many male machi, some of them cross-gendered (weye), and the predominance of women is modern (Rosales; Núñez de Pineda, 1673; Bacigalupo 2007). Healing monks render the machi as healers."
 relevance = "The machi is the central religious figure of Mapuche society, as healer and officiant, from the first sources to the present."
 contested = "Most descriptions of the machi are from the 17th century onwards; the pre-Hispanic institution is inferred."
 
@@ -105,9 +109,9 @@ level = 1
 change = "new"
 replaces = "Spearman-line and Skirmishers +2 line of sight"
 precedent = "Mounted Archers train +25% faster (Magyars team bonus); Camel and Elephant Units train +25% faster (Gurjaras team bonus)"
-basis = "Lof and rewe were grouped in larger alliances (ayllarewe, ‘nine rewe’) whose communities sent warriors to each other's wars under a common toqui, and neighbouring peoples fought together, as the peoples on and south of the Maule did against the Inca armies (Garcilaso; Bengoa 2003). RULES 6.2: alliances; faster training of the levy troops renders the warriors that allies sent. The line-of-sight bonus it replaces had no specific basis (rated unfounded)."
-relevance = "Alliance between autonomous communities was the only way the Mapuche fielded large armies, against the Inca as against the Spaniards."
-contested = "The ayllarewe are documented from the late 16th and the 17th centuries (Rosales); their pre-Hispanic form is inferred, and the Maule battle itself is contested."
+basis = "Neighbouring peoples fought together against the Inca armies: by Garcilaso's account (book VII), the Purumaucas (Promaucaes) and their southern neighbours, the Antalli, Pincu and Cauqui, met the Inca on the Maule in a hard-fought battle that halted the Inca advance. These were Mapudungun-speaking peoples between the Cachapoal and the Itata, north of the Reche core, and the battle is contested (Silva 1983). Alliance stayed the Mapuche way of fielding large armies: later sources describe the ayllarewe (‘nine rewe’, groups of lof sharing a ritual centre) sending warriors to each other's wars under a common toqui (Rosales; Bengoa 2003). RULES 6.2: alliances; faster training of the levy troops renders the warriors that allies sent. The line-of-sight bonus it replaces had no specific basis (rated unfounded)."
+relevance = "Alliance between autonomous peoples and communities was the only way the Mapuche world fielded large armies; whether the Reche themselves fought the Inca is uncertain, but alliance carried their resistance to the Spaniards."
+contested = "The pre-Hispanic basis of any Mapuche team bonus is weak: the Maule battle is known mainly from Garcilaso (1609), and its date, scale and outcome are doubted (Silva 1983); Reche participation is not attested; the ayllarewe are documented from the late 16th and the 17th centuries (Rosales), their earlier form being inferred."
 
 [[unique_unit]]
 name = "Colihue Lancer"
@@ -125,7 +129,7 @@ model = "Kona"
 building = "Castle"
 level = 1
 change = "changed"
-basis = "Kona were the young warriors in the service of a lonko. As riders they belong to the decades after c. 1560, when the Mapuche, having captured and then bred horses, fielded the cavalry that destroyed the Spaniards at Curalaba (1598). Late element (RULES section 2): it originated after 1500, so it is available at the Castle only from the Imperial Age (age-gated availability, as in the Italians' team bonus ‘Condottiero available at the Barracks in Imperial Age’), and it is the civ's only post-1500 element."
+basis = "Kona were the young warriors in the service of a lonko. As riders they belong to the decades after c. 1560, when the Mapuche, having captured and then bred horses, fielded the cavalry that destroyed the Spaniards at Curalaba (1598). Late element (RULES section 2): it originated after 1500, so it is available at the Castle only from the Imperial Age (age-gated availability, as in the Italians' team bonus ‘Condottiero available at the Barracks in Imperial Age’), and it is the civ's only civ-specific post-1500 element; generic post-1500 items held by most civs, such as the Petard and the demolition ships, are a region-wide question (see open questions)."
 relevance = "The horse changed the course of Mapuche history: mounted war won Curalaba and held the Biobío frontier for three centuries, and the Mapuche horseman is the best-known image of their resistance (clear fame)."
 contested = "Kona meant a young warrior or dependant rather than a formal elite."
 
@@ -139,7 +143,7 @@ level = 1
 change = "new"
 replaces = "Malon"
 precedent = "Caciques (Tupi: Champi Warriors and Slingers attack +25% faster): an existing unique tech, shared and renamed with an identical effect, since the Champi Warriors are the Mapuche Weichafe"
-basis = "In war the Mapuche chose a war leader, the toqui, named after the polished stone axe (toki) that was his insignia, who led the warriors of the allied lof for the length of a campaign; Lautaro and Caupolicán held the office. Clubs and slings were among the weapons of the weichafe. A chief's tech on club fighters and slingers fits the office better than the rules audit's alternative, the Vikings' Chieftains, whose anti-cavalry effect would rest on tactics from after 1541 (RULES section 2). Malon is dropped: the word belongs mostly to the later mounted raids of the pampas, and its effect (pass-through damage) had no link to it (rated stretched)."
+basis = "In war the Mapuche chose a war leader, the toqui, named after the polished stone axe (toki) that was his insignia, who led the warriors of the allied lof for the length of a campaign; Lautaro and Caupolicán held the office (Rosales; Bengoa 2003). Clubs and slings were among the weapons of the weichafe. The effect abstracts the toqui's command of the raiding levies of clubmen and slingers; the Colihue Lancers are left out because the tech keeps the existing Caciques effect unchanged, which keeps it at level 1, and the lancers have their own unit role. Malon is dropped: the word belongs mostly to the later mounted raids of the pampas, and its effect (pass-through damage) had no link to it (rated stretched)."
 relevance = "The elected war leader was the Mapuche's only authority above the lof and the institution through which they waged every great war."
 contested = "The toqui is documented from post-1541 sources; its pre-Hispanic form is inferred from the stone axes and from the chroniclers' accounts."
 
@@ -153,7 +157,7 @@ level = 2
 change = "new"
 precedent = "Camel Riders, Skirmishers and Spearman-line cost -25% (Byzantines), narrowed and at -20%. No existing unique tech renders the council of a people without a state."
 basis = "War and peace were decided in assemblies (koyag, koyagtun) of lonkos and warriors, which also chose the toqui; the communities then took the field at their own cost, with their own weapons and food, since there was no state to pay or arm them (Bengoa 2003; Boccara 1998). Cheaper levy troops render this. The same word later named the parliaments with the Spanish Crown (Quilín, 1641). For a people without a state the Town Center tech represents a community institution (RULES 6.3); its basis is thin, since the assemblies are known from post-1541 sources."
-relevance = "Decision by assembly, instead of rule by chiefs, kept Mapuche society without a centre that could be conquered."
+relevance = "The assemblies decided war and peace, chose the toqui and raised the self-financed levies; the same institution later made the parliaments that fixed the Biobío frontier with the Spaniards."
 contested = "The pre-Hispanic form of the assemblies is inferred from 16th- and 17th-century descriptions."
 
 [tree]
@@ -164,14 +168,13 @@ remove = [
   "Crossbowman",
   "Blast Furnace", "Plate Mail Armor", "Ring Archer Armor",
   "Halberdier",
-  "Galleon", "Carrack", "Catapult Galleon", "Siphons", "Carvel Hull",
+  "Galleon", "Carrack", "Catapult Galleon", "Siphons",
   "Bombard Tower", "Architecture", "Masonry", "Stone Wall", "Gate",
-  "Heavy Plow",
   "Bolas Rider", "Elite Bolas Rider",
 ]
 
 [tree.basis]
-"Siege Workshop" = "The Mapuche built no siege engines; they took Spanish forts by assault, blockade and fire (Tucapel, 1553; the sieges of La Imperial, Villarrica and Osorno after 1599) and captured some Spanish guns (Villagra's artillery at Marihueñu, 1554) without making them a weapon of their own. Removing the workshop removes all its units; the Weichafe line (strong against buildings), Arson and Sappers, and Petards replace them (owner's decision, brief section 6; RULES 6.11 and section 10). The Petard is a 16th-century gunpowder charge, kept unrenamed as the abstraction of assault parties with fire so as not to hide the anachronism (see open questions)."
+"Siege Workshop" = "The Mapuche built no siege engines; they took Spanish forts by assault, blockade and fire (Tucapel, 1553; the sieges of La Imperial, Villarrica and Osorno after 1599) and captured some Spanish guns (Villagra's artillery at Marihueñu, 1554) without making them a weapon of their own. Removing the workshop removes all its units; the Weichafe line (strong against buildings), Arson, Sappers and Petards replace them (owner's decision, brief section 6; RULES 6.11 and section 10). The Petard is a 16th-century gunpowder charge, kept unrenamed as the abstraction of assault parties with fire so as not to hide the anachronism (see open questions)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."
@@ -182,21 +185,19 @@ remove = [
 "Trebuchet" = "Counterweight artillery never existed in the Americas."
 "Siege Engineers" = "No siege engines are left to improve."
 "Crossbowman" = "The crossbow was unknown in the Americas, and nothing suggests the Mapuche adopted captured ones; their missile weapons were bows, slings and, in some accounts, bolas. Archers, Slingers and Skirmishers cover the role. In the current game the Bulgarians also lack crossbows."
-"Blast Furnace" = "There was no iron before contact; afterwards the Mapuche obtained it by capture and trade and worked it, but never smelted it. Removed with the other Imperial-Age iron tiers, a playability line rather than a historical one; the lower Blacksmith tiers stay as a generic equipment level (see open questions)."
-"Plate Mail Armor" = "There was no plate armour; Mapuche warriors wore hardened hide, represented by the HP bonus. Removed with the Imperial-Age iron tiers; Scale Mail and Chain Mail Armor stay as a generic equipment level."
-"Ring Archer Armor" = "Removed with the other Imperial-Age iron tiers, a playability line rather than a historical one (see Blast Furnace)."
-"Halberdier" = "Removed as for the other American civs: the halberd is a European polearm, and the Mapuche pike squares against the Spanish horse date from the 1550s (a late element, RULES section 2). The long lance itself is now the Colihue Lancer; Spearman and Pikeman remain."
-"Galleon" = "Ocean-going sailing warships were unknown; Mapuche boats were dugout canoes (wampu) and, further south, sewn-plank dalcas."
+"Blast Furnace" = "There was no iron before contact; afterwards the Mapuche obtained it by capture and trade and worked it, but never smelted it. Removed with the other Imperial-Age tiers of metal arms and armour, a playability line rather than a historical one; the lower Blacksmith tiers stay as a generic equipment level (see open questions)."
+"Plate Mail Armor" = "There was no plate armour; Mapuche warriors wore hardened hide, represented by the HP bonus. Removed with the Imperial-Age tiers of metal arms and armour; Scale Mail and Chain Mail Armor stay as a generic equipment level."
+"Ring Archer Armor" = "Removed with the other Imperial-Age tiers of metal arms and armour, a playability line rather than a historical one (see Blast Furnace)."
+"Halberdier" = "The halberd is a European polearm, and the region removes it from every American civ that had it (Maya, Inca, Mapuche, Tupi), keeping Spearman and Pikeman; the long lance itself is the Colihue Lancer."
+"Galleon" = "Ocean-going sailing warships were unknown; Mapuche boats were dugout canoes (wampu) and, further south, sewn-plank dalcas. Region-wide navy policy: the high-seas sailing ships (Galleon, Carrack) and the siege ship are removed, while the Galley, Fire Ship, Demolition and Hulk lines and the generic Dock techs stay as an abstraction for water maps; the demolition ships are flagged as post-1500 with the Petard (see open questions)."
 "Carrack" = "See Galleon."
 "Catapult Galleon" = "A sailing ship carrying a catapult: both a European ship type and a siege engine."
-"Siphons" = "Removed for its Byzantine name (the fire siphon) and with the Imperial-Age navy cut; the Fire Ship line stays as a generic abstraction for water maps. The Mapuche were the only American civ with this tech."
-"Carvel Hull" = "Removed with the Imperial-Age navy cut: flush planking on a frame is a European technique. Clinker Construction stays as the generic lower tier; the Mapuche had dugout canoes, and the sewn-plank dalca belongs to Chiloé and the Chono."
+"Siphons" = "Removed for its Byzantine name and concept (the siphon that projected Greek fire), which has no American equivalent; the Mapuche were the only American civ with it. The Fire Ship line stays as a generic abstraction for water maps."
 "Bombard Tower" = "Gunpowder towers have no Mapuche basis: arquebuses captured from the Spaniards appear at Quiapo (1558) in an unsuccessful defence, and artillery use is uncertain (tech-tree audit: stretched)."
 "Architecture" = "The Mapuche built in wood, cane and thatch (the ruka) and raised earthwork forts, not stone buildings."
 "Masonry" = "See Architecture; in the current game the Aztecs, Byzantines and Tupi also lack Masonry."
 "Stone Wall" = "Mapuche defences were earthworks, ditches and palisades; stone walls are removed (in the current game the Cumans and Goths also lack them) and Palisade Walls remain."
 "Gate" = "Removed with the Stone Wall; the Palisade Gate remains."
-"Heavy Plow" = "There was no plough before contact: ploughing with hueque is reported from Spilbergen's expedition at Mocha Island in 1615, as retold by Molina, after contact. With no equivalent for the function the tech is removed; Raised Fields keep the Mapuche's own farming technique."
 "Bolas Rider" = "Removed with the dropped unique unit (see [[dropped]])."
 "Elite Bolas Rider" = "Removed with the Bolas Rider."
 
@@ -240,7 +241,7 @@ basis = "Elite tier of the renamed unit."
 from = "Horse Collar"
 to = "Raised Fields"
 level = 1
-basis = "There were no draft animals. Raised cultivation platforms in the wetlands of the Purén and Lumaco valleys, in use at least from AD 1000 to 1500 (Dillehay et al. 2007) and dated at the sites PU-165 and LU-69 to about 1220–1420 by later botanical studies of Dillehay's team, belong to the same landscape as the kuel ceremonial mounds. Same rename as for the Maya and the Muisca."
+basis = "There were no draft animals. Raised cultivation platforms in the wetlands of the Purén and Lumaco valleys, in use at least from AD 1000 to 1500 (Dillehay et al. 2007) and dated at the sites PU-165 and LU-69 to about 1220–1420 by later botanical studies of Dillehay's team, belong to the same landscape as the kuel ceremonial mounds. Same rename as for the Maya and the Muisca. Heavy Plow (there was no plough before contact: ploughing with hueque is reported from Spilbergen's expedition at Mocha Island in 1615, as retold by Molina) and Crop Rotation keep their generic names as flagged abstractions (see open questions)."
 
 [architecture]
 set = "South American"
@@ -261,4 +262,4 @@ reason = "A late element (RULES section 2) beyond the one allowed (the Kona): mo
 [[dropped]]
 item = "Butalmapu"
 kind = "unique_tech"
-reason = "The futalmapu (‘great lands’), the regional alliances that dealt with the Crown in parliaments, are documented mainly in the 17th–18th centuries and may be partly a product of the colonial relationship (Boccara): a late element beyond the one allowed (RULES section 2), whose effect also named the dropped Bolas Rider. The alliance theme passes to the team bonus (ayllarewe)."
+reason = "The futalmapu (‘great lands’), the regional alliances that dealt with the Crown in parliaments, are documented mainly in the 17th–18th centuries and may be partly a product of the colonial relationship (Boccara): a late element beyond the one allowed (RULES section 2), whose effect also named the dropped Bolas Rider. The alliance theme passes to the team bonus (alliances of neighbouring peoples and communities)."
