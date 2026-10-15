@@ -1,6 +1,6 @@
 # aoe2-codex rules
 
-Version 0.3.1, 15 October 2026. This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
+Version 0.4.1, 15 October 2026. This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
 
 - **[decided]**: agreed; changes only after a new discussion.
 - **[in principle]**: accepted, but the details are still open.
@@ -10,12 +10,15 @@ Version 0.3.1, 15 October 2026. This document is the project's constitution: eve
 
 Show, on a site similar to aoe2techtree.net, a version of Age of Empires II in which every civilization has bonuses, units, technologies, a tech tree and a history text that are more faithful to history. The site also shows the original and explains every change, with sources.
 
+For every civ the site also shows the time window it represents and, for renamed civs, the original name. **[decided]**
+
 This is a non-commercial fan project. We are not trying to convince the developers; we do it for fun and for other history and AoE2 fans.
 
 ## 2. Scope
 
 - Age of Empires II: Definitive Edition base game only. Age of Empires I, Return of Rome and Chronicles are out. **[decided]**
 - Reference time frame: **500–1500**. A civ may touch the edges, but most of its existence, or the peak the game represents, must fall inside it. **[decided]**
+- **Late elements.** An element that originated inside the time frame is fine even if its fame came later (the Turtle Ship is first recorded in 1413). An element that originated after 1500 is allowed only in the Imperial Age, at most one per civ, and only if it passes the relevance test with clear fame (the Tanegashima arquebus, 1543). **[decided]**
 
 ## 3. What a civ is
 
@@ -36,18 +39,23 @@ The five tests:
 | Current civ | Decision | Level | Status |
 |---|---|---|---|
 | Shu, Wei, Wu | Move to the **"Out of scope"** section, with the original design and an explanation. Their documented elements (Traction Trebuchet, Tuntian, river navy) go to the Chinese civs. | — | [decided] |
-| Romans | "Out of scope": earlier than the time frame; the medieval Romans are the Byzantines. | — | [in principle] |
-| Huns | Replaced by the **Avars** (567–796), where the Tarkan and the trebuchet bonus make sense. | N1 | [in principle] |
-| Vikings | Renamed **Norse**: "viking" was an activity, and the Danes and Varangians already exist. | N1 | [decided] |
-| Slavs | Renamed **Rus'**. | N1 | [in principle] |
-| Celts | Reworked as **Gaels** (Ireland and Scotland). | N1 | [in principle] |
-| Dravidians | Renamed to a concrete people or state (Tamils or Cholas, to be decided). | N1 | [in principle] |
-| Tatars | Separate the Golden Horde from Timur, who devastated it in 1391 and 1395. | N1 | [in principle] |
+| Romans | "Out of scope": earlier than the time frame; the medieval Romans are the Byzantines. | — | [decided] |
+| Huns | Replaced by the **Avars** (567–796), where the Tarkan and the trebuchet bonus make sense. | N1 | [decided] |
+| Vikings | Renamed **Norwegians**: the Norwegian kingdom and its North Atlantic realm (the Faroes; Orkney and Shetland until 1468–69; the Hebrides and Man until 1266; Greenland from 1261; Iceland from 1262–64), with the earlier Icelandic Commonwealth as part of the same West Norse world. "Viking" was an activity; "Norse" would read as the umbrella for all Scandinavians next to the Danes and Swedes. | N1 | [decided] |
+| Danes | Kept, extended beyond 1042 to the medieval kingdom (the Valdemars, the Kalmar Union). | N1 | [decided] |
+| Varangians | Renamed **Swedes**. "Varangian" (Greek *Varangoi*, Old East Slavic *varyagi*, from Old Norse *væringi*, "sworn man") is what Greeks, Rus' and Arabs called Scandinavians abroad, first recorded in the 11th century, never a people's or state's own name. The Swedes cover c. 500–1500: Vendel-period Uppland; the eastern ventures (Grobiņa, Salme, Birka, Gotland silver, Ingvar); the kingdom (Stockholm 1252, the Alsnö statute 1279/80, Falun 1288); and resistance to the Kalmar Union (Engelbrekt 1434, Brunkeberg 1471). The Varangian Guard stays with the Byzantines. | N1 | [decided] |
+| Slavs | Renamed **Rus'**, from the late 9th century (Oleg in Kiev, traditionally 882) to c. 1500. The founding elite was largely Scandinavian (in 839 the *Rhos* were identified as Swedes), but the Rus' were from the start a distinct people and state ruling a mostly Slavic and Finnic population; Slavic names enter the dynasty by c. 945, and Christianity becomes official in 988. Scandinavians who stayed Scandinavian (traders, raiders, mercenaries) belong to the Swedes. How far the Scandinavian elite shaped the early state is contested (the "Normanist" debate). | N1 | [decided] |
+| Celts | Reworked as **Gaels** (Gaelic Ireland and Scotland). | N1 | [decided] |
+| Dravidians | Renamed **Tamils** (Pallavas, Cholas, Pandyas). The Deccan polities (Chalukyas, Rashtrakutas, Hoysalas, Vijayanagara) could become a separate civ later. | N1 | [decided] |
+| Tatars | Centred on the Golden Horde, separated from Timur, who devastated it in 1391 and 1395. | N1 | [decided] |
+| Spanish | Renamed **Castilians**: the current design is essentially Castile, and "Spain" was a dynastic union only from 1479. | N1 | [decided] |
+| Teutons | Renamed **Germans**, the standard scholarly name, consistent with Swedes, Danes and Castilians. In English, "Teutons" names the ancient tribe defeated in 102 BC or suggests the Teutonic Order; the medieval Latin *Teutonici* was a learned substitute for *theodiscus*/*deutsch* and is translated "Germans". "Holy Roman Empire" is anachronistic for most of the period (the full name dates from 1254) and would overlap the Bohemians, Italians, Sicilians and Burgundians. The site shows the original name next to the new one. | N1 | [decided] |
 | Armenians | Centred on **Greater Armenia** (Ani, Vaspurakan, *nakharar* cavalry). Cilicia leaves the core identity. | N1 | [decided] |
-| Goths | Kept as the Visigothic (418–711) and Ostrogothic kingdoms. | N1 | [in principle] |
-| Burgundians | Borderline case (the Valois state lasted four generations), but Burgundy passes. Kept. | N1 | [in principle] |
-| Chinese | Split into **Tang, Song and Ming**. | N3 | [proposal] |
-| (new) | **Tibetans**: top-priority new civ (Tibetan Empire c. 618–842 and the monastic period). | N3 | [decided] |
+| Goths | Kept as the Visigothic (418–711) and Ostrogothic kingdoms. | N1 | [decided] |
+| Burgundians | Borderline case (the Valois state lasted four generations), but Burgundy passes. Kept. | N1 | [decided] |
+| Chinese | Split into **Tang, Song and Ming**. Historically justified; when to do it is the owner's call. | N3 | [in principle] |
+| (new) | **Aragonese**: the Crown of Aragon (1137–1516), with the Almogàvers, Roger de Lauria's galleys and the *Consolat de Mar*. | N3 | [decided] |
+| (new) | **Tibetans**: top-priority new civ. One civ covering the Tibetan Empire (c. 618–842) and the monastic period up to c. 1500: military techs from the imperial era, civil and religious techs from the monastic era. | N3 | [decided] |
 
 Splitting civs for the sake of accuracy is allowed. **[decided]**
 
@@ -202,3 +210,8 @@ set = "Mediterranean"
 - A Dark Age that is less of a "hunting simulator": war bands and raids. Reconsider the name "Dark Age".
 - Using Houses as walls is a gameplay exploit; fixing it requires engine changes (N3).
 - A "Steppe" architecture set (N3).
+
+## 11. Who decides
+
+- **Historical questions** (what is true, how strong the evidence is, which reading of a contested point the design follows) are settled by Claude, the project's research assistant. Claude cites sources, flags contested points and runs an adversarial check on major calls. **[decided]**
+- **Design, scope, priorities and taste** are settled by the project owner, TheDreigon, who can overrule any decision, historical ones included. **[decided]**
