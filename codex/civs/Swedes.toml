@@ -22,7 +22,7 @@ contested = [
 open_questions = [
   "Unit name: the Jarl keeps its name for its fame and because the Rígsþula makes Jarl the ancestor of the warrior nobility; in medieval Sweden, though, jarl was one office of state (Birger Jarl). Rename it after the mounted frälse (for example ‘Frälseman’)?",
   "Vendel Legacy is kept for the mounted elite of the formative age of the Svear kingship, but it names a period, not a reform, and its trample is inferred from display art. The alternative is a datable military moment at the Castle, for example an Imperial Age tech for the peasant armies of Engelbrekt and the Stures (1434–1471), with the armed-villager passive re-based on the weapon laws (folkvapen) alone and the Vendel horses left to Bloodlines. Keep Vendel Legacy?",
-  "Power budget: the Swedes lose the Varangian Guard and its bonus, Gothikon, the shepherd and fishing gold, the Hussar, the mounted crossbow line, Siphons, Incendiaries and the Catapult Galleon, and gain Champion, Arbalester, Keep, Gold Shaft Mining, Sanctity, Alsnö Stadga and the armed-villager passive; the late economy rests on trade and on the gold the statute saves on knights. The tree has no gunpowder: guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania) and stood in the castles of the Union wars, so a late gunpowder item would not contradict the history, but no specific Swedish case could be checked for this design, while the Danes' guns rest on cases at and after 1500 (Hemmingstedt, Gribshunden, Bogesund). Acceptable as it is, or add the Bombard Cannon (or the Hand Cannoneer) in the Imperial Age?",
+  "Power budget: the Swedes lose the Varangian Guard and its bonus, Gothikon, the shepherd and fishing gold, the Hussar, the mounted crossbow line, Siphons, Incendiaries and the Catapult Galleon, and gain Champion, Arbalester, Keep, Gold Shaft Mining, Sanctity, Alsnö Stadga and the armed-villager passive; the late economy rests on trade and on the gold the statute saves on knights. The tree has no gunpowder: guns reached Scandinavia in the 14th century (the Loshult gun, found in Scania) and stood in the castles of the Union wars, so a late gunpowder item would not contradict the history, but no specific Swedish case could be checked, while the Danes' guns rest on specific cases of 1495–1520 (Gribshunden, Hemmingstedt, Bogesund). Acceptable as it is, or add the Bombard Cannon (or the Hand Cannoneer) in the Imperial Age?",
   "Architecture: as for the Danes, the Northern European set renders the timber halls of the Viking age, while the late kingdom built in brick Gothic (Uppsala Cathedral, consecrated 1435). Keep the set, reassign Central European (N1), or wait for an N3 set?",
 ]
 
@@ -54,7 +54,7 @@ level = 1
 change = "changed"
 replaces = "Shepherding, fishing, and hunting also generate gold"
 precedent = "Shepherding, fishing, and hunting also generate gold (Varangians): the hunting part only"
-basis = "Jordanes (Getica 21, 551) already knew the Suehans as the people who sent dark furs to the Romans through many other peoples. In the Viking Age furs from the northern forests, hunted or taken from Finnic and Sami neighbours, bought the Islamic silver of the eastern trade (Ibn Khordadbeh; Ibn Fadlan), whose dirhams fill the hoards of the Mälaren region and Gotland (Spillings, c. 870s, some 14,000 coins). Slaves, the other staple of that trade, are not represented. Shepherding passes to the Castilians (the Mesta) and fishing to the Norwegians (stockfish)."
+basis = "Jordanes (Getica 21, 551) already knew the Suehans as the people who sent dark furs to the Romans through many other peoples. In the Viking Age furs from the northern forests, hunted or taken from Finnic and Sami neighbours, bought the Islamic silver of the eastern trade (Ibn Khordadbeh; Ibn Fadlan), whose dirhams fill the hoards of the Mälaren region and Gotland (Spillings, c. 870s, some 14,000 coins). Slaves, the other staple of that trade, are not represented. Shepherding passes to the Castilians (the Mesta) and fishing to the Norwegians (stockfish) and the Tamils (pearl fishing)."
 relevance = "Furs were the Svear's export from Jordanes' day to the Hanse, and the silver they bought made Viking-age Uppland rich, and Gotland through its own trade."
 contested = "The bonus abstracts furs bought or taken as tribute from forest peoples as much as furs hunted by Swedes."
 
@@ -92,8 +92,8 @@ text = "Blacksmiths work +80% faster"
 level = 1
 change = "new"
 replaces = "Knight-line +1 attack vs. Infantry"
-precedent = "Blacksmiths work +80% faster (Bulgarians team bonus; the Bulgarians' draft no longer uses it)"
-basis = "Swedish iron and copper supplied the smiths of the Baltic: the osmund iron of Bergslagen, smelted in some of Europe's earliest blast furnaces (Lapphyttan, 12th–14th centuries), and the copper of the Stora Kopparberg at Falun (first recorded in a share letter of 1288; chartered by Magnus Eriksson in 1347) were shipped through Stockholm to Lübeck and the other Hanse towns. Faster allied blacksmiths render the metal Sweden sold to its neighbours (RULES 6.2: trade). The replaced team bonus had no historical basis; its effect is reused by the Goths."
+precedent = "Blacksmiths work +80% faster (Bulgarians team bonus, which the Bulgarians' design replaces)"
+basis = "Swedish iron and copper supplied the smiths of the Baltic: the osmund iron of Bergslagen, smelted in some of Europe's earliest blast furnaces (Lapphyttan, 12th–14th centuries), and the copper of the Stora Kopparberg at Falun (first recorded in a share letter of 1288; chartered by Magnus Eriksson in 1347) were shipped through Stockholm to Lübeck and the other Hanse towns. Faster allied blacksmiths render the metal Sweden sold to its neighbours (RULES 6.2: trade). The replaced team bonus had no historical basis; the Goths' design reuses its effect as a passive."
 relevance = "Copper and iron were medieval Sweden's chief exports and its bond with the Hanse."
 
 [[unique_unit]]
@@ -127,7 +127,7 @@ age = "Imperial"
 effect = "Knight-line costs -60% gold"
 level = 1
 change = "new"
-precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles): shared and renamed, identical effect, in the Imperial Age (a Castle Age tech in the game) so that it follows Vendel Legacy in time. The Poles' draft also moves Szlachta Privileges to the Town Center, so the two civs share effect and building on purpose (RULES 6.7), and the Lithuanians' Horodło (Boyars cost -40% gold) is a third rendering of privileges for mounted service."
+precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles): shared and renamed, identical effect, in the Imperial Age (a Castle Age tech in the game) so that it follows Vendel Legacy in time. The Poles' design also moves Szlachta Privileges to the Town Center, so the two civs share effect and building on purpose (RULES 6.7), and the Lithuanians' Horodło (Boyars cost -40% gold) is a third rendering of privileges for mounted service."
 basis = "At Alsnö (1279 or 1280) King Magnus Ladulås exempted from taxes everyone who served the crown with a war horse (rusttjänst), creating the secular frälse, the Swedish nobility, and forbade the great men's forced hospitality (gästning) on the peasants, the protection traditionally linked to his byname Ladulås, ‘barn-lock’. Cheaper knights render mounted service paid for by tax exemption, as with the Polish privileges. A royal statute on taxation and estates, so at the Town Center (RULES 6.2)."
 relevance = "The statute made the Swedish nobility a tax-exempt mounted estate, the frame of Swedish society for the rest of the Middle Ages."
 contested = "Its date, and whether it created the nobility or regulated an existing practice (see the civ-level notes)."
@@ -145,7 +145,7 @@ remove = ["Varangian Guard", "Elite Varangian Guard", "Hussar", "Mounted Crossbo
 "Varangian Guard" = "The Varangian Guard stays with the Byzantines (RULES section 4): it was an institution of the Byzantine state, though some thirty runestones, most of them in Uppland, name Swedes who went to or died in ‘Greece’. The Champion takes over its heavy infantry role."
 "Elite Varangian Guard" = "Same as the Varangian Guard."
 "Hussar" = "Hungarian and Serbian light cavalry of the 15th century, a type medieval Sweden never fielded; Light Cavalry stays as its top light cavalry."
-"Mounted Crossbowman" = "A continental mounted type not characteristic of Sweden; Swedish crossbowmen are represented by the Arbalester, and the Danes keep the mounted crossbow line for the Valdemarian period."
+"Mounted Crossbowman" = "A continental mounted type not characteristic of Sweden; Swedish crossbowmen are represented by the Arbalester, and the Danes keep the mounted crossbow line."
 "Heavy Mounted Crossbowman" = "As for the Mounted Crossbowman, and later still (15th century)."
 "Cranequins" = "A 15th-century spanning device for the mounted crossbow line, which the Swedes no longer have."
 "Incendiaries" = "Requires Siphons, which this design removes."
