@@ -3,7 +3,7 @@ name = "Germans"
 original_name = "Teutons"
 status = "draft"
 label = "Cavalry and Defensive civilization"
-summary = "Teutons renamed Germans (RULES section 4) and redrawn as the medieval German kingdom and German-speaking society with the German-recruited Teutonic Order (919–1500): the Teutonic Knight becomes the mounted brother-knight it was, with conversion resistance as a passive for the brethren’s vows, German miners become the team bonus, Henry I’s burgs (Tigui renamed) the Town Center tech, the Hanse replaces the anachronistic Ironclad at the Market, Maximilian I’s Landsknechte (Perfusion renamed) replace Crenellations at the Castle, Gutenberg’s Press joins at the University, Murder Holes and Herbal Medicine free is dropped as a mere detail, and the tree gains Arbalester, Architecture, Treadmill Crane, Gold Shaft Mining and Dry Dock while losing Siege Onager."
+summary = "Teutons renamed Germans: the Teutonic Knight becomes the mounted brother-knight, German miners the team bonus and Henry I’s burgs the Town Center tech, the Hanse and the Landsknechte replace Ironclad and Crenellations, Gutenberg's Press joins, and the tree gains Arbalester and Architecture."
 ideas = [
   "N2: Give the mounted Teutonic Knight its own data (slow heavy cavalry with very high melee armour and extra resistance to conversion) instead of borrowing the Boyar’s stats.",
   "N2: A Landsknecht unit for the Barracks in the Imperial Age (pike and two-handed sword, a small bonus against the Spearman-line), beside the N1 Landsknechte tech.",
@@ -23,14 +23,15 @@ contested = [
 ]
 open_questions = [
   "Label: ‘Infantry and Defensive’ becomes ‘Cavalry and Defensive’, because heavy cavalry was the elite arm of German armies from the 10th to the 14th century and the Order’s brothers fought mounted. Infantry keeps a place (the melee-armour bonus, Champion, and the Landsknechte tech for the foot of the late 15th century). Keep ‘Cavalry and Defensive’ or return to ‘Infantry and Defensive’?",
-  "Teutonic Knight: changed from infantry to cavalry on the Boyar model, the foot version dropped. In N1 it has the Boyar’s stats, like the Rus’ Boyar and the Lithuanians’ Boyar (the boyar banners the Order met at Grunwald); the conversion-resistance passive is what sets it apart. Accept, keep the foot Teutonic Knight until the N2 unit, or keep it as a second unique unit for dismounted knights in siege and garrison?",
+  "Teutonic Knight: changed from infantry to cavalry on the Boyar model, the foot version dropped. In N1 it has the Boyar’s stats, like the Rus' Boyar and the Lithuanians’ Boyar (the boyar banners the Order met at Grunwald); the conversion-resistance passive is what sets it apart. Accept, keep the foot Teutonic Knight until the N2 unit, or keep it as a second unique unit for dismounted knights in siege and garrison?",
   "Conversion resistance: the game’s civ-wide team bonus cannot stay a team bonus (RULES 6.2: it benefited only the civ), and as a civ-wide passive it would stretch the vows of a few hundred professed brethren over the whole kingdom, so it is narrowed to the Teutonic Knight and takes the slot of ‘Murder Holes, Herbal Medicine free’. Keep this passive, or give the slot to another German trait?",
   "Town Center tech: Henry I’s burgs reuse Tigui (Town Centers fire arrows without garrison), renamed ‘Burgenordnung’ (level 1). The Italians’ Comune shares it too and the Malians’ draft drops Tigui, so two civs would hold it, each renamed (RULES 6.7 allows repeats). Historically the Golden Bull of 1356, which fixed the royal election by seven electors until 1806, is the stronger state moment of the German kingdom; it would need a new level-2 tech, and the choice of its effect is the owner’s. Keep Burgenordnung, or switch to a Golden Bull tech (or the Imperial Reform of 1495), with Henry I’s burgs staying as the root of the garrison passive?",
   "Team bonus: two more German traits benefited neighbours. The Ostsiedlung: Polish, Bohemian and Hungarian rulers invited German settlers under German law (ius Teutonicum, Magdeburg law); here it is a passive (Farms -40%). Printing, here a University tech: German printers set up the first presses of Italy (Subiaco 1465, Venice 1469), France (Paris 1470), Hungary and Poland (Buda and Kraków 1473). Keep the miners as the only team bonus, add one of these if civs may have two, or swap (printing would then leave the University)?",
   "Light Cavalry: the Order used native Prussian light horse on its raids into Lithuania. Add Light Cavalry to the tree (not done here, to keep the power budget)?",
   "Shipwright: the analysis also proposes it for the Hanseatic fleets; only Dry Dock is added here. Add Shipwright too?",
   "Shared parts (RULES 6.7): Farms -40% is also the Goths’ passive in their draft, the Saxons’ draft takes the Town Center half of the garrison bonus, Tigui is shared with the Italians’ Comune, Hanse’s trade effect is the game’s Spanish team bonus (kept by the Castilians, and also the Mongols’ team bonus and the Tatars’ Tamga in their drafts), Landsknechte is the Goths’ Perfusion (dropped in their draft), and the Teutonic Knight has the Boyar’s stats. Each repeat has a German basis, but much of the civ is built from shared parts. Acceptable?",
-  "Composition: 5 passive bonuses + 4 unique techs = 9, the proposed cap (RULES 6.1). Keep Gutenberg’s Press as the fourth tech, or move printing to the team-bonus question or to the ideas and stay at 8?",
+  "Composition: 5 passive bonuses + 4 unique techs = 9, the proposed cap (RULES 6.1). Keep Gutenberg's Press as the fourth tech, or move printing to the team-bonus question or to the ideas and stay at 8?",
+  "Codex-wide question CQ18 (see codex/civs/README.md): Reused names (the mounted Teutonic Knight, on the Boyar model, and its Elite tier share their names with the game’s infantry Teutonic Knight).",
 ]
 
 [profile]
@@ -59,6 +60,7 @@ sources = [
   "Reinhard Baumann, Landsknechte (1994)",
   "Peter H. Wilson, Heart of Europe (2016); Joachim Whaley, Germany and the Holy Roman Empire (2012), relevant only from 1493",
 ]
+replaces = "Teutons: the game’s blend of the Holy Roman Empire and the Teutonic Order, under the name of the ancient Teutones (RULES section 4)"
 
 [[bonus]]
 text = "Farms cost -40%"
@@ -93,7 +95,7 @@ kind = "military"
 level = 1
 change = "changed"
 replaces = "Murder Holes, Herbal Medicine free"
-precedent = "Elephant Units receive -25% bonus damage and are more resistant to conversion (Bengalis), conversion part, with the Teutonic Knight as the target; Units more resistant to conversion (Teutons team bonus). The Castilians’ draft gives its military-order Freire the same resistance through a tech."
+precedent = "Elephant Units receive -25% bonus damage and are more resistant to conversion (Bengalis), conversion part, with the Teutonic Knight as the target; Units more resistant to conversion (Teutons team bonus, now the Inca design’s team bonus). The Castilians’ draft gives its military-order Freire the same resistance through a tech."
 basis = "The brother-knights were professed religious: they took vows of poverty, chastity and obedience, lived in convents under a rule taken from the Templars and the Hospitallers (confirmed by Innocent III in 1199, with the Order’s own statutes compiled in the 13th century), and fought a crusade preached and renewed for two centuries (Christiansen 1997; Urban 2003). The game’s infantry Teutonic Knight was itself resistant to conversion; this passive keeps that trait for the mounted unit. The game’s conversion is a change of allegiance, so the bonus stands for religious commitment, not for a documented immunity. It narrows the game’s civ-wide team bonus, which cannot stay a team bonus under RULES 6.2 and as a civ-wide passive would stretch the vows of a few hundred brethren over the whole kingdom."
 relevance = "Without its professed brethren and their vows the Order would not exist; the brother-knights were its core and its fighting elite."
 
@@ -122,7 +124,7 @@ building = "Castle"
 level = 1
 change = "changed"
 replaces = "Teutonic Knight (Infantry): slow infantry with exceptional melee armor, resistant to conversion"
-basis = "The brother-knights of the Order fought mounted, as heavy cavalry: at Durbe (1260) and at Grunwald (1410), a few hundred brothers per campaign led sergeants, guest crusaders and Prussian auxiliaries (Christiansen 1997; Urban 2003). The Boyar profile (cavalry with exceptional melee armour, weak against the Spearman-line and Monks) is the closest existing match; making them infantry inverted their role and fitted at most dismounted knights in sieges and garrisons. The conversion-resistance passive gives back the old unit’s resistance to Monks."
+basis = "The brother-knights of the Order fought mounted, as heavy cavalry: at Durbe (1260) and at Grunwald (1410), a few hundred brothers per campaign led sergeants, guest crusaders and Prussian auxiliaries (Christiansen 1997; Urban 2003). The Boyar profile (cavalry with exceptional melee armour, weak against the Spearman-line and Monks) is the closest existing match; making them infantry inverted their role and fitted at most dismounted knights in sieges and garrisons. The conversion-resistance passive gives back the old unit’s resistance to Monks. The Boyar model is shared with the Rus' and Lithuanian Boyars. The name also belongs to a different game unit, the infantry Teutonic Knight (its own model), which this design replaces; the site keys units by model."
 relevance = "The brother-knights were the best-known German soldiers of the period and the core of the Order’s state; the mounted knight was the elite of German armies for four centuries."
 
 [[unique_tech]]
@@ -165,20 +167,20 @@ basis = "From about 1486–87 Maximilian I, King of the Romans, raised German fo
 relevance = "The Landsknechte were the German answer to the Swiss pike and became the most widely hired infantry of Europe; they are among the best-known German soldiers of any age."
 
 [[unique_tech]]
-name = "Gutenberg’s Press"
+name = "Gutenberg's Press"
 building = "University"
 kind = "civil"
 age = "Imperial"
 effect = "University technologies cost -25%"
 level = 2
 change = "new"
-precedent = "Dock and University technologies cost -25% (Italians), University part only, as the Georgians’ draft also uses it"
+precedent = "Dock and University technologies cost -25% (Italians), University part only, as the Georgians’ Gelati Academy also uses it and the Bengalis’ design has it as a passive"
 basis = "In Mainz Johann Gutenberg developed printing with movable metal type around 1450; the 42-line Bible was finished by about 1454–55. German printers carried the technique across Europe within a generation: Sweynheym and Pannartz at Subiaco (1465), Johann of Speyer at Venice (1469), Gering, Friburger and Crantz at Paris (1470), Andreas Hess at Buda and Kasper Straube at Kraków (1473); by 1500 presses had worked in more than two hundred towns (Febvre and Martin 1958; Eisenstein 1979). Cheaper University technologies stand for knowledge made cheap by print. A new tech (level 2): no existing unique tech represents printing, and the generic Block Printing is a Monastery tech for the Monks’ conversion range."
 relevance = "Printing with movable type was the most consequential German invention of the Middle Ages and changed how knowledge travelled across Europe within fifty years."
 
 [tree]
 add = ["Arbalester", "Architecture", "Treadmill Crane", "Gold Shaft Mining", "Dry Dock"]
-remove = ["Siege Onager"]
+remove = ["Siege Onager", "Siphons"]
 
 [tree.basis]
 "Arbalester" = "Crossbowmen were central to the Order’s garrisons and arsenals in Prussia and to the urban militias of the German towns, whose shooting guilds (Schützengilden) appear from the 14th century. The Germans already have the Heavy Mounted Crossbowman; the foot upgrade completes the crossbow line."
@@ -186,12 +188,19 @@ remove = ["Siege Onager"]
 "Treadmill Crane" = "The medieval treadwheel crane is almost a German emblem: the crane of Cologne cathedral stood on the unfinished south tower from the 15th century until 1868, and the Krantor of Danzig (1442–44) was built under the Order."
 "Gold Shaft Mining" = "Germany was the mining heart of medieval Europe (Rammelsberg, Freiberg, the Harz and the Erzgebirge, Schwaz in Tyrol) (Bartlett 1993); lacking the late mining upgrade contradicted that."
 "Dry Dock" = "Hanseatic fleets dominated the Baltic and the North Sea, defeated Denmark (1367–70) and carried the Order to Gotland (1398) (Dollinger 1964); a weak navy contradicted this."
-"Siege Onager" = "Removed to offset the additions. There is no specific German basis for the top torsion-engine upgrade (held by only 15 civs); the Germans keep the Onager, Capped Ram, Trebuchet and Bombard Cannon."
+"Siege Onager" = "Removed to offset the additions. There is no specific German basis for the top tier of the stone-thrower line (held by only 15 civs); the Germans keep the Onager, Capped Ram, Trebuchet and Bombard Cannon."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
+
+[[rename]]
+from = "Elite Boyar"
+to = "Elite Teutonic Knight"
+level = 1
+basis = "Follows the unique unit (Boyar → Teutonic Knight), for the Germans only; the Rus' and Lithuanians keep the Boyar. The name is also that of the game’s infantry Elite Teutonic Knight, which this design replaces."
 
 [architecture]
 set = "Central European"
 change = "kept"
-basis = "The Central European set is the one modelled on the German lands: Romanesque and Gothic churches, timber-framed and brick town houses. The Bohemians join it in this redesign, on an architectural criterion (Latin Romanesque and Gothic, Peter Parler’s workshop, German-law towns)."
+basis = "The Central European set is the one modelled on the German lands: Romanesque and Gothic churches, timber-framed and brick town houses. The Bohemians, Poles and Magyars join it in this redesign, on the criterion of historical fit: they too built in Latin Romanesque and Gothic, with towns under German law (Peter Parler’s workshop in Prague, Veit Stoss in Kraków)."
 
 [[dropped]]
 item = "Murder Holes, Herbal Medicine free"

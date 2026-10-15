@@ -2,7 +2,7 @@ civ = "Bohemians"
 name = "Bohemians"
 status = "draft"
 label = "Gunpowder and Monk civilization"
-summary = "Bohemians keep their well-founded Hussite core: Hussite Reforms moves to the Monastery, where its religious programme belongs, Charles IV’s New Town of Prague (Nové Město, 1348) becomes the Town Center tech, Wagenburg Tactics stays the Castle tech and gains armoured wagons for the closed fort (now a level-2 tech), the Houfnice becomes the short-range anti-personnel gun it actually was (Organ Gun profile, Siege Workshop, Imperial Age), Plate Barding Armor brings back the armoured cavalry of the Přemyslid and Luxembourg kingdom, and the architecture moves to the Central European set."
+summary = "Bohemians keep their Hussite core: Hussite Reforms moves to the Monastery, Charles IV’s New Town of Prague becomes the Town Center tech, the Houfnice becomes a short-range gun (Organ Gun model), Wagenburg Tactics gains armoured wagons, and the navy shrinks to a landlocked kingdom’s basic fleet."
 ideas = [
   "N2: A Houfnice of its own: a Siege Workshop piece with short to medium range, a scattershot blast and bonus damage against infantry and cavalry, with no bonus against buildings.",
   "N2: Pavéza (pavise): Arbalesters and Hand Cannoneers gain pierce armour while standing still, more next to a Hussite Wagon. The great Bohemian pavise was used and copied across Central Europe.",
@@ -20,18 +20,20 @@ contested = [
 ]
 open_questions = [
   "Houfnice: rebuilt on the Organ Gun (Portuguese; freed by the Portuguese redesign) so that it fights massed troops at short range, as the historical houfnice did, instead of being a long-range super-bombard. It is trained at the Siege Workshop from the Imperial Age, the age of the old Houfnice upgrade, with its Elite upgrade at the Castle; a Castle Age Houfnice beside the Castle Age Hand Cannoneer would be a large power shift. Accept, or keep the current Houfnice for now and leave the fix to N2?",
-  "Town Center tech: Hussite Reforms moves to the Monastery (religion, RULES 6.2), and the Town Center gets a new level-2 tech for Charles IV’s New Town of Prague (1348), with the capital effect the Armenians’, Bengalis’ and Maya’s drafts also use. The alternative state moment is Wenceslas II’s mining code (Ius regale montanorum, c. 1300) with the groschen reform, for example with ‘All gold income +10% faster; Market trading fee reduced to 10%’ (Grand Trunk Road shared, level 1), at the cost of a third silver element beside the mining bonus and the groschen team bonus. Which?",
+  "Town Center tech: Hussite Reforms moves to the Monastery (religion, RULES 6.2), and the Town Center gets a new level-2 tech for Charles IV’s New Town of Prague (1348), with the capital effect the Armenians’ and Bengalis’ drafts also use (the Maya’s at +15%). The alternative state moment is Wenceslas II’s mining code (Ius regale montanorum, c. 1300) with the groschen reform, for example with ‘All gold income +10% faster; Market trading fee reduced to 10%’ (Grand Trunk Road shared, level 1), at the cost of a third silver element beside the mining bonus and the groschen team bonus. Which?",
   "Wagenburg Tactics: the added armour for the closed wagon fort makes it a new tech (level 2). Keep it, or restore the game’s speed-only effect (level 1) and leave the armoured fort to N2?",
   "Plate Barding Armor is added for the armoured cavalry of Ottokar II and John the Blind (the first draft added Bloodlines; a reviewer noted that the evidence is about armour, not horse breeding). Add Bloodlines as well?",
-  "Team bonus: keep the groschen (Markets work +80% faster, the game’s team bonus) or use the Czech mercenaries, a trait RULES 6.2 names explicitly: Jan Jiskra’s companies in Upper Hungary (from 1440) and then in King Matthias’ pay, the Orphans beside the Poles against the Order (1433), and Czech companies on both sides of the Thirteen Years’ War (1454–66), for example with ‘Gunpowder Units train +25% faster’ (the Turks’ team bonus, which the Turks’ draft gives up and the Vietnamese draft takes, so it could stack)? If civs may have two team bonuses, the mercenaries would be the second.",
+  "Team bonus: keep the groschen (Markets work +80% faster, the game’s team bonus) or use the Czech mercenaries, a trait RULES 6.2 names explicitly: Jan Jiskra’s companies in Upper Hungary (from 1440) and then in King Matthias’ pay, the Orphans beside the Poles against the Order (1433), and Czech companies on both sides of the Thirteen Years’ War (1454–66), for example with ‘Gunpowder Units train +25% faster’ (the Turks’ game team bonus, which the Turks’ design gives up and the Vietnamese design takes)? If civs may have two team bonuses, the mercenaries would be the second. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner).",
   "Rename Wagenburg Tactics to the Czech ‘Vozová hradba’? Wagenburg is the German term used by the Hussites’ enemies and by modern scholarship.",
   "Label: ‘Monk’ is ambivalent for a largely iconoclastic movement (the Taborites sacked many monasteries in 1419–21), although priests such as Prokop the Great led armies. Keep ‘Gunpowder and Monk’ or change to ‘Gunpowder and Infantry’?",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (Bohemia was landlocked, so under the default rule the civ keeps the basic navy only: the Cannon Galleon, Galleon and Carrack leave, with no substitute siege warship).",
+  "Codex-wide question CQ18 (see codex/civs/README.md): Reused names (the Houfnice, on the Organ Gun model, shares its name with the game’s Houfnice, the Bombard Cannon upgrade).",
 ]
 
 [profile]
-entity = "Duchy and (from 1198, confirmed by the Golden Bull of Sicily in 1212) Kingdom of Bohemia, with the Lands of the Bohemian Crown (Moravia, Silesia, Lusatia), from the Přemyslids to the Luxembourgs, the Hussite revolution and the Jagiellonians"
+entity = "Duchy and (from 1198, confirmed by the Golden Bull of Sicily in 1212) Kingdom of Bohemia, with the Lands of the Bohemian Crown (Moravia, Silesia, Lusatia), from the Přemyslids (the Annals of Fulda name Bohemian dukes in 872, among them Goriwei, probably Bořivoj I) to the Luxembourgs, the Hussite revolution and the Jagiellonians"
 region = "Bohemia and Moravia, with Silesia (from 1327–35) and Lusatia (from 1319–29 and 1367)"
-window = "872–1526 (from the first mention of the Bohemian dukes, among them Goriwei, probably Bořivoj I, in the Annals of Fulda, to Mohács; focus: the Hussite era, 1419–1471)"
+window = "872–1526 (from the first mention of the Bohemian dukes to Mohács; focus: the Hussite era, 1419–1471)"
 sources = [
   "Annales Fuldenses (9th century)",
   "Cosmas of Prague, Chronica Boemorum (c. 1120)",
@@ -115,7 +117,7 @@ building = "Siege Workshop"
 level = 1
 change = "changed"
 replaces = "Houfnice (upgrade of the Bombard Cannon: long-range anti-building gun that cannot attack at close range)"
-basis = "In the Hussite wagon fort the houfnice and the lighter tarasnice fired stones or scattershot at close range into massed troops (houf, ‘crowd’) (Durdík 1953); through German Haubitze and Dutch houwitser the name gave English ‘howitzer’. The game made it a super-bombard with long range and a minimum range, the opposite of its role; the Organ Gun profile (a gunpowder piece firing volleys at groups of units) is the closest existing match, though the Organ Gun is multi-barrelled and weak against cavalry, while the houfnice was a single short barrel used from the wagon fort against both infantry and horse (own art is N3). Trained at the Siege Workshop from the Imperial Age, where the old Houfnice upgrade stood, with its Elite upgrade at the Castle as for the Organ Gun. The Bombard Cannon stays as the siege gun."
+basis = "In the Hussite wagon fort the houfnice and the lighter tarasnice fired stones or scattershot at close range into massed troops (houf, ‘crowd’) (Durdík 1953); through German Haubitze and Dutch houwitser the name gave English ‘howitzer’. The game made it a super-bombard with long range and a minimum range, the opposite of its role; the Organ Gun profile (a gunpowder piece firing volleys at groups of units) is the closest existing match, though the Organ Gun is multi-barrelled and weak against cavalry, while the houfnice was a single short barrel used from the wagon fort against both infantry and horse (own art is N3). Trained at the Siege Workshop from the Imperial Age, where the old Houfnice upgrade stood, with its Elite upgrade at the Castle as for the Organ Gun. The Bombard Cannon stays as the siege gun. The name also belongs to a different game unit, the Houfnice (its own model), the Bombard Cannon upgrade this design replaces; the site keys units by model."
 relevance = "The houfnice stands for Hussite field artillery, among the first guns used systematically in open battle; the name’s survival in ‘howitzer’ adds fame."
 
 [[unique_tech]]
@@ -152,21 +154,33 @@ age = "Castle"
 effect = "Town Centers +100% HP and work +10% faster"
 level = 2
 change = "new"
-precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians), narrowed to Town Centers at +10%; the Armenians’, Bengalis’ and Maya’s drafts use the same pattern for their capitals"
+precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians), narrowed to Town Centers at +10%; the Armenians’ and Bengalis’ drafts use the same pattern for their capitals, and the Maya’s at +15%"
 basis = "On 8 March 1348 Charles IV founded the New Town of Prague, a planned town of broad streets and great markets (the Horse and Cattle Markets) with its own walls beside the Old Town; with the castle, the Old Town and the Lesser Town it made Prague the imperial residence and one of the largest cities of Central Europe, and the defenestration at its town hall on 30 July 1419 began the Hussite revolution (Kaminsky 1967; Šmahel 1993). The same programme of 1348 founded the University (see the University bonus) and defined the Lands of the Bohemian Crown. Town Centers that are sturdier and work faster stand for the walled, growing capital. A new tech (level 2): no existing unique tech represents a planned capital, and the Four Articles cannot be split into a second tech (RULES 6.3)."
 relevance = "Charles IV’s Prague, with its New Town, cathedral, bridge and university, is the image of Bohemia’s golden age, and the New Town became the stronghold of radical Hussitism."
 
 [tree]
 add = ["Plate Barding Armor", "Treadmill Crane"]
-remove = ["Elite Cannon Galleon"]
+remove = ["Cannon Galleon", "Elite Cannon Galleon", "Galleon", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Siphons", "Incendiaries"]
 
 [tree.basis]
 "Plate Barding Armor" = "Before the Hussites, Bohemia fielded first-rate armoured cavalry: Ottokar II won at Kressenbrunn (1260) with his heavy horse and fell at the Marchfeld (1278), and John the Blind died charging with his knights at Crécy (1346). The last cavalry armour upgrade (held by 36 civs) restores part of that kingdom without changing the Hussite profile."
 "Treadmill Crane" = "Charles IV was a great builder: Karlštejn (from 1348), the New Town of Prague, the Charles Bridge (from 1357) and St Vitus’ cathedral under Peter Parler."
-"Elite Cannon Galleon" = "Bohemia was landlocked; the top gunpowder warship (which many maritime civs lack) has no basis. The basic Cannon Galleon stays as a generic abstraction for water maps."
+"Cannon Galleon" = "Bohemia was landlocked: no gun-armed warships."
+"Elite Cannon Galleon" = "As Cannon Galleon."
+"Galleon" = "No war fleet: the basic navy only, under the codex navy rule (Galley-line to War Galley, Fire Galley and Fire Ship, Hulk and War Hulk, demolition ships and the generic Dock techs); Bohemia was landlocked."
+"Carrack" = "As Galleon."
+"Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon and Carrack are removed (the Bohemians already lacked the Fast Fire Ship)."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
+"Incendiaries" = "Requires Siphons, which this design removes."
+
+[[rename]]
+from = "Elite Organ Gun"
+to = "Elite Houfnice"
+level = 1
+basis = "Follows the unique unit (Organ Gun → Houfnice), for the Bohemians only; the Portuguese design drops the Organ Gun."
 
 [architecture]
 set = "Central European"
 change = "changed"
 replaces = "Eastern European"
-basis = "Architectural criterion: Bohemia built in the Latin Romanesque and Gothic of the Empire’s lands. Prague was the imperial residence under Charles IV, its Gothic was that of Peter Parler’s workshop (from Swabia: St Vitus’ cathedral, the Charles Bridge tower), and its mining and royal towns were largely founded under German law, with German-speaking burghers. Poland and Hungary also built Latin Romanesque and Gothic, so the same criterion favours the set for them; their change is left to the owner because of its cost in visual distinctness (see their open questions)."
+basis = "Historical fit, the codex criterion: Bohemia built in the Latin Romanesque and Gothic of the Empire’s lands. Prague was the imperial residence under Charles IV, its Gothic was that of Peter Parler’s workshop (from Swabia: St Vitus’ cathedral, the Charles Bridge tower), and its mining and royal towns were largely founded under German law, with German-speaking burghers. Poland and Hungary also built Latin Romanesque and Gothic, so the Poles and Magyars move to the set on the same criterion."

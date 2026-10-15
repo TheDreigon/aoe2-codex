@@ -2,7 +2,7 @@ civ = "Magyars"
 name = "Magyars"
 status = "draft"
 label = "Cavalry civilization"
-summary = "Magyars cover both the horsemen of the Conquest and the late-medieval kingdom (895–1526): the Huszar costs no gold natively, the reflex bow becomes a passive (Recurve Bow’s effect, RULES 6.2), Kremnica gold replaces the wolf bonus, the post-1241 castle-building replaces free melee upgrades, Stephen I’s royal counties become the Town Center tech, a two-effect Black Army tech (pavise armour for infantry and handgunners, Hussite Wagons) replaces Corvinian Army, and the tree gains Hand Cannoneer, Bombard Cannon, Keep and Fortified Wall."
+summary = "Magyars cover the Conquest and the kingdom to Mohács: the Huszar costs no gold, the reflex bow becomes an Imperial Age passive, Kremnica gold and castle-building replace two bonuses, Stephen I’s counties and Matthias’ Black Army are the techs, and gunpowder and Central European architecture come in."
 ideas = [
   "N2: Végvár (border fortress): Castles and towers cost less stone, gain HP and heal garrisoned units, for the 15th-century belt of frontier fortresses from Belgrade to Jajce.",
   "N2: Székely frontier guards: cheap Cavalry Archers from towers and Castles with extra line of sight, after the Székelys and Pechenegs who guarded the borders and formed the archer vanguard of Árpád-age armies (the Illuminated Chronicle names them as the vanguard, for example on the Olšava in 1116; Otto of Freising, present at the battle on the Fischa in 1146, names Pechenegs in the Hungarian vanguard).",
@@ -15,20 +15,20 @@ contested = [
   "The etymology of huszár (Serbian gusar/husar, from Latin cursarius, or Hungarian húsz, ‘twenty’) and the date of the first mention (1403 or 1432).",
   "The phrase ‘De sagittis Hungarorum libera nos, Domine’ is not attested; the real formula of the Modena hymn is different.",
   "How far the Mongol invasion of 1241–42 caused the wave of stone castles (Fügedi and his critics).",
-  "The real share of gunners in Matthias’ army (the ‘one in four’ figure is much repeated but of unclear origin), the scale of wagon-fort tactics in Hungary, and the name ‘Black Army’, attested only after 1490.",
+  "The real share of gunners in Matthias’ army (the ‘one in four’ figure is much repeated but of unclear origin), how much of the Hussite wagon-fort tactics Hungary took over (Tóth 2026: the wagons, not the Hussite way of fighting with them), and the name ‘Black Army’, attested only after 1490.",
   "The origin of John Hunyadi (Vlach according to most sources, or Hungarian).",
+  "The armament of the royal Danube flotilla, for which the civ keeps the Cannon Galleon and the generic navy as an abstraction of a river fleet: the undated report on Matthias’ forces by the Venetian envoy Sebastiano Badoer (Baduario, in Hungary 1474–76), quoted by Szendrei (1896) and Bánlaky, counts 34 naszáds at Belgrade, each with 18 oars, 18 handgunners, two gunners and a gun (cerbottana) in the bow; its total of 330 ships for the royal fleet is probably inflated, since Badoer’s letter from the Šabac campaign speaks of about 100 (Veszprémy 2009).",
 ]
 open_questions = [
   "Hussar redundancy: the Magyars keep both the generic Hussar (the word itself is Hungarian huszár) and the Magyar Huszar unique unit. Keep both, or remove the generic Hussar so that the Huszar is the Magyars’ only hussar?",
-  "Recurve Bow becomes a passive with the same effect, because the reflex bow is a long military tradition that the Magyars brought with them, not a datable moment (RULES 6.2), so mounted archers get +1 attack and +1 range from the Castle Age without research, a clear power gain. (The previous draft’s claim that RULES 6.4 forced a Castle Age tech was wrong: that rule binds only two Castle techs.) Accept, gate the passive at the Imperial Age (its original timing), or keep Recurve Bow as a tech by exception, moved to the Archery Range in the Imperial Age (level 1, original cost)?",
+  "Codex-wide question CQ10 (see codex/civs/README.md): Ages of reused effects (the bow passive keeps Recurve Bow’s Imperial Age gate, as the other conversions of unique techs into passives do).",
   "Second Castle tech: optional now that Recurve Bow is a passive (Black Army is the only Castle tech). Distinct datable candidates: Béla IV’s castle policy after 1242, which would take ‘Fortifications built +50% faster’ from the passives, or Charles I’s banderia of the 1320s–30s for the Angevin heavy cavalry, for example with ‘Knight-line +1 melee/+2 pierce armor’ (Hauberk). Add one?",
-  "Black Army: research verdict (RULES 11): effect 1 (pavise armour) is well supported for Matthias’ army by his letter of 1481; effect 2 (Hussite Wagons) is weakly supported for it, because Hungarian wagon forts are best attested under Hunyadi and among the Czech companies, and the core of the army was cavalry; the ‘c. 3,000 carts at Šabac (1476)’ could not be verified. The research side therefore recommends replacing effect 2 with ‘Knight-line +1 melee/+2 pierce armor’ (Hauberk, Sicilians) for Matthias’ heavy cavalry. Keep the wagons (the owner’s outline, applied here) or switch?",
   "Town Center tech: Stephen I’s royal counties are a new level-2 tech (Town Centers cost -50% stone, for the earth-and-timber county castles). Alternatives: Charles I’s mining reform of 1327 as the Town Center tech (with the gold effect, and another passive in its place), or the militia portalis of 1397/1459. Which?",
   "Bombard Cannon is added besides the Hand Cannoneer the owner asked for, for Matthias’ siege train (Jajce 1463, Šabac 1476, Vienna 1485). Accept?",
-  "Power budget: Melee attack upgrades free is dropped (weakly linked to the Conquest-era sabre) and replaced by faster fortification building; with the native gold-free Huszar, the free bow passive, the Royal Counties tech and four tree additions, is the power budget acceptable?",
+  "Power budget: Melee attack upgrades free is dropped (weakly linked to the Conquest-era sabre) and replaced by faster fortification building; with the native gold-free Huszar, the bow passive from the Imperial Age, the Royal Counties tech and four tree additions, is the power budget acceptable?",
   "Plate Mail Armor (for Matthias’ armoured infantry), Arrowslits, Architecture and Bombard Tower (for the post-1241 castles and the végvár line) are still missing; they are held back for the power budget, and Black Army’s +2 pierce armour partly stands in for Plate Mail Armor. Add any of them?",
   "Monastery: Atonement, Redemption and Faith are missing from the kingdom of the ‘holy kings’ (Stephen and Emeric canonised in 1083, Ladislaus in 1192; St Elizabeth and St Margaret; Pannonhalma, 996; the Pauline order founded in Hungary). Add Faith at least?",
-  "Architecture: historically the Central European set fits the kingdom of 1000–1526 better than the Eastern European one (see the architecture basis). Moving both the Magyars and the Poles would put four civs on Central European (Germans, Bohemians, Poles, Magyars) and three on Eastern European (Rus’, Lithuanians, Avars), against two and five now, but neighbours would look alike. Change it? (To be decided with the Poles.)",
+  "Codex-wide question CQ5 (see codex/civs/README.md): Architecture (historical fit applied: the Magyars move to the Central European set, so neighbours now look alike).",
   "Regional sameness: four of the five civs of the region now have a mining economy element (Bohemian silver, Polish salt, Hungarian gold, the German miners’ team bonus). Each is historically justified, but the economic identities converge. Accept, or vary one (e.g. Magyar gold mines that last longer instead of faster miners)?",
 ]
 
@@ -56,6 +56,8 @@ sources = [
   "Nora Berend, At the Gate of Christendom (2001)",
   "Charles R. Bowlus, The Battle of Lechfeld and Its Aftermath (2006)",
   "Tamás Pálosfalvi, From Nicopolis to Mohács: A History of Ottoman–Hungarian Warfare, 1389–1526 (2018)",
+  "László Veszprémy, ‘Szabács ostroma (1475–1476)’, Hadtörténelmi Közlemények 122 (2009)",
+  "Dominik Tóth, ‘The Wagenburg-warfare in the Army of King Matthias’, East Central Europe: Between the Baltic and the Adriatic 2:1 (2026)",
 ]
 
 [[bonus]]
@@ -79,13 +81,13 @@ basis = "Abundant horses on the Pannonian plain and a numerous, cheap light cava
 relevance = "The Magyars entered history as a horse people, and light cavalry stayed central to Hungarian armies for six centuries."
 
 [[bonus]]
-text = "Mounted Archers +1 attack, +1 range"
+text = "Mounted Archers +1 attack, +1 range starting in Imperial Age"
 kind = "military"
 level = 1
 change = "changed"
 replaces = "Recurve Bow (unique tech): Mounted Archers +1 attack, +1 range"
-precedent = "Recurve Bow (Mounted Archers +1 attack, +1 range) (Magyars), the same effect as a passive"
-basis = "Reflex composite bows with bone stiffeners are found in 10th-century Conquest-period graves. Leo VI’s Tactica (c. 900) describes the Hungarians (‘Turks’) fighting as mounted archers, but its chapter adapts Maurice’s Strategikon on the steppe peoples, so it is weaker evidence than it looks; the western annals of the raids and the Modena prayer against the Hungarians’ missiles (‘ab Ungerorum nos defendas iaculis’) are more direct. The raids reached Saxony, Italy and Spain until the Lechfeld (955) and Byzantium until Arcadiopolis (970) (Bowlus 2006), and the bow stayed with the kingdom’s light auxiliaries (Pechenegs, Székelys, later Cumans). A long military tradition that the Magyars brought with them marks no datable moment, so it is a passive (RULES 6.2), not a unique tech."
+precedent = "Recurve Bow (Mounted Archers +1 attack, +1 range) (Magyars), the same effect as a passive, gated at its game age as in the Saxons’, Georgians’ and Lithuanians’ conversions; for the age gate, +10 population space in Imperial Age (Goths)"
+basis = "Reflex composite bows with bone stiffeners are found in 10th-century Conquest-period graves. Leo VI’s Tactica (c. 900) describes the Hungarians (‘Turks’) fighting as mounted archers, but its chapter adapts Maurice’s Strategikon on the steppe peoples, so it is weaker evidence than it looks; the western annals of the raids and the Modena prayer against the Hungarians’ missiles (‘ab Ungerorum nos defendas iaculis’) are more direct. The raids reached Saxony, Italy and Spain until the Lechfeld (955) and Byzantium until Arcadiopolis (970) (Bowlus 2006), and the bow stayed with the kingdom’s light auxiliaries (Pechenegs, Székelys, later Cumans). A long military tradition that the Magyars brought with them marks no datable moment, so it is a passive (RULES 6.2), not a unique tech; it applies from the Imperial Age, the age of the original Recurve Bow tech."
 relevance = "The reflex bow carried the Conquest and the raids that made the Magyars known across Europe."
 
 [[bonus]]
@@ -113,7 +115,7 @@ contested = "How far 1241 caused the castle-building wave is debated."
 text = "Mounted Archers train +25% faster"
 level = 1
 change = "kept"
-precedent = "Mounted Archers train +25% faster (Magyars team bonus); the Turks’ and Tatars’ drafts now use it too, so identical team bonuses may stack"
+precedent = "Mounted Archers train +25% faster (Magyars team bonus); the Turks’ and Tatars’ designs now use it too. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)"
 basis = "Hungarian horse archers often fought as allies and auxiliaries of their neighbours: for Arnulf of Carinthia against Moravia (892, Annales Fuldenses) and for Byzantium against Bulgaria (894–895, De Administrando Imperio); in 1278 Ladislaus IV’s army, with the Cuman horse archers settled in Hungary as royal auxiliaries since 1239–46, fought beside Rudolf of Habsburg at the Marchfeld (Engel 2001). RULES 6.2: alliances and auxiliaries."
 relevance = "Mounted archery defined the Magyars from the Conquest to the Cuman auxiliaries of the 13th century, and it was what their allies sought from them."
 
@@ -149,7 +151,7 @@ level = 2
 change = "new"
 replaces = "Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost): its slot; the effect became a native bonus"
 precedent = "Effect 1: Tower Shields (Spearman-line and Skirmishers +2 pierce armor) (Lithuanians); Barracks Units +1/+2/+3 pierce armor in Feudal/Castle/Imperial Age (Malians); Foot Archers and Condottieri +1 melee/+1 pierce armor (Italians: a class plus a named unit); it names Hand Cannoneers rather than all Gunpowder Units so that the armour does not stack on the Hussite Wagon and the Bombard Cannon. Effect 2: Cuman Mercenaries (All team members can train 5 free Elite Kipchaks per Castle) (Cumans), the closest case of a tech giving another civ’s unique unit at the Castle; Condottiero available at the Barracks in Imperial Age (Italians team bonus); Marauders (Tarkans can be trained at Stables) (Huns)"
-basis = "Matthias Corvinus’ standing mercenary army (from the 1460s) combined heavy and light cavalry, its core, with infantry and a large artillery train. In his letter of 1481 to Gabriele Rangoni, bishop of Eger, Matthias describes common foot, armoured foot and shield-bearers with great pavises, with the handgunners placed behind the shield-bearers at the start of battle and in defence (Rázsó 1982): effect 1, the pavise, is well supported. Effect 2 follows the owner’s outline and rests on weaker ground for Matthias’ own army: Hussite-style wagon forts are best attested in Hungary under John Hunyadi (Varna 1444, Kosovo 1448), mostly as fortified camps, and among the Czech companies that Matthias took into his pay: Jan Jiskra, whose companies had fought in Upper Hungary since 1440, entered his service in 1462, and the brotherhoods (bratříci) who held out were defeated at Kostoľany (1467) and their survivors hired (Engel 2001). The research side recommends a cavalry effect instead (see open questions). The Elite Hussite Wagon upgrade is at the Castle as for the Bohemians, who keep the unit. A new tech (level 2), as the owner decided."
+basis = "Matthias Corvinus’ standing mercenary army (from the 1460s) combined heavy and light cavalry, its core, with infantry and a large artillery train. In his letter of 1481 to Gabriele Rangoni, bishop of Eger, Matthias describes common foot, armoured foot and shield-bearers with great pavises, with the handgunners placed behind the shield-bearers at the start of battle and in defence (Rázsó 1982): effect 1, the pavise. Effect 2 follows the owner’s outline: Hungarian armies took over the Hussite war wagon, though not the Hussite way of fighting with it, and used wagon forts in a secondary, mainly defensive role, as mobile fortifications, under John Hunyadi (Varna 1444, Kosovo 1448) and in Matthias’ own campaigns (Baia 1467; the Breslau campaign of 1474) (Tóth 2026), which is what the Hussite Wagon renders. Czech companies brought the expertise: Jan Jiskra, whose companies had fought in Upper Hungary since 1440, entered Matthias’ service in 1462, and the brotherhoods (bratříci) who held out were defeated at Kostoľany (1467) and their survivors hired (Engel 2001). The Elite Hussite Wagon upgrade is at the Castle as for the Bohemians, who keep the unit. A new tech (level 2), as the owner decided."
 relevance = "Matthias’ standing army made Hungary a Central European great power (Moravia, Silesia, Vienna 1485) and is the best-known army of medieval Hungary."
 contested = "The name ‘Black Army’ is attested only after Matthias’ death (1490), and the share of gunners in it is a much-repeated estimate of unclear origin."
 
@@ -164,6 +166,7 @@ remove = []
 "Fortified Wall" = "Same basis: the castle and town walls of the post-1241 kingdom and the great frontier fortresses such as Belgrade (Nándorfehérvár), which withstood Mehmed II in 1456."
 
 [architecture]
-set = "Eastern European"
-change = "kept"
-basis = "Kept for now for visual distinctness, not for historical fit. The Conquest era left no monumental architecture, and the kingdom of 1000–1526 built in Latin Romanesque and Gothic, in the eastern borderlands too (Esztergom, Pécs, Ják, Székesfehérvár and Buda; in Transylvania the cathedral of Alba Iulia, the Saxon fortified churches and Hunedoara castle), while the Eastern European set is the Rus’ set of timber and onion domes. Historically the Central European set fits better; whether to accept its cost in visual distinctness is the owner’s choice (see open questions)."
+set = "Central European"
+change = "changed"
+replaces = "Eastern European"
+basis = "Historical fit, the codex criterion: the Conquest era left no monumental architecture, and the kingdom of 1000–1526 built in Latin Romanesque and Gothic, in the eastern borderlands too (Esztergom, Pécs, Ják, Székesfehérvár and Buda; in Transylvania the cathedral of Alba Iulia, the Saxon fortified churches and Hunedoara castle), while the Eastern European set is the Rus' set of timber and onion domes. The cost in visual distinctness (neighbours now look alike) is codex-wide question CQ5."

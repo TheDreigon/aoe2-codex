@@ -2,7 +2,7 @@ civ = "Poles"
 name = "Poles"
 status = "draft"
 label = "Cavalry civilization"
-summary = "Poles moved back into Piast and Jagiellonian Poland (966–1500): the 17th-century Winged Hussar and the Obuch give way to the Kopijnik, the armoured lancer of the knightly banners, Szlachta Privileges moves to the Town Center as the bargain of privileges for the noble levy, Lechitic Legacy gives way to the hired companies of the Thirteen Years’ War (Wojsko Zaciężne, Chivalry renamed) at the Castle, villager regeneration to the kingdom’s fortifications from the Piast strongholds to Casimir the Great, and the tree gains Plate Barding Armor, Hand Cannoneer, Architecture and the Hussar."
+summary = "Poles moved back into Piast and Jagiellonian Poland: the Kopijnik knight replaces the Obuch and the 17th-century Winged Hussar, Szlachta Privileges moves to the Town Center, hired companies take the Castle, fortifications replace villager regeneration, and the architecture becomes Central European."
 ideas = [
   "N2: Chorągiew (banner): a tech giving the Knight-line extra armour when several knights fight together, to make the banner explicit for generic knights as well as for the Kopijnik.",
   "N2: Tabor: Town Centers or Castles deploy a temporary wagon laager that protects units from missiles, after the Polish use of Czech mercenaries with wagons and guns in the Thirteen Years’ War (Świecino, 1462) and the later Polish tabor against the Tatars.",
@@ -20,19 +20,20 @@ open_questions = [
   "Kopijnik: the Polish unique unit is rebuilt on the Georgian Monaspa (heavy cavalry that becomes stronger when other Kopijniks or Knight-line units are nearby), the closest existing match for knights fighting in banners. The Monaspa then has three holders (Georgians, the Castilians’ Freire by the owner’s decision, and the Poles). Accept, or prefer keeping the Obuch as the unique unit for now?",
   "The Obuch is dropped: the obuch or nadziak was a nobleman’s war hammer, often used on horseback and mostly in the 16th–17th centuries, never an infantry troop type. Keep it anyway as a second unique unit (e.g. dismounted knights with war hammers)?",
   "The generic Hussar is added for the Rascian-style light horse of the late 15th-century court banner, from which the hussar banners of c. 1500 grew. Accept, or leave the Poles with Light Cavalry as their top light cavalry?",
-  "Castle tech: the previous draft’s Pospolite Ruszenie (free Knights) is folded into Szlachta Privileges, because the levy was a standing obligation and the other side of the privileges (RULES 6.2 and 6.3), and the Castle slot goes to the hired companies of the Thirteen Years’ War (Wojsko Zaciężne: the Franks’ Chivalry shared and renamed, level 1; the Italians’ Condotta shares it too). Alternatives: the Union of Krewo (1385), although an alliance is a team-bonus trait under RULES 6.2, or the levy back as a Castle Age tech that spawns Knights (the First Crusade pattern). Accept?",
+  "Castle tech: the previous draft’s Pospolite Ruszenie (free Knights) is folded into Szlachta Privileges, because the levy was a standing obligation and the other side of the privileges (RULES 6.2 and 6.3), and the Castle slot goes to the hired companies of the Thirteen Years’ War (Wojsko Zaciężne: the Franks’ Chivalry, which the Franks’ design drops, moved and renamed, level 1). Alternatives: the Union of Krewo (1385), although an alliance is a team-bonus trait under RULES 6.2, or the levy back as a Castle Age tech that spawns Knights (the First Crusade pattern). Accept?",
   "Hussite Wagon: Poland also used Czech mercenaries with wagons and guns (the Orphans beside the Poles in 1433, Świecino 1462) and later its own tabor, yet only the Magyars share the Hussite Wagon. The Hungarian case is earlier and better documented (Hunyadi’s wagon forts at Varna 1444 and Kosovo 1448). Share it with the Poles as well, or keep the tabor as an N2 idea?",
-  "Architecture: historically the Central European set fits Poland better than the Eastern European one (see the architecture basis). Moving both the Poles and the Magyars would put four civs on Central European (Germans, Bohemians, Poles, Magyars) and three on Eastern European (Rus’, Lithuanians, Avars), against two and five now, but Poles and Germans would look alike. Change it? (To be decided with the Magyars.)",
-  "Team bonus: ‘Universities work +80% faster’ is now the team bonus of six drafts (Malians, Franks, Poles, Chinese, Khmer, Persians) and part of the Georgians’ Gelati Academy, and identical team bonuses presumably stack in team games. Keep it, or choose another trait that benefited neighbours, such as Wieliczka and Bochnia salt sold to Silesia and Lithuania, or the union with Lithuania (Krewo, 1385)?",
+  "Codex-wide question CQ5 (see codex/civs/README.md): Architecture (historical fit applied: the Poles move to the Central European set, so Poles and Germans now look alike).",
+  "Team bonus: ‘Universities work +80% faster’ is now the team bonus of six drafts (Malians, Franks, Poles, Chinese, Khmer, Persians) and part of the Georgians’ Gelati Academy. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner). Keep it, or choose another trait that benefited neighbours, such as Wieliczka and Bochnia salt sold to Silesia and Lithuania, or the union with Lithuania (Krewo, 1385)?",
   "Guilds: missing from the tree although Kraków was a Hanseatic town and Gdańsk and Toruń came under the crown in 1454/66. Add it?",
   "Two-Man Saw: the first draft added it (timber, pitch and potash floated down the Vistula to Gdańsk); it is held back here to offset the other additions (Plate Barding Armor, Hand Cannoneer, Hussar, Architecture). Add it?",
-  "Power budget: the Poles keep Folwark, stone-to-gold and Szlachta Privileges (Knight-line -60% gold, which now pairs with Plate Barding Armor) and gain faster Stables in the Imperial Age (Wojsko Zaciężne), cheaper fortifications and four tree items, losing villager regeneration, the Obuch, the Winged Hussar, Lechitic Legacy and the old team bonus. Is the balance acceptable?",
+  "Power budget: the Poles keep Folwark, stone-to-gold and Szlachta Privileges (Knight-line -60% gold, which now pairs with Plate Barding Armor) and gain faster Stables in the Imperial Age (Wojsko Zaciężne), cheaper fortifications and four tree items, losing villager regeneration, the Obuch, the Winged Hussar, Lechitic Legacy, Thumb Ring and the old team bonus. Is the balance acceptable?",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking.",
 ]
 
 [profile]
-entity = "The Piast duchy and Kingdom of Poland (Corona Regni Poloniae from the 14th century) under the Piasts and the Jagiellonians, in personal union with Lithuania from 1385–86"
+entity = "The Piast duchy and Kingdom of Poland (royal coronations in 1025 and 1076, then from 1295/1320; divided 1138–1320; Corona Regni Poloniae from the 14th century) under the Piasts and the Jagiellonians, in personal union with Lithuania from 1385–86"
 region = "Greater and Lesser Poland, Kuyavia and Sieradz–Łęczyca, with Red Ruthenia (from the 1340s), Masovia as a fief and Royal Prussia after 1454/1466; Silesia until the 1330s"
-window = "966–1500 (from the baptism of Mieszko I to the end of the time frame; royal coronations in 1025 and 1076, then from 1295/1320; divided 1138–1320; focus: the reunited kingdom, 1320–1500)"
+window = "966–1500 (from the baptism of Mieszko I; focus: the reunited kingdom, 1320–1500)"
 sources = [
   "Gallus Anonymus, Gesta principum Polonorum (c. 1115)",
   "Vincent Kadłubek, Chronica Polonorum (c. 1200)",
@@ -113,7 +114,7 @@ effect = "Knight-line costs -60% gold"
 level = 1
 change = "changed"
 replaces = "Szlachta Privileges (Castle unique tech, same effect)"
-precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles): moved to the Town Center, identical effect; the Swedes’ draft shares it as Alsnö stadga"
+precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles): moved to the Town Center, identical effect; the Swedes’ draft shares it as Alsnö Stadga"
 basis = "The privilege of Košice (1374) freed the nobility from almost all taxes and bound the king to pay compensation for service beyond the borders; Czerwińsk (1422) and Jedlnia–Kraków (1430/1433) protected noble property and person; and in 1454 the nobles mustered for the Thirteen Years’ War extorted the privileges of Cerekwica and Nieszawa, by which no levy could be called without the land assemblies (Davies 1981). The Buda privilege of 1355, granted for the Angevin succession, prefigured Košice (Knoll 1972). In exchange the nobles owed mounted service at their own expense within the realm in the general levy (pospolite ruszenie), mustered for Grunwald (1410) and for the Thirteen Years’ War. The levy belongs to this tech, not to a tech of its own: it was a standing obligation (RULES 6.2) and the other side of the same bargain (RULES 6.3). Cheaper knights translate the bargain; the tech moves to the Town Center because the privileges were the constitution of the noble state."
 relevance = "The privileges created the noble ‘nation’ of the szlachta, the defining feature of Polish political history, and the levy was their price."
 
@@ -126,24 +127,32 @@ effect = "Stables work +40% faster"
 level = 1
 change = "new"
 replaces = "Lechitic Legacy (Scout Cavalry-line deals trample damage)"
-precedent = "Chivalry (Stables work +40% faster) (Franks): an existing unique tech, shared and renamed with an identical effect, at the Castle as in the game; the Italians’ Condotta shares it too, for the same kind of contract hiring"
+precedent = "Chivalry (Stables work +40% faster) (Franks, whose design drops it): an existing unique tech, moved and renamed with an identical effect, at the Castle as in the game; the Italians’ Condotta now uses another effect (Knight-line trains +50% faster)"
 basis = "The noble levy was beaten at Chojnice (1454), and in the Thirteen Years’ War (1454–66) the crown turned to hired companies (roty) of horse and foot, Polish, Silesian, Moravian and Czech, raised by captains (rotmistrze) under contract and paid from taxes the nobles voted and from loans; in 1457 it even bought Marienburg from the Order’s own unpaid mercenaries, and a hired army under Piotr Dunin won at Świecino (1462), which turned the war (Długosz; Davies 1981). By the 1490s a small standing force of hired horse (obrona potoczna) guarded the south-eastern border against the Tatars, while the levy failed again in the Bukovina forest (1497). Faster Stables abstract the companies of horse that a paying crown could raise. Lechitic Legacy is dropped: Kadłubek already called the Poles ‘Lechitae’, but nothing links that name to trampling light cavalry."
 relevance = "Hired companies won the Thirteen Years’ War, which gave Poland Royal Prussia and Gdańsk (1466), and replaced the noble levy as the kingdom’s field army."
 
 [tree]
 add = ["Plate Barding Armor", "Hand Cannoneer", "Hussar", "Architecture"]
-remove = []
+remove = ["Thumb Ring"]
 
 [tree.basis]
 "Plate Barding Armor" = "Western-style armoured knights (Zawisza the Black of Garbów) formed the core of the Polish army at Grunwald. For a cavalry civilization, lacking the last cavalry armour upgrade (held by 36 civs) was the most significant gap in the tree, while the Lithuanians had it."
 "Hand Cannoneer" = "Firearms are recorded in Poland from the 1380s, and in the 15th century towns such as Kraków kept hook guns and handguns (hakownice, later rusznice) in their arsenals. In 1433 the Hussite Orphans fought beside the Polish army against the Order, and in the Thirteen Years’ War (1454–66) the crown hired foot with handguns and wagons, many of them Czech (Świecino, 1462). The Poles already had the Bombard Cannon."
 "Hussar" = "Light horsemen equipped ‘in the Rascian or Tatar manner’ already served in the royal court banner in the second half of the 15th century (Kałużny 2023), and hussar banners of Rascian (Serbian) horse appear by name in the crown’s pay registers from c. 1500–03; they stayed light cavalry until the reign of Stephen Báthory (1576–86). The type originated inside the time frame, so it is not a late element under RULES section 2. Added to replace the light cavalry upgrade the Winged Hussar used to provide."
 "Architecture" = "Casimir III’s building programme and the brick Gothic of Kraków, Toruń and Gdańsk, the last two under the Polish crown from 1454 (confirmed in 1466)."
+"Thumb Ring" = "No thumb draw is attested: the civ's archers used the European draw and its missile troops the crossbow; the codex gives the tech only where a thumb draw is attested (see the Gurjaras, Tamils and Saxons)."
+
+[[rename]]
+from = "Elite Monaspa"
+to = "Elite Kopijnik"
+level = 1
+basis = "Follows the unique unit (Monaspa → Kopijnik), for the Poles only; the Georgians keep the Monaspa."
 
 [architecture]
-set = "Eastern European"
-change = "kept"
-basis = "Kept for now for visual distinctness, not for historical fit: medieval Polish building was Latin Romanesque and Gothic like Bohemia’s (Wawel cathedral, 1320–64; the brick Gothic of Kraków, Toruń and Gdańsk; towns under German law; Veit Stoss of Nuremberg carving the St Mary’s altarpiece in Kraków, 1477–89), so historically the Central European set fits better. Whether to accept its cost in visual distinctness is the owner’s choice (see open questions)."
+set = "Central European"
+change = "changed"
+replaces = "Eastern European"
+basis = "Historical fit, the codex criterion: medieval Polish building was Latin Romanesque and Gothic like Bohemia’s (Wawel cathedral, 1320–64; the brick Gothic of Kraków, Toruń and Gdańsk; towns under German law; Veit Stoss of Nuremberg carving the St Mary’s altarpiece in Kraków, 1477–89), so the Central European set fits better than the Eastern European one, the Rus' set of timber and onion domes. The cost in visual distinctness (Poles and Germans now look alike) is codex-wide question CQ5."
 
 [[dropped]]
 item = "Winged Hussar"
