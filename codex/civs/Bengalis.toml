@@ -2,7 +2,7 @@ civ = "Bengalis"
 name = "Bengalis"
 status = "draft"
 label = "Elephant and Naval civilization"
-summary = "Bengalis kept as Bengal from the Palas to the Bengal Sultanate (750–1538): elephants, river fleets, the rice surplus with its team bonus and Mahayana (now at the Monastery) stay; the paik foot archer replaces the chariot as unique unit, elephant medicine (Hastyayurveda, the Tamils' former Medical Corps, at the Castle) replaces the misapplied Paiks tech, the cloth trade and the Pala monastic universities replace the cavalry and armoured-monk bonuses, Ilyas Shah's union of Bengal (Shah-i-Bangalah) becomes the Town Center tech, the Sultanate's artillery enters as the civ's one late element (Bombard Cannon), and the Cannon Galleons and the Arbalester leave."
+summary = "Bengalis kept as Bengal from the Palas to the Bengal Sultanate (750–1538): elephants, river fleets, the rice surplus with its team bonus and Mahayana (now at the Monastery) stay; the paik foot archer replaces the chariot as unique unit, the keeping of the royal elephant herds (Hastyayurveda, the Tamils' former Medical Corps, at the Castle) replaces the misapplied Paiks tech, the cash crops of the cloth and sugar trade and the learning of the Pala mahaviharas and the sultans' courts replace the cavalry and armoured-monk bonuses, Ilyas Shah's union of Bengal (Shah-i-Bangalah) becomes the Town Center tech, and the Cannon Galleons and the Arbalester leave, with no land gunpowder (the Sultanate's late artillery is left to the owner)."
 ideas = [
   "N2: A river war-boat unique ship for the delta fleets (Monghyr plate; the Sultanate's flotillas; Babur on the Ghaghra, 1529), with its name chosen carefully: kosa and ghurab are attested mostly for the Mughal flotilla (nawara) of the 17th century.",
   "N3: New art for the Paik: a lightly armed foot soldier with bamboo bow, sword and shield, instead of the borrowed Vietnamese Rattan Archer model.",
@@ -15,14 +15,15 @@ contested = [
   "The reach of Devapala's southern conquests and a possible Pala–Pandya clash (the Badal pillar against the Sinnamanur plates).",
   "Who destroyed Nalanda and when: Minhaj's account of Odantapuri, and the Tibetan pilgrim Dharmasvamin, who still found Nalanda partly active in 1234–36.",
   "The causes of Bengal's Islamisation: Richard Eaton's agrarian-frontier thesis against explanations by forced conversion or migration.",
-  "When firearms reached Bengal: Iqtidar Alam Khan (2004) counts Bengal among the 15th-century users of gunpowder, but the firm references (Barros, Babur, the Ahom Buranjis) are of the 16th century, so this design treats Bengal's guns as a late element.",
+  "When firearms reached Bengal: Iqtidar Alam Khan (2004) counts Bengal among the 15th-century users of gunpowder, but the firm references are of the 16th century. João de Barros credits artillery with Bengal's edge over Arakan and Tripura (via Banglapedia, ‘Military’); Babur, who fought the Bengal army on the Ghaghra in 1529, says the Bengalis were famous for their artillery, though he found that they fired at random; and Turbak's gun-armed invasion of the Ahom kingdom (1532–33) was beaten, Turbak killed and his guns taken (the Ahom Buranjis, as summarised by Gait 1906). This design treats the guns as a late element whose fame is contemporary repute rather than the lasting fame RULES section 2 asks for, and leaves them out (see open questions); the analysis counts them as a missing feature.",
 ]
 open_questions = [
   "Ratha: dropped, because no Pala chariot corps is attested (see dropped). Keep it anyway as a second unique unit, for its place in the game?",
-  "Paik model: the Vietnamese Rattan Archer (a shielded foot archer), because most paiks were archers, or the spear infantry of the Hindustanis' former Ghulam, which the first draft used and which now goes to the Tamils' Velaikkarar? Both are placeholders until new art (N3).",
-  "Late element (RULES section 2): the Bombard Cannon is the civ's one post-1500 element, for the artillery of Barros, Babur and the Buranjis. Prefer the Hand Cannoneer (the paik with matchlock), the Cannon Galleon line, or no gunpowder at all?",
-  "Town Center tech: Shah-i-Bangalah (Ilyas Shah's union of Bengal, 1352) is a new tech (level 2) with the capital effect of the Armenians' and Maya's drafts. Prefer a Pala moment instead, the prakriti's choice of Gopala that ended the ‘law of the fish’ (Khalimpur plate, c. 750)?",
-  "Power budget: the cloth passive (farmers' gold from the Castle Age) and the Town Center tech come in; the Arbalester, the Cannon Galleons and the Ratha go, and the archers get no Thumb Ring (no thumb draw is attested in Bengal). Acceptable?",
+  "Paik model: the Vietnamese Rattan Archer (a shielded foot archer), because most paiks were archers, or the spear infantry of the game's Ghulam, which the first draft used and which now goes to the Tamils' Velaikkarar? Both are placeholders until new art (N3).",
+  "Gunpowder (late element, RULES section 2): no land gunpowder by default, since Bengal's guns are securely attested only from the 1510s and their fame rests on contemporary repute (Babur's remark of 1529) rather than lasting fame (see contested). Add the Bombard Cannon anyway as the civ's one late element (Barros; Babur; the Buranjis)? The Hand Cannoneer and the Cannon Galleon line would be gameplay overrules, since no Bengali hand-gun corps or gun-armed boats are attested inside the window.",
+  "Town Center tech: Shah-i-Bangalah (Ilyas Shah's union of Bengal, 1352) is a new tech (level 2) with the capital effect of the Armenians' and Bohemians' drafts (the Persian Town Center bonus at its Feudal Age rate, +10%; the Maya's draft uses the Castle Age rate, +15%). Prefer a Pala moment instead, the prakriti's choice of Gopala that ended the ‘law of the fish’ (Khalimpur plate, c. 750)?",
+  "Castle tech: Hastyayurveda keeps the Medical Corps effect for the keeping of the royal elephant herds, a structural trait promoted under RULES 6.3, because the civ's datable royal and military moments have no fitting existing effect. Prefer one of them as a new tech (level 2), for example Dharmapala's assembly at Kanyakubja (c. 800), where he installed Chakrayudha with the assent of the northern kings (Khalimpur plate), or Ramapala's recovery of Varendri with the help of his samantas (late 11th century; Ramacharita)? Medical Corps would then be freed or become an N2 idea.",
+  "Power budget: the cash-crop passive (farmers' gold from the Castle Age) and the Town Center tech come in; the Arbalester, the Cannon Galleons and the Ratha go, the Monastery discount narrows to University technologies, there is no land gunpowder, and the archers get no Thumb Ring (no thumb draw is attested in Bengal). Acceptable?",
 ]
 
 [profile]
@@ -30,7 +31,7 @@ entity = "Bengal: the kingdom of Gauda under Shashanka, the Pala empire, the Sen
 region = "Bengal and, under the Palas, Bihar: the Ganges–Brahmaputra delta and the lower Ganges plain"
 window = "750–1538 (from Gopala's accession to Sher Shah's capture of Gaur; Shashanka's Gauda, c. 600–625, as prelude)"
 sources = [
-  "Khalimpur copper plate of Dharmapala; Monghyr and Nalanda copper plates of Devapala; Badal pillar inscription",
+  "Khalimpur copper plate of Dharmapala (ed. F. Kielhorn, Epigraphia Indica, vol. IV); Monghyr and Nalanda copper plates of Devapala; Badal pillar inscription",
   "Sandhyakaranandi, Ramacharita (12th century)",
   "Akhbar al-Sin wa'l-Hind (851, traditionally attributed to the merchant Sulaiman), in Elliot and Dowson, vol. I",
   "Minhaj al-Siraj Juzjani, Tabaqat-i Nasiri (c. 1260)",
@@ -40,7 +41,9 @@ sources = [
   "Babur, Baburnama (the campaign of 1529), tr. A. S. Beveridge (1922) and W. M. Thackston (1996)",
   "Tomé Pires, Suma Oriental (1512–15); Duarte Barbosa, Livro (c. 1516); João de Barros, Décadas da Ásia",
   "Ghulam Husain Salim, Riyaz-us-Salatin (1788)",
+  "E. A. Gait, A History of Assam (1906)",
   "R. C. Majumdar (ed.), The History of Bengal, vol. I (1943); Jadunath Sarkar (ed.), vol. II (1948)",
+  "Sukumar Sen, History of Bengali Literature (1960)",
   "Richard M. Eaton, The Rise of Islam and the Bengal Frontier, 1204–1760 (1993)",
   "Thomas R. Trautmann, Elephants and Kings: An Environmental History (2015)",
   "Banglapedia (Asiatic Society of Bangladesh), articles ‘Military’ and ‘Paik’",
@@ -62,7 +65,7 @@ level = 1
 change = "kept"
 precedent = "Elephant Units receive -25% bonus damage and are more resistant to conversion (Bengalis)"
 basis = "Elephants were the prestige arm of Bengal from the Palas to the sultans: the Akhbar (851) gives the king of ‘Rahma’, usually taken to be the Pala ruler, some 50,000 elephants (an inflated but telling figure), and Bengal remained a main source of elephants for the Delhi sultans (Digby 1971; Trautmann 2015). The resistance to conversion is pure mechanics."
-relevance = "Elephants were Bengal's prestige arm and the tribute Delhi most wanted from it."
+relevance = "Elephants were the striking and prestige arm of Bengal's armies from the Palas to the sultans."
 
 [[bonus]]
 text = "Ships regenerate 15 HP per minute"
@@ -80,26 +83,26 @@ level = 1
 change = "new"
 replaces = "Cavalry +2 attack vs. Skirmishers"
 precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians), as a passive from the Castle Age, the age in which the Burgundians research it"
-basis = "Bengal's fine cotton cloth was famous throughout the window: the Akhbar (851) says the garments of ‘Rahma’ were so fine that one could be drawn through a ring; Ma Huan (1433) lists the kinds of fine cloth woven in Bengal; Tomé Pires and Duarte Barbosa (1510s) make Bengali cloth a staple of Malacca and of the western Indian Ocean. Cotton and sugarcane were grown beside the rice and their cloth and sugar sold abroad, which farmers earning gold render as an abstraction. The cavalry bonus it replaces had no basis: Bengal was notoriously poor in horses, which it imported, and Bakhtiyar Khalji took Nadia c. 1204 by surprise with a small cavalry vanguard (Minhaj)."
-relevance = "Fine cloth was Bengal's most famous export for seven centuries and made it a byword for wealth among Arab, Chinese and Portuguese visitors."
-contested = "The scale of the cloth trade is better documented for the 15th–16th centuries and for the Mughal period than for the Palas."
+basis = "Farmers earning gold render Bengal's cash crops and money economy: cotton and sugarcane grew beside the rice, Ma Huan (1433) saw sugar and many kinds of fine cloth made in Bengal, and silver tankas and cowries circulated down to the village markets (Ibn Battuta; Eaton 1993). The cloth itself was the work of specialist weavers, which no existing effect renders, and its fame lasted the whole window: the Akhbar (851) says the garments of ‘Rahma’ were so fine that one could be drawn through a ring, and Tomé Pires and Duarte Barbosa (1510s) make Bengali cloth a staple of Malacca and of the western Indian Ocean. The cavalry bonus it replaces had no basis: Bengal was notoriously poor in horses, which it imported, and Bakhtiyar Khalji took Nadia c. 1204 by surprise with a small cavalry vanguard (Minhaj)."
+relevance = "Cotton and sugarcane for the cloth and sugar trade, and a money economy reaching the villages, made Bengal a byword for wealth among Arab, Chinese and Portuguese visitors."
+contested = "The scale of the cloth and sugar trade is better documented for the 15th–16th centuries and for the Mughal period than for the Palas."
 
 [[bonus]]
-text = "Monastery and University technologies cost -25%"
+text = "University technologies cost -25%"
 kind = "other"
 level = 1
 change = "new"
 replaces = "Monks +3 melee/+3 pierce armor"
-precedent = "Dock and University technologies cost -25% (Italians); Monastery technologies cost -50% (Burmese)"
-basis = "The Palas patronised the great Buddhist monastic universities: Dharmapala founded Vikramashila and Somapura, and Nalanda, Odantapuri and Jagaddala drew students from Tibet and Southeast Asia. Devapala's Nalanda copper plate (mid-9th century) records a monastery at Nalanda built by the Shailendra king Balaputradeva of Suvarnadvipa, which Devapala endowed with villages at his request, and Atisha left Vikramashila for Tibet c. 1040; the Chinese pilgrims Xuanzang and Yijing had studied at Nalanda before the Palas. The armour bonus it replaces suggested armoured monks, the opposite of what happened: the mahaviharas were sacked around 1200 (Odantapuri, Vikramashila)."
-relevance = "The Pala mahaviharas made Bengal and Bihar the last great centre of Indian Buddhism and a source of Tibetan Buddhism."
+precedent = "Dock and University technologies cost -25% (Italians), narrowed to University technologies, as in the Germans' Gutenberg's Press"
+basis = "Bengal was a centre of learning and letters throughout the window. The Palas patronised the great monastic universities: Dharmapala founded Vikramashila and Somapura, and Nalanda, Odantapuri and Jagaddala drew students from Tibet and Southeast Asia; Devapala's Nalanda copper plate (mid-9th century) records a monastery at Nalanda built by the Shailendra king Balaputradeva of Suvarnadvipa, which Devapala endowed with villages at his request. Under the Sultanate the courts patronised literature in Bengali: Barbak Shah gave Maladhar Basu, who rendered the Bhagavata into Bengali (Sri Krishna Vijaya, 1473–80), the title Gunaraj Khan, and Paragal Khan, Husain Shah's governor of Chittagong, commissioned Kavindra Parameshvara's Bengali Mahabharata (Sukumar Sen 1960; Sarkar (ed.) 1948). The armour bonus it replaces suggested armoured monks, the opposite of what happened: the mahaviharas were sacked around 1200 (Odantapuri, Vikramashila)."
+relevance = "The Pala mahaviharas made Bengal and Bihar the last great centre of Indian Buddhist learning, and the sultans' courts fostered the rise of Bengali literature."
 
 [team_bonus]
 text = "Trade Units generate +10% food in addition to gold"
 level = 1
 change = "kept"
 precedent = "Trade Units generate +10% food in addition to gold (Bengalis team bonus)"
-basis = "Bengal fed and clothed its trading partners: the Maldivians sold their cowries to Bengal for its rice (Ibn Battuta), and Duarte Barbosa and Tomé Pires (1510s) describe ships carrying Bengal's rice, sugar and cloth to Malacca and the western Indian Ocean; Ma Huan (1433) describes the abundance of its crops. A good translation of a food-surplus economy tied to trade."
+basis = "Bengal fed its trading partners: the Maldivians sold their cowries to Bengal for its rice (Ibn Battuta, 1340s), Ma Huan (1433) describes the abundance of its crops, and Tomé Pires and Duarte Barbosa (1510s) describe ships carrying Bengal's rice to Malacca and the western Indian Ocean. A good translation of a food-surplus economy tied to trade; Bengal's cloth and sugar belong to the farmers' gold passive."
 relevance = "Bengal's rice fed the Maldives and Malacca: a benefit to its trading partners, as RULES 6.2 requires."
 
 [[unique_unit]]
@@ -109,7 +112,7 @@ building = "Castle"
 level = 1
 change = "new"
 replaces = "Ratha (Mounted Archer)"
-basis = "Paik (from Sanskrit padatika, merged with Persian payk) was the foot soldier of Bengal and Orissa, armed with bow, sword, shield and spear and later the matchlock, and the backbone of the Sultanate's armies and of the later Baro-Bhuyans (Banglapedia, ‘Paik’ and ‘Military’; Sarkar (ed.) 1948). Besides the levies the sultans kept a palace guard of paiks: it killed Jalaluddin Fath Shah in 1487, opening the Habshi period, and Alauddin Husain Shah (1494–1519) disbanded it (Riyaz-us-Salatin; Sarkar (ed.) 1948). Most paiks were archers, so the model is the Rattan Archer, a shielded foot archer; the first draft's spear infantry (the Hindustanis' former Ghulam) goes to the Tamils' Velaikkarar."
+basis = "Paik (from Sanskrit padatika, merged with Persian payk) was the foot soldier of Bengal and Orissa, armed with bow, sword, shield and spear and later the matchlock, and the backbone of the Sultanate's armies and of the later Baro-Bhuyans (Banglapedia, ‘Paik’ and ‘Military’; Sarkar (ed.) 1948). Besides the levies the sultans kept a palace guard of paiks: it killed Jalaluddin Fath Shah in 1487, opening the Habshi period, and Alauddin Husain Shah (1494–1519) disbanded it (Riyaz-us-Salatin; Sarkar (ed.) 1948). Most paiks were archers, so the model is the Rattan Archer, a shielded foot archer; the first draft's spear infantry (the game's Ghulam) goes to the Tamils' Velaikkarar."
 relevance = "Bengal's armies were infantry, boats and elephants rather than cavalry, and the paik was their backbone for centuries."
 contested = "Most paiks were part-time peasant levies beside the elite palace guard; the borrowed model and its Vietnamese art are placeholders (see ideas)."
 
@@ -121,10 +124,10 @@ age = "Castle"
 effect = "Town Centers +100% HP and work +10% faster"
 level = 2
 change = "new"
-precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians), narrowed to Town Centers at the Castle Age rate, as in the Armenians' (Bagratid Ani) and Maya's (K'uhul Ajaw) drafts. A new tech (level 2): neither of the civ's existing techs is a state institution, and no existing tech renders the founding of a kingdom."
-basis = "By 1352 Shamsuddin Ilyas Shah had united Lakhnauti, Satgaon and Sonargaon under one ruler and styled himself Shah-i-Bangalah; the name Bangalah, until then that of the eastern delta, came to mean the whole region. The new kingdom held out twice in the fort of Ekdala against Firuz Shah Tughluq (1353–54, 1358–59), which secured nearly two centuries of independence, and built a new capital at Pandua, whose Adina mosque (1373–75) was the largest in the subcontinent (Shams Siraj Afif; Eaton 1993, ch. 2). Sturdier, busier Town Centers render a united kingdom that held its centres."
+precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians), narrowed to Town Centers with the work rate at its Feudal Age value (+10%), as in the Armenians' (Bagratid Ani) and Bohemians' (Nové Město) drafts; the Maya's draft (K'uhul Ajaw) uses the Castle Age rate (+15%). A new tech (level 2): neither of the civ's other techs is a state institution, and no existing tech renders the founding of a kingdom."
+basis = "By 1352 Shamsuddin Ilyas Shah had united Lakhnauti, Satgaon and Sonargaon under one ruler, and Delhi chroniclers called him Shah-i-Bangalah, ‘king of Bengal’ (Shams Siraj Afif); the name Bangalah, until then that of the eastern delta, came to mean the whole region (Eaton 1993, ch. 2). The new kingdom held out twice in the fort of Ekdala against Firuz Shah Tughluq (1353–54, 1358–59), which secured nearly two centuries of independence, and built a new capital at Pandua, whose Adina mosque (1373–75) was the largest in the subcontinent. Sturdier, busier Town Centers render a united kingdom that held its centres."
 relevance = "The union of 1352 made Bengal one kingdom and gave it the name the civ bears."
-contested = "How far ‘Bangalah’ reached before Ilyas Shah is debated; the effect is an abstraction."
+contested = "How far ‘Bangalah’ reached before Ilyas Shah is debated, and the epithet is attested on the Delhi side rather than on his coins, which carry the ordinary sultanic titles; the effect is an abstraction."
 
 [[unique_tech]]
 name = "Hastyayurveda"
@@ -136,9 +139,9 @@ level = 1
 change = "new"
 replaces = "Paiks (Rathas and Elephant Units attack +20% faster)"
 precedent = "Medical Corps (Elephant Units regenerate 30 HP per minute) (Dravidians): an existing unique tech, moved to the Bengalis and renamed, identical effect and age; the Tamils' draft gives it up"
-basis = "Elephant-keeping was a royal institution across India, and the east had the best elephants: the Arthashastra (2.2) ranks those of Kalinga and Anga first (Trautmann 2015). The Hastyayurveda, the Sanskrit treatise on elephant medicine attributed to the sage Palakapya, is framed as his teaching to King Romapada of Anga at Champa, near modern Bhagalpur, in the Pala heartland. Bengal's royal herds are attested by the Akhbar's figure for the king of ‘Rahma’ (851) and by the elephants Lakhnauti sent to Delhi as tribute (Minhaj; Digby 1971). Moved from the Tamils' former Medical Corps, a 19th-century military name, with the same effect. It replaces Paiks, which named the foot soldier but sped up chariots and elephants; the paik is now the unique unit."
-relevance = "Keeping, training and healing war elephants in royal stables made Bengal's elephant arm, and its elephant trade, possible."
-contested = "The treatise is hard to date, and elephant medicine was a pan-Indian tradition (the Keralan Matangalila is another branch); the Bengal link rests on the frame story and on the eastern elephants' reputation."
+basis = "In the Indian tradition Bengal and Bihar were the land of the best war elephants: the Arthashastra (2.2) ranks those of Kalinga and Anga first (Trautmann 2015), and the Hastyayurveda, the Sanskrit treatise on elephant medicine attributed to the sage Palakapya, is set at Champa in Anga, near modern Bhagalpur, in the Pala heartland. The Pala kings kept royal herds under their own officers: the stock list of officials in their land grants, from Dharmapala's Khalimpur plate (c. 800) onwards, includes a superintendent of elephants and horses (and of cattle, buffaloes, goats and sheep) (Majumdar (ed.) 1943); the Akhbar (851) credits the king of ‘Rahma’ with some 50,000 elephants, and Lakhnauti later sent elephants to Delhi as tribute (Minhaj; Digby 1971). The tech stands for the keeping and healing of these royal herds, while the elephant passive renders their place in battle and the Hindustanis' elephant passive the Delhi stables that Bengal helped to fill. Moved from the Tamils' former Medical Corps, a 19th-century military name, with the same effect. It replaces Paiks, which named the foot soldier but sped up chariots and elephants; the paik is now the unique unit."
+relevance = "Bengal could field elephants in the numbers the Akhbar reports, and supply Delhi with them, only through royal capture, keeping and care: the establishment behind its prestige arm."
+contested = "A structural trait promoted to a tech under RULES 6.3, its formalisation being the royal office of the Pala grants; the civ's datable royal and military moments (Dharmapala's Kanyakubja assembly, c. 800; Ramapala's recovery of Varendri, late 11th century; Ekdala, 1353–59) have no fitting existing effect (see open questions). The treatise is hard to date, elephant medicine was a pan-Indian tradition (the Keralan Matangalila is another branch), and the treatise's own link to Bengal rests on its frame story."
 
 [[unique_tech]]
 name = "Mahayana"
@@ -148,18 +151,17 @@ age = "Imperial"
 effect = "Villagers and Monks take -10% population space"
 level = 1
 change = "changed"
-precedent = "Mahayana (Villagers and Monks take -10% population space) (Bengalis): moved to the Monastery (religion, RULES 6.2), identical effect and age"
-basis = "The Palas, who styled themselves paramasaugata (‘devout Buddhists’), were the last great royal patrons of Mahayana and Vajrayana Buddhism in India; they endowed monasteries and images across Bengal and Bihar, and the Vajrayana of their age, carried to Tibet by masters such as Atisha (c. 1040), shaped Tibetan Buddhism. The effect is an arbitrary abstraction of a large, cheaply sustained monastic and lay population."
+precedent = "Mahayana (Villagers and Monks take -10% population space) (Bengalis): moved to the Monastery (religion, RULES 6.2), identical effect and age. It stays in the Imperial Age, its game age, although the Pala centuries come before the Castle Age Shah-i-Bangalah (1352): RULES 6.4 orders ages only between two Castle techs."
+basis = "The Palas, who styled themselves paramasaugata (‘devout Buddhists’), were the last great royal patrons of Mahayana and Vajrayana Buddhism in India; they endowed monasteries, shrines and images across Bengal and Bihar, and the Vajrayana of their age, carried to Tibet by masters such as Atisha (who left Vikramashila c. 1040), shaped Tibetan Buddhism. The effect is an arbitrary abstraction of a large, cheaply sustained monastic and lay population."
 relevance = "Royal patronage of Mahayana and Vajrayana Buddhism defines the Pala centuries and their legacy in Tibet."
 
 [tree]
-add = ["Bombard Cannon", "Treadmill Crane"]
+add = ["Treadmill Crane"]
 remove = ["Cannon Galleon", "Elite Cannon Galleon", "Arbalester"]
 
 [tree.basis]
-"Bombard Cannon" = "Late element, RULES section 2, and the civ's only one (an Imperial Age unit). There is no secure evidence of firearms in Bengal before the 1510s (see contested). Then João de Barros credits artillery for Bengal's supremacy over Arakan and Tripura (via Banglapedia, ‘Military’); Babur, who fought the Bengal army on the Ghaghra in May 1529, notes that the Bengalis were famous for their artillery, though he found that they fired at random rather than at a fixed point (Baburnama, tr. Beveridge 1922; tr. Thackston 1996); and Turbak's invasion of the Ahom kingdom (1532) carried guns, according to the Buranjis. Babur's remark shows the artillery's fame in its own day, and it decided Bengal's wars with its eastern neighbours. The Hand Cannoneer stays out, since a civ may have only one late element."
-"Treadmill Crane" = "Bengal's builders raised monumental works in brick: the mahavihara of Somapura, among the largest monasteries of South Asia, and the Adina mosque (1373–75), the largest mosque of the subcontinent in its day. Stone Shaft Mining stays absent, which fits a delta without stone."
-"Cannon Galleon" = "No secure evidence of guns on the Sultanate's boats: the gun-armed river flotilla (nawara) is Mughal, of the 17th century, and the civ's one late element is the Bombard Cannon. Fire Ships, Demolition Ships and the Galleon line remain the naval answer to buildings."
+"Treadmill Crane" = "An abstraction of faster building: no treadwheel cranes are attested in Bengal, and the tech stands for the scale of its brick building, from the mahavihara of Somapura, among the largest monasteries of South Asia, to the Adina mosque (1373–75), the largest mosque of the subcontinent in its day. Stone Shaft Mining stays absent, which fits a delta without stone."
+"Cannon Galleon" = "No secure evidence of guns on the Sultanate's boats: the gun-armed river flotilla (nawara) is Mughal, of the 17th century. Fire Ships, Demolition Ships and the Galleon line remain the naval answer to buildings."
 "Elite Cannon Galleon" = "Same basis."
 "Arbalester" = "No crossbows are attested in Pala, Sena or Sultanate armies, whose archers used bamboo bows; in South Asia the crossbow belongs mainly to the hill peoples of the north-east. Under the project's criterion (Armenians, Ethiopians, Malians) the crossbow tier goes and the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split; the Paik and the Elephant Archer carry the archery."
 

@@ -3,15 +3,15 @@ name = "Tamils"
 original_name = "Dravidians"
 status = "draft"
 label = "Infantry and Naval civilization"
-summary = "Dravidians renamed Tamils (RULES section 4): the Pallavas, Cholas and Pandyas of the Tamil country (575–1323), centred on the Chola peak (985–1120), under a people's own name rather than ‘Cholas’ because the civ's evidence is Pallava and Pandya as well as Chola; the hoax-named Thirisadai becomes the attested Kalam, the Velaikkarar regiments replace the unattested Urumi Swordsman, pearl fisheries, irrigation tanks, the temple economy and armies carried by sea replace unfounded bonuses, the Uttaramerur assembly rules become the Town Center tech and the 1025 raid on Kadaram the Dock tech (Medical Corps moves to the Bengalis), the merchant guilds become the team bonus, granite building, Crop Rotation and the Elite Battle Elephant enter the tree, and gunpowder and the Arbalester leave."
+summary = "Dravidians renamed Tamils (RULES section 4): the Pallavas, Cholas and Pandyas of the Tamil country (575–1323), centred on the Chola peak (985–1120), under a people's own name rather than ‘Cholas’ because the civ's evidence is Pallava and Pandya as well as Chola; the hoax-named Thirisadai becomes the attested Kalam, the Velaikkarar regiments replace the martial-arts Urumi Swordsman, pearl fisheries, irrigation tanks, the temple economy and armies carried by sea replace unfounded bonuses, the Uttaramerur assembly rules become the Town Center tech and the 1025 raid on Kadaram the Dock tech (Medical Corps moves to the Bengalis), the merchant guilds become the team bonus, granite building, Crop Rotation and the Elite Battle Elephant enter the tree, and gunpowder, the Arbalester and Thumb Ring leave."
 ideas = [
   "N3: A Deccan civ (Kannadigas or Deccanis) for the Chalukyas of Badami, the Rashtrakutas, the Hoysalas, the Kakatiyas and Vijayanagara (1336–1565), who leave the core of this civ (RULES section 4), with the late gunpowder (Portuguese musketeers at Raichur, 1520; Talikota, 1565).",
-  "N2: Velaikkarar as a dedicated elite infantry that cannot be converted and gains attack near its own Castle, as the analysis proposes, with its own art instead of the borrowed Ghulam model.",
+  "N2: Velaikkarar as a dedicated elite infantry that cannot be converted and gains attack near its own Castle, as the analysis proposes, with its own art (a lightly armoured spearman) instead of the borrowed Ghulam model.",
   "N3: New art for the Kalam: an Indian Ocean sewn-plank ship instead of the Austronesian outrigger ship from the Borobudur reliefs used by the Thirisadai model.",
   "N2: Vimana: Monasteries and Wonders built much faster, for the granite temple towers of Thanjavur (c. 1010) and Gangaikonda Cholapuram.",
-  "N2: Horse Trade: light and heavy cavalry trainable at the Dock for extra gold, for the horses the Pandyas and Cholas imported by sea every year (Marco Polo; Wassaf).",
+  "N2: Horse Trade: light and heavy cavalry trainable at the Dock for extra gold, for the horses the Pandyas imported by sea every year (Marco Polo; Wassaf).",
   "N2: Sungam Tavirtta: a Market tech for Kulottunga I's abolition of tolls (late 11th century), which gave him the title ‘the Chola who abolished tolls’.",
-  "N3: A Sri Lankan civ (Anuradhapura and Polonnaruwa), the Tamils' main overseas adversary and partner.",
+  "N3: A Sri Lankan civ (Anuradhapura and Polonnaruwa, with the Tamil kingdom of Jaffna from the later 13th century), the Tamils' main overseas adversary and partner.",
 ]
 contested = [
   "Whether the Cholas kept a standing royal navy or requisitioned merchant ships for their expeditions: Nilakanta Sastri against some contributors to Kulke et al. (2009) and, as reported, Kanisetti (2025), whose book could not be consulted here.",
@@ -20,30 +20,35 @@ contested = [
   "The Chola state as centralised (Nilakanta Sastri) or ‘segmentary’ (Burton Stein), a debate taken up by Karashima and Subbarayalu; it bears on the temples, the village assemblies and the regiments.",
   "The Velaikkarar: a guard sworn to the king's person (Nilakanta Sastri, who linked them to the sworn companions of the Pandya king described by Marco Polo) or a professional corps of mixed origin.",
   "The origin of crucible steel: South India and Sri Lanka only, or also Central Asia (Merv, Akhsiket).",
-  "The urumi: Keralan tradition makes it ancient, but no medieval source puts it on a battlefield (Zarrilli 1998).",
-  "The Trebuchet, kept in the tree, is a generic abstraction: no trebuchets are attested in Pallava, Chola or Pandya warfare. Tamil literature (the Silappatikaram on the walls of Madurai) lists defensive engines such as stone-throwers and mechanical bows, closer to the Mangonel and Scorpion lines, and forts were taken with elephants and by assault (the Siege Elephant line).",
+  "The urumi: Keralan tradition makes it ancient, and Zarrilli (1998) documents it within the martial art kalarippayattu, but we know of no medieval source that puts it on a battlefield.",
+  "The origins of the Pallavas: their early charters are in Prakrit and Sanskrit, and some historians look for their roots in Andhra rather than in the Tamil country; from the 6th century they ruled the Tamil north from Kanchipuram.",
   "The identity of the ‘Dravida’ lords that the Pala Devapala claims to have humbled (Badal pillar): Rashtrakutas or Pandyas.",
 ]
 open_questions = [
-  "Velaikkarar: the land unique unit now uses the Ghulam model (a spearman, freed when the Hindustanis' Ghulam became a horse archer) under the attested name of the Chola regiments, because RULES 6.10 rules out renaming the Urumi Swordsman while its whip-sword art and invented blast attack stay. Alternatives: the Kalam alone (one unique unit is allowed), or the Urumi Swordsman kept under its own name as a stretched martial-arts unit. Which?",
-  "Medical Corps moves to the Bengalis as Hastyayurveda, because the elephant-medicine treatise is set in Anga, the Pala heartland, whose elephants the Arthashastra ranks first. Agree, or let both civs share it?",
-  "Team bonus: the merchant guilds (‘Trade Units generate +10% gold’) replace Docks +5 population space, which had no specific basis; the same text is the Armenians' and Ethiopians' team bonus (three holders). Accept, or narrow it to Trade Cogs, as the analysis' Ainnurruvar proposal does, at the cost of making it useless on land maps?",
-  "Power budget: four economic slots (pearls, tanks, temples and the Uttaramerur tech) and the Elite Battle Elephant, against the loss of all gunpowder, the Arbalester, the +200 wood per Age and the Skirmisher and Elephant Archer attack speed. Acceptable?",
+  "Velaikkarar: the land unique unit now uses the game's Ghulam model (a spearman, freed when the Hindustanis' Ghulam became a horse archer) under the attested name of the Chola regiments, because RULES 6.10 rules out renaming the Urumi Swordsman while its whip-sword art and invented blast attack stay. Alternatives: the Kalam alone (one unique unit is allowed), or the Urumi Swordsman kept under its own name as a stretched martial-arts unit. Which?",
+  "Medical Corps moves to the Bengalis as Hastyayurveda, for the keeping of royal elephant herds in the land the Indian tradition held to breed the best elephants (the elephant-medicine treatise is set in Anga, whose elephants the Arthashastra ranks first). Agree, or let both civs share it?",
+  "Team bonus: the merchant guilds (‘Trade Units generate +10% gold’) replace Docks +5 population space, which had no specific basis; the same text is now the team bonus of five designs (Armenians, Ethiopians, Maya, Rus', Tamils). Accept the repetition, or narrow it to Trade Cogs, as the analysis' Ainnurruvar proposal does, at the cost of making it useless on land maps (the guilds traded overland as much as by sea)?",
+  "Power budget: four economic slots (pearls, tanks, temples and the Uttaramerur tech) and the Elite Battle Elephant, against the loss of all gunpowder, the Arbalester, Thumb Ring, the +200 wood per Age and the Skirmisher and Elephant Archer attack speed; Kadaram now gives the infantry, not the warships, its attack against buildings. Acceptable?",
   "Town Center tech: Uttaramerur (a new tech, level 2, villagers working faster) for the village assemblies, or Rajaraja I's land survey (c. 1001, whose officer bore the title ulagalanda, ‘who measured the world’), or Kulottunga I's abolition of tolls (now an N2 idea at the Market)?",
-  "Wootz Steel keeps its name, the standard term of the scholarship, although it is an 18th-century English corruption of the Kannada and Telugu ukku. Rename it to a Tamil term instead?",
+  "Name of Wootz Steel: ‘Wootz’ is the standard term of the scholarship, an 18th-century English corruption of the Kannada and Telugu ukku, ‘steel’. Classical Tamil has the cognate eḵku, ‘steel’ (also ‘spear’), attested in the Tirukkural (759) and Sangam poetry. Keep ‘Wootz Steel’ or rename it ‘Eḵku’?",
+  "Trebuchet: no trebuchets are attested in Pallava, Chola or Pandya warfare; Tamil literature (the Silappatikaram on the walls of Madurai) lists defensive engines such as stone-throwers and mechanical bows, closer to the Mangonel and Scorpion lines, and forts were taken with elephants and by assault. Keep the Trebuchet as a generic abstraction, as in the game and this draft, or remove it and rely on the Siege Elephant line, the Mangonel-line and the Petard?",
 ]
 
 [profile]
 entity = "The Tamils of the Tamil country (Tamilakam) under the Pallavas of Kanchipuram, the Pandyas of Madurai and above all the imperial Cholas of Thanjavur and Gangaikonda Cholapuram"
-region = "The Tamil country (modern Tamil Nadu), with Chola rule over northern Sri Lanka, the Maldives and parts of the Deccan; the Chera country of Kerala, part of Tamilakam in the Sangam age, is treated as a neighbour, since it went its own way politically and linguistically within the window"
+region = "The Tamil country (modern Tamil Nadu), with Chola rule over northern Sri Lanka, the Maldives and parts of the Deccan. The Chera country of Kerala, part of Tamilakam in the Sangam age, is treated as a neighbour, since it went its own way politically and linguistically within the window; so is the Tamil kingdom of Jaffna in northern Sri Lanka (from the later 13th century), left to the Sri Lankan civ idea"
 window = "575–1323 (from the Pallava and Pandya revivals of the late 6th century to the Tughluq conquest of Madurai; Chola peak 985–1120)"
 sources = [
   "Tanjore inscriptions of Rajaraja I and Rajendra I (South Indian Inscriptions, vol. II); Tiruvalangadu and Leiden copper plates; Uttaramerur inscriptions of Parantaka I (919–21)",
   "Culavamsa (the Sri Lankan chronicle), tr. W. Geiger",
+  "Tirukkural",
   "Marco Polo, Il Milione (Ma'bar, c. 1292), tr. H. Yule and H. Cordier; Wassaf, Tajziyat al-amsar wa tazjiyat al-a'sar",
+  "Amir Khusrau, Khaza'in al-Futuh (c. 1311)",
   "K. A. Nilakanta Sastri, The Pandyan Kingdom (1929), The Cōḷas (2nd ed. 1955) and A History of South India",
   "Burton Stein, Peasant State and Society in Medieval South India (1980)",
   "George W. Spencer, The Politics of Expansion: The Chola Conquest of Sri Lanka and Sri Vijaya (1983)",
+  "T. Burrow and M. B. Emeneau, A Dravidian Etymological Dictionary (2nd ed. 1984)",
+  "M. G. S. Narayanan, Perumāḷs of Kerala (1996)",
   "Phillip B. Zarrilli, When the Body Becomes All Eyes (1998)",
   "Sharada Srinivasan and Srinivasa Ranganathan, India's Legendary Wootz Steel (2004)",
   "Hermann Kulke, K. Kesavapany and Vijay Sakhuja (eds.), Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions to Southeast Asia (2009)",
@@ -58,7 +63,7 @@ kind = "economic"
 level = 1
 change = "changed"
 replaces = "Fishermen and Fishing Ships carry +15"
-precedent = "Shepherding, fishing, and hunting also generate gold (Varangians), narrowed to Fishing Ships (the Norse draft takes the same fishing part)"
+precedent = "Shepherding, fishing, and hunting also generate gold (Varangians), narrowed to Fishing Ships (the Norwegians' draft takes the same fishing part)"
 basis = "The pearl banks of the Gulf of Mannar were a major source of royal revenue for the Pandyas and, in their time, the Cholas: Marco Polo, in Ma'bar c. 1292, describes the divers working from boats, the king's tithe of the pearls and the shark-charmers' twentieth, and a ban on taking large pearls out of the kingdom. A more specific reading of the Tamil coastal economy than the old carry bonus."
 relevance = "Pearls were the Pandya kingdom's signature export and a royal revenue from antiquity to Marco Polo's visit; the pearl coast is how outsiders knew Ma'bar."
 
@@ -99,16 +104,16 @@ kind = "military"
 level = 1
 change = "new"
 replaces = "Skirmishers and Elephant Archers attack +25% faster"
-precedent = "Transport Ships +100% HP, +20 carry capacity (Saracens, whose draft gives it up)"
-basis = "What the sources show beyond doubt is Tamil armies carried by sea: the Pallava Narasimhavarman I sent an army to Sri Lanka in the 7th century to restore his ally Manavamma (Culavamsa), Rajaraja I conquered northern Sri Lanka (993) and the Maldives, and in 1025 Rajendra I's fleet landed an army that sacked the ports of Srivijaya and caught the king of Kadaram (Kedah); Virarajendra intervened at Kadaram again c. 1068 (Spencer 1983; Kulke et al. 2009). The bonus holds whether the ships were royal or requisitioned merchantmen. The attack-speed bonus it replaces had no specific basis."
-relevance = "Overseas expeditions to Sri Lanka, the Maldives and Srivijaya set the Cholas apart from every other Indian power of the age."
+precedent = "Transport Ships +100% HP, +20 carry capacity (Saracens, whose draft gives it up; also the Burmese draft)"
+basis = "What the sources show beyond doubt is Tamil armies carried by sea, generation after generation: the Pallava Narasimhavarman I sent armies to Sri Lanka in the 7th century to restore his ally Manavamma (Culavamsa); the Pandya Srimara Srivallabha invaded the island and sacked Anuradhapura in the reign of Sena I (c. 840s; Culavamsa); Rajaraja I conquered northern Sri Lanka (993) and claimed the ‘twelve thousand old islands’ of the sea, the Maldives, and Rajendra I took the rest of Sri Lanka (1017–18); and Pandya armies invaded the island again in the 13th century, carrying the Tooth Relic to Madurai in 1284 (Culavamsa; Nilakanta Sastri; Spencer 1983). The bonus holds whether the ships were royal or requisitioned merchantmen. The expedition to Srivijaya (1025) is left to Kadaram and the Kalam. The attack-speed bonus it replaces had no specific basis."
+relevance = "Armies carried overseas to Sri Lanka and the Maldives, from the Pallavas to the Pandyas, made the Tamil kingdoms the leading overseas military power of medieval India."
 
 [team_bonus]
 text = "Trade Units generate +10% gold"
 level = 1
 change = "new"
 replaces = "Docks provide +5 population space"
-precedent = "Trade Units generate +25% gold (Spanish team bonus), at a lower magnitude; the Armenians' and Ethiopians' drafts use the same text"
+precedent = "Trade Units generate +25% gold (Spanish team bonus), at a lower magnitude; now the team bonus of five designs (Armenians, Ethiopians, Maya, Rus', Tamils)"
 basis = "Itinerant merchant guilds, the Ainnurruvar (‘the Five Hundred of Ayyavole’, of Karnataka origin) and the Manigramam, traded across South India and overseas, leaving Tamil inscriptions at Takua Pa in Thailand (9th century, the Manigramam) and at Lobu Tua near Barus in Sumatra (1088, the Five Hundred); a Tamil merchant's bilingual inscription at Quanzhou in China (1281) records a Shiva image set up for the welfare of Kublai Khan. RULES 6.2: trade that benefited partners. The Docks population bonus it replaces had no specific basis."
 relevance = "The merchant guilds carried Tamil trade from Sumatra and Thailand to China and tied South India's ports to their partners, as RULES 6.2 requires."
 
@@ -119,9 +124,9 @@ building = "Castle"
 level = 1
 change = "new"
 replaces = "Urumi Swordsman"
-basis = "The Velaikkarar were elite regiments named in Chola inscriptions from Rajaraja I onwards, bound, in Nilakanta Sastri's reading, by oath to the king's person. They were also a force in Sri Lanka: a Velaikkara corps in the service of the Sinhalese king Vijayabahu I mutinied c. 1084 rather than sail against the Chola king (Culavamsa, ch. 60), and in the early 12th century a Velaikkara mercenary corps in Sinhalese service undertook to guard the Temple of the Tooth Relic at Polonnaruwa (Tamil slab inscription). Their weapons are not known in detail, so the unit takes a generic spearman, the Ghulam model, freed when the Hindustanis' Ghulam became a horse archer; spears, swords, bows and shields are what the Tamil hero stones (nadukal) show. It replaces the Urumi Swordsman: no source puts the urumi, the flexible whip-sword of the Keralan martial art kalarippayattu, on a medieval battlefield (Zarrilli 1998), and renaming that unit would have hung its whip-sword art and invented blast attack on a real corps (RULES 6.10)."
-relevance = "Named infantry regiments were the core of Chola armies, and the Velaikkarar, the best documented of them, were a political force at home and in Sri Lanka."
-contested = "Their status (sworn guard or professional corps) is debated (see contested); the model's pass-through spear thrust is game invention."
+basis = "The Velaikkarar were elite regiments named in Chola inscriptions from Rajaraja I onwards, bound, in Nilakanta Sastri's reading, by oath to the king's person. They were also a force in Sri Lanka: a Velaikkara corps in the service of the Sinhalese king Vijayabahu I mutinied c. 1084 rather than sail against the Chola king (Culavamsa, ch. 60), and in the early 12th century a Velaikkara mercenary corps in Sinhalese service undertook to guard the Temple of the Tooth Relic at Polonnaruwa (Tamil slab inscription). Their weapons are not known in detail, so the unit takes the nearest available infantry model, the game's Ghulam spearman (its pass-through thrust is game invention; see contested), freed when the Hindustanis' Ghulam became a horse archer on the Kipchak model; spears, swords, bows and shields are what the Tamil hero stones (nadukal) show, and Marco Polo saw the men of Ma'bar go to war with lance and shield. It replaces the martial-arts Urumi Swordsman: the urumi, the flexible whip-sword, belongs to the Keralan martial art kalarippayattu (Zarrilli 1998), and we know of no source that puts it on a medieval battlefield; renaming that unit would have hung its whip-sword art and invented blast attack on a real corps (RULES 6.10)."
+relevance = "Named infantry regiments were the core of Chola armies, and the Velaikkarar, the best documented of them, were also a political force in Sri Lanka."
+contested = "Their status (sworn guard or professional corps) is debated (see contested). The borrowed Ghulam art shows an armoured spearman, better protected than Tamil infantry, whom Marco Polo describes going to battle almost naked with lance and shield and the hero stones show bare-bodied (see ideas); the model's pass-through spear thrust is game invention."
 
 [[unique_unit]]
 name = "Kalam"
@@ -130,9 +135,9 @@ building = "Dock"
 level = 1
 change = "changed"
 replaces = "Thirisadai"
-basis = "Rajendra I's Tanjore inscription (1030–31) says he sent ‘many kalam’ (ships) across the rolling sea and caught the king of Kadaram; kalam, the word of the inscription, is preferred to marakkalam, the common Tamil word for a ship. ‘Thirisadai’ is not attested in any inscription or text: it came from the ‘Chola Navy’ article of the English Wikipedia, whose invented ship classes were exposed as a hoax in 2022 and removed."
+basis = "Rajendra I's Tanjore inscription (1030–31) says he sent ‘many kalam’ (ships) across the rolling sea and caught the king of Kadaram; kalam, the word of the inscription, is preferred to marakkalam, the common Tamil word for a ship. Its fighting role rests on Rajaraja I's earliest title, from c. 988, kāntaḷūr cālai kalam aṟutta, which Nilakanta Sastri read as the destruction of the Chera ships in the roadstead of Kandalur Salai; the design follows that reading, which is contested (see below), and otherwise the anti-ship role is an abstraction of the fleet. ‘Thirisadai’ is not attested in any inscription or text: it came from the ‘Chola Navy’ article of the English Wikipedia, whose invented ship classes were exposed as a hoax in 2022 and removed."
 relevance = "Ships carried the Chola armies to Sri Lanka, the Maldives and Srivijaya; sea power is the trait the Cholas are remembered for."
-contested = "Whether the Cholas had a standing navy is contested; ‘kalam’ fits either reading. The model is still an Austronesian ship from the Borobudur reliefs (see ideas)."
+contested = "Whether the Cholas had a standing navy is contested; ‘kalam’ fits either reading. Kerala historians (M. G. S. Narayanan) take Kandalur Salai as a Chera school with military training and read the title otherwise. The model is still an Austronesian ship from the Borobudur reliefs (see ideas)."
 
 [[unique_tech]]
 name = "Uttaramerur"
@@ -143,21 +148,21 @@ effect = "Villagers gather, build, and repair +5% faster"
 level = 2
 change = "new"
 precedent = "Villagers gather, build, and repair +5% faster (Romans, an out-of-scope civ whose bonuses remain in the game). A new tech (level 2): neither of the civ's existing techs is a state institution, and no existing tech renders local self-government."
-basis = "Two inscriptions of Parantaka I at Uttaramerur (919 and 921) set out how the assembly (sabha) of this brahmin village chose its committees (variyam) for the year, for the tanks, the gardens, gold and the village's annual business, by lot (kudavolai, ‘pot-tickets’) among qualified landholders of its thirty wards, barring those who had failed to render accounts (Nilakanta Sastri; Karashima 2014). Such assemblies (sabha, ur, nadu) ran the irrigation works, temple endowments and local dues of the Chola countryside; villagers working faster render that local management as an abstraction."
+basis = "Two inscriptions of Parantaka I at Uttaramerur (919 and 921) set out how the assembly (sabha) of this brahmin village chose its committees (variyam) for the year, for the tanks, the gardens, gold and the village's annual business, by lot (kudavolai, ‘pot-tickets’) among the qualified brahmin landholders of its thirty wards, barring those who had failed to render accounts and their kin (Nilakanta Sastri; Karashima 2014). Such assemblies (sabha, ur, nadu) ran the irrigation works, temple endowments and local dues of the Chola countryside; villagers working faster render that local management as an abstraction."
 relevance = "Self-governing village assemblies were among the defining institutions of medieval Tamil society and are central to the debate on the Chola state; the Uttaramerur rules are their best-known record."
-contested = "Uttaramerur was a brahmin village (brahmadeya), so how typical its rules were, and how much autonomy the assemblies kept under the Cholas, is debated (Stein 1980; Subbarayalu); its modern presentation as an early democracy overlooks a franchise limited to landholders."
+contested = "Uttaramerur was a brahmin village (brahmadeya), so how typical its rules were, and how much autonomy the assemblies kept under the Cholas, is debated (Stein 1980; Subbarayalu); its modern presentation as an early democracy overlooks a franchise limited to propertied brahmin men aged 35–70 with Vedic learning."
 
 [[unique_tech]]
 name = "Kadaram"
 building = "Dock"
 kind = "military"
 age = "Castle"
-effect = "Ships move +10% faster; Galley-line and Kalams +2 attack vs. buildings"
+effect = "Ships move +10% faster; Infantry +2 attack vs. buildings"
 level = 2
 change = "new"
 replaces = "Medical Corps (Elephant Units regenerate 30 HP per minute)"
-precedent = "Effect 1: Ships move +10% faster (Berbers). Effect 2: Foot Archers and Skirmishers +2 attack vs. buildings (Saracens team bonus), applied to warships as Northmen's Fury does (Mangonel-line and Catapult Galleons +1 range; Siege Weapons and Siege Warships +40% attack vs buildings, Danes). A new tech (level 2): no existing naval tech renders a sea-borne raid on ports (Cilician Fleet adds range, Thalassocracy builds Harbors, Circumnavigation is the Portuguese' Volta do Mar)."
-basis = "In 1025 Rajendra I's fleet crossed the Bay of Bengal and sacked a string of ports listed in his Tanjore inscription, from Srivijaya to Kadaram (Kedah), and ‘caught Sangrama-vijayottungavarman, the king of Kadaram, together with the elephants of his army’; his later records style him ‘who took the East, the Ganges and Kadaram’ (purvadesamum gangaiyum kadaramum konda), and Virarajendra intervened at Kadaram again c. 1068, restoring a king who had asked for his help (Nilakanta Sastri; Spencer 1983; Kulke et al. 2009). Effect 1 is an abstraction of the fleet's reach, effect 2 of the raids on port towns. Medical Corps, which it replaces, moves to the Bengalis as Hastyayurveda."
+precedent = "Effect 1: Ships move +10% faster (Berbers). Effect 2: Infantry +1/+2/+3 attack vs. buildings in Feudal/Castle/Imperial Age (Goths), at its Castle Age value. A new tech (level 2): no existing naval tech renders a seaborne raid on ports (Cilician Fleet adds range, Thalassocracy builds Harbors, Circumnavigation is the Portuguese' Volta do Mar)."
+basis = "In 1025 Rajendra I's fleet crossed the Bay of Bengal and sacked a string of ports listed in his Tanjore inscription, from Srivijaya to Kadaram (Kedah), and ‘caught Sangrama-vijayottungavarman, the king of Kadaram, together with the elephants of his army’; his later records style him ‘who took the East, the Ganges and Kadaram’ (purvadesamum gangaiyum kadaramum konda), and Virarajendra intervened at Kadaram again c. 1068, restoring a king who had asked for his help (Nilakanta Sastri; Spencer 1983; Kulke et al. 2009). Effect 1 is an abstraction of the fleet's reach across the Bay of Bengal, effect 2 of the landing parties that sacked the port towns. Medical Corps, which it replaces, moves to the Bengalis as Hastyayurveda."
 relevance = "The 1025 expedition is the most famous Chola enterprise and the reason the Cholas are remembered as a sea power."
 contested = "Raid, conquest or the defence of trade: the purpose of the expedition is debated."
 
@@ -170,25 +175,26 @@ effect = "Infantry and Cavalry attacks ignore armor"
 level = 1
 change = "kept"
 precedent = "Wootz Steel (Infantry and Cavalry attacks ignore armor) (Dravidians)"
-basis = "Crucible steel of high carbon content was made in South India and Sri Lanka and exported to the Islamic world, where it became the ‘Damascus’ blade (Srinivasan and Ranganathan 2004). ‘Wootz’ is an 18th-century English corruption of the Kannada and Telugu ukku, kept because it is the standard term of the scholarship (see open questions); ignoring armour is an exaggerated abstraction of blade quality."
-relevance = "South Indian crucible steel is one of the region's most famous technologies, sought from the Islamic world to Europe."
+basis = "Crucible steel of high carbon content was made in South India and Sri Lanka and exported to the Islamic world, where it became the ‘Damascus’ blade (Srinivasan and Ranganathan 2004). ‘Wootz’ is an 18th-century English corruption of the Kannada and Telugu ukku, ‘steel’; classical Tamil has the cognate eḵku, ‘steel’ and ‘spear’ (Tirukkural 759; Burrow and Emeneau), which the owner may prefer as a name (see open questions). The word ukku and many production sites belong to the Deccan as much as to the Tamil country, so a future Deccan civ would have an equal claim to the tech and could share it. Ignoring armour is an exaggerated abstraction of blade quality."
+relevance = "South Indian crucible steel is one of the region's most famous technologies, sought across the Islamic world, where it made the ‘Damascus’ blade."
 
 [tree]
 add = ["Architecture", "Treadmill Crane", "Stone Shaft Mining", "Elite Battle Elephant", "Crop Rotation"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Cannon Galleon", "Elite Cannon Galleon", "Arbalester"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Cannon Galleon", "Elite Cannon Galleon", "Arbalester", "Thumb Ring"]
 
 [tree.basis]
 "Architecture" = "The Tamil country is one of the great stone-building traditions: the Pallava monoliths and Shore Temple at Mamallapuram and the Kailasanatha at Kanchipuram (7th–8th centuries), the granite vimana of the Rajarajeshvara at Thanjavur, about 66 m high (c. 1010), and Gangaikonda Cholapuram. Its absence was the most ironic gap of the old tree."
-"Treadmill Crane" = "Same basis: raising the granite vimana of Thanjavur required engineering on a scale unmatched in the India of its time."
-"Stone Shaft Mining" = "Same basis: the Chola temples were built of granite quarried and hauled from far afield."
-"Elite Battle Elephant" = "Chola and Pandya armies fielded large elephant corps: Rajendra I's Tanjore inscription boasts of the war elephants taken with the king of Kadaram, the 12th-century war poem Kalingattupparani celebrates the elephants of Kulottunga I's Kalinga campaign, and Malik Kafur's campaign of 1310–11 against the Hoysalas and the Pandya Ma'bar brought several hundred elephants back to Delhi (Amir Khusrau; Barani; Nilakanta Sastri)."
+"Treadmill Crane" = "An abstraction of faster building: no treadwheel cranes are attested in India, and the tech stands for the scale of Chola building in granite. How the Thanjavur vimana was raised is not recorded; a local tradition speaks of a long earthen ramp, which no inscription mentions."
+"Stone Shaft Mining" = "Same basis as Architecture: the Chola temples were built of granite quarried and hauled from far afield."
+"Elite Battle Elephant" = "Tamil kings fought from elephant-back and kept large elephant corps: the Chola crown prince Rajaditya fell on his elephant at Takkolam (949), and Chola records remember him as ‘the lord who died on the elephant’; Rajadhiraja I was killed on his elephant at Koppam (1054); the 12th-century war poem Kalingattupparani celebrates the elephants of Kulottunga I's Kalinga campaign; and Amir Khusrau counts elephants among the spoils that Malik Kafur took from the Pandya Ma'bar in 1311 (Nilakanta Sastri; Amir Khusrau)."
 "Crop Rotation" = "Tank and canal irrigation allowed more than one paddy crop a year in the Kaveri delta (Karashima 2014); the absence of the field tech sat ill with the new farm bonus."
 "Hand Cannoneer" = "The window ends in 1323; firearms reached South India only from the later 14th and 15th centuries, with the Bahmanis (1366 according to Firishta, contested) and Vijayanagara, which belong to a future Deccan civ (see ideas)."
-"Bombard Cannon" = "Same basis. The Trebuchet (a generic abstraction, see contested), the Mangonel-line, the Siege and Armored Elephants and the Petard keep the civ able to break fortifications; elephants and assault were the attested ways of taking forts."
+"Bombard Cannon" = "Same basis. The Trebuchet (kept as a generic abstraction; see open questions), the Mangonel-line, the Siege and Armored Elephants and the Petard keep the civ able to break fortifications; elephants and assault were the attested ways of taking forts."
 "Bombard Tower" = "Same basis: no gunpowder fortifications in the Tamil country before 1323."
-"Cannon Galleon" = "Same basis; the naval anti-building role passes to the Kalam and the Galley-line with the Kadaram tech."
+"Cannon Galleon" = "Same basis; Fire Ships, Demolition Ships and the Galleon line remain the naval answer to buildings."
 "Elite Cannon Galleon" = "Same basis."
 "Arbalester" = "No crossbows are attested in Pallava, Chola or Pandya armies. Under the project's criterion (Armenians, Ethiopians, Malians) the crossbow tier goes and the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split."
+"Thumb Ring" = "No thumb draw or thumb rings are attested for Pallava, Chola or Pandya archers. The project gives the tech only where a thumb draw is attested (the Ethiopians, Malians and Gurjaras lose it, and the Bengalis do not get it); the thumb draw belongs to the steppe tradition of the Turkish horse archers, for whom the Hindustanis keep it. The Archer-line and the Elephant Archers keep the civ's archery."
 
 [[rename]]
 from = "Elite Ghulam"
