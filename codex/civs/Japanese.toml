@@ -2,13 +2,13 @@ civ = "Japanese"
 name = "Japanese"
 status = "draft"
 label = "Infantry and Cavalry Archer civilization"
-summary = "Japan (645–1600), on the owner’s sketch: double cropping, ō-yoroi and ashigaru replace the cheap camps, Tanegashima (the one late element) Kataparuto, Shugo-Jitō is the Town Center tech, Yasama goes, the Ming tally trade gives the team bonus, and the Traction Trebuchet replaces the Trebuchet."
+summary = "Japan (645–1600), on the owner’s sketch: double cropping, ō-yoroi and ashigaru replace the cheap camps, the Cavalry Archer attack bonus goes, Genko Borui (the Hakata Bay wall of 1276) and Tanegashima (the one late element) replace Yasama and Kataparuto, Shugo-Jito is the Town Center tech, the Ming tally trade gives the team bonus, and the Traction Trebuchet replaces the Trebuchet."
 ideas = [
   "N2: A Samurai that switches between bow and sword (like the Ratha), so that one unit covers both the Heian–Kamakura mounted archer (kyūba no michi) and the later foot swordsman (owner’s list, RULES 10).",
-  "N2: A heavy mounted archer (mounted samurai) trained at the Castle, with more melee armour and less speed than the Cavalry Archer, for the ō-yoroi warriors of the Genpei War (1180–85) and of the Mongol invasions (Friday 2004).",
-  "N2 (owner’s list): Sōhei, the armed forces of the great temples. From the 10th–11th centuries Enryaku-ji on Mount Hiei and Kōfuku-ji at Nara pressed the court with armed demonstrations (gōso), with the naginata as their emblematic weapon; in the 16th century the armed community of Negoro-ji (Negoro-shū) were famous arquebusiers, and Oda Nobunaga burnt Enryaku-ji (1571) while fighting the Ikkō-ikki, leagues of lay Jōdo Shinshū believers led from Ishiyama Hongan-ji, for ten years (1570–80). The Warrior Priest, which the Armenian design drops, would make it N1 (see open questions).",
+  "N2: A heavy mounted archer (mounted samurai) trained at the Castle, with more melee armour and less speed than the Cavalry Archer, for the ō-yoroi warriors of the Genpei War (1180–85) and of the Mongol invasions (Friday 2004). The Scenario Editor’s Mounted Samurai (RULES section 5) was considered for this role and is not used: by the fandom wiki’s description it is a melee heavy cavalryman drawn with the Hussar’s art, which cannot be converted and regenerates like a hero (it appears in the Kurikara scenario of Battles of the Forgotten), so it would render neither the mounted archer nor a Japanese look (its stats and art are still to be checked in game).",
+  "N2 (owner’s list): Sōhei, the armed forces of the great temples. From the 10th–11th centuries Enryaku-ji on Mount Hiei and Kōfuku-ji at Nara pressed the court with armed demonstrations (gōso), with the naginata as their emblematic weapon; in the 16th century the armed community of Negoro-ji (Negoro-shū) were famous arquebusiers, and Oda Nobunaga burnt Enryaku-ji (1571) while fighting the Ikkō-ikki, leagues of lay Jōdo Shinshū believers led from Ishiyama Hongan-ji, for ten years (1570–80). The Warrior Priest, which the Armenian design drops, would make them N1 as a second unique unit; the design keeps them as an N2 idea, as the owner’s sketch has it.",
   "N2: Ashigaru with long spears (nagae-yari, 4.5–6.5 m): extra melee range for the Spearman-line, reusing the reach mechanic of the Kamayuk.",
-  "N2: Ishigaki, stone-faced castle bases (+HP for Castles and walls), for the castles of the late 16th century (Azuchi, 1576). Kept out of this level although its walls part could share the Great Wall effect, because it would be a second late element (RULES section 2).",
+  "N2: Ishigaki, stone-faced castle bases (+HP for Castles and walls), for the castles of the late 16th century (Azuchi, 1576). Kept out of this level: its walls part would repeat the Great Wall effect that Genko Borui already uses, and it would be a second late element (RULES section 2).",
   "N3: A wakō / Murakami suigun naval unit for the pirate and clan fleets, and a Ryūkyū civ (unified 1429).",
 ]
 contested = [
@@ -17,21 +17,16 @@ contested = [
   "The date of the arrival of firearms at Tanegashima (1543 in the Teppōki, 1542 in António Galvão) and Fernão Mendes Pinto’s claim to have been there.",
   "The Teppōki tells how the gun spread to Sakai (Tachibanaya Matasaburō) and Negoro (Tsuda Kenmotsu); Kunitomo’s role comes from later local records.",
   "Rotating three-rank volleys at Nagashino (1575), not clearly described in the Shinchō kōki (Fujimoto Masayuki).",
-  "A decisive typhoon in 1274 (the ‘kamikaze’); the typhoon of 1281 is well attested.",
+  "A decisive typhoon in 1274 (the ‘kamikaze’); the typhoon of 1281 is well attested. How much the Japanese defence, the Hakata Bay wall among it, rather than the storms decided the invasions is debated: Conlan (2001) argues that the warriors held the Mongols without divine help, against the older ‘kamikaze’ narrative.",
+  "Genkō Bōrui (‘the defence wall against the Mongol invasions’) is a modern name, given by the archaeologist Nakayama Heijirō after his excavation of 1913; the documents of the time call the wall ishitsuiji (石築地, ‘stone-built wall’). The tech keeps the owner’s name, flagged as a modern coinage (RULES 6.16.15).",
   "How far Kuki Yoshitaka’s gun-armed ships for Oda Nobunaga (1578) were really iron-clad.",
   "The Ming treated the tally missions as costly tribute rather than a gain: under the Xuande emperor (1430s) it limited Japan to one mission every ten years, with three ships and 300 men, and it cut the prices it paid when the mission of 1453 brought swords in excess (von Verschuer 2006). The team bonus rests on what China did gain: the shoguns’ action against the wakō, and Japan’s sulphur and copper.",
-  "Mangonel and Onager stay as abstractions of the default tree. The Mangonel is read as a light traction stone-thrower (in many medieval sources ‘mangonel’ meant the traction trebuchet, while the game’s art shows a torsion engine); the Onager has no Japanese counterpart and is kept as a pure abstraction, whereas the Khitan design takes the Mangonel tier only and leaves out the Onager (see open questions). Traction engines themselves stayed marginal in Japan: the firm evidence is Goguryeo’s gift of captured Sui stone-throwers in 618 (Nihon Shoki). Japanese studies of the Ōnin War also report a stone-thrower (hassekiboku) built for the Eastern army in Kyoto in 1468, citing the diary Hekizan nichiroku; this design could not check the passage and does not rely on it.",
+  "Mangonel and Onager stay as abstractions of the default tree. The Mangonel is read as the light traction stone-thrower, the light stone-thrower of every design (RULES 6.16.5; in many medieval sources ‘mangonel’ meant the traction trebuchet, while the game’s art shows a torsion engine); the Onager has no Japanese counterpart and is kept as a pure abstraction. Leaving out the Onager tier, as the Khitan design does, was considered and not adopted, so that the siege line stays the default one. Traction engines themselves stayed marginal in Japan: the firm evidence is Goguryeo’s gift of captured Sui stone-throwers in 618 (Nihon Shoki). Japanese studies of the Ōnin War also report a stone-thrower (hassekiboku) built for the Eastern army in Kyoto in 1468, citing the diary Hekizan nichiroku; this design could not check the passage and does not rely on it.",
+  "The Arbalester stays on crossbow evidence (RULES 6.16.3): the ōyumi (弩) of the ritsuryō army. Goguryeo’s gift of 618 included crossbows (Nihon Shoki, Suiko 26); the military code had two men of each fifty-man company trained on the ōyumi, and in the 9th century province after province asked the court for ōyumi instructors because no one could use the weapons in their armouries (Friday 2004). What the ōyumi was is debated: Friday thinks it was probably a heavy, mounted crossbow rather than a hand-held one, and it fell out of use as the mounted bushi rose. The Arbalester therefore rests on an early and partly heavy crossbow, an abstraction for the crossbow tier; the Heavy Scorpion, kept from the game, fits the heavier reading.",
   "The grant of late 1185: the contemporary diary Gyokuyō (Bunji 1.11.28) says that Hōjō Tokimasa and Yoritomo’s men were assigned the provinces of the Kinai, San’in, San’yō, Nankai and Saikai to levy commissariat rice of five shō per tan and to manage the land, without naming shugo; the Azuma kagami, compiled c. 1300, presents it as the appointment of shugo and jitō in every province. Whether it created provincial land stewards (kuni-jitō, Ishimoda Shō) rather than the later shugo and estate jitō, and how far it reached at first, is debated (Mass 1974); the rice levy was withdrawn in 1186 after protests.",
   "Sōhei is an Edo-period label: medieval sources speak of ‘evil monks’ (akusō) and of temple forces, many of them temple servants and affiliated warriors rather than ordained monks (Adolphson 2007, who prefers ‘monastic warriors’).",
 ]
-open_questions = [
-  "Label: ‘Infantry and Cavalry Archer civilization’ instead of ‘Infantry civilization’, to give back the four centuries of mounted warfare (c. 900–1350). Accept?",
-  "Sōhei: your sketch keeps the warrior monks as an N2 idea, and the design follows it. Alternative: a second unique unit now, in N1, on the Warrior Priest, which the Armenian design drops: a Monastery infantry unit that fights, heals and carries Relics. Keep the N2 idea, or promote them?",
-  "Power budget: six passive bonuses (two of them for the Cavalry Archer, both resting on the Heian–Kamakura mounted archer: the kept +2 attack vs. Ranged Soldiers and your +20 HP) plus Tanegashima and Shugo-Jitō, against the current four bonuses with the strong cheap-camps opening. One option: drop the older Cavalry Archer bonus, whose target the analysis calls arbitrary, and add Genkō Bōrui as a third unique tech: the stone wall that the Kyūshū housemen built along Hakata Bay in 1276, each in proportion to his land, and which kept the 1281 army from landing there. It would sit at the Castle in the Castle Age with the Great Wall effect shared, as the Korean Eupseong does at the Town Center (level 1; on where state fortification programmes belong, see codex-wide question CQ25(c)), giving five passives and three techs, with the Castle techs in chronological order (1276, then Tanegashima in 1543). Apply this swap, trim in another way, or keep the six passives?",
-  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here Shugo-Jitō, one of seven Town Center techs with the Kshatriyas effect, and the trade-gold team bonus).",
-  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (here the Cannon Galleons go by your decision and no substitute siege warship is given).",
-  "Siege line: the Mangonel and Onager stay from the default tree beside the new Traction Trebuchet, although traction engines stayed marginal in Japan (see contested). Keep both, or leave out the Onager tier, as the Khitan design does?",
-]
+open_questions = []
 
 [profile]
 entity = "Japan (Yamato, then Nihon): the ritsuryō state, the Heian court, the Kamakura and Muromachi shogunates and the Sengoku domains"
@@ -50,6 +45,7 @@ sources = [
   "António Galvão, Tratado dos Descobrimentos (1563)",
   "Karl F. Friday, Hired Swords (1992); Samurai, Warfare and the State in Early Medieval Japan (2004)",
   "Jeffrey P. Mass, Warrior Government in Early Medieval Japan (1974)",
+  "Thomas D. Conlan, In Little Need of Divine Intervention: Takezaki Suenaga’s Scrolls of the Mongol Invasions of Japan (2001)",
   "Thomas D. Conlan, State of War: The Violent Order of Fourteenth-Century Japan (2003)",
   "Charlotte von Verschuer, Across the Perilous Sea: Japanese Trade with China and Korea from the Seventh to the Sixteenth Centuries (2006)",
   "Mikael S. Adolphson, The Teeth and Claws of the Buddha: Monastic Warriors and Sōhei in Japanese History (2007)",
@@ -86,23 +82,14 @@ relevance = "From the 14th century the sword and the foot warrior became the ima
 contested = "For most of the period the bow, and later the spear and the arquebus, mattered more than the sword (Conlan 2003)."
 
 [[bonus]]
-text = "Cavalry Archers +2 attack vs. Ranged Soldiers (except Skirmishers)"
-kind = "military"
-level = 1
-change = "kept"
-precedent = "Cavalry Archers +2 attack vs. Ranged Soldiers (except Skirmishers) (Japanese)"
-basis = "From c. 900 to the 14th century the elite warrior (bushi) was above all a mounted archer: the ‘way of bow and horse’ (kyūba no michi) of the Heian and Kamakura war tales and of the Mongol invasion scrolls (Mōko shūrai ekotoba, c. 1293), a skill trained from youth and tested in mounted archery (Friday 2004). The target of the bonus is a game choice."
-relevance = "The trained skill of shooting from the saddle was what made a man a bushi in the Heian and Kamakura periods: without it there is no warrior class to fight the Genpei War or to meet the Mongols."
-contested = "The long asymmetric Japanese bow (yumi) differs from the steppe composite bow of the generic unit. This bonus (the skill) and the +20 HP bonus (the armour) rest on the same mounted-archer tradition (see open questions)."
-
-[[bonus]]
 text = "Cavalry Archers +20 HP"
 kind = "military"
 level = 1
 change = "new"
 precedent = "Sipahi (Mounted Archers +20 HP) (Turks), applied to Cavalry Archers"
-basis = "Owner’s decision. The ō-yoroi (‘great armour’) of the 10th–14th centuries was a boxy lamellar harness made for the mounted archer, with broad shoulder boards (ō-sode) and a four-panel skirt for riding and shooting: the armour of the Genpei War (1180–85) and of the warriors who met the Mongols in 1274 and 1281 (Heike monogatari; Mōko shūrai ekotoba). It is a passive rather than a unique tech, because an equipment tradition of four centuries is a structural trait (RULES 6.2), as the owner’s sketch has it."
+basis = "Owner’s decision. From c. 900 to the 14th century the elite warrior (bushi) was above all a mounted archer: the ‘way of bow and horse’ (kyūba no michi) of the Heian and Kamakura war tales and of the Mongol invasion scrolls (Mōko shūrai ekotoba, c. 1293), a skill trained from youth and tested in mounted archery (Friday 2004). The ō-yoroi (‘great armour’) of the 10th–14th centuries was a boxy lamellar harness made for that mounted archer, with broad shoulder boards (ō-sode) and a four-panel skirt for riding and shooting: the armour of the Genpei War (1180–85) and of the warriors who met the Mongols in 1274 and 1281 (Heike monogatari; Mōko shūrai ekotoba). It is a passive rather than a unique tech, because an equipment tradition of four centuries is a structural trait (RULES 6.2), as the owner’s sketch has it. Since the owner’s decision dropped the game’s Cavalry Archer attack bonus for Genko Borui (see dropped), this bonus and the label (‘Infantry and Cavalry Archer civilization’, RULES 6.16.16) carry the mounted archer of the Heian–Kamakura centuries."
 relevance = "Heavy armour let the mounted archer close to short range and survive the exchange of arrows: without the armoured mounted elite there would have been no warrior class to win the Genpei War and hold the coast against the Mongols, so the bonus stands for that elite rather than for one type of armour."
+contested = "The long asymmetric Japanese bow (yumi) differs from the steppe composite bow of the generic unit."
 
 [[bonus]]
 text = "Spearman-line costs -25%"
@@ -119,7 +106,7 @@ level = 1
 change = "new"
 replaces = "Galley-line +4 line of sight"
 precedent = "Trade Units generate +25% gold (Spanish team bonus), applied to Trade Cogs at a lower magnitude"
-basis = "Owner’s decision: the licensed tally trade (kangō bōeki) with the Ming, 1404–1547. In return for investiture and action against the wakō pirates (Ashikaga Yoshimitsu sent captured pirates to the Ming in 1405–07), the Ashikaga shoguns sent official missions to Ningbo, later run by the Hosokawa and Ōuchi with the merchants of Sakai and Hakata. Japan supplied swords by the tens of thousands, copper and sulphur, a gunpowder raw material, and took back silk, books and copper coin: Japan minted no coin between 958 and the late 16th century, and imported Chinese coin, mostly Northern Song with the Ming coin of the missions added, was the everyday money of Muromachi Japan (von Verschuer 2006). A team bonus because China gained the shoguns’ action against piracy and Japan’s sulphur and copper (RULES 6.2: trade), though the Ming counted the missions as a costly tribute (see contested); a maritime trade, hence Trade Cogs. The line-of-sight bonus it replaces had nothing specifically Japanese; the ashigaru, a trait that benefited only Japan, ground the Spearman-line bonus rather than a team bonus. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)."
+basis = "Owner’s decision: the licensed tally trade (kangō bōeki) with the Ming, 1404–1547. In return for investiture and action against the wakō pirates (Ashikaga Yoshimitsu sent captured pirates to the Ming in 1405–07), the Ashikaga shoguns sent official missions to Ningbo, later run by the Hosokawa and Ōuchi with the merchants of Sakai and Hakata. Japan supplied swords by the tens of thousands, copper and sulphur, a gunpowder raw material, and took back silk, books and copper coin: Japan minted no coin between 958 and the late 16th century, and imported Chinese coin, mostly Northern Song with the Ming coin of the missions added, was the everyday money of Muromachi Japan (von Verschuer 2006). A team bonus because China gained the shoguns’ action against piracy and Japan’s sulphur and copper (RULES 6.2: trade), though the Ming counted the missions as a costly tribute (see contested); a maritime trade, hence Trade Cogs. The line-of-sight bonus it replaces had nothing specifically Japanese; the ashigaru, a trait that benefited only Japan, ground the Spearman-line bonus rather than a team bonus. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (RULES 6.16.12)."
 relevance = "The tally trade was Muromachi Japan’s official link to China: it brought coin, silk and books, financed the shoguns and later the Ōuchi and Hosokawa, and sent Japanese copper and sulphur to the Ming."
 
 [[unique_unit]]
@@ -130,7 +117,20 @@ level = 1
 change = "kept"
 basis = "‘Samurai’ (from saburau, ‘to serve’) first meant armed retainers, then a social status. A foot swordsman with a long sword (uchigatana, nodachi) fits the 14th–16th centuries, when warriors fought more and more on foot; ‘strong vs. unique units’ is pure game design."
 relevance = "The samurai were Japan’s ruling warrior class from the 12th century to 1868 and are the emblem of the civ."
-contested = "Before c. 1350 the samurai fought mainly as a mounted archer; that side is carried by the two Cavalry Archer bonuses."
+contested = "Before c. 1350 the samurai fought mainly as a mounted archer; that side is carried by the Cavalry Archer bonus and the label."
+
+[[unique_tech]]
+name = "Genko Borui"
+building = "Castle"
+kind = "military"
+age = "Castle"
+effect = "Walls and Watch Tower-line +30% HP"
+level = 1
+change = "new"
+precedent = "Great Wall (Walls, Watch Tower-line and Bombard Towers +30% HP) (Chinese): an existing unique tech, shared and renamed with an identical effect, without the Bombard Towers, which the Japanese do not have; the Koreans’ design shares it too, as Eupseong at the Town Center"
+basis = "Owner’s decision, in place of the Cavalry Archer attack bonus (see dropped). After the first Mongol invasion (1274), the Kamakura bakufu ordered the housemen (gokenin) and landholders of Kyūshū, in the 3rd month of 1276, to build a stone wall along the shore of Hakata Bay, the landing place of 1274: each provided a stretch in proportion to his land, and each province held its own sector (the men of Hyūga and Ōsumi at Imazu, those of Higo at Ikinomatsubara). The wall ran for about 20 km and stood some 2 m high, higher on the sea side, and the guard duty against foreign attack (ikoku keigo banyaku) kept Kyūshū warriors on it and repairing it until the end of the Kamakura shogunate. In 1281 the Eastern Route Army found it manned and could not land at Hakata: it seized the island of Shikanoshima instead, where the Japanese counter-attacked by land and by boat, and the invasion stayed offshore until the typhoon (Conlan 2001; the Mōko shūrai ekotoba shows the Higo warrior Kikuchi Takefusa and his men seated on the wall). Genkō Bōrui is the modern name (see contested); the item name is in plain romanization (RULES 6.16.15). At the Castle because a defence line is a military work (RULES 6.2; defence lines go to the Castle, RULES 6.16.19(c)); Castle Age, the age of the Great Wall it copies, and before Tanegashima (1543), as the chronological order of the two Castle techs requires (RULES 6.4). Level 1: the existing effect, identical in play."
+relevance = "The stone wall was the Kamakura shogunate’s answer to the Mongols: it kept the army of 1281 from landing where the army of 1274 had landed, and guard duty on it bound the warriors of Kyūshū for half a century; it remains the emblem of Japan’s defence against the Mongol invasions, the gravest foreign threat of its pre-modern history."
+contested = "The name is modern, and how far the defence rather than the typhoon decided the invasion of 1281 is debated (see contested)."
 
 [[unique_tech]]
 name = "Tanegashima"
@@ -142,20 +142,20 @@ level = 2
 change = "new"
 replaces = "Kataparuto (Trebuchets attack and pack/unpack faster)"
 precedent = "All units cost -20% gold (Portuguese), applied to Hand Cannoneers; Gunpowder Units train +25% faster (Turks team bonus), applied to Hand Cannoneers"
-basis = "Late element, RULES section 2, and the civ’s only one (with the Hand Cannoneer already in the tree, also Imperial Age only). Portuguese traders landed on Tanegashima in 1543 (Teppōki, 1606) or 1542 (António Galvão, 1563); the island’s lord bought two matchlocks and had the swordsmith Yaita Kinbei copy them, and within a generation the gun was made in numbers (the Teppōki tells of Sakai and Negoro); Oda Nobunaga’s arquebusiers at Nagashino (1575) are its famous use. Owner’s decision: it replaces Kataparuto, the modern katakana loanword for English ‘catapult’, whose effect has nothing to apply to once the counterweight Trebuchet goes. A new tech, so level 2: no existing tech has this effect."
+basis = "Late element, RULES section 2, and the civ’s only one (with the Hand Cannoneer already in the tree, also Imperial Age only). Portuguese traders landed on Tanegashima in 1543 (Teppōki, 1606) or 1542 (António Galvão, 1563); the island’s lord bought two matchlocks and had the swordsmith Yaita Kinbei copy them, and within a generation the gun was made in numbers (the Teppōki tells of Sakai and Negoro); Oda Nobunaga’s arquebusiers at Nagashino (1575) are its famous use. Owner’s decision: it replaces Kataparuto, the modern katakana loanword for English ‘catapult’, whose effect has nothing to apply to once the counterweight Trebuchet goes. A new tech, so level 2: no existing tech has this effect. Imperial Age, after Genko Borui (1276), in the chronological order of the two Castle techs (RULES 6.4)."
 relevance = "The arquebus, copied and mass-produced within a generation, reshaped Sengoku warfare and the unification; RULES section 2 names it as the model late element with clear fame."
 contested = "The date (1542 or 1543), Fernão Mendes Pinto’s claim to have been there and the volleys at Nagashino are debated (see contested)."
 
 [[unique_tech]]
-name = "Shugo-Jitō"
+name = "Shugo-Jito"
 building = "Town Center"
 kind = "civil"
 age = "Castle"
 effect = "Military Units cost -25% food"
 level = 1
 change = "new"
-precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, shared and renamed with an identical effect; six other designs share it for systems of service paid in land or kind (the Burmese Ahmudan, Byzantine Themata, Ethiopian Gult, Gaelic Buannacht, Gurjara Samantas and Jurchen Meng'an Mouke; codex-wide question CQ11)"
-basis = "In late 1185 the retired emperor Go-Shirakawa authorised Minamoto no Yoritomo’s men to levy commissariat rice (hyōrōmai) of five shō per tan on the estates and public lands of the home provinces and the west and to manage the land (Gyokuyō, Bunji 1.11.28); the Azuma kagami (c. 1300) presents the same grant as the appointment of constables (shugo) and land stewards (jitō). The jitō, drawn from Yoritomo’s housemen, kept order on the land and took a share of its revenue, so the warriors were fed from the estates they policed (Mass 1974). The rice levy itself was withdrawn in 1186, and the Muromachi half-tax edicts (hanzei, 1352 and 1368) later gave the shugo half of estate revenues to supply their troops. Cheaper food for soldiers renders an army provisioned from the land. At the Town Center because the shugo–jitō network was the governing institution of the first shogunate (RULES 6.2). The owner’s sketch named no Town Center tech."
+precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, shared and renamed with an identical effect; six other designs share it for systems of service paid in land or kind (the Burmese Ahmudan, Byzantine Themata, Ethiopian Gult, Gaelic Buannacht, Gurjara Samantas and Jurchen Meng'an Mouke), a reuse that RULES 6.16.12 accepts for level 1"
+basis = "In late 1185 the retired emperor Go-Shirakawa authorised Minamoto no Yoritomo’s men to levy commissariat rice (hyōrōmai) of five shō per tan on the estates and public lands of the home provinces and the west and to manage the land (Gyokuyō, Bunji 1.11.28); the Azuma kagami (c. 1300) presents the same grant as the appointment of constables (shugo) and land stewards (jitō). The jitō, drawn from Yoritomo’s housemen, kept order on the land and took a share of its revenue, so the warriors were fed from the estates they policed (Mass 1974). The rice levy itself was withdrawn in 1186, and the Muromachi half-tax edicts (hanzei, 1352 and 1368) later gave the shugo half of estate revenues to supply their troops. Cheaper food for soldiers renders an army provisioned from the land. At the Town Center because the shugo–jitō network was the governing institution of the first shogunate (RULES 6.2). The item name is in plain romanization (Shugo-Jitō in Hepburn; RULES 6.16.15). The owner’s sketch named no Town Center tech."
 relevance = "The shugo–jitō network made the warriors the governing class of the provinces and was the base of warrior rule from 1185 to the 16th century."
 contested = "The scope of the grant of 1185 and the reading of its offices are debated (see contested)."
 
@@ -166,9 +166,9 @@ remove = ["Trebuchet", "Cannon Galleon", "Elite Cannon Galleon"]
 [tree.basis]
 "Crop Rotation" = "Owner’s decision. The rice–barley (or wheat) cycle of medieval western Japan, extended near Amagasaki by a third crop of buckwheat (Song Hui-gyeong, 1420); its absence contradicted one of the period’s main agricultural advances."
 "Architecture" = "Owner’s decision. Japan keeps some of the oldest wooden buildings in the world (Hōryū-ji, late 7th century) and raised the colossal Great Buddha Hall of Tōdai-ji (8th century); its absence contradicted this."
-"Traction Trebuchet" = "Owner’s decision. The rope-pulled stone-thrower of East Asia, the only kind known in early Japan: in 618 Goguryeo presented to the court of Suiko trophies taken from the Sui, crossbows and stone-throwers among them, as a diplomatic gift (Nihon Shoki, Suiko 26). It replaces the counterweight Trebuchet as the long-range siege weapon (RULES 6.11), although its use in Japan stayed marginal (see contested)."
+"Traction Trebuchet" = "Owner’s decision, resting on a documented transfer of the engines themselves: in 618 Goguryeo presented to the court of Suiko trophies taken from the Sui, among them crossbows and stone-throwers (抛石), as a diplomatic gift (Nihon Shoki, Suiko 26). That meets the traction test (RULES 6.16.5), although no Japanese building or use of the engine is securely recorded afterwards (see contested). It replaces the counterweight Trebuchet as the long-range siege weapon (RULES 6.11)."
 "Trebuchet" = "Owner’s decision. No Japanese use of the counterweight trebuchet is known; Japanese sieges were won by blockade, fire and assault, and from the late 16th century by European-type cannon. Kataparuto, which improved it, gives its slot to Tanegashima."
-"Cannon Galleon" = "Owner’s decision. Japanese fleets carried little artillery, their great weakness against the Korean panokseon in the Imjin War (1592–98); Kuki Yoshitaka’s gun-armed ships for Oda Nobunaga (1578) were an exception."
+"Cannon Galleon" = "Owner’s decision. Japan keeps the fleet-of-ships tier (RULES 6.16.1): its planked ships ranged from the embassy ships to Tang China and the fleets of the Genpei War, which fought the sea battle of Dan-no-ura (1185), to the ships of the tally trade and the atakebune of the 16th-century clan navies, with the Galleon kept as the skeleton’s flagged abstraction (RULES 6.16.2). The Cannon Galleons go and no substitute siege warship is given, because Japanese fleets carried little artillery, their great weakness against the Korean panokseon in the Imjin War (1592–98); Kuki Yoshitaka’s gun-armed ships for Oda Nobunaga (1578) were an exception."
 "Elite Cannon Galleon" = "As for the Cannon Galleon."
 
 [[rename]]
@@ -185,4 +185,9 @@ basis = "Japanese temples, palaces and castles belong to the East Asian timber-f
 [[dropped]]
 item = "Yasama"
 kind = "unique_tech"
-reason = "Relevance test (RULES 6.9); the owner kept it only if it passed. 矢狭間, read yazama, is the arrow loophole in castle walls and towers: a single architectural feature, and the same thing as the generic Arrowslits, which the Japanese keep by the owner’s decision. The loopholed castles belong mainly to the late 16th century (Azuchi, 1576), so the tech would also be a second late element (RULES section 2). Arrowslits is not renamed Yazama for the Japanese: the owner asked for the generic tech, and the term’s referent is mainly late."
+reason = "Relevance test (RULES 6.9); the owner kept it only if it passed. 矢狭間, read yazama, is the arrow loophole in castle walls and towers: a single architectural feature, and the same thing as the generic Arrowslits, which the Japanese keep by the owner’s decision. The loopholed castles belong mainly to the late 16th century (Azuchi, 1576), so the tech would also be a second late element (RULES section 2). Arrowslits is not renamed Yazama for the Japanese: the owner asked for the generic tech, and the term’s referent is mainly late. The Castle-Age tech slot at the Castle goes to Genko Borui."
+
+[[dropped]]
+item = "Cavalry Archers +2 attack vs. Ranged Soldiers (except Skirmishers)"
+kind = "bonus"
+reason = "Owner’s decision, for the power budget: the design had six passive bonuses, two of them for the Cavalry Archer, and this one gives way to Genko Borui as a third unique tech. Its target was a game choice that the analysis calls arbitrary, while the skill behind it, the mounted archery of the Heian–Kamakura bushi (kyūba no michi), stays with the Cavalry Archer +20 HP bonus and the label."
