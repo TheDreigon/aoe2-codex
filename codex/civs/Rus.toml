@@ -1,39 +1,49 @@
 civ = "Slavs"
 name = "Rus'"
+original_name = "Slavs"
 status = "draft"
 label = "Cavalry and Defensive civilization"
-summary = "Slavs renamed Rus' and centred on Kievan Rus', Novgorod, Vladimir-Suzdal and Muscovy (882–1505), leaving Bulgaria and Moravia to their own civs: farming, monks, the Boyar and the Detinets timber citadels stay; Druzhina moves from infantry to the Boyars and Knight-line, armoured cavalry and the quilted coat replace Arson and cheaper siege, carpenter towns give the team bonus, and the tree gains steppe archery and late Muscovite guns while the Cannon Galleon and Siege Onager leave."
+summary = "Slavs renamed Rus' (owner's decision) and centred on the Rus' from Oleg's Kiev, with its Scandinavian founding elite, to Ivan III's Muscovy (882–1505), leaving Bulgaria and Moravia to their own civs: farming, monks, the Boyar, Detinets and the foot Druzhina (now at the Barracks) stay; steppe horse archery and armoured cavalry replace Arson, Gambesons and the siege discount, the Poliudie tribute becomes the Town Center tech and Ivan III's Pomest'e the Imperial Age tech, Novgorod's trade with the Hanse becomes the team bonus, and the tree gains Muscovite guns, the Bombard Tower, Architecture and steppe archery upgrades while the Cannon Galleon, Carrack, Fast Fire Ship and Siege Onager leave."
 ideas = [
-  "N2: Monastic colonisation: Monasteries also accept wood and food drop-offs, for the monasteries that opened the north-east (Trinity, Kirillo-Belozersky, Solovetsky).",
+  "N2: Monastic colonisation: Monasteries also accept wood and food drop-offs, for the monasteries of the north-east (Trinity–Sergius, Kirillo-Belozersky, Solovetsky), following Klyuchevsky's thesis.",
   "N2: Ushkuiniki, Novgorod's river raiders of the 14th century, as fast river boats.",
-  "N3: The Novgorod veche and the fur trade with the Hanse (the Peterhof) as a merchant-republic mechanic.",
+  "N2: Pushechny dvor, a cannon-yard tech for Ivan III's gun-founding (a cannon house is documented in 1488), with a second, exclusive effect (RULES 6.6), if the owner wants a gunpowder moment.",
+  "N3: The Novgorod veche as a merchant-republic mechanic.",
   "N3: Abatis defence lines (zaseki) as a buildable obstacle against cavalry.",
+  "N3: Portage: boats hauled overland around the Dnieper rapids, as the Rus' convoys to Constantinople were (De Administrando Imperio 9).",
 ]
 contested = [
-  "The Normanist question: how far the founding Rus' elite was Scandinavian; the Varangian side is represented by the Varangians civ.",
+  "The Normanist debate: how far the Scandinavian founding elite shaped the early Rus' state (the Rhos of 839 were found to be Swedes, Annales Bertiniani; most names in the treaty of 911 are Norse). The current consensus is a Scandinavian elite assimilated to the Slavs by the 11th century (Franklin and Shepard 1996), but the debate remains politically charged.",
   "The heritage of Kievan Rus' is shared by Ukrainians, Belarusians and Russians; the civ name avoids ‘Russians’.",
-  "How fast the druzhina turned from fighting on foot (Sviatoslav, 971) to mounted warfare (11th century).",
+  "Continuity after 1240: the late elements of this design are Muscovite, which follows the Kiev–Vladimir–Moscow ‘traditional scheme’ that Mykhailo Hrushevsky criticised in 1904. Galicia–Volhynia (to the 1340s; Daniel crowned king of Rus' in 1253) is in the profile; the Rus' lands of the Grand Duchy of Lithuania (Kiev from c. 1362) are represented by the Lithuanians.",
+  "How fast the druzhina turned from fighting on foot (Sviatoslav, 971) to mounted warfare (11th–12th centuries): 10th-century chamber graves already hold horses.",
+  "‘Monastic colonisation’ of the north-east is Klyuchevsky's thesis; later work notes that peasants often settled before the monks and that monastic lands grew by grants and purchases.",
+  "Whether the kuna reckoning (‘martens’) meant furs used as money or only units of account.",
+  "Whether the pomest'e followed foreign models (Byzantine pronoia, the Ottoman timar) or grew out of earlier princely grants.",
+  "The form of the tyufyaki of 1382, the first firearms named in the Rus' chronicles.",
 ]
 open_questions = [
-  "Name: ‘Rus'’ (decided in principle) or ‘Ruthenians’? File name Rus.toml.",
-  "Gunpowder: Hand Cannoneer and Bombard Cannon are added for Muscovy (firearms at the defence of Moscow in 1382; Italian gun-founders after Fioravanti's arrival in 1475; a Moscow cannon house recorded from 1488). Accept for a window ending in 1505, or keep the Rus' without land gunpowder?",
-  "The Varangian Guard is not given to the Rus', although it began with Vladimir's 6,000 warriors (988) and the Kievan princes hired Varangians until the 1040s; allies of the Varangians receive it through their team bonus. Add it?",
-  "Window: 882 (Oleg takes Kiev) or 862 (the legendary call of Rurik) to 1505 (death of Ivan III)?",
-  "Architecture: the current set is assumed to be Eastern European (not recorded in the repository data).",
+  "Druzhina keeps the game's infantry trample for the foot-fighting retinue of the 10th century, now part of the Rus' (RULES section 4), and moves to the Barracks in the Castle Age. The analysis' alternative, ‘Knight-line and Boyars deal trample damage’ (a new tech, level 2), would sit beside the Swedes' Vendel Legacy (Knight-line trample). Keep the infantry effect?",
+  "Power budget: the Rus' gain land gunpowder, the Bombard Tower, Architecture, Thumb Ring, Bracer, the horse-archer discount and two more unique techs (four in all; passives plus techs make 8, within the proposed cap of 9), and lose Arson, Gambesons, the siege discount, the Siege Onager and the gun and carrack ships. Acceptable?",
+  "Team bonus: ‘Trade Units generate +10% gold’ is now the team bonus of five drafts (Armenians, Ethiopians, Maya, Tamils, Rus'). Keep it, or use another trade effect for Novgorod (for example ‘Markets work +80% faster’, the Bohemians' team bonus)?",
 ]
 
 [profile]
-entity = "Rus': Kievan Rus' and its successor principalities (Novgorod, Vladimir-Suzdal, Muscovy)"
-region = "The East European forest and forest-steppe: the Dnieper, the Volkhov and the upper Volga"
+entity = "Rus': the Rurikid principalities from Oleg's Kiev to Ivan III's Muscovy, with their Scandinavian founding elite"
+region = "The East European forest and forest-steppe: Kiev and the Dnieper, Novgorod and the Volkhov (a republic from 1136), Galicia–Volhynia (to the 1340s), Vladimir-Suzdal and Moscow on the upper Volga"
 window = "882–1505"
 sources = [
   "Povest' vremennykh let (Primary Chronicle)",
-  "Novgorod First Chronicle; Hypatian Chronicle",
-  "Constantine VII, De Administrando Imperio",
+  "Novgorod First Chronicle; Hypatian Chronicle (with the Galician-Volhynian Chronicle)",
+  "Constantine VII, De Administrando Imperio (c. 950)",
   "Leo the Deacon, History (trans. Talbot and Sullivan, 2005)",
   "Russkaya Pravda",
   "Novgorod birchbark letters (V. L. Yanin, A. A. Zaliznyak)",
+  "Sigismund von Herberstein, Rerum Moscoviticarum commentarii (1549)",
+  "A. F. Medvedev, Ruchnoe metatel'noe oruzhie (1966); A. N. Kirpichnikov, Drevnerusskoe oruzhie (1971–1973)",
+  "R. E. F. Smith, The Origins of Farming in Russia (1959)",
   "Simon Franklin and Jonathan Shepard, The Emergence of Rus 750–1200 (1996)",
+  "Donald Ostrowski, Muscovy and the Mongols (1998)",
   "Janet Martin, Medieval Russia 980–1584 (2nd ed., 2007)",
 ]
 replaces = "Slavs (a pan-Slavic umbrella covering Bulgaria, Great Moravia and Rus')"
@@ -44,16 +54,18 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Farmers work +15% faster (Slavs)"
-basis = "The eastern Slavs were farmers (Procopius and the Strategikon on the Sclaveni's grain and livestock); the Rus' combined slash-and-burn clearing (podseka) in the northern forests with ploughland on the black earth of the south."
+basis = "The Strategikon (XI.4, c. 600) already describes the Sclaveni and Antes as rich in livestock and crops, millet above all. The Rus' combined slash-and-burn clearing (podseka) in the northern forests with ploughland on the black earth of the south; the Russkaya Pravda fines whoever ploughs across a field boundary, and finds of ploughshares trace the spread of the plough (R. E. F. Smith 1959). The bonus stands for an agrarian society, not for high yields: Novgorod depended on grain from the Suzdal lands and suffered famines (1128, 1230–31)."
+relevance = "The Rus' were an agrarian society: grain and land underlay the power of princes and boyars and drove the settlement of the north-east."
 
 [[bonus]]
-text = "Gambesons free"
+text = "Cavalry Archers cost -10/20% in Castle/Imperial Age"
 kind = "military"
 level = 1
-change = "changed"
+change = "new"
 replaces = "Arson, Gambesons free"
-precedent = "Arson, Gambesons free (Slavs): the Gambesons part only"
-basis = "The thick quilted coat (tegilyai) was the common armour of Muscovite troops in the late Middle Ages and after, and town militias fought on foot at Lipitsa (1216) and on Lake Peipus (1242). Arson is dropped: it has no Rus' link beyond the folk tale of Olga burning Iskorosten with birds (Primary Chronicle s.a. 946)."
+precedent = "Cavalry Archers cost -10/20% in Castle/Imperial Age (Huns; the Avars' draft keeps it)"
+basis = "Six centuries of war against the steppe made the composite bow and the horse archer part of Rus' armies: Rus' bows and quivers follow steppe models (Medvedev 1966), Turkic nomads settled on the Ros as Kiev's frontier guard, the Black Hoods (named from 1146, Hypatian Chronicle), and the cavalry of 15th-century Muscovy fought in the Tatar manner with bow and sabre (Ostrowski 1998; Herberstein, 1549, just after the window). The replaced bonus is dropped for relevance: Gambesons rested on one armour type, the quilted tegilyai, known mainly from 16th-century Muscovite musters, and Arson on the folk tale of Olga burning Iskorosten with birds (Primary Chronicle s.a. 946)."
+relevance = "Steppe-style archery ran through Rus' warfare from the Black Hoods to Ivan III's cavalry; it shaped how the Rus' fought for the whole window."
 
 [[bonus]]
 text = "Knight-line +1 pierce armor"
@@ -62,7 +74,8 @@ level = 1
 change = "new"
 replaces = "Siege Workshop Units cost -15%"
 precedent = "Scout Cavalry-line +1 pierce armor and upgrades free (Turks), applied to the Knight-line"
-basis = "From the 11th century the princes' druzhina and the boyars fought as armoured horsemen (Franklin and Shepard 1996), and finds from Rus' sites show mail combined with lamellar plates and tall conical helmets, armour suited to the arrow-heavy warfare of the steppe frontier. The siege bonus is dropped: the Rus' had little siege tradition before artillery."
+basis = "The armour of the princes' and boyars' horsemen was made against arrows: Rus' finds combine mail with lamellar plates and tall spheroconical helmets, some with face masks, in Kirpichnikov's typology (Drevnerusskoe oruzhie, vol. 3, 1971), the equipment of a cavalry that fought Pecheneg, Polovtsian and Tatar archers. The siege bonus is dropped: the Rus' had little siege tradition before artillery."
+relevance = "Armoured horsemen, protected against steppe arrows, were the princes' striking force from the 11th century to the Mongol age."
 
 [[bonus]]
 text = "Monks move +20% faster"
@@ -70,15 +83,18 @@ kind = "other"
 level = 1
 change = "kept"
 precedent = "Monks move +20% faster (Slavs)"
-basis = "Monks carried Rus' settlement into the forests of the north-east: the Kiev Caves monastery (mid-11th century), Sergius of Radonezh's Trinity monastery (1330s–1340s), Kirillo-Belozersky (1397) and Solovetsky (1429/1436)."
+basis = "Rus' monasticism took root with the Kiev Caves monastery (c. 1051), which adopted the Studite rule of Constantinople. In the 14th–15th centuries monks carried settlement and Moscow's influence into the forests of the north-east: Sergius of Radonezh's Trinity monastery (1330s–1340s), Kirillo-Belozersky (1397) and Solovetsky (1429/1436). Moving monks render this outward movement, which Klyuchevsky called monastic colonisation."
+relevance = "Monasticism shaped Rus' religious culture and carried settlement and Muscovite authority across the forest north."
+contested = "Klyuchevsky's thesis is qualified by later work (see the civ-level notes)."
 
 [team_bonus]
-text = "Building repairs cost -25%"
+text = "Trade Units generate +10% gold"
 level = 1
 change = "new"
 replaces = "Military buildings (except Castles) provide +5 population space"
-precedent = "Building repairs cost -25% (Georgians team bonus)"
-basis = "Rus' towns were built of timber and burned and were rebuilt again and again (the chronicles record repeated great fires in Novgorod and Moscow); Novgorod's excavations show log-paved streets relaid over five centuries, and in 1016 Yaroslav's enemies mocked the Novgorodians as ‘carpenters’ (Primary Chronicle). The replaced team bonus had no historical basis."
+precedent = "Trade Units generate +25% gold (Spanish team bonus), at a lower magnitude; Trade Units generate +10% food in addition to gold (Bengalis team bonus)"
+basis = "Novgorod was the eastern pole of the Baltic trade: its furs and wax supplied the merchants of Gotland and the Hanse, who kept their own courts in the city (the Gotlanders' court and the German Peterhof) under a treaty with the Germans and Gotlanders of the late 12th century, until Ivan III closed the Peterhof in 1494. Allied trade earning more gold renders a partner whose goods made others rich (RULES 6.2: trade). The replaced team bonus had no historical basis, and the first draft's ‘Building repairs cost -25%’ rested on the rebuilding of the Rus' timber towns, which benefited only the Rus'."
+relevance = "Novgorod's trade with the Hanse lasted three centuries and made it the richest of the Rus' cities."
 
 [[unique_unit]]
 name = "Boyar"
@@ -86,41 +102,78 @@ model = "Boyar"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The boyars were the landed aristocracy and senior druzhina of the princes, fighting as armoured cavalry; turning a social class into a unit is an abstraction, but its heavy armour is well founded."
+basis = "The boyars were the landed aristocracy and senior retinue of the princes, fighting as armoured horsemen in Kiev, Novgorod and Galicia alike; turning a social class into a unit is an abstraction, but its heavy armour is well founded (Kirpichnikov)."
+relevance = "The boyars dominated Rus' politics and war from Kiev to Muscovy; in Galicia they made and unmade princes."
 
 [[unique_tech]]
 name = "Detinets"
+building = "Castle"
+kind = "military"
 age = "Castle"
 effect = "Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost"
 level = 1
 change = "kept"
-precedent = "Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost (Detinets, Slavs)"
-basis = "Rus' citadels (detinets, kremlin) were built of earth and timber cribs (gorodni): Moscow's Kremlin had oak walls in 1339, white stone from 1367 and brick only in 1485–1495; Novgorod's detinets received stone walls in the 14th century."
+precedent = "Detinets (Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost) (Slavs)"
+basis = "Rus' citadels (detinets, later kremlin) were built of earth and timber cribs (gorodni): Novgorod's detinets was laid out in 1044 (Novgorod First Chronicle) and received stone walls only in the 14th century, and Moscow's Kremlin had oak walls in 1339, white stone from 1367 and brick only in 1485–1495."
+relevance = "The timber citadel was the heart of every Rus' town and the seat of prince and bishop; the Moscow Kremlin grew from it."
 
 [[unique_tech]]
 name = "Druzhina"
-age = "Imperial"
-effect = "Knight-line and Boyars deal trample damage"
+building = "Barracks"
+kind = "military"
+age = "Castle"
+effect = "Infantry deals trample damage"
 level = 1
 change = "changed"
-replaces = "Infantry deals trample damage"
-precedent = "Knight-line deals trample damage (Vendel Legacy, Varangians); Scout Cavalry-line deals trample damage (Lechitic Legacy, Poles)"
-basis = "The druzhina was the prince's armed retinue: in the 10th century it fought on foot in the Scandinavian manner (Sviatoslav at Dorostolon, 971), but from the 11th century it was essentially mounted, as warrior graves with horse gear show. The trample stands for the charge of heavy horse; the 10th-century foot phase is left to the generic infantry."
-contested = "The pace of the change from foot to horse is debated."
+replaces = "Druzhina (Imperial Age Castle tech, same effect)"
+precedent = "Druzhina (Infantry deals trample damage) (Slavs): moved from the Castle to the Barracks, identical effect"
+basis = "The druzhina was the prince's armed retinue. In the 10th century, when its leaders were largely Scandinavian, it fought on foot: Leo the Deacon shows Sviatoslav's men at Dorostolon (971) fighting in close order behind long shields and their first sortie on horseback failing, although 10th-century chamber graves (Gnezdovo, Shestovytsia, Chernihiv) already hold horses and riding gear; by the 11th–12th centuries the chronicles show a mounted retinue, represented here by the Boyar and the Knight-line bonus. The trample renders the weight of the close infantry formation. Castle Age, because the foot druzhina is the civ's earliest moment, and at the Barracks, because the Castle holds Detinets and Pomest'e."
+relevance = "The prince's retinue was the core of the early Rus' state and army; with Sviatoslav it held Dorostolon against John Tzimiskes for months."
+contested = "The pace of the change from foot to horse is debated (see the civ-level notes)."
+
+[[unique_tech]]
+name = "Poliudie"
+building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "Lumberjacks slowly generate gold in addition to wood"
+level = 1
+change = "new"
+precedent = "Paper Money (Lumberjacks slowly generate gold in addition to wood) (Vietnamese): shared and renamed, identical effect, moved to the Town Center and the Castle Age"
+basis = "Tribute was the first business of the Rus' state. Constantine VII describes the poliudia: every November the princes left Kiev with all the Rus' to spend the winter among their Slav tributaries, returning in April (De Administrando Imperio 9). After the Drevlians killed Igor for demanding a second tribute (945), Olga fixed the dues and set up collection points (pogosty) (Primary Chronicle s.a. 945–947). Tribute came largely from the forest, in furs, honey and wax, and furs were money of account: the Russkaya Pravda reckons fines in grivnas of kunas (‘martens’). Gold from the woods renders a forest economy that paid for the state. A state institution, so at the Town Center (RULES 6.2)."
+relevance = "Tribute collection built the early Rus' state, and Olga's reform is the first datable act of Rus' government."
+contested = "Whether the kuna reckoning meant furs used as money (see the civ-level notes)."
+
+[[unique_tech]]
+name = "Pomest'e"
+building = "Castle"
+kind = "military"
+age = "Imperial"
+effect = "Mounted Units take -20% population space"
+level = 1
+change = "new"
+precedent = "Aznauri Cavalry (Mounted Units take -20% population space) (Georgians, whose draft turns it into a passive): shared and renamed, identical effect"
+basis = "After annexing Novgorod (1478) Ivan III deported many of its landowners and, from the late 1480s, granted their estates as pomest'ia, lands held on condition of service, to servitors (deti boyarskie) who owed mounted service with their armed men; the Novgorod cadastres of the 1490s record them, and the system became the base of the Muscovite cavalry. Lower population space renders horsemen maintained by land rather than by pay."
+relevance = "The service-land system created the Muscovite service class that fought Russia's wars until the 17th century."
+contested = "Its models are debated (see the civ-level notes)."
 
 [tree]
-add = ["Hand Cannoneer", "Bombard Cannon", "Thumb Ring", "Bracer"]
-remove = ["Cannon Galleon", "Siege Onager"]
+add = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Thumb Ring", "Bracer", "Architecture"]
+remove = ["Cannon Galleon", "Carrack", "Fast Fire Ship", "Siege Onager"]
 
 [tree.basis]
-"Hand Cannoneer" = "Chronicles of the defence of Moscow against Tokhtamysh (1382) mention handguns and fortress guns; Muscovy used firearms throughout the 15th century."
-"Bombard Cannon" = "Ivan III brought Italian engineers and gun-founders (Aristotele Fioravanti from 1475), and a cannon house in Moscow is recorded from 1488."
-"Thumb Ring" = "Rus' archery adopted the steppe composite bow, helped by nomad allies such as the Black Hoods (Torks, Berendei and Pechenegs) settled on the Ros as Kiev's frontier guard (named from 1146). The exact draw is not documented; the tech stands for steppe archery in general."
+"Hand Cannoneer" = "Hand-held guns (pishchali) are attested in Muscovite hands by the later 15th century, as in the stand-off on the Ugra (1480), at the edge of the window."
+"Bombard Cannon" = "Ivan III brought Italian engineers who also cast and served guns, Aristotele Fioravanti (in Moscow from 1475) among them, and a cannon house in Moscow is first documented in 1488."
+"Bombard Tower" = "In 1382 the defenders of Moscow fired tyufyaki and pushki from the Kremlin walls against Tokhtamysh, the first firearms named in the Rus' chronicles."
+"Thumb Ring" = "Rus' archery followed steppe models (see the horse-archer bonus); the exact draw is not documented, so the tech stands for steppe archery in general."
 "Bracer" = "A generic archery upgrade held by most civs; its absence left the Rus' Cavalry Archers, a well-attested troop type, without the last range upgrade."
-"Cannon Galleon" = "The Rus' had river fleets and no sea-going navy, still less cannon ships, before the 16th century."
+"Architecture" = "Stone and brick building of the later window: the white-stone churches of Vladimir-Suzdal (12th century) and the brick Kremlin of Moscow (1485–1495), built by Italian architects."
+"Cannon Galleon" = "The Rus' had no purpose-built warships and no gun-armed ships: their fleets were river-sea boats (monoxyla, lod'i), which nonetheless crossed the Black Sea against Constantinople in 860, 941 and 1043."
+"Carrack" = "No Rus' carracks: the large ships that reached Novgorod were Hanseatic. The Galleon stays only as the engine's generic top warship."
+"Fast Fire Ship" = "No Rus' fire ships are known: their fleets were the victims of Greek fire in 941 and 1043. The generic Fire Galley and Fire Ship stay as early warships, without the top upgrade, and the Demolition Raft and Ship stay as the engine's generic anti-ship charges."
 "Siege Onager" = "No Rus' tradition of heavy torsion artillery; the late siege power of Muscovy is represented by the Bombard Cannon."
 
 [architecture]
 set = "Eastern European"
 change = "kept"
-basis = "Timber kremlins, onion-domed churches and log houses of the Eastern European set fit Rus'."
+basis = "Timber kremlins and log houses and, late in the window, onion domes fit Rus'. Eastern European is the Slavs' set in the game, though it is not recorded in the repository data."

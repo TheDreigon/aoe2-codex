@@ -2,27 +2,27 @@ civ = "Goths"
 name = "Goths"
 status = "draft"
 label = "Cavalry and Infantry civilization"
-summary = "Goths redefined as the Visigothic (418–711) and Ostrogothic (493–553) kingdoms, Roman successor states rather than a ‘barbarian horde’: the lance-armed Gothic Lancer (Coustillier model), a lance-charge tech and a federate team bonus replace the cheap infantry flood; the Visigothic military laws give a levied infantry; Roman towns, estates and building skills carry the economy; walls return, and the anachronistic gunpowder, horse archers, Huskarl, Anarchy and Perfusion leave."
+summary = "Goths redefined as the Visigothic (418–711) and Ostrogothic (493–553) kingdoms, Roman successor states rather than a ‘barbarian horde’: the bowless Gothic Lancer (Leitis model, weak vs archers as in Procopius), lance cavalry, the Thiufa muster (Comitatenses renamed) and a federate team bonus replace the cheap infantry flood; the Liber Iudiciorum (Forced Levy renamed) becomes the Town Center tech; Roman towns, estates and building carry the economy; walls and the Siege Ram come in, and the anachronistic gunpowder, horse archers, counterweight Trebuchet, Huskarl, Anarchy and Perfusion leave."
 ideas = [
   "N2: Two mutually exclusive Monastery techs, ‘Homoian Church’ and ‘Third Council of Toledo’ (589): Arian loyalty (Heresy free, stronger Monks) or Catholic conversion (Atonement and Redemption, cheaper Monastery techs).",
+  "N2: Morbus Gothorum, Fredegar's ‘disease of the Goths’ of deposing their kings (IV.82): an elective-kingship mechanic, for example a choice at each Age between a bonus and the risk of a usurpation.",
   "N3: Carrago, the Gothic wagon laager (Ammianus 31.7.7, 31.12.11), as a cheap garrisonable field fortification built by Villagers.",
-  "N3: Split into Visigoths and Ostrogoths, whose trajectories differ (Catholic, law-giving Toledo versus Arian, Roman-Gothic Ravenna).",
-  "N3: A late-antiquity chronological ceiling for the Goths (and Avars): no counterweight Trebuchet, Galleon, Carrack, Halberdier, Hussar, Petard or Demolition Ships, with torsion-artillery and fire-raft substitutes.",
+  "N3: Split into Visigoths and Ostrogoths, whose trajectories differ (Catholic, law-giving Toledo against Arian, Roman-Gothic Ravenna).",
+  "N3: A late-antiquity chronological ceiling for the Goths (and Avars): no Galleon, Carrack, Halberdier, Hussar, Petard or Demolition Ships, with torsion-artillery and fire-raft substitutes.",
 ]
 contested = [
-  "How decisive the Gothic cavalry was at Adrianople (378): the classic ‘victory of cavalry’ (Oman) is questioned by revisionists, though Ammianus (31.12.17) gives the returning Greuthungian and Alan horse the decisive blow.",
+  "How decisive the Gothic cavalry was at Adrianople (378, before the window): the classic ‘victory of cavalry’ (Oman) is questioned by revisionists, though Ammianus (31.12.17) gives the returning Greuthungian and Alan horse the decisive blow.",
   "How the Goths were settled in 418 and after: division of estates (the Code of Euric's Gothic sortes and Roman tertiae) or assignment of tax revenues (Goffart, Barbarians and Romans, 1980).",
-  "Whether the thiufa (nominally a thousand men) was ever mustered or existed mainly on paper.",
-  "The prosperity of Theodoric's Italy rests partly on the Anonymus Valesianus, a text with a clear partisan slant.",
+  "Whether the thiufa (nominally a thousand men) was a field unit or an administrative frame of the levy.",
+  "The prosperity of Theodoric's Italy rests partly on the Anonymus Valesianus, a eulogistic text with a clear partisan slant.",
+  "How far the Visigothic military laws were enforced, and how Wamba's law (673) and Ervig's (681) related: both stand in Ervig's revision of the code (Liber Iudiciorum IX.2.8–9), and Céline Martin (Mélanges de la Casa de Velázquez, 2011) argues that they were meant to apply together (see also P. D. King, Law and Society in the Visigothic Kingdom, 1972).",
 ]
 open_questions = [
-  "Unique unit name: ‘Gothic Lancer’ is descriptive, since no Gothic word for a lancer is attested; gardingi and buccellarii were royal or private retainers, not a troop type. Keep it, or use a Latin term?",
-  "Unique unit model: the Coustillier (a powerful lance charge) was chosen over the Cataphract (whose 6th-century Byzantine counterpart was a mounted archer, the very opposite of the bowless Gothic lancer in Procopius) and the Leitis. Agree?",
-  "Remaining late-antiquity anachronisms are kept as generic abstractions: counterweight Trebuchet, Galleon, Carrack, Halberdier, Hussar, Petard and Demolition Ships. Remove some in N1 (the Avars draft swaps the Trebuchet for the Traction Trebuchet, which is not attested for the Goths either)?",
-  "Liber Iudiciorum has the same effect as the Avars' Befulci (the Malay Forced Levy): both stand for forced levies. Accept the repetition?",
+  "Unit name: ‘Gothic Lancer’ is descriptive, since no Gothic word for a lancer is attested; gardingi and buccellarii were royal or private retainers, not a troop type. Keep it, or use a Latin term?",
+  "Remaining late-antiquity anachronisms are kept as generic abstractions: Galleon, Carrack, Halberdier, Hussar, Petard and Demolition Ships (the counterweight Trebuchet is removed in this draft, with the Siege Ram as substitute). Remove more in N1?",
+  "Liber Iudiciorum shares the Malay Forced Levy, which the Avars' Befulci also renames: three holders of one effect, all for forced levies. Accept the repetition?",
   "Theodoric's thousand dromons (Cassiodorus, Variae V.16–17) are represented only by keeping the regional Dromon; add a Dromon cost bonus instead of one of the economic bonuses?",
-  "The Crimean Goths (Theodoro, to 1475) are left out of the profile. Agree?",
-  "Architecture: the current set is assumed to be Central European (not recorded in the repository data).",
+  "Team bonus: allies train Gothic Lancers at the Castle from the Imperial Age, within the Condottiero precedent; the ‘unit for allies’ pattern is also the team bonus of the Berber, Italian, Maya and Tupi drafts. Keep it, or choose another federate effect?",
 ]
 
 [profile]
@@ -30,14 +30,17 @@ entity = "Visigothic kingdom of Toulouse and Toledo and Ostrogothic kingdom of I
 region = "Aquitaine, Septimania and Hispania; Italy and Dalmatia"
 window = "418–711"
 sources = [
+  "Ammianus Marcellinus, Res Gestae 31 (background before the window)",
   "Procopius, Wars V–VIII (the Gothic War)",
   "Cassiodorus, Variae",
   "Anonymus Valesianus II",
   "Jordanes, Getica (551)",
   "Isidore of Seville, Historia Gothorum; John of Biclaro, Chronicle",
+  "Fredegar, Chronicle IV",
   "Liber Iudiciorum (654, revised 681)",
   "Herwig Wolfram, History of the Goths (1988)",
   "Peter Heather, The Goths (1996)",
+  "P. D. King, Law and Society in the Visigothic Kingdom (1972)",
   "Roger Collins, Visigothic Spain 409–711 (2004)",
   "Jonathan J. Arnold, Theoderic and the Roman Imperial Restoration (2014)",
 ]
@@ -48,8 +51,9 @@ text = "Knight-line +1 attack vs. Infantry"
 kind = "military"
 level = 1
 change = "new"
-precedent = "Knight-line +1 attack vs. Infantry (Varangians team bonus)"
-basis = "Gothic horsemen fought with lance and sword and rode down infantry: the return of the Greuthungian and Alan cavalry decided Adrianople (Ammianus 31.12.17), and Procopius says the Gothic horse used only spears and swords (Wars V.27); at Taginae (552) it charged the Roman centre (Wars VIII.32)."
+precedent = "Knight-line +1 attack vs. Infantry (Varangians team bonus; the Swedes' draft drops it)"
+basis = "Gothic horsemen fought with lance and sword and rode at infantry: Procopius says the Gothic horse used only spears and swords (Wars V.27); the Visigoths fought mounted at the Catalaunian Plains (451), where their king Theodoric I was thrown from his horse and trampled (Jordanes, Getica 209); and Totila's army, built around its horse, beat the Roman field armies at Faventia and Mucellium (542; Wars VII.4–5). Adrianople (378), where the returning Greuthungian and Alan cavalry struck the decisive blow (Ammianus 31.12.17), is background before the window. The tactic had its limit, shown by the unique unit: at Taginae (552) Totila's spears-only charge broke on Narses' archers (Wars VIII.32)."
+relevance = "Lance cavalry was the striking arm of the Gothic kingdoms, decisive in their victories and, against archers, in their defeats."
 
 [[bonus]]
 text = "Town Centers cost -50% stone"
@@ -57,7 +61,8 @@ kind = "economic"
 level = 1
 change = "new"
 precedent = "Town Centers cost -50% stone (Bulgarians)"
-basis = "The Gothic kings ruled from Roman cities (Toulouse, Ravenna, Toledo), and the Visigoths were among the few early medieval founders of new towns: Leovigild's Reccopolis (578) and Victoriacum (581) (John of Biclaro) and Suinthila's Ologicus (621, Isidore)."
+basis = "The Gothic kings ruled from Roman cities (Toulouse, Ravenna, Toledo) and kept their urban administration, and the Visigoths were among the few early medieval founders of new towns: Leovigild's Reccopolis (578) and Victoriacum (581) (John of Biclaro; the excavations of Reccopolis by Lauro Olmo Enciso), and Ologicus (621), built for the Goths by the subdued Vascones at their own cost and labour (Isidore, Historia Gothorum 63). The bonus renders this urban rule, a structural trait, rather than any one foundation."
+relevance = "The Gothic kingdoms were urban, Roman-style states, not nomad hordes; their capitals and new towns show it."
 
 [[bonus]]
 text = "Farms cost -40%"
@@ -66,7 +71,8 @@ level = 1
 change = "new"
 replaces = "Hunters carry +15; hunted animals last +20% longer"
 precedent = "Farms cost -40% (Teutons)"
-basis = "The Goths settled on working Roman estates, as federates in Aquitaine (418) and as rulers of Italy and Hispania; under Theodoric a solidus bought sixty measures of wheat (Anonymus Valesianus 73) and marshes were drained for farmland (Variae II.32–33). The replaced hunting bonus repeated the ‘barbarian hunter’ trope against the evidence of a farming people."
+basis = "The Gothic kingdoms ruled, taxed and protected a Roman estate economy: the Visigoths were settled on working Roman estates in Aquitaine (418), and in Theodoric's Italy the patrician Decius drained the Pontine marshes (the Decennovium) under a royal grant of the reclaimed land (Cassiodorus, Variae II.32–33), while the eulogistic Anonymus Valesianus (73) claims that a solidus bought sixty measures of wheat. The replaced hunting bonus repeated the ‘barbarian hunter’ trope against the evidence of a farming people."
+relevance = "The Gothic kingdoms lived off a Roman agrarian economy; the settlement on the land in 418 is the founding act of the Visigothic kingdom."
 contested = "Whether the Goths received land or tax revenues (see the civ-level notes)."
 
 [[bonus]]
@@ -74,63 +80,75 @@ text = "Masonry, Architecture free"
 kind = "other"
 level = 1
 change = "new"
-precedent = "Town Watch, Town Patrol free (Byzantines); Murder Holes, Herbal Medicine free (Teutons)"
-basis = "The Gothic kings built in the Roman manner: Theodoric's palace, churches and mausoleum at Ravenna and his funds for Rome's walls and palace (Anonymus Valesianus 67); the palace church of Reccopolis and Visigothic churches such as San Juan de Baños (661)."
+precedent = "Town Watch, Town Patrol free (Byzantines); Murder Holes, Herbal Medicine free (Teutons); the Armenians' draft uses the same pair"
+basis = "The Gothic kings built in the Roman manner: Theodoric's palace, churches and mausoleum at Ravenna, and his yearly grant for the palace and walls of Rome (Anonymus Valesianus 67); the palace church of Reccopolis and Visigothic churches such as San Juan de Baños (661)."
+relevance = "Gothic rule kept Roman building alive in Italy and Hispania; Theodoric's Ravenna is the kingdoms' best-known monument."
 
 [team_bonus]
-text = "Gothic Lancer available at the Stable starting in Castle Age"
+text = "Allies can train Gothic Lancers at the Castle in Imperial Age (without the Elite upgrade)"
 level = 1
 change = "new"
 replaces = "Barracks work +20% faster"
-precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus); Condottiero available at the Barracks in Imperial Age (Italians team bonus)"
-basis = "The Goths fought as federates (foederati) of their allies: the foedus of 418 settled the Visigoths in Aquitaine as a Roman army, and their cavalry fought beside Aetius against Attila at the Catalaunian Plains (451, Jordanes, Getica); before taking Italy, Theodoric served the emperor Zeno as magister militum. The replaced team bonus had no historical basis."
+precedent = "Condottiero available at the Barracks in Imperial Age (Italians team bonus); Genitour available at the Archery Range starting in Castle Age (Berbers team bonus). Imperial Age only and without the Elite upgrade, to stay within the magnitude of these precedents; the Goths themselves train the unit and its Elite upgrade at the Castle from the Castle Age."
+basis = "The Goths fought as federates (foederati) of their allies: whole peoples serving by treaty under their own kings, unlike hired guardsmen. The foedus of 418 settled the Visigoths in Aquitaine as a Roman army after Wallia's campaign for Rome against the Vandals and Alans (416–418); their horse fought beside Aetius against Attila at the Catalaunian Plains (451, Jordanes); Theodoric the Amal served the emperor Zeno as magister militum before taking Italy on his commission (488); and after the Visigothic defeat at Vouillé (507) Theodoric's general Ibba drove back the Franks and Burgundians and saved Septimania for the Visigoths (508–511), followed by Theodoric's regency for the young Visigothic king Amalaric (511–526) (Jordanes, Getica 302; Procopius, Wars V.12). Allies gain the Gothic horse, as Rome and the Visigoths did. The replaced team bonus had no historical basis."
+relevance = "Federate service defined the Goths' relation to Rome from 382 to 488 and saved the Visigothic kingdom in 508–511."
 
 [[unique_unit]]
 name = "Gothic Lancer"
-model = "Coustillier"
+model = "Leitis"
 building = "Castle"
 level = 1
 change = "new"
 replaces = "Huskarl"
-basis = "Heavy horsemen armed with lance and sword and without bows, the core of Gothic armies (Procopius, Wars V.27); the Coustillier's charged attack renders the lance charge of Adrianople and Taginae. The Huskarl is dropped: húskarl is an Old Norse word for the household troops of 10th–11th-century Scandinavian kings, five centuries after the Gothic kingdoms."
+basis = "Heavy horsemen armed with lance and sword and without bows, the striking arm of the Ostrogothic army (Procopius, Wars V.27); the Visigothic levies also had archers and slingers (Ervig's law, Liber Iudiciorum IX.2.9). The Leitis model (strong vs infantry and cavalry, weak vs archery units, its lance ignoring armour) follows Procopius: Belisarius explained his victories by the Goths' lack of mounted archers (V.27), and at Taginae (552) the Gothic lance charge was shot down by Narses' 8,000 foot archers (VIII.31–32). The Coustillier of the first draft is ‘strong vs archery units’, against this evidence; the Cataphract evokes the 10th-century Byzantine kataphraktoi, and the 6th-century Roman horse that beat the Goths were armoured lancer-archers (Wars I.1), the opposite of the bowless Gothic horse. The Huskarl is dropped: húskarl is an Old Norse word for the household troops of 10th–11th-century Scandinavian kings, three to five centuries after the Gothic kingdoms."
+relevance = "Lance cavalry was the elite of the Gothic armies, and its weakness against archers shaped the course of the Gothic War."
+contested = "The model is shared with the Lithuanians' Leitis; its armour-piercing lance is a game mechanic."
 
 [[unique_tech]]
 name = "Thiufa"
+building = "Castle"
+kind = "military"
 age = "Castle"
-effect = "Knight-line train +50% faster and receive a charge attack"
+effect = "Militia-line and Knight-line train +50% faster and receive a charge attack"
 level = 1
 change = "new"
-precedent = "Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack (Comitatenses, Romans, out of scope): Knight-line only"
-basis = "The thiufa, the largest unit of the Visigothic host under its thiufadus, appears in the Liber Iudiciorum as the frame in which the army was mustered; the charge is that of the Gothic lancers (Procopius)."
-contested = "The thiufa may have been an administrative rather than a field unit."
+precedent = "Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack) (Romans, out of scope): shared and renamed, identical in play, since the Goths have no Centurions"
+basis = "The thiufa, nominally a thousand men under a thiufadus, heads the decimal frame (thiufadus, quingentenarius, centenarius, decanus) in which the older laws of the Visigothic code (the antiquae of Liber Iudiciorum IX.2) muster the host, horse and foot alike. Faster training renders a people in arms called out by thousands and hundreds, and the charge the shock of Gothic horse and foot. These older laws are a distinct moment from the laws of Wamba (673) and Ervig (681), rendered by the Town Center tech."
+relevance = "A borderline pass: the decimal muster stands for the Gothic people in arms, the core of the kingdoms' armies, though little is known of how it worked in the field."
+contested = "Whether the thiufa was a field unit or an administrative frame (see the civ-level notes)."
 
 [[unique_tech]]
 name = "Liber Iudiciorum"
+building = "Town Center"
+kind = "civil"
 age = "Imperial"
 effect = "Militia-line gold cost is replaced by additional food cost"
 level = 1
 change = "new"
 replaces = "Perfusion"
-precedent = "Militia-line gold cost is replaced by additional food cost (Forced Levy, Malay): identical effect, renamed"
-basis = "The Visigothic law code (654, revised by Ervig in 681) contains the military laws of Wamba (673) and Ervig (681), which obliged free men, clergy and magnates to answer the call to arms and to bring a share of their slaves armed (Liber Iudiciorum IX.2.8–9): an unpaid levy rather than a paid army. Perfusion, a medical term, had no Gothic referent."
-contested = "Whether Ervig's law replaced Wamba's or both stayed in force (Céline Martin argues for the latter)."
+precedent = "Forced Levy (Militia-line gold cost is replaced by additional food cost) (Malay): shared and renamed, identical effect, as the Avars' Befulci also does"
+basis = "The Visigothic law code (654, revised by Ervig in 681) contains the military laws of Wamba (673) and Ervig (681), which obliged free men, clergy and magnates to answer the call to arms, and under Ervig's law to bring a tenth of their slaves armed, some in mail, most with shields, swords, lances or bows, some with slings (Liber Iudiciorum IX.2.8–9): a compulsory levy rather than a paid army. Royal legislation, so at the Town Center (RULES 6.2). Perfusion, a medical term, had no Gothic referent."
+relevance = "The Liber Iudiciorum was the Visigothic kingdom's great legal achievement and outlived it in Iberian law (the Fuero Juzgo); its military laws show the state's struggle to raise armies."
+contested = "How far the military laws were enforced (see the civ-level notes)."
 
 [tree]
-add = ["Stone Wall", "Gate", "Guard Tower", "Fortified Wall", "Plate Mail Armor", "Plate Barding Armor", "Heresy"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry Archer", "Siphons", "Incendiaries"]
+add = ["Stone Wall", "Gate", "Guard Tower", "Fortified Wall", "Plate Mail Armor", "Plate Barding Armor", "Heresy", "Siege Ram"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry Archer", "Trebuchet", "Siphons", "Incendiaries"]
 
 [tree.basis]
 "Stone Wall" = "Theodoric restored the walls of Rome and other cities (Anonymus Valesianus 67; Cassiodorus, Variae), Leovigild founded walled Reccopolis (578), and Toledo, Septimania and the Pyrenean passes had Visigothic fortifications; a wall-less ‘nomad’ tree is the barbarian stereotype."
 "Gate" = "Comes with the Stone Wall."
 "Guard Tower" = "Late Roman city walls, which the Goths kept and repaired, were studded with towers."
 "Fortified Wall" = "The Aurelian walls of Rome and the walls of Ravenna and Toledo were held and repaired by Gothic kings."
-"Plate Mail Armor" = "Gothic warriors were not unarmoured peasants: the elite wore mail and Roman-type segmented helmets; the top armour tier is a generic abstraction."
+"Plate Mail Armor" = "Gothic warriors were not unarmoured peasants: the elite wore mail and Roman-type segmented helmets, and Ervig's law expects mail among the levy; the top armour tier is a generic abstraction."
 "Plate Barding Armor" = "Completes the armour line of a civ whose core is heavy lance cavalry."
 "Heresy" = "The Goths kept their Homoian (‘Arian’) church as a mark of identity, the Ostrogoths to the end and the Visigoths until Reccared's conversion at the Third Council of Toledo (589); units dying rather than changing sides renders that confessional loyalty."
+"Siege Ram" = "Substitute for the removed Trebuchet as the late anti-building engine (RULES 6.11): the Goths' siege engines were rams and towers, as at Vitiges' siege of Rome (537; Procopius, Wars V.21–22)."
 "Hand Cannoneer" = "Gunpowder reached Europe c. 1320, six centuries after the last Gothic kingdom fell (553/711)."
-"Bombard Cannon" = "As for the Hand Cannoneer; the Goths' siege engines were rams and towers (Vitiges at Rome, 537)."
+"Bombard Cannon" = "As for the Hand Cannoneer."
 "Cavalry Archer" = "Belisarius explained his victories by the Goths' lack of mounted archers: their horsemen used only spears and swords and their bowmen fought on foot (Procopius, Wars V.27)."
 "Heavy Cavalry Archer" = "As for the Cavalry Archer."
+"Trebuchet" = "The counterweight trebuchet appears in the 12th century, five centuries after the Gothic kingdoms, and the Goths were notoriously poor besiegers (Fritigern ‘at peace with walls’, Ammianus 31.6.4); the Onager and Heavy Scorpion stay as the top of the siege line, with the Siege Ram."
 "Siphons" = "The fire siphon was a Byzantine invention of c. 672 and a state secret (De Administrando Imperio 13), after the Ostrogoths and never shared with the Visigoths."
 "Incendiaries" = "No incendiary or exploding ships are attested in Gothic fleets."
 
@@ -138,7 +156,7 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry A
 set = "Mediterranean"
 change = "changed"
 replaces = "Central European"
-basis = "The Goths built in the late Roman Mediterranean tradition at Ravenna (Theodoric's mausoleum, Sant'Apollinare Nuovo) and in Hispania (Reccopolis, San Juan de Baños); the Central European set evokes the later ‘Gothic’ style, a Renaissance label unrelated to the Goths."
+basis = "The Goths built in the late Roman Mediterranean tradition at Ravenna (Theodoric's mausoleum, Sant'Apollinare Nuovo) and in Hispania (Reccopolis, San Juan de Baños); the Central European set, the Goths' set in the game (not recorded in the repository data), evokes the later ‘Gothic’ style, a Renaissance label unrelated to the Goths."
 
 [[dropped]]
 item = "Loom is researched instantly"
@@ -148,12 +166,12 @@ reason = "No historical basis; a balance device."
 [[dropped]]
 item = "Infantry costs -15/20/25/30% in Dark/Feudal/Castle/Imperial Age"
 kind = "bonus"
-reason = "Rests on the image of innumerable cheap barbarians: modern estimates put the Tervingi and Greuthungi of 376 at some 15,000–20,000 warriors (Heather 1996), and the elite was the cavalry. The levied infantry of the Visigothic laws is represented by the Liber Iudiciorum tech."
+reason = "Rests on the image of innumerable cheap barbarians: modern estimates (for example Heather's) put the Tervingi and Greuthungi of 376 at some 15,000–20,000 warriors, and the elite was the cavalry. The levied infantry of the Visigothic laws is represented by the Liber Iudiciorum tech."
 
 [[dropped]]
 item = "Infantry +1/+2/+3 attack vs. buildings in Feudal/Castle/Imperial Age"
 kind = "bonus"
-reason = "The Goths were notoriously poor at storming walls: Fritigern declared himself ‘at peace with walls’ (Ammianus 31.6.4), and they failed before Adrianople and Constantinople (378) and Rome (537–538)."
+reason = "The Goths were notoriously poor at storming walls: Fritigern declared himself ‘at peace with walls’ (Ammianus 31.6.4), and they failed before Adrianople and Constantinople (378) and Rome (537–538). The Siege Ram keeps the civ able to destroy buildings."
 
 [[dropped]]
 item = "+10 population space in Imperial Age"
@@ -163,4 +181,4 @@ reason = "No historical basis; it reinforced the ‘horde’ stereotype."
 [[dropped]]
 item = "Anarchy"
 kind = "unique_tech"
-reason = "It only let the anachronistic Huskarl be trained at the Barracks; the link to the Visigothic habit of deposing kings (Fredegar IV.82, the ‘morbus Gothorum’ of modern historians) was in the name only."
+reason = "It only let the anachronistic Huskarl be trained at the Barracks; its link to the Visigothic habit of deposing kings, what Fredegar (IV.82) called the morbus Gothorum, was in the name only (see the N2 idea)."

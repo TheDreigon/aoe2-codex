@@ -2,40 +2,44 @@ civ = "Danes"
 name = "Danes"
 status = "draft"
 label = "Infantry and Defensive civilization"
-summary = "The kingdom of Denmark from Godfred and the Danevirke to the Kalmar Union (c. 800–1523): the herring and Danegeld economy, the Jomsviking and Hamask stay; Trelleborg ring forts (the Krepost renamed) and a Danevirke tech turn the weak siege identity into the fortification-building state, the Varangian Guard becomes the royal Housecarl, Valdemarian knights and crossbowmen enter, and Northmen's Fury, Siege Onager and Catapult Galleon leave."
+summary = "The kingdom of Denmark from Godfred and the Danevirke to the end of the Kalmar Union (c. 800–1523): the herring and Danegeld bonuses and the Jomsviking stay; Trelleborg ring forts (the Krepost renamed) and the Danevirke (Fortified Bastions renamed) make it the fortification-building state, Cnut's Þingalið replaces Hamask, the Øresund toll becomes the Town Center tech, Lund's church carries the team bonus, the Varangian Guard becomes the royal Housecarl, Valdemarian knights and crossbowmen and Kalmar-era guns and ships enter, and Northmen's Fury, the siege discount, Siege Onager and Catapult Galleon leave."
 ideas = [
   "N2: Danegeld: infantry generate gold while attacking enemy buildings (the Keshik and Varangian Guard gold mechanic applied to a new target), instead of the generic loot bonus.",
-  "N2: Housecarl gold generation tied to the heregeld that paid the royal household troops in England until 1051, rather than to fighting.",
+  "N2: Remove the Housecarl's gold generation inherited from the Varangian Guard model, or tie it to plunder rather than to fighting units; the Saxons' draft proposes the same.",
+  "N2: Absalon: a crusading-fleet tech for Warships and Monks, for the Valdemarian crusades led by warrior bishops (Arkona 1168, Estonia 1219).",
   "N3: A true Trelleborg building (circular rampart, four gates, standardised longhouses) instead of the renamed Krepost.",
-  "N3: The Øresund toll (from c. 1429): Docks earn gold from passing Trade Cogs.",
-  "N3: Valdemarian crusades (Rügen and Arkona 1168, Estonia 1219): a crusading-fleet tech for Warships and Monks led by warrior bishops such as Absalon.",
+  "N3: The Øresund toll as a mechanic: Docks earn gold from passing Trade Cogs, beyond what the Town Center tech can express.",
 ]
 contested = [
   "Who built the Trelleborg-type fortresses (Harald Bluetooth or Sweyn Forkbeard) and why: barracks for the conquest of England, royal control of the provinces, or defence against other Vikings.",
-  "Chronology of the Danevirke: written sources credit Godfred (808), but dendrochronology dates phases from 737 and earlier works may go back to c. 500 or before.",
+  "Chronology of the Danevirke: radiocarbon dates put a first stage c. 500 or earlier, dendrochronology gives phases in 737 and 968, and the Royal Frankish Annals credit Godfred with works in 808.",
   "Historicity of the Jomsvikings as an organised brotherhood and the identification of Jomsborg with Wolin.",
-  "Reliability of Sven Aggesen's Lex Castrensis, written in the late 12th century: it may describe the household troops of his own day rather than Cnut's.",
+  "What housecarls were: a paid standing guard (L. M. Larson, 1904) or royal and noble retainers, many of them landholders (N. Hooper, 1985). The Saxons' draft claims Cnut's housecarls under the same name, since they served the Anglo-Danish kings of England.",
+  "Reliability of Sven Aggesen's Lex Castrensis, written in the 1180s: it may describe the household troops of his own day rather than Cnut's.",
+  "When the leding became a public levy: Niels Lund (Lið, leding og landeværn, 1996) argues that it is a 12th-century development rather than a Viking-age institution.",
+  "How far Cnut ruled Sweden: his letter of 1027 claims only ‘part of the Swedes’.",
 ]
 open_questions = [
-  "The Varangian Guard is renamed Housecarl, as for the Saxons (the same model for the same Anglo-Danish institution), instead of taking the Goths' Huskarl unit, which would give one institution two different models. Accept? The Goths' Huskarl and Anarchy are then left unused.",
-  "Valdemarian Denmark gains Cavalier and Arbalester. Kalmar-era Denmark also used guns (the royal ship Gribshunden, sunk 1495); Hand Cannoneer, Bombard Cannon and Carrack are not added, to keep the Danes a Viking and Valdemarian civ. Add them?",
-  "Hamask is kept although the berserk theme also appears in the Norse Berserk; Saxo's Gesta Danorum and the Lejre court of Hrólfs saga kraka give Danish material. Drop it for sharper contrast with the Norse?",
-  "Window end: 1523 (end of the Kalmar Union) or 1412 (death of Margaret I)?",
-  "Architecture: the current set is not in the repository data; the official Viking Sagas FAQ gives Danes, Varangians and Vikings a new shared set, assumed here to be Northern European.",
+  "Danevirke shares the Jurchens' Jiehao, both renaming Fortified Bastions: one tech for two border ramparts. A more literal option is a walls effect, for example the Chinese Great Wall (Walls, Watch Tower-line and Bombard Towers +30% HP) shared and renamed (level 1), close to the Saxons' walls bonus; repetition is allowed (RULES 6.7). Keep regeneration?",
+  "Housecarl: the Varangian Guard is renamed Housecarl, as for the Saxons, so that one model serves one Anglo-Danish institution. The alternative is the Goths' Huskarl, now unused (exceptional pierce armour, strong vs buildings, weak vs cavalry). Keep the rename?",
+  "Power budget: the Danes gain the Trelleborg, Þingalið, the Øresund toll, Cavalier, Arbalester, Fortified Wall, Architecture, Hand Cannoneer, Bombard Cannon, Carrack and Cannon Galleon, and lose the Barracks and Siege Workshop discount, Hamask, Northmen's Fury, the Siege Onager and the Catapult Galleon. Acceptable for a window that now runs to 1523?",
 ]
 
 [profile]
 entity = "Kingdom of Denmark (the Danes)"
-region = "Jutland, the Danish islands, Scania and Halland, with the Danelaw and the North Sea empire of Cnut"
+region = "Jutland, the Danish islands, Scania, Halland and Blekinge; with the Danelaw (9th–10th centuries), Cnut's North Sea empire (1016–1035), the Valdemarian conquests on the southern Baltic coast and in Estonia (1168–1346) and the Kalmar Union (1397–1523)"
 window = "c. 800–1523"
 sources = [
   "Royal Frankish Annals",
   "Anglo-Saxon Chronicle",
+  "Abbo of Saint-Germain, Bella Parisiacae urbis (c. 897)",
   "Adam of Bremen, Gesta Hammaburgensis ecclesiae pontificum (c. 1075)",
-  "Saxo Grammaticus, Gesta Danorum; Sven Aggesen, Lex Castrensis",
+  "Saxo Grammaticus, Gesta Danorum; Sven Aggesen, Lex Castrensis (1180s)",
   "Knýtlinga saga; Jómsvíkinga saga",
   "Jelling runestones (DR 41, DR 42)",
   "Else Roesdahl, Viking Age Denmark (1982)",
+  "N. Hooper, ‘The Housecarls in England in the Eleventh Century’, Anglo-Norman Studies 7 (1985)",
+  "Niels Lund, Lið, leding og landeværn (1996)",
   "Timothy Bolton, Cnut the Great (2017)",
   "Kurt Villads Jensen, Crusading at the Edge of Europe (2017)",
 ]
@@ -47,7 +51,8 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Fishing Ships and Villagers drop off +5% food (Danes)"
-basis = "The herring of the Øresund and the great Scania market at Skanör and Falsterbo (12th–16th centuries), taxed by the Danish crown and frequented by Hanseatic merchants, were the backbone of the medieval Danish economy; Saxo's preface praises the Sound's abundance of fish. The Villager part is a generic abstraction."
+basis = "The herring of the Øresund and the great Scania market at Skanör and Falsterbo (12th–16th centuries), taxed by the Danish crown and frequented by Hanseatic merchants, were a backbone of the medieval Danish economy; Saxo's preface praises the Sound's abundance of fish. The Villager part is a generic abstraction."
+relevance = "The Scania herring fair was one of the great markets of northern Europe and a main royal revenue; the Danes and the Hanse fought over it (Stralsund, 1370). Fishing shaped this civ's history."
 
 [[bonus]]
 text = "Loot 25% of the resource cost of each destroyed building"
@@ -55,7 +60,8 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Loot 25% of the resource cost of each destroyed building (Danes)"
-basis = "Plunder and the Danegeld: Paris paid 7,000 pounds of silver in 845, and the Anglo-Saxon Chronicle records tributes rising from 10,000 pounds (991) to 48,000 (1012)."
+basis = "Plunder and the Danegeld: Paris paid 7,000 pounds of silver in 845, and the Anglo-Saxon Chronicle records tributes rising from 10,000 pounds (991) to 48,000 (1012), and Cnut's levy of 72,000 pounds, besides 10,500 from London, in 1018."
+relevance = "Plunder and tribute financed Danish kingship from the Great Army to Cnut's conquest of England."
 
 [[bonus]]
 text = "Can build Trelleborg in Castle Age"
@@ -65,6 +71,7 @@ change = "new"
 replaces = "Barracks and Siege Workshop upgrades cost -66% gold"
 precedent = "Can build Krepost in Castle Age (Bulgarians)"
 basis = "The Trelleborg-type ring fortresses (Trelleborg, Fyrkat, Aggersborg, Nonnebakken, Borgring) were built to one geometric plan with standardised longhouses for a garrison; Trelleborg's timber was felled in 980/981 (dendrochronology), under Harald Bluetooth. The Krepost, a small castle that trains unique units and houses troops, is the closest existing building. The replaced bonus had no historical correlate."
+relevance = "The ring forts are the clearest trace of Harald Bluetooth's new royal power, which unified and Christianised Denmark."
 contested = "Builder and purpose of the forts are debated (see the civ-level notes)."
 
 [[bonus]]
@@ -74,7 +81,8 @@ level = 1
 change = "changed"
 replaces = "Varangian Guards and Longships move +10% faster"
 precedent = "Varangian Guards and Longships move +10% faster (Danes)"
-basis = "Same effect, following the rename of the Varangian Guard to Housecarl. Danish armies moved as mounted infantry (the Great Army ‘was horsed’ in East Anglia, Anglo-Saxon Chronicle 866) and in fast warships such as Skuldelev 2, built in Dublin c. 1042."
+basis = "Same effect, following the rename of the Varangian Guard to Housecarl. Danish armies moved by ship and as mounted infantry (the Great Army ‘was horsed’ in East Anglia, Anglo-Saxon Chronicle 866), in long, slender warships such as Hedeby 1 (c. 985), which sank in the harbour of Haithabu."
+relevance = "Strategic mobility by sea and on horseback let Danish armies strike from the Seine to the Humber and conquer England twice (1013, 1016)."
 
 [team_bonus]
 text = "Monasteries work +20% faster"
@@ -82,7 +90,9 @@ level = 1
 change = "new"
 replaces = "Siege Weapons +2 line of sight"
 precedent = "Monasteries work +20% faster (Lithuanians team bonus)"
-basis = "Denmark was the first Scandinavian kingdom to convert (Harald Bluetooth's Jelling stone, c. 965, says he ‘made the Danes Christian’), and Lund became the archbishopric for all Scandinavia in 1103/04, until Norway (1152/53) and Sweden (1164) received their own. The replaced team bonus had no historical basis."
+basis = "Lund was the first archbishopric in Scandinavia: from 1103/04 it ruled the Church of all Scandinavia until Nidaros (1152/53) and Uppsala (1164) received their own, and kept its primacy over Uppsala. Danish kings and bishops led missions and founded churches among their neighbours: Absalon took Arkona on Rügen in 1168 and destroyed the temple of Svantevit, and Valdemar II's crusade to Estonia (1219) led to the see of Reval (Tallinn), a suffragan of Lund. Harald Bluetooth's Jelling stone (c. 965), which says he ‘made the Danes Christian’, is the background. Faster allied monasteries render the clergy Lund trained and sent (RULES 6.2: religious influence). The replaced team bonus had no historical basis."
+relevance = "Lund organised the Church of the whole North and led the Baltic missions, the most lasting Danish influence on its neighbours."
+contested = "The crusades on the southern Baltic coast and in Estonia were conquests as much as missions."
 
 [[unique_unit]]
 name = "Jomsviking"
@@ -90,40 +100,63 @@ model = "Jomsviking"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The Jomsvikings of Jómsvíkinga saga (c. 1200), a warrior brotherhood at Jomsborg, usually identified with Wolin (Adam of Bremen's Iumne), where Harald Bluetooth died in exile; their defeat at Hjǫrungavágr (c. 986) is attested in near-contemporary skaldic verse. The torches render the burning of settlements and ships."
+basis = "The Jomsvikings of Jómsvíkinga saga (c. 1200), a warrior brotherhood at Jomsborg, usually identified with Wolin (Adam of Bremen's Iumne), where Harald Bluetooth died in exile; their defeat at Hjǫrungavágr (c. 986) is attested in near-contemporary skaldic verse, and the sagas make Thorkell the Tall, whose ‘immense raiding army’ came to England in 1009 (Anglo-Saxon Chronicle), one of their chiefs. The torches render the burning of settlements and ships."
+relevance = "Fame carries much of it, but the Jomsvikings stand for the professional war bands of the late 10th and early 11th centuries, Thorkell's army of 1009–1012 among them, that fought the Danish wars in England."
 contested = "The organised ‘order’ is largely literary, and the unit's strength against cavalry is a game invention."
 
 [[unique_tech]]
-name = "Hamask"
-age = "Castle"
-effect = "Infantry deal more damage as they lose HP"
-level = 1
-change = "kept"
-precedent = "Infantry deal more damage as they lose HP (Hamask, Danes)"
-basis = "Old Norse hamask, ‘to go into a frenzy’, the berserk rage. Saxo's Gesta Danorum is full of berserkir, and Hrólfs saga kraka places frenzied champions at the legendary Danish court of Lejre."
-contested = "The sources are late and literary; the theme overlaps with the Norse Berserk."
-
-[[unique_tech]]
 name = "Danevirke"
-age = "Imperial"
-effect = "Fortifications regenerate 500 HP per minute"
+building = "Castle"
+kind = "military"
+age = "Castle"
+effect = "Fortifications and Town Centers regenerate 500 HP per minute"
 level = 1
 change = "new"
-precedent = "Fortifications and Town Centers regenerate 500 HP per minute (Fortified Bastions, Jurchens): fortifications only"
-basis = "The Danevirke, the rampart across the neck of Jutland, was rebuilt and extended for five centuries: phases dated from 737 by dendrochronology, Godfred's work of 808 (Royal Frankish Annals) and the brick wall of Valdemar the Great in the 12th century. Regeneration renders this continuous royal upkeep."
+precedent = "Fortified Bastions (Jurchens): the tech description reads ‘Fortifications and Town Centers regenerate 500 HP per minute’ and the civ window ‘Fortifications regenerate 500 HP per minute’; shared and renamed with an identical effect (the Jurchens' draft renames it Jiehao)"
+basis = "The Danevirke, the rampart across the neck of Jutland, was built and rebuilt for seven centuries: a first stage c. 500 or earlier (radiocarbon), dendro-dated phases in 737 and 968, Godfred's work of 808 (Royal Frankish Annals) and the brick wall of Valdemar the Great (1160s–1180s). It was repaired and rebuilt after attacks: Otto II broke through it in 974, and the Danes regained the border region after 983. The semicircular rampart of Hedeby was joined to it by a connecting wall in the 10th century, hence the Town Centers. Regeneration renders this continuous royal upkeep."
+relevance = "The rampart defined Denmark's southern border from Godfred to Valdemar and is the emblem of the Danish state's defence."
+
+[[unique_tech]]
+name = "Þingalið"
+building = "Castle"
+kind = "military"
+age = "Imperial"
+effect = "Infantry (except Spearman-line) +30 HP"
+level = 1
+change = "new"
+precedent = "Fereters (Infantry (except Spearman-line) +30 HP; Warrior Priests heal +100% faster) (Armenians, whose draft drops it): shared and renamed, identical in play, since the Danes have no Warrior Priests"
+basis = "Cnut kept a standing household troop in England from 1016, the housecarls or thingmen (Old Norse þingalið); the heregeld (1012–1051) paid his standing fleet and, on one reading (Larson 1904; disputed by Hooper 1985), the housecarls too. Sven Aggesen's Lex Castrensis (1180s), and Saxo after him, give the law that Cnut is said to have laid down for this troop, with its own assembly, ranks and penalties. Extra hit points render picked, well-equipped professional soldiers."
+relevance = "Cnut's household troops held his North Sea empire together, and their law shaped the Danish royal household; a weightier Danish trait than the literary berserk frenzy it replaces."
+contested = "Whether the Lex Castrensis describes Cnut's troop or the household of Sven's own day (see the civ-level notes)."
+
+[[unique_tech]]
+name = "Øresundstold"
+building = "Town Center"
+kind = "civil"
+age = "Imperial"
+effect = "All gold income +10%"
+level = 2
+change = "new"
+precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis), gold half only; the Byzantines' draft uses the same effect as a passive. No existing tech renders a toll."
+basis = "From about 1429 Erik of Pomerania, king of the Kalmar Union, levied a toll on every ship passing the Sound at Helsingør, where he built the castle of Krogen to enforce it; the Sound Dues remained a main revenue of the Danish crown until they were abolished in 1857. A state revenue, so at the Town Center (RULES 6.2)."
+relevance = "Control of the Sound and its toll made Denmark the gatekeeper of the Baltic and paid for its kings for four centuries."
 
 [tree]
-add = ["Krepost", "Cavalier", "Arbalester", "Fortified Wall", "Architecture"]
+add = ["Krepost", "Cavalier", "Arbalester", "Fortified Wall", "Architecture", "Hand Cannoneer", "Bombard Cannon", "Carrack", "Cannon Galleon"]
 remove = ["Siege Onager", "Catapult Galleon"]
 
 [tree.basis]
 "Krepost" = "Built as the Trelleborg ring fort (see the bonus and the rename)."
-"Cavalier" = "Valdemarian Denmark fought with armoured knights (Lyndanisse 1219, Bornhöved 1227), and the leding was largely converted into mounted service by the landed lords (herremænd) in the 12th–13th centuries."
-"Arbalester" = "The Danes already have Mounted and Heavy Mounted Crossbowmen and Cranequins; crossbowmen on foot were common in 13th–15th-century Danish castles and fleets, so lacking the Arbalester was incoherent."
+"Cavalier" = "Valdemarian Denmark fought with armoured knights (Lyndanisse 1219, Bornhöved 1227): in the 12th–13th centuries the naval levy was largely commuted into a tax, and military service shifted to tax-exempt lords serving as armoured horsemen (the herremænd)."
+"Arbalester" = "The Danes already have Mounted and Heavy Mounted Crossbowmen and Cranequins; crossbows were common in the castles and fleets of 13th–15th-century Denmark, so lacking the Arbalester was incoherent."
 "Fortified Wall" = "The Danevirke and Valdemar's brick wall make the Danes one of the great wall-building peoples of the North."
-"Architecture" = "Stone and brick building of the medieval kingdom: Lund Cathedral (consecrated 1145), Valdemar's brick wall and churches, the royal castle of Vordingborg."
+"Architecture" = "Stone and brick building of the medieval kingdom: Lund Cathedral (high altar consecrated 1145), Valdemar's brick wall and churches, the royal castle of Vordingborg."
+"Hand Cannoneer" = "The window runs to the end of the Kalmar Union, when gunpowder weapons had spread to Scandinavian castles, fleets and armies; King Hans's army took guns to Dithmarschen in 1500 (Hemmingstedt)."
+"Bombard Cannon" = "Kalmar-era Denmark used gunpowder artillery on land and at sea, as at Hemmingstedt (1500) and on the royal flagship Gribshunden (1495)."
+"Carrack" = "King Hans's flagship Gribshunden, sunk off Ronneby in 1495, was a large carvel-built warship of the new type, the kind of ship the Carrack stands for."
+"Cannon Galleon" = "Gribshunden carried guns, an early case of shipboard artillery in northern waters, and King Hans is usually counted the founder of the Danish royal navy (1510)."
 "Siege Onager" = "No Danish tradition of heavy stone-throwing artillery is known; the siege of Paris (885–886) used rams, mantlets and fire ships and failed to take the city."
-"Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role."
+"Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role. The fire-ship line, Fast Fire Ship included, is kept: Abbo of Saint-Germain describes the Danes sending burning ships against the bridge of Paris (885)."
 
 [[rename]]
 from = "Krepost"
@@ -135,7 +168,7 @@ basis = "The Danish royal ring fortresses of c. 980, named after the excavated f
 from = "Varangian Guard"
 to = "Housecarl"
 level = 1
-basis = "The húskarlar, household troops of the Danish kings, from Cnut's guard in England (1016–1035, paid by the heregeld) to the law of the retainers that Sven Aggesen attributes to Cnut (Lex Castrensis, late 12th century). The axe-armed heavy infantry model is the same one the Saxons rename Housecarl."
+basis = "The húskarlar, household troops of the Danish kings, from Cnut's guard in England (1016–1035) to the law of the retainers that Sven Aggesen attributes to Cnut (Lex Castrensis, 1180s); whether the heregeld paid them is debated (see contested). The axe-armed heavy infantry model is the same one the Saxons rename Housecarl; the Varangian Guard itself stays Byzantine (RULES section 4)."
 
 [[rename]]
 from = "Elite Varangian Guard"
@@ -146,9 +179,14 @@ basis = "Same as the Varangian Guard rename."
 [architecture]
 set = "Northern European"
 change = "kept"
-basis = "The Viking Sagas set (timber halls, clinker ships) fits Viking Age Denmark."
+basis = "The set the Viking Sagas expansion gave the Danes, Varangians and Vikings according to its official FAQ (not recorded in the repository data): timber halls and clinker ships fit Viking-age Denmark."
 
 [[dropped]]
 item = "Northmen's Fury"
 kind = "unique_tech"
 reason = "Its name rests on the apocryphal prayer ‘A furore Normannorum libera nos’, not attested in that form, and no Norse tradition of throwing artillery is known; the Danes' engineering excelled in fortification, now represented by the Danevirke tech."
+
+[[dropped]]
+item = "Hamask"
+kind = "unique_tech"
+reason = "Fails the relevance test (RULES 6.9): the Danish berserk material is legendary and lies before the window (Saxo's berserkir belong to the legendary books of his history, I–IX; Hrólfs saga kraka is a late saga about legendary Lejre), and it duplicates the Norwegians' Berserk. Its slot goes to Þingalið, Cnut's household troops."
