@@ -2,7 +2,7 @@ civ = "Bengalis"
 name = "Bengalis"
 status = "draft"
 label = "Elephant and Naval civilization"
-summary = "Bengalis kept as Bengal from the Palas to the Bengal Sultanate (750–1538): elephants, river fleets, the rice surplus with its team bonus and Mahayana (now at the Monastery) stay; the paik foot archer replaces the chariot as unique unit, the keeping of the royal elephant herds (Hastyayurveda, the Tamils' former Medical Corps, at the Castle) replaces the misapplied Paiks tech, the cash crops of the cloth and sugar trade and the learning of the Pala mahaviharas and the sultans' courts replace the cavalry and armoured-monk bonuses, Ilyas Shah's union of Bengal (Shah-i-Bangalah) becomes the Town Center tech, and the Cannon Galleons and the Arbalester leave, with no land gunpowder (the Sultanate's late artillery is left to the owner)."
+summary = "Bengalis as Bengal from the Palas to the Sultanate (750–1538): the Paik replaces the Ratha and Hastyayurveda the Paiks tech, Shah-i Bangalah is new, cash crops and learning replace the cavalry and monk-armour bonuses, Mahayana moves to the Monastery, and Cannon Galleons, Arbalester and Trebuchet go."
 ideas = [
   "N2: A river war-boat unique ship for the delta fleets (Monghyr plate; the Sultanate's flotillas; Babur on the Ghaghra, 1529), with its name chosen carefully: kosa and ghurab are attested mostly for the Mughal flotilla (nawara) of the 17th century.",
   "N3: New art for the Paik: a lightly armed foot soldier with bamboo bow, sword and shield, instead of the borrowed Vietnamese Rattan Archer model.",
@@ -21,9 +21,12 @@ open_questions = [
   "Ratha: dropped, because no Pala chariot corps is attested (see dropped). Keep it anyway as a second unique unit, for its place in the game?",
   "Paik model: the Vietnamese Rattan Archer (a shielded foot archer), because most paiks were archers, or the spear infantry of the game's Ghulam, which the first draft used and which now goes to the Tamils' Velaikkarar? Both are placeholders until new art (N3).",
   "Gunpowder (late element, RULES section 2): no land gunpowder by default, since Bengal's guns are securely attested only from the 1510s and their fame rests on contemporary repute (Babur's remark of 1529) rather than lasting fame (see contested). Add the Bombard Cannon anyway as the civ's one late element (Barros; Babur; the Buranjis)? The Hand Cannoneer and the Cannon Galleon line would be gameplay overrules, since no Bengali hand-gun corps or gun-armed boats are attested inside the window.",
-  "Town Center tech: Shah-i-Bangalah (Ilyas Shah's union of Bengal, 1352) is a new tech (level 2) with the capital effect of the Armenians' and Bohemians' drafts (the Persian Town Center bonus at its Feudal Age rate, +10%; the Maya's draft uses the Castle Age rate, +15%). Prefer a Pala moment instead, the prakriti's choice of Gopala that ended the ‘law of the fish’ (Khalimpur plate, c. 750)?",
+  "Town Center tech: Shah-i Bangalah (Ilyas Shah's union of Bengal, 1352) is a new tech (level 2) with the capital effect of the Armenians' and Bohemians' drafts (the Persian Town Center bonus at its Feudal Age rate, +10%; the Maya's draft uses the Castle Age rate, +15%). Prefer a Pala moment instead, the prakriti's choice of Gopala that ended the ‘law of the fish’ (Khalimpur plate, c. 750)?",
   "Castle tech: Hastyayurveda keeps the Medical Corps effect for the keeping of the royal elephant herds, a structural trait promoted under RULES 6.3, because the civ's datable royal and military moments have no fitting existing effect. Prefer one of them as a new tech (level 2), for example Dharmapala's assembly at Kanyakubja (c. 800), where he installed Chakrayudha with the assent of the northern kings (Khalimpur plate), or Ramapala's recovery of Varendri with the help of his samantas (late 11th century; Ramacharita)? Medical Corps would then be freed or become an N2 idea.",
-  "Power budget: the cash-crop passive (farmers' gold from the Castle Age) and the Town Center tech come in; the Arbalester, the Cannon Galleons and the Ratha go, the Monastery discount narrows to University technologies, there is no land gunpowder, and the archers get no Thumb Ring (no thumb draw is attested in Bengal). Acceptable?",
+  "Power budget: the cash-crop passive (farmers' gold from the Castle Age) and the Town Center tech come in; the Arbalester, the Cannon Galleons, the Trebuchet and the Ratha go, the Monastery discount narrows to University technologies, there is no land gunpowder, the archers get no Thumb Ring (no thumb draw is attested in Bengal), and Siphons and Block Printing leave. Acceptable?",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (without the Cannon Galleons this naval civ has no siege warship, and no substitute is given).",
+  "Codex-wide question CQ7 (see codex/civs/README.md): Siege engines that never reached a civ (here the counterweight Trebuchet leaves; the Mangonel and Onager stay as the generic stone-thrower).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (without the Trebuchet, and with no Bombard Cannon in the game's tree, the civ breaks buildings with the Siege and Armored Elephants, the Mangonel-line and the Petard).",
 ]
 
 [profile]
@@ -117,7 +120,7 @@ relevance = "Bengal's armies were infantry, boats and elephants rather than cava
 contested = "Most paiks were part-time peasant levies beside the elite palace guard; the borrowed model and its Vietnamese art are placeholders (see ideas)."
 
 [[unique_tech]]
-name = "Shah-i-Bangalah"
+name = "Shah-i Bangalah"
 building = "Town Center"
 kind = "civil"
 age = "Castle"
@@ -125,7 +128,7 @@ effect = "Town Centers +100% HP and work +10% faster"
 level = 2
 change = "new"
 precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians), narrowed to Town Centers with the work rate at its Feudal Age value (+10%), as in the Armenians' (Bagratid Ani) and Bohemians' (Nové Město) drafts; the Maya's draft (K'uhul Ajaw) uses the Castle Age rate (+15%). A new tech (level 2): neither of the civ's other techs is a state institution, and no existing tech renders the founding of a kingdom."
-basis = "By 1352 Shamsuddin Ilyas Shah had united Lakhnauti, Satgaon and Sonargaon under one ruler, and Delhi chroniclers called him Shah-i-Bangalah, ‘king of Bengal’ (Shams Siraj Afif); the name Bangalah, until then that of the eastern delta, came to mean the whole region (Eaton 1993, ch. 2). The new kingdom held out twice in the fort of Ekdala against Firuz Shah Tughluq (1353–54, 1358–59), which secured nearly two centuries of independence, and built a new capital at Pandua, whose Adina mosque (1373–75) was the largest in the subcontinent. Sturdier, busier Town Centers render a united kingdom that held its centres."
+basis = "By 1352 Shamsuddin Ilyas Shah had united Lakhnauti, Satgaon and Sonargaon under one ruler, and Delhi chroniclers called him Shah-i Bangalah, ‘king of Bengal’ (Shams Siraj Afif); the name Bangalah, until then that of the eastern delta, came to mean the whole region (Eaton 1993, ch. 2). The new kingdom held out twice in the fort of Ekdala against Firuz Shah Tughluq (1353–54, 1358–59), which secured nearly two centuries of independence, and built a new capital at Pandua, whose Adina mosque (1373–75) was the largest in the subcontinent. Sturdier, busier Town Centers render a united kingdom that held its centres."
 relevance = "The union of 1352 made Bengal one kingdom and gave it the name the civ bears."
 contested = "How far ‘Bangalah’ reached before Ilyas Shah is debated, and the epithet is attested on the Delhi side rather than on his coins, which carry the ordinary sultanic titles; the effect is an abstraction."
 
@@ -151,19 +154,22 @@ age = "Imperial"
 effect = "Villagers and Monks take -10% population space"
 level = 1
 change = "changed"
-precedent = "Mahayana (Villagers and Monks take -10% population space) (Bengalis): moved to the Monastery (religion, RULES 6.2), identical effect and age. It stays in the Imperial Age, its game age, although the Pala centuries come before the Castle Age Shah-i-Bangalah (1352): RULES 6.4 orders ages only between two Castle techs."
+precedent = "Mahayana (Villagers and Monks take -10% population space) (Bengalis): moved to the Monastery (religion, RULES 6.2), identical effect and age. It stays in the Imperial Age, its game age, although the Pala centuries come before the Castle Age Shah-i Bangalah (1352): RULES 6.4 orders ages only between two Castle techs."
 basis = "The Palas, who styled themselves paramasaugata (‘devout Buddhists’), were the last great royal patrons of Mahayana and Vajrayana Buddhism in India; they endowed monasteries, shrines and images across Bengal and Bihar, and the Vajrayana of their age, carried to Tibet by masters such as Atisha (who left Vikramashila c. 1040), shaped Tibetan Buddhism. The effect is an arbitrary abstraction of a large, cheaply sustained monastic and lay population."
 relevance = "Royal patronage of Mahayana and Vajrayana Buddhism defines the Pala centuries and their legacy in Tibet."
 
 [tree]
 add = ["Treadmill Crane"]
-remove = ["Cannon Galleon", "Elite Cannon Galleon", "Arbalester"]
+remove = ["Cannon Galleon", "Elite Cannon Galleon", "Arbalester", "Trebuchet", "Siphons", "Block Printing"]
 
 [tree.basis]
 "Treadmill Crane" = "An abstraction of faster building: no treadwheel cranes are attested in Bengal, and the tech stands for the scale of its brick building, from the mahavihara of Somapura, among the largest monasteries of South Asia, to the Adina mosque (1373–75), the largest mosque of the subcontinent in its day. Stone Shaft Mining stays absent, which fits a delta without stone."
-"Cannon Galleon" = "No secure evidence of guns on the Sultanate's boats: the gun-armed river flotilla (nawara) is Mughal, of the 17th century. Fire Ships, Demolition Ships and the Galleon line remain the naval answer to buildings."
+"Cannon Galleon" = "No secure evidence of guns on the Sultanate's boats: the gun-armed river flotilla (nawara) is Mughal, of the 17th century. The Galley and Fire Ship lines keep the anti-ship role at sea and the single-use Demolition Ship the anti-building role; no substitute siege warship is added (codex-wide question CQ1: Navy rule)."
 "Elite Cannon Galleon" = "Same basis."
 "Arbalester" = "No crossbows are attested in Pala, Sena or Sultanate armies, whose archers used bamboo bows; in South Asia the crossbow belongs mainly to the hill peoples of the north-east. Under the project's criterion (Armenians, Ethiopians, Malians) the crossbow tier goes and the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split; the Paik and the Elephant Archer carry the archery."
+"Trebuchet" = "Bengal's wars turned on boats, elephants and foot archers, and the counterweight trebuchet is not attested in Pala, Sena or Sultanate Bengal in the sources used here. Removed under the codex default for siege engines that never reached a civ (codex-wide question CQ7); the Mangonel-line stays as the generic stone-thrower, and with the Siege and Armored Elephants and the Petard it keeps the civ able to break buildings, though without a long-range siege weapon (codex-wide question CQ13)."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
+"Block Printing" = "No printing in the window: Sanskrit, Bengali and Persian texts were copied by hand, and the first book in Bengali type, Halhed's grammar, was printed at Hooghly in 1778."
 
 [[rename]]
 from = "Elite Rattan Archer"

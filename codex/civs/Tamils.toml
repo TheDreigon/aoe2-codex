@@ -3,7 +3,7 @@ name = "Tamils"
 original_name = "Dravidians"
 status = "draft"
 label = "Infantry and Naval civilization"
-summary = "Dravidians renamed Tamils (RULES section 4): the Pallavas, Cholas and Pandyas of the Tamil country (575–1323), centred on the Chola peak (985–1120), under a people's own name rather than ‘Cholas’ because the civ's evidence is Pallava and Pandya as well as Chola; the hoax-named Thirisadai becomes the attested Kalam, the Velaikkarar regiments replace the martial-arts Urumi Swordsman, pearl fisheries, irrigation tanks, the temple economy and armies carried by sea replace unfounded bonuses, the Uttaramerur assembly rules become the Town Center tech and the 1025 raid on Kadaram the Dock tech (Medical Corps moves to the Bengalis), the merchant guilds become the team bonus, granite building, Crop Rotation and the Elite Battle Elephant enter the tree, and gunpowder, the Arbalester and Thumb Ring leave."
+summary = "Dravidians renamed Tamils, the Pallavas, Cholas and Pandyas (575–1323): the Velaikkarar and Kalam are the unique units, Uttaramerur and Kadaram new techs, pearls, tanks, temples and sea-borne armies the bonuses, the merchant guilds the team bonus, and gunpowder, Arbalester and Trebuchet leave."
 ideas = [
   "N3: A Deccan civ (Kannadigas or Deccanis) for the Chalukyas of Badami, the Rashtrakutas, the Hoysalas, the Kakatiyas and Vijayanagara (1336–1565), who leave the core of this civ (RULES section 4), with the late gunpowder (Portuguese musketeers at Raichur, 1520; Talikota, 1565).",
   "N2: Velaikkarar as a dedicated elite infantry that cannot be converted and gains attack near its own Castle, as the analysis proposes, with its own art (a lightly armoured spearman) instead of the borrowed Ghulam model.",
@@ -27,11 +27,13 @@ contested = [
 open_questions = [
   "Velaikkarar: the land unique unit now uses the game's Ghulam model (a spearman, freed when the Hindustanis' Ghulam became a horse archer) under the attested name of the Chola regiments, because RULES 6.10 rules out renaming the Urumi Swordsman while its whip-sword art and invented blast attack stay. Alternatives: the Kalam alone (one unique unit is allowed), or the Urumi Swordsman kept under its own name as a stretched martial-arts unit. Which?",
   "Medical Corps moves to the Bengalis as Hastyayurveda, for the keeping of royal elephant herds in the land the Indian tradition held to breed the best elephants (the elephant-medicine treatise is set in Anga, whose elephants the Arthashastra ranks first). Agree, or let both civs share it?",
-  "Team bonus: the merchant guilds (‘Trade Units generate +10% gold’) replace Docks +5 population space, which had no specific basis; the same text is now the team bonus of five designs (Armenians, Ethiopians, Maya, Rus', Tamils). Accept the repetition, or narrow it to Trade Cogs, as the analysis' Ainnurruvar proposal does, at the cost of making it useless on land maps (the guilds traded overland as much as by sea)?",
-  "Power budget: four economic slots (pearls, tanks, temples and the Uttaramerur tech) and the Elite Battle Elephant, against the loss of all gunpowder, the Arbalester, Thumb Ring, the +200 wood per Age and the Skirmisher and Elephant Archer attack speed; Kadaram now gives the infantry, not the warships, its attack against buildings. Acceptable?",
+  "Power budget: four economic slots (pearls, tanks, temples and the Uttaramerur tech) and the Elite Battle Elephant, against the loss of all gunpowder, the Trebuchet, the Arbalester, Thumb Ring, Siphons and Incendiaries, Block Printing, the +200 wood per Age and the Skirmisher and Elephant Archer attack speed; Kadaram now gives the infantry, not the warships, its attack against buildings. Acceptable?",
   "Town Center tech: Uttaramerur (a new tech, level 2, villagers working faster) for the village assemblies, or Rajaraja I's land survey (c. 1001, whose officer bore the title ulagalanda, ‘who measured the world’), or Kulottunga I's abolition of tolls (now an N2 idea at the Market)?",
   "Name of Wootz Steel: ‘Wootz’ is the standard term of the scholarship, an 18th-century English corruption of the Kannada and Telugu ukku, ‘steel’. Classical Tamil has the cognate eḵku, ‘steel’ (also ‘spear’), attested in the Tirukkural (759) and Sangam poetry. Keep ‘Wootz Steel’ or rename it ‘Eḵku’?",
-  "Trebuchet: no trebuchets are attested in Pallava, Chola or Pandya warfare; Tamil literature (the Silappatikaram on the walls of Madurai) lists defensive engines such as stone-throwers and mechanical bows, closer to the Mangonel and Scorpion lines, and forts were taken with elephants and by assault. Keep the Trebuchet as a generic abstraction, as in the game and this draft, or remove it and rely on the Siege Elephant line, the Mangonel-line and the Petard?",
+  "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (without the Cannon Galleons this naval civ has no siege warship, and no substitute is given).",
+  "Codex-wide question CQ7 (see codex/civs/README.md): Siege engines that never reached a civ (here the counterweight Trebuchet leaves; the Mangonel-line stays as the generic stone-thrower).",
+  "Codex-wide question CQ11 (see codex/civs/README.md): Reuse and stacking (here the team bonus ‘Trade Units generate +10% gold’, held by five designs; with less reuse it could be narrowed to Trade Cogs, as the analysis' Ainnurruvar proposal does, at the cost of making it useless on land maps, since the guilds traded overland as much as by sea).",
+  "Codex-wide question CQ13 (see codex/civs/README.md): Long-range siege (without the Trebuchet and the Bombard Cannon the civ breaks buildings with the Siege and Armored Elephants, the Siege Onager, the Petard and Kadaram's infantry).",
 ]
 
 [profile]
@@ -78,7 +80,7 @@ basis = "Tamil agriculture rested on the canals of the Kaveri delta and on thous
 relevance = "Tank and canal irrigation underpinned the agrarian order of the Tamil country and the wealth of the Chola heartland."
 
 [[bonus]]
-text = "Monasteries provide Villagers in a 9 tile radius with +10% work rate"
+text = "Monasteries provide Villagers in a 9 tiles radius with +10% work rate"
 kind = "economic"
 level = 1
 change = "new"
@@ -114,7 +116,7 @@ level = 1
 change = "new"
 replaces = "Docks provide +5 population space"
 precedent = "Trade Units generate +25% gold (Spanish team bonus), at a lower magnitude; now the team bonus of five designs (Armenians, Ethiopians, Maya, Rus', Tamils)"
-basis = "Itinerant merchant guilds, the Ainnurruvar (‘the Five Hundred of Ayyavole’, of Karnataka origin) and the Manigramam, traded across South India and overseas, leaving Tamil inscriptions at Takua Pa in Thailand (9th century, the Manigramam) and at Lobu Tua near Barus in Sumatra (1088, the Five Hundred); a Tamil merchant's bilingual inscription at Quanzhou in China (1281) records a Shiva image set up for the welfare of Kublai Khan. RULES 6.2: trade that benefited partners. The Docks population bonus it replaces had no specific basis."
+basis = "Itinerant merchant guilds, the Ainnurruvar (‘the Five Hundred of Ayyavole’, of Karnataka origin) and the Manigramam, traded across South India and overseas, leaving Tamil inscriptions at Takua Pa in Thailand (9th century, the Manigramam) and at Lobu Tua near Barus in Sumatra (1088, the Five Hundred); a Tamil merchant's bilingual inscription at Quanzhou in China (1281) records a Shiva image set up for the welfare of Kublai Khan. RULES 6.2: trade that benefited partners. The Docks population bonus it replaces had no specific basis. Identical team-wide effects count once per team, and trade-gold team bonuses count as one at the highest value present (codex rule pending the owner)."
 relevance = "The merchant guilds carried Tamil trade from Sumatra and Thailand to China and tied South India's ports to their partners, as RULES 6.2 requires."
 
 [[unique_unit]]
@@ -180,7 +182,7 @@ relevance = "South Indian crucible steel is one of the region's most famous tech
 
 [tree]
 add = ["Architecture", "Treadmill Crane", "Stone Shaft Mining", "Elite Battle Elephant", "Crop Rotation"]
-remove = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Cannon Galleon", "Elite Cannon Galleon", "Arbalester", "Thumb Ring"]
+remove = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Cannon Galleon", "Elite Cannon Galleon", "Arbalester", "Thumb Ring", "Trebuchet", "Siphons", "Incendiaries", "Block Printing"]
 
 [tree.basis]
 "Architecture" = "The Tamil country is one of the great stone-building traditions: the Pallava monoliths and Shore Temple at Mamallapuram and the Kailasanatha at Kanchipuram (7th–8th centuries), the granite vimana of the Rajarajeshvara at Thanjavur, about 66 m high (c. 1010), and Gangaikonda Cholapuram. Its absence was the most ironic gap of the old tree."
@@ -189,18 +191,22 @@ remove = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Cannon Galleon",
 "Elite Battle Elephant" = "Tamil kings fought from elephant-back and kept large elephant corps: the Chola crown prince Rajaditya fell on his elephant at Takkolam (949), and Chola records remember him as ‘the lord who died on the elephant’; Rajadhiraja I was killed on his elephant at Koppam (1054); the 12th-century war poem Kalingattupparani celebrates the elephants of Kulottunga I's Kalinga campaign; and Amir Khusrau counts elephants among the spoils that Malik Kafur took from the Pandya Ma'bar in 1311 (Nilakanta Sastri; Amir Khusrau)."
 "Crop Rotation" = "Tank and canal irrigation allowed more than one paddy crop a year in the Kaveri delta (Karashima 2014); the absence of the field tech sat ill with the new farm bonus."
 "Hand Cannoneer" = "The window ends in 1323; firearms reached South India only from the later 14th and 15th centuries, with the Bahmanis (1366 according to Firishta, contested) and Vijayanagara, which belong to a future Deccan civ (see ideas)."
-"Bombard Cannon" = "Same basis. The Trebuchet (kept as a generic abstraction; see open questions), the Mangonel-line, the Siege and Armored Elephants and the Petard keep the civ able to break fortifications; elephants and assault were the attested ways of taking forts."
+"Bombard Cannon" = "Same basis. The Mangonel-line, the Siege and Armored Elephants and the Petard keep the civ able to break fortifications; elephants and assault were the attested ways of taking forts."
 "Bombard Tower" = "Same basis: no gunpowder fortifications in the Tamil country before 1323."
-"Cannon Galleon" = "Same basis; Fire Ships, Demolition Ships and the Galleon line remain the naval answer to buildings."
+"Cannon Galleon" = "Same basis. The Galley and Fire Ship lines and the Kalam keep the anti-ship role at sea and the single-use Heavy Demolition Ship the anti-building role; no substitute siege warship is added (codex-wide question CQ1: Navy rule)."
 "Elite Cannon Galleon" = "Same basis."
 "Arbalester" = "No crossbows are attested in Pallava, Chola or Pandya armies. Under the project's criterion (Armenians, Ethiopians, Malians) the crossbow tier goes and the Crossbowman stays as the generic Castle Age bow upgrade until the N2 bow/crossbow split."
-"Thumb Ring" = "No thumb draw or thumb rings are attested for Pallava, Chola or Pandya archers. The project gives the tech only where a thumb draw is attested (the Ethiopians, Malians and Gurjaras lose it, and the Bengalis do not get it); the thumb draw belongs to the steppe tradition of the Turkish horse archers, for whom the Hindustanis keep it. The Archer-line and the Elephant Archers keep the civ's archery."
+"Thumb Ring" = "No thumb draw or thumb rings are attested for Pallava, Chola or Pandya archers. The project gives the tech only where a thumb draw is attested (among others the Ethiopians, Malians and Gurjaras lose it, and the Bengalis do not get it); the thumb draw belongs to the steppe tradition of the Turkish horse archers, for whom the Hindustanis keep it. The Archer-line and the Elephant Archers keep the civ's archery."
+"Trebuchet" = "No trebuchets are attested in Pallava, Chola or Pandya warfare: Tamil literature (the Silappatikaram on the walls of Madurai) lists defensive engines such as stone-throwers and mechanical bows, closer to the Mangonel and Scorpion lines, and forts were taken with elephants and by assault. Removed under the codex default for siege engines that never reached a civ (codex-wide question CQ7); the Mangonel-line stays as the generic stone-thrower, and with the Siege and Armored Elephants, the Petard and Kadaram's infantry it keeps the civ able to break buildings, though without a long-range siege weapon (codex-wide question CQ13)."
+"Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
+"Incendiaries" = "Requires Siphons, which this design removes."
+"Block Printing" = "No printing in the window (to 1323): Tamil texts were copied on palm leaf, and the first book in Tamil type, the Thambiran Vanakkam, was printed by Jesuits in 1578."
 
 [[rename]]
 from = "Elite Ghulam"
 to = "Elite Velaikkarar"
 level = 1
-basis = "Follows the unique unit (Ghulam model → Velaikkarar), for the Tamils only."
+basis = "Follows the unique unit (Ghulam model → Velaikkarar), for the Tamils only. The name Elite Ghulam also belongs to a different unit of this codex, the Hindustanis' renamed Elite Kipchak (Kipchak model); the site keys units by model."
 
 [architecture]
 set = "South Asian"
