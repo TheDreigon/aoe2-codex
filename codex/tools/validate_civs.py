@@ -382,6 +382,8 @@ def validate(path, game):
 
 
 def main(argv):
+    # Item names contain non-ASCII letters; a Windows console defaults to a legacy code page.
+    sys.stdout.reconfigure(encoding='utf-8')
     game = load_game()
     trees, _, all_names = game
     if argv[:1] == ['--tree']:
