@@ -96,7 +96,7 @@ text = "Genitour available at the Archery Range starting in Castle Age"
 level = 1
 change = "kept"
 precedent = "Genitour available at the Archery Range starting in Castle Age (Berbers team bonus)"
-basis = "Riding à la gineta, with short stirrups, javelins and leather shield (adarga), passed from Zenata and Granadan horsemen to Castile and Portugal, and Zenata volunteers (ghuzat) served Nasrid Granada: one of the best-founded team bonuses in the game. Jinete/ginete comes from Zanati, ‘Zenata’. The Genitour stays in the Berber tree, but as a regional unit (owner's decision, shared with the Portuguese and Castilians; the Lithuanians' design also adds it, pending codex-wide question CQ23), so it no longer counts as a Berber unique unit (see dropped)."
+basis = "Riding à la gineta, with short stirrups, javelins and leather shield (adarga), passed from Zenata and Granadan horsemen to Castile and Portugal, and Zenata volunteers (ghuzat) served Nasrid Granada: one of the best-founded team bonuses in the game. Jinete/ginete comes from Zanati, ‘Zenata’. The Genitour stays in the Berber tree, but as a regional unit (owner's decision, shared with the Portuguese and Castilians; its extension to the Lithuanians, as the Sulica Rider, is only offered in codex-wide question CQ23), so it no longer counts as a Berber unique unit (see dropped)."
 relevance = "The jineta style was the Berbers' best-known military gift to their neighbours: the word and the cavalry of the Reconquista frontier come from the Zenata."
 contested = "The ginete also charged with the lance; the Genitour has no close-range attack."
 
@@ -169,4 +169,4 @@ reason = "Relevance test (RULES 6.9): the qasaba, a town's fortified government 
 [[dropped]]
 item = "Genitour (Mounted Skirmisher)"
 kind = "unique_unit"
-reason = "Owner's decision: the Genitour/Jinete is a regional unit (Berbers, Portuguese, Castilians; the Lithuanians' design also adds it, pending codex-wide question CQ23) and no longer counts as a Berber unique unit. It stays in the Berber tree at the Archery Range and in the team bonus; the Murabit is the counted unique unit."
+reason = "Owner's decision: the Genitour/Jinete is a regional unit (Berbers, Portuguese, Castilians; its extension to the Lithuanians, as the Sulica Rider, is only offered in codex-wide question CQ23) and no longer counts as a Berber unique unit. It stays in the Berber tree at the Archery Range and in the team bonus; the Murabit is the counted unique unit."

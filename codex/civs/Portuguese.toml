@@ -190,7 +190,7 @@ remove = ["Thumb Ring", "Siphons"]
 from = "Genitour"
 to = "Ginete"
 level = 1
-basis = "Ginete is the Portuguese name (from Zenata) of the light horseman the Castilians call jinete: the same regional unit, named in each language. The Berbers keep 'Genitour'; the Lithuanians' design calls it Sulica Rider (pending codex-wide question CQ23)."
+basis = "Ginete is the Portuguese name (from Zenata) of the light horseman the Castilians call jinete: the same regional unit, named in each language. The Berbers keep 'Genitour'; the Lithuanians' design offers the name Sulica Rider should the unit be extended to them (codex-wide question CQ23)."
 
 [[rename]]
 from = "Elite Genitour"

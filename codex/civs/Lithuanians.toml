@@ -5,9 +5,9 @@ label = "Cavalry and Counter-Units civilization"
 summary = "Lithuanians recentred on the Grand Duchy from its pagan rise to the Jagiellonian union: forest and raiding bonuses replace the food and relic bonuses, the hill forts become a passive, the Boyar replaces the Leitis, Horodło and Vytautas’ Tatars are new techs, and the navy shrinks to a basic fleet."
 ideas = [
   "N2: Krikštas (the conversion of 1387): before the tech the civ uses pagan priests without the Christian Monastery techs; after it, the Monastery techs unlock. Needs new mechanics.",
-  "N2: A javelin cavalry unit of its own that can also fight hand to hand and dismount, instead of borrowing the Genitour (which cannot attack at close range).",
+  "N2: A javelin light cavalry unit of its own for the sulica riders, which could also fight hand to hand and dismount, instead of borrowing the Genitour (which cannot attack at close range; its extension to Lithuania in N1 is codex-wide question CQ23).",
   "N3: A pagan priest unit and sacred-grove or sacred-fire buildings; the Baltic religion (Perkūnas, the sacred fire of Vilnius) has no representation. Sources: Peter of Dusburg’s Prussian Criwe, whose authority he says reached the Lithuanians (contested); the name vaidila comes from the 16th-century Prussian ‘Waidelotten’ (Simon Grunau) and was popularised by Romanticism (Mickiewicz’s Konrad Wallenrod, 1828).",
-  "N3: Own art for the Sulica Rider (Lithuanian light horseman with shield and javelins) instead of the Berber Genitour model.",
+  "N3: Own art for a Lithuanian light horseman with shield and javelins instead of the Berber Genitour model, if the Sulica Rider is adopted (codex-wide question CQ23) or an N2 unit of its own is made.",
 ]
 contested = [
   "Who commanded at Saule (1236), the first great victory of Lithuanians and Samogitians over the crusaders, won while Mindaugas was uniting the Lithuanian lands: Vykintas and the Samogitians or Mindaugas.",
@@ -20,7 +20,7 @@ contested = [
 ]
 open_questions = [
   "Label: ‘Cavalry and Counter-Units civilization’ (a category the game uses, for the Mapuche) replaces ‘Cavalry and Monk’, because the core of the civ is the last pagan state of Europe (baptism 1387, Samogitia 1413–17); ‘Cavalry and Skirmisher’ is not used because it is not a game category. Accept, or plain ‘Cavalry civilization’, the label of six designs, among them the Poles and the Magyars?",
-  "Codex-wide question CQ23 (see codex/civs/README.md): Regional Genitour (the Sulica Rider is added pending the owner’s extension of the regional-unit decision to Lithuania; without it, the Light Cavalry stays the top light cavalry and javelin cavalry goes to N2).",
+  "Codex-wide question CQ23 (see codex/civs/README.md): Regional Genitour. Extend the regional Genitour to Lithuania as the Sulica Rider (javelin light cavalry)? Lithuanian armies relied on light horsemen with shield, spear and javelins, the sulitsa of the Rus' chronicles (Polish sulica); they raided fast and fought mounted or on foot (Šmidtas 2019 on Lithuanian light cavalry; Peter of Dusburg and Wigand of Marburg on the raids). The Genitour, a javelin-throwing light horseman, is the closest existing unit. If the owner extends the regional-unit decision to Lithuania, the Genitour and Elite Genitour would join the tree at the Archery Range from the Castle Age, not counted as a unique unit (RULES 6.1), renamed Sulica Rider and Elite Sulica Rider (a descriptive modern name after the sulica, the throwing spear of Lithuanian and Ruthenian light horsemen, not a troop name found in the sources), and would share with the Light Cavalry the light-cavalry role of the dropped Winged Hussar. Until then the Light Cavalry is the civ’s light cavalry and javelin cavalry waits for N2 (see ideas).",
   "Leitis: dropped under the relevance test (a minor servitor group, an invented armour-ignoring attack, and fame made by the game itself) and replaced by the Boyar for the boyar banners. Keep the Leitis anyway as a second unique unit?",
   "Boyar: shared with the Rus', whose unit it is, and the model of the Germans’ mounted Teutonic Knight, so three civs would field the same heavy cavalry in N1 (the Germans’ conversion-resistance passive and the Horodło discount set two of them apart). Accept, or wait for an N2 unit of its own?",
   "Monastery tree: the civ keeps the Christian Monastery tree (Theocracy, Redemption, Atonement, Illumination…) although its core was pagan until 1387; the Christian period (1387–1500) and the Orthodox Ruthenian lands justify part of it. Block Printing is removed (no printing in the window). Remove Theocracy too, or wait for the N2 Krikštas tech?",
@@ -28,7 +28,7 @@ open_questions = [
   "Town Center tech: the hill forts are a structural trait and now a passive (RULES 6.2), so the Town Center gets a new level-2 tech for the Union of Horodło (1413), with cheaper Boyars for the privileges extended to the boyars. Alternatives: Jogaila’s privilege to the Catholic boyars (1387), or Vytautas’ replacement of the appanage princes of Kiev, Podolia, Novgorod-Seversky and Vitebsk by his own lieutenants (1390s). Which?",
   "Lipka Tatars: a one-off spawn of 3 Cavalry Archers at each of up to 5 Town Centers (the First Crusade pattern) for the settlement of 1397–98. Gold-free Cavalry Archers are not used: they would go beyond every precedent and make a secondary element the civ’s dominant late unit. Alternative: ‘Cavalry Archers cost -40% gold’ (Ordonnance Companies) for land granted in return for service. Which?",
   "Team bonus: ‘Scout Cavalry-line +2 attack vs. buildings’ is close to the Hindustanis’ game team bonus (dropped in their design), and the Britons’ design gives its own Knights and Scouts +2 more through a tech (Chevauchée). Keep it, or use another trait that benefited neighbours: the Lithuanian princes who led the defence of Pskov and Novgorod against the Livonian Order and Sweden (Daumantas, prince of Pskov 1266–99; Narimantas in Novgorod from 1333), for example with ‘Repairers work +25% faster’ (the Saxons’ game team bonus)? (‘Scout Cavalry-line +2 line of sight’, the Mongols’ game team bonus, is now half of the Mongols’ Yam tech.)",
-  "Power budget: the civ loses ‘Each Town Center provides +100 food’, the relic bonus, the Leitis, the Winged Hussar, Tower Shields, the Monastery team bonus, Block Printing and, under the codex navy rule, the Galleon, Fast Fire Ship and Cannon Galleon; it gains Foragers +15%, Loot, the hill-fort range as a free passive from the Castle Age, the Boyar with cheaper gold after Horodło, a one-off spawn of horse archers and, pending CQ23, the Sulica Rider. Is the balance acceptable?",
+  "Power budget: the civ loses ‘Each Town Center provides +100 food’, the relic bonus, the Leitis, the Winged Hussar, Tower Shields, the Monastery team bonus, Block Printing and, under the codex navy rule, the Galleon, Fast Fire Ship and Cannon Galleon; it gains Foragers +15%, Loot, the hill-fort range as a free passive from the Castle Age, the Boyar with cheaper gold after Horodło and a one-off spawn of horse archers, while the Light Cavalry stays its top light cavalry (the Sulica Rider is only offered, codex-wide question CQ23). Is the balance acceptable?",
   "Tower Shields is replaced by Lipka Tatars. The freed pavise theme could go to the Bohemians in N2 (Pavéza). Agree?",
   "Codex-wide question CQ1 (see codex/civs/README.md): Navy rule (no war fleet, so under the default rule the civ keeps the basic navy only: the Cannon Galleon, Galleon and Fast Fire Ship leave, with no substitute siege warship).",
 ]
@@ -141,30 +141,16 @@ basis = "After his campaigns against the Golden Horde (1397–98) Vytautas settl
 relevance = "The settlement of 1397–98 gave the grand dukes a body of steppe horsemen serving for land, who fought at Grunwald, and left a community that still exists."
 
 [tree]
-add = ["Genitour", "Elite Genitour"]
+add = []
 remove = ["Cannon Galleon", "Elite Cannon Galleon", "Galleon", "Fast Fire Ship", "Galleon, Fast Fire Ship and Carrack", "Block Printing"]
 
 [tree.basis]
-"Genitour" = "Pending the owner’s extension of the regional-unit decision to Lithuania (codex-wide question CQ23); without it, the Light Cavalry stays the top light cavalry and javelin cavalry goes to N2. Lithuanian armies relied on light horsemen with shield, spear and javelins, the sulitsa of the Rus' chronicles (Polish sulica); they raided fast and fought mounted or on foot (Šmidtas 2019 on Lithuanian light cavalry; Peter of Dusburg and Wigand of Marburg on the raids). The Genitour, a javelin-throwing light horseman, is the closest existing unit; as a regional unit it does not count as a unique unit (RULES 6.1). Trained at the Archery Range from the Castle Age, as for the Berbers’ allies, and renamed Sulica Rider. It takes over the light-cavalry role of the dropped Winged Hussar."
-"Elite Genitour" = "The Elite upgrade of the Sulica Rider (Archery Range), for the same light horsemen; pending with the Genitour."
 "Cannon Galleon" = "No naval tradition: no gun-armed warships. The Grand Duchy’s Baltic coast was the Palanga strip (confirmed at Melno, 1422), and its Black Sea littoral under Vytautas (Kachibey, from which grain was shipped to Constantinople in 1415, according to Długosz) was a steppe frontier without a fleet."
 "Elite Cannon Galleon" = "As Cannon Galleon."
 "Galleon" = "No war fleet: the basic navy only, under the codex navy rule (Galley-line to War Galley, Fire Galley and Fire Ship, Hulk and War Hulk, demolition ships and the generic Dock techs)."
 "Fast Fire Ship" = "As Galleon."
 "Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon and Fast Fire Ship are removed (the Lithuanians already lacked the Carrack)."
 "Block Printing" = "No printing in the window: the first press in the Grand Duchy was Francysk Skaryna’s in Vilnius (1522)."
-
-[[rename]]
-from = "Genitour"
-to = "Sulica Rider"
-level = 1
-basis = "A descriptive name after the sulica (Rus' sulitsa), the throwing spear of Lithuanian and Ruthenian light horsemen; it is a modern coinage, not a troop name found in the sources."
-
-[[rename]]
-from = "Elite Genitour"
-to = "Elite Sulica Rider"
-level = 1
-basis = "Same rename for the Elite upgrade."
 
 [architecture]
 set = "Eastern European"
@@ -174,7 +160,7 @@ basis = "After the mid-14th century most of the Grand Duchy’s people were Orth
 [[dropped]]
 item = "Winged Hussar"
 kind = "unique_unit"
-reason = "Anachronistic and of the wrong type: a heavy lancer of the late 16th and 17th centuries (Kircholm, 1605, under the Lithuanian hetman Chodkiewicz) that the game used as a light raider. Its light-cavalry role passes to the Sulica Rider (the regional Genitour) and the Light Cavalry."
+reason = "Anachronistic and of the wrong type: a heavy lancer of the late 16th and 17th centuries (Kircholm, 1605, under the Lithuanian hetman Chodkiewicz) that the game used as a light raider. Its light-cavalry role passes to the Light Cavalry (the regional Genitour as Sulica Rider is offered in codex-wide question CQ23)."
 
 [[dropped]]
 item = "Leitis"
