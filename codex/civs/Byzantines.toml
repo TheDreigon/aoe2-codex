@@ -2,31 +2,37 @@ civ = "Byzantines"
 name = "Byzantines"
 status = "draft"
 label = "Defensive civilization"
-summary = "The Eastern Roman Empire (527–1453, core c. 670–1100): walls, Cataphracts, Varangians and Greek fire are kept; the Imperial Age pun becomes the theme soldiers' self-supporting lands, camels and the siege bombard leave, Logistica is renamed after the Praecepta Militaria, and the tree regains horse breeding, hospitals, siege engineering and the horse archer."
+summary = "The Eastern Roman Empire (527–1453, core c. 670–1100): walls, Cataphracts, Varangians and Greek fire are kept; the Imperial Age pun gives way to the gold-based fiscal state, the theme system becomes the Town Center tech (Themata), Greek Fire moves to the Dock, Logistica is renamed after the Praecepta Militaria, camels and the siege bombard leave, and the tree regains horse breeding, hospitals and siege engineering."
 ideas = [
   "N2: Move the Dromon to the Castle Age as a short-range siphon galley (its real role in the 6th–12th centuries) instead of an Imperial Age bombardment ship replacing the Cannon Galleon (Pryor & Jeffreys, The Age of the Dromon, 2006).",
   "N2: A horse-archer tech for the 6th-century army (hippotoxotai: Procopius, Wars I.1; Strategikon I.2), e.g. Cavalry Archer-line +20 HP and +1/+1 armor.",
   "N2: A real “Logistica”: units heal slowly near Castles and Siege Workshops, standing for the assembly camps (aplekta) and baggage train (touldon) of the Three Treatises on Imperial Military Expeditions.",
   "N2: A De Administrando Imperio tech (c. 948–952): free tributes and cheaper Spies/Treason, for the diplomacy of subsidies paid to Pechenegs, Rus', Magyars and Bulgars.",
-  "N2: Lower the building HP bonus and give back Masonry and Architecture, so that the builders of Hagia Sophia (537) are not denied them.",
+  "N2: Imperial sericulture as a Market tech (silkworm eggs smuggled in c. 552, Procopius, Wars VIII.17; the silk guilds of the Book of the Eparch, c. 911/912; silk as a diplomatic gift, Liudprand, Legatio, 968), if the economic slot is not used for it (see the open questions).",
   "N2: Greek fire on land: hand-siphons and ceramic grenades from walls and towers (Leo VI, Taktika), instead of any link with gunpowder towers.",
   "N3: A heavy spearman unit (skutatos/menavlatos with the kontarion) to show that Byzantine heavy infantry were spearmen, not swordsmen (Praecepta Militaria).",
   "N3: A Byzantine (or Balkan-Caucasian) architecture set; the Mediterranean set is Italian-Romanesque.",
 ]
 contested = [
   "Origin and date of the theme system: created under Heraclius or Constans II, planned reform or gradual evolution (Haldon, Treadgold, Kaegi).",
+  "Whether thematic soldiers held military lands before the 10th century: Treadgold (land grants under Constans II, c. 659–662) versus Haldon, Lemerle and Oikonomides (gradual development, formalised only in the 10th century).",
   "Chronology of the first Arab attack on Constantinople: Theophanes' seven-year siege of 674–678 or a campaign of c. 667–669 (Jankowiak, 2013).",
   "Composition of Greek fire (crude petroleum with resins; saltpetre is now doubted), whether Kallinikos really invented it (Theophanes mentions fire-carrying ships slightly earlier) and when the secret was lost.",
   "Whether Byzantium had an essentially defensive “grand strategy” (Luttwak, 2009) or a reactive, opportunistic policy (Haldon, Kaldellis).",
   "When the Rus' contingent of c. 988 became the emperor's formal bodyguard.",
   "Byzantine origin of the counterweight trebuchet (Chevedden) or diffusion from the Islamic world.",
   "The name “Byzantine” (Hieronymus Wolf, 1557) and the nature of Byzantine Roman identity (Kaldellis vs “Greek” or multi-ethnic readings).",
+  "Gunpowder appears only at the very end of the window: in 1453 the defenders had a few small guns and handguns on the walls, partly brought and manned by the Genoese and Venetian contingents (Giustiniani's c. 700 men), and the recoil of the larger pieces shook the walls (Doukas; Leonard of Chios; Barbaro).",
 ]
 open_questions = [
   "Rename the civ? Its people called themselves Rhomaioi (Romans) and the state Basileia tōn Rhōmaiōn. With the Romans civ out of scope, “Romans” or “Eastern Romans” would be possible; “Byzantines” remains the academic convention. Kept as “Byzantines” here.",
-  "Mule Cart: not given to the Byzantines in this draft. Mules carried the imperial baggage train (Three Treatises on Imperial Military Expeditions), but pack mules were universal in the Mediterranean and the camps work well for a lowland and coastal state; the Mule Cart stays a Caucasian building. Should the Byzantines get it (alongside the camps or replacing them)?",
-  "The Imperial Age discount (-33%) is a play on the word “Imperial”; this draft replaces it with the theme lands. Does the owner want to keep the original as gameplay identity?",
+  "Mule Cart (owner's question): not given to the Byzantines; they keep the Lumber and Mining Camps. Mules carried the imperial baggage train (Three Treatises on Imperial Military Expeditions), but pack mules were universal in the Mediterranean and nothing makes them a Byzantine speciality. Should the Byzantines get it, alongside the camps or replacing them?",
+  "Economic slot: the Imperial Age discount (-33%, a play on the word “Imperial”) is replaced by “All gold income +10%” for the gold-based fiscal state. Alternatives: restore the original as gameplay identity; “Coinage, Banking free” (the nomisma and tribute diplomacy, but very weak in play); or a silk economy (“Trade Units generate +x% gold”, or the N2 sericulture Market tech in the ideas). Which does the owner prefer?",
   "Camel Rider and Heavy Camel Rider are removed (no Byzantine camel cavalry after 642). Alternative: keep them as a nod to the 6th-century dromedarii.",
+  "Masonry and Architecture are still missing because the building HP bonus covers them. An N1 option: restore both and lower the bonus (e.g. +10/15/20/25% HP), so that the builders of Hagia Sophia (Anthemios and Isidore, 532–537) and of hundreds of kastra get them. The Siege Onager stays out: Byzantine stone-throwers after c. 600 were traction trebuchets (manganika), not torsion onagers, and the Trebuchet already covers them.",
+  "Power budget: Themata and the gold income bonus, plus Bloodlines, Herbal Medicine, Siege Engineers and Heavy Scorpion, outweigh the lost Imperial Age discount, camels and Bombard Cannon. As an offset, Parthian Tactics is not added although the sources support Byzantine horse archers (Procopius, Wars I.1; Strategikon I.2; the horse archers inside the 10th-century kataphraktoi wedge). Add it anyway, or cut something else?",
+  "Hand Cannoneer and Bombard Tower stay for the defenders' guns of 1453 (see contested). Remove them as well, since the core is c. 670–1100? Removing the Bombard Tower would also let Greek Fire keep its original wording and stay level 1.",
+  "Team bonus: “Monks heal +100% faster” is kept but now rests on the spread of Byzantine monastic medicine to the Orthodox neighbours (RULES 6.2), not on Byzantine hospitals alone. Acceptable, or use another team effect for the Orthodox missions (e.g. “Monasteries work +20% faster”, which the Bulgarians already have)?",
 ]
 
 [profile]
@@ -40,12 +46,15 @@ sources = [
   "Leo VI, Taktika (c. 905; ed. and tr. G. T. Dennis, 2010)",
   "Nikephoros II Phokas, Praecepta Militaria (c. 965), in E. McGeer, Sowing the Dragon's Teeth (1995)",
   "Constantine VII Porphyrogennetos, De Administrando Imperio; Three Treatises on Imperial Military Expeditions (ed. J. Haldon, 1990)",
+  "The Book of the Eparch (c. 911/912)",
   "Anna Komnene, Alexiad",
   "J. Haldon, Warfare, State and Society in the Byzantine World 565–1204 (1999)",
-  "W. Treadgold, Byzantium and Its Army 284–1081 (1995)",
+  "W. Treadgold, Byzantium and Its Army 284–1081 (1995) and “The military lands and the imperial estates in the Middle Byzantine Empire” (Harvard Ukrainian Studies 7, 1983)",
+  "P. Lemerle, The Agrarian History of Byzantium (1979)",
   "J. Pryor & E. Jeffreys, The Age of the Dromon (2006)",
   "T. Miller, The Birth of the Hospital in the Byzantine Empire (1985; 2nd ed. 1997)",
   "S. Blöndal, The Varangians of Byzantium (tr. B. Benedikz, 1978)",
+  "D. Obolensky, The Byzantine Commonwealth (1971)",
   "A. Kaldellis, Romanland (2019) and The New Roman Empire (2023)",
 ]
 
@@ -55,7 +64,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Buildings +10/20/30/40% HP in Dark/Feudal/Castle/Imperial Age (Byzantines)"
-basis = "The Theodosian Walls (408–413, rebuilt after the earthquake of 447) were never breached by a land assault before 1453: they held against Avars and Persians (626), Arabs (717–718) and Bulgars (813, 913, 924); the entries of 1081, 1204 and 1261 came through treachery, the sea walls or surprise. From the 7th century fortified kastra anchored the defence of Anatolia (Haldon, 1999)."
+basis = "The Theodosian Walls (408–413, rebuilt after the earthquake of 447) were never breached by a land assault before 1453: they held against Avars and Persians (626), Arabs (717–718) and Bulgars (813, 913, 924); entries such as those of 1081, 1204 and 1261 (and several in the 14th-century civil wars) came through treachery, the sea walls or surprise. From the 7th century fortified kastra anchored the defence of Anatolia (Haldon, 1999)."
+relevance = "Without the walls of Constantinople and the Anatolian kastra the empire would have fallen in 626 or 717–718; they are the single trait that most explains its survival."
 
 [[bonus]]
 text = "Skirmishers and Spearman-line cost -25%"
@@ -65,6 +75,7 @@ change = "changed"
 replaces = "Camel Riders, Skirmishers and Spearman-line cost -25%"
 precedent = "Camel Riders, Skirmishers and Spearman-line cost -25% (Byzantines)"
 basis = "Middle Byzantine heavy infantry were shield-bearing spearmen (skutatoi with the kontarion, and the 10th-century menavlatoi who met enemy cavalry), backed by light archers and javelinmen (psiloi, akontistai) (Praecepta Militaria; McGeer, 1995). The camels go: the dromedarii of the Notitia Dignitatum (early 5th century) disappeared with the loss of Syria and Egypt (636–642), after which camels served only as pack animals."
+relevance = "Spear-armed heavy infantry with light missile troops was the constant infantry model of every Byzantine manual from the Strategikon to the Praecepta; it is a long military tradition, not a detail."
 
 [[bonus]]
 text = "Town Watch, Town Patrol free"
@@ -73,16 +84,18 @@ level = 1
 change = "kept"
 precedent = "Town Watch, Town Patrol free (Byzantines)"
 basis = "Frontier intelligence: the scouts and spies (kataskopoi, trapezitai) of the De velitatione (10th century) and the beacon chain attributed to Leo the Mathematician under Theophilos (829–842), which linked the fortress of Loulon near the Cilician Gates to the Great Palace."
+relevance = "For three centuries of Arab raids (c. 650–950) Anatolia survived by early warning and retreat into the kastra (De velitatione); the intelligence network, not one beacon anecdote, is the trait."
 
 [[bonus]]
-text = "Military Units cost -10/15/20% food in Feudal/Castle/Imperial Age"
+text = "All gold income +10%"
 kind = "economic"
 level = 1
 change = "new"
 replaces = "Advancing to Imperial Age costs -33%"
-precedent = "Military Units cost -15/20/25/30% food in Dark/Feudal/Castle/Imperial Age (Incas); Kshatriyas: Military Units cost -25% food (Gurjaras)"
-basis = "The themes: from the 7th to the 11th century the provincial armies were raised from soldiers whose military lands (stratiotika ktemata) fed and equipped them and their horses, so the treasury paid only modest cash wages (roga); 10th-century imperial novels forbade the sale of these lands (Haldon, 1999; Treadgold, 1995). The original bonus was a play on the word “Imperial”, with no historical content."
-contested = "How and when the themes were created is debated (Heraclius or Constans II; planned reform or slow evolution)."
+precedent = "Grand Trunk Road: All gold income +10% faster; Market trading fee reduced to 10% (Hindustanis; gold half only); Villagers drop off +10% more gold (Malians)"
+basis = "Byzantium was a tax state that ran on gold: the solidus or nomisma kept its weight and fineness from Constantine I to the debasements of the mid-11th century, the land tax and the 10% customs duty (kommerkion) of Constantinople were paid largely in coin, and the treasury paid salaries (roga), the fleet and the subsidies of its diplomacy in coin; Anastasius I left 320,000 lb of gold (Procopius, Secret History 19) and Basil II a famous surplus (Psellos). The original bonus was a play on the word “Imperial”, with no historical content (Haldon, 1999; Treadgold, 1995)."
+relevance = "The gold-based fiscal state paid the army, bought peace and ransomed defeats for eight centuries; take it away and Byzantine survival becomes hard to explain."
+contested = "An abstraction: the bonus does not model taxation, and the gold dinar of the caliphate competed with the nomisma from 696/697."
 
 [[bonus]]
 text = "Fire Ships and Dromons attack +25% faster"
@@ -90,7 +103,8 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Fire Ships and Dromons attack +25% faster (Byzantines)"
-basis = "Dromons with bow siphons spraying Greek fire were decisive against the Arab fleet in 717–718 and against Igor of Kiev's fleet in 941 (Theophanes; Liudprand of Cremona; Pryor & Jeffreys, 2006). The game's Fire Ship is the closest unit to the siphon dromon."
+basis = "Dromons with bow siphons spraying Greek fire were decisive against the Arab fleet in 717–718 and against Igor of Kiev's fleet in 941 (Theophanes; Liudprand of Cremona; Pryor & Jeffreys, 2006). The game's Fire Ship is the closest unit to the siphon dromon. The Dromon half applies to the game's anachronistic Imperial Age bombardment ship and is kept only until the N2 change of the Dromon's role (see the ideas)."
+relevance = "The imperial and thematic fleets kept the sea approaches of Constantinople closed in 674–678, 717–718 and 941; naval power is a structural trait of the empire."
 contested = "Byzantine naval superiority was real but intermittent: defeat at the Battle of the Masts (655), loss of Crete to a corsair emirate (c. 824/827–961), sack of Thessalonica by Leo of Tripoli (904)."
 
 [team_bonus]
@@ -98,7 +112,9 @@ text = "Monks heal +100% faster"
 level = 1
 change = "kept"
 precedent = "Monks heal +100% faster (Byzantines team bonus)"
-basis = "Byzantium developed hospitals with salaried physicians, from the foundation of Basil of Caesarea (c. 370) to the xenon of the Pantokrator monastery (typikon of 1136); the Strategikon (II.9) paid field medics (deputatoi) a nomisma for each wounded man they rescued (Miller, 1997)."
+basis = "Byzantium exported its monasticism, and the care of the sick that went with it, to the peoples it converted (Bulgaria 864/865, the Rus' 988; Obolensky, 1971): the Kiev Caves monastery adopted the rule of the Constantinopolitan Stoudios monastery under Theodosius (Russian Primary Chronicle), and Sava of Serbia's typika for Hilandar (1199) and Studenica (1208), largely translated from the typikon of the Evergetis monastery in Constantinople, provided for monastery hospitals. At home the model ran from Basil of Caesarea's foundation (c. 370) to the xenon of the Pantokrator (typikon of 1136) (Miller, 1997)."
+relevance = "The conversion of Bulgarians, Serbs and Rus', with Byzantine monastic institutions, is the empire's most lasting legacy (the “Byzantine Commonwealth”); healing monks stand for its charitable monasticism."
+contested = "How far the Serbian typika reflect real hospitals rather than translated prescriptions is unclear."
 
 [[unique_unit]]
 name = "Cataphract"
@@ -107,40 +123,59 @@ building = "Castle"
 level = 1
 change = "kept"
 basis = "The Praecepta Militaria of Nikephoros II Phokas (c. 965) and the Taktika of Nikephoros Ouranos (c. 1000) describe the kataphraktoi: horse and rider armoured in felt and iron, armed with iron maces, sabres and lances, formed in a blunt wedge to break the enemy centre (McGeer, 1995). A small, short-lived elite (c. 950–1050), with horse archers inside the formation."
+relevance = "The armoured horseman, from the late Roman clibanarii to the kataphraktoi of the 10th-century reconquests (Crete 961, Cilicia 965, Antioch 969), is the emblem of the Byzantine army in its offensive age."
+
+[[unique_tech]]
+name = "Themata"
+building = "Town Center"
+kind = "civil"
+age = "Castle"
+effect = "Military Units cost -25% food"
+level = 1
+change = "new"
+precedent = "Kshatriyas (Military Units cost -25% food) (Gurjaras): an existing unique tech, shared, moved to the Town Center and renamed, identical effect"
+basis = "The themes were the army districts of the provinces, each under a strategos, that replaced the late Roman field armies after the Arab conquests. By the 9th–10th century many thematic soldiers held lands registered for military service (stratiotika ktemata), which supported them, their equipment and their horses, so the state paid only modest periodic roga; 10th-century novels (Constantine VII, Nikephoros II) forbade the alienation of these lands (Haldon, 1999; Lemerle, 1979). In the 10th–11th centuries thematic service was increasingly commuted into cash."
+relevance = "The theme system is the institutional backbone that carried the empire through the 7th–10th centuries; it passes the test for a state tech by any measure."
+contested = "When the themes were created and whether soldiers held military lands before the 10th century (see the civ-level contested list)."
 
 [[unique_tech]]
 name = "Greek Fire"
+building = "Dock"
+kind = "military"
 age = "Castle"
 effect = "Fire Ships +1 range; Dromons increased blast radius"
-level = 1
+level = 2
 change = "changed"
-replaces = "Greek Fire (Fire Ships +1 range; Dromons and Bombard Towers increased blast radius)"
-precedent = "Greek Fire (Fire Ships +1 range; Dromons and Bombard Towers increased blast radius) (Byzantines): the same two effects, without the Bombard Tower target"
-basis = "Theophanes credits Kallinikos, an architect from Heliopolis in Syria, with bringing the liquid fire c. 672; projected from siphons, it burned the Arab and Rus' fleets (717–718, 941), and Anna Komnene describes its last secure naval use, against the Pisans (1099). The Bombard Tower effect is removed: Greek fire was a petroleum incendiary, not gunpowder."
+replaces = "Greek Fire (Fire Ships +1 range; Dromons and Bombard Towers increased blast radius), formerly at the Castle"
+precedent = "Greek Fire (Fire Ships +1 range; Dromons and Bombard Towers increased blast radius) (Byzantines): the same two effects without the Bombard Tower target. Level 2 only because RULES 6.5 counts any changed effect as a new tech."
+basis = "Theophanes credits Kallinikos, an architect from Heliopolis in Syria, with bringing the liquid fire c. 672; projected from siphons, it burned the Arab and Rus' fleets (717–718, 941), and Anna Komnene describes its last secure naval use, against the Pisans (1099). It moves to the Dock because it was a naval weapon. The Bombard Tower effect is removed: Greek fire was a petroleum incendiary, not gunpowder."
+relevance = "Greek fire turned the sieges of 717–718 and the Rus' attack of 941 and is the most famous Byzantine technique; datable (c. 672), so it is a tech, at the Dock where the sea belongs."
 
 [[unique_tech]]
 name = "Praecepta Militaria"
+building = "Castle"
+kind = "military"
 age = "Imperial"
 effect = "Cataphracts and Varangian Guards deal trample damage"
 level = 1
 change = "changed"
 replaces = "Logistica (Cataphracts and Varangian Guards deal trample damage)"
 precedent = "Logistica (Cataphracts and Varangian Guards deal trample damage) (Byzantines): renamed, identical effect"
-basis = "“Logistica” is modern pseudo-Latin (the word “logistics” is 19th-century) and has nothing to do with trample damage. The effect is the shock of the kataphraktoi wedge described in Nikephoros II Phokas' Praecepta Militaria (c. 965; McGeer, 1995) and of the axes of the Varangians, Anna Komnene's “axe-bearing barbarians” (Alexiad; Blöndal, 1978)."
+basis = "Logistica uses the 19th-century military sense of logistics (Jomini) and has nothing to do with trample damage. The effect is the shock of the kataphraktoi wedge, whose front ranks carried iron maces (siderorabdia), described in the treatise of Nikephoros II Phokas (c. 965), known by its editors' conventional Latin title Praecepta Militaria (its Greek title is Stratēgikē ekthesis kai syntaxis Nikēphorou despotou; McGeer, 1995). The Varangian half rests not on the treatise, which predates the Guard (c. 988), but on Anna Komnene's “axe-bearing barbarians” (Alexiad; Blöndal, 1978)."
+relevance = "The doctrine of the 10th-century offensive army of Nikephoros II, John I and Basil II, which reconquered Crete, Cilicia, Antioch and Bulgaria; a datable military moment at the Castle."
 
 [tree]
-add = ["Bloodlines", "Herbal Medicine", "Siege Engineers", "Heavy Scorpion", "Parthian Tactics"]
+add = ["Bloodlines", "Herbal Medicine", "Siege Engineers", "Heavy Scorpion"]
 remove = ["Camel Rider", "Heavy Camel Rider", "Bombard Cannon"]
 
 [tree.basis]
-"Bloodlines" = "The state bred horses on imperial ranches (metata), above all at the army base of Malagina in Bithynia, under the Logothete of the Herds and the Count of the Stable (Three Treatises on Imperial Military Expeditions, ed. Haldon, 1990). Denying horse breeding to a heavy cavalry civ contradicts the sources."
+"Bloodlines" = "The logothete of the herds ran imperial stud farms (mētata) in Asia and Phrygia, and the imperial stable (under the komes tou staulou) kept remounts at Malagina in Bithynia, the first assembly camp of eastern expeditions (Three Treatises on Imperial Military Expeditions, ed. Haldon, 1990). Denying horse breeding to a heavy cavalry civ contradicts the sources."
 "Herbal Medicine" = "Hospitals (xenones) with salaried doctors, such as the Pantokrator (1136), and the paid army medics of the Strategikon (II.9) (Miller, 1997); its absence clashed with the healing team bonus."
 "Siege Engineers" = "Byzantium kept Roman siegecraft alive: the siege treatise of the so-called Heron of Byzantium (10th century) and the siege chapter of Leo VI's Taktika; formal sieges took Chandax in Crete (960–961), Mopsuestia and Tarsus (965)."
 "Heavy Scorpion" = "Bolt-shooting engines stayed in service: Leo VI's Taktika (c. 905) has torsion or tension bolt-throwers carried in the infantry baggage (ed. Dennis, 2010)."
-"Parthian Tactics" = "Armoured horse archers (hippotoxotai) were the core of Belisarius' army (Procopius, Wars I.1); the Strategikon (I.2) expects Roman cavalrymen to shoot, and the 10th-century kataphraktos formation included horse archers (Praecepta Militaria). The civ already had Cavalry Archer, Heavy Cavalry Archer and Thumb Ring."
 "Camel Rider" = "No regular Byzantine camel cavalry after the loss of Syria and Egypt (636–642); only the late Roman dromedarii (Notitia Dignitatum, early 5th century) support it."
 "Heavy Camel Rider" = "Removed with the Camel Rider (see above)."
-"Bombard Cannon" = "Byzantium never had a siege artillery train: according to Doukas, the founder Orban first offered his services to Constantine XI, who could not pay him, and then cast Mehmed II's great guns. The defenders' few small guns of 1453 remain through the Bombard Tower and the Hand Cannoneer."
+"Bombard Cannon" = "Byzantium never had a siege artillery train: according to Doukas, the founder Orban first offered his services to Constantine XI, who could not pay him, and then cast Mehmed II's great guns. The defenders' few small guns of 1453 remain through the Bombard Tower and the Hand Cannoneer (see contested); the Trebuchet, rams and Siege Engineers keep the civ's siege."
 
 [architecture]
 set = "Mediterranean"
