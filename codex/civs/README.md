@@ -58,7 +58,7 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 
 | Game name | Name | Window | Main changes | File |
 |---|---|---|---|---|
-| Huns | **Avars** | 567–796 | Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism and the Dromon leave. | [Avars.toml](Avars.toml) |
+| Huns | **Avars** | 567–796 | Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism, the Dromon and the Hussar leave. | [Avars.toml](Avars.toml) |
 | Mongols | Mongols | 1206–1368 | The Mongol Empire (1206–1368) keeps its horse archers, hunt, remounts, Mangudai and Drill and gains the Keshik, the decimal levy (Conscription free), the yam relay as the Town Center tech and the Pax Mongolica as the team bonus, while camels, the Champion and the Cannon Galleon leave. | [Mongols.toml](Mongols.toml) |
 | Tatars | Tatars | 1242–1502 | Tatars refocused on the Golden Horde (1242–1502) without Timur: herds, horse archery and the Keshik stay, the Kipchak levy, Araba wagon camps, yarlyk and tamga revenues, the Beglerbeg (Silk Armor renamed), the traction trebuchet and the khans' patents to the Russian Church enter, and the Timurid Flaming Camel and Siegecraft, the counterweight Trebuchet, guns and camels leave. | [Tatars.toml](Tatars.toml) |
 | Cumans | Cumans | 1055–1241 | The Cuman-Kipchak confederation (1055–1241, diaspora to c. 1400) keeps its speed, extra Town Center, Kipchak and Cuman Mercenaries, gains herding, ransom, feigned flight, the Council of Khans and marriage alliances, and loses its invented early siege, the top siege tiers, the Trebuchet and camels. | [Cumans.toml](Cumans.toml) |
@@ -97,7 +97,7 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 |---|---|---|---|---|
 | Japanese | Japanese | 645–1600 | Japan (645–1600), on the owner’s sketch: double cropping, ō-yoroi and ashigaru replace the cheap camps, the Cavalry Archer attack bonus goes, Genko Borui (the Hakata Bay wall of 1276) and Tanegashima (the one late element) replace Yasama and Kataparuto, Shugo-Jito is the Town Center tech, the Ming tally trade gives the team bonus, and the Traction Trebuchet replaces the Trebuchet. | [Japanese.toml](Japanese.toml) |
 | Koreans | Koreans | 500–1598 | Korea from the Three Kingdoms to early Joseon (500–1598), on the owner’s sketch: the Korean bow and armoured monks join the kept bonuses, the infantry discount goes, the Gaema Musa replaces the War Wagon, Eupseong takes the walls effect, Singijeon narrows Shinkichon, and gifts to Japan give the team bonus. | [Koreans.toml](Koreans.toml) |
-| Vietnamese | Vietnamese | 938–1527 | Đại Việt from Ngô Quyền to the Lê (938–1527): Red River dikes and the Bạch Đằng river fleets replace the unfounded economic and scouting bonuses, the examination state (Văn Miếu) Paper Money, guns passed to the Ming the Imperial Skirmisher, Chatras becomes a lighter Tượng Binh, the Traction Trebuchet (an inference) replaces the Trebuchet, and the architecture East Asian. | [Vietnamese.toml](Vietnamese.toml) |
+| Vietnamese | Vietnamese | 938–1527 | Đại Việt from Ngô Quyền to the Lê (938–1527): Red River dikes and the Bạch Đằng river fleets replace the unfounded economic and scouting bonuses, the examination state (Văn Miếu) Paper Money, guns passed to the Ming the Imperial Skirmisher, Chatras becomes a lighter Tượng Binh, the Traction Trebuchet (an inference) replaces the Trebuchet, the Cannon Galleon leaves, and the architecture becomes East Asian. | [Vietnamese.toml](Vietnamese.toml) |
 | Khmer | Khmer | 802–1431 | The Angkorian empire (802–1431): Jayavarman VII’s hospitals (Arogyashala) replace Tusk Swords, rice, temples, spear levies and rest houses (Dharmashala) the unfounded mechanics, Khmer script passed to the Tai the Scorpion team bonus, and the tree follows Zhou Daguan: no stone-throwers, Knights or guns. | [Khmer.toml](Khmer.toml) |
 | Burmese | Burmese | 1044–1599 | The Irrawaddy kingdoms from Pagan to the First Toungoo Empire (1044–1599): the War Elephant replaces the Arambai, Ahmudan and Bayingyi (the one late element) the Howdah and Manipur Cavalry, Kyaukse rice and river fleets the infantry and Lumber Camp bonuses, monks for Sri Lanka the relic team bonus, and the navy drops to the boat tier of the Irrawaddy war boats. | [Burmese.toml](Burmese.toml) |
 | Malay | Malay | 671–1511 | The Malay states from Srivijaya to Malacca (671–1511): trade and Orang Laut fleets replace the age-up and armour bonuses, the Hulubalang the Karambit Warrior, Lela Thalassocracy and a religious team bonus the dock sight, Syahbandar is the Town Center tech, and the Bombard Cannon, Trebuchet and Keep leave. | [Malay.toml](Malay.toml) |
@@ -191,8 +191,25 @@ overrule any convention (RULES section 11).
 - **Team effects and reuse** (6.16.12). Reused effects are accepted in N1, each resting on its own history (rule
   6.7). Identical team effects held by different civs count once per team, and trade-gold team bonuses count once,
   at the highest value present. A civ's own bonus and an ally's identical team bonus stack as the game stacks
-  them (for example relic gold for the Muisca with a Tatar ally); N1 accepts these stacks and the files flag
-  them. A diversification pass for team bonuses and Town Center techs, planned for N2, revisits them.
+  them (for example relic gold for the Muisca with a Tatar ally); N1 accepts these stacks, listed below. A
+  diversification pass for team bonuses and Town Center techs, planned for N2, revisits them. The stacks of a
+  civ's own bonus or unique tech with an ally's identical team bonus are:
+  - Docks cost -15%: the Italians' Arsenale with a Norwegian ally.
+  - Monasteries work +20% faster: the Maya passive with an Anglo-Saxon, Bulgarian, Burmese, Danish, Gaelic,
+    Hindustani, Khitan or Malay ally (the Maya's Universities +33% half also adds to the Universities +80% team
+    bonus below).
+  - Monks heal +100% faster: the Mapuche passive with a Byzantine ally.
+  - Relics generate +33% gold: the Muisca passive with a Tatar ally.
+  - Stables work +20% faster: the Castilians' Caballería de Cuantía and the Germans' Ministerialen with an Avar
+    ally.
+  - Technologies research +25% faster: the Vietnamese Văn Miếu with an Arab ally.
+  - Trade Units generate +10% food in addition to gold: the Malian passive with a Bengali or Muisca ally.
+  - Trade Units generate +15% gold: the Berber passive with a Burgundian or Gurjara ally.
+  - Trade Units generate +25% gold: the Tatars' Tamga with a Castilian or Mongol ally.
+  - Units more resistant to conversion: the German and Lithuanian passives and the Sicilians' Magna Expeditio
+    with an Inca ally.
+  - Universities work +80% faster: the Georgians' Gelati Academy with a Chinese, Frankish, Khmer, Malian,
+    Persian or Polish ally.
 - **Power floor** (6.16.13). No blanket compensation for kits that history leaves weak; only historically
   grounded extras (the Berbers' *tabiya* walls).
 - **Alliances of autonomous polities** (6.16.14). Alliances between autonomous polities of one people (the

@@ -3,14 +3,14 @@ name = "Avars"
 original_name = "Huns"
 status = "draft"
 label = "Cavalry civilization"
-summary = "Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism and the Dromon leave."
+summary = "Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism, the Dromon and the Hussar leave."
 ideas = [
   "N3: A “Steppe” architecture set shared with the Mongols, Tatars and Cumans (RULES 6.15); Eastern European is only a stopgap.",
   "N2: An Avar lancer-archer unique unit that switches between bow and lance, as the Strategikon (XI.2) describes Avar horsemen (lance on the shoulder, bow in the hand); mechanic as the game's Bengali Ratha.",
   "N3: The Ring (hring): the khagan's fortified residence and treasury, captured by the Franks in 795–796, as a unique fortification that stores gold (Royal Frankish Annals; Einhard, Life of Charlemagne 13).",
   "N2: Give the Canoe (the Galley line on the Scenario Editor's Canoe model) stats of its own, light and fast dugouts carrying Slav levies, for the monoxyla of the Golden Horn in 626; N1 gives it only the canoe's look.",
   "N2: Ransom of captives as gold from enemy Villagers taken by mounted units: Avar raids carried off Roman captives by the thousand, and the khagans offered them back for ransom.",
-  "N3: A late-antiquity chronological ceiling for the Avars, as the Goths' design proposes: the Petard (a 16th-century gunpowder charge), the Halberdier and the Hussar have no equivalent in a 6th–8th-century army, and RULES 6.10 asks to replace or remove such items rather than rename them; no Avar names are documented that would allow an N1 rename instead. In N1 the Petard stays as a flagged generic abstraction of the game's skeleton (RULES 6.16.2).",
+  "N3: A late-antiquity chronological ceiling for the Avars, as the Goths' design proposes: the Petard (a 16th-century gunpowder charge) and the Halberdier have no equivalent in a 6th–8th-century army, and no Avar names are documented that would allow an N1 rename. In N1 the Petard stays as a flagged generic abstraction of the game's skeleton (RULES 6.16.2), and the Halberdier as the generic top tier of the Spearman line, an abstraction kept for the counter system (RULES 6.14) until that ceiling exists; the Hussar, a 15th-century type, is removed in N1 (see the tree), as in the Goths' design.",
 ]
 contested = [
   "Avar origins: Theophylact (VII.7–8) calls the European Avars “Pseudo-Avars” who usurped a prestigious name; their link with the Rouran khaganate is debated, but ancient DNA shows that the early Avar elite arrived recently from north-east Asia (G. A. Gnecchi-Ruscone et al., Cell, 2022).",
@@ -129,9 +129,10 @@ contested = "Tribute figures and dates vary between sources (see the civ-level c
 
 [tree]
 add = ["Traction Trebuchet", "Steppe Lancer", "Elite Steppe Lancer"]
-remove = ["Trebuchet", "Dromon", "Galleon", "Galleon, Fast Fire Ship and Carrack"]
+remove = ["Trebuchet", "Dromon", "Galleon", "Galleon, Fast Fire Ship and Carrack", "Hussar"]
 
 [tree.basis]
+"Hussar" = "Hungarian and Serbian light cavalry of the 15th century, seven centuries after the khaganate (RULES 6.10, 6.16.19(d)); Light Cavalry stays for the Avar light horse, as in the Goths' design."
 "Traction Trebuchet" = "The rope-pulled engine of the Avar sieges of Thessalonica (586 or 597; c. 617/618) and Constantinople (626); it replaces the counterweight Trebuchet as the Avars' heavy siege weapon (RULES 6.11), as it does for the out-of-scope Three Kingdoms, under the traction test (RULES 6.16.5), and carries the cost bonus. Trained at the Siege Workshop in the Imperial Age."
 "Steppe Lancer" = "The Strategikon (XI.2) describes most Avar riders as doubly armed, the lance slung on the shoulder and the bow in the hand; the regional lancer unit (RULES 6.1) stands for the lance-armed riders of the host."
 "Elite Steppe Lancer" = "Upgrade of the Steppe Lancer: the warriors of the host wore mail (Strategikon XI.2); the leaders on armoured horses belong to the Tarkan."
