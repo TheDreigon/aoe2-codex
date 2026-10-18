@@ -347,3 +347,155 @@ These two sketches come from the chat of 15 October 2026 and are now recorded he
 **Rus'** (window from c. 882): passives Farmers +15%, hunting also generates gold (the fur trade), Detinets as a passive (a structural wooden-fortification tradition), Monks +20% speed; Boyar kept; techs Druzhina (Vendel Legacy's trample for the Boyar and the Knight line, Castle), Kalita (Town Center, a small gold trickle like the Feitoria; Ivan I's collection of the Horde's tribute), Baptism of Rus' (Monastery, Monastery technologies -50%), Pushechny Dvor (Siege Workshop, cheaper and faster gunpowder units, dated per section 3.4); team bonus trade gold for allies (the treaties with Byzantium of 911 and 944, Novgorod's trade with the Hanse); tree adds the Hand Cannoneer, Bombard Cannon, Bombard Tower, Thumb Ring and Bracer, removes the Cannon Galleon.
 
 **Germans** (window 919–1500): mounted Teutonic Knight and Landsknecht as unique units; passives Burgen garrison, +1/+2 melee armour, Farms -40% (Ostsiedlung), conversion resistance moved from the team bonus to a passive; techs Ministerialen (Castle), a Town Center tech (now the Golden Bull, per section 3.1), Hanse (Dock); team bonus Bergrecht (German miners abroad); tree adds Arbalester, Gold Shaft Mining, Architecture, Treadmill Crane, Dry Dock, Shipwright and Light Cavalry.
+
+## 10. Fix pass
+
+The fix pass of sections 3, 4, 6, 7 and 9 was carried out between 15 and 18 October 2026 on branch `level-1`. After it, every file passes `validate_civs.py`, every file has `open_questions = []`, and all 52 files have `status = "reviewed"`.
+
+### Result
+
+| Measure | Result |
+|---|---|
+| Average fidelity, 52 civs | **4.9 in the game → 7.2 in the review → 7.5 after the fix pass** (7.46) |
+| Distribution | 27 civs at 8, 22 at 7, 3 at 6 |
+| Changed scores | 12 civs gain a point (Italians, Germans, Lithuanians, Swedes, Bulgarians, Avars, Arabs, Berbers, Bengalis, Khitans, Japanese, Aztecs); none loses one |
+| Questions for the owner | none ([`../civs/open-questions.md`](../civs/open-questions.md) lists the departures from the owner's decisions) |
+
+Each region was scored blind by two independent scorers on the analysis scale; a third scorer decided where they disagreed (Lithuanians, Rus', Avars, Gurjaras, Bengalis, Khitans, Maya). The scorers also judged whether each file could be marked reviewed. Five files were held back by concrete blockers (Avars, Vietnamese, Gurjaras, Bengalis, Maya); commit 040f9b9 resolved them, and an independent check confirmed it.
+
+| Region | Civs | Game | Review | Fix pass |
+|---|---|---|---|---|
+| Britain and France | 5 | 5.2 | 7.6 | 7.6 |
+| Iberia and Italy | 4 | 5.3 | 7.5 | 7.8 |
+| Central Europe | 5 | 5.2 | 7.0 | 7.4 |
+| Scandinavia, the Rus' and the Goths | 5 | 4.6 | 7.2 | 7.4 |
+| Byzantium, the Balkans and the Caucasus | 4 | 4.8 | 7.5 | 7.8 |
+| The Steppe | 4 | 4.5 | 7.3 | 7.5 |
+| The Islamic world and Africa | 6 | 4.8 | 7.0 | 7.3 |
+| The Indian subcontinent | 4 | 5.0 | 7.5 | 7.8 |
+| China and its northern neighbours | 3 | 5.0 | 7.3 | 7.7 |
+| East and Southeast Asia | 6 | 5.0 | 7.3 | 7.5 |
+| The Americas | 6 | 4.7 | 6.7 | 6.8 |
+
+
+Bold codex names are renamed civs; bold scores changed in the fix pass.
+
+| Game name | Codex name | Game | Review | Fix pass |
+|---|---|---|---|---|
+| Britons | **English** | 6 | 8 | 8 |
+| Celts | **Gaels** | 3 | 7 | 7 |
+| Saxons | **Anglo-Saxons** | 6 | 8 | 8 |
+| Franks | Franks | 5 | 7 | 7 |
+| Burgundians | Burgundians | 6 | 8 | 8 |
+| Spanish | **Castilians** | 4 | 8 | 8 |
+| Portuguese | Portuguese | 5 | 7 | 7 |
+| Italians | Italians | 6 | 7 | **8** |
+| Sicilians | Sicilians | 6 | 8 | 8 |
+| Teutons | **Germans** | 5 | 7 | **8** |
+| Bohemians | Bohemians | 7 | 8 | 8 |
+| Poles | Poles | 5 | 7 | 7 |
+| Lithuanians | Lithuanians | 4 | 6 | **7** |
+| Magyars | Magyars | 5 | 7 | 7 |
+| Vikings | **Norwegians** | 6 | 8 | 8 |
+| Danes | Danes | 5 | 7 | 7 |
+| Varangians | **Swedes** | 4 | 7 | **8** |
+| Slavs | **Rus'** | 5 | 7 | 7 |
+| Goths | Goths | 3 | 7 | 7 |
+| Byzantines | Byzantines | 6 | 8 | 8 |
+| Bulgarians | Bulgarians | 4 | 7 | **8** |
+| Armenians | Armenians | 3 | 7 | 7 |
+| Georgians | Georgians | 6 | 8 | 8 |
+| Huns | **Avars** | 3 | 7 | **8** |
+| Mongols | Mongols | 6 | 8 | 8 |
+| Tatars | Tatars | 4 | 7 | 7 |
+| Cumans | Cumans | 5 | 7 | 7 |
+| Saracens | **Arabs** | 5 | 7 | **8** |
+| Persians | Persians | 5 | 7 | 7 |
+| Turks | Turks | 6 | 7 | 7 |
+| Berbers | Berbers | 5 | 7 | **8** |
+| Malians | Malians | 4 | 7 | 7 |
+| Ethiopians | Ethiopians | 4 | 7 | 7 |
+| Hindustanis | Hindustanis | 4 | 8 | 8 |
+| Gurjaras | Gurjaras | 5 | 7 | 7 |
+| Bengalis | Bengalis | 6 | 7 | **8** |
+| Dravidians | **Tamils** | 5 | 8 | 8 |
+| Chinese | Chinese | 5 | 7 | 7 |
+| Jurchens | Jurchens | 6 | 8 | 8 |
+| Khitans | Khitans | 4 | 7 | **8** |
+| Japanese | Japanese | 5 | 7 | **8** |
+| Koreans | Koreans | 6 | 8 | 8 |
+| Vietnamese | Vietnamese | 5 | 7 | 7 |
+| Khmer | Khmer | 6 | 8 | 8 |
+| Burmese | Burmese | 4 | 7 | 7 |
+| Malay | Malay | 4 | 7 | 7 |
+| Aztecs | Aztecs | 5 | 7 | **8** |
+| Maya | Maya | 4 | 7 | 7 |
+| Inca | Inca | 6 | 8 | 8 |
+| Muisca | Muisca | 4 | 6 | 6 |
+| Mapuche | Mapuche | 5 | 6 | 6 |
+| Tupi | Tupi | 4 | 6 | 6 |
+
+The scores still stop at 8 for the reasons of section 1: level 1 itself, umbrella windows and thin sources. The Muisca, Mapuche and Tupi stay at 6 for the reasons of section 4.
+
+### What changed
+
+- **Rules and tools.** RULES v0.5: the codex-wide questions became decided conventions (6.16, with the traction-test readings and the one-heavy-engine rule in 6.16.5, and bonus stacks in 6.16.12). Units of the campaigns and the Scenario Editor count as existing content, and the owner's art-reuse rule sets the levels: as it is N1, with adapted stats N2, new art N3. Narrowed or weaker passive and team effects are level 1. Section 4 records the three renames, the Avars' cheaper traction trebuchets, and the Mississippians and Javanese as N3 proposals; section 12 is the changelog. `validate_civs.py` accepts Scenario Editor models and level-2 units with a `stats` key. The base stats of the Scenario Editor units are in [`../tools/scenario-units-stats.md`](../tools/scenario-units-stats.md).
+- **Renames.** Britons → **English**, Saxons → **Anglo-Saxons** (the term is flagged as contested), Saracens → **Arabs**, with `original_name` and renamed files.
+- **Rus' rebuilt on the owner's sketch.** The passives are Farmers, hunting gold (the fur trade), Detinets, Monks and the Cavalry Archer discount. The techs are the Druzhina (trample for the Boyar and the Knight line), Kalita, the Baptism of Rus' (Monastery technologies -50%) and Pushechny Dvor, dated from the cannon house of 1488. Poliud'e and Pomest'e become ideas, and the team bonus adds the treaties of 911 and 944.
+- **Swedes.** Engelbrekt's Rising replaces Vendel Legacy, Alsnö Stadga returns to the Castle Age, and the Hand Cannoneer (Brunkeberg, 1471) and Block Printing (Stockholm, 1483) join the tree.
+- **Germans on the German sketch.** The Teutonic Knight uses the Crusader Knight art and the Landsknecht the Heavy Pikeman art, both at level 2 with adapted stats: as they are, the first exceeded the cavalry attack ceiling and the second was weaker than the Halberdier. Ministerialen is the Castle tech and the Golden Bull the Town Center tech. The Hanse moves to the Dock, Light Cavalry and Shipwright join, the Peter von Danzig moves here, and Gutenberg's Press becomes an idea.
+- **Owner decisions and our historical calls executed.**
+  - English: rate of fire in place of range.
+  - Portuguese: Ordem de Cristo for the Galley line, +2.
+  - Japanese: Genko Borui.
+  - Italians: the Arsenale, and the Cannon Galleon restored on Chioggia (1379–80).
+  - Khitans: the dual administration, with the Chanyuan Treaty at the Market.
+  - Arabs: Abd al-Malik's Dinar, with Bimaristan at the Monastery.
+  - Castilians: the caballería de cuantía.
+  - Avars: Traction Trebuchets cost -25%.
+  - Gaels: Scotland included.
+  - Americas: Blast Furnace, Plate Mail Armor and Ring Archer Armor restored.
+  - Lithuanians: the Genitour (Sulica Rider) and a pagan conversion-resistance passive.
+  - Bengalis: the Bombard Cannon.
+  - Tatars: the Traction Trebuchet, a church-patent team bonus and Silk Armor's effect as the Beglerbeg.
+  - Bulgarians: Krum's Siege Train.
+  - Bohemians: the Czech mercenaries as the team bonus.
+  - Malay: the Javanese civ recorded as an N3 proposal.
+- **Shared tests applied across the codex.**
+  - Navies are classified by vessel: the Magyars and Burmese drop to the boat tier, and the Canoe look goes to the Aztecs, Maya, Mapuche, Tupi, Malians and Avars.
+  - The traction test: the Armenians (a flagged inference) and the Byzantines (one heavy engine for their core) take the Traction Trebuchet.
+  - The Mounted Crossbowman stays only where shooting from the saddle is documented, which leaves only the Germans; the Franks' Ordonnance Companies now cheapens the Knight line.
+  - The Treadmill Crane has one reading for the Islamic world, and the Inca rename it Mit'a.
+  - Gunpowder follows the represented period (6.16.19(d)): the Vietnamese lose the Cannon Galleon, while the Burgundians keep theirs on a gun-armed galley of 1445.
+  - The Avars lose the Hussar.
+- **Scenario Editor units.**
+  - Adopted where they fit: the Crusader Knight, Heavy Pikeman, Canoe, Ox Wagon (the Tatars' Araba) and Donkey (the Ethiopians' Baql).
+  - Weighed and declined: the Mounted Samurai, a melee unit while the Heian–Kamakura warrior was a mounted archer; the Pagan Priest, kept as an N2 idea; and others, with the reasons in the files.
+- **Corrections and questions.** Every correction of section 3.4 is applied. The claims the historians could not confirm are reworded or flagged in the files. The 464 per-civ and 26 codex-wide questions are recorded as decisions with their contested notes. The README index, conventions and method are rewritten.
+
+### Departures and open points
+
+There are no questions left for the owner. [`../civs/open-questions.md`](../civs/open-questions.md) lists 14 departures from the owner's decisions or sketches, each with its reason, for the owner to confirm or overrule. The main ones:
+
+- the English passive is +10/+18%, because a level-1 passive cannot exceed the game's existing +18%;
+- the two German units are at level 2;
+- the Germans keep a fifth passive (Monks heal at range);
+- the effects chosen for the Rus' Kalita and Pushechny Dvor;
+- the Franks' and Burgundians' Mounted Crossbowman line is removed.
+
+### Process
+
+1. RULES v0.5 groundwork.
+2. One fixer per region; per region, one or two skeptical historians (web search allowed) and a rules auditor. The fixer applied or rebutted every finding, then an independent verifier and a final fix (11 regions, about 400 findings).
+3. A cross-civ check with 13 independent lenses: six on cross-references, three on conventions, a completeness critic and three on unconfirmed claims. A cross-civ fix round per region followed, with its own verification.
+4. The README and `open-questions.md` were rewritten.
+5. Blind re-scoring with adjudication; the last blockers were fixed and checked.
+
+Each step was committed separately.
+
+### Limits and next steps
+
+- The fandom wiki was blocked and direct page fetches often failed from the cloud, so many checks rest on search results. Points that could not be confirmed at first hand are flagged in the files.
+- The level-2 unit stats, the Scenario Editor looks and the bonus stacks are untested in the game.
+- Reuse remains high for N1 (the Monasteries and trade team bonuses, the Grand Trunk Road, Kshatriyas and Persian Town Center effects, the Kamayuk and Kipchak models). This is the first task of the N2 diversification pass.
+- Next: the history texts (`codex/history/`), the site's historical mode and N2 planning (section 8, step 7).

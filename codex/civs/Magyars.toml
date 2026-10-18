@@ -1,6 +1,6 @@
 civ = "Magyars"
 name = "Magyars"
-status = "draft"
+status = "reviewed"
 label = "Cavalry civilization"
 summary = "Magyars cover the Conquest and the kingdom to Mohács: the Huszar costs no gold, the reflex bow becomes an Imperial Age passive, Kremnica gold and castle-building replace two bonuses, Stephen I’s counties and Matthias’ Black Army are the techs, gunpowder and Central European architecture come in, and the Danube flotilla takes the boat tier."
 ideas = [

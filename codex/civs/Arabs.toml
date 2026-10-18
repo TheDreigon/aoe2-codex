@@ -1,7 +1,7 @@
 civ = "Saracens"
 name = "Arabs"
 original_name = "Saracens"
-status = "draft"
+status = "reviewed"
 label = "Cavalry Archer and Naval civilization"
 summary = "Saracens renamed Arabs for the Arab caliphates and Ayyubid–Mamluk Egypt and Syria (632–1517): a horse-archer Mamluk replaces the camel Mameluke, Abd al-Malik's coinage and diwan reform (Dinar) becomes the Town Center tech, Bimaristan moves to the Monastery, Arabic science passed to neighbours is the team bonus, and the Hand Cannoneer and Cannon Galleons leave."
 ideas = [

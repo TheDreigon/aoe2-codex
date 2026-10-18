@@ -1,6 +1,6 @@
 civ = "Chinese"
 name = "Chinese"
-status = "draft"
+status = "reviewed"
 label = "Archer and Gunpowder civilization"
 summary = "One civ for China from the Sui to the early Ming (581–1500): it gains the hand cannon and bombard, the traction pao in place of the counterweight Trebuchet, Tuntian at the Town Center and crossbow volleys in place of the fire-lancer bonus, and its team bonus now rests on schooling its neighbours."
 ideas = [

@@ -1,6 +1,6 @@
 civ = "Bulgarians"
 name = "Bulgarians"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Siege civilization"
 summary = "The First and Second Bulgarian Empires (681–1018, 1185–1396): Konnik, Krepost and the siege discount stay; the swordsman bonuses go, and mountain passes, steppe archery and Vlach herding come in, with Krum's siege train, the Peace of 927, the Council of Preslav and Cuman allies as techs and a Slavonic team bonus."
 ideas = [

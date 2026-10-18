@@ -1,7 +1,7 @@
 civ = "Dravidians"
 name = "Tamils"
 original_name = "Dravidians"
-status = "draft"
+status = "reviewed"
 label = "Infantry and Naval civilization"
 summary = "Dravidians renamed Tamils, the Pallavas, Cholas and Pandyas (575–1323): the Velaikkarar and Kalam are the unique units, Uttaramerur and Kadaram new techs, pearls, tanks, temples and sea-borne armies the bonuses, the merchant guilds the team bonus, and gunpowder, Arbalester and Trebuchet leave."
 ideas = [

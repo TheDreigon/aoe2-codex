@@ -1,6 +1,6 @@
 civ = "Franks"
 name = "Franks"
-status = "draft"
+status = "reviewed"
 label = "Cavalry civilization"
 summary = "The Frankish kingdoms and France (481–1500): knights, mills, cheap castles and the Throwing Axeman stay, Gothic building replaces the forager bonus, the University of Paris the team bonus, Ordonnance Companies moves to the Town Center and makes the men-at-arms cheaper, the Bureau Brothers take Chivalry’s Castle slot and the Mounted Crossbowman line leaves the tree."
 ideas = [

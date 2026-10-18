@@ -1,6 +1,6 @@
 civ = "Poles"
 name = "Poles"
-status = "draft"
+status = "reviewed"
 label = "Cavalry civilization"
 summary = "Poles moved back to Piast and Jagiellonian Poland: the Kopijnik replaces the Obuch and the Hussar the 17th-century Winged Hussar, Szlachta Privileges moves to the Town Center, hired companies take the Castle, fortifications replace villager regeneration, and the architecture becomes Central European."
 ideas = [

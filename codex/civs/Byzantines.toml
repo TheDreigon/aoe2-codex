@@ -1,6 +1,6 @@
 civ = "Byzantines"
 name = "Byzantines"
-status = "draft"
+status = "reviewed"
 label = "Defensive civilization"
 summary = "Byzantium (527–1453): walls and Cataphracts stay; a gold-income passive replaces the Imperial Age discount, the themes become the Town Center tech, Greek Fire moves to the Dock, Logistica becomes Praecepta Militaria, camels and late gunpowder leave, the Traction Trebuchet replaces the Trebuchet, and horse breeding, hospitals and siege engines return."
 ideas = [

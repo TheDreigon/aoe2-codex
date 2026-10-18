@@ -1,6 +1,6 @@
 civ = "Muisca"
 name = "Muisca"
-status = "draft"
+status = "reviewed"
 label = "Archer and Monk civilization"
 summary = "The Muisca chiefdoms (800–1540): salt and gold offerings replace the age-up and Settlement bonuses and salt trade the gold team bonus, cloth tribute becomes the Town Center tech, the Temple Guard and Huaracas are dropped, the Champi line becomes the Club line, and siege engines and stone forts go."
 ideas = [

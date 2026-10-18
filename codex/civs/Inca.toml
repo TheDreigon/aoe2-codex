@@ -1,6 +1,6 @@
 civ = "Incas"
 name = "Inca"
-status = "draft"
+status = "reviewed"
 label = "Infantry civilization"
 summary = "The Tawantinsuyu (1400–1533): the roads and the mitmaqkuna colonies become Town Center techs, fitted stonework makes buildings tougher instead of cheaper, llama herding and cloth gifts to allied lords replace the population and Llama bonuses, and siege engines, crossbows, the Halberdier and the sailing warships go."
 ideas = [

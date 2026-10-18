@@ -1,7 +1,7 @@
 civ = "Slavs"
 name = "Rus'"
 original_name = "Slavs"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Defensive civilization"
 summary = "Slavs renamed Rus' (882–1505), on the owner's sketch: fur-hunting gold and cheaper horse archers replace Arson, Gambesons and the siege discount, Detinets becomes a passive, Druzhina gives the Boyar and Knight line trample, Kalita's tribute is the Town Center tech, the Baptism of Rus' and Ivan III's gun foundry are new techs, trade with Byzantium and the Hanse is the team bonus, and Muscovite guns enter."
 ideas = [

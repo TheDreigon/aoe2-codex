@@ -1,7 +1,7 @@
 civ = "Varangians"
 name = "Swedes"
 original_name = "Varangians"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Naval civilization"
 summary = "Varangians renamed Swedes (500–1500): fur-hunting gold and the Jarl stay, the Varangian Guard stays Byzantine, so its bonus and Gothikon leave, Vendel Legacy gives way to Engelbrekt's Rising, Alsnö Stadga becomes the Town Center tech, Swedish iron and copper carry the team bonus, an armed peasantry gets a new passive, and hand guns and printing enter."
 ideas = [

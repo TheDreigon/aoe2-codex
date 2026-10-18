@@ -1,7 +1,7 @@
 civ = "Spanish"
 name = "Castilians"
 original_name = "Spanish"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Monk civilization"
 summary = "Spanish renamed Castilians for the medieval Crown of Castile (1037–1504): the Freire of the military orders replaces the Conquistador and Missionary, the caballería de cuantía takes the Castle, the Santa Hermandad and Bula de Cruzada replace Supremacy and Inquisition, and the Mesta, cheaper castles, Santiago's relic and the foot crossbow come in while the mounted crossbow line leaves."
 ideas = [

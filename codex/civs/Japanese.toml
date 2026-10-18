@@ -1,6 +1,6 @@
 civ = "Japanese"
 name = "Japanese"
-status = "draft"
+status = "reviewed"
 label = "Infantry and Cavalry Archer civilization"
 summary = "Japan (645–1600), on the owner’s sketch: double cropping, ō-yoroi and ashigaru replace the cheap camps, the Cavalry Archer attack bonus goes, Genko Borui (the Hakata Bay wall of 1276) and Tanegashima (the one late element) replace Yasama and Kataparuto, Shugo-Jito is the Town Center tech, the Ming tally trade gives the team bonus, and the Traction Trebuchet replaces the Trebuchet."
 ideas = [

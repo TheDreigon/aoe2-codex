@@ -1,6 +1,6 @@
 civ = "Malians"
 name = "Malians"
-status = "draft"
+status = "reviewed"
 label = "Infantry and Archer civilization"
 summary = "Malians as the Mali Empire of the Mande (1235–1599): Tontajon archers replace the Gbeto, the farba governors become the Town Center tech, the salt trade and poisoned arrows passives, war canoes (the Scenario Editor's Canoe) the Galley line, and gunpowder, Trebuchet, Keep, camels and cavalry archers leave, with the Halberdier and Siege Ram as substitutes."
 ideas = [

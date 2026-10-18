@@ -1,6 +1,6 @@
 civ = "Jurchens"
 name = "Jurchens"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Gunpowder civilization"
 summary = "The Jurchen Jin (1114–1234) keep cavalry, siegecraft and the Iron Pagoda; the Grenadier becomes the Bomb Thrower, Meng'an Mouke the Town Center tech and the Traction Trebuchet the heavy engine; Bombard Cannon, Rocket Carts, the Lou Chuan and the unfounded friendly-fire and line-of-sight bonuses go."
 ideas = [
