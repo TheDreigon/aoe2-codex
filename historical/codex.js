@@ -15,14 +15,24 @@
     const TOOLTIP_LENGTH = 320;
 
     let codex = {civs: {}};
+    let loaded = false;
+    let drawnWithMarks = false;
     const load = window.loadJson;
     // Every data file waits for codex.json, so the tree is never drawn without its marks.
     const ready = new Promise(function (resolve) {
         load('data/codex.json', function (response) {
             codex = response;
+            loaded = true;
             resolve();
         });
         setTimeout(resolve, 4000);
+    });
+    // main.js starts loading as soon as it runs, before this script; if a tree was drawn before
+    // the marks arrived, draw it again.
+    ready.then(function () {
+        if (loaded && !drawnWithMarks && document.getElementById('root') && typeof window.loadCiv === 'function') {
+            window.loadCiv();
+        }
     });
     window.loadJson = function (file, callback) {
         return load(file, function (response) {
@@ -60,6 +70,9 @@
     const drawItem = window.drawItem;
     window.drawItem = function (itemToDraw, element_height, tree_height, draw) {
         drawItem(itemToDraw, element_height, tree_height, draw);
+        if (loaded) {
+            drawnWithMarks = true;
+        }
         const entry = changeFor(itemToDraw.id);
         if (!entry) {
             return;

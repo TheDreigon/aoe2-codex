@@ -516,4 +516,4 @@ Sources for the check: the Diccionario histórico de la lengua española, entry 
 
 - The Jinete, Ginete and Sulica Rider are the same regional unit (the game's Genitour) for the Castilians, Portuguese and Lithuanians, so the site shows them as regional, as RULES 6.16.10 already decided.
 - The Catapult Galleon was left to the Mongols alone. The Chinese design now has it too: at Caishi (1161) the Song paddle-wheel warships threw bombs from ship-borne traction trebuchets (Needham 1986). It stays regional.
-- **Open, for the owner:** the Lou Chuan is left to the Chinese alone (the Jurchens' design drops it, and Shu, Wei and Wu are out of scope), so it becomes a third Chinese unique unit beside the Chu Ko Nu and the Dragon Ship. The site shows it as unique until the owner decides.
+- **Decided by the owner:** the Lou Chuan is left to the Chinese alone (the Jurchens' design drops it, and Shu, Wei and Wu are out of scope), so it becomes a third Chinese unique unit beside the Chu Ko Nu and the Dragon Ship. The owner keeps all three as an exception to the 1 or 2 of RULES 6.1.
