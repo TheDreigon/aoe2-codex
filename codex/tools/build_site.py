@@ -29,6 +29,7 @@ REPO_URL = 'https://github.com/TheDreigon/aoe2-codex/blob/master/codex/civs/'
 
 FIRST_STRING_ID = 990000   # custom strings; help strings are looked up as help_string_id - 79000
 FIRST_TECH_ID = 9000       # synthetic ids for level-2 techs
+FIRST_UNIT_ID = 95000      # synthetic ids for level-2 units with adapted stats
 DEFAULT_TECH_COST = {'Food': 300, 'Gold': 250}
 DEFAULT_RESEARCH_TIME = 60
 AGE_ROWS = {'Dark': [1], 'Feudal': [3, 2], 'Castle': [5, 4], 'Imperial': [6, 7]}
@@ -79,6 +80,25 @@ def first_sentence(text, limit=240):
     return s if len(s) <= limit else s[:limit].rsplit(' ', 1)[0] + '…'
 
 
+def parse_stats(text):
+    """Base-tier numbers from a design's free-text `stats` (the Elite tier, after '. Elite', is left out)."""
+    seg = re.split(r'\.\s+Elite\b', text, maxsplit=1)[0]
+    out = {}
+    for key, pattern in (('HP', r'(\d+)\s*HP'), ('Attack', r'(\d+)\s*attack'),
+                         ('Speed', r'speed\s*(\d+(?:\.\d+)?)'), ('ReloadTime', r'reload\s*(\d+(?:\.\d+)?)\s*s'),
+                         ('TrainTime', r'train(?:ing)? time\s*(\d+)'), ('Range', r'range\s*(\d+(?:\.\d+)?)')):
+        m = re.search(pattern, seg, re.I)
+        if m:
+            out[key] = float(m.group(1)) if '.' in m.group(1) else int(m.group(1))
+    m = re.search(r'(\d+)\s*/\s*(\d+)\s*armou?r', seg, re.I)
+    if m:
+        out['MeleeArmor'], out['PierceArmor'] = int(m.group(1)), int(m.group(2))
+    cost = {res.capitalize(): int(n) for n, res in re.findall(r'(\d+)\s*(food|wood|gold|stone)\b', seg, re.I)}
+    if cost:
+        out['Cost'] = cost
+    return out
+
+
 def esc(text):
     return (text or '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
@@ -126,6 +146,7 @@ class Builder:
         self.scenario = load(CODEX / 'tools' / 'scenario-units-stats.json')
         self.s = Strings()
         self.next_tech = FIRST_TECH_ID
+        self.next_unit = FIRST_UNIT_ID
         self.report = []
         self.catalog = {}
         self.building_catalog = {}
@@ -264,16 +285,47 @@ class Builder:
                                    prefer=(slot[1], slot[2]) if slot else None)
                         if slot:
                             freed.remove(slot)
+                        if u.get('stats'):
+                            self.adapt_stats(tree, node, u['stats'])
                     continue
                 else:
                     self.report.append(f'{self.civ}: no template for unique unit model {model}')
                     continue
+            base_node = next((n for n in present if n['name'] == model), None)
+            if base_node is not None and u.get('stats'):
+                self.adapt_stats(tree, base_node, u['stats'])
             for n in present:
                 n['node_type'] = 'UniqueUnit'
                 if n['name'] == model and name != model:
                     self.renamed_strings(n, model, name, f'(Codex: the game\'s {model}.)')
                 elif n['name'] == f'Elite {model}' and name != model and f'Elite {model}' not in renamed_elites:
                     self.renamed_strings(n, f'Elite {model}', f'Elite {name}')
+
+    def adapt_stats(self, tree, node, stats_text):
+        """Give a level-2 unit its own data entry with the design's adapted stats (other civs keep the model)."""
+        overrides = parse_stats(stats_text)
+        base = self.data['data']['Unit'].get(str(node['node_id']))
+        if base is None or not overrides:
+            self.report.append(f'{self.civ}: could not apply adapted stats to {node["name"]}')
+            return
+        uid = self.next_unit
+        self.next_unit += 1
+        entry = copy.deepcopy(base)
+        entry.update(overrides)
+        entry['ID'] = uid
+        if 'MeleeArmor' in overrides or 'PierceArmor' in overrides:
+            entry['Armours'] = [a for a in entry.get('Armours', []) if a['Class'] not in (3, 4)] + [
+                {'Amount': entry['MeleeArmor'], 'Class': 4}, {'Amount': entry['PierceArmor'], 'Class': 3}]
+        self.data['data']['Unit'][str(uid)] = entry
+        old_id = node['id']
+        node['node_id'] = uid
+        node['id'] = f"Unit_{uid}_{node['building_id']}"
+        b, r, c = grid_position(tree, old_id)
+        if b is not None:
+            b['grid'][r][c] = node['id']
+        text = self.strings_en.get(str(node['help_string_id'] - 79000), '') or self.s.extra.get(str(node['help_string_id'] - 79000), '')
+        text = text.replace('<br>\n', f' <i>Codex stats (level 2): {esc(stats_text)}</i><br>\n', 1)
+        node['help_string_id'] = self.s.add(text) + 79000
 
     # ---- unique techs -----------------------------------------------------------------------
     def precedent_tech(self, ut):
