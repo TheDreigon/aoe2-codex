@@ -118,7 +118,7 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 The regions were designed by separate teams, and these conventions make every file apply the same tests. They
 summarise the decided conventions of [RULES 6.16](../RULES.md#6-civ-design-rules), which the level-1 review
 settled (section 6) and the owner accepted, plus the level rules of RULES section 5 and the Mounted Crossbowman
-test of the review (section 3.2). RULES is authoritative wherever this summary is shorter, and the owner can
+test of the review (sections 3.2 and 11). RULES is authoritative wherever this summary is shorter, and the owner can
 overrule any convention (RULES section 11).
 
 - **Navy** (6.16.1). Navies are classified by vessel, not by water. Planked war galleys or ships make a
@@ -137,10 +137,10 @@ overrule any convention (RULES section 11).
 - **Crossbows** (6.16.3). In Old World civs the Crossbowman is the generic Castle Age bow tier, as an
   abstraction, until the bow and crossbow lines are split in N2. The Arbalester needs crossbow evidence. The
   pre-contact Americas have neither.
-- **Mounted Crossbowman** (review, section 3.2). One shared test: the line stays only where shooting from the
-  saddle is documented. Only the Germans keep it, on thin and flagged evidence (Hans Talhoffer's fight book of
-  1467); the other fourteen designs whose game civ has it drop it, since their sources show mounted crossbowmen
-  at most as troops who rode to the fight.
+- **Mounted Crossbowman** (review, sections 3.2 and 11). One shared test: the line stays where mounted
+  crossbowmen are documented as a regular troop type of the civ's armies. Most of them rode to the fight and
+  shot on foot, so N2 can give the line a mode that dismounts to shoot. Seven designs keep it (Franks,
+  Burgundians, Italians, Castilians, Portuguese, Poles, Germans); the eight others whose game civ has it drop it.
 - **Thumb Ring** (6.16.4). Only where the thumb draw is attested for the civ's archers, or for an archery
   tradition its armies demonstrably used (steppe, Islamic, East Asian); not for civs whose archers used the
   European draw or whose missile troops were crossbowmen.

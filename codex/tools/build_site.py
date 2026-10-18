@@ -10,8 +10,10 @@ set for the historical mode to historical/data/. The original data is never modi
 
 What each design changes on the site:
   - the civ's displayed name and its bonus panel (label, time window, original name, bonuses,
-    unique units and techs, team bonus, a link to the design file);
+    unique units and techs, team bonus, a link to the design file), each line with its reason;
   - its tree: unique units and techs, items added and removed, per-civ renames.
+A unit that only one designed civ has is shown as a unique unit (RULES 6.1). Every change and its
+reason also goes to historical/data/codex.json, which historical/codex.js shows on the tree.
 Generated texts are English in every locale. Prints a report of anything it could not place.
 """
 import copy
@@ -41,7 +43,11 @@ TREE_NAMES = {  # design name -> name used in the site's tree files
     'Trebuchet': 'Trebuchet (Packed)', 'Blackwood Archers': 'Blackwood Archer',
     'Elite Blackwood Archers': 'Elite Blackwood Archer',
 }
-FALLBACK_PICTURES = {  # scenario units without an icon in img/: closest existing unit icon
+CHANGE_LABELS = {'kept': 'Kept from the game', 'new': 'New in the codex', 'changed': 'Changed by the codex'}
+WHY_LIMIT = 900  # characters of a reason shown in the bonus panel's tooltips
+# Scenario Editor unit icons come from the game (codex/tools/extract_scenario_icons.py writes
+# scenario-units-icons.json); a unit without one there takes the closest existing unit icon.
+FALLBACK_PICTURES = {
     'Crusader Knight': 'Knight', 'Heavy Pikeman': 'Pikeman', 'Heavy Swordsman': 'Long Swordsman',
     'Heavy Crossbowman': 'Arbalester', 'Eastern Swordsman': 'Long Swordsman', 'Norse Warrior': 'Berserk',
     'Mounted Samurai': 'Samurai', 'Khan': 'Mangudai', 'Sogdian Cataphract': 'Cataphract',
@@ -103,6 +109,32 @@ def esc(text):
     return (text or '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+def esc_attr(text):
+    return esc(text).replace('"', '&quot;')
+
+
+def shorten(text, limit):
+    text = re.sub(r'\s+', ' ', text or '').strip()
+    return text if len(text) <= limit else text[:limit].rsplit(' ', 1)[0] + '…'
+
+
+def why_text(item):
+    """The reason for a design element: how it relates to the game, then its basis."""
+    head = CHANGE_LABELS.get(item.get('change'), '')
+    if head and item.get('level'):
+        head += f' (level {item["level"]})'
+    if item.get('replaces'):
+        head += f'; replaces {item["replaces"]}' if head else f'Replaces {item["replaces"]}'
+    parts = [head + '.'] if head else []
+    if item.get('basis'):
+        parts.append(item['basis'])
+    return ' '.join(parts)
+
+
+def with_why(html, why):
+    return f'<span class="codex-why" data-codex-why="{esc_attr(shorten(why, WHY_LIMIT))}">{html}</span>' if why else html
+
+
 def grid_position(tree, node_id):
     for b in tree['buildings']:
         for r, row in enumerate(b['grid'] or []):
@@ -144,6 +176,10 @@ class Builder:
         self.strings_en = load(ROOT / 'data' / 'locales' / 'en' / 'strings.json')
         self.trees = {p.stem: load(p) for p in (ROOT / 'data' / 'trees').glob('*.json')}
         self.scenario = load(CODEX / 'tools' / 'scenario-units-stats.json')
+        icons = CODEX / 'tools' / 'scenario-units-icons.json'
+        self.icons = load(icons) if icons.exists() else {}
+        self.notes = {}  # civ -> [(node or building, kind, reason)], resolved to node ids at the end
+        self.design_units = set()  # id() of the nodes that are a design's unique units
         self.s = Strings()
         self.next_tech = FIRST_TECH_ID
         self.next_unit = FIRST_UNIT_ID
@@ -168,6 +204,10 @@ class Builder:
 
     def help_text(self, node):
         return self.strings_en.get(str(node['help_string_id'] - 79000), '')
+
+    def note(self, node, kind, why):
+        """Record a change on the tree: added, removed, renamed, new (unique item) or kept (unique item)."""
+        self.notes.setdefault(self.civ, []).append((node, kind, why or ''))
 
     def renamed_strings(self, node, old, new, note=None):
         node['name'] = new
@@ -208,8 +248,11 @@ class Builder:
             return None
         st = rows[0]
         uid = st['id']
-        fallback = self.template(FALLBACK_PICTURES.get(model, 'Knight'))
-        picture = fallback[1]['picture_index'] if fallback else 0
+        if model in self.icons:
+            picture, icon_note = self.icons[model], ''
+        else:
+            fallback = self.template(FALLBACK_PICTURES.get(model, 'Knight'))
+            picture, icon_note = (fallback[1]['picture_index'] if fallback else 0), '; icon is a stand-in'
         self.data['data']['Unit'][str(uid)] = {
             'internal_name': st['internal_name'], 'ID': uid, 'HP': st['hp'], 'Cost': st['cost'],
             'Attack': st['attack'] or 0, 'Range': st['range'] or 0, 'MeleeArmor': st['melee_armour'] or 0,
@@ -219,7 +262,7 @@ class Builder:
             'Armours': [{'Amount': st['melee_armour'] or 0, 'Class': 4}, {'Amount': st['pierce_armour'] or 0, 'Class': 3}],
         }
         text = (f'Create <b>{name}</b> (‹cost›)<br>\nUnique unit of the codex, built on the Scenario Editor unit '
-                f'{model} (existing game content; icon is a stand-in).<br>\n<i>Upgrades: as the game\'s {model}.</i>'
+                f'{model} (existing game content{icon_note}).<br>\n<i>Upgrades: as the game\'s {model}.</i>'
                 f'<br>\n‹hp› ‹attack› ‹armor› ‹piercearmor› ‹range›')
         return {
             'age_id': 3, 'building_id': None, 'building_in_new_column': None, 'building_upgraded_from_id': None,
@@ -287,6 +330,8 @@ class Builder:
                             freed.remove(slot)
                         if u.get('stats'):
                             self.adapt_stats(tree, node, u['stats'])
+                        self.note(node, 'kept' if u.get('change') == 'kept' else 'new', why_text(u))
+                        self.design_units.add(id(node))
                     continue
                 else:
                     self.report.append(f'{self.civ}: no template for unique unit model {model}')
@@ -296,6 +341,8 @@ class Builder:
                 self.adapt_stats(tree, base_node, u['stats'])
             for n in present:
                 n['node_type'] = 'UniqueUnit'
+                self.design_units.add(id(n))
+                self.note(n, 'kept' if u.get('change') == 'kept' else 'new', why_text(u))
                 if n['name'] == model and name != model:
                     self.renamed_strings(n, model, name, f'(Codex: the game\'s {model}.)')
                 elif n['name'] == f'Elite {model}' and name != model and f'Elite {model}' not in renamed_elites:
@@ -374,6 +421,7 @@ class Builder:
             }
             slot = next((c for c in old_cells if c[0] == building and c[3] == AGE_IDS.get(age)), None)
             self.place(tree, node, building, AGE_ROWS[age], prefer=(slot[1], slot[2]) if slot else None)
+            self.note(node, 'kept' if ut.get('change') == 'kept' else 'new', why_text(ut))
             if slot:
                 old_cells.remove(slot)
 
@@ -385,16 +433,21 @@ class Builder:
 
     def apply_tree(self, tree, design):
         t = design.get('tree', {})
+        reasons = t.get('basis', {})
         for name in t.get('remove', []):
             nodes = self.nodes_named(tree, name)
             if not nodes and TREE_NAMES.get(name, name) in self.tree_names and name not in self.removed_units:
                 self.report.append(f'{self.civ}: remove {name}: not in the tree')
             for n in nodes:
+                if n.get('node_status') != 'NotAvailable':
+                    self.note(n, 'removed', reasons.get(name))
                 n['node_status'] = 'NotAvailable'
         for name in t.get('add', []):
             nodes = self.nodes_named(tree, name)
             if nodes:
                 for n in nodes:
+                    if n.get('node_status') == 'NotAvailable':
+                        self.note(n, 'added', reasons.get(name))
                     n['node_status'] = 'ResearchedCompleted'
                 continue
             tname = TREE_NAMES.get(name, name)
@@ -404,6 +457,7 @@ class Builder:
                 if building['grid']:
                     building['grid'] = [[None for _ in row] for row in building['grid']]
                 tree['buildings'].append(building)
+                self.note(building, 'added', reasons.get(name))
                 continue
             tmpl = self.template(tname)
             if not tmpl:
@@ -416,7 +470,8 @@ class Builder:
                 self.report.append(f'{self.civ}: add {name}: no {bname} in the tree')
                 continue
             node = self.clone(tnode, b_obj['building_id'])
-            self.place(tree, node, bname, [r] + [x for x in range(8) if x != r], prefer=(r, c))
+            if self.place(tree, node, bname, [r] + [x for x in range(8) if x != r], prefer=(r, c)):
+                self.note(node, 'added', reasons.get(name))
 
     def apply_renames(self, tree, design):
         for rn in design.get('rename', []):
@@ -427,6 +482,10 @@ class Builder:
                 continue
             for n in nodes:
                 self.renamed_strings(n, n['name'], rn['to'])
+                if rn.get('model') in self.icons and n.get('use_type') == 'Unit':
+                    n['picture_index'] = self.icons[rn['model']]
+                self.note(n, 'renamed', f'Renamed from {rn["from"]}' + (f', with the look of the {rn["model"]}' if rn.get('model') else '')
+                          + '. ' + rn.get('basis', ''))
 
     # ---- civ panel ----------------------------------------------------------------------------
     def civ_text(self, design, file_stem):
@@ -438,17 +497,18 @@ class Builder:
         lines.append(f'<i>{meta}</i>')
         lines.append('')
         for b in design.get('bonus', []):
-            lines.append(f'• {esc(b["text"])}')
+            lines.append('• ' + with_why(esc(b['text']), why_text(b)))
         lines.append('')
         lines.append('<b>Unique Units:</b>')
-        lines.append(', '.join(f'{esc(u["name"])} ({esc(u.get("building", "Castle"))})' for u in design.get('unique_unit', [])))
+        lines.append(', '.join(with_why(f'{esc(u["name"])} ({esc(u.get("building", "Castle"))})', why_text(u))
+                               for u in design.get('unique_unit', [])))
         lines.append('')
         lines.append('<b>Unique Techs:</b>')
         for ut in design.get('unique_tech', []):
-            lines.append(f'• {esc(ut["name"])} [{esc(ut["building"])}, {esc(ut["age"])}] ({esc(ut["effect"])})')
+            lines.append('• ' + with_why(f'{esc(ut["name"])} [{esc(ut["building"])}, {esc(ut["age"])}] ({esc(ut["effect"])})', why_text(ut)))
         lines.append('')
         lines.append('<b>Team Bonus:</b>')
-        lines.append(esc(design['team_bonus']['text']))
+        lines.append(with_why(esc(design['team_bonus']['text']), why_text(design['team_bonus'])))
         lines.append('')
         lines.append(f'<a href="{REPO_URL}{file_stem}.toml" target="_blank">Design notes and sources</a>')
         return '<br>\n'.join(lines)
@@ -487,9 +547,20 @@ class Builder:
                 civ_entry['help_string_id'] = self.s.add(
                     f'<b>Out of scope for the codex.</b> {esc(reason)} The original design is shown unchanged.<br>\n<br>\n{original}')
             out_trees[tree_key] = tree
+        self.single_civ_units(out_trees, [k for k in self.data['civs'] if k in designs])
+        changes = {}
+        for civ_key, notes in self.notes.items():
+            nodes = changes.setdefault(civ_key, {})
+            for obj, kind, why in notes:
+                entry = nodes.setdefault(obj['id'], {'kinds': [], 'why': []})
+                if kind not in entry['kinds']:
+                    entry['kinds'].append(kind)
+                if why and why not in entry['why']:
+                    entry['why'].append(why)
         for key, tree in out_trees.items():
             save(OUT / 'trees' / f'{key}.json', tree)
         save(OUT / 'data.json', self.data)
+        save(OUT / 'codex.json', {'civs': changes})
         for loc_dir in sorted((ROOT / 'data' / 'locales').iterdir()):
             strings = load(loc_dir / 'strings.json')
             strings.update(self.s.extra)
@@ -498,7 +569,7 @@ class Builder:
         # Cache busting: the generated files refer to each other by string ids that change between
         # builds, so a browser must never mix files of two builds. version.js makes the page request
         # this build's files (main.js loads everything through loadJson).
-        build = hashlib.sha1(json.dumps([self.data, self.s.extra], sort_keys=True).encode('utf-8')).hexdigest()[:12]
+        build = hashlib.sha1(json.dumps([self.data, self.s.extra, changes, out_trees], sort_keys=True).encode('utf-8')).hexdigest()[:12]
         js = ('// Generated by codex/tools/build_site.py: load the data files of this build, never a cached older one.\n'
               '(function () {\n'
               '    const load = window.loadJson;\n'
@@ -508,6 +579,41 @@ class Builder:
         print(f'built {len(out_trees)} civs ({len(designs)} designs), {len(self.s.extra)} custom strings, build {build}')
         for line in self.report:
             print('note:', line)
+
+    def unit_identity(self, node):
+        """The game's name of a unit, so that renamed copies and per-civ variants count as the same unit."""
+        if not hasattr(self, 'game_unit_names'):
+            self.game_unit_names = {n['node_id']: n['name'] for tree in self.trees.values()
+                                    for n in tree['units_techs'] if n['use_type'] == 'Unit'}
+        return self.game_unit_names.get(node['node_id'], node['name'])
+
+    def single_civ_units(self, trees, civs):
+        """RULES 6.1: a unit that only one designed civ has is a unique unit, wherever it is trained;
+        a unit that two or more share is regional unless a design makes it its unique unit."""
+        holders = {}
+        for civ_key in civs:
+            for n in trees[civ_key.upper()]['units_techs']:
+                if n['use_type'] == 'Unit' and n['node_status'] != 'NotAvailable':
+                    holders.setdefault(self.unit_identity(n), set()).add(civ_key)
+        for civ_key in civs:
+            self.civ = civ_key
+            for n in trees[civ_key.upper()]['units_techs']:
+                if n['use_type'] != 'Unit' or n['node_status'] == 'NotAvailable':
+                    continue
+                shared = len(holders.get(self.unit_identity(n), ())) > 1
+                if n['node_type'] in ('Unit', 'RegionalUnit', 'UnitUpgrade') and not shared:
+                    n['node_type'] = 'UniqueUnit'
+                    self.note(n, 'new', 'Only this civ has this unit in the codex, so it counts as a unique unit (RULES 6.1).')
+                    self.report.append(f'{civ_key}: {n["name"]} is held by no other civ and is shown as a unique unit')
+                elif n['node_type'] == 'UniqueUnit' and shared and id(n) not in self.design_units:
+                    n['node_type'] = 'RegionalUnit'
+                    self.report.append(f'{civ_key}: {n["name"]} is shared with other civs and is shown as a regional unit')
+        for civ_key in civs:
+            lines = {n['name'][6:] if n['name'].startswith('Elite ') else n['name']
+                     for n in trees[civ_key.upper()]['units_techs']
+                     if n['node_type'] == 'UniqueUnit' and n['node_status'] != 'NotAvailable' and n['use_type'] == 'Unit'}
+            if len(lines) > 2:
+                self.report.append(f'{civ_key}: {len(lines)} unique unit lines ({", ".join(sorted(lines))}), over the 1 or 2 of RULES 6.1')
 
     @property
     def out_of_scope(self):

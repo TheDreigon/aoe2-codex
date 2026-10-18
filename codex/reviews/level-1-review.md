@@ -499,3 +499,21 @@ Each step was committed separately.
 - The level-2 unit stats, the Scenario Editor looks and the bonus stacks are untested in the game.
 - Reuse remains high for N1 (the Monasteries and trade team bonuses, the Grand Trunk Road, Kshatriyas and Persian Town Center effects, the Kamayuk and Kipchak models). This is the first task of the N2 diversification pass.
 - Next: the history texts (`codex/history/`), the site's historical mode and N2 planning (section 8, step 7).
+
+## 11. The Mounted Crossbowman revisited (18 October 2026)
+
+The owner asked whether the fix pass's result, the Mounted Crossbowman left only to the Germans, was really true, and ruled that a unit that only one civ has must be a unique unit (RULES 6.1). On a new check the first test of section 3.2, keep the line only where shooting from the saddle is documented, does not hold up:
+
+- **It separates the civs on one picture.** Mounted crossbowmen were a regular troop type in France (balistarii equites, arbalestriers à cheval, cranequiniers), Burgundy, the Italian states (balestrieri a cavallo, in companies of their own from about 1430), Castile (the ballestero de caballo of the 13th-century fueros), Portugal (besteiros de cavalo), Poland (the mounted shooters of the banners) and the Empire. Almost everywhere they rode to the fight and shot on foot. The Germans passed only on Hans Talhoffer's fight book of 1467, a fencing manual that shows mounted crossbow combat, and their own design flagged the fit as thin.
+- **It gave a thin trait a unique slot.** Under the owner's rule the Germans' line would become a third unique unit, over the cap of two, for a trait that fails the relevance test (RULES 6.9) for the Germans.
+- **The game's unit can stand for the real troop.** The line stands for mobile crossbowmen, as the Knight stands for men-at-arms who often fought on foot. Level 2 can give it a mode that dismounts to shoot, as the English design already proposes for its mounted archers.
+
+**Revised shared test:** the line stays where mounted crossbowmen are documented as a regular troop type of the civ's armies within its window. Seven designs keep it, with the game's tiers: Franks (with Heavy Mounted Crossbowman and Cranequins), Burgundians, Italians, Castilians (with Heavy Mounted Crossbowman), Portuguese, Poles (with Heavy Mounted Crossbowman) and Germans. Eight still drop it: Anglo-Saxons, Gaels, Danes, Norwegians, Swedes, Sicilians (before 1266), Bohemians (the Hussite crossbowmen fought from the wagons) and English (the balistarii equites of John and Henry III come before the core period, and after c. 1300 the longbow displaced the crossbow). The Franks' Ordonnance Companies keeps its Knight-line discount, since the men-at-arms are the companies' better-documented core. The line stays regional, so no civ gains a unique unit from it.
+
+Sources for the check: the Diccionario histórico de la lengua española, entry ‘ballestero’ (the Fuero de Zorita de los Canes, 1218–c. 1250); Mallett, *Mercenaries and their Masters* (1974), on the Italian companies; the sources already cited in the civ files (Baldwin 1986, Contamine 1972, Vaughan 1973, Monteiro 1998, Kałużny 2023).
+
+**Other effects of the owner's rule**, found by the site generator, which now applies it to every tree (`codex/tools/build_site.py`):
+
+- The Jinete, Ginete and Sulica Rider are the same regional unit (the game's Genitour) for the Castilians, Portuguese and Lithuanians, so the site shows them as regional, as RULES 6.16.10 already decided.
+- The Catapult Galleon was left to the Mongols alone. The Chinese design now has it too: at Caishi (1161) the Song paddle-wheel warships threw bombs from ship-borne traction trebuchets (Needham 1986). It stays regional.
+- **Open, for the owner:** the Lou Chuan is left to the Chinese alone (the Jurchens' design drops it, and Shu, Wei and Wu are out of scope), so it becomes a third Chinese unique unit beside the Chu Ko Nu and the Dragon Ship. The site shows it as unique until the owner decides.
