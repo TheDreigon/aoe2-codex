@@ -1,6 +1,6 @@
 civ = "Aztecs"
 name = "Aztecs"
-status = "draft"
+status = "reviewed"
 label = "Infantry civilization"
 summary = "The Mexica and the Triple Alliance (1325–1521): chinampas, temple-burning infantry and a Tlatelolco market team bonus replace the start gold, Monk bonus and Relic gold, tribute becomes the Calpixqueh tech, siege engines and crossbows give way to Slingers, and the galleys become war canoes."
 ideas = [

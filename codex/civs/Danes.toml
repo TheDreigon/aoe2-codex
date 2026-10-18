@@ -1,6 +1,6 @@
 civ = "Danes"
 name = "Danes"
-status = "draft"
+status = "reviewed"
 label = "Infantry and Defensive civilization"
 summary = "Denmark from Godfred to the end of the Kalmar Union (808–1523): Trelleborg ring forts and the Danevirke replace the invented siege identity, the Øresund toll is the Town Center tech, the Varangian Guard becomes the Housecarl, Lund's church carries the team bonus, Kalmar-era guns and ships enter, and the mounted crossbow line leaves."
 ideas = [

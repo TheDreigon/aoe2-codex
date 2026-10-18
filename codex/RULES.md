@@ -1,6 +1,6 @@
 # aoe2-codex rules
 
-Version 0.5, 15 October 2026 (changes in section 12). This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
+Version 0.5, 15 October 2026, amended 18 October 2026 (changes in section 12). This document is the project's constitution: everything we do to the civilizations must follow it. Each decision has a status:
 
 - **[decided]**: agreed; changes only after a new discussion.
 - **[in principle]**: accepted, but the details are still open.
@@ -256,5 +256,6 @@ set = "Mediterranean"
 ## 12. Changes
 
 - **0.5 (15 October 2026).** After the level-1 review (`reviews/level-1-review.md`): the 26 codex-wide questions become decided conventions (rule 6.16); units of the campaigns and the Scenario Editor count as existing content, any existing unit's art may be reused (as it is: N1; with adapted stats: N2; with new art: N3), and narrowed or weaker passive and team effects are N1 (section 5); Britons, Saxons and Saracens are renamed English, Anglo-Saxons and Arabs; the Avars' trebuchet bonus becomes a cost reduction for the Traction Trebuchet; the Gaels include the kingdom of Scotland; Mississippians and Javanese are proposed as N3 civs (section 4); this changelog is added.
+- **0.5, amended (15–18 October 2026).** During the fix pass: the readings of the traction test (a documented transfer meets it, a flagged inference is admitted, one heavy engine per design) in 6.16.5; and in 6.16.12, a civ's own bonus and an ally's identical team bonus stack, which N1 accepts and the README of `civs/` lists.
 - **0.4.1 (15 October 2026).** Open historical questions settled; who decides (section 11).
 - **0.1–0.4 (October 2026).** Unique techs at named buildings, where each historical trait goes (rule 6.2), the relevance test (rule 6.9), late elements (section 2), renamed civs (section 4).

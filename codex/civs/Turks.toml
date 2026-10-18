@@ -1,6 +1,6 @@
 civ = "Turks"
 name = "Turks"
-status = "draft"
+status = "reviewed"
 label = "Gunpowder civilization"
 summary = "Turks as the Seljuks of Rum and the Ottomans (1071–1526): Sipahi moves to the Town Center as Timar, the Seljuk hans (Caravanserai) replace the gold-mining bonus, Turkish horsemen serving neighbours become the team bonus, and the Hussar and Shipwright are renamed Akıncı and Tersane."
 ideas = [

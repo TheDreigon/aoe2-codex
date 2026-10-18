@@ -1,7 +1,7 @@
 civ = "Huns"
 name = "Avars"
 original_name = "Huns"
-status = "draft"
+status = "reviewed"
 label = "Cavalry civilization"
 summary = "Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism, the Dromon and the Hussar leave."
 ideas = [
@@ -132,7 +132,7 @@ add = ["Traction Trebuchet", "Steppe Lancer", "Elite Steppe Lancer"]
 remove = ["Trebuchet", "Dromon", "Galleon", "Galleon, Fast Fire Ship and Carrack", "Hussar"]
 
 [tree.basis]
-"Hussar" = "Hungarian and Serbian light cavalry of the 15th century, seven centuries after the khaganate (RULES 6.10, 6.16.19(d)); Light Cavalry stays for the Avar light horse, as in the Goths' design."
+"Hussar" = "Hungarian and Serbian light cavalry of the 15th century, six to seven centuries after the khaganate (RULES 6.10); Light Cavalry stays for the Avar light horse, as in the Goths' design."
 "Traction Trebuchet" = "The rope-pulled engine of the Avar sieges of Thessalonica (586 or 597; c. 617/618) and Constantinople (626); it replaces the counterweight Trebuchet as the Avars' heavy siege weapon (RULES 6.11), as it does for the out-of-scope Three Kingdoms, under the traction test (RULES 6.16.5), and carries the cost bonus. Trained at the Siege Workshop in the Imperial Age."
 "Steppe Lancer" = "The Strategikon (XI.2) describes most Avar riders as doubly armed, the lance slung on the shoulder and the bow in the hand; the regional lancer unit (RULES 6.1) stands for the lance-armed riders of the host."
 "Elite Steppe Lancer" = "Upgrade of the Steppe Lancer: the warriors of the host wore mail (Strategikon XI.2); the leaders on armoured horses belong to the Tarkan."

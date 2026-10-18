@@ -193,11 +193,11 @@ overrule any convention (RULES section 11).
   at the highest value present. A civ's own bonus and an ally's identical team bonus stack as the game stacks
   them (for example relic gold for the Muisca with a Tatar ally); N1 accepts these stacks, listed below. A
   diversification pass for team bonuses and Town Center techs, planned for N2, revisits them. The stacks of a
-  civ's own bonus or unique tech with an ally's identical team bonus are:
+  civ's own bonus or unique tech with an ally's identical team bonus (identical effects only; similar effects at
+  other magnitudes also add up and are not listed) are:
   - Docks cost -15%: the Italians' Arsenale with a Norwegian ally.
   - Monasteries work +20% faster: the Maya passive with an Anglo-Saxon, Bulgarian, Burmese, Danish, Gaelic,
-    Hindustani, Khitan or Malay ally (the Maya's Universities +33% half also adds to the Universities +80% team
-    bonus below).
+    Hindustani, Khitan or Malay ally.
   - Monks heal +100% faster: the Mapuche passive with a Byzantine ally.
   - Relics generate +33% gold: the Muisca passive with a Tatar ally.
   - Stables work +20% faster: the Castilians' Caballería de Cuantía and the Germans' Ministerialen with an Avar

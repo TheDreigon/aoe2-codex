@@ -1,6 +1,6 @@
 civ = "Mayans"
 name = "Maya"
-status = "draft"
+status = "reviewed"
 label = "Archer civilization"
 summary = "The Maya kingdoms (500–1524): scribes and astronomers replace the extra Villager, city-burning infantry the siege engines and sea trade the walls team bonus, divine kingship becomes the Town Center tech, the Plumed Archer reaches the Archery Range in the Imperial Age, the galleys become war canoes, and crossbows, the Halberdier and the Keep go."
 ideas = [

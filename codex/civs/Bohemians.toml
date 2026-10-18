@@ -1,6 +1,6 @@
 civ = "Bohemians"
 name = "Bohemians"
-status = "draft"
+status = "reviewed"
 label = "Gunpowder and Monk civilization"
 summary = "Bohemians keep their Hussite core: Hussite Reforms moves to the Monastery, Charles IV’s New Town of Prague becomes the Town Center tech, the Houfnice becomes a short-range gun (Organ Gun model), Wagenburg Tactics gains armoured wagons, the Czech mercenaries replace the groschen as the team bonus, and the navy shrinks to a landlocked kingdom’s basic fleet."
 ideas = [

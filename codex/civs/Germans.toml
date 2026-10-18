@@ -1,7 +1,7 @@
 civ = "Teutons"
 name = "Germans"
 original_name = "Teutons"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Defensive civilization"
 summary = "Teutons renamed Germans (919–1500): the Teutonic Knight becomes the mounted brother-knight (Crusader Knight art) and the Landsknecht a second unique unit (Heavy Pikeman art), both with adapted stats, the Ministerialen, the Golden Bull and the Hanse replace Ironclad and Crenellations, conversion resistance becomes a passive, German miners the team bonus, and the tree gains Arbalester, Light Cavalry, Architecture and the mining and shipyard upgrades."
 ideas = [

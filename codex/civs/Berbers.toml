@@ -1,6 +1,6 @@
 civ = "Berbers"
 name = "Berbers"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Naval civilization"
 summary = "Berbers as the Amazigh of the Maghreb, centred on the Almoravids and Almohads (683–1554): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, rammed-earth (tabiya) walls a passive, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave."
 ideas = [

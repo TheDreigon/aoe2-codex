@@ -1,6 +1,6 @@
 civ = "Mapuche"
 name = "Mapuche"
-status = "draft"
+status = "reviewed"
 label = "Infantry and Counter-Units civilization"
 summary = "The Mapuche (1100–1598), recentred on their pre-Hispanic world: colihue lancers, the toqui, the assemblies, dispersed homesteads and machi healers replace the post-1541 cavalry kit, which survives only as the Kona in the Imperial Age, and siege engines, crossbows and stone building are removed."
 ideas = [

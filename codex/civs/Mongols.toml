@@ -1,6 +1,6 @@
 civ = "Mongols"
 name = "Mongols"
-status = "draft"
+status = "reviewed"
 label = "Cavalry Archer civilization"
 summary = "The Mongol Empire (1206–1368) keeps its horse archers, hunt, remounts, Mangudai and Drill and gains the Keshik, the decimal levy (Conscription free), the yam relay as the Town Center tech and the Pax Mongolica as the team bonus, while camels, the Champion and the Cannon Galleon leave."
 ideas = [

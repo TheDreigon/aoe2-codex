@@ -1,6 +1,6 @@
 civ = "Tatars"
 name = "Tatars"
-status = "draft"
+status = "reviewed"
 label = "Cavalry Archer civilization"
 summary = "Tatars refocused on the Golden Horde (1242–1502) without Timur: herds, horse archery and the Keshik stay, the Kipchak levy, Araba wagon camps, yarlyk and tamga revenues, the Beglerbeg (Silk Armor renamed), the traction trebuchet and the khans' patents to the Russian Church enter, and the Timurid Flaming Camel and Siegecraft, the counterweight Trebuchet, guns and camels leave."
 ideas = [

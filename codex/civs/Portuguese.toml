@@ -1,6 +1,6 @@
 civ = "Portuguese"
 name = "Portuguese"
-status = "draft"
+status = "reviewed"
 label = "Archer and Naval civilization"
 summary = "Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation, and the Mounted Crossbowman leaves the tree."
 ideas = [

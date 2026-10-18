@@ -1,6 +1,6 @@
 civ = "Khitans"
 name = "Khitans"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Cavalry Archer civilization"
 summary = "The Khitan Liao empire (907–1125) as an armoured horse-archer power: the Pishi Guard replaces the Liao Dao, Bloodlines comes free, the dual administration becomes the Town Center tech and the Chanyuan Treaty a Market tech, foraging plunder is added, and Lamellar Armor, rockets, fire lances, camels and the Mounted Trebuchet go."
 ideas = [

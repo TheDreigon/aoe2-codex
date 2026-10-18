@@ -1,6 +1,6 @@
 civ = "Goths"
 name = "Goths"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Infantry civilization"
 summary = "Goths redefined as the Visigothic and Ostrogothic kingdoms (418–711): the bowless Gothic Lancer, lance cavalry, Leovigild's Host and a federate team bonus replace the infantry flood, the Liber Iudiciorum is the Town Center tech, and gunpowder, horse archers and the Trebuchet leave."
 ideas = [

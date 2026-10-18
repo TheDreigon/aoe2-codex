@@ -1,6 +1,6 @@
 civ = "Sicilians"
 name = "Sicilians"
-status = "draft"
+status = "reviewed"
 label = "Infantry and Cavalry civilization"
 summary = "Sicilians as the Italo-Normans and the Kingdom of Sicily (1030–1266): the Norman charge (Imperial Age) replaces the bonus-damage bonus, a fleet bonus is added, First Crusade becomes the Magna Expeditio levy, the royal Diwan takes the Town Center, Lucera's Muslim archers replace Hauberk and the mounted crossbow line leaves the tree."
 ideas = [

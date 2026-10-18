@@ -1,6 +1,6 @@
 civ = "Burgundians"
 name = "Burgundians"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Gunpowder civilization"
 summary = "Valois Burgundy (1363–1477): the economic, Cavalier and gunpowder bonuses stay, archers replace the stable discount, the Bruges trade becomes the team bonus, the 1433–34 common coinage the Town Center tech, Vineyards moves to the Mill and the Order of the Golden Fleece replaces Flemish Revolution, while the Mounted Crossbowman leaves the tree."
 ideas = [

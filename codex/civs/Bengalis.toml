@@ -1,6 +1,6 @@
 civ = "Bengalis"
 name = "Bengalis"
-status = "draft"
+status = "reviewed"
 label = "Elephant and Naval civilization"
 summary = "Bengalis as Bengal from the Palas to the Sultanate (750–1538): the Paik replaces the Ratha and Hastyayurveda the Paiks tech, Shah-i Bangalah is new, cash crops and learning replace the cavalry and monk-armour bonuses, Mahayana moves to the Monastery, the Sultanate's Bombard Cannon is the late element, Cannon Galleons, Arbalester and Trebuchet go, and the river fleets make the boat tier."
 ideas = [

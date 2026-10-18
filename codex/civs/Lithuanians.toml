@@ -1,6 +1,6 @@
 civ = "Lithuanians"
 name = "Lithuanians"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Counter-Units civilization"
 summary = "Lithuanians recentred on the Grand Duchy from its pagan rise to the Jagiellonian union: forest foraging and a pagan resistance to conversion replace the food and relic bonuses, the hill forts become a passive, the Boyar replaces the Leitis, the regional javelin horse arrives as the Sulica Rider, Horodło and Vytautas’ Tatars are new techs, and the navy shrinks to a basic fleet."
 ideas = [

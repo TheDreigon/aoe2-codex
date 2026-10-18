@@ -1,6 +1,6 @@
 civ = "Armenians"
 name = "Armenians"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Archer civilization"
 summary = "Greater Armenia (884–1045): the Cilician navy, infantry bonuses, Warrior Priest and Fereters go; the nakharar cavalry gains a gold discount, Paladin, horse archers and Sparapet, Bagratid Ani becomes the Town Center tech, stone building a passive, the Traction Trebuchet replaces the Trebuchet, and the archer unique unit takes its Armenian name."
 ideas = [

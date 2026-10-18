@@ -1,7 +1,7 @@
 civ = "Celts"
 name = "Gaels"
 original_name = "Celts"
-status = "draft"
+status = "reviewed"
 label = "Infantry civilization"
 summary = "Celts reworked as the Gaels of Ireland and Scotland with the medieval Scottish kingdom (563–1500): a cattle-and-dairy economy and castle-taking infantry replace the invented siege identity, the Kern (Woad Raider renamed) is the unique unit, the Galloglass joins the Barracks, the Schiltron and Buannacht are the techs and the Irish missions the team bonus."
 ideas = [

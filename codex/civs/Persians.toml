@@ -1,6 +1,6 @@
 civ = "Persians"
 name = "Persians"
-status = "draft"
+status = "reviewed"
 label = "Cavalry and Archer civilization"
 summary = "Persians as Iran from the late Sasanians to the Timurids (500–1507): qanat farming and fast-shooting archers become passives, Khosrow I's land tax the Town Center tech Kharaj and Persian learning the team bonus; gunpowder leaves and the architecture becomes Central Asian."
 ideas = [

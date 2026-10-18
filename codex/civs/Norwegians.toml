@@ -1,7 +1,7 @@
 civ = "Vikings"
 name = "Norwegians"
 original_name = "Vikings"
-status = "draft"
+status = "reviewed"
 label = "Infantry and Naval civilization"
 summary = "Vikings renamed Norwegians (793–1469): stockfish gold, faster shepherds and settlers' sheep replace the free Wheelbarrow and Hand Cart, the Leiðangr levy becomes the Town Center tech, Berserk and Bogsveigar stay, the Halberdier replaces Chieftains, and the Varangian Guard and Cavalier leave."
 ideas = [
