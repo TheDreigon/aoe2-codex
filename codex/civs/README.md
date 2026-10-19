@@ -222,7 +222,7 @@ overrule any convention (RULES section 11).
   for the design's entity (RULES section 4). A shared generic item is renamed for one civ only when it has the
   same function inside the window, the new name is a period term and the generic name is foreign or
   anachronistic to the civ; modern coinages are flagged. A codex unit may take the name of a different game unit
-  (Ghulam, Teutonic Knight, Houfnice), with a note on the site. Names from non-Latin scripts use a plain
+  (Ghulam, Houfnice), with a note on the site. Names from non-Latin scripts use a plain
   romanization (Shugo-Jito; Pinyin without tones; Revised Romanization; no scholarly diacritics for Arabic,
   Persian and Indic); Latin-script languages, Vietnamese among them, keep their diacritics.
 - **Labels** (6.16.16). The in-game label follows the redesign, using the game's label categories.
