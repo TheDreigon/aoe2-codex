@@ -475,13 +475,14 @@ The scores still stop at 8 for the reasons of section 1: level 1 itself, umbrell
 
 ### Departures and open points
 
-There are no questions left for the owner. [`../civs/open-questions.md`](../civs/open-questions.md) lists 14 departures from the owner's decisions or sketches, each with its reason, for the owner to confirm or overrule. The main ones:
+There are no questions left for the owner. [`../civs/open-questions.md`](../civs/open-questions.md) lists the departures from the owner's decisions or sketches, each with its reason, for the owner to confirm or overrule. The main ones:
 
-- the English passive is +10/+18%, because a level-1 passive cannot exceed the game's existing +18%;
 - the two German units are at level 2;
 - the Germans keep a fifth passive (Monks heal at range);
 - the effects chosen for the Rus' Kalita and Pushechny Dvor;
 - the Franks' and Burgundians' Mounted Crossbowman line is removed.
+
+On 19 October 2026 the owner confirmed the English passive at +10/+20% (level 2; the fix pass had set +18% to keep it at level 1) and made realism the first priority and balance the second (RULES rule 14).
 
 ### Process
 

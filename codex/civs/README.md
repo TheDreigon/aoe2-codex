@@ -293,8 +293,8 @@ and every sketch and decision of the owner, which the designs follow:
 - the decisions taken after the review (review section 9): the renames (Britons → English, Saxons →
   Anglo-Saxons, Saracens → Arabs); the Crusader Knight as the model of the mounted Teutonic Knight; the
   Landsknecht as a unit; the Knight-line trample to the Rus' (Druzhina), with Engelbrekt's Rising for the
-  Swedes; the rate of fire of the English (the game's Britons), at +10/+18% instead of +20% so that the passive
-  stays level 1; the Japanese Genko Borui; the Italians' Arsenale; the Portuguese Ordem de Cristo, limited to
+  Swedes; the rate of fire of the English (the game's Britons), at +10/+20% (a level-2 passive, confirmed by
+  the owner on 19 October 2026); the Japanese Genko Borui; the Italians' Arsenale; the Portuguese Ordem de Cristo, limited to
   the Galley line at +2; CQ12 (the American removals kept, the armour tiers restored) and CQ23 (the Genitour for
   the Lithuanians);
 - the owner's rule on reusing unit art, with the Scenario Editor units counted as existing content (RULES
@@ -308,11 +308,12 @@ unique tech or generic tech already has (each `precedent` names it); unique unit
 shared or renamed, the units of campaigns and the Scenario Editor included; tree changes add or remove existing
 items; architecture sets are reassigned. A passive bonus or team bonus that applies an existing effect to fewer
 targets, or at a lower magnitude, stays level 1 (the narrowing rule, RULES section 5); a unique tech is level 1
-only when it is identical in play to an existing tech. Two kinds of element are recorded as **level 2**: unique
+only when it is identical in play to an existing tech. Three kinds of element are recorded as **level 2**: unique
 techs that no existing tech can fill (above all the mandatory Town Center tech, but also some extra techs for a
 distinct datable moment), 50 of the 133 unique techs, 42 at the Castle or Town Center and 8 at other buildings,
 each with the existing effect it copies; and the two unique units that reuse existing art with adapted stats,
-the Germans' Teutonic Knight and Landsknecht. Anything that needs new mechanics or art is listed in `ideas` for
+the Germans' Teutonic Knight and Landsknecht; and one passive that the owner raised above an existing
+magnitude, the English archers' +20% rate of fire. Anything that needs new mechanics or art is listed in `ideas` for
 N2 and N3.
 
 **Process.** The work ran as a multi-agent workflow, one team per region (the 11 regions of

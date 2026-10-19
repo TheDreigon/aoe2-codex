@@ -18,7 +18,6 @@ None. None of the 52 civ files has an open question, and no design, scope, prior
 
 In the points below, the fix pass did not carry out an owner decision or an owner sketch literally. The civ files give the reasons. Each departure stands until the owner confirms or overrules it.
 
-- **English** ([English.toml](English.toml)). The archer passive is ‘Foot Archers attack +10/+18% faster in Castle/Imperial Age’, not the decided +10/+20% (review section 9, Britons Q2). A level-1 passive may only narrow an existing effect or lower its magnitude ([RULES.md section 5](../RULES.md#5-rework-levels)), and the highest existing attack-speed effect for Foot Archers is the Ethiopians' +18%. At +20% the passive would be level 2. Yeomen keeps the range as decided, and the N2 Longbowman rebalance can restore the two points.
 - **Germans, unique units** ([Germans.toml](Germans.toml)). The mounted Teutonic Knight uses the Crusader Knight art and the Landsknecht the Heavy Pikeman art. Both are level 2 with adapted stats, as the owner's art-reuse rule allows (RULES section 5).
   - *Teutonic Knight.* The Crusader Knight's campaign values (18 attack, 4/4 armour) would break the class ceiling for mounted melee units and make the unit stronger than the Knight. The adapted stats are anchored on the Boyar. The unit keeps the model's speed of 1.2 and its immunity to conversion, and it gets an Elite tier through the game's Elite Teutonic Knight upgrade.
   - *Landsknecht.* The Heavy Pikeman's own stats would make it weaker than the Halberdier. The Landsknecht is anchored on the Elite Kamayuk and the Halberdier, costs the Condottiero's 50 food and 35 gold, and has no Elite tier.
@@ -44,6 +43,11 @@ In the points below, the fix pass did not carry out an owner decision or an owne
   - The Ethiopians' Mule Cart takes the Donkey look as the *Baql*.
 
   Both civs already hold the Mule Cart, so only its look and name change (RULES section 5). This is not the extension that CQ4 defers. The art, loads and scale must still be checked in the game.
+
+## Settled by the owner after the fix pass
+
+- **English** ([English.toml](English.toml)), 19 October 2026: the archer passive is ‘Foot Archers attack +10/+20% faster in Castle/Imperial Age’, as the owner decided, as a level-2 passive (a new magnitude of the Ethiopians’ +18%).
+- **Balance** ([RULES.md rule 6.14](../RULES.md#6-civ-design-rules)), 19 October 2026: realism comes first and balance second; designs keep a minimum of balance wherever history leaves a choice.
 
 ## Fix pass
 
