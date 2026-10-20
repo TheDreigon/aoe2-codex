@@ -89,9 +89,32 @@ def first_sentence(text, limit=240):
     return s if len(s) <= limit else s[:limit].rsplit(' ', 1)[0] + '…'
 
 
-def parse_stats(text):
-    """Base-tier numbers from a design's free-text `stats` (the Elite tier, after '. Elite', is left out)."""
-    seg = re.split(r'\.\s+Elite\b', text, maxsplit=1)[0]
+ARMOUR_CLASSES = {'infantry': 1, 'cavalry': 8}  # the game's armour classes for a change of unit class
+
+
+def stats_segment(text, tier):
+    """The part of a design's free-text `stats` about one tier: the base tier comes before '. Elite';
+    the Elite tier is the sentence after it, without its upgrade's own cost in brackets and without
+    the closing 'Fully upgraded' totals."""
+    if tier == 'base':
+        return re.split(r'\.\s+Elite\b', text, maxsplit=1)[0]
+    m = re.search(r'\.\s+Elite\b(.*)', text, re.S)
+    if not m:
+        return ''
+    seg = re.split(r'\.\s+Fully upgraded\b', m.group(1), maxsplit=1)[0]
+    head, sep, tail = seg.partition('):')
+    return tail if sep else seg
+
+
+def class_change(text):
+    """(old armour class, new armour class) when the stats make the unit change class, else None."""
+    m = re.search(r'\b(?:is|becomes) an? (cavalry|infantry) unit instead of an? (cavalry|infantry) unit', text, re.I)
+    return (ARMOUR_CLASSES[m.group(2).lower()], ARMOUR_CLASSES[m.group(1).lower()]) if m else None
+
+
+def parse_stats(text, tier='base'):
+    """Numbers for one tier from a design's free-text `stats`."""
+    seg = stats_segment(text, tier)
     out = {}
     for key, pattern in (('HP', r'(\d+)\s*HP'), ('Attack', r'(\d+)\s*attack'),
                          ('Speed', r'speed\s*(\d+(?:\.\d+)?)'), ('ReloadTime', r'reload\s*(\d+(?:\.\d+)?)\s*s'),
@@ -132,6 +155,15 @@ def why_text(item):
     if item.get('basis'):
         parts.append(item['basis'])
     return ' '.join(parts)
+
+
+def add_to_description(text, note):
+    """Append a note to a unit's description: the part of its help text before the italic upgrade
+    line, which main.js's getHelpText takes as the first <i>…</i>."""
+    i = text.find('<br>\n<i>')
+    if i < 0:
+        return text.replace('<br>\n', f'<br>\n{note} ', 1)
+    return text[:i] + f'<br>\n{note}' + text[i:]
 
 
 def with_why(html, why):
@@ -206,7 +238,8 @@ class Builder:
         return options[0] if options else None
 
     def help_text(self, node):
-        return self.strings_en.get(str(node['help_string_id'] - 79000), '')
+        key = str(node['help_string_id'] - 79000)
+        return self.strings_en.get(key) or self.s.extra.get(key, '')
 
     def note(self, node, kind, why):
         """Record a change on the tree: added, removed, renamed, new (unique item) or kept (unique item)."""
@@ -283,9 +316,15 @@ class Builder:
             lines.setdefault(base, []).append(n)
         wanted = design.get('unique_unit', [])
         models = [TREE_NAMES.get(u['model'], u['model']) for u in wanted]
+        # A unique unit that keeps the name of one of the civ's own unique units and takes a Scenario
+        # Editor unit as its model is the game's unit with that unit's look (RULES section 5): its line,
+        # data and Elite upgrade stay, with the design's adapted stats.
+        looks = {u['name'] for u in wanted if u['name'] in lines
+                 and TREE_NAMES.get(u['model'], u['model']) not in self.catalog
+                 and TREE_NAMES.get(u['model'], u['model']) in self.scenario}
         freed = []  # (building name, row, col) of removed castle unique-unit cells
         for base, nodes in lines.items():
-            if base not in models:
+            if base not in models and base not in looks:
                 for n in nodes:
                     self.removed_units.add(n['name'])
                     b, r, c = grid_position(tree, n['id'])
@@ -295,6 +334,9 @@ class Builder:
         renamed_elites = {r['from'] for r in design.get('rename', [])}
         for u in wanted:
             model, name, building = TREE_NAMES.get(u['model'], u['model']), u['name'], u.get('building', 'Castle')
+            if name in looks:
+                self.apply_look(tree, u, lines[name], model)
+                continue
             present = [n for n in tree['units_techs'] if n['name'] in (model, f'Elite {model}')]
             if not present:
                 tmpl = self.template(model, building)
@@ -342,6 +384,9 @@ class Builder:
             base_node = next((n for n in present if n['name'] == model), None)
             if base_node is not None and u.get('stats'):
                 self.adapt_stats(tree, base_node, u['stats'])
+            elite_node = next((n for n in present if n['name'] == f'Elite {model}'), None)
+            if elite_node is not None and u.get('stats') and parse_stats(u['stats'], 'elite'):
+                self.adapt_stats(tree, elite_node, u['stats'], 'elite')
             for n in present:
                 n['node_type'] = 'UniqueUnit'
                 self.design_units.add(id(n))
@@ -351,10 +396,32 @@ class Builder:
                 elif n['name'] == f'Elite {model}' and name != model and f'Elite {model}' not in renamed_elites:
                     self.renamed_strings(n, f'Elite {model}', f'Elite {name}')
 
-    def adapt_stats(self, tree, node, stats_text):
+    def apply_look(self, tree, u, nodes, model):
+        """The game's unique unit line with a Scenario Editor unit's look and the design's adapted stats."""
+        picture = self.icons.get(model)
+        for n in sorted(nodes, key=lambda n: n['name'].startswith('Elite ')):  # the base tier first
+            n['node_type'] = 'UniqueUnit'
+            if picture is not None:
+                n['picture_index'] = picture
+            look = f'The game\'s {esc(n["name"])} with the look of the Scenario Editor unit {esc(model)} (codex).'
+            if u.get('stats'):  # the game's description and upgrade line no longer fit; the stats say what changed
+                text = (f'Create <b>{esc(n["name"])}</b> (‹cost›)<br>\n{look}<br>\n<i>Upgrades: as the codex stats say.</i>'
+                        f'<br>\n‹hp› ‹attack› ‹armor› ‹piercearmor› ‹range›')
+            else:
+                text = add_to_description(self.help_text(n), look)
+            n['help_string_id'] = self.s.add(text) + 79000
+            if u.get('stats'):
+                tier = 'elite' if n['name'].startswith('Elite ') else 'base'
+                if tier == 'base' or parse_stats(u['stats'], 'elite'):
+                    self.adapt_stats(tree, n, u['stats'], tier)
+            self.design_units.add(id(n))
+            self.note(n, 'kept' if u.get('change') == 'kept' else 'new', why_text(u))
+
+    def adapt_stats(self, tree, node, stats_text, tier='base'):
         """Give a level-2 unit its own data entry with the design's adapted stats (other civs keep the model)."""
-        overrides = parse_stats(stats_text)
-        base = self.data['data']['Unit'].get(str(node['node_id']))
+        overrides = parse_stats(stats_text, tier)
+        old_node_id = node['node_id']
+        base = self.data['data']['Unit'].get(str(old_node_id))
         if base is None or not overrides:
             self.report.append(f'{self.civ}: could not apply adapted stats to {node["name"]}')
             return
@@ -363,18 +430,32 @@ class Builder:
         entry = copy.deepcopy(base)
         entry.update(overrides)
         entry['ID'] = uid
+        if 'Attack' in overrides:  # the base melee or pierce attack in the attack list follows the new value
+            for a in entry.get('Attacks', []):
+                if a['Class'] in (3, 4) and a['Amount'] == base.get('Attack'):
+                    a['Amount'] = overrides['Attack']
         if 'MeleeArmor' in overrides or 'PierceArmor' in overrides:
             entry['Armours'] = [a for a in entry.get('Armours', []) if a['Class'] not in (3, 4)] + [
                 {'Amount': entry['MeleeArmor'], 'Class': 4}, {'Amount': entry['PierceArmor'], 'Class': 3}]
+        change = class_change(stats_text)
+        if change:
+            entry['Armours'] = [dict(a, Class=change[1]) if a['Class'] == change[0] else a for a in entry.get('Armours', [])]
+            if not any(a['Class'] == change[1] for a in entry['Armours']):
+                entry['Armours'].append({'Amount': 0, 'Class': change[1]})
         self.data['data']['Unit'][str(uid)] = entry
+        upgrades = self.data['data'].get('unit_upgrades', {})
+        if str(old_node_id) in upgrades:  # an Elite tier keeps its upgrade's cost and time
+            upgrades[str(uid)] = copy.deepcopy(upgrades[str(old_node_id)])
         old_id = node['id']
         node['node_id'] = uid
         node['id'] = f"Unit_{uid}_{node['building_id']}"
         b, r, c = grid_position(tree, old_id)
         if b is not None:
             b['grid'][r][c] = node['id']
-        text = self.strings_en.get(str(node['help_string_id'] - 79000), '') or self.s.extra.get(str(node['help_string_id'] - 79000), '')
-        text = text.replace('<br>\n', f' <i>Codex stats (level 2): {esc(stats_text)}</i><br>\n', 1)
+        for other in tree['units_techs']:  # keep the line to the next tier (an Elite links to its base by id)
+            if other is not node and other.get('link_id') == old_node_id and other.get('link_node_type') == node['node_type']:
+                other['link_id'] = uid
+        text = add_to_description(self.help_text(node), f'Codex stats (level 2): {esc(stats_text)}')
         node['help_string_id'] = self.s.add(text) + 79000
 
     # ---- unique techs -----------------------------------------------------------------------
