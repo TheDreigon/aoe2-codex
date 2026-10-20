@@ -211,6 +211,30 @@ def fit_column(grid, col, ages, preferred=None, top=0):
     return None
 
 
+def layout_problems(tree):
+    """Layout problems as main.js draws a tree: an item outside the rows of its age; an item with a link
+    whose first item above (its column's parent) is not the linked one; an item without a link (drawn
+    from its building) with an item above it. Each: (kind, building, node_id, name, row, column)."""
+    index = {n['id']: n for n in tree['units_techs']}
+    out = []
+    for b in tree['buildings']:
+        grid = b['grid'] or []
+        for r, row in enumerate(grid):
+            for c, cell in enumerate(row):
+                n = index.get(cell)
+                if n is None:
+                    continue
+                if r // 2 + 1 != n['age_id']:
+                    out.append(('outside the rows of its age', b['name'], n['node_id'], n['name'], r, c))
+                above = index.get(next((grid[rr][c] for rr in range(r - 1, -1, -1) if grid[rr][c]), None))
+                if n.get('link_id') not in (None, -1):
+                    if not above or above['node_id'] != n['link_id'] or above['node_type'] != n['link_node_type']:
+                        out.append(('not under the item it upgrades', b['name'], n['node_id'], n['name'], r, c))
+                elif above:
+                    out.append(('cut off from its building', b['name'], n['node_id'], n['name'], r, c))
+    return out
+
+
 def retype(tree, node, node_type):
     """Change an item's node type; the items linked to it follow, so main.js keeps drawing their line."""
     old = node['node_type']
@@ -719,6 +743,15 @@ class Builder:
                     f'<b>Out of scope for the codex.</b> {esc(reason)} The original design is shown unchanged.<br>\n<br>\n{original}')
             out_trees[tree_key] = tree
         single = self.single_civ_units(out_trees, [k for k in self.data['civs'] if k in designs])
+        # Report layout problems that the game's own trees do not have (the game's data has some of its
+        # own, such as items stacked under an item they do not link to by type; those are left as they are).
+        game_layout = {key: {p[:3] for p in layout_problems(t)} for key, t in self.trees.items()}
+        everywhere = {p for probs in game_layout.values() for p in probs if p[0] == 'not under the item it upgrades'}
+        for civ_key in designs:
+            key = civ_key.upper()
+            for p in layout_problems(out_trees[key]):
+                if p[:3] not in game_layout.get(key, set()) | everywhere:
+                    self.report.append(f'{civ_key}: layout: {p[3]} is {p[0]} ({p[1]}, row {p[4]}, column {p[5]})')
         for civ_key, civ_entry, design, stem in panels:
             civ_entry['help_string_id'] = self.s.add(self.civ_text(design, stem, single.get(civ_key, [])))
         changes = {}
