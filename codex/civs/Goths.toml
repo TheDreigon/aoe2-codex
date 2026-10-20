@@ -128,10 +128,11 @@ relevance = "The Liber Iudiciorum was the Visigothic kingdom's great legal achie
 contested = "Whether the thiufa was a field unit or an administrative frame, and how far the military laws were enforced (see the civ-level notes)."
 
 [tree]
-add = ["Stone Wall", "Gate", "Guard Tower", "Fortified Wall", "Plate Mail Armor", "Heresy", "Siege Ram"]
+add = ["Stone Wall", "Gate", "Guard Tower", "Fortified Wall", "Plate Mail Armor", "Heresy", "Siege Ram", "Arson"]
 remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry Archer", "Hussar", "Trebuchet", "Siphons", "Incendiaries"]
 
 [tree.basis]
+"Arson" = "Restored: the game withholds this generic tech from its Goths only in exchange for a stronger civ bonus (Infantry +1/+2/+3 attack vs. buildings), which this design drops (see dropped). The Goths' weakness was storming walls, not burning what they overran: after 376 they laid Thrace waste with fire and slaughter (Ammianus 31.6), Alaric's army ravaged Greece in 395–396 (Zosimus 5.5–6), and when Rome fell in 410 the houses by the Salarian Gate, among them the house of Sallust, were burned (Procopius, Wars 3.2.24). The weakness against walls stays in the dropped bonus; the generic tech returns."
 "Stone Wall" = "Theodoric restored the walls of Rome and other cities (Anonymus Valesianus 67; Cassiodorus, Variae), Leovigild founded walled Reccopolis (578), and Toledo, Septimania and the Pyrenean passes had Visigothic fortifications; a wall-less ‘nomad’ tree is the barbarian stereotype."
 "Gate" = "Comes with the Stone Wall."
 "Guard Tower" = "Late Roman city walls, which the Goths kept and repaired, were studded with towers."
@@ -173,7 +174,7 @@ reason = "Rests on the image of innumerable cheap barbarians: modern estimates (
 [[dropped]]
 item = "Infantry +1/+2/+3 attack vs. buildings in Feudal/Castle/Imperial Age"
 kind = "bonus"
-reason = "The Goths were notoriously poor at storming walls: Fritigern declared himself ‘at peace with walls’ (Ammianus 31.6.4), and they failed before Adrianople and Constantinople (378) and Rome (537–538). The Siege Ram keeps the civ able to destroy buildings."
+reason = "The Goths were notoriously poor at storming walls: Fritigern declared himself ‘at peace with walls’ (Ammianus 31.6.4), and they failed before Adrianople and Constantinople (378) and Rome (537–538). The Siege Ram keeps the civ able to destroy buildings, and Arson, which the game withheld only in exchange for this bonus, returns (see the tree)."
 
 [[dropped]]
 item = "+10 population space in Imperial Age"
