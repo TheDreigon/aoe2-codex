@@ -3,7 +3,8 @@ let data = {};
 let parentConnections;
 let focusedNodeId = null;
 
-// Site root derived from this script's URL (js/main.js), so image paths work under a GitHub Pages sub-path too.
+// aoe2-codex change: the site root is derived from this script's URL (js/main.js), so that image paths
+// also work under a GitHub Pages sub-path.
 const SITE_ROOT = new URL('..', document.currentScript.src).href;
 
 const PADDING = 20;

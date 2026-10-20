@@ -182,6 +182,12 @@ body.compare {
     border: 0;
 }
 
+.compare__footer {
+    padding: 0.2rem 0.8rem;
+    border-top: 2px solid #4d3617;
+    font-size: 7.5pt;
+}
+
 @media (max-width: 800px) {
     .compare__panes {
         flex-direction: column;
