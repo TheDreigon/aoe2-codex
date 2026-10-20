@@ -185,24 +185,66 @@ def find_building(tree, name):
     return candidates[0] if candidates else None
 
 
-def free_cell(building, rows):
-    grid = building['grid']
-    for r in rows:
-        if r < len(grid):
-            for c, cell in enumerate(grid[r]):
-                if cell is None:
-                    return r, c
-    width = len(grid[0])
-    for row in grid:
-        row.append(None)
-    return rows[0], width
+def age_rows(age_id):
+    """The two grid rows of an age: main.js draws two rows per age, the Dark Age first."""
+    return [2 * (age_id - 1), 2 * (age_id - 1) + 1]
+
+
+def fit_column(grid, col, ages, preferred=None, top=0):
+    """Rows for a line of items (a unit and its upgrades, or one item) in column `col`, each in a row of
+    its own age and below the previous one, or None. main.js draws an item's line to the first item
+    above it in its column (its parent) or, with nothing above, to its building; so the column must be
+    empty from `top` (the row under the parent, or the top) to the bottom, or a line would be cut."""
+    if any(grid[r][col] is not None for r in range(top, len(grid))):
+        return None
+    for prefs in ((preferred or []), []):  # the preferred rows first, then the first row of each age
+        rows, lowest = [], top
+        for i, age in enumerate(ages):
+            band = [r for r in age_rows(age) if lowest <= r < len(grid)]
+            if not band:
+                break
+            r = prefs[i] if i < len(prefs) and prefs[i] in band else band[0]
+            rows.append(r)
+            lowest = r + 1
+        if len(rows) == len(ages):
+            return rows
+    return None
+
+
+def retype(tree, node, node_type):
+    """Change an item's node type; the items linked to it follow, so main.js keeps drawing their line."""
+    old = node['node_type']
+    if old == node_type:
+        return
+    node['node_type'] = node_type
+    for n in tree['units_techs']:
+        if n is not node and n.get('link_id') == node['node_id'] and n.get('link_node_type') == old:
+            n['link_node_type'] = node_type
+
+
+def template_anchor(tree, node):
+    """The node_id of the item that `node` hangs under in its own tree (the first item above it in its
+    column, when that is the item it links to), or None when it hangs from its building."""
+    b, r, c = grid_position(tree, node['id'])
+    if b is None or node.get('link_id') in (None, -1):
+        return None
+    index = {n['id']: n for n in tree['units_techs']}
+    above = next((b['grid'][rr][c] for rr in range(r - 1, -1, -1) if b['grid'][rr][c]), None)
+    parent = index.get(above)
+    return parent['node_id'] if parent and parent['node_id'] == node['link_id'] else None
 
 
 def remove_from_grid(tree, node_id):
+    """Remove an item; the items that hung under it hang under its own parent instead (or its building)."""
     b, r, c = grid_position(tree, node_id)
     if b is not None:
         b['grid'][r][c] = None
+    removed = next((n for n in tree['units_techs'] if n['id'] == node_id), None)
     tree['units_techs'] = [n for n in tree['units_techs'] if n['id'] != node_id]
+    if removed is not None:
+        for n in tree['units_techs']:
+            if n.get('link_id') == removed['node_id'] and n.get('link_node_type') == removed['node_type']:
+                n['link_id'], n['link_node_type'] = removed.get('link_id'), removed.get('link_node_type')
 
 
 class Builder:
@@ -253,20 +295,47 @@ class Builder:
             text = text.replace('<br>\n', f' {note}<br>\n', 1)
         node['help_string_id'] = self.s.add(text) + 79000
 
-    def place(self, tree, node, building_name, rows, prefer=None):
+    def place_line(self, tree, building_name, nodes, anchor_id=None, prefer_col=None, prefer_rows=None):
+        """Place a line of new items (a unit and its upgrades, or one item) in one column of a building,
+        each in a row of its own age, without cutting another item's line (see fit_column): under the
+        item with node_id `anchor_id` when the line upgrades it, else hanging from the building, in the
+        preferred column if it fits, else in the first column that fits, else in a new column."""
         building = find_building(tree, building_name)
         if building is None:
-            self.report.append(f'{self.civ}: no {building_name} in the tree for {node["name"]}')
+            self.report.append(f'{self.civ}: no {building_name} in the tree for {nodes[0]["name"]}')
             return False
-        if prefer is not None and prefer[0] < len(building['grid']) and prefer[1] < len(building['grid'][0]) \
-                and building['grid'][prefer[0]][prefer[1]] is None:
-            r, c = prefer
-        else:
-            r, c = free_cell(building, rows)
-        building['grid'][r][c] = node['id']
-        node['row'] = r
-        node['building_id'] = building['building_id']
-        tree['units_techs'].append(node)
+        grid = building['grid']
+        ages = [n['age_id'] for n in nodes]
+        if anchor_id is not None:
+            anchor = next((n for n in tree['units_techs'] if n['node_id'] == anchor_id
+                           and grid_position(tree, n['id'])[0] is building), None)
+            if anchor is not None:
+                _, ar, ac = grid_position(tree, anchor['id'])
+                rows = fit_column(grid, ac, ages, prefer_rows, ar + 1)
+                if rows:
+                    return self.put(tree, building, nodes, ac, rows)
+                self.report.append(f'{self.civ}: {nodes[0]["name"]} has no room under {anchor["name"]}; it hangs from the {building_name}')
+        nodes[0]['link_id'], nodes[0]['link_node_type'] = None, 'BuildingTech'  # main.js then draws its line to the building
+        width = len(grid[0])
+        columns = ([prefer_col] if prefer_col is not None and prefer_col < width else []) + [c for c in range(width) if c != prefer_col]
+        for c in columns:
+            rows = fit_column(grid, c, ages, prefer_rows)
+            if rows:
+                return self.put(tree, building, nodes, c, rows)
+        for row in grid:
+            row.append(None)
+        rows = fit_column(grid, width, ages, prefer_rows)
+        if rows is None:
+            self.report.append(f'{self.civ}: no rows for the line {", ".join(n["name"] for n in nodes)} in the {building_name}')
+            return False
+        return self.put(tree, building, nodes, width, rows)
+
+    def put(self, tree, building, nodes, col, rows):
+        for n, r in zip(nodes, rows):
+            building['grid'][r][col] = n['id']
+            n['row'] = r
+            n['building_id'] = building['building_id']
+            tree['units_techs'].append(n)
         return True
 
     def clone(self, tmpl_node, building_id):
@@ -340,6 +409,14 @@ class Builder:
             present = [n for n in tree['units_techs'] if n['name'] in (model, f'Elite {model}')]
             if not present:
                 tmpl = self.template(model, building)
+                age = AGE_IDS.get(u.get('age'))  # the design's age, else the model's own
+                slot = next((f for f in freed if f[0] == building and not f[3]), None)
+                eslot = next((f for f in freed if f[0] == building and f[3]), None)
+                for s in (slot, eslot):
+                    if s:
+                        freed.remove(s)
+                prefer_col = slot[2] if slot else None
+                base_row = slot[1] if slot else AGE_ROWS[u.get('age', 'Castle')][0]
                 if tmpl:
                     b_obj = find_building(tree, building)
                     if b_obj is None:
@@ -347,32 +424,27 @@ class Builder:
                         continue
                     base_node = self.clone(tmpl[1], b_obj['building_id'])
                     base_node['node_type'] = 'UniqueUnit'
-                    slot = next((f for f in freed if f[0] == building and not f[3]), None)
-                    self.place(tree, base_node, building, AGE_ROWS[u.get('age', 'Castle')],
-                               prefer=(slot[1], slot[2]) if slot else None)
-                    if slot:
-                        freed.remove(slot)
+                    if age:
+                        base_node['age_id'] = age
+                    line = [base_node]
                     elite = self.template(f'Elite {model}', tmpl[2])
                     if elite:
                         elite_node = self.clone(elite[1], b_obj['building_id'])
                         elite_node['node_type'] = 'UniqueUnit'
-                        eslot = next((f for f in freed if f[0] == building and f[3]), None)
-                        self.place(tree, elite_node, building, AGE_ROWS['Imperial'],
-                                   prefer=(eslot[1], eslot[2]) if eslot else (base_node['row'] + 1, grid_position(tree, base_node['id'])[2]))
-                        if eslot:
-                            freed.remove(eslot)
-                        present = [base_node, elite_node]
-                    else:
-                        present = [base_node]
+                        elite_node['age_id'] = max(elite_node['age_id'], base_node['age_id'])
+                        if elite_node.get('link_id') == base_node['node_id']:  # keep the line to its base
+                            elite_node['link_node_type'] = base_node['node_type']
+                        line.append(elite_node)
+                    self.place_line(tree, building, line, prefer_col=prefer_col,
+                                    prefer_rows=[base_row, eslot[1] if eslot else None])
+                    present = line
                 elif model in self.scenario:
                     b_obj = find_building(tree, building)
                     node = self.scenario_node(model, name, b_obj['building_id'] if b_obj else 82)
                     if node:
-                        slot = next((f for f in freed if f[0] == building and not f[3]), None)
-                        self.place(tree, node, building, AGE_ROWS[u.get('age', 'Castle')],
-                                   prefer=(slot[1], slot[2]) if slot else None)
-                        if slot:
-                            freed.remove(slot)
+                        if age:
+                            node['age_id'] = age
+                        self.place_line(tree, building, [node], prefer_col=prefer_col, prefer_rows=[base_row])
                         if u.get('stats'):
                             self.adapt_stats(tree, node, u['stats'])
                         self.note(node, 'kept' if u.get('change') == 'kept' else 'new', why_text(u))
@@ -388,7 +460,7 @@ class Builder:
             if elite_node is not None and u.get('stats') and parse_stats(u['stats'], 'elite'):
                 self.adapt_stats(tree, elite_node, u['stats'], 'elite')
             for n in present:
-                n['node_type'] = 'UniqueUnit'
+                retype(tree, n, 'UniqueUnit')
                 self.design_units.add(id(n))
                 self.note(n, 'kept' if u.get('change') == 'kept' else 'new', why_text(u))
                 if n['name'] == model and name != model:
@@ -400,7 +472,7 @@ class Builder:
         """The game's unique unit line with a Scenario Editor unit's look and the design's adapted stats."""
         picture = self.icons.get(model)
         for n in sorted(nodes, key=lambda n: n['name'].startswith('Elite ')):  # the base tier first
-            n['node_type'] = 'UniqueUnit'
+            retype(tree, n, 'UniqueUnit')
             if picture is not None:
                 n['picture_index'] = picture
             look = f'The game\'s {esc(n["name"])} with the look of the Scenario Editor unit {esc(model)} (codex).'
@@ -504,10 +576,11 @@ class Builder:
                 'row': AGE_ROWS[age][0], 'use_type': 'Tech',
             }
             slot = next((c for c in old_cells if c[0] == building and c[3] == AGE_IDS.get(age)), None)
-            self.place(tree, node, building, AGE_ROWS[age], prefer=(slot[1], slot[2]) if slot else None)
-            self.note(node, 'kept' if ut.get('change') == 'kept' else 'new', why_text(ut))
             if slot:
                 old_cells.remove(slot)
+            self.place_line(tree, building, [node], prefer_col=slot[2] if slot else None,
+                            prefer_rows=[slot[1] if slot else AGE_ROWS[age][0]])
+            self.note(node, 'kept' if ut.get('change') == 'kept' else 'new', why_text(ut))
 
     # ---- tree and renames ---------------------------------------------------------------------
     def nodes_named(self, tree, name):
@@ -526,6 +599,7 @@ class Builder:
                 if n.get('node_status') != 'NotAvailable':
                     self.note(n, 'removed', reasons.get(name))
                 n['node_status'] = 'NotAvailable'
+        pending = []  # added items that need a place in the tree
         for name in t.get('add', []):
             nodes = self.nodes_named(tree, name)
             if nodes:
@@ -554,8 +628,19 @@ class Builder:
                 self.report.append(f'{self.civ}: add {name}: no {bname} in the tree')
                 continue
             node = self.clone(tnode, b_obj['building_id'])
-            if self.place(tree, node, bname, [r] + [x for x in range(8) if x != r], prefer=(r, c)):
-                self.note(node, 'added', reasons.get(name))
+            pending.append({'name': name, 'node': node, 'building': bname, 'row': r, 'col': c,
+                            'anchor': template_anchor(self.trees[civ], tnode)})
+        # Added items that upgrade one another (a unit and its Elite) go in one column, in their order.
+        by_id = {p['node']['node_id']: p for p in pending}
+        children = {p['anchor']: p for p in pending if p['anchor'] in by_id and by_id[p['anchor']]['building'] == p['building']}
+        for root in [p for p in pending if p not in children.values()]:
+            line = [root]
+            while line[-1]['node']['node_id'] in children:
+                line.append(children[line[-1]['node']['node_id']])
+            if self.place_line(tree, root['building'], [p['node'] for p in line], anchor_id=root['anchor'],
+                               prefer_col=root['col'], prefer_rows=[p['row'] for p in line]):
+                for p in line:
+                    self.note(p['node'], 'added', reasons.get(p['name']))
 
     def apply_renames(self, tree, design):
         for rn in design.get('rename', []):
@@ -707,7 +792,7 @@ class Builder:
                     continue
                 shared = len(holders.get(self.unit_identity(n), ())) > 1
                 if n['node_type'] in ('Unit', 'RegionalUnit', 'UnitUpgrade') and not shared:
-                    n['node_type'] = 'UniqueUnit'
+                    retype(trees[civ_key.upper()], n, 'UniqueUnit')
                     self.note(n, 'new', SINGLE_CIV_WHY)
                     b, _, _ = grid_position(trees[civ_key.upper()], n['id'])
                     line = (n['name'][6:] if n['name'].startswith('Elite ') else n['name'], b['name'] if b else '?')
@@ -715,7 +800,7 @@ class Builder:
                         single[civ_key].append(line)
                     self.report.append(f'{civ_key}: {n["name"]} is held by no other civ and is shown as a unique unit')
                 elif n['node_type'] == 'UniqueUnit' and shared and id(n) not in self.design_units:
-                    n['node_type'] = 'RegionalUnit'
+                    retype(trees[civ_key.upper()], n, 'RegionalUnit')
                     self.report.append(f'{civ_key}: {n["name"]} is shared with other civs and is shown as a regional unit')
         for civ_key in civs:
             lines = {n['name'][6:] if n['name'].startswith('Elite ') else n['name']
