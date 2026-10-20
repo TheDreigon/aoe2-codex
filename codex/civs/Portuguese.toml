@@ -2,7 +2,7 @@ civ = "Portuguese"
 name = "Portuguese"
 status = "reviewed"
 label = "Archer and Naval civilization"
-summary = "Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation, and the Mounted Crossbowman leaves the tree."
+summary = "Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation."
 ideas = [
   "N2: Besteiro do Conto with stats of its own: a cheap food-and-wood crossbowman with high attack and slow reload, trainable at the Castle and the Town Center (analysis proposal), instead of the Genoese Crossbowman's.",
   "N2: Nau da Índia: the Carrack line keeps its boarding attack and gains a short-range secondary cannon attack, for the naus of the Carreira da Índia that combined artillery and boarding (Diu, 1509).",
@@ -12,6 +12,7 @@ ideas = [
   "N3: Pack animals other than the Caucasian Mule Cart, and a muleteer (almocreve) model of its own; the Mule Cart itself stays with its four holders in N1 (RULES 6.16.7 and section 10), and as a unique building it would count as a passive bonus (RULES 6.1).",
 ]
 contested = [
+  "The Mounted Crossbowman (kept). Shared basis (level-1 review, section 11): the line stays where mounted crossbowmen are documented as a regular troop type of the civ’s armies. Most of them rode to the fight and shot on foot, as everywhere in Europe; the line stands for mobile crossbowmen, and level 2 can give it a mode that dismounts to shoot, as the English design proposes for its mounted archers. Mounted crossbowmen (besteiros de cavalo) served beside the besteiros do conto (Monteiro, 1998); the crossbowmen of Atoleiros and Aljubarrota fought on foot beside the dismounted men-at-arms (Fernão Lopes), as the line’s level-2 mode would show.",
   "The role of Prince Henry and the 'school of Sagres': a myth for Peter Russell (2000) against the older nationalist historiography; the epithet 'Navigator' is a 19th-century coinage.",
   "Technical origin of the caravel: a Portuguese development of coastal and fishing craft, or a Mediterranean and Arab inheritance.",
   "Origins of independence: proto-national identity or a feudal and dynastic conflict (Herculano, Mattoso); the Ourique 'miracle' (1139) is a later founding myth.",
@@ -168,14 +169,13 @@ contested = "Whether Dias's swing into the open ocean was deliberate or storm-dr
 
 [tree]
 add = ["Arrowslits", "Hoardings", "Genitour", "Elite Genitour"]
-remove = ["Mounted Crossbowman", "Thumb Ring", "Siphons"]
+remove = ["Thumb Ring", "Siphons"]
 
 [tree.basis]
 "Arrowslits" = "Portugal kept a dense network of frontier castles, rebuilt under D. Dinis (1279–1325) and his successors with tall keeps, machicolations and loopholes (Monteiro, 1999). Owner's decision in the agreed example."
 "Hoardings" = "Same castle network: wooden and later stone galleries on the walls of the castles of D. Dinis and his successors (Monteiro, 1999). Owner's decision in the agreed example."
 "Genitour" = "Riding à gineta (short stirrups, light lance, javelins and leather adarga), taken from the Zenata and Granadan horsemen, was one of the two riding styles of Portuguese cavalry: King Duarte's Livro da Ensinança de Bem Cavalgar Toda Sela (c. 1434–1438) teaches both à brida and à gineta. Ginetes were central to the raiding war around the Moroccan strongholds (Ceuta from 1415, Alcácer Ceguer from 1458, Arzila and Tangier from 1471), which Zurara's chronicles of the Meneses (Ceuta and Alcácer Ceguer, to 1464) and Rui de Pina's chronicle of Afonso V narrate (Ricard, 1955). The ginete's main weapon was the short lance, with javelins secondary; the Genitour, a javelin horseman that cannot fight at close range, is the closest existing unit. A regional unit (owner's decision; RULES 6.16.10) that does not count as a unique unit (RULES 6.1), trained at the Archery Range from the Castle Age as for the Berbers' allies, and renamed Ginete."
 "Elite Genitour" = "The Elite upgrade of the Ginete (Archery Range), for the same light horsemen."
-"Mounted Crossbowman" = "Shared basis (level-1 review, section 3.2): the Mounted Crossbowman line stays only where shooting from the saddle is documented. Mounted crossbowmen (besteiros de cavalo) served beside the besteiros do conto (Monteiro, 1998), but no source found for this design shows them shooting from the saddle rather than riding to the fight and shooting on foot; the crossbowmen of Atoleiros and Aljubarrota fought on foot beside the dismounted men-at-arms (Fernão Lopes). Removed; the line returns if a source shows Portuguese crossbowmen shooting from horseback. Nothing the civ needs to play is lost (RULES 6.11): the foot crossbow line, the Besteiro do Conto and the Ginete keep the missile roles."
 "Thumb Ring" = "The Thumb Ring is given where the thumb draw is attested for a civ's own archers or for an archery tradition its armies demonstrably used (the steppe, Islamic and East Asian traditions); civs whose archers used the European draw, or whose missile troops were crossbowmen, do not get it. Portugal does not: its archers used the European draw and its missile troops the crossbow (see the Besteiro do Conto) (RULES 6.16.4)."
 "Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ. The Portuguese keep the fleet-of-ships tier (RULES 6.16.1): the royal war galleys of the 14th century, the caravels and the gun-armed naus of the India fleets (Diffie and Winius, 1977), with the Galleon as the skeleton's flagged abstraction (RULES 6.16.2)."
 

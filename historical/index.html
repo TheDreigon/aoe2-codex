@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <meta charset="utf-8">
+    <title>aoe2-codex: a historical rework of the Age of Empires II tech tree</title>
+    <link rel="stylesheet" href="../fonts/merriweather.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="codex.css?v=18bbd766">
+    <script defer src="../js/svg.min.js"></script>
+    <script defer src="../js/techtree.js"></script>
+    <script defer src="version.js?v=b098ff9ba38d"></script>
+    <script defer src="../js/main.js"></script>
+    <script defer src="codex.js?v=18bbd766"></script>
+</head>
+
+<body>
+<div id="container">
+    <div id="wrapper">
+        <div id="metainfo">
+            <div id="civinfo">
+                <div id="civtitle">
+                    <select id="civselect" onchange="loadCiv()" autofocus>
+                        <option>Loading…</option>
+                    </select>
+                    <img id="civlogo" height="81" width="81" data-transparent="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                </div>
+                <p id="civtext"></p>
+            </div>
+            <div class="buildingindex">
+                <hr>
+                <table id="buildingindex__table">
+                </table>
+            </div>
+            <div class="key">
+                <table id="key__table">
+                </table>
+            </div>
+            <div class="locale-switcher">
+                <select id="localeselect" onchange="changeLocale()">
+                </select>
+            </div>
+            <div class="credits">
+                <p>
+                    Version: Age of Empires II DE Update <a href="https://www.ageofempires.com/news/age-of-empires-ii-definitive-edition-update-185872/" target="_blank" title="Changelog" rel="nofollow">185872</a>                    |
+                    <a href="../">» DE (original)</a>
+                    |
+                    <a href="../ror/">» RoR</a>
+                    |
+                    <a href="../chronicles/">» Chronicles</a>
+                </p>
+                <p>
+                    <b>aoe2-codex</b>: a fan rework of the civilizations for historical accuracy (level 1, reviewed).
+                    Rules, designs and sources on <a href="https://github.com/TheDreigon/aoe2-codex" target="_blank">GitHub</a>.
+                    Built on aoe2techtree:
+                </p>
+                <p>
+                    A project by <a href="https://siegeengineers.org" rel="author" class="has-text-grey">Siege Engineers</a>.
+                    Contribute on <a href="https://github.com/SiegeEngineers/aoe2techtree" target="_blank">GitHub</a>.
+                    <a class="inverted" href="https://siegeengineers.org/donate/?from=aoe2techtree">Donate</a> to support this project.
+                </p>
+                <p>
+                    Made by hszemi, Anda, exterkamp, paulirish, lalitpatel,
+                    with thanks to Jineapple, TriRem, pip, and NkoDragaš<br>
+                </p>
+                <p>
+                    Item Metadata (cost, HP etc.) extracted with <a href="https://github.com/SiegeEngineers/genieutils-py" target="_blank">genieutils-py</a>
+                </p>
+                <p>
+                    Age of Empires II &copy; Microsoft Corporation.<br>
+                    <b>aoe2-codex</b> and <b>aoe2techtree</b> were created under Microsoft's "<a href="https://www.xbox.com/en-us/developers/rules" rel="nofollow">Game Content Usage Rules</a>" using assets
+                    from Age of Empires II, and they are not endorsed by or affiliated with Microsoft.
+                </p>
+            </div>
+        </div>
+        <div id="techtree">
+            <div id="helptext">
+                <div id="helptext__content"></div>
+                <details id="advanced-stats">
+                    <summary>Advanced Stats</summary>
+                    <div id="helptext__advanced_stats"></div>
+                    <div id="helptext__x_ref">
+                        <h3>Civilizations</h3>
+                        <div id="helptext__x_ref__container"></div>
+                    </div>
+                </details>
+              </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

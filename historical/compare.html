@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <title>aoe2-codex: compare with the game</title>
+    <link rel="stylesheet" href="../fonts/merriweather.css">
+    <link rel="stylesheet" href="codex.css?v=18bbd766">
+    <script defer src="compare.js?v=18bbd766"></script>
+</head>
+
+<body class="compare">
+<header class="compare__bar">
+    <a id="compare-back" href="index.html">« Back to the codex</a>
+    <h1>Codex and game, side by side</h1>
+    <select id="compare-civ" aria-label="Civilization">
+        <option>Loading…</option>
+    </select>
+    <label><input type="checkbox" id="compare-texts"> Bonuses side by side</label>
+    <label><input type="checkbox" id="compare-sync" checked> Scroll together</label>
+    <span class="compare__note">Left: the codex design, with its change marks. Right: the game (DE), unchanged.</span>
+</header>
+<div class="compare__texts" id="compare-texts-panel" hidden>
+    <div>
+        <h2>Codex</h2>
+        <div id="text-codex"></div>
+    </div>
+    <div>
+        <h2>Game (DE)</h2>
+        <div id="text-game"></div>
+    </div>
+</div>
+<main class="compare__panes">
+    <section class="compare__pane">
+        <h2>Codex</h2>
+        <iframe id="pane-codex" title="Codex tech tree"></iframe>
+    </section>
+    <section class="compare__pane">
+        <h2>Game (DE)</h2>
+        <iframe id="pane-game" title="Game tech tree"></iframe>
+    </section>
+</main>
+</body>
+</html>

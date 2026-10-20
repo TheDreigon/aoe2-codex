@@ -170,7 +170,7 @@ remove = ["Cannon Galleon", "Elite Cannon Galleon", "Galleon", "Carrack", "Galle
 "Galleon, Fast Fire Ship and Carrack" = "Nothing is left for this upgrade once the Galleon and Carrack are removed (the Bohemians already lacked the Fast Fire Ship)."
 "Siphons" = "Named after the Byzantine fire siphon, a state secret never given to other nations (De Administrando Imperio 13); no ship-borne liquid-fire weapon is documented for this civ."
 "Incendiaries" = "Requires Siphons, which this design removes."
-"Mounted Crossbowman" = "Shared basis (level-1 review, section 3.2): the Mounted Crossbowman line stays only where shooting from the saddle is documented. The Hussite crossbowmen fought from the wagons (see the Hussite Wagon), and the sources consulted give no Bohemian mounted crossbowmen shooting from the saddle, before or after the Hussite wars. Removed; the crossbowmen stay as the foot Crossbowman and Arbalester."
+"Mounted Crossbowman" = "Shared basis (level-1 review, section 11): the Mounted Crossbowman line stays only where mounted crossbowmen are documented as a regular troop type of the civ’s armies. The Hussite crossbowmen fought from the wagons (see the Hussite Wagon), and the sources consulted record no Bohemian mounted crossbowmen as a troop type, before or after the Hussite wars. Removed; the crossbowmen stay as the foot Crossbowman and Arbalester."
 
 [[rename]]
 from = "Elite Organ Gun"

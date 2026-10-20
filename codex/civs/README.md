@@ -13,16 +13,16 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 | Britons | **English** | 1066–1485 | Britons renamed English for England after 1066 (core c. 1277–1453): faster shooting replaces the archers’ range passive, Yeomen moves to the Town Center, the Chevauchée replaces Warwolf, dismounted men-at-arms gain armour, archers serving allies carry the team bonus, and the Mounted Crossbowman line leaves the tree as Bombard Cannon, Carrack and Crop Rotation join it. | [English.toml](English.toml) |
 | Celts | **Gaels** | 563–1500 | Celts reworked as the Gaels of Ireland and Scotland with the medieval Scottish kingdom (563–1500): a cattle-and-dairy economy and castle-taking infantry replace the invented siege identity, the Kern (Woad Raider renamed) is the unique unit, the Galloglass joins the Barracks, the Schiltron and Buannacht are the techs and the Irish missions the team bonus. | [Gaels.toml](Gaels.toml) |
 | Saxons | **Anglo-Saxons** | 449–1066 | Saxons renamed Anglo-Saxons for England from the settlement to Hastings (449–1066), rebuilt around the burh and the fyrd: earthwork walls and garrisoned towns replace castle arrows, the shield wall becomes a passive, the Fyrd and Edgar's Recoinage are the new techs, the continental missions the team bonus, and post-1066 items leave the tree. | [AngloSaxons.toml](AngloSaxons.toml) |
-| Franks | Franks | 481–1500 | The Frankish kingdoms and France (481–1500): knights, mills, cheap castles and the Throwing Axeman stay, Gothic building replaces the forager bonus, the University of Paris the team bonus, Ordonnance Companies moves to the Town Center and makes the men-at-arms cheaper, at half the Polish discount because the Franks keep the Paladin, the Bureau Brothers take Chivalry’s Castle slot and the Mounted Crossbowman line leaves the tree. | [Franks.toml](Franks.toml) |
-| Burgundians | Burgundians | 1363–1477 | Valois Burgundy (1363–1477): the economic, Cavalier and gunpowder bonuses stay, archers replace the stable discount, the Bruges trade becomes the team bonus, the 1433–34 common coinage the Town Center tech, Vineyards moves to the Mill and the Order of the Golden Fleece replaces Flemish Revolution, while the Mounted Crossbowman leaves the tree. | [Burgundians.toml](Burgundians.toml) |
+| Franks | Franks | 481–1500 | The Frankish kingdoms and France (481–1500): knights, mills, cheap castles and the Throwing Axeman stay, Gothic building replaces the forager bonus, the University of Paris the team bonus, Ordonnance Companies moves to the Town Center and makes the men-at-arms cheaper, at half the Polish discount because the Franks keep the Paladin, and the Bureau Brothers take Chivalry’s Castle slot. | [Franks.toml](Franks.toml) |
+| Burgundians | Burgundians | 1363–1477 | Valois Burgundy (1363–1477): the economic, Cavalier and gunpowder bonuses stay, archers replace the stable discount, the Bruges trade becomes the team bonus, the 1433–34 common coinage the Town Center tech, Vineyards moves to the Mill and the Order of the Golden Fleece replaces Flemish Revolution. | [Burgundians.toml](Burgundians.toml) |
 
 ### Iberia and Italy
 
 | Game name | Name | Window | Main changes | File |
 |---|---|---|---|---|
 | Spanish | **Castilians** | 1037–1504 | Spanish renamed Castilians for the medieval Crown of Castile (1037–1504): the Freire of the military orders replaces the Conquistador and Missionary, the caballería de cuantía takes the Castle, the Santa Hermandad and Bula de Cruzada replace Supremacy and Inquisition, and the Mesta, cheaper castles, Santiago's relic and the foot crossbow come in while the mounted crossbow line leaves. | [Castilians.toml](Castilians.toml) |
-| Portuguese | Portuguese | 1139–1521 | Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation, and the Mounted Crossbowman leaves the tree. | [Portuguese.toml](Portuguese.toml) |
-| Italians | Italians | 1000–1494 | Italians as the communes and maritime republics (1000–1494): the Genoese Crossbowman stays and becomes the team's mercenary, the Condottiero gives way to the Condotta, Silk Road becomes the Commenda, the commune takes the Town Center, the Arsenal of Venice comes to the Dock, banking replaces fishing, the Hussar becomes the Stradiot, and the Mounted Crossbowman leaves the tree. | [Italians.toml](Italians.toml) |
+| Portuguese | Portuguese | 1139–1521 | Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation. | [Portuguese.toml](Portuguese.toml) |
+| Italians | Italians | 1000–1494 | Italians as the communes and maritime republics (1000–1494): the Genoese Crossbowman stays and becomes the team's mercenary, the Condottiero gives way to the Condotta, Silk Road becomes the Commenda, the commune takes the Town Center, the Arsenal of Venice comes to the Dock, banking replaces fishing and the Hussar becomes the Stradiot. | [Italians.toml](Italians.toml) |
 | Sicilians | Sicilians | 1030–1266 | Sicilians as the Italo-Normans and the Kingdom of Sicily (1030–1266): the Norman charge (Imperial Age) replaces the bonus-damage bonus, a fleet bonus is added, First Crusade becomes the Magna Expeditio levy, the royal Diwan takes the Town Center, Lucera's Muslim archers replace Hauberk and the mounted crossbow line leaves the tree. | [Sicilians.toml](Sicilians.toml) |
 
 ### Central Europe
@@ -118,7 +118,7 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 The regions were designed by separate teams, and these conventions make every file apply the same tests. They
 summarise the decided conventions of [RULES 6.16](../RULES.md#6-civ-design-rules), which the level-1 review
 settled (section 6) and the owner accepted, plus the level rules of RULES section 5 and the Mounted Crossbowman
-test of the review (section 3.2). RULES is authoritative wherever this summary is shorter, and the owner can
+test of the review (sections 3.2 and 11). RULES is authoritative wherever this summary is shorter, and the owner can
 overrule any convention (RULES section 11).
 
 - **Navy** (6.16.1). Navies are classified by vessel, not by water. Planked war galleys or ships make a
@@ -137,10 +137,10 @@ overrule any convention (RULES section 11).
 - **Crossbows** (6.16.3). In Old World civs the Crossbowman is the generic Castle Age bow tier, as an
   abstraction, until the bow and crossbow lines are split in N2. The Arbalester needs crossbow evidence. The
   pre-contact Americas have neither.
-- **Mounted Crossbowman** (review, section 3.2). One shared test: the line stays only where shooting from the
-  saddle is documented. Only the Germans keep it, on thin and flagged evidence (Hans Talhoffer's fight book of
-  1467); the other fourteen designs whose game civ has it drop it, since their sources show mounted crossbowmen
-  at most as troops who rode to the fight.
+- **Mounted Crossbowman** (review, sections 3.2 and 11). One shared test: the line stays where mounted
+  crossbowmen are documented as a regular troop type of the civ's armies. Most of them rode to the fight and
+  shot on foot, so N2 can give the line a mode that dismounts to shoot. Seven designs keep it (Franks,
+  Burgundians, Italians, Castilians, Portuguese, Poles, Germans); the eight others whose game civ has it drop it.
 - **Thumb Ring** (6.16.4). Only where the thumb draw is attested for the civ's archers, or for an archery
   tradition its armies demonstrably used (steppe, Islamic, East Asian); not for civs whose archers used the
   European draw or whose missile troops were crossbowmen.
@@ -203,7 +203,7 @@ overrule any convention (RULES section 11).
   - Monasteries work +20% faster: the Maya passive with an Anglo-Saxon, Bulgarian, Burmese, Danish, Gaelic,
     Hindustani, Khitan or Malay ally.
   - Monks heal +100% faster: the Mapuche passive with a Byzantine ally.
-  - Relics generate +33% gold: the Muisca passive with a Tatar ally.
+  - Relics generate +33% gold: the Muisca passive and the Rus' Baptism of Rus' with a Tatar ally.
   - Stables work +20% faster: the Castilians' Caballería de Cuantía and the Germans' Ministerialen with an Avar
     ally.
   - Technologies research +25% faster: the Vietnamese Văn Miếu with an Arab ally.
