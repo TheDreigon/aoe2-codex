@@ -90,7 +90,7 @@ kind = "other"
 level = 1
 change = "new"
 replaces = "Monks +3 melee/+3 pierce armor"
-precedent = "Dock and University technologies cost -25% (Italians), narrowed to University technologies (a narrowed existing effect is level 1, RULES section 5); half of the Georgians' Gelati Academy has the same effect"
+precedent = "Dock and University technologies cost -25% (Italians), narrowed to University technologies (a narrowed existing effect is level 1, RULES section 5); half of the Georgians' Gelati Academy and the whole of the Germans' Gutenberg's Press, both University techs, have the same effect"
 basis = "Bengal was a centre of learning and letters throughout the window. The Palas patronised the great monastic universities: Dharmapala founded Vikramashila and Somapura, and Nalanda, Odantapuri and Jagaddala drew students from Tibet and Southeast Asia; Devapala's Nalanda copper plate (mid-9th century) records a monastery at Nalanda built by the Shailendra king Balaputradeva of Suvarnadvipa, which Devapala endowed with villages at his request. Under the Sultanate the courts patronised literature in Bengali: Barbak Shah gave Maladhar Basu, who rendered the Bhagavata into Bengali (Sri Krishna Vijaya, 1473–80), the title Gunaraj Khan, and Paragal Khan, Husain Shah's governor of Chittagong, commissioned Kavindra Parameshvara's Bengali Mahabharata (Sukumar Sen 1960; Sarkar (ed.) 1948). The armour bonus it replaces suggested armoured monks, the opposite of what happened: the mahaviharas were sacked around 1200 (Odantapuri, Vikramashila)."
 relevance = "The Pala mahaviharas made Bengal and Bihar the last great centre of Indian Buddhist learning, and the sultans' courts fostered the rise of Bengali literature."
 

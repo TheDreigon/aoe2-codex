@@ -359,7 +359,7 @@ The fix pass of sections 3, 4, 6, 7 and 9 was carried out between 15 and 18 Octo
 | Average fidelity, 52 civs | **4.9 in the game → 7.2 in the review → 7.5 after the fix pass** (7.46) |
 | Distribution | 27 civs at 8, 22 at 7, 3 at 6 |
 | Changed scores | 12 civs gain a point (Italians, Germans, Lithuanians, Swedes, Bulgarians, Avars, Arabs, Berbers, Bengalis, Khitans, Japanese, Aztecs); none loses one |
-| Questions for the owner | none ([`../civs/open-questions.md`](../civs/open-questions.md) lists the departures from the owner's decisions) |
+| Questions for the owner | none (the owner settled the fix pass's departures on 19 October 2026; [`../civs/open-questions.md`](../civs/open-questions.md) records the outcomes) |
 
 Each region was scored blind by two independent scorers on the analysis scale; a third scorer decided where they disagreed (Lithuanians, Rus', Avars, Gurjaras, Bengalis, Khitans, Maya). The scorers also judged whether each file could be marked reviewed. Five files were held back by concrete blockers (Avars, Vietnamese, Gurjaras, Bengalis, Maya); commit 040f9b9 resolved them, and an independent check confirmed it.
 
@@ -441,9 +441,9 @@ The scores still stop at 8 for the reasons of section 1: level 1 itself, umbrell
 
 - **Rules and tools.** RULES v0.5: the codex-wide questions became decided conventions (6.16, with the traction-test readings and the one-heavy-engine rule in 6.16.5, and bonus stacks in 6.16.12). Units of the campaigns and the Scenario Editor count as existing content, and the owner's art-reuse rule sets the levels: as it is N1, with adapted stats N2, new art N3. Narrowed or weaker passive and team effects are level 1. Section 4 records the three renames, the Avars' cheaper traction trebuchets, and the Mississippians and Javanese as N3 proposals; section 12 is the changelog. `validate_civs.py` accepts Scenario Editor models and level-2 units with a `stats` key. The base stats of the Scenario Editor units are in [`../tools/scenario-units-stats.md`](../tools/scenario-units-stats.md).
 - **Renames.** Britons → **English**, Saxons → **Anglo-Saxons** (the term is flagged as contested), Saracens → **Arabs**, with `original_name` and renamed files.
-- **Rus' rebuilt on the owner's sketch.** The passives are Farmers, hunting gold (the fur trade), Detinets, Monks and the Cavalry Archer discount. The techs are the Druzhina (trample for the Boyar and the Knight line), Kalita, the Baptism of Rus' (Monastery technologies -50%) and Pushechny Dvor, dated from the cannon house of 1488. Poliud'e and Pomest'e become ideas, and the team bonus adds the treaties of 911 and 944.
+- **Rus' rebuilt on the owner's sketch.** The passives are Farmers, hunting gold (the fur trade), Detinets, Monks and the Cavalry Archer discount. The techs are the Druzhina (trample for the Boyar and the Knight line), Kalita, the Baptism of Rus' (Monastery technologies -50%; relic gold since 18 October 2026, see below) and Pushechny Dvor, dated from the cannon house of 1488. Poliud'e and Pomest'e become ideas, and the team bonus adds the treaties of 911 and 944.
 - **Swedes.** Engelbrekt's Rising replaces Vendel Legacy, Alsnö Stadga returns to the Castle Age, and the Hand Cannoneer (Brunkeberg, 1471) and Block Printing (Stockholm, 1483) join the tree.
-- **Germans on the German sketch.** The Teutonic Knight uses the Crusader Knight art and the Landsknecht the Heavy Pikeman art, both at level 2 with adapted stats: as they are, the first exceeded the cavalry attack ceiling and the second was weaker than the Halberdier. Ministerialen is the Castle tech and the Golden Bull the Town Center tech. The Hanse moves to the Dock, Light Cavalry and Shipwright join, the Peter von Danzig moves here, and Gutenberg's Press becomes an idea.
+- **Germans on the German sketch.** The Teutonic Knight uses the Crusader Knight art and the Landsknecht the Heavy Pikeman art, both at level 2 with adapted stats: as they are, the first exceeded the cavalry attack ceiling and the second was weaker than the Halberdier. Ministerialen is the Castle tech and the Golden Bull the Town Center tech. The Hanse moves to the Dock, Light Cavalry and Shipwright join, the Peter von Danzig moves here, and Gutenberg's Press became an idea. On 19 October 2026 the owner made the Teutonic Knight the game's unit with the new art and brought Gutenberg's Press back (see below).
 - **Owner decisions and our historical calls executed.**
   - English: rate of fire in place of range.
   - Portuguese: Ordem de Cristo for the Galley line, +2.
@@ -457,14 +457,14 @@ The scores still stop at 8 for the reasons of section 1: level 1 itself, umbrell
   - Americas: Blast Furnace, Plate Mail Armor and Ring Archer Armor restored.
   - Lithuanians: the Genitour (Sulica Rider) and a pagan conversion-resistance passive.
   - Bengalis: the Bombard Cannon.
-  - Tatars: the Traction Trebuchet, a church-patent team bonus and Silk Armor's effect as the Beglerbeg.
+  - Tatars: the Traction Trebuchet, a church-patent team bonus and Silk Armor's effect as the Beglerbeg (renamed Quyaq on 19 October 2026).
   - Bulgarians: Krum's Siege Train.
   - Bohemians: the Czech mercenaries as the team bonus.
   - Malay: the Javanese civ recorded as an N3 proposal.
 - **Shared tests applied across the codex.**
   - Navies are classified by vessel: the Magyars and Burmese drop to the boat tier, and the Canoe look goes to the Aztecs, Maya, Mapuche, Tupi, Malians and Avars.
   - The traction test: the Armenians (a flagged inference) and the Byzantines (one heavy engine for their core) take the Traction Trebuchet.
-  - The Mounted Crossbowman stays only where shooting from the saddle is documented, which leaves only the Germans; the Franks' Ordonnance Companies now cheapens the Knight line.
+  - The Mounted Crossbowman first stayed only where shooting from the saddle is documented, which left only the Germans. Section 11 revised the test on 18 October 2026 (a documented troop type), and seven designs keep the line. The Franks' Ordonnance Companies cheapens the Knight line instead (by -30% gold since 19 October 2026).
   - The Treadmill Crane has one reading for the Islamic world, and the Inca rename it Mit'a.
   - Gunpowder follows the represented period (6.16.19(d)): the Vietnamese lose the Cannon Galleon, while the Burgundians keep theirs on a gun-armed galley of 1445.
   - The Avars lose the Hussar.
@@ -473,15 +473,22 @@ The scores still stop at 8 for the reasons of section 1: level 1 itself, umbrell
   - Weighed and declined: the Mounted Samurai, a melee unit while the Heian–Kamakura warrior was a mounted archer; the Pagan Priest, kept as an N2 idea; and others, with the reasons in the files.
 - **Corrections and questions.** Every correction of section 3.4 is applied. The claims the historians could not confirm are reworded or flagged in the files. The 464 per-civ and 26 codex-wide questions are recorded as decisions with their contested notes. The README index, conventions and method are rewritten.
 
-### Departures and open points
+### Departures and owner decisions
 
-There are no questions left for the owner. [`../civs/open-questions.md`](../civs/open-questions.md) lists 14 departures from the owner's decisions or sketches, each with its reason, for the owner to confirm or overrule. The main ones:
+There are no questions left for the owner. The fix pass listed thirteen departures from the owner's decisions or sketches in [`../civs/open-questions.md`](../civs/open-questions.md), each with its reason. The main ones were the two German units at level 2, the Germans' fifth passive (Monks heal at range), the effects chosen for the Rus' Kalita and Pushechny Dvor, and the removal of the Franks' and Burgundians' Mounted Crossbowman line (reversed by the revised test of section 11).
 
-- the English passive is +10/+18%, because a level-1 passive cannot exceed the game's existing +18%;
-- the two German units are at level 2;
-- the Germans keep a fifth passive (Monks heal at range);
-- the effects chosen for the Rus' Kalita and Pushechny Dvor;
-- the Franks' and Burgundians' Mounted Crossbowman line is removed.
+**Changes of 18 October 2026.** Section 11 revises the Mounted Crossbowman test and records the owner's rule that a unit only one civ has is a unique unit. At the owner's request, three techs that only discounted a one-time purchase got lasting effects: the Germans' Golden Bull (gold and stone miners work +15% faster), the Magyars' Royal Counties (military units train +10% faster) and the Baptism of Rus' (Relics generate +33% gold, for the relics Vladimir brought from Korsun).
+
+**Owner decisions of 19 October 2026.** The owner confirmed the English passive at +10/+20% (level 2; the fix pass had set +18% to keep it at level 1) and made realism the first priority and balance the second (RULES 6.14). The owner then answered the thirteen departures; [`../civs/open-questions.md`](../civs/open-questions.md) gives each outcome and how the owner's numbering was read. In the files:
+
+- Germans: the Teutonic Knight is the game's unit with the Crusader Knight art, mounted, at speed 1.2 and with 2 less attack (level 2); its fully upgraded armour (13/6) goes above the mounted class ceiling by the owner's decision. For now the Monks passive stays and Gutenberg's Press returns as a University tech: 5 passives and 4 techs, the cap of 9.
+- Rus': Kalita takes the historically best effect, Burgundian Vineyards' farmers' gold (Imperial Age, level 1), shared with the Tatars' Yarlyk as the two sides of one tribute. With the Cavalry Archer discount and the Baptism of Rus' (whose relic gold is the Tatars' team bonus since 18 October), the Rus' now share three effects with the Tatars, which section 3.3 had set out to end; the owner's answer to put history first accepts this, and the N2 diversification pass (RULES 6.16.12) can revisit it. Pushechny Dvor stands.
+- Tatars: Silk Armor's effect is renamed Quyaq, the Horde's armour.
+- Franks: Ordonnance Companies gives -30% Knight-line gold (level 2), half the Polish figure, because the Franks keep the Paladin.
+- Arabs: the iqta' returns as a passive, ‘Mounted Units take -20% population space starting in Imperial Age’ (level 1).
+- The other departures stand on historical grounds: the Castilians without Órdenes Militares (the Freire and two passives represent the orders), the Gaels' Hussar removal, the Byzantines' traction engine, the Bohemians' start in 872, and the Ox Wagon and Donkey looks of the Tatars' and Ethiopians' Mule Carts. The Koreans' range bonus stands without an answer of its own. For the Franks' and Burgundians' Mounted Crossbowman line, the historical reading is the revised test of section 11: the line stays, as in the game.
+
+The scores above are those of the fix pass; they were not revised for these changes.
 
 ### Process
 

@@ -13,23 +13,23 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 | Britons | **English** | 1066–1485 | Britons renamed English for England after 1066 (core c. 1277–1453): faster shooting replaces the archers’ range passive, Yeomen moves to the Town Center, the Chevauchée replaces Warwolf, dismounted men-at-arms gain armour, archers serving allies carry the team bonus, and the Mounted Crossbowman line leaves the tree as Bombard Cannon, Carrack and Crop Rotation join it. | [English.toml](English.toml) |
 | Celts | **Gaels** | 563–1500 | Celts reworked as the Gaels of Ireland and Scotland with the medieval Scottish kingdom (563–1500): a cattle-and-dairy economy and castle-taking infantry replace the invented siege identity, the Kern (Woad Raider renamed) is the unique unit, the Galloglass joins the Barracks, the Schiltron and Buannacht are the techs and the Irish missions the team bonus. | [Gaels.toml](Gaels.toml) |
 | Saxons | **Anglo-Saxons** | 449–1066 | Saxons renamed Anglo-Saxons for England from the settlement to Hastings (449–1066), rebuilt around the burh and the fyrd: earthwork walls and garrisoned towns replace castle arrows, the shield wall becomes a passive, the Fyrd and Edgar's Recoinage are the new techs, the continental missions the team bonus, and post-1066 items leave the tree. | [AngloSaxons.toml](AngloSaxons.toml) |
-| Franks | Franks | 481–1500 | The Frankish kingdoms and France (481–1500): knights, mills, cheap castles and the Throwing Axeman stay, Gothic building replaces the forager bonus, the University of Paris the team bonus, Ordonnance Companies moves to the Town Center and makes the men-at-arms cheaper, the Bureau Brothers take Chivalry’s Castle slot and the Mounted Crossbowman line leaves the tree. | [Franks.toml](Franks.toml) |
-| Burgundians | Burgundians | 1363–1477 | Valois Burgundy (1363–1477): the economic, Cavalier and gunpowder bonuses stay, archers replace the stable discount, the Bruges trade becomes the team bonus, the 1433–34 common coinage the Town Center tech, Vineyards moves to the Mill and the Order of the Golden Fleece replaces Flemish Revolution, while the Mounted Crossbowman leaves the tree. | [Burgundians.toml](Burgundians.toml) |
+| Franks | Franks | 481–1500 | The Frankish kingdoms and France (481–1500): knights, mills, cheap castles and the Throwing Axeman stay, Gothic building replaces the forager bonus, the University of Paris the team bonus, Ordonnance Companies moves to the Town Center and makes the men-at-arms cheaper, at half the Polish discount because the Franks keep the Paladin, and the Bureau Brothers take Chivalry’s Castle slot. | [Franks.toml](Franks.toml) |
+| Burgundians | Burgundians | 1363–1477 | Valois Burgundy (1363–1477): the economic, Cavalier and gunpowder bonuses stay, archers replace the stable discount, the Bruges trade becomes the team bonus, the 1433–34 common coinage the Town Center tech, Vineyards moves to the Mill and the Order of the Golden Fleece replaces Flemish Revolution. | [Burgundians.toml](Burgundians.toml) |
 
 ### Iberia and Italy
 
 | Game name | Name | Window | Main changes | File |
 |---|---|---|---|---|
 | Spanish | **Castilians** | 1037–1504 | Spanish renamed Castilians for the medieval Crown of Castile (1037–1504): the Freire of the military orders replaces the Conquistador and Missionary, the caballería de cuantía takes the Castle, the Santa Hermandad and Bula de Cruzada replace Supremacy and Inquisition, and the Mesta, cheaper castles, Santiago's relic and the foot crossbow come in while the mounted crossbow line leaves. | [Castilians.toml](Castilians.toml) |
-| Portuguese | Portuguese | 1139–1521 | Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation, and the Mounted Crossbowman leaves the tree. | [Portuguese.toml](Portuguese.toml) |
-| Italians | Italians | 1000–1494 | Italians as the communes and maritime republics (1000–1494): the Genoese Crossbowman stays and becomes the team's mercenary, the Condottiero gives way to the Condotta, Silk Road becomes the Commenda, the commune takes the Town Center, the Arsenal of Venice comes to the Dock, banking replaces fishing, the Hussar becomes the Stradiot, and the Mounted Crossbowman leaves the tree. | [Italians.toml](Italians.toml) |
+| Portuguese | Portuguese | 1139–1521 | Portuguese as the medieval kingdom and its expansion (1139–1521): the Besteiro do Conto replaces the Organ Gun beside the Caravel, crossbow and fishing bonuses replace the gold and forager ones, Aljubarrota, Lei das Sesmarias, Ordem de Cristo and Volta do Mar replace Arquebus and Circumnavigation. | [Portuguese.toml](Portuguese.toml) |
+| Italians | Italians | 1000–1494 | Italians as the communes and maritime republics (1000–1494): the Genoese Crossbowman stays and becomes the team's mercenary, the Condottiero gives way to the Condotta, Silk Road becomes the Commenda, the commune takes the Town Center, the Arsenal of Venice comes to the Dock, banking replaces fishing and the Hussar becomes the Stradiot. | [Italians.toml](Italians.toml) |
 | Sicilians | Sicilians | 1030–1266 | Sicilians as the Italo-Normans and the Kingdom of Sicily (1030–1266): the Norman charge (Imperial Age) replaces the bonus-damage bonus, a fleet bonus is added, First Crusade becomes the Magna Expeditio levy, the royal Diwan takes the Town Center, Lucera's Muslim archers replace Hauberk and the mounted crossbow line leaves the tree. | [Sicilians.toml](Sicilians.toml) |
 
 ### Central Europe
 
 | Game name | Name | Window | Main changes | File |
 |---|---|---|---|---|
-| Teutons | **Germans** | 919–1500 | Teutons renamed Germans (919–1500): the Teutonic Knight becomes the mounted brother-knight (Crusader Knight art) and the Landsknecht a second unique unit (Heavy Pikeman art), both with adapted stats, the Ministerialen, the Golden Bull and the Hanse replace Ironclad and Crenellations, conversion resistance becomes a passive, German miners the team bonus, and the tree gains Arbalester, Light Cavalry, Architecture and the mining and shipyard upgrades. | [Germans.toml](Germans.toml) |
+| Teutons | **Germans** | 919–1500 | Teutons renamed Germans (919–1500): the Teutonic Knight becomes the mounted brother-knight (the game’s unit with the Crusader Knight art, faster, with 2 less attack and counted as cavalry) and the Landsknecht a second unique unit (Heavy Pikeman art) with adapted stats, the Ministerialen, the Golden Bull and the Hanse replace Ironclad and Crenellations, Gutenberg's Press joins at the University, conversion resistance becomes a passive, German miners the team bonus, and the tree gains Arbalester, Light Cavalry, Architecture and the mining and shipyard upgrades. | [Germans.toml](Germans.toml) |
 | Bohemians | Bohemians | 872–1526 | Bohemians keep their Hussite core: Hussite Reforms moves to the Monastery, Charles IV’s New Town of Prague becomes the Town Center tech, the Houfnice becomes a short-range gun (Organ Gun model), Wagenburg Tactics gains armoured wagons, the Czech mercenaries replace the groschen as the team bonus, the navy shrinks to a landlocked kingdom’s basic fleet, and the architecture becomes Central European. | [Bohemians.toml](Bohemians.toml) |
 | Poles | Poles | 966–1500 | Poles moved back to Piast and Jagiellonian Poland: the Kopijnik replaces the Obuch and the Hussar the 17th-century Winged Hussar, Szlachta Privileges moves to the Town Center, hired companies take the Castle, fortifications replace villager regeneration, and the architecture becomes Central European. | [Poles.toml](Poles.toml) |
 | Lithuanians | Lithuanians | 1236–1500 | Lithuanians recentred on the Grand Duchy from its pagan rise to the Jagiellonian union: forest foraging and a pagan resistance to conversion replace the food and relic bonuses, the hill forts become a passive, the Boyar replaces the Leitis, the regional javelin horse arrives as the Sulica Rider, Horodło and Vytautas’ Tatars are new techs, and the navy shrinks to a basic fleet. | [Lithuanians.toml](Lithuanians.toml) |
@@ -60,14 +60,14 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 |---|---|---|---|---|
 | Huns | **Avars** | 567–796 | Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism, the Dromon and the Hussar leave. | [Avars.toml](Avars.toml) |
 | Mongols | Mongols | 1206–1368 | The Mongol Empire (1206–1368) keeps its horse archers, hunt, remounts, Mangudai and Drill and gains the Keshik, the decimal levy (Conscription free), the yam relay as the Town Center tech and the Pax Mongolica as the team bonus, while camels, the Champion and the Cannon Galleon leave. | [Mongols.toml](Mongols.toml) |
-| Tatars | Tatars | 1242–1502 | Tatars refocused on the Golden Horde (1242–1502) without Timur: herds, horse archery and the Keshik stay, the Kipchak levy, Araba wagon camps, yarlyk and tamga revenues, the Beglerbeg (Silk Armor renamed), the traction trebuchet and the khans' patents to the Russian Church enter, and the Timurid Flaming Camel and Siegecraft, the counterweight Trebuchet, guns and camels leave. | [Tatars.toml](Tatars.toml) |
+| Tatars | Tatars | 1242–1502 | Tatars refocused on the Golden Horde (1242–1502) without Timur: herds, horse archery and the Keshik stay, the Kipchak levy, Araba wagon camps, yarlyk and tamga revenues, the Quyaq (Silk Armor renamed), the traction trebuchet and the khans' patents to the Russian Church enter, and the Timurid Flaming Camel and Siegecraft, the counterweight Trebuchet, guns and camels leave. | [Tatars.toml](Tatars.toml) |
 | Cumans | Cumans | 1055–1241 | The Cuman-Kipchak confederation (1055–1241, diaspora to c. 1400) keeps its speed, extra Town Center, Kipchak and Cuman Mercenaries, gains herding, ransom, feigned flight, the Council of Khans and marriage alliances, and loses its invented early siege, the top siege tiers, the Trebuchet and camels. | [Cumans.toml](Cumans.toml) |
 
 ### The Islamic world and Africa
 
 | Game name | Name | Window | Main changes | File |
 |---|---|---|---|---|
-| Saracens | **Arabs** | 632–1517 | Saracens renamed Arabs for the Arab caliphates and Ayyubid–Mamluk Egypt and Syria (632–1517): a horse-archer Mamluk replaces the camel Mameluke, Abd al-Malik's coinage and diwan reform (Dinar) becomes the Town Center tech, Bimaristan moves to the Monastery, Arabic science passed to neighbours is the team bonus, and the Hand Cannoneer and Cannon Galleons leave. | [Arabs.toml](Arabs.toml) |
+| Saracens | **Arabs** | 632–1517 | Saracens renamed Arabs for the Arab caliphates and Ayyubid–Mamluk Egypt and Syria (632–1517): a horse-archer Mamluk replaces the camel Mameluke, the iqta' that maintained the cavalry becomes a passive, Abd al-Malik's coinage and diwan reform (Dinar) becomes the Town Center tech, Bimaristan moves to the Monastery, Arabic science passed to neighbours is the team bonus, and the Hand Cannoneer and Cannon Galleons leave. | [Arabs.toml](Arabs.toml) |
 | Persians | Persians | 500–1507 | Persians as Iran from the late Sasanians to the Timurids (500–1507): qanat farming and fast-shooting archers become passives, Khosrow I's land tax the Town Center tech Kharaj and Persian learning the team bonus; gunpowder leaves and the architecture becomes Central Asian. | [Persians.toml](Persians.toml) |
 | Turks | Turks | 1071–1526 | Turks as the Seljuks of Rum and the Ottomans (1071–1526): Sipahi moves to the Town Center as Timar, the Seljuk hans (Caravanserai) replace the gold-mining bonus, Turkish horsemen serving neighbours become the team bonus, and the Hussar and Shipwright are renamed Akıncı and Tersane. | [Turks.toml](Turks.toml) |
 | Berbers | Berbers | 683–1554 | Berbers as the Amazigh of the Maghreb, centred on the Almoravids and Almohads (683–1554): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, rammed-earth (tabiya) walls a passive, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave. | [Berbers.toml](Berbers.toml) |
@@ -184,10 +184,14 @@ overrule any convention (RULES section 11).
 - **Magnitudes and ages** (6.16.11). The ceiling is measured per unit class: no unit line goes beyond the
   highest value the game gives that class. The two exceptions the drafts put to the owner no longer exist:
   Órdenes Militares, which took the Castilian Elite Freire to 100 HP, has left the design, and Ordem de Cristo
-  gives the Galley line at most +2 attack. A unit whose Scenario Editor model would go beyond the ceiling takes
-  adapted stats at level 2 (the Germans' Teutonic Knight). An existing effect that is moved or becomes a
-  passive keeps the game's age or a later one, never an earlier one (Volta do Mar and the Tatars' Beglerbeg are
-  Imperial instead of Castle Age); the site labels this as a game constraint.
+  gives the Galley line at most +2 attack. One exception stands by the owner's decision of 19 October 2026: the
+  Germans' Teutonic Knight is the game's unit with the Crusader Knight art, mounted, faster and with 2 less
+  attack, so its attack stays under the mounted ceiling but its armour stays the game's: fully upgraded, its
+  Elite tier has 13/6, a melee armour above every other mounted unit's. A unit whose Scenario Editor model would
+  go beyond the ceiling takes adapted stats at level 2 (the Teutonic Knight does not use the Crusader Knight's
+  campaign values). An existing effect that is moved or becomes a passive keeps the game's age or a later one,
+  never an earlier one (Volta do Mar, the Tatars' Quyaq and the Rus' Kalita are Imperial instead of Castle
+  Age); the site labels this as a game constraint.
 - **Team effects and reuse** (6.16.12). Reused effects are accepted in N1, each resting on its own history (rule
   6.7). Identical team effects held by different civs count once per team, and trade-gold team bonuses count once,
   at the highest value present. A civ's own bonus and an ally's identical team bonus stack as the game stacks
@@ -199,7 +203,7 @@ overrule any convention (RULES section 11).
   - Monasteries work +20% faster: the Maya passive with an Anglo-Saxon, Bulgarian, Burmese, Danish, Gaelic,
     Hindustani, Khitan or Malay ally.
   - Monks heal +100% faster: the Mapuche passive with a Byzantine ally.
-  - Relics generate +33% gold: the Muisca passive with a Tatar ally.
+  - Relics generate +33% gold: the Muisca passive and the Rus' Baptism of Rus' with a Tatar ally.
   - Stables work +20% faster: the Castilians' Caballería de Cuantía and the Germans' Ministerialen with an Avar
     ally.
   - Technologies research +25% faster: the Vietnamese Văn Miếu with an Arab ally.
@@ -218,7 +222,7 @@ overrule any convention (RULES section 11).
   for the design's entity (RULES section 4). A shared generic item is renamed for one civ only when it has the
   same function inside the window, the new name is a period term and the generic name is foreign or
   anachronistic to the civ; modern coinages are flagged. A codex unit may take the name of a different game unit
-  (Ghulam, Teutonic Knight, Houfnice), with a note on the site. Names from non-Latin scripts use a plain
+  (Ghulam, Houfnice), with a note on the site. Names from non-Latin scripts use a plain
   romanization (Shugo-Jito; Pinyin without tones; Revised Romanization; no scholarly diacritics for Arabic,
   Persian and Indic); Latin-script languages, Vietnamese among them, keep their diacritics.
 - **Labels** (6.16.16). The in-game label follows the redesign, using the game's label categories.
@@ -240,8 +244,9 @@ overrule any convention (RULES section 11).
   [`../tools/scenario-units-stats.md`](../tools/scenario-units-stats.md)) count as existing content, used only
   where one fits a civ better than the current borrowing. Any existing unit's art may be reused: as it is, with
   only a new name, it is **N1** (the Canoe, Donkey and Ox Wagon looks above); with a new name and adapted
-  stats, recorded in a `stats` key, it is **N2** (the Germans' Teutonic Knight on the Crusader Knight and
-  Landsknecht on the Heavy Pikeman); with new art or animations it is **N3**.
+  stats, recorded in a `stats` key, it is **N2** (the Germans' Teutonic Knight, the game's unit with adapted
+  stats on the Crusader Knight art, and the Landsknecht on the Heavy Pikeman); with new art or animations it is
+  **N3**.
 
 ## Codex-wide questions
 
@@ -293,26 +298,30 @@ and every sketch and decision of the owner, which the designs follow:
 - the decisions taken after the review (review section 9): the renames (Britons → English, Saxons →
   Anglo-Saxons, Saracens → Arabs); the Crusader Knight as the model of the mounted Teutonic Knight; the
   Landsknecht as a unit; the Knight-line trample to the Rus' (Druzhina), with Engelbrekt's Rising for the
-  Swedes; the rate of fire of the English (the game's Britons), at +10/+18% instead of +20% so that the passive
-  stays level 1; the Japanese Genko Borui; the Italians' Arsenale; the Portuguese Ordem de Cristo, limited to
+  Swedes; the rate of fire of the English (the game's Britons), at +10/+20% (a level-2 passive, confirmed by
+  the owner on 19 October 2026); the Japanese Genko Borui; the Italians' Arsenale; the Portuguese Ordem de Cristo, limited to
   the Galley line at +2; CQ12 (the American removals kept, the armour tiers restored) and CQ23 (the Genitour for
   the Lithuanians);
 - the owner's rule on reusing unit art, with the Scenario Editor units counted as existing content (RULES
-  section 5).
+  section 5);
+- the owner's answers of 19 October 2026 to the thirteen departures of the fix pass, among them the Teutonic
+  Knight as the game's unit on the Crusader Knight art, Gutenberg's Press restored, the Rus' Kalita on farmers'
+  gold, the Tatars' Quyaq, the Arabs' iqta' as a passive and the Franks' Ordonnance Companies at -30% gold.
 
-Where a design does not carry out a sketch or decision literally, [`open-questions.md`](open-questions.md) lists
-the departure and the civ file gives the reason.
+Where a design does not carry out a sketch or decision literally, the civ file gives the reason. The owner settled
+the fix pass's departures on 19 October 2026, and [`open-questions.md`](open-questions.md) records the outcomes.
 
 **Level 1 only.** Everything in a design already exists in the game: bonuses reuse an effect that some civ,
 unique tech or generic tech already has (each `precedent` names it); unique units are existing units, moved,
 shared or renamed, the units of campaigns and the Scenario Editor included; tree changes add or remove existing
 items; architecture sets are reassigned. A passive bonus or team bonus that applies an existing effect to fewer
 targets, or at a lower magnitude, stays level 1 (the narrowing rule, RULES section 5); a unique tech is level 1
-only when it is identical in play to an existing tech. Two kinds of element are recorded as **level 2**: unique
+only when it is identical in play to an existing tech. Three kinds of element are recorded as **level 2**: unique
 techs that no existing tech can fill (above all the mandatory Town Center tech, but also some extra techs for a
-distinct datable moment), 50 of the 133 unique techs, 42 at the Castle or Town Center and 8 at other buildings,
+distinct datable moment), 52 of the 134 unique techs, 43 at the Castle or Town Center and 9 at other buildings,
 each with the existing effect it copies; and the two unique units that reuse existing art with adapted stats,
-the Germans' Teutonic Knight and Landsknecht. Anything that needs new mechanics or art is listed in `ideas` for
+the Germans' Teutonic Knight and Landsknecht; and one passive that the owner raised above an existing
+magnitude, the English archers' +20% rate of fire. Anything that needs new mechanics or art is listed in `ideas` for
 N2 and N3.
 
 **Process.** The work ran as a multi-agent workflow, one team per region (the 11 regions of
@@ -367,8 +376,10 @@ python -I codex/tools/validate_civs.py --find "Mule Cart"
 python -I codex/tools/validate_civs.py --names         # every unit, tech and building name
 ```
 
-**Limits.** These are level-1 designs, not balanced ones: level 1 makes no balance promise (RULES 6.14) and only
-avoids absurdities, and the look and role of reused art and of adapted stats must still be checked in the game.
+**Limits.** These are level-1 designs, not balanced ones: level 1 makes no balance promise (RULES 6.14). Realism
+comes first; a design keeps a minimum of balance only where history leaves a choice (the Teutonic Knight's 2 less
+attack, the Franks' Ordonnance Companies at half the Polish discount) and avoids absurdities. The look and role
+of reused art and of adapted stats must still be checked in the game.
 The game's original history texts could not be downloaded in the environment where the designs were made, so
 the designs rely on the analysis for them. The web research ran in a cloud environment where the fandom wiki was
 blocked and direct page fetches often failed, so many web checks rest on search results; where a point could not

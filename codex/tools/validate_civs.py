@@ -13,7 +13,7 @@ unique techs, one at the Castle and one at the Town Center, with valid buildings
 statement of RULES 6.9 for every bonus, team bonus, unique unit and unique tech; original_name for renamed
 civs and a precise time window, RULES section 1), the level constraints that can be
 checked mechanically (item names exist in the game, architecture set exists, only unique techs may be
-level 2) and whether every original bonus, unique unit and unique tech is accounted for. Units that exist only
+level 2, or a passive the owner raised above an existing magnitude) and whether every original bonus, unique unit and unique tech is accounted for. Units that exist only
 in campaigns and the Scenario Editor (codex/tools/scenario-units.md) count as existing game content (RULES
 section 5): they are accepted as the `model` of a unique unit or of a per-civ rename. A unique unit reusing an
 existing unit as it is is level 1; with adapted stats (a "stats" key) it is level 2 (RULES section 5).
@@ -267,7 +267,7 @@ def validate(path, game):
     for n, b in enumerate(bonuses, 1):
         w = f'[[bonus]] #{n}'
         need(r, b, ['text', 'kind', 'change', 'precedent', 'basis', 'relevance'], w)
-        check_level(r, b, w)
+        check_level(r, b, w, allowed=(1, 2))  # level 2 only by the owner's decision (a new magnitude)
         if b.get('kind') not in KINDS:
             r.err(f'{w}: kind must be one of {sorted(KINDS)}')
         if b.get('change') not in CHANGES:

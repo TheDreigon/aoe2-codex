@@ -128,7 +128,7 @@ age = "Castle"
 effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
-precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill): an existing unique tech, shared and renamed with an identical effect and age; the Berbers (Taksir), Aztecs (Calpixqueh) and Tatars (Yarlyk) share it too, and the Bengalis have it as a passive. Reuse is accepted in level 1, each copy resting on its own history (RULES 6.16.12)."
+precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill): an existing unique tech, shared and renamed with an identical effect and age; the Berbers (Taksir), Aztecs (Calpixqueh), Tatars (Yarlyk) and Rus' (Kalita) share it too, and the Bengalis have it as a passive. Reuse is accepted in level 1, each copy resting on its own history (RULES 6.16.12)."
 basis = "Kavad I began and Khosrow I (531–579) completed a survey of the cultivated land and fixed the land tax (Middle Persian harāg) in silver per jarib according to the crop (wheat and barley, vines, date palms), collected in instalments; it paid a standing army, and the Arab conquerors kept it as the kharāj of Iraq and Iran (al-Tabari, trans. Bosworth, 1999; Daryaee, 2009). Farmers whose fields yield coin to the treasury translate it directly. The tech takes the Arabic name, under which the tax ran through the whole Islamic part of the window. Neither Kamandaran nor Citadels fits the Town Center, so another civ's existing tech is shared (level 1)."
 relevance = "Khosrow's fiscal reform financed the late Sasanian state and, as the kharaj, the caliphate's administration of Iraq and Iran: a turning point of Iranian statecraft."
 
