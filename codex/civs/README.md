@@ -141,6 +141,11 @@ overrule any convention (RULES section 11).
   crossbowmen are documented as a regular troop type of the civ's armies. Most of them rode to the fight and
   shot on foot, so N2 can give the line a mode that dismounts to shoot. Seven designs keep it (Franks,
   Burgundians, Italians, Castilians, Portuguese, Poles, Germans); the eight others whose game civ has it drop it.
+- **Heavy-engine floor** (6.16.5, owner's decision of 20 October 2026). Every civ keeps one heavy engine
+  (Trebuchet, Traction Trebuchet or Bombard Cannon), so that it can answer enemy trebuchets. The 14 designs
+  that history leaves without one (the Anglo-Saxons, Aztecs, Cumans, Ethiopians, Goths, Inca, Khmer, Malay,
+  Malians, Mapuche, Maya, Muisca, Tamils and Tupi) get the Traction Trebuchet as a game convention, flagged as
+  such in their files and on the site; the American civs get back a Siege Workshop for it alone.
 - **Thumb Ring** (6.16.4). Only where the thumb draw is attested for the civ's archers, or for an archery
   tradition its armies demonstrably used (steppe, Islamic, East Asian); not for civs whose archers used the
   European draw or whose missile troops were crossbowmen.

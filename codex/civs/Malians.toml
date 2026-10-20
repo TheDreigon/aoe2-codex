@@ -136,10 +136,11 @@ relevance = "Cavalry was the instrument of the Sudanic empires (Law, 1980): Mali
 contested = "The exact etymology used by the game is unconfirmed."
 
 [tree]
-add = ["Bracer", "Halberdier", "Siege Ram"]
+add = ["Bracer", "Halberdier", "Siege Ram", "Traction Trebuchet"]
 remove = ["Hand Cannoneer", "Bombard Cannon", "Cannon Galleon", "Siege Onager", "Trebuchet", "Cavalry Archer", "Heavy Cavalry Archer", "Camel Rider", "Heavy Camel Rider", "Arbalester", "Thumb Ring", "Carrack", "Keep", "Block Printing"]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no torsion or traction artillery is attested in the Sahel (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice."
 "Bracer" = "Archers were the mass of Mande infantry (the tontajon), so the archers' Blacksmith line should be complete; the analysis lists Bracer as missing. Arrowslits, which the analysis lists with it, stays out: medieval Malian fortifications are thinly attested, and the loopholed tata walls are 19th-century (see contested)."
 "Halberdier" = "The anti-cavalry substitute for the removed camels (RULES 6.11), as in the Mongols' and Khitans' designs: a generic top spear tier for Mali's foot soldiers, whom modern historians describe as spearmen and archers (Levtzion, 1973)."
 "Siege Ram" = "Substitute for the removed Trebuchet and Bombard Cannon as the late anti-building engine (RULES 6.11), as for the Goths and the Malay: Sahelian towns were taken, when at all, by blockade and assault (see the Siege Onager), for which the ram is the game's generic tool, an abstraction. The civ has no long-range anti-building weapon, as RULES 6.16.5 allows where none is attested."

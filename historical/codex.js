@@ -7,11 +7,12 @@
     const KINDS = {
         removed: {glyph: '−', colour: '#b3261e', label: 'Removed by the codex', key: 'removed'},
         added: {glyph: '+', colour: '#1e7d34', label: 'Added by the codex', key: 'added'},
+        convention: {glyph: '⚖', colour: '#5f6368', label: 'Added as a game convention', key: 'game convention'},
         new: {glyph: '★', colour: '#b8860b', label: 'New or changed unique item', key: 'new or changed unique'},
         renamed: {glyph: 'R', colour: '#2b5d9e', label: 'Renamed by the codex', key: 'renamed'},
         kept: {label: 'Unique item kept from the game'},
     };
-    const MARKED = ['removed', 'added', 'new', 'renamed'];
+    const MARKED = ['removed', 'convention', 'added', 'new', 'renamed'];
     const TOOLTIP_LENGTH = 320;
 
     let codex = {civs: {}};

@@ -142,10 +142,11 @@ relevance = "Service and settlement among their neighbours carried Cuman history
 contested = "The Kipchaks who ruled Mamluk Egypt came as slave soldiers, not as mercenaries; the identification of Anna Komnene's Maniak with Boniak is a modern conjecture."
 
 [tree]
-add = ["Bracer", "Heavy Scorpion"]
+add = ["Bracer", "Heavy Scorpion", "Traction Trebuchet"]
 remove = ["Siege Onager", "Siege Ram", "Trebuchet", "Camel Rider", "Champion", "Galleon", "Fast Fire Ship", "Carrack", "Galleon, Fast Fire Ship and Carrack", "Catapult Galleon"]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: the Cumans had no siege train of their own and besieged mostly by blockade (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice."
 "Bracer" = "A horse-archer people without the last archery upgrade contradicted its identity; Byzantine, Rus' and Hungarian sources describe Cuman archery, feigned flight and ambush."
 "Heavy Scorpion" = "In 1184/1185 Konchak advanced on Rus' with crossbows so stiff that fifty men could barely draw them, and with a Muslim specialist who shot “living fire” and was captured when Konchak fled from the Khorol (1 March 1185; Hypatian Chronicle). A heavy bolt-thrower fits this record better than early rams; the engineer was a foreigner and the record is isolated (civ-level contested list)."
 "Siege Onager" = "The Cumans had no siege train of their own and besieged mostly by blockade, so the top siege tiers are cut; the Onager and the Capped Ram remain as the generic minimum the civ needs to destroy buildings (RULES 6.11)."

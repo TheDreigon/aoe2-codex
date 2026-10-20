@@ -171,9 +171,9 @@ relevance = "Divine kingship organised Classic Maya politics, war and building, 
 contested = "Postclassic Yucatán was ruled by councils of lineage lords rather than divine kings (the joint government of Mayapán; the provincial lords, halach uinic and batab, of Landa's time); the tech renders the Classic institution."
 
 [tree]
-add = ["Slinger", "Gambesons"]
+add = ["Slinger", "Gambesons", "Traction Trebuchet"]
 remove = [
-  "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
+  "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet",
   "Crossbowman", "Arbalester", "Thumb Ring",
   "Halberdier",
@@ -182,9 +182,9 @@ remove = [
 ]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no siege engine of any kind existed in the pre-contact Americas (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice. The Siege Workshop stays in the tree for this engine alone. For its other units the design’s reading stands: The Maya built no siege engines: cities fell to assault, fire and blockade. Infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Before the heavy-engine floor every Castle had to be taken by units standing in its arrow fire; the Traction Trebuchet now does it from range, as a game convention, until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Slinger" = "The Maya who fought the first Spanish expeditions in 1517 used slings as well as bows and lances (Bernal Díaz, on Champotón). The regional Slinger, shared with the Aztecs, the Inca, the Muisca and the Mapuche, replaces part of the role of the removed crossbows."
 "Gambesons" = "Quilted cotton armour is well documented among the Maya: Landa describes jackets of cotton quilted in two layers with coarse salt as very strong, and the Spaniards met cotton-armoured warriors in 1517. The Maya have the Militia-line but lacked the tech; it is added and renamed Quilted Cotton Armor."
-"Siege Workshop" = "The Maya built no siege engines: cities fell to assault, fire and blockade. Removing the workshop removes all its units; infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Every Castle must then be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."

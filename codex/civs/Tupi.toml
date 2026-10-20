@@ -139,9 +139,9 @@ basis = "Village men cleared the forest together for new manioc gardens and buil
 relevance = "Collective work raised and moved the villages and cleared their gardens, and the institution and its Tupi name live on in Brazil as the mutirão."
 
 [tree]
-add = []
+add = ["Traction Trebuchet"]
 remove = [
-  "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
+  "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet",
   "Crossbowman", "Arbalester",
   "Halberdier", "Slinger",
@@ -150,7 +150,7 @@ remove = [
 ]
 
 [tree.basis]
-"Siege Workshop" = "The Tupi built no siege engines: villages were attacked by surprise, by assault on the palisade and with fire. At the siege of the Portuguese settlement of Igarassu in 1548 Staden saw the native besiegers, on a coast held by Tupi-speaking peoples, shoot burning arrows of cotton and wax at the houses; Staden does not call them Caeté, an identification that comes from Richard Burton's footnote to the Hakluyt Society edition (1874). Removing the workshop removes all its units; the Tacape line (strong against buildings), Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Every Castle must then be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists, with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no siege engine of any kind existed in the pre-contact Americas (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice. The Siege Workshop stays in the tree for this engine alone. For its other units the design’s reading stands: The Tupi built no siege engines: villages were attacked by surprise, by assault on the palisade and with fire. At the siege of the Portuguese settlement of Igarassu in 1548 Staden saw the native besiegers, on a coast held by Tupi-speaking peoples, shoot burning arrows of cotton and wax at the houses; Staden does not call them Caeté, an identification that comes from Richard Burton's footnote to the Hakluyt Society edition (1874). The Tacape line (strong against buildings), Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Before the heavy-engine floor every Castle had to be taken by units standing in its arrow fire; the Traction Trebuchet now does it from range, as a game convention, until an N2/N3 assault unit exists, with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."

@@ -128,10 +128,11 @@ relevance = "The Liber Iudiciorum was the Visigothic kingdom's great legal achie
 contested = "Whether the thiufa was a field unit or an administrative frame, and how far the military laws were enforced (see the civ-level notes)."
 
 [tree]
-add = ["Stone Wall", "Gate", "Guard Tower", "Fortified Wall", "Plate Mail Armor", "Heresy", "Siege Ram", "Arson"]
+add = ["Stone Wall", "Gate", "Guard Tower", "Fortified Wall", "Plate Mail Armor", "Heresy", "Siege Ram", "Arson", "Traction Trebuchet"]
 remove = ["Hand Cannoneer", "Bombard Cannon", "Cavalry Archer", "Heavy Cavalry Archer", "Hussar", "Trebuchet", "Siphons", "Incendiaries"]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no Gothic siege engine is attested, and the Goths were poor besiegers (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice."
 "Arson" = "Restored: the game withholds this generic tech from its Goths only in exchange for a stronger civ bonus (Infantry +1/+2/+3 attack vs. buildings), which this design drops (see dropped). The Goths' weakness was storming walls, not burning what they overran: after 376 they laid Thrace waste with fire and slaughter (Ammianus 31.6), Alaric's army ravaged Greece in 395–396 (Zosimus 5.5–6), and when Rome fell in 410 the houses by the Salarian Gate, among them the house of Sallust, were burned (Procopius, Wars 3.2.24). The weakness against walls stays in the dropped bonus; the generic tech returns."
 "Stone Wall" = "Theodoric restored the walls of Rome and other cities (Anonymus Valesianus 67; Cassiodorus, Variae), Leovigild founded walled Reccopolis (578), and Toledo, Septimania and the Pyrenean passes had Visigothic fortifications; a wall-less ‘nomad’ tree is the barbarian stereotype."
 "Gate" = "Comes with the Stone Wall."

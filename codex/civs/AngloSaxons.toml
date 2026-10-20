@@ -169,7 +169,7 @@ basis = "Æthelstan’s Grately code (c. 926–930) decreed one coinage througho
 relevance = "The silver penny and the geld made late Anglo-Saxon England one of the most centralised kingdoms of the West (see contested); Cnut conquered a kingdom whose taxes still worked."
 
 [tree]
-add = ["Clinker Construction"]
+add = ["Clinker Construction", "Traction Trebuchet"]
 remove = [
   "Trebuchet",
   "Arbalester",
@@ -189,6 +189,7 @@ remove = [
 ]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no Anglo-Saxon siege engine of any kind is attested (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice."
 "Clinker Construction" = "The Sutton Hoo ship (c. 625) is the classic clinker-built hull; in the game the Saxons were the only civ without this tech."
 "Trebuchet" = "The counterweight trebuchet appears only in the later 12th century, a century after the end of the civ. No Anglo-Saxon siege engine of any kind is attested either, so the traction test gives no Traction Trebuchet (RULES 6.16.5): English siege warfare was blockade, assault and counter-fortification (Alfred’s two forts on the Lea, 895; Edward’s burhs on both banks at Buckingham, 914; the storming of Tempsford and Derby, 917; Anglo-Saxon Chronicle). The rams, Mangonel, Onager and Scorpions stay only as the engine’s minimum abstraction of siege warfare (RULES 6.11, 6.14), not as evidence of Anglo-Saxon engines. The civ has no long-range anti-building weapon, as RULES 6.16.5 allows where none is attested, and relies on the Siege Ram, which it keeps; no other compensation is added for the items the tree loses, mostly later than 1066 (RULES 6.16.13)."
 "Arbalester" = "The crossbow was practically unknown in Anglo-Saxon England; at Hastings the crossbowmen were on the Norman side (William of Poitiers). The Crossbowman tier is kept as the generic ranged upgrade (RULES 6.16.3)."

@@ -143,9 +143,9 @@ relevance = "Tribute was the purpose and the engine of the Triple Alliance's exp
 contested = "How far the empire controlled its provinces, and how regular collection was outside the core (Berdan, Smith et al. 1996)."
 
 [tree]
-add = ["Slinger", "Guilds", "Masonry", "Architecture"]
+add = ["Slinger", "Guilds", "Masonry", "Architecture", "Traction Trebuchet"]
 remove = [
-  "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager", "Siege Onager",
+  "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager", "Siege Onager",
   "Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
   "Crossbowman", "Arbalester",
   "Carrack", "Catapult Galleon",
@@ -153,11 +153,11 @@ remove = [
 ]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no siege engine of any kind existed in the pre-contact Americas (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice. The Siege Workshop stays in the tree for this engine alone. For its other units the design’s reading stands: No Mesoamerican people built siege engines: towns fell to assault, fire and blockade. Infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Before the heavy-engine floor every Castle had to be taken by units standing in its arrow fire; the Traction Trebuchet now does it from range, as a game convention, until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Slinger" = "Slingers fought beside archers as standard Aztec missile troops (Hassig 1988), and Bernal Díaz repeatedly describes showers of sling stones. The regional Slinger, which the Inca, Muisca and Mapuche keep and the Maya also receive, takes over part of the role of the removed crossbows."
 "Guilds" = "The pochteca were professional long-distance merchants organised in hereditary, self-governing corporations with their own courts, who also served the state as spies (Sahagún, Florentine Codex, book 9). The current game gives Guilds to the Incas but not to the Aztecs; here it is added and renamed Pochteca (agreed rename)."
 "Masonry" = "The Mexica and their allies built in stone and lime: the Templo Mayor, the causeways across the lake, the Chapultepec aqueduct and Nezahualcoyotl's dike (1449). The civ already had Fortified Wall without Masonry or Architecture, which was incoherent."
 "Architecture" = "Same basis as Masonry: monumental and hydraulic engineering on the scale of the Templo Mayor and the dike of Nezahualcoyotl. Decision: the Keep, which the Aztecs lack in the game, is not added, since the region gives it only where defensive stone towers are documented (the Inca); the temple-pyramid as a town's last stronghold (the burning-temple glyph of the Codex Mendoza; Cortés's ‘torres’ at Cholula) is a reading the design declines, and the Guard Tower and Fortified Wall stay as abstractions."
-"Siege Workshop" = "No Mesoamerican people built siege engines: towns fell to assault, fire and blockade. Removing the workshop removes all its units; infantry with the anti-building bonus, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Every Castle must then be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles in pre-Hispanic Mesoamerica."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."

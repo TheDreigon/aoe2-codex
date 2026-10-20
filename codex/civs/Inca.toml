@@ -167,9 +167,9 @@ relevance = "Resettlement held the empire's conquests and redrew the ethnic map 
 contested = "The scale of the resettlements and how much of the policy was new under the Inca are debated (see the civ-level note)."
 
 [tree]
-add = ["Architecture"]
+add = ["Architecture", "Traction Trebuchet"]
 remove = [
-  "Siege Workshop", "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
+  "Battering Ram", "Capped Ram", "Siege Ram", "Mangonel", "Onager",
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
   "Crossbowman", "Arbalester", "Thumb Ring",
   "Halberdier",
@@ -178,8 +178,8 @@ remove = [
 ]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no siege engine of any kind existed in the pre-contact Americas (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice. The Siege Workshop stays in the tree for this engine alone. For its other units the design’s reading stands: Andean armies built no siege engines: forts (pukara) were taken by assault, blockade and fire, and the frontier forts of Pambamarca were held for years of war against the Cayambe. The Champi line, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Before the heavy-engine floor every Castle had to be taken by units standing in its arrow fire; the Traction Trebuchet now does it from range, as a game convention, until an N2/N3 assault unit exists, with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2). Incendiary sling stones, recorded at Manco Inca's siege of Cusco (1536), are left to the ideas as an N2 burning effect."
 "Architecture" = "The Inca were master builders in fitted stone (Sacsayhuamán, the Qurikancha, Ollantaytambo), yet the civ had Masonry and Keep but not Architecture. The Keep fits them, since the region keeps it only where stone towers are documented: Sacsayhuamán had three towers, Muyuq Marka, Sallaq Marka and Paucar Marka, which Garcilaso describes. Treadmill Crane, which the Inca hold in the game, is renamed Mit'a, after the rotating labour service that raised these buildings (see the renames)."
-"Siege Workshop" = "Andean armies built no siege engines: forts (pukara) were taken by assault, blockade and fire, and the frontier forts of Pambamarca were held for years of war against the Cayambe. Removing the workshop removes all its units; the Champi line, Arson, Sappers and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). Every Castle must then be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists, with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2). Incendiary sling stones, recorded at Manco Inca's siege of Cusco (1536), are left to the ideas as an N2 burning effect."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles in the Andes."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Siege Ram" = "Removed with the Siege Workshop (see Battering Ram)."

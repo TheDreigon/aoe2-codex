@@ -308,7 +308,8 @@ class Builder:
         return self.strings_en.get(key) or self.s.extra.get(key, '')
 
     def note(self, node, kind, why):
-        """Record a change on the tree: added, removed, renamed, new (unique item) or kept (unique item)."""
+        """Record a change on the tree: added, convention (added as a game convention), removed, renamed,
+        new (unique item) or kept (unique item)."""
         self.notes.setdefault(self.civ, []).append((node, kind, why or ''))
 
     def renamed_strings(self, node, old, new, note=None):
@@ -331,8 +332,8 @@ class Builder:
         grid = building['grid']
         ages = [n['age_id'] for n in nodes]
         if anchor_id is not None:
-            anchor = next((n for n in tree['units_techs'] if n['node_id'] == anchor_id
-                           and grid_position(tree, n['id'])[0] is building), None)
+            anchor = next((n for n in tree['units_techs'] if n['node_id'] == anchor_id and n.get('node_status') != 'NotAvailable'
+                           and grid_position(tree, n['id'])[0] is building), None)  # never under an item the civ lacks
             if anchor is not None:
                 _, ar, ac = grid_position(tree, anchor['id'])
                 rows = fit_column(grid, ac, ages, prefer_rows, ar + 1)
@@ -615,6 +616,8 @@ class Builder:
     def apply_tree(self, tree, design):
         t = design.get('tree', {})
         reasons = t.get('basis', {})
+        # An item added as a game convention (its basis says so, RULES 6.16.5) is marked as one on the site.
+        added = lambda name: 'convention' if reasons.get(name, '').startswith('Game convention') else 'added'
         for name in t.get('remove', []):
             nodes = self.nodes_named(tree, name)
             if not nodes and TREE_NAMES.get(name, name) in self.tree_names and name not in self.removed_units:
@@ -629,7 +632,7 @@ class Builder:
             if nodes:
                 for n in nodes:
                     if n.get('node_status') == 'NotAvailable':
-                        self.note(n, 'added', reasons.get(name))
+                        self.note(n, added(name), reasons.get(name))
                     n['node_status'] = 'ResearchedCompleted'
                 continue
             tname = TREE_NAMES.get(name, name)
@@ -639,7 +642,7 @@ class Builder:
                 if building['grid']:
                     building['grid'] = [[None for _ in row] for row in building['grid']]
                 tree['buildings'].append(building)
-                self.note(building, 'added', reasons.get(name))
+                self.note(building, added(name), reasons.get(name))
                 continue
             tmpl = self.template(tname)
             if not tmpl:
@@ -664,7 +667,7 @@ class Builder:
             if self.place_line(tree, root['building'], [p['node'] for p in line], anchor_id=root['anchor'],
                                prefer_col=root['col'], prefer_rows=[p['row'] for p in line]):
                 for p in line:
-                    self.note(p['node'], 'added', reasons.get(p['name']))
+                    self.note(p['node'], added(p['name']), reasons.get(p['name']))
 
     def apply_renames(self, tree, design):
         for rn in design.get('rename', []):

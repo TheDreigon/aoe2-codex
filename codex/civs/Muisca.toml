@@ -136,9 +136,9 @@ relevance = "Cloth tribute tied Muisca households to their chiefs and the chiefs
 contested = "Whether mantles were money proper is debated (see the civ-level note). Decision: Cotton Mantles is kept rather than a level-2 tech for the code of laws that 17th-century chroniclers attribute to the zipa Nemequene (c. 1490–1514; Piedrahita), whose historicity is contested."
 
 [tree]
-add = ["Arson"]
+add = ["Arson", "Traction Trebuchet"]
 remove = [
-  "Siege Workshop", "Battering Ram", "Capped Ram", "Mangonel", "Onager", "Siege Onager",
+  "Battering Ram", "Capped Ram", "Mangonel", "Onager", "Siege Onager",
   "Scorpion", "Heavy Scorpion", "Siege Tower", "Trebuchet", "Siege Engineers",
   "Crossbowman", "Arbalester", "Thumb Ring",
   "Galleon", "Carrack", "Catapult Galleon", "Galleon, Fast Fire Ship and Carrack",
@@ -148,8 +148,8 @@ remove = [
 ]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no siege engine of any kind existed in the pre-contact Americas (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice. The Siege Workshop stays in the tree for this engine alone. For its other units the design’s reading stands: The Muisca built no siege engines; their defences were palisaded enclosures. The Club line (strong against buildings), Arson and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). The Muisca have no Sappers; before the heavy-engine floor every Castle had to be taken by units standing in its arrow fire, and the Traction Trebuchet now does it from range, as a game convention, until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Arson" = "With the Temple Guard dropped, the Muisca need another way to destroy buildings (RULES 6.11). Houses and cacique enclosures were of wood, cane and thatch, so fire is a plausible abstraction, though no chronicle passage on Muisca fire attacks was found. In the current game only the Goths, Romans and Muisca lack Arson."
-"Siege Workshop" = "The Muisca built no siege engines; their defences were palisaded enclosures. Removing the workshop removes all its units; the Club line (strong against buildings), Arson and Petards replace them (owner's decision, RULES 6.16.5; RULES 6.11 and section 10). The Muisca have no Sappers, and every Castle must be taken by units standing in its arrow fire, so castle-breaking is slow; this is accepted until an N2/N3 assault unit exists (ideas), with no compensating bonus (RULES 6.16.13). The Petard, a 16th-century gunpowder charge, stays unrenamed as a flagged generic abstraction of assault parties with fire, outside the one-late-element limit (RULES 6.16.2)."
 "Battering Ram" = "Removed with the Siege Workshop: there were no rams and no wheeled vehicles."
 "Capped Ram" = "Removed with the Siege Workshop (see Battering Ram)."
 "Mangonel" = "Removed with the Siege Workshop: no torsion or traction artillery existed in the Americas."

@@ -174,10 +174,11 @@ relevance = "South Indian crucible steel is one of the region's most famous tech
 contested = "A long tradition in a tech slot: the tech renders a crucible-steel tradition of many centuries rather than one datable moment, so it stays a tech only as a flagged fallback (RULES 6.16.19, point b). The origin of crucible steel is also debated (see contested)."
 
 [tree]
-add = ["Architecture", "Treadmill Crane", "Stone Shaft Mining", "Elite Battle Elephant", "Crop Rotation"]
+add = ["Architecture", "Treadmill Crane", "Stone Shaft Mining", "Elite Battle Elephant", "Crop Rotation", "Traction Trebuchet"]
 remove = ["Hand Cannoneer", "Bombard Cannon", "Bombard Tower", "Cannon Galleon", "Elite Cannon Galleon", "Arbalester", "Thumb Ring", "Trebuchet", "Siphons", "Incendiaries", "Block Printing"]
 
 [tree.basis]
+"Traction Trebuchet" = "Game convention (RULES 6.16.5, the heavy-engine floor; owner’s decision of 20 October 2026), not a historical claim: no trebuchet is attested in Pallava, Chola or Pandya warfare; the nearest attested engines are the stone-throwers on the walls of Madurai in the Silappatikaram, defensive pieces (see the Trebuchet). Every civ keeps one heavy engine so that it can answer an enemy’s trebuchets, and the traction trebuchet, a man-powered engine known across Eurasia and North Africa from the late 6th century, is the oldest and most widespread of the three heavy engines, so the least anachronistic choice."
 "Architecture" = "The Tamil country is one of the great stone-building traditions: the Pallava monoliths and Shore Temple at Mamallapuram and the Kailasanatha at Kanchipuram (7th–8th centuries), the granite vimana of the Rajarajeshvara at Thanjavur, about 66 m high (c. 1010), and Gangaikonda Cholapuram. Its absence was the most ironic gap of the old tree."
 "Treadmill Crane" = "An abstraction of faster building: no treadwheel cranes are attested in India, and the tech stands for the scale of Chola building in granite. How the Thanjavur vimana was raised is not recorded; a local tradition speaks of a long earthen ramp, which no inscription mentions."
 "Stone Shaft Mining" = "Same basis as Architecture: the Chola temples were built of granite quarried and hauled from far afield."
