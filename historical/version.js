@@ -4,7 +4,7 @@
     XMLHttpRequest.prototype.open = function (method, url) {
         const args = Array.prototype.slice.call(arguments);
         if (typeof url === 'string' && url.indexOf('data/') === 0) {
-            args[1] = url + (url.indexOf('?') < 0 ? '?' : '&') + 'v=a7838d3b1ad0';
+            args[1] = url + (url.indexOf('?') < 0 ? '?' : '&') + 'v=6d9a42905af9';
         }
         return open.apply(this, args);
     };
