@@ -14,7 +14,7 @@ contested = [
   "Heinrich Brunner’s and Lynn White’s theses (Charles Martel’s cavalry, the stirrup and the origins of feudalism), now largely rejected (Bachrach, 1970; Fouracre, 2000): Frankish heavy cavalry grew gradually in the 8th–9th centuries.",
   "The ‘feudal revolution’ or ‘castle revolution’ around the year 1000 (Duby, Bois, Bonnassie and Bisson against Barthélemy; the Past & Present debate opened by Thomas Bisson, 1994–97).",
   "Langeais (c. 994): a keep or a residential hall (aula)? Impey and Lorans (1998) read the stone building as a late 10th-century hall, and Doué-la-Fontaine was a hall turned into a keep c. 950 (Michel de Boüard’s excavations); the date of Langeais is also debated (Fulk Nerra’s c. 994 or a late 11th-century rebuilding).",
-  "The date (732 or 733), aim and meaning of the battle of Poitiers; the Franks fought it on foot (Mozarabic Chronicle of 754).",
+  "The date (732 or 733), aim and meaning of the battle of Poitiers: James Palmer argues that contemporaries made little of it and that its fame as a turning point grew mainly in the nineteenth century (Palmer 2019); the Franks fought it on foot (Mozarabic Chronicle of 754).",
   "The speed with which the heavy plough and three-field rotation spread.",
   "Whether the compagnies d’ordonnance were the first standing army in Europe: they were the first permanent royal army of France, but Venice and Milan kept permanent forces earlier in the 15th century (Mallett 1974). The ordinance of 1445 was long known only from chroniclers; Stéphane Péquignot has since identified a Catalan version of this ‘lost ordinance’, sent by the consuls of Perpignan to Barcelona in April 1445, which names the captains and the districts where the men-at-arms were to be lodged and leaves many points to later ordinances, so that it qualifies the founding role usually given to the 1445 text (‘De la France à Barcelone’, Revue historique 676, 2015; known to this design from the article’s abstract only).",
   "Whether 1439 made the taille permanent: the Ordinance of Orléans (2 November 1439) reserved the raising of troops and of the taille to the king, and the taille for the army was then levied every year without the Estates’ consent; no single act made it permanent (Contamine 1972). This design reads the ordinance companies as above all a fiscal and governmental reform, hence the Town Center.",
@@ -31,7 +31,6 @@ sources = [
   "Einhard, Life of Charlemagne; Royal Frankish Annals",
   "Carolingian capitularies (MGH)",
   "Jean Froissart, Chroniques",
-  "Hans Talhoffer, fight book of 1467 (Munich, Bayerische Staatsbibliothek, Cod.icon. 394a)",
   "Edward James, The Franks (1988)",
   "Bernard S. Bachrach, Early Carolingian Warfare (2001)",
   "Paul Fouracre, The Age of Charles Martel (2000)",
@@ -46,6 +45,7 @@ sources = [
   "Stéphane Péquignot, ‘De la France à Barcelone. Une version catalane de “l’ordonnance perdue” de Charles VII sur les gens d’armes (1445)’, Revue historique 676 (2015)",
   "Jean Mesqui, Châteaux et enceintes de la France médiévale (1991–93)",
   "Marc Bloch, ‘Avènement et conquêtes du moulin à eau’, Annales d’histoire économique et sociale (1935)",
+  "James T. Palmer, ‘The Making of a World Historical Moment: The Battle of Tours (732/3) in the Nineteenth Century’, Postmedieval 10.2 (2019)",
 ]
 
 [[bonus]]

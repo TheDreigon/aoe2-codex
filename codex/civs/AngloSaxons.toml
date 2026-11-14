@@ -26,7 +26,7 @@ open_questions = []
 
 [profile]
 entity = "The Anglo-Saxon kingdoms and the late Anglo-Saxon kingdom of the English"
-region = "Lowland Britain: England, with Lothian until the early 11th century"
+region = "Lowland Britain: England, with Lothian, lost to the Scots in stages between the 950s and c. 1018"
 window = "449–1066 (from Bede’s conventional date for the coming of the Saxons to Hastings; design core 871–1066, from Alfred to Harold II)"
 sources = [
   "Bede, Historia ecclesiastica gentis Anglorum (731)",
@@ -127,7 +127,7 @@ model = "Hearth Troop"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "Old English heorðwerod, the lord’s household troop (The Battle of Maldon, l. 24, where Byrhtnoth’s retinue dies with him in 991; Beowulf’s word for Hygelac’s men is heorðgeneatas, l. 261). It stands for the spear-and-javelin retinues of the 10th-century lords, while the Housecarl (the renamed Varangian Guard) is the axe-armed guard of the Anglo-Danish kings (1016–1066). Throwing before melee is attested: Maldon mentions darts, and William of Poitiers describes the English at Hastings throwing spears, axes and stones."
+basis = "Old English heorðwerod, the lord’s household troop (The Battle of Maldon, l. 24, where Byrhtnoth’s retinue dies with him in 991; Beowulf’s word for Hygelac’s men is heorðgeneatas, l. 261). It stands for the spear-and-javelin retinues of the 10th-century lords, while the Housecarl (the renamed Varangian Guard) is the axe-armed guard of the kings from Cnut to Harold II (1016–1066). Throwing before melee is attested: Maldon mentions darts, and William of Poitiers describes the English at Hastings throwing spears, axes and stones."
 relevance = "Lords’ retinues fought and died around their lord in every Anglo-Saxon battle; the heorðwerod of Maldon is the classic image of English heroic warfare."
 
 [[unique_tech]]
@@ -165,7 +165,7 @@ effect = "All gold income +10% faster; Market trading fee reduced to 10%"
 level = 1
 change = "new"
 precedent = "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%) (Hindustanis): an existing unique tech, shared and renamed with an identical effect and age; several designs reuse it for coinage and revenue reforms, among them the Hindustanis’ Tanka, the Burgundians’ Vierlander Coinage, the Malay Syahbandar and the Muisca Cotton Mantles, each on its own history (RULES 6.16.12)"
-basis = "Æthelstan’s Grately code (c. 926–930) decreed one coinage throughout the king’s realm and minting only in a market town, and Edgar’s reform (c. 973) gave the kingdom a single silver penny of one type, struck in dozens of burh mints and periodically called in and reissued with new types; the system let the late Anglo-Saxon kings raise the great gelds of 991–1018 (Dolley and Metcalf 1961; Molyneaux 2015). Gold income renders the gelds and the profits of the mints, the lower trading fee a single trusted coin in the burh markets. A state reform, so at the Town Center (RULES 6.2)."
+basis = "Æthelstan’s Grately code (c. 926–930) decreed one coinage throughout the king’s realm and minting only in a market town, and Edgar’s reform (c. 973) gave the kingdom a single silver penny of one type, struck in dozens of burh mints and repeatedly called in and reissued with new types; the system let the late Anglo-Saxon kings raise the great gelds of 991–1018 (Dolley and Metcalf 1961; Molyneaux 2015). Gold income renders the gelds and the profits of the mints, the lower trading fee a single trusted coin in the burh markets. A state reform, so at the Town Center (RULES 6.2)."
 relevance = "The silver penny and the geld made late Anglo-Saxon England one of the most centralised kingdoms of the West (see contested); Cnut conquered a kingdom whose taxes still worked."
 
 [tree]

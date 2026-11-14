@@ -16,9 +16,9 @@ ideas = [
 contested = [
   "The purpose of the xochiyaoyotl (flower wars): ritual capture of victims for sacrifice (Durán, Tezozómoc) or a strategy of attrition and encirclement of Tlaxcala (Hassig 1988; Isaac 1983).",
   "The origin of the flower wars: the story that they began during the famine of 1450–54, to feed the gods with captives, is Ixtlilxóchitl's (early 17th century), and Hicks (1979) doubts it. Durán instead credits the arrangement to Tlacaelel under Moctezuma I (1440–1469), who called the nearby enemy cities a market where the god could buy victims. Both accounts place the arrangement with Tlaxcala and its neighbours under Moctezuma I, which is all the design relies on; it follows neither origin story, and how far the wars were prearranged at all belongs to the debate on their purpose (see the note above).",
-  "The civ's name: ‘Aztecs’ is an 18th–19th-century scholarly label (Clavijero, Humboldt, Prescott); the people called themselves Mexica or Tenochca, and the empire was the Triple Alliance with Texcoco and Tlacopan. Decision: the name stays under RULES 6.16.15 (a civ is renamed only where standard English scholarship does not use the game's name), since English scholarship uses ‘Aztec’ for the Mexica and the Triple Alliance (Hassig 1988, Aztec Warfare; Berdan, Smith et al. 1996, Aztec Imperial Strategies), and Smith (2012) uses ‘Aztecs’ more broadly for the Nahuatl-speaking peoples of Late Postclassic central Mexico. Townsend (2019) prefers ‘Mexica’ in her text. The renames decided in the level-1 review were limited to the English, Anglo-Saxons and Arabs; the profile names the Mexica and the Triple Alliance.",
+  "The civ's name: ‘Aztecs’ is an 18th–19th-century scholarly label (Clavijero, Humboldt, Prescott); the people called themselves Mexica or Tenochca, and the empire was the Triple Alliance with Texcoco and Tlacopan. Decision: the name stays under RULES 6.16.15 (a civ is renamed only where standard English scholarship does not use the game's name), since English scholarship uses ‘Aztec’ for the Mexica and the Triple Alliance (Hassig 1988, Aztec Warfare; Berdan et al. 1996, Aztec Imperial Strategies), and Smith (2012) uses ‘Aztecs’ more broadly for the Nahuatl-speaking peoples of Late Postclassic central Mexico. Townsend (2019) prefers ‘Mexica’ in her text. The renames decided in the level-1 review were limited to the English, Anglo-Saxons and Arabs; the profile names the Mexica and the Triple Alliance.",
   "The scale of human sacrifice: Durán's 80,400 victims at the 1487 rededication of the Templo Mayor against much lower modern estimates; the Huey Tzompantli excavations (INAH, since 2015) confirm large-scale sacrifice accumulated over decades. Harner's ‘protein’ hypothesis (1977) is rejected.",
-  "Hegemonic or territorial empire, and the degree of provincial control (Berdan, Smith et al. 1996).",
+  "Hegemonic or territorial empire, and the degree of provincial control (Berdan et al. 1996).",
   "The population of Tenochtitlan in 1519 (estimates c. 150,000–250,000) and of central Mexico.",
   "The date of Tenochtitlan's foundation (1325 or 1345) and the historicity of the migration from Aztlan.",
   "The story that Moctezuma took Cortés for Quetzalcoatl, probably a post-conquest construction (Townsend; Restall).",
@@ -40,7 +40,7 @@ sources = [
   "Barry L. Isaac, ‘The Aztec Flowery War: a geopolitical explanation’, Journal of Anthropological Research 39 (1983)",
   "Fernando de Alva Ixtlilxóchitl, Historia de la nación chichimeca (early 17th century)",
   "Frederic Hicks, ‘“Flowery war” in Aztec history’, American Ethnologist 6 (1979)",
-  "Frances F. Berdan, Michael E. Smith et al., Aztec Imperial Strategies (1996)",
+  "Frances F. Berdan, Richard E. Blanton, Elizabeth Hill Boone, Mary G. Hodge, Michael E. Smith and Emily Umberger, Aztec Imperial Strategies (1996)",
   "Michael E. Smith, The Aztecs (3rd ed., 2012)",
   "R. A. Donkin, Agricultural Terracing in the Aboriginal New World (1979)",
   "Camilla Townsend, Fifth Sun: A New History of the Aztecs (2019)",
@@ -90,7 +90,7 @@ level = 1
 change = "new"
 replaces = "Relics generate +33% gold"
 precedent = "Markets work +80% faster (Bohemians team bonus)"
-basis = "Tlatelolco, the market of Tenochtitlan's twin city, astonished the Spaniards: Cortés (second letter, 1520) reckoned that more than sixty thousand people traded there daily, under judges who settled disputes and checked measures. The market and the pochteca drew goods and traders from all Mesoamerica, and the pochteca traded at ports of trade outside the empire such as Xicalanco, and at Xoconochco (Soconusco) before its conquest under Ahuitzotl (1486–1502), after which it paid tribute (Sahagún, Florentine Codex, book 9; Codex Mendoza; Berdan, Smith et al. 1996). RULES 6.2: trade that benefited neighbours. The game's Relics follow the Christian cult of relics, and the Mexica sacred bundles (tlaquimilolli) produced no wealth (rated unfounded). The game's Bohemians hold the same team bonus; the Bohemians' design gives it up for the Czech mercenaries (repetition would be allowed in any case, RULES 6.7)."
+basis = "Tlatelolco, the market of Tenochtitlan's twin city, astonished the Spaniards: Cortés (second letter, 1520) reckoned that more than sixty thousand people traded there daily, under judges who settled disputes and checked measures. The market and the pochteca drew goods and traders from all Mesoamerica, and the pochteca traded at ports of trade outside the empire such as Xicalanco, and at Xoconochco (Soconusco) before its conquest under Ahuitzotl (1486–1502), after which it paid tribute (Sahagún, Florentine Codex, book 9; Codex Mendoza; Berdan et al. 1996). RULES 6.2: trade that benefited neighbours. The game's Relics follow the Christian cult of relics, and the Mexica sacred bundles (tlaquimilolli) produced no wealth (rated unfounded). The game's Bohemians hold the same team bonus; the Bohemians' design gives it up for the Czech mercenaries (repetition would be allowed in any case, RULES 6.7)."
 relevance = "Tlatelolco was the greatest market of the Americas and the hub of the exchange that tied the Triple Alliance to the rest of Mesoamerica."
 
 [[unique_unit]]
@@ -138,9 +138,9 @@ effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
 precedent = "Burgundian Vineyards (Burgundians): identical effect, shared, moved to the Town Center and renamed"
-basis = "After the Triple Alliance of 1428 the conquered provinces paid tribute on a fixed schedule: staple foods from the nearer provinces; cotton mantles, cacao, feathers, warrior suits and gold from the distant ones, recorded province by province in the Codex Mendoza and collected by the stewards (calpixqueh) installed in each province (Berdan & Anawalt 1992; Berdan, Smith et al. 1996). Farm output turning into gold renders tribute in kind becoming the wealth of the state. Tribute is a datable institution, so it is the Town Center tech rather than a passive bonus (RULES 6.2). The effect is Burgundian Vineyards, kept by the Burgundians and shared in the Persians', Berbers', Tatars' and Rus' designs, and the Bengalis' design has it as a passive: seven civs in all (RULES 6.7; reuse is accepted in N1, RULES 6.16.12)."
+basis = "After the Triple Alliance of 1428 the conquered provinces paid tribute on a fixed schedule: staple foods from the nearer provinces; cotton mantles, cacao, feathers, warrior suits and gold from the distant ones, recorded province by province in the Codex Mendoza and collected by the stewards (calpixqueh) installed in each province (Berdan & Anawalt 1992; Berdan et al. 1996). Farm output turning into gold renders tribute in kind becoming the wealth of the state. Tribute is a datable institution, so it is the Town Center tech rather than a passive bonus (RULES 6.2). The effect is Burgundian Vineyards, kept by the Burgundians and shared in the Persians', Berbers', Tatars' and Rus' designs, and the Bengalis' design has it as a passive: seven civs in all (RULES 6.7; reuse is accepted in N1, RULES 6.16.12)."
 relevance = "Tribute was the purpose and the engine of the Triple Alliance's expansion: the empire was above all a tribute empire."
-contested = "How far the empire controlled its provinces, and how regular collection was outside the core (Berdan, Smith et al. 1996)."
+contested = "How far the empire controlled its provinces, and how regular collection was outside the core (Berdan et al. 1996)."
 
 [tree]
 add = ["Slinger", "Guilds", "Masonry", "Architecture", "Traction Trebuchet"]
@@ -226,7 +226,7 @@ basis = "Porters used a wooden carrying frame (cacaxtli) slung from the tumpline
 from = "Coinage"
 to = "Cacao Currency"
 level = 1
-basis = "There were no coins: cacao beans served as small change and standard cotton mantles (quachtli) as larger units of value in markets and tribute (Berdan, Smith et al. 1996). Same rename for the Maya, where Landa also records cacao as money. Banking (tributes to other players are free) keeps its generic name as a flagged abstraction (RULES 6.16.6), since no Mesoamerican equivalent with a period term was found."
+basis = "There were no coins: cacao beans served as small change and standard cotton mantles (quachtli) as larger units of value in markets and tribute (Berdan et al. 1996). Same rename for the Maya, where Landa also records cacao as money. Banking (tributes to other players are free) keeps its generic name as a flagged abstraction (RULES 6.16.6), since no Mesoamerican equivalent with a period term was found."
 
 [[rename]]
 from = "Treadmill Crane"

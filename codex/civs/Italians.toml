@@ -53,7 +53,7 @@ level = 1
 change = "kept"
 precedent = "Advancing to the next Age costs -15% (Italians)"
 basis = "An abstraction of the precocious urban, commercial and communal society of 11th–15th-century northern Italy (Lopez, 1971; Jones, 1997): there is no specific mechanism behind it, but the trait is real."
-relevance = "Northern and central Italy was the most urbanised and commercialised region of Latin Europe from the 12th century; that precocity is the civ's defining trait, abstracted as a whole."
+relevance = "Northern and central Italy was, with Flanders, the most urbanised and commercialised region of Latin Europe from the 12th century; that precocity is the civ's defining trait, abstracted as a whole."
 
 [[bonus]]
 text = "Foot Archers +1 melee/+1 pierce armor"

@@ -19,7 +19,7 @@ open_questions = []
 
 [profile]
 entity = "The Italo-Norman principalities and the Kingdom of Sicily (Hauteville, then Hohenstaufen)"
-region = "Southern Italy (Apulia, Calabria, Campania) and Sicily, with the 'kingdom of Africa' on the Ifriqiyan coast (1135–1160)"
+region = "Southern Italy (Apulia, Calabria, Campania) and Sicily, with Jerba (from 1135) and the 'kingdom of Africa' on the Ifriqiyan coast (1146–1160)"
 window = "1030–1266"
 sources = [
   "Geoffrey Malaterra, De rebus gestis Rogerii",
@@ -39,6 +39,7 @@ sources = [
   "David Abulafia, The Two Italies (1977); 'The Norman Kingdom of Africa', Anglo-Norman Studies 7 (1985); Frederick II: A Medieval Emperor (1988)",
   "R. L. Wolff and H. W. Hazard (eds.), A History of the Crusades, vol. II: The Later Crusades, 1189–1311 (K. M. Setton, gen. ed., 1962)",
   "Alex Metcalfe, The Muslims of Medieval Italy (2009)",
+  "Joshua C. Birk, Norman Kings of Sicily and the Rise of the Anti-Islamic Critique: Baptized Sultans (2016)",
   "Julie Taylor, Muslims in Medieval Italy: The Colony at Lucera (2003)",
 ]
 
@@ -142,8 +143,8 @@ effect = "Town Centers work +10% faster"
 level = 2
 change = "new"
 precedent = "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age (Persians, whose design drops it): the work-rate effect only, Town Centers only, at its Feudal Age value (+10%), as in the Georgians' and Cumans' designs (Chqondideli, Council of Khans). A new tech (level 2): no existing unique tech renders a royal administration"
-basis = "Roger II's kingdom was governed through a royal diwan on Fatimid lines, staffed by Arabic- and Greek-writing officials: from the 1140s its offices kept Arabic registers of the villeins attached to each estate (jarāʾid) and of estate boundaries, confirmed grants and collected the king's revenues, and the royal administration issued documents in Arabic, Greek and Latin (Johns, 2002; Takayama, 1993). Ibn Jubayr (1184–1185) still found Muslim officials and pages in William II's palace. A Town Center that works faster abstracts a government that knew its lands and men; no other Latin kingdom had an Arabic-language administration. The tech structure follows RULES 6.2 (level-1 review decision): Magna Expeditio, a royal levy of feudal service, keeps First Crusade's place at the Castle, and the diwan takes the Town Center, rather than the Assizes of Ariano (conventionally 1140) or al-Idrisi's Tabula Rogeriana (1154); with it the civ has 6 passive bonuses and 3 unique techs, the cap of 9 (RULES 6.1)."
-relevance = "The Arabic-Greek royal diwan, at the heart of a trilingual administration, is the most distinctive institution of the Norman kingdom, without parallel in Latin Europe, and the instrument of its kings' wealth; the analysis names it as the main missing feature."
+basis = "Roger II's kingdom was governed through a royal diwan, which Johns (2002) traces to Fatimid models, staffed by Arabic- and Greek-writing officials: from the 1140s its offices kept Arabic registers of the villeins attached to each estate (jarāʾid) and of estate boundaries, confirmed grants and collected the king's revenues, and the royal administration issued documents in Arabic, Greek and Latin (Johns, 2002; Takayama, 1993). Ibn Jubayr (1184–1185) still found Muslim officials and pages in William II's palace. A Town Center that works faster abstracts a government that knew its lands and men; no other Latin kingdom had an Arabic-language administration. The tech structure follows RULES 6.2 (level-1 review decision): Magna Expeditio, a royal levy of feudal service, keeps First Crusade's place at the Castle, and the diwan takes the Town Center, rather than the Assizes of Ariano (conventionally 1140) or al-Idrisi's Tabula Rogeriana (1154); with it the civ has 6 passive bonuses and 3 unique techs, the cap of 9 (RULES 6.1)."
+relevance = "The Arabic-Greek royal diwan, at the heart of a trilingual administration, is the most distinctive institution of the Norman kingdom, without parallel in Latin Europe, and the instrument of its kings' wealth; the analysis names it among the main missing features."
 contested = "How much the diwan owed to Fatimid models rather than to the Kalbid and Byzantine practice already on the island is debated (Johns, 2002; Metcalfe, 2009)."
 
 [[unique_tech]]
