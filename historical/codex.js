@@ -102,6 +102,14 @@
             .center(cx, cy);
     };
 
+    // The History button follows the civ shown (loadCiv runs on every civ change, also on the first load).
+    const loadCiv = window.loadCiv;
+    window.loadCiv = function () {
+        const result = loadCiv.apply(this, arguments);
+        updateHistoryButton();
+        return result;
+    };
+
     const getHelpText = window.getHelpText;
     window.getHelpText = function (name, fullId, helpStringId) {
         let html = getHelpText(name, fullId, helpStringId);
@@ -143,7 +151,8 @@
             return `<span class="codex-legend__item"><span class="codex-badge" style="background:${KINDS[kind].colour}">`
                 + `${KINDS[kind].glyph}</span> ${KINDS[kind].key}</span>`;
         }).join(' ');
-        tools.innerHTML = '<a id="codex-compare" class="codex-button" href="compare.html">⇄ Compare with the game</a>'
+        tools.innerHTML = '<a id="codex-compare" class="codex-button" href="compare.html">⇄ Compare with the game</a> '
+            + '<button id="codex-history" class="codex-button" type="button" hidden>History</button>'
             + '<label class="codex-toggle"><input type="checkbox" id="codex-markers"> Show the codex changes</label>'
             + `<p class="codex-legend">${legend}</p>`
             + '<p class="codex-legend">Hover over a marked item or a dotted line for the reason; click an item for the full text.</p>';
@@ -163,7 +172,63 @@
         updateCompareLink();
         window.addEventListener('hashchange', updateCompareLink);
         window.addEventListener('locationchange', updateCompareLink);
+        document.getElementById('codex-history').addEventListener('click', openHistory);
+        window.addEventListener('hashchange', updateHistoryButton);
+        ready.then(updateHistoryButton);
     }
+
+    function updateHistoryButton() {
+        const button = document.getElementById('codex-history');
+        if (button) {
+            button.hidden = !(codex.history || []).includes(currentCiv());
+        }
+    }
+
+    // The civ's history text (data/history/<CIV>.html, made by build_site.py from codex/history/*.md),
+    // shown in a panel over the page.
+    function openHistory() {
+        const civ = currentCiv();
+        const request = new XMLHttpRequest();
+        request.open('GET', 'data/history/' + civ.toUpperCase() + '.html', true);
+        request.onreadystatechange = function () {
+            if (request.readyState === 4 && request.status === 200) {
+                showHistory(request.responseText);
+            }
+        };
+        request.send(null);
+    }
+
+    function showHistory(html) {
+        closeHistory();
+        const panel = document.createElement('div');
+        panel.id = 'codex-history-panel';
+        panel.setAttribute('role', 'dialog');
+        panel.setAttribute('aria-modal', 'true');
+        panel.setAttribute('aria-label', 'History');
+        panel.innerHTML = '<div class="codex-history__box"><button type="button" class="codex-history__close" aria-label="Close">×</button>'
+            + '<div class="codex-history__content"></div></div>';
+        panel.querySelector('.codex-history__content').innerHTML = html;
+        panel.addEventListener('click', function (e) {
+            if (e.target === panel || e.target.classList.contains('codex-history__close')) {
+                closeHistory();
+            }
+        });
+        document.body.appendChild(panel);
+        panel.querySelector('.codex-history__close').focus();
+    }
+
+    function closeHistory() {
+        const panel = document.getElementById('codex-history-panel');
+        if (panel) {
+            panel.remove();
+        }
+    }
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            closeHistory();
+        }
+    });
 
     function addTooltip() {
         const tip = document.createElement('div');
