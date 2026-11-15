@@ -7,7 +7,7 @@ ideas = [
   "N2: Light flanking cavalry (guaizi ma) supporting the Iron Pagoda, if the contested reading of the Song sources is accepted.",
   "N2: Traction Trebuchets that throw iron bombs (iron fire pao, tie huopao, at Qizhou, 1221; the zhentianlei at Kaifeng, 1232), with blast damage against units and buildings; Zhentianlei would then extend to them.",
   "N3: The jiehao as a unique cheap earthwork wall of trench and rampart, beyond what the Jiehao tech can express.",
-  "N2: Jingkang artisans: a tech that cheapens siege and gunpowder units after enemy production buildings are captured or destroyed, after the craftsmen, engines and books carried off from Kaifeng in 1127.",
+  "N2: Jingkang artisans: a tech that cheapens siege and gunpowder units after enemy production buildings are captured or destroyed, after the craftsmen, astronomical instruments and books carried off from Kaifeng in 1127.",
   "N2: Gyrfalcons (haidongqing): a scouting and hunting tech; the Liao's falcon levies on the Jurchens were one cause of the revolt of 1114.",
   "N3: Meng'an mouke households: Houses that supply or train cavalry, for a social unit that was also a military unit.",
   "N2: For the planned diversification of Town Center techs (RULES 6.16.12), Meng'an Mouke as a cavalry levy (for example Mounted Units train +25% faster and cost -15% food), which would set it apart from the six other designs that share the Kshatriyas effect.",
@@ -26,7 +26,7 @@ open_questions = []
 
 [profile]
 entity = "The Jurchen people (Nüzhen) under the Wanyan clan and their Jin dynasty"
-region = "Forests and river valleys of Manchuria (the Songhua and Anchuhu basins); from 1127 north China, ruled through the puppet states of Chu and Qi until 1137, with the frontier on the Huai River from 1141–42"
+region = "Forests and river valleys of Manchuria (the Songhua and Anchuhu basins); from 1127 north China, ruled partly through the puppet states of Chu (1127) and Qi (1130–1137), with the frontier on the Huai River from 1141–42"
 window = "1114–1234"
 sources = [
   "Toghto et al., Jin shi (1344)",
@@ -59,7 +59,7 @@ level = 1
 change = "changed"
 replaces = "Mounted Units and Fire Lancers attack +25% faster starting in Feudal Age"
 precedent = "Mounted Units and Fire Lancers attack +25% faster starting in Feudal Age (Jurchens); Stirrups: Cavalry attacks +33% faster (Bulgarians)"
-basis = "The early Jin army was overwhelmingly cavalry and won its first wars by shock: Aguda routed much larger Liao forces at Ningjiang (1114) and Hubudagang (1115), and a saying attributed to the Liao held that once the Jurchen reached ten thousand men no one could withstand them (Tao 1976; Franke 1994). Fire Lancers leave the bonus: the fire lance was a single-shot weapon, so a faster attack has no basis."
+basis = "The early Jin army was overwhelmingly cavalry and won its first wars by shock: Aguda took Ningjiang and routed Liao forces said to be much larger at Chuhedian (1114) and Hubudagang (1115), and a saying attributed to the Liao held that once the Jurchen reached ten thousand men no one could withstand them (Jin shi 2; Tao 1976; Franke 1994). Fire Lancers leave the bonus: the fire lance was a single-shot weapon, so a faster attack has no basis."
 relevance = "Cavalry shock won the Jin an empire within thirteen years of Aguda's rising."
 
 [[bonus]]
@@ -68,7 +68,7 @@ kind = "military"
 level = 1
 change = "kept"
 precedent = "Siege Engineers available in Castle Age (Jurchens)"
-basis = "The Jin mastered Liao and Song siegecraft within a decade: they took the five Liao capitals between 1116 (Liaoyang, the Eastern Capital) and 1122, with the sieges of the Supreme Capital (1120) and the Central Capital (1122), besieged Taiyuan (1125–1126) and Kaifeng (1126–1127) with trebuchet batteries, and after the fall of Kaifeng (the Jingkang incident, 1127) carried off its craftsmen, engines and books (Franke 1994)."
+basis = "The Jin mastered Liao and Song siegecraft within a decade: they took the five Liao capitals between 1116 (Liaoyang, the Eastern Capital) and January 1123 (Yanjing, the Southern Capital), with the sieges of the Supreme Capital (1120) and the Central Capital (1122), besieged Taiyuan (1126) and Kaifeng (1126–1127) with trebuchet batteries, and after the fall of Kaifeng (the Jingkang incident, 1127) carried off its craftsmen, astronomical instruments and books (Song shi 23; Franke 1994)."
 relevance = "Mastery of siegecraft let a forest people take the walled capitals of the Liao and the Song within thirteen years."
 
 [[bonus]]
@@ -155,7 +155,7 @@ add = ["Traction Trebuchet", "Thumb Ring", "Long Swordsman"]
 remove = ["Trebuchet", "Bombard Cannon", "Rocket Cart", "Heavy Rocket Cart", "Lou Chuan", "Siphons", "Incendiaries"]
 
 [tree.basis]
-"Traction Trebuchet" = "The Jin used man-powered traction trebuchets in mass at Taiyuan and Kaifeng (1125–1127) and in the defence of Kaifeng in 1232, where they threw iron bombs; it replaces the counterweight Trebuchet as heavy siege artillery (RULES 6.11), as for the out-of-scope Three Kingdoms."
+"Traction Trebuchet" = "The Jin used man-powered traction trebuchets in mass at Taiyuan and Kaifeng (1126–1127) and in the defence of Kaifeng in 1232, where they threw iron bombs; it replaces the counterweight Trebuchet as heavy siege artillery (RULES 6.11), as for the out-of-scope Three Kingdoms."
 "Thumb Ring" = "Song reports collected by Xu Mengxin describe early Jin units whose front ranks, in heavy armour, fought with lances and clubs while the rear ranks, lightly armoured, shot bows (Sanchao beimeng huibian), and the Jin shi's annals of Aguda have him shoot at a flock of birds and hit three times running before an astonished Liao envoy (Tao 1976). The Jurchens shared the thumb-draw archery of northeast Asia; the Manchu thumb ring (banzhi) is only a later echo. Parthian Tactics is not added (the level-1 review's default): the Jin's mounted archers were the lightly armoured ranks, and with the +25% attack speed of the Mounted Units bonus it would give Jurchen Cavalry Archers the full Mongol package."
 "Long Swordsman" = "After the conquest the Jin army relied heavily on drafted Han infantry, the qianjun (“signed-up troops”), and on Khitan and Bohai contingents; Wanyan Liang's mass levies for the invasion of 1161 provoked revolts, the Khitan rising among them (Tao 1976; Franke 1994). An all-cavalry army is true only of c. 1114–1130."
 "Trebuchet" = "The counterweight trebuchet reached China in 1273, four decades after the fall of the Jin (1234)."

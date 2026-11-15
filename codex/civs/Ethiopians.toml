@@ -42,6 +42,7 @@ sources = [
   "Francisco Álvares, Verdadeira informação das terras do Preste João das Índias (1540)",
   "Miguel de Castanhoso, História das cousas que o mui esforçado capitão Dom Cristóvão da Gama fez nos reinos do Preste João (Lisbon, 1564; ed. Esteves Pereira, Dos feitos de D. Christovam da Gama em Ethiopia, 1898)",
   "Taddesse Tamrat, Church and State in Ethiopia, 1270–1527 (1972)",
+  "Deresse Ayenachew, ‘Evolution and Organisation of the Ç̌äwa Military Regiments in Medieval Ethiopia’, Annales d'Éthiopie 29 (2014)",
   "Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity (1991)",
   "G. W. Bowersock, The Throne of Adulis (2013)",
   "Timothy Insoll, ‘Dahlak Kebir, Eritrea: From Aksumite to Ottoman’, Adumatu 3 (2001)",
@@ -86,7 +87,7 @@ level = 1
 change = "new"
 precedent = "Units and buildings receive -15% damage when located on higher elevation (Georgians)"
 basis = "The Christian kingdom was a highland state: the plateau and its ambas, flat-topped mountains with sheer sides, served as natural fortresses, treasuries, royal prisons (Amba Geshen) and refuges, and the highland heartland outlasted repeated wars with the lowland sultanates of Ifat and Adal (Taddesse Tamrat, 1972). The Georgians' and Gurjaras' designs use the same bonus, each on its own history (RULES 6.16.12)."
-relevance = "Geography made the kingdom: the highlands and their ambas sheltered Christian Ethiopia for a thousand years against lowland enemies."
+relevance = "Geography made the kingdom: the highlands and their ambas helped Christian Ethiopia outlast its lowland enemies, although Ahmad ibn Ibrahim overran most of the plateau in the war of 1529–1543 and his forces took Amba Geshen (c. 1540)."
 
 [[bonus]]
 text = "Monastery technologies cost -50%"
@@ -114,7 +115,7 @@ building = "Castle"
 level = 1
 change = "new"
 replaces = "Shotel Warrior"
-basis = "From Amda Seyon (1314–1344) onward the core of the royal army were the chewa, standing regiments raised and maintained by the king (Glorious Victories of Amda Seyon; Taddesse Tamrat, 1972), and al-Umari (cited by Taddesse Tamrat) names the spear as the Ethiopians' main weapon, with swords rare. The Inca Kamayuk, an infantryman with a long spear strong against cavalry and infantry, is the nearest existing unit: the highland spearmen had to stand against the cavalry of Ifat and Adal. The model is shared with the Inca Awqa Kamayuq, the Berbers' Murabit and the Mapuche Colihue Lancer."
+basis = "From Amda Seyon (1314–1344) onward the core of the royal army were standing regiments raised and maintained by the king (Glorious Victories of Amda Seyon; Taddesse Tamrat, 1972); neither source calls them chewa, the name historians give the royal regiments of medieval Ethiopia (Deresse Ayenachew, 2014). al-Umari (cited by Taddesse Tamrat) names the spear as the Ethiopians' main weapon, with swords used only by some warriors. The Inca Kamayuk, an infantryman with a long spear strong against cavalry and infantry, is the nearest existing unit: the highland spearmen had to stand against the cavalry of Ifat and Adal. The model is shared with the Inca Awqa Kamayuq, the Berbers' Murabit and the Mapuche Colihue Lancer."
 relevance = "The spear was the main weapon of the Christian kingdom (al-Umari), and the spear-armed chewa regiments carried Amda Seyon's and Zara Yaqob's wars; the unit stands for the army that made the Solomonic state."
 contested = "The Kamayuk model is Andean (see the N3 idea), and the regiments mixed spearmen, archers and horsemen; the unit stands for their spear infantry. The Scenario Editor's Heavy Pikeman, a Pikeman with 20 more HP and a European look, was considered and fits no better."
 
@@ -142,7 +143,7 @@ level = 2
 change = "new"
 replaces = "Torsion Engines (Siege Workshop Units' blast radius increased)"
 precedent = "A new tech with two existing effect types: training speed from ‘Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack)’ (Romans), whose targets also name a unique unit; extra HP from ‘Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age’ (Mapuche)"
-basis = "From Amda Seyon (1314–1344) onward the core of the army were the chewa, standing regiments raised and maintained by the king and later settled on land (Glorious Victories; Taddesse Tamrat, 1972). al-Umari (cited by Taddesse Tamrat) names the spear as the Ethiopians' main weapon, with the bow beside it, so the tech covers spearmen, the Chewa Spearmen among them, and archers. No existing Ethiopian tech fits (Torsion Engines evoked Greco-Roman torsion artillery, never attested in Ethiopia), so this is a new tech (level 2)."
+basis = "From Amda Seyon (1314–1344) onward the core of the army were standing regiments raised and maintained by the king and later settled on land (Glorious Victories; Taddesse Tamrat, 1972), the regiments historians call chewa, a name those sources do not use (see the Chewa Spearman). al-Umari (cited by Taddesse Tamrat) names the spear as the Ethiopians' main weapon, with the bow beside it, so the tech covers spearmen, the Chewa Spearmen among them, and archers. No existing Ethiopian tech fits (Torsion Engines evoked Greco-Roman torsion artillery, never attested in Ethiopia), so this is a new tech (level 2)."
 relevance = "The chewa regiments carried Amda Seyon's and Zara Yaqob's expansion and were the kingdom's army until the Adal war."
 
 [tree]
@@ -185,4 +186,4 @@ basis = "The African set is the nearest existing one; Aksumite stelae and stone-
 [[dropped]]
 item = "Shotel Warrior"
 kind = "unique_unit"
-reason = "Fails RULES 6.9 on weight: al-Umari makes the spear the main weapon and swords rare, and Amda Seyon's sword-armed troops were secondary to the spearmen and archers. Being securely attested only from the 18th century (see contested), the shotel would also be a second post-1500 element, outside the Imperial Age, beside the Hand Cannoneer (RULES section 2). The Chewa Spearman takes the unique-unit slot, and the Shotel Warrior gets no exception for fame (fame alone does not justify a slot, RULES 6.9); a sword-armed unit is an N2 idea."
+reason = "Fails RULES 6.9 on weight: al-Umari makes the spear the main weapon, with swords used only by some warriors, and Amda Seyon's sword-armed troops were secondary to the spearmen and archers. Being securely attested only from the 18th century (see contested), the shotel would also be a second post-1500 element, outside the Imperial Age, beside the Hand Cannoneer (RULES section 2). The Chewa Spearman takes the unique-unit slot, and the Shotel Warrior gets no exception for fame (fame alone does not justify a slot, RULES 6.9); a sword-armed unit is an N2 idea."

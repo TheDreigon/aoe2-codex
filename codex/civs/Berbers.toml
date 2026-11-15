@@ -2,7 +2,7 @@ civ = "Berbers"
 name = "Berbers"
 status = "reviewed"
 label = "Cavalry and Naval civilization"
-summary = "Berbers as the Amazigh of the Maghreb, centred on the Almoravids and Almohads (683–1554): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, rammed-earth (tabiya) walls a passive, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave."
+summary = "Berbers as the Amazigh of the Maghreb (683–1554), centred on the Almoravids and Almohads (1040–1269): the Almoravid spearmen (Murabit) replace the Camel Archer, Yusuf's black guard and Abd al-Mu'min's land survey become the techs, rammed-earth (tabiya) walls a passive, the Genitour a regional unit, and the Hand Cannoneer and Cannon Galleons leave."
 ideas = [
   "N2: Tabl: the Almoravid war drums of Zallaqa (1086) as an aura that slows nearby enemies or hastens friendly infantry.",
   "N2: Ribat: a fortified Monastery (the Fortified Church's mechanics on the Middle Eastern set's existing Monastery; a Maghrebi graphic of its own would be N3) for the ribat and the murabitun of Ibn Yasin's movement, from which the Almoravids took their name (the Ifriqiyan ribats of Monastir, 796, and Sousse, 821, were Abbasid and Aghlabid works in a Berber land). In N1 the Monastery keeps its generic name (RULES 6.16.9).",
@@ -19,7 +19,7 @@ contested = [
   "Whether Ibn Yasin's ribat was a real fortified place or the name of a movement.",
   "The origin of Tariq ibn Ziyad (Berber in most sources) and the make-up of the army of 711.",
   "Mounted archers (Cavalry Archer, Heavy Cavalry Archer, Thumb Ring) stay in the tree for the Ghuzz, Turkish horse archers who came west with Qaraqush from the 1170s and were taken into Almohad service after Ya'qub al-Mansur defeated them (1187) (Bennison, 2016); how numerous they were and how long they lasted is uncertain.",
-  "The narratives of Zallaqa/Sagrajas (1086) are 14th-century and literary (Rawd al-qirtas, al-Hulal al-mawshiyya): the decisive role they give Yusuf's black guard, and its numbers, cannot be checked against contemporary accounts.",
+  "The decisive role given to Yusuf's black guard at Zallaqa/Sagrajas (1086), and its numbers, come from 13th- and 14th-century literary narratives (Ibn Khallikan, quoting al-Bayyasi; al-Hulal al-mawshiyya); Rawd al-qirtas does not mention the guard, and no contemporary account confirms them.",
   "Abd al-Mu'min's survey of 1159–1160 is reported by Ibn Abi Zar (14th century); how fully it was carried out is unknown.",
 ]
 open_questions = []
@@ -33,6 +33,7 @@ sources = [
   "Ibn Khaldun, Kitab al-'ibar (Histoire des Berbères, trans. de Slane)",
   "Ibn Abi Zar, Rawd al-qirtas",
   "al-Hulal al-mawshiyya (14th century)",
+  "Ibn Khallikan, Wafayat al-a'yan (1274), quoting al-Bayyasi (d. 1255) on Zallaqa (Ibn Khallikan's Biographical Dictionary, trans. de Slane, vol. 4, 1871)",
   "Ibn Idhari, al-Bayan al-mughrib",
   "al-Idrisi, Nuzhat al-mushtaq",
   "Crónica de Alfonso XI (siege of Algeciras, 1342–1344)",
@@ -109,7 +110,7 @@ building = "Castle"
 level = 1
 change = "new"
 replaces = "Camel Archer"
-basis = "al-Bakri (1068) describes the early Almoravids fighting on foot in close ranks, the front rank with long spears and the ranks behind with javelins; in a separate passage he records the prized lamt shields of antelope hide made at Nul Lamta and sought in the Maghreb and al-Andalus, the shield this infantry carried. The Inca Kamayuk, a spearman with long reach strong against cavalry, is the nearest existing unit; the Mapuche Colihue Lancer and the Ethiopians' Chewa Spearman use it too. Named after the al-murabitun, ‘the people of the ribat’, who gave the Almoravids their name. It replaces the Camel Archer: no camel-mounted archer is attested as a Maghrebi troop type (camels served the Saharan Sanhaja and the army's baggage, and combat relied on spears, javelins and swords)."
+basis = "al-Bakri (1068) describes the early Almoravids fighting mostly on foot in close ranks, the front rank with long spears and the ranks behind with javelins; in a separate passage he records the prized shields of lamt (antelope) hide, and al-Idrisi (1154) describes lamt shields made at Nul Lamta and used in battle across the Maghreb; that this infantry carried them is an inference. The Inca Kamayuk, a spearman with long reach strong against cavalry, is the nearest existing unit; the Mapuche Colihue Lancer and the Ethiopians' Chewa Spearman use it too. Named after the al-murabitun, ‘the people of the ribat’, who gave the Almoravids their name. It replaces the Camel Archer: no camel-mounted archer is attested as a Maghrebi troop type (camels served the Saharan Sanhaja and the army's baggage, and combat relied on spears, javelins and swords)."
 relevance = "The Almoravid spear infantry built the empire that united the western Maghreb and al-Andalus; it is the defining military trait of the civ's core dynasty."
 contested = "The Kamayuk model is Andean (see the N3 idea), and ‘murabit’ named members of the movement, not a troop type. Which antelope gave the lamt hide (oryx or addax), and how widely lamt shields were used beyond the Almoravid elite, is uncertain. The Kamayuk fits better than the alternatives: a restored Camel Archer has no attested referent, the Saxons' Hearth Troop (javelin, then melee) renders only the rear ranks, and the Scenario Editor's Heavy Pikeman, a Pikeman with 20 more HP and a European look, lacks the reach that renders the long spears."
 
@@ -122,7 +123,7 @@ effect = "Farmers slowly generate gold in addition to food"
 level = 1
 change = "new"
 precedent = "Burgundian Vineyards (Farmers slowly generate gold in addition to food) (Burgundians, kept there at the Mill; the Persians share it as Kharaj, the Aztecs as Calpixqueh, the Tatars as Yarlyk and the Rus' as Kalita, and the Bengalis have it as a passive): an existing unique tech, shared and renamed with an identical effect and age (Castle). Reuse is accepted in level 1, each copy resting on its own history (RULES 6.16.12)."
-basis = "In 1159–1160 Abd al-Mu'min had the Maghreb surveyed (taksir) from Barqa to the Sus, deducted a third for mountains, rivers and wasteland, and assessed the rest for the land tax (kharaj), payable in grain and coin (Ibn Abi Zar, Rawd al-qirtas, year 555 AH); it gave the Almohad caliphate its fiscal base (Bennison, 2016). Farmers whose fields yield coin to the treasury translate the assessment, as for the Persians' Kharaj, the same land tax. It takes Kasbah's slot (see dropped). The shared tech is kept rather than a new fiscal tech (level 2) with ‘All gold income +10% faster’, the gold half of Grand Trunk Road, which the Arabs' design now uses for Abd al-Malik's coinage."
+basis = "In 1159–1160 Abd al-Mu'min had the Maghreb surveyed (taksir) from Barqa to the Sus, deducted a third for mountains, rivers and wasteland, and assessed the rest for the land tax (kharaj), payable in grain and coin (Ibn Abi Zar, Rawd al-qirtas, year 554 AH); it gave the Almohad caliphate its fiscal base (Bennison, 2016). Farmers whose fields yield coin to the treasury translate the assessment, as for the Persians' Kharaj, the same land tax. It takes Kasbah's slot (see dropped). The shared tech is kept rather than a new fiscal tech (level 2) with ‘All gold income +10% faster’, the gold half of Grand Trunk Road, which the Arabs' design now uses for Abd al-Malik's coinage."
 relevance = "The Almohads were the only Berber dynasty to unite the whole Maghreb and al-Andalus under one government, and the survey gave that state its revenue; it is the Almohad state's defining reform."
 
 [[unique_tech]]
@@ -135,8 +136,8 @@ level = 1
 change = "new"
 replaces = "Maghrebi Camels (Camel Units regenerate 15 HP per minute)"
 precedent = "Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units) (Vikings): an existing unique tech, moved and renamed with an identical effect and age (Castle); the Norwegians' design drops it"
-basis = "Yusuf ibn Tashfin kept a royal guard of black slaves (ʿabīd), and in the 14th-century narratives of Zallaqa/Sagrajas (1086) the Almoravid vanguard held while Yusuf took the Castilian camp and committed this black guard, whose attack broke Alfonso VI's knights; one of its men wounded the king (Rawd al-qirtas; al-Hulal al-mawshiyya; Huici Miranda, 1956). The Almohad and Marinid sultans kept black slave guards beside their tribal troops (Bennison, 2016). Infantry stronger against cavalry translates foot soldiers who broke a charge of armoured knights. Maghrebi Camels, an abstraction of the dromedary's hardiness, gives way to this royal institution."
-relevance = "Slave guards gave the Almoravid, Almohad and Marinid rulers a force of their own beside the tribal levies, and at Zallaqa the black guard halted Alfonso VI's advance and opened al-Andalus to Almoravid rule."
+basis = "Yusuf ibn Tashfin kept a royal guard of black slaves (ʿabīd), and in the 13th- and 14th-century narratives of Zallaqa/Sagrajas (1086) the Almoravid vanguard held while Yusuf took the Castilian camp (Rawd al-qirtas) and then committed this black guard on foot, whose attack broke Alfonso VI's knights; one of its men wounded the king (Ibn Khallikan; al-Hulal al-mawshiyya; Huici Miranda, 1956). The Almohad and Marinid sultans kept black slave guards beside their tribal troops (Bennison, 2016). Infantry stronger against cavalry translates foot soldiers who broke a charge of armoured knights. Maghrebi Camels, an abstraction of the dromedary's hardiness, gives way to this royal institution."
+relevance = "Slave guards gave the Almoravid, Almohad and Marinid rulers a force of their own beside the tribal levies, and at Zallaqa, in the later narratives, the black guard halted Alfonso VI's advance and opened al-Andalus to Almoravid rule."
 contested = "The guard's role and numbers at Zallaqa come from late narratives (see the civ-level list)."
 
 [tree]

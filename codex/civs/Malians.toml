@@ -15,7 +15,7 @@ ideas = [
 contested = [
   "Name: ‘Malians’ is also the name of the citizens of the modern republic (1960), and the people of the empire were the Mande (Maninka). The civ keeps the game's name (RULES section 4 and 6.16.15), and its entity names the Mali Empire.",
   "The tontajon clans and the Kurukan Fuga ‘charter’ are known from oral tradition recorded in the 20th century; their exact form and date are debated.",
-  "Abu Bakr II's Atlantic voyage, reported by Mansa Musa to al-Umari's informants.",
+  "The Atlantic voyage of Mansa Musa's predecessor, reported by Musa to al-Umari's informants; al-Umari gives no name, and the popular name ‘Abu Bakr II’ comes from a mistranslation of Ibn Khaldun, whose list makes Musa's predecessor Muhammad ibn Qu.",
   "The Almoravid conquest of Ghana in 1076 (Conrad and Fisher, 1982–1983).",
   "The dates of Mansa Musa's reign (1312–1337 or 1307–1332) and the site of the capital (Niani or elsewhere; Fauvelle).",
   "The founding and date of the Sankore mosque, attributed by al-Sa'di to a wealthy woman.",
@@ -48,7 +48,7 @@ kind = "economic"
 level = 1
 change = "kept"
 precedent = "Buildings cost -15% wood (Malians)"
-basis = "Sudano-Sahelian architecture builds in banco (earth) with few palm-wood beams (toron); the Djinguereber mosque of Timbuktu (c. 1327, attributed to Abu Ishaq al-Sahili for Mansa Musa) is the classic example."
+basis = "Sudano-Sahelian architecture builds in banco (earth) with few palm-wood beams (toron); the Djinguereber mosque of Timbuktu, built for Mansa Musa (c. 1327), is the classic example; its traditional attribution to Abu Ishaq al-Sahili is doubted, since the only building the Arabic sources firmly credit to him is the mansa's audience hall (see the architecture)."
 relevance = "Earthen building on a timber-poor savanna shaped every Sahelian town and mosque; it is the visual identity of Mali."
 
 [[bonus]]
@@ -58,7 +58,7 @@ level = 1
 change = "kept"
 precedent = "Villagers drop off +10% more gold (Malians)"
 basis = "Mali controlled the goldfields of Bambuk and Bure; according to al-Umari, Mansa Musa's passage through Cairo on pilgrimage (1324) depressed the value of gold there for years."
-relevance = "Gold was the base of Mali's power and fame, from the trans-Saharan trade to the Catalan Atlas (1375); unlike gold-mining bonuses with weak historical weight, this one carries the civ's identity."
+relevance = "Gold was the base of Mali's power and fame, from the trans-Saharan trade to the Catalan Atlas (c. 1375); unlike gold-mining bonuses with weak historical weight, this one carries the civ's identity."
 
 [[bonus]]
 text = "Barracks Units +1/+2/+3 pierce armor in Feudal/Castle/Imperial Age"
@@ -85,7 +85,7 @@ kind = "military"
 level = 1
 change = "new"
 precedent = "Curare (Foot Archers and Fortifications deal poison damage) (Tupi): the effect of an existing Imperial Age unique tech, narrowed to Foot Archers and reused as an age-gated passive, worded as in ‘Town Centers cost -50% wood starting in Castle Age’ (Britons); the Tupi design drops Curare"
-basis = "Mande and Senegambian archers poisoned their arrows. Cadamosto's caravels were attacked on the Gambia by canoes of archers shooting poisoned arrows (1455), and on his next voyage (1456) he describes the lords of the Gambia as subjects of the ‘emperor of Melli’; earlier, Zurara's Chronicle of Guinea tells how Nuno Tristão and most of his crew died of poisoned arrows on a river south of Cape Verde (1446; the river is disputed). The Portuguese raids on this coast mostly failed and gave way to trade. A long-standing technique with no moment of adoption is structural, so it is a passive rather than a unique tech (RULES 6.2, 6.3); Curare's fortification half is left out, since nothing documents poisoned arrows shot from Malian walls."
+basis = "Mande and Senegambian archers poisoned their arrows. Cadamosto's caravels were attacked on the Gambia (1455) by canoes of archers who, he had been told in Senegal, all used poisoned arrows, and on his next voyage (1456) he describes the lords of the Gambia as subjects of the ‘emperor of Melli’; earlier, Zurara's Chronicle of Guinea tells how Nuno Tristão and most of his crew died of poisoned arrows on a river south of Cape Verde (1446; the river is disputed). The Portuguese raids on this coast mostly failed and gave way to trade. A long-standing technique with no moment of adoption is structural, so it is a passive rather than a unique tech (RULES 6.2, 6.3); Curare's fortification half is left out, since nothing documents poisoned arrows shot from Malian walls."
 relevance = "Poison made up for the weak bows of the Mande archers and checked the Portuguese raids on Mali's western provinces; it is the best-documented technique of the Mande archers there."
 contested = "The coastal peoples who killed Nuno Tristão are not named in the sources; the evidence comes from the western fringe of the empire."
 
@@ -170,7 +170,7 @@ from = "Galley"
 to = "Canoe"
 model = "Canoe"
 level = 1
-basis = "Mali's craft were dugout canoes: Ibn Battuta travelled down the Niger from Timbuktu (1353) in a small boat carved from a single piece of wood (Levtzion and Hopkins, 1981), and canoes of archers attacked Cadamosto's caravels on the Gambia with poisoned arrows (1455) (see the Carrack). The Scenario Editor's Canoe (RULES section 5; codex/tools/scenario-units.md), a light boat that shoots arrows like the Galley, gives the Galley the look of a dugout war canoe, which fits the boat tier far better than a Mediterranean galley; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as in the Aztec, Avar, Mapuche, Maya and Tupi designs. No Mande name for the war canoe is secure in the sources used here, so the generic English name is used."
+basis = "Mali's craft were dugout canoes: Ibn Battuta travelled down the Niger from Timbuktu (1353) in a small boat carved from a single piece of wood (Levtzion and Hopkins, 1981), and canoes of archers attacked Cadamosto's caravels on the Gambia (1455) (see the Carrack). The Scenario Editor's Canoe (RULES section 5; codex/tools/scenario-units.md), a light boat that shoots arrows like the Galley, gives the Galley the look of a dugout war canoe, which fits the boat tier far better than a Mediterranean galley; the Galley keeps its stats, and the Canoe's look and scale must be checked in game. Same rename as in the Aztec, Avar, Mapuche, Maya and Tupi designs. No Mande name for the war canoe is secure in the sources used here, so the generic English name is used."
 
 [[rename]]
 from = "War Galley"
