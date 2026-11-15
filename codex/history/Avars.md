@@ -1,0 +1,40 @@
+# Avars
+
+## Who they were
+
+The codex's Avars are the Avar Khaganate, a steppe empire ruled by a khagan (supreme ruler). From 567 to 796 it was based in the Carpathian Basin (today Hungary and parts of its neighbours), and raided the Balkans, Italy and the Franks' eastern lands. A mounted elite from the eastern steppes ruled Slavs, Gepids (a Germanic people), Bulgars and former Roman provincials (Pohl 2018). They replace the game's Huns, whose time in Europe (c. 370–469) ended before the game's period; Frankish writers often called the Avars "Huns" too.
+
+## Rise and height
+
+Fleeing the Göktürks, a Turkic steppe empire, the Avars reached the north Caucasus in the late 550s. There, gifts from Justinian, the Eastern Roman (Byzantine) emperor, set them against other nomads. In 567, under the khagan Bayan, they helped the Lombards destroy the Gepid kingdom, and when the Lombards left for Italy in 568 they took most of the basin (Paul the Deacon c. 790). Bayan blockaded imperial Sirmium (Sremska Mitrovica) until it surrendered in 582, then took Singidunum (Belgrade). Freed by peace with Persia (591), the Empire struck back, beating the Avars beyond the Danube in 599. After the army overthrew the emperor Maurice in 602, the frontier slowly gave way. Avars sacked Cividale, in north-eastern Italy, about 610. In 626, with a Persian army across the Bosporus, the khagan besieged Constantinople with horsemen, Slav infantry and siege engines. The Roman fleet sank the Slavs' dugout boats, and in early August he withdrew (Howard-Johnston 2021). The failure ended the great Roman payments and shook the khagan's power (Pohl 2018); Slavs under Samo, a Frankish merchant, had rebelled around 623/624 (Fredegar c. 660).
+
+## War and society
+
+Avar warriors were above all mounted archers: the *Strategikon*, a Roman war manual attributed to Maurice, says they trained especially in archery on horseback, though most also carried a lance. They wore mail, and their nobles' horses had iron or felt armour in front (Maurice c. 600). The manual told Roman horsemen to copy Avar lances, horse armour, tunics and tents, and is Europe's first text to mention iron stirrups, usually thought to have come west with the Avars. Slavs, armed with javelins (some also with heavy shields), formed much of the infantry; the chronicler Fredegar says they fought in front while the Avars waited in camp. The earliest clear account of the traction trebuchet in the Mediterranean world comes from John, archbishop of Thessalonica, describing an Avar-Slav siege of his city (586 or 597): rope-pulled stone-throwers hurled huge stones but often missed (McCotter 2003).
+
+The elite lived in tents; the khagan's seat, which the Franks called the Ring, was a fortified enclosure, not a town. Raids brought loot and ransoms, but Roman tribute mattered more: 80,000 solidi (gold coins) a year in the 570s, says the historian Menander, and 200,000 by the 620s (Howard-Johnston 2021). Byzantine coins appear in rich early Avar graves (Pohl 2018). The Avars were pagans: Menander tells of Bayan swearing on a drawn sword, and many warriors were buried with their horses.
+
+## End and legacy
+
+Smaller and more settled, the khaganate endured. After its attacks on Bavaria and Italy in 788, Charlemagne invaded in 791; a civil war then killed the khagan, and Frankish forces looted the Ring in 795–796 and razed it. Einhard, Charlemagne's biographer, wrote that no war had brought the Franks more booty. Baptised Avar princes ruled on under Frankish overlordship; Avar envoys last appear at a Frankish assembly in 822, and their people were probably absorbed by Slavs and, after the 890s, Magyars. The gear the Romans copied outlived them.
+
+## In the codex
+
+Tent camps, horse archers, rope-pulled engines and shielded Slav javelin-men stand behind *Do not need houses, but start with -100 wood*, *Cavalry Archers cost -10/20% in Castle/Imperial Age*, *Traction Trebuchets cost -25%* and *Spearman-line and Skirmishers +1/+2 pierce armor in Castle/Imperial Age*, and the gear the Romans copied behind the team bonus *Stables work +20% faster*. The armoured nobles become the *Tarkan*, the great raids *Marauders* and Roman gold the *Byzantine Tribute*. The Steppe Lancer joins the tree, the Hussar and the counterweight Trebuchet leave it, and galleys become canoes, like Slav dugouts, as argued in the [design notes and sources](https://github.com/TheDreigon/aoe2-codex/blob/master/codex/civs/Avars.toml).
+
+## Contested
+
+- **Origins.** The historian Theophylact Simocatta (c. 630) calls them "Pseudo-Avars", usurpers of a feared name. Whether their leaders came from the Rouran, a Mongolian steppe empire the Göktürks destroyed in the 550s, is debated (Pohl 2018); ancient DNA from rich seventh-century graves points to a rapid migration from Mongolia and a close match with a single Rouran-period genome (Gnecchi-Ruscone et al. 2022).
+- **The trebuchet.** Theophylact says a captured Roman soldier, Busas, taught the Avars to build a siege engine in 587; McCotter (2003) doubts the story and favours the Avars as carriers of the traction trebuchet, perhaps from China.
+- **The stirrup.** The Avars are widely credited with bringing stirrups to the Roman world; Penn, Russell and Wilson (2021) find the evidence thin and suggest several sources of influence.
+
+## Sources
+
+- Menander Protector, *History* (late sixth century, fragments); Theophylact Simocatta, *History* (c. 630)
+- Maurice, *Strategikon* (c. 600); John of Thessalonica, *Miracles of St Demetrius*, Book I (early seventh century)
+- Fredegar, *Chronicle* (c. 660); Paul the Deacon, *History of the Lombards* (c. 790); *Royal Frankish Annals* (to 829); Einhard, *Life of Charlemagne* (c. 817–833)
+- Walter Pohl, *The Avars: A Steppe Empire in Central Europe, 567–822* (2018)
+- James Howard-Johnston, *The Last Great War of Antiquity* (2021)
+- Stephen McCotter, "Byzantines, Avars and the Introduction of the Trebuchet" (online paper, Queen's University Belfast, 2003)
+- Guido Alberto Gnecchi-Ruscone et al., "Ancient genomes reveal origin and rapid trans-Eurasian migration of 7th century Avar elites", *Cell* 185 (2022)
+- Tim Penn, Ben Russell and Andrew Wilson, "On the Roman-Byzantine adoption of the stirrup once more: a new find from seventh-century Aphrodisias", *Anatolian Studies* 71 (2021), 129–139

@@ -60,7 +60,7 @@ Grouped by the regions of [`../tools/regions.json`](../tools/regions.json). "Gam
 |---|---|---|---|---|
 | Huns | **Avars** | 567–796 | Huns redesigned as the Avar Khaganate (567–796): houseless camps, cheap horse archers, the Tarkan and Marauders stay, the trebuchet bonus becomes cheaper traction trebuchets, Byzantine tribute becomes the Town Center tech, Slav levies a passive, the Galley line takes the look of the Slav dugouts (the Scenario Editor's Canoe), and Atheism, the Dromon and the Hussar leave. | [Avars.toml](Avars.toml) |
 | Mongols | Mongols | 1206–1368 | The Mongol Empire (1206–1368) keeps its horse archers, hunt, remounts, Mangudai and Drill and gains the Keshik, the decimal levy (Conscription free), the yam relay as the Town Center tech and the Pax Mongolica as the team bonus, while camels, the Champion and the Cannon Galleon leave. | [Mongols.toml](Mongols.toml) |
-| Tatars | Tatars | 1242–1502 | Tatars refocused on the Golden Horde (1242–1502) without Timur: herds, horse archery and the Keshik stay, the Kipchak levy, Araba wagon camps, yarlyk and tamga revenues, the Quyaq (Silk Armor renamed), the traction trebuchet and the khans' patents to the Russian Church enter, and the Timurid Flaming Camel and Siegecraft, the counterweight Trebuchet, guns and camels leave. | [Tatars.toml](Tatars.toml) |
+| Tatars | Tatars | 1242–1502 | Tatars refocused on the Golden Horde (1242–1502) without Timur: herds, horse archery and the Keshik stay, the Kipchak levy, Araba wagon camps, yarlyk and tamga revenues, the Quyaq (Silk Armor renamed), the traction trebuchet and the khans' patents to the Church of Rus' enter, and the Timurid Flaming Camel and Siegecraft, the counterweight Trebuchet, guns and camels leave. | [Tatars.toml](Tatars.toml) |
 | Cumans | Cumans | 1055–1241 | The Cuman-Kipchak confederation (1055–1241, diaspora to c. 1400) keeps its speed, extra Town Center, Kipchak and Cuman Mercenaries, gains herding, ransom, feigned flight, the Council of Khans and marriage alliances, and loses its invented early siege, the top siege tiers, the Trebuchet and camels. | [Cumans.toml](Cumans.toml) |
 
 ### The Islamic world and Africa
@@ -157,14 +157,15 @@ overrule any convention (RULES section 11).
   traction test). The Japanese case is a documented transfer: Goguryeo's gift of stone-throwers to the Japanese
   court in 618. The Vietnamese and Armenian cases are inferences from the civ's wars and its neighbours'
   engines, admitted only because they are flagged (no Vietnamese source names a stone-thrower, and the accounts
-  of the Yongzhou siege of 1076 record towers and ramps instead). Both engines fill one Imperial Age slot, so a
+  of the Yongzhou siege of 1076 record towers and ramps instead). The Tatar case is flagged too: its one reading
+  of the Horde's engine type is a general remark, applied to the Caffa engines of 1344 by inference. Both engines fill one Imperial Age slot, so a
   design has one heavy engine at most: where the window spans both eras, the design keeps the engine of the
   period its siege evidence falls in, or of its core (the Byzantines and Chinese keep the traction engine, the
-  Bulgarians and Mongols the counterweight one). The Traction Trebuchet's holders are the Armenians, Avars,
-  Byzantines, Chinese, Japanese, Jurchens, Khitans, Koreans, Tatars and Vietnamese. A civ may have no long-range
-  anti-building weapon when none is attested: the Anglo-Saxons, Cumans, Ethiopians, Goths, Khmer, Malay,
-  Malians and Tamils. The American civs have no siege engines (owner's decision) and rely on existing
-  anti-building effects.
+  Bulgarians and Mongols the counterweight one). On historical grounds the Traction Trebuchet's holders are the Armenians, Avars,
+  Byzantines, Chinese, Japanese, Jurchens, Khitans, Koreans, Tatars and Vietnamese. History gives no long-range
+  anti-building weapon to the Anglo-Saxons, Cumans, Ethiopians, Goths, Khmer, Malay, Malians and Tamils, and
+  the American civs have no siege engines on historical grounds (owner's decision); all of them get the
+  Traction Trebuchet only as a game convention, under the heavy-engine floor above.
 - **Americas** (6.16.6). The removals of siege engines, crossbows, the Halberdier and the Galleon stay. Blast
   Furnace, Plate Mail Armor and Ring Archer Armor are restored as generic equipment levels wherever the game
   gives them (owner's decision, CQ12), on the same footing as Forging, Scale Mail and Chain Mail; they are

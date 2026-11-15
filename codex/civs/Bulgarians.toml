@@ -9,7 +9,7 @@ ideas = [
   "N2: Replace the Konnik's dismount mechanic (a game invention) with an armoured boyar cavalry mechanic based on the inventory inscriptions.",
   "N3: Earthworks (the Erkesia dyke in Thrace, Pliska's 23 km² outer enclosure) as a unique wall.",
   "N3: A Balkan-Byzantine architecture set shared with the Byzantines: medieval Bulgarian churches (the Round Church of Preslav, Boyana, the churches of Tarnovo and Nesebar) were Byzantine-type brick and stone.",
-  "N3: Split into First Empire (steppe khanate) and Second Empire (Asen and Shishman tsardom) variants.",
+  "N3: Split into First Empire (steppe khanate) and Second Empire (Asen, Terter and Shishman tsardom) variants.",
 ]
 contested = [
   "Proto-Bulgar ethnogenesis: Oghur Turkic (majority view) or Iranian/Pamiri (popular in Bulgaria, minority in scholarship).",
@@ -27,7 +27,7 @@ contested = [
 open_questions = []
 
 [profile]
-entity = "First Bulgarian Empire (khanate, tsardom from Simeon) and Second Bulgarian Empire (Asen and Shishman dynasties): Bulgars and Slavs, joined in the Second Empire by the Vlachs of the Haemus and by Cuman allies"
+entity = "First Bulgarian Empire (khanate, tsardom from Simeon) and Second Bulgarian Empire (Asen, Terter and Shishman dynasties): Bulgars and Slavs, joined in the Second Empire by the Vlachs of the Haemus and by Cuman allies"
 region = "Lower Danube, Balkan Mountains, Thrace and Macedonia"
 window = "681–1018 and 1185–1396"
 sources = [
@@ -39,6 +39,7 @@ sources = [
   "Theophanes Continuatus; Leo the Deacon, History; John Skylitzes, Synopsis Historion; Kekaumenos, Strategikon (c. 1075–1078); Niketas Choniates, History",
   "Geoffroy de Villehardouin, The Conquest of Constantinople; Robert de Clari; George Akropolites, History",
   "F. Curta, Southeastern Europe in the Middle Ages 500–1250 (2006)",
+  "F. Curta, “Medieval Vlach transhumance: re-assessing the evidence”, in C. Bărbulescu et al. (eds.), Națiuni, naționalism și perspective interetnice în Transilvania. In honorem Sorin Mitu la 60 de ani (2025)",
   "J. V. A. Fine, The Early Medieval Balkans (1983) and The Late Medieval Balkans (1987)",
   "P. Stephenson, Byzantium's Balkan Frontier (2000)",
   "A. Madgearu, The Asanids (2016)",
@@ -73,9 +74,9 @@ level = 1
 change = "new"
 replaces = "Town Centers cost -50% stone"
 precedent = "Shepherds work +25% faster (Britons)"
-basis = "Transhumant herding was the economy of the Balkan highlands: the Vlachs kept their flocks and families in the high mountains from April to September and wintered in the lowlands (Kekaumenos, on the Vlachs of Thessaly in the 1060s), and the revolt that founded the Second Empire broke out in 1185–1186 among the Vlachs and Bulgarians of the Haemus, angered by the levies Isaac II raised for his wedding, which fell on their herds (Niketas Choniates; Madgearu, 2016). The Proto-Bulgars themselves came from the Pontic steppe as herders of horses and sheep. The stone discount on Town Centers had only a weak link with Pliska and Preslav. The pastoral bonus also covers the Vlach pack herders, so the civ keeps the Lumber and Mining Camps and gets no Mule Cart, which stays with its four holders (RULES 6.16.7). The herding effect is preferred to “Livestock animals last +50% longer” (Tatars), which renders the herds rather than the herders' work, and to a tribute passive (“Receive +100 gold when advancing to the next Age”), since tribute already has its datable act of state in the Peace of 927 and the alternative Town Center tech, Krum's legislation, is known only from the Suda."
-relevance = "The Second Empire began as a revolt of the Haemus herders, Vlachs and Bulgarians, and transhumant pastoralism was the base of the highland society that carried the Asen state; a structural trait of environment and economy."
-contested = "How far the revolt was a Vlach movement, and whether the levy fell mainly on livestock, depend on the reading of Choniates (see the civ-level note on the Asens)."
+basis = "Herding was a mainstay of the Balkan highlands: the Vlachs kept their flocks and families in the high mountains from April to September and wintered in the lowlands (Kekaumenos, on the Vlachs of Thessaly in the 1060s), and the revolt that founded the Second Empire broke out in 1185–1186 among the Vlachs and Bulgarians of the Haemus, angered by the levies Isaac II raised for his wedding, which fell on their herds (Niketas Choniates; Madgearu, 2016). The Proto-Bulgars themselves came from the Pontic steppe as herders of horses and sheep. The stone discount on Town Centers had only a weak link with Pliska and Preslav. The pastoral bonus also covers the Vlach pack herders, so the civ keeps the Lumber and Mining Camps and gets no Mule Cart, which stays with its four holders (RULES 6.16.7). The herding effect is preferred to “Livestock animals last +50% longer” (Tatars), which renders the herds rather than the herders' work, and to a tribute passive (“Receive +100 gold when advancing to the next Age”), since tribute already has its datable act of state in the Peace of 927 and the alternative Town Center tech, Krum's legislation, is known only from the Suda."
+relevance = "The Second Empire began as a revolt of the Haemus herders, Vlachs and Bulgarians, and herding was a mainstay of the highland society that carried the Asen state; a structural trait of environment and economy."
+contested = "How far the revolt was a Vlach movement, and whether the levy fell mainly on livestock, depend on the reading of Choniates (see the civ-level note on the Asens). Whether the medieval Vlachs were transhumant pastoralists is also debated: Curta (2025) argues that Kekaumenos's passage does not prove it, that they were farmers as well as herders, and that transhumant pastoralism spread only from the 14th century; the bonus rests on herding, not on transhumance as such."
 
 [[bonus]]
 text = "Units deal +25% damage when fighting from higher elevation"
@@ -127,7 +128,7 @@ level = 1
 change = "new"
 replaces = "Stirrups (Cavalry attacks +33% faster), the game's Castle Age Castle tech, dropped (see [[dropped]])"
 precedent = "Ironclad (Siege Weapons +4 melee armor) (Teutons, whose German design drops it): an existing unique tech, moved and renamed, identical effect and the same age (Castle Age)"
-basis = "Krum (khan c. 803–814) gave the Bulgars a siege train: an Arab engineer stationed at Adrianople, unpaid by Nikephoros I, deserted to him and taught the Bulgars to build engines, with which Krum took Mesembria (812), capturing siphons and Greek fire (Theophanes); he took Adrianople after a siege (813) and deported its people beyond the Danube. For the campaign of 814 against Constantinople he gathered a great train of engines of every kind, which the Scriptor incertus says was to be carried on 5,000 iron-bound wagons drawn by 10,000 oxen; he died on 13 April 814, before it set out. The armour of the game's Ironclad renders the iron-bound train; the tech is the First Empire's datable military moment, at the Castle in the Castle Age, before Cuman Alliance (RULES 6.4)."
+basis = "Krum (khan c. 803–814) gave the Bulgars a siege train: an Arab engineer stationed at Adrianople, whose pay Nikephoros I had cut and who was beaten when he complained, deserted to him and taught the Bulgars to build engines, with which Krum took Mesembria (812), capturing siphons and Greek fire (Theophanes); he took Adrianople after a siege (813) and deported its people beyond the Danube. For the campaign of 814 against Constantinople he gathered a great train of engines of every kind, which the Scriptor incertus says was to be carried on 5,000 iron-bound wagons drawn by 10,000 oxen; he died on 13 April 814, before it set out. The armour of the game's Ironclad renders the iron-bound train; the tech is the First Empire's datable military moment, at the Castle in the Castle Age, before Cuman Alliance (RULES 6.4)."
 relevance = "Krum's adopted siegecraft turned the khanate from a raiding power into one that took Byzantine cities (Mesembria 812, Adrianople 813) and threatened Constantinople itself; an adopted technique with a date (RULES 6.2), and the moment that began the Bulgarian siege tradition of the passive."
 contested = "The figures of the 814 train come from the hostile Scriptor incertus and may be inflated; the train never moved, since Krum died first."
 
