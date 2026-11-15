@@ -119,7 +119,7 @@ level = 2
 change = "new"
 precedent = "Effect 1: Ships train +33% faster (Circumnavigation, Portuguese); effect 2: Docks provide +5 population space (Dravidians team bonus). No existing tech renders a levy fleet."
 basis = "The naval levy of the Norwegian kings: each ship district (skipreiða) had to build, man and provision a warship when the king called out the leiðangr, as the laws of the Gulaþing and Frostaþing assemblies (12th–13th centuries) and Magnus Lagabøte's national law (Landslov, 1274) set out in detail. It was a civil institution as much as a military one: the skipreiða was also a district of local administration and taxation, and by the 13th century the levy was commonly paid as a fixed yearly tax in kind, the leidang, which outlived the fleet. Faster ships and dock population render crews and hulls called up by district. A public obligation fixed in law and administered as a tax, so at the Town Center (RULES 6.2) rather than at the Dock, which would render only its sea side; Magnus Lagabøte's Landslov (1274), the first law code for a whole Scandinavian kingdom, is part of its basis rather than a tech of its own."
-relevance = "The levy fleet was the backbone of the Norwegian kings' power from the 11th century at the latest (Snorri dates it to Haakon the Good) to the 14th; the Danish leding and Swedish ledung were similar, but the Norwegian laws describe it best."
+relevance = "The levy fleet was the backbone of the Norwegian kings' power from the 12th century at the latest, and perhaps from the 10th (Snorri dates it to Haakon the Good), to the 14th; the Danish leding and Swedish ledung were similar, but the Norwegian laws describe it best."
 contested = "How organised the leiðangr was before the written laws; some read 11th-century skaldic verse as evidence of levy fleets (see the civ-level notes)."
 
 [[unique_tech]]
@@ -131,7 +131,7 @@ effect = "Archer-line and Longships +1 attack"
 level = 1
 change = "kept"
 precedent = "Bogsveigar (Archer-line and Longships +1 attack) (Vikings)"
-basis = "Old Norse bogsveigir, ‘bow-bender’. Norse sea fights opened with an exchange of missiles before boarding, and the levy laws armed the ships for it: the Gulaþing law required a bow and two dozen arrows for each rowing bench (sessrúm) of a levy ship (trans. Larson 1935). Einarr Þambarskelfir is the famous archer of Olaf Tryggvason's last battle at Svolder (c. 1000, Heimskringla), and the King's Mirror (c. 1250) says that at sea crossbows and longbows are useful, as are all other shooting weapons."
+basis = "Old Norse bogsveigir, ‘bow-bender’. Norse sea fights opened with an exchange of missiles before boarding, and the levy laws armed the ships for it: the Gulaþing law required a bow and two dozen arrows for each rowing bench (þopta) of a levy ship (trans. Larson 1935). Einarr Þambarskelfir is the famous archer of Olaf Tryggvason's last battle at Svolder (c. 1000, Heimskringla), and the King's Mirror (c. 1250) says that at sea crossbows and longbows are useful, as are all other shooting weapons."
 relevance = "Missile fire opened and supported the sea battles that made and unmade Norwegian kings, from Svolder to the civil wars, and the levy laws put a bow on every rowing bench; a broad military trait, though its fame rests partly on the sagas."
 
 [tree]

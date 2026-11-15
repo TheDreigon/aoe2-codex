@@ -13,7 +13,7 @@ ideas = [
   "N3: A late Nordic brick-Gothic architecture set (Roskilde, Uppsala), shared with the Swedes: creating a set is N3 (RULES 6.15).",
 ]
 contested = [
-  "Who built the Trelleborg-type fortresses (Harald Bluetooth or Sweyn Forkbeard) and why: barracks for the conquest of England, royal control of the provinces, or defence against other Vikings.",
+  "Why the Trelleborg-type fortresses were built, c. 980 under Harald Bluetooth: royal control of the provinces, regional defence (Goodchild et al. 2017), or a short-lived, mainly symbolic show of power. The older reading, that Sweyn Forkbeard built them around 1000 as barracks for the conquest of England, has been given up, partly on chronological grounds.",
   "Chronology of the Danevirke: radiocarbon dates put a first stage c. 500 or earlier, dendrochronology gives phases in 737 and 968, and the Royal Frankish Annals credit Godfred with works in 808.",
   "Historicity of the Jomsvikings as an organised brotherhood and the identification of Jomsborg with Wolin.",
   "What housecarls were: a paid standing guard (L. M. Larson, 1904) or royal and noble retainers, many of them landholders (N. Hooper, 1985). The Anglo-Saxons' design also claims Cnut's housecarls under the same name, since they served the Anglo-Danish kings of England.",
@@ -22,7 +22,7 @@ contested = [
   "How far Cnut ruled Sweden: his letter of 1027 claims only ‘part of the Swedes’.",
   "Which was the first book printed in Denmark: Johann Snell's Breviarium Ottoniense, printed at Odense in 1482 for Bishop Karl Rønnow, or Guillaume Caoursin's account of the siege of Rhodes, which Snell printed there in the same year. Either way printing falls inside the window, so Block Printing stays in the tree; the same printing-date test gives it to the Swedes (Stockholm, 1483) and removes it from the Norwegians (to 1469) and the Rus' (to 1505).",
   "Label (RULES 6.16.16): ‘Infantry and Defensive’ follows the redesign, which rests on infantry (the Housecarl, the Jomsviking) and on defence (Trelleborg, the Danevirke, the Fortified Wall). It matches the Anglo-Saxons' design; the relabel ‘Defensive and Naval’ was weighed and not adopted, since the Danes' naval elements (the Longship half of the speed passive, the Carrack and Cannon Galleon of the tree) weigh less than their infantry. The ramparts, the Øresund toll and the fleets set the two designs apart in play.",
-  "Counterweight trebuchet: its Danish use is an inference. Saxo has Erik Emune, in the civil war of the 1130s, besiege Haraldsborg near Roskilde with a throwing engine that Germans living in Roskilde built and worked for him, the Danes being then unskilled in such machines (Vemming Hansen 1992), a traction engine by its date; Kurt Villads Jensen traces large war machines in Denmark and the Baltic around 1200 (2009). The type of the later Danish engines is not recorded in the sources used for this design. The later evidence falls in the counterweight era, so the design reads the Danish engines of the 13th–15th centuries as counterweight engines, a flagged inference on the standard of the Georgians' design (an inference with a stated basis, RULES 6.16.5); if they were man-powered, the Traction Trebuchet would replace the Trebuchet (RULES 6.11).",
+  "Counterweight trebuchet: its Danish use is an inference. Saxo has Erik Emune, in the civil war of the 1130s, besiege Haraldsborg near Roskilde with throwing engines that Germans living in Roskilde built and taught him to use, the Danes being then unskilled in such machines (Vemming Hansen 1992), traction engines by their date; Kurt Villads Jensen traces large war machines in Denmark and the Baltic around 1200 (2009). The type of the later Danish engines is not recorded in the sources used for this design. The later evidence falls in the counterweight era, so the design reads the Danish engines of the 13th–15th centuries as counterweight engines, a flagged inference on the standard of the Georgians' design (an inference with a stated basis, RULES 6.16.5); if they were man-powered, the Traction Trebuchet would replace the Trebuchet (RULES 6.11).",
 ]
 open_questions = []
 
@@ -44,6 +44,7 @@ sources = [
   "Timothy Bolton, Cnut the Great (2017)",
   "Kurt Villads Jensen, Crusading at the Edges of Europe: Denmark and Portugal c.1000–c.1250 (2017); ‘Large Castles and Large War Machines in Denmark and the Baltic around 1200: An Early Military Revolution?’, Revista de História das Ideias 30 (2009)",
   "Peter Vemming Hansen, ‘Experimental Reconstruction of a Medieval Trébuchet’, Acta Archaeologica 63 (1992)",
+  "Helen Goodchild, Nanna Holm and Søren M. Sindbæk, ‘Borgring: the discovery of a Viking Age ring fortress’, Antiquity 91 (2017)",
 ]
 replaces = "Danes of the Viking Age only (to 1042), with an invented siege identity"
 
@@ -74,7 +75,7 @@ replaces = "Barracks and Siege Workshop upgrades cost -66% gold"
 precedent = "Can build Krepost in Castle Age (Bulgarians)"
 basis = "The Trelleborg-type ring fortresses (Trelleborg, Fyrkat, Aggersborg, Nonnebakken, Borgring) were built to one geometric plan with standardised longhouses for a garrison; Trelleborg's timber was felled in 980/981 (dendrochronology), under Harald Bluetooth. The Krepost, a small castle that trains unique units and houses troops, is the closest existing building. The replaced bonus had no historical correlate."
 relevance = "The ring forts are the clearest trace of Harald Bluetooth's new royal power, which unified and Christianised Denmark; they are on the UNESCO World Heritage List (2023)."
-contested = "Builder and purpose of the forts are debated (see the civ-level notes)."
+contested = "The purpose of the forts is debated (see the civ-level notes)."
 
 [[bonus]]
 text = "Housecarls and Longships move +10% faster"
@@ -145,7 +146,7 @@ remove = ["Siege Onager", "Catapult Galleon", "Thumb Ring", "Mounted Crossbowman
 "Carrack" = "Navy tier (RULES 6.16.1): a fleet of ships, from the Viking-age warships of Hedeby and Skuldelev to the royal fleet of the Union kings. The game's gap of the Danes, no demolition ships, is kept, the Longship covering the anti-building role, and the Galleon is a flagged abstraction (RULES 6.16.2). King Hans's flagship Gribshunden, sunk off Ronneby in 1495, was a large carvel-built warship of the new type, the kind of ship the Carrack stands for."
 "Cannon Galleon" = "Gribshunden carried guns (1495), an early case of shipboard artillery in northern waters."
 "Siege Onager" = "Dropped with the invented ‘Siege’ identity of the game's Danes (Northmen's Fury, the siege discount), whose top tier it was; the Mangonel and Onager stay as the light stone-thrower (RULES 6.16.5). The Trebuchet stays as a flagged inference (see contested): Danish kings used throwing engines from the 1130s, and the design reads those of the counterweight era (13th–15th centuries) as counterweight engines."
-"Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role. The fire-ship line, Fast Fire Ship included, is kept: Abbo of Saint-Germain describes the Danes sending burning ships against the bridge of Paris (885)."
+"Catapult Galleon" = "No ship-borne catapults are known in Danish fleets; the Longship (strong vs buildings) keeps the anti-building naval role. The fire-ship line, Fast Fire Ship included, is kept: Abbo of Saint-Germain describes the Danes sending burning ships against the bridge of Paris (886)."
 "Thumb Ring" = "Danish archers used the European draw and the missile troops of the later kingdom were crossbowmen, so the tech is removed: the Thumb Ring goes only where the thumb draw is attested for a civ's own archers or for an archery tradition its armies demonstrably used (the steppe, Islamic and East Asian traditions; RULES 6.16.4). The Anglo-Saxons' design, among others, removes it on the same ground."
 "Mounted Crossbowman" = "Shared basis (level-1 review, section 11): the Mounted Crossbowman line stays only where mounted crossbowmen are documented as a regular troop type of the civ’s armies. No Danish mounted crossbowmen are recorded as a troop type: the crossbow served the castles and fleets of the later kingdom, and its mounted service was that of armoured lords (see the Cavalier), so the line, which the game's Danes had without any stated basis, is removed; the Swedes' and Norwegians' designs drop it on the same test."
 "Heavy Mounted Crossbowman" = "As for the Mounted Crossbowman."

@@ -25,7 +25,7 @@ open_questions = []
 
 [profile]
 entity = "The Swedes (Svear and Götar): the Svear kingship of Uppland, the eastern ventures of the Viking Age and the medieval kingdom of Sweden"
-region = "The Mälaren region and Uppland, Götaland and, from the 13th century, Finland; with the Viking-age routes across the eastern Baltic (Grobiņa, Salme, Staraya Ladoga) and Gotland in its Viking-age role"
+region = "The Mälaren region and Uppland, Götaland and, from the 13th century, Finland; with the Vendel-period and Viking-age routes across the eastern Baltic (Grobiņa, Salme, Staraya Ladoga) and Gotland in its Viking-age role"
 window = "500–1500 (the bounds of the time frame: Vendel-period Uppland to the struggle with the Kalmar Union)"
 sources = [
   "Tacitus, Germania 44 (c. 98; background before the window)",
@@ -61,7 +61,7 @@ kind = "other"
 level = 1
 change = "kept"
 precedent = "Bloodlines and Caravan effects +50% (Varangians)"
-basis = "Horses: Jordanes says the Suehans ‘like the Thuringians, use excellent horses’ (Getica 21), and the boat graves of Vendel and Valsgärde (c. 550–800) hold the horses, riding gear and helmets of a mounted elite, the warrior aristocracy of the formative age of the Svear kingship. Routes: Birka on Lake Mälaren (c. 750–975) and the Scandinavian stations of the east (Grobiņa in Courland, Staraya Ladoga) linked Sweden to the Volga and Dnieper trade; in 839 the Rhos who reached the Frankish court from Constantinople turned out to be ‘of the people of the Swedes’ (Annales Bertiniani)."
+basis = "Horses: Jordanes says the Suehans ‘like the Thuringians, use excellent horses’ (Getica 21), and the boat graves of Vendel and Valsgärde (c. 550–800) hold the horses, riding gear and helmets of a mounted elite, the warrior aristocracy of the formative age of the Svear kingship. Routes: Birka on Lake Mälaren (c. 750–975) and the Scandinavian station of Staraya Ladoga in the east linked Sweden to the Volga and Dnieper trade; in 839 the Rhos who reached the Frankish court from Constantinople turned out to be ‘of the people of the Swedes’ (Annales Bertiniani)."
 relevance = "A horse-owning aristocracy and the eastern trade routes are the two foundations of early Swedish wealth and power."
 
 [[bonus]]
@@ -71,7 +71,7 @@ level = 1
 change = "changed"
 replaces = "Longships and Catapult Galleons attack +15% faster"
 precedent = "Longships and Catapult Galleons attack +15% faster (Varangians): Longships only"
-basis = "The ship burials of Salme on Saaremaa (c. 750) hold over forty men who died abroad, perhaps on a raid, whom isotope analysis links to central Sweden (Price et al. 2016); some 26 runestones remember the men lost with Ingvar's fleet in the east (c. 1041); and the coast of Uppland was organised in ship districts for the levy (the Roden, later Roslagen; Upplandslagen, 1296). Tacitus' Suiones ‘strong in fleets’ (Germania 44, c. 98) are background, four centuries before the window. Navy tier (RULES 6.16.1): a fleet of ships, the clinker-built warships of Salme, the ledung and the later royal fleet. The game's gap of the Varangians, no demolition ships, is kept, the Longship covering the anti-building role, and the Galleon is a flagged abstraction (RULES 6.16.2). Catapult Galleons are dropped: no ship-borne catapults are known in Scandinavian fleets."
+basis = "The ship burials of Salme on Saaremaa (c. 750) hold over forty men who died abroad, on a diplomatic voyage with an elite escort or on a raid, whom isotope analysis links to central Sweden (Price et al. 2016); some 26 runestones remember the men lost with Ingvar's fleet in the east (c. 1041); and the coast of Uppland was organised in ship districts for the levy (the Roden, later Roslagen; Upplandslagen, 1296). Tacitus' Suiones ‘strong in fleets’ (Germania 44, c. 98) are background, four centuries before the window. Navy tier (RULES 6.16.1): a fleet of ships, the clinker-built warships of Salme, the ledung and the later royal fleet. The game's gap of the Varangians, no demolition ships, is kept, the Longship covering the anti-building role, and the Galleon is a flagged abstraction (RULES 6.16.2). Catapult Galleons are dropped: no ship-borne catapults are known in Scandinavian fleets."
 relevance = "The Svear's expansion to the east, from Grobiņa and Salme to Ingvar's expedition, was carried by oared warships."
 
 [[bonus]]
@@ -99,7 +99,7 @@ model = "Jarl"
 building = "Castle"
 level = 1
 change = "kept"
-basis = "The mounted aristocracy of the medieval kingdom: the knights and squires of the Erikskrönikan (c. 1320s–1330s), the frälse who served the crown on horseback under the Alsnö statute. The name follows the Rígsþula, a West Norse poem, whose Jarl, ancestor of the nobles, learns to ride, bend the bow and throw the spear; and jarl was the title of the realm's first officer, held by Birger Jarl (1248–1266), who founded Stockholm (first named in 1252). The reach of its attack renders the lance."
+basis = "The mounted aristocracy of the medieval kingdom: the knights and squires of the Erikskrönikan (c. 1320s–1330s), the frälse who served on horseback under the Alsnö statute. The name follows the Rígsþula, a West Norse poem, whose Jarl, ancestor of the nobles, learns to ride, bend the bow and throw the spear; and jarl was the title of the realm's first officer, held by Birger Jarl (1248–1266), who is traditionally credited with founding Stockholm (first named in 1252). The reach of its attack renders the lance."
 relevance = "Mounted aristocrats led Swedish war and politics from the Vendel chieftains to the frälse nobility, and Birger Jarl is one of the best-known figures of medieval Sweden."
 contested = "Jarl was an office rather than a troop type or a class (see the civ-level notes). The game's name is kept for its fame and for the Rígsþula's Jarl; a name after the mounted frälse (for example ‘Frälseman’) would be more literal but is a modern coinage."
 
@@ -112,7 +112,7 @@ effect = "Knight-line costs -60% gold"
 level = 1
 change = "new"
 precedent = "Szlachta Privileges (Knight-line costs -60% gold) (Poles): shared and renamed, identical effect and age (Castle Age, as in the game). The Poles' design also moves Szlachta Privileges to the Town Center, so the two civs share effect and building on purpose (RULES 6.7), and the Lithuanians' Horodło (Boyars cost -40% gold) is a third rendering of privileges for mounted service."
-basis = "At Alsnö (1279 or 1280) King Magnus Ladulås exempted from taxes everyone who served the crown with a war horse (rusttjänst), creating the secular frälse, the Swedish nobility, and forbade the great men's forced hospitality (gästning) on the peasants, the protection traditionally linked to his byname Ladulås, ‘barn-lock’. Cheaper knights render mounted service paid for by tax exemption, as with the Polish privileges. A royal statute on taxation and estates, so at the Town Center (RULES 6.2); the earlier of the civ's two datable moments, so the Castle Age tech."
+basis = "At Alsnö (1279 or 1280) King Magnus Ladulås exempted from royal taxes all who served with a war horse (rusttjänst), whomever they served, a step long seen as creating the secular frälse, the Swedish nobility. He also forbade the great men's forced hospitality (gästning) on the peasants, the protection traditionally linked to his byname Ladulås, ‘barn-lock’. Cheaper knights render mounted service paid for by tax exemption, as with the Polish privileges. A royal statute on taxation and estates, so at the Town Center (RULES 6.2); the earlier of the civ's two datable moments, so the Castle Age tech."
 relevance = "The statute made the Swedish nobility a tax-exempt mounted estate, the frame of Swedish society for the rest of the Middle Ages."
 contested = "Its date, and whether it created the nobility or regulated an existing practice (see the civ-level notes)."
 

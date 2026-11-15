@@ -22,13 +22,13 @@ open_questions = []
 
 [profile]
 entity = "Duchy and (from 1198, confirmed by the Golden Bull of Sicily in 1212) Kingdom of Bohemia, with the Lands of the Bohemian Crown (Moravia, Silesia, Lusatia), from the Přemyslids to the Luxembourgs, the Hussite revolution and the Jagiellonians. A single dux of the Bohemians, Lecho, is named as killed in Charlemagne’s campaign of 805 (Chronicle of Moissac); the Annals of Fulda record fourteen Bohemian dukes baptised in 845, in the octave of Epiphany (at Regensburg, Louis the German’s seat, the usual inference, since the annal names no place), and in 872 name several, among them Goriwei, probably Bořivoj I, the first historical Přemyslid. The window starts with him, since the design is the Přemyslid duchy and kingdom; the dukes of 805 and 845 led groups whose link to that duchy is unknown"
-region = "Bohemia and Moravia, with Silesia (from 1327–35) and Lusatia (from 1319–29 and 1367)"
-window = "872–1526 (from the first mention of Bořivoj I, the first historical Přemyslid, to Mohács; focus: the Hussite era, 1419–1471)"
+region = "Bohemia, with Moravia (from the 950s or 1019/1029, contested), Silesia (from 1327–35) and Lusatia (from 1319–29 and 1367)"
+window = "872–1526 (from the probable first mention of Bořivoj I, the first historical Přemyslid, to Mohács; focus: the Hussite era, 1419–1471)"
 sources = [
   "Chronicon Moissiacense (9th century)",
   "Annales Fuldenses (9th century)",
   "Cosmas of Prague, Chronica Boemorum (c. 1120)",
-  "Laurence of Březová, Hussite Chronicle (1420s)",
+  "Laurence of Březová, Hussite Chronicle (15th century, covering 1414–1422)",
   "Military Ordinance of Jan Žižka (1423)",
   "Aeneas Silvius Piccolomini, Historia Bohemica (1458)",
   "Frederick G. Heymann, John Žižka and the Hussite Revolution (1955)",
@@ -76,8 +76,8 @@ kind = "other"
 level = 1
 change = "kept"
 precedent = "Fervor and Sanctity affect Villagers (Bohemians)"
-basis = "Hussite piety was lay piety: Utraquism gave the chalice, until then reserved to the clergy, to every communicant (from 1414), and the Taborites organised whole communities of peasant ‘warriors of God’ (Kaminsky 1967). Monastery upgrades applying to Villagers mirror that extension of clerical privilege to the laity."
-relevance = "The lay chalice was the symbol of the whole movement and of the Utraquist church that lasted until 1620."
+basis = "Hussite piety was lay piety: Utraquism gave the chalice, by then reserved to the clergy, to every communicant (from 1414), and the Taborites organised whole communities of peasant ‘warriors of God’ (Kaminsky 1967). Monastery upgrades applying to Villagers mirror that extension of clerical privilege to the laity."
+relevance = "The lay chalice was the symbol of the whole movement and of the Utraquist church that lasted until the 1620s."
 
 [[bonus]]
 text = "Chemistry and Hand Cannoneer available in Castle Age"
